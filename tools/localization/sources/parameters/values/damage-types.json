@@ -1,0 +1,1032 @@
+{
+  "en_us": {
+    "command_translation.registry.minecraft:damage_type.minecraft:arrow.name": "Arrow",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:arrow": "Damage from an arrow hitting something.",
+    "command_translation.registry.minecraft:damage_type.minecraft:bad_respawn_point.name": "Bad Respawn Point",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:bad_respawn_point": "Damage from a bed or respawn anchor exploding.",
+    "command_translation.registry.minecraft:damage_type.minecraft:cactus.name": "Cactus",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:cactus": "Damage from touching a cactus.",
+    "command_translation.registry.minecraft:damage_type.minecraft:campfire.name": "Campfire",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:campfire": "Damage from touching a campfire or soul campfire.",
+    "command_translation.registry.minecraft:damage_type.minecraft:cramming.name": "Cramming",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:cramming": "Damage when too many mobs are in one place.",
+    "command_translation.registry.minecraft:damage_type.minecraft:dragon_breath.name": "Dragon's Breath",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:dragon_breath": "Unused.",
+    "command_translation.registry.minecraft:damage_type.minecraft:drown.name": "Drown",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:drown": "Ticking damage while drowning.",
+    "command_translation.registry.minecraft:damage_type.minecraft:dry_out.name": "Dry Out",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:dry_out": "Damage when nautiluses, dolphins, and axolotls are out of water too long.",
+    "command_translation.registry.minecraft:damage_type.minecraft:ender_pearl.name": "Ender Pearl",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:ender_pearl": "Damage from teleporting with an ender pearl.",
+    "command_translation.registry.minecraft:damage_type.minecraft:explosion.name": "Explosion",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:explosion": "Damage from an explosion.",
+    "command_translation.registry.minecraft:damage_type.minecraft:fall.name": "Fall",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:fall": "Damage from falling.",
+    "command_translation.registry.minecraft:damage_type.minecraft:falling_anvil.name": "Falling Anvil",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:falling_anvil": "Damage from a falling anvil hitting something.",
+    "command_translation.registry.minecraft:damage_type.minecraft:falling_block.name": "Falling Block",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:falling_block": "Damage from falling blocks other than anvils or pointed dripstone.",
+    "command_translation.registry.minecraft:damage_type.minecraft:falling_stalactite.name": "Falling Stalactite",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:falling_stalactite": "Damage from a falling pointed dripstone hitting something.",
+    "command_translation.registry.minecraft:damage_type.minecraft:fireball.name": "Fireball",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:fireball": "Direct damage from a ghast or blaze fireball with an owner.",
+    "command_translation.registry.minecraft:damage_type.minecraft:fireworks.name": "Firework",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:fireworks": "Damage from a firework exploding.",
+    "command_translation.registry.minecraft:damage_type.minecraft:fly_into_wall.name": "Fly into Wall",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:fly_into_wall": "Damage from hitting a wall or world border while flying with an elytra.",
+    "command_translation.registry.minecraft:damage_type.minecraft:freeze.name": "Freeze",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:freeze": "Ticking damage while freezing in powder snow.",
+    "command_translation.registry.minecraft:damage_type.minecraft:generic.name": "Generic",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:generic": "Generic damage with no specific damage type.",
+    "command_translation.registry.minecraft:damage_type.minecraft:generic_kill.name": "Generic Kill",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:generic_kill": "Damage from using the /kill command.",
+    "command_translation.registry.minecraft:damage_type.minecraft:hot_floor.name": "Hot Floor",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:hot_floor": "Damage from standing on a magma block.",
+    "command_translation.registry.minecraft:damage_type.minecraft:in_fire.name": "In Fire",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:in_fire": "Ticking damage while standing in fire.",
+    "command_translation.registry.minecraft:damage_type.minecraft:in_wall.name": "In Wall",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:in_wall": "Ticking damage while stuck in a solid block.",
+    "command_translation.registry.minecraft:damage_type.minecraft:indirect_magic.name": "Indirect Magic",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:indirect_magic": "Damage from indirect magic such as potions or a guardian's beam.",
+    "command_translation.registry.minecraft:damage_type.minecraft:lava.name": "Lava",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:lava": "Ticking damage while in lava.",
+    "command_translation.registry.minecraft:damage_type.minecraft:lightning_bolt.name": "Lightning Bolt",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:lightning_bolt": "Damage from being struck by lightning.",
+    "command_translation.registry.minecraft:damage_type.minecraft:mace_smash.name": "Mace Smash",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:mace_smash": "Extra damage from attacking with a mace.",
+    "command_translation.registry.minecraft:damage_type.minecraft:magic.name": "Magic",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:magic": "Magic damage such as poison or instant damage.",
+    "command_translation.registry.minecraft:damage_type.minecraft:mob_attack.name": "Mob Attack",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:mob_attack": "Melee attack dealt by a mob.",
+    "command_translation.registry.minecraft:damage_type.minecraft:mob_attack_no_aggro.name": "Mob Attack (No Aggro)",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:mob_attack_no_aggro": "Damage from a goat ramming.",
+    "command_translation.registry.minecraft:damage_type.minecraft:mob_projectile.name": "Mob Projectile",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:mob_projectile": "Damage from a shulker bullet hitting something.",
+    "command_translation.registry.minecraft:damage_type.minecraft:on_fire.name": "On Fire",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:on_fire": "Damage from an entity burning.",
+    "command_translation.registry.minecraft:damage_type.minecraft:out_of_world.name": "Out of World",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:out_of_world": "Ticking damage in the void.",
+    "command_translation.registry.minecraft:damage_type.minecraft:outside_border.name": "Outside Border",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:outside_border": "Ticking damage while outside the world border.",
+    "command_translation.registry.minecraft:damage_type.minecraft:player_attack.name": "Player Attack",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:player_attack": "Damage from a player hitting an entity.",
+    "command_translation.registry.minecraft:damage_type.minecraft:player_explosion.name": "Player Explosion",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:player_explosion": "Explosion damage directly caused by a player.",
+    "command_translation.registry.minecraft:damage_type.minecraft:sonic_boom.name": "Sonic Boom",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:sonic_boom": "Damage from a warden's sonic boom.",
+    "command_translation.registry.minecraft:damage_type.minecraft:spear.name": "Spear",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:spear": "Damage from a spear hitting something.",
+    "command_translation.registry.minecraft:damage_type.minecraft:spit.name": "Spit",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:spit": "Damage from a llama spitting.",
+    "command_translation.registry.minecraft:damage_type.minecraft:stalagmite.name": "Stalagmite",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:stalagmite": "Damage from falling onto pointed dripstone.",
+    "command_translation.registry.minecraft:damage_type.minecraft:starve.name": "Starve",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:starve": "Ticking damage from having no food.",
+    "command_translation.registry.minecraft:damage_type.minecraft:sting.name": "Sting",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:sting": "Damage from a bee stinging.",
+    "command_translation.registry.minecraft:damage_type.minecraft:sulfur_cube_hot.name": "Sulfur Cube Hot",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:sulfur_cube_hot": "Damage from touching a sulfur cube that absorbed a magma block.",
+    "command_translation.registry.minecraft:damage_type.minecraft:sweet_berry_bush.name": "Sweet Berry Bush",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:sweet_berry_bush": "Ticking damage while moving in a berry bush block.",
+    "command_translation.registry.minecraft:damage_type.minecraft:thorns.name": "Thorns",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:thorns": "Damage from attacking a guardian or a thorns-enchanted entity.",
+    "command_translation.registry.minecraft:damage_type.minecraft:thrown.name": "Thrown",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:thrown": "Damage from a thrown snowball, egg, or ender pearl.",
+    "command_translation.registry.minecraft:damage_type.minecraft:trident.name": "Trident",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:trident": "Damage from a trident hitting something.",
+    "command_translation.registry.minecraft:damage_type.minecraft:unattributed_fireball.name": "Unattributed Fireball",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:unattributed_fireball": "Direct damage from a ghast or blaze fireball without an owner.",
+    "command_translation.registry.minecraft:damage_type.minecraft:wind_charge.name": "Wind Charge",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:wind_charge": "Damage from a wind charge hitting something.",
+    "command_translation.registry.minecraft:damage_type.minecraft:wither.name": "Wither",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:wither": "Ticking damage from a Wither effect.",
+    "command_translation.registry.minecraft:damage_type.minecraft:wither_skull.name": "Wither Skull",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:wither_skull": "Damage from an owned wither skull hitting something."
+  },
+  "zh_cn": {
+    "command_translation.registry.minecraft:damage_type.minecraft:arrow.name": "箭矢",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:arrow": "箭矢命中造成的伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:bad_respawn_point.name": "重生点异常",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:bad_respawn_point": "床或重生锚爆炸造成的伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:cactus.name": "仙人掌",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:cactus": "接触仙人掌造成的伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:campfire.name": "营火",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:campfire": "接触营火或灵魂营火造成的伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:cramming.name": "挤压",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:cramming": "同一处生物过多造成的伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:dragon_breath.name": "龙息",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:dragon_breath": "未使用。",
+    "command_translation.registry.minecraft:damage_type.minecraft:drown.name": "溺水",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:drown": "溺水时的持续伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:dry_out.name": "干燥",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:dry_out": "鹦鹉螺、海豚和美西螈离水过久造成的伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:ender_pearl.name": "末影珍珠",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:ender_pearl": "使用末影珍珠传送造成的伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:explosion.name": "爆炸",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:explosion": "爆炸造成的伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:fall.name": "摔落",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:fall": "摔落造成的伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:falling_anvil.name": "下落的铁砧",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:falling_anvil": "下落的铁砧命中造成的伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:falling_block.name": "下落的方块",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:falling_block": "除铁砧和滴水石锥外，下落方块击中实体造成的伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:falling_stalactite.name": "下落的钟乳石",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:falling_stalactite": "下落的滴水石锥命中造成的伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:fireball.name": "火球",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:fireball": "有归属的恶魂或烈焰人火球直接命中造成的伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:fireworks.name": "烟花",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:fireworks": "烟花爆炸造成的伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:fly_into_wall.name": "撞墙",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:fly_into_wall": "使用鞘翅飞行时撞到墙或世界边界造成的伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:freeze.name": "冻结",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:freeze": "在细雪中冻结时的持续伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:generic.name": "通用",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:generic": "未归入特定类型的通用伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:generic_kill.name": "通用击杀",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:generic_kill": "使用 /kill 命令造成的伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:hot_floor.name": "热地面",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:hot_floor": "站在岩浆块上造成的伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:in_fire.name": "在火中",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:in_fire": "站在火中时的持续伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:in_wall.name": "卡在方块中",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:in_wall": "卡在固体方块中时的持续伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:indirect_magic.name": "间接魔法",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:indirect_magic": "药水或守卫者光束等间接魔法造成的伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:lava.name": "岩浆",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:lava": "身处岩浆中的持续伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:lightning_bolt.name": "闪电",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:lightning_bolt": "被闪电击中造成的伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:mace_smash.name": "重锤猛击",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:mace_smash": "使用重锤攻击造成的额外伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:magic.name": "魔法",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:magic": "中毒、瞬间伤害效果等造成的魔法伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:mob_attack.name": "生物攻击",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:mob_attack": "生物造成的近战攻击伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:mob_attack_no_aggro.name": "生物攻击（无仇恨）",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:mob_attack_no_aggro": "山羊冲撞造成的伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:mob_projectile.name": "生物弹射物",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:mob_projectile": "潜影贝子弹命中造成的伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:on_fire.name": "着火",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:on_fire": "实体燃烧造成的伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:out_of_world.name": "世界之外",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:out_of_world": "在虚空中受到的持续伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:outside_border.name": "边界之外",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:outside_border": "在世界边界外受到的持续伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:player_attack.name": "玩家攻击",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:player_attack": "玩家击中实体造成的伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:player_explosion.name": "玩家爆炸",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:player_explosion": "由玩家直接造成的爆炸伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:sonic_boom.name": "音爆",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:sonic_boom": "监守者音爆造成的伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:spear.name": "长矛",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:spear": "长矛命中造成的伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:spit.name": "唾液",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:spit": "羊驼吐口水造成的伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:stalagmite.name": "石笋",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:stalagmite": "摔落到滴水石锥上造成的伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:starve.name": "饥饿",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:starve": "饥饿造成的持续伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:sting.name": "蜇刺",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:sting": "蜜蜂蜇刺造成的伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:sulfur_cube_hot.name": "高温硫磺立方体",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:sulfur_cube_hot": "接触吸收了岩浆块的硫磺立方体造成的伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:sweet_berry_bush.name": "甜浆果丛",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:sweet_berry_bush": "在甜浆果丛方块中移动时的持续伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:thorns.name": "荆棘",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:thorns": "攻击守卫者或带有荆棘附魔的实体造成的伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:thrown.name": "投掷物",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:thrown": "投掷的雪球、鸡蛋或末影珍珠造成的伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:trident.name": "三叉戟",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:trident": "三叉戟命中造成的伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:unattributed_fireball.name": "无归属火球",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:unattributed_fireball": "无归属的恶魂或烈焰人火球直接命中造成的伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:wind_charge.name": "风弹",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:wind_charge": "风弹命中造成的伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:wither.name": "凋零",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:wither": "凋零效果造成的持续伤害。",
+    "command_translation.registry.minecraft:damage_type.minecraft:wither_skull.name": "凋灵之首",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:wither_skull": "有归属的凋灵之首命中造成的伤害。"
+  },
+  "de_de": {
+    "command_translation.registry.minecraft:damage_type.minecraft:arrow.name": "Pfeil",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:arrow": "Schaden durch einen Pfeiltreffer.",
+    "command_translation.registry.minecraft:damage_type.minecraft:bad_respawn_point.name": "Schlechter Wiederbelebungspunkt",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:bad_respawn_point": "Schaden durch ein explodierendes Bett oder einen Wiederbelebungsanker.",
+    "command_translation.registry.minecraft:damage_type.minecraft:cactus.name": "Kaktus",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:cactus": "Schaden durch Berühren eines Kaktus.",
+    "command_translation.registry.minecraft:damage_type.minecraft:campfire.name": "Lagerfeuer",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:campfire": "Schaden durch Berühren eines Lagerfeuers oder Seelenlagerfeuers.",
+    "command_translation.registry.minecraft:damage_type.minecraft:cramming.name": "Gedränge",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:cramming": "Schaden, wenn zu viele Kreaturen an einem Ort sind.",
+    "command_translation.registry.minecraft:damage_type.minecraft:dragon_breath.name": "Drachenatem",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:dragon_breath": "Unbenutzt.",
+    "command_translation.registry.minecraft:damage_type.minecraft:drown.name": "Ertrinken",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:drown": "Kontinuierlicher Schaden beim Ertrinken.",
+    "command_translation.registry.minecraft:damage_type.minecraft:dry_out.name": "Austrocknen",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:dry_out": "Schaden, wenn Nautilusse, Delfine und Axolotl zu lange außerhalb des Wassers sind.",
+    "command_translation.registry.minecraft:damage_type.minecraft:ender_pearl.name": "Enderperle",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:ender_pearl": "Schaden durch Teleportation mit einer Enderperle.",
+    "command_translation.registry.minecraft:damage_type.minecraft:explosion.name": "Explosion",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:explosion": "Schaden durch eine Explosion.",
+    "command_translation.registry.minecraft:damage_type.minecraft:fall.name": "Sturz",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:fall": "Schaden durch einen Sturz.",
+    "command_translation.registry.minecraft:damage_type.minecraft:falling_anvil.name": "Fallender Amboss",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:falling_anvil": "Schaden durch einen fallenden Amboss, der etwas trifft.",
+    "command_translation.registry.minecraft:damage_type.minecraft:falling_block.name": "Fallender Block",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:falling_block": "Schaden durch fallende Blöcke außer Ambossen und spitzem Tropfstein.",
+    "command_translation.registry.minecraft:damage_type.minecraft:falling_stalactite.name": "Fallender Stalaktit",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:falling_stalactite": "Schaden durch einen fallenden Tropfstein, der etwas trifft.",
+    "command_translation.registry.minecraft:damage_type.minecraft:fireball.name": "Feuerball",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:fireball": "Direkter Schaden durch einen Ghast- oder Lohenfeuerball mit Besitzer.",
+    "command_translation.registry.minecraft:damage_type.minecraft:fireworks.name": "Feuerwerk",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:fireworks": "Schaden durch explodierendes Feuerwerk.",
+    "command_translation.registry.minecraft:damage_type.minecraft:fly_into_wall.name": "In die Wand fliegen",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:fly_into_wall": "Schaden beim Aufprall auf eine Wand oder Weltgrenze beim Fliegen mit Elytren.",
+    "command_translation.registry.minecraft:damage_type.minecraft:freeze.name": "Erfrieren",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:freeze": "Kontinuierlicher Schaden beim Erfrieren in Pulverschnee.",
+    "command_translation.registry.minecraft:damage_type.minecraft:generic.name": "Allgemein",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:generic": "Allgemeiner Schaden ohne spezifischen Schadenstyp.",
+    "command_translation.registry.minecraft:damage_type.minecraft:generic_kill.name": "Allgemeines Töten",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:generic_kill": "Schaden durch den Befehl /kill.",
+    "command_translation.registry.minecraft:damage_type.minecraft:hot_floor.name": "Heißer Boden",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:hot_floor": "Schaden durch Stehen auf einem Magmablock.",
+    "command_translation.registry.minecraft:damage_type.minecraft:in_fire.name": "Im Feuer",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:in_fire": "Kontinuierlicher Schaden beim Stehen in Feuer.",
+    "command_translation.registry.minecraft:damage_type.minecraft:in_wall.name": "In einer Wand",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:in_wall": "Kontinuierlicher Schaden, wenn man in einem festen Block steckt.",
+    "command_translation.registry.minecraft:damage_type.minecraft:indirect_magic.name": "Indirekte Magie",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:indirect_magic": "Schaden durch indirekte Magie wie Tränke oder den Strahl eines Wächters.",
+    "command_translation.registry.minecraft:damage_type.minecraft:lava.name": "Lava",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:lava": "Kontinuierlicher Schaden in Lava.",
+    "command_translation.registry.minecraft:damage_type.minecraft:lightning_bolt.name": "Blitz",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:lightning_bolt": "Schaden durch einen Blitzeinschlag.",
+    "command_translation.registry.minecraft:damage_type.minecraft:mace_smash.name": "Streitkolbenhieb",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:mace_smash": "Zusatzschaden durch einen Angriff mit einem Streitkolben.",
+    "command_translation.registry.minecraft:damage_type.minecraft:magic.name": "Magie",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:magic": "Magieschaden etwa durch Gift oder Direktschaden.",
+    "command_translation.registry.minecraft:damage_type.minecraft:mob_attack.name": "Kreaturenangriff",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:mob_attack": "Nahkampfangriff einer Kreatur.",
+    "command_translation.registry.minecraft:damage_type.minecraft:mob_attack_no_aggro.name": "Kreaturenangriff (ohne Aggro)",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:mob_attack_no_aggro": "Schaden durch den Rammstoß einer Ziege.",
+    "command_translation.registry.minecraft:damage_type.minecraft:mob_projectile.name": "Kreaturengeschoss",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:mob_projectile": "Schaden durch ein Shulker-Geschoss, das etwas trifft.",
+    "command_translation.registry.minecraft:damage_type.minecraft:on_fire.name": "In Flammen",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:on_fire": "Schaden durch eine brennende Entität.",
+    "command_translation.registry.minecraft:damage_type.minecraft:out_of_world.name": "Außerhalb der Welt",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:out_of_world": "Kontinuierlicher Schaden in der Leere.",
+    "command_translation.registry.minecraft:damage_type.minecraft:outside_border.name": "Außerhalb der Grenze",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:outside_border": "Kontinuierlicher Schaden außerhalb der Weltgrenze.",
+    "command_translation.registry.minecraft:damage_type.minecraft:player_attack.name": "Spielerangriff",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:player_attack": "Schaden, wenn ein Spieler eine Entität trifft.",
+    "command_translation.registry.minecraft:damage_type.minecraft:player_explosion.name": "Spielerexplosion",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:player_explosion": "Explosionsschaden, der direkt von einem Spieler verursacht wurde.",
+    "command_translation.registry.minecraft:damage_type.minecraft:sonic_boom.name": "Schallwelle",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:sonic_boom": "Schaden durch die Schallwelle eines Wächters.",
+    "command_translation.registry.minecraft:damage_type.minecraft:spear.name": "Speer",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:spear": "Schaden durch einen Speer, der etwas trifft.",
+    "command_translation.registry.minecraft:damage_type.minecraft:spit.name": "Spucke",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:spit": "Schaden durch das Spucken eines Lamas.",
+    "command_translation.registry.minecraft:damage_type.minecraft:stalagmite.name": "Stalagmit",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:stalagmite": "Schaden durch Sturz auf Tropfstein.",
+    "command_translation.registry.minecraft:damage_type.minecraft:starve.name": "Verhungern",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:starve": "Kontinuierlicher Schaden durch fehlende Nahrung.",
+    "command_translation.registry.minecraft:damage_type.minecraft:sting.name": "Stich",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:sting": "Schaden durch den Stich einer Biene.",
+    "command_translation.registry.minecraft:damage_type.minecraft:sulfur_cube_hot.name": "Heißer Schwefelwürfel",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:sulfur_cube_hot": "Schaden durch Berühren eines Schwefelwürfels, der einen Magmablock absorbiert hat.",
+    "command_translation.registry.minecraft:damage_type.minecraft:sweet_berry_bush.name": "Süßer Beerenbusch",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:sweet_berry_bush": "Kontinuierlicher Schaden beim Bewegen in einem Beerenbusch.",
+    "command_translation.registry.minecraft:damage_type.minecraft:thorns.name": "Dornen",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:thorns": "Schaden durch Angriff auf einen Wächter oder eine Entität mit Dornen-Verzauberung.",
+    "command_translation.registry.minecraft:damage_type.minecraft:thrown.name": "Geworfen",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:thrown": "Schaden durch einen geworfenen Schneeball, ein Ei oder eine Enderperle.",
+    "command_translation.registry.minecraft:damage_type.minecraft:trident.name": "Dreizack",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:trident": "Schaden durch einen Dreizack, der etwas trifft.",
+    "command_translation.registry.minecraft:damage_type.minecraft:unattributed_fireball.name": "Nicht zugeordneter Feuerball",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:unattributed_fireball": "Direkter Schaden durch einen Ghast- oder Lohenfeuerball ohne Besitzer.",
+    "command_translation.registry.minecraft:damage_type.minecraft:wind_charge.name": "Windkugel",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:wind_charge": "Schaden durch eine Windkugel, die etwas trifft.",
+    "command_translation.registry.minecraft:damage_type.minecraft:wither.name": "Wither",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:wither": "Kontinuierlicher Schaden durch den Wither-Effekt.",
+    "command_translation.registry.minecraft:damage_type.minecraft:wither_skull.name": "Witherschädel",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:wither_skull": "Schaden durch einen Witherschädel mit Besitzer, der etwas trifft."
+  },
+  "ja_jp": {
+    "command_translation.registry.minecraft:damage_type.minecraft:arrow.name": "矢",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:arrow": "矢が命中したことによるダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:bad_respawn_point.name": "不適切なリスポーン地点",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:bad_respawn_point": "ベッドやリスポーンアンカーが爆発したことによるダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:cactus.name": "サボテン",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:cactus": "サボテンに触れたことによるダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:campfire.name": "焚き火",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:campfire": "焚き火またはソウルキャンプファイアに触れたことによるダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:cramming.name": "圧死",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:cramming": "同じ場所にMobが多すぎる場合のダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:dragon_breath.name": "ドラゴンブレス",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:dragon_breath": "未使用。",
+    "command_translation.registry.minecraft:damage_type.minecraft:drown.name": "溺死",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:drown": "溺れている間の継続ダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:dry_out.name": "乾燥",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:dry_out": "オウムガイ、イルカ、ウーパールーパーが長く水の外にいることによるダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:ender_pearl.name": "エンダーパール",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:ender_pearl": "エンダーパールでのテレポートによるダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:explosion.name": "爆発",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:explosion": "爆発によるダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:fall.name": "落下",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:fall": "落下によるダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:falling_anvil.name": "落下する金床",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:falling_anvil": "落下した金床が命中したことによるダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:falling_block.name": "落下するブロック",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:falling_block": "金床と鍾乳石以外の落下ブロックが命中したダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:falling_stalactite.name": "落下する鍾乳石",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:falling_stalactite": "落下した鍾乳石が命中したことによるダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:fireball.name": "火球",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:fireball": "持ち主のいるガストまたはブレイズの火球による直接ダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:fireworks.name": "花火",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:fireworks": "花火の爆発によるダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:fly_into_wall.name": "壁への激突",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:fly_into_wall": "エリトラで飛行中に壁やワールドボーダーへ衝突したことによるダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:freeze.name": "凍結",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:freeze": "粉雪で凍えている間の継続ダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:generic.name": "汎用",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:generic": "特定の種類に割り当てられない汎用ダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:generic_kill.name": "汎用キル",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:generic_kill": "/kill コマンドによるダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:hot_floor.name": "熱い床",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:hot_floor": "マグマブロックの上に立ったことによるダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:in_fire.name": "火の中",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:in_fire": "火の中に立っている間の継続ダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:in_wall.name": "ブロック内",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:in_wall": "固体ブロックに埋まっている間の継続ダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:indirect_magic.name": "間接魔法",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:indirect_magic": "ポーションやガーディアンのビームなどの間接魔法によるダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:lava.name": "溶岩",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:lava": "溶岩の中にいる間の継続ダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:lightning_bolt.name": "落雷",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:lightning_bolt": "雷に打たれたことによるダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:mace_smash.name": "メイススマッシュ",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:mace_smash": "メイスでの攻撃による追加ダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:magic.name": "魔法",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:magic": "毒や即時ダメージなどによる魔法ダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:mob_attack.name": "Mob攻撃",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:mob_attack": "Mobによる近接攻撃のダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:mob_attack_no_aggro.name": "Mob攻撃（非敵対）",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:mob_attack_no_aggro": "ヤギの突進によるダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:mob_projectile.name": "Mobの飛び道具",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:mob_projectile": "シュルカーの弾が命中したことによるダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:on_fire.name": "炎上",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:on_fire": "エンティティが燃えていることによるダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:out_of_world.name": "ワールド外",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:out_of_world": "奈落（ヴォイド）での継続ダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:outside_border.name": "ボーダー外",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:outside_border": "ワールドボーダーの外にいる間の継続ダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:player_attack.name": "プレイヤー攻撃",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:player_attack": "プレイヤーがエンティティを攻撃したことによるダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:player_explosion.name": "プレイヤーの爆発",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:player_explosion": "プレイヤーが直接引き起こした爆発ダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:sonic_boom.name": "ソニックブーム",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:sonic_boom": "ウォーデンのソニックブームによるダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:spear.name": "槍",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:spear": "槍が命中したことによるダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:spit.name": "唾",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:spit": "ラマが吐きかけたことによるダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:stalagmite.name": "石筍",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:stalagmite": "鍾乳石の上に落下したことによるダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:starve.name": "餓死",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:starve": "食料がない状態での継続ダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:sting.name": "針",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:sting": "ミツバチに刺されたことによるダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:sulfur_cube_hot.name": "熱い硫黄キューブ",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:sulfur_cube_hot": "マグマブロックを吸収した硫黄キューブに触れたことによるダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:sweet_berry_bush.name": "スイートベリーの茂み",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:sweet_berry_bush": "ベリーの茂みブロック内を移動している間の継続ダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:thorns.name": "棘の鎧",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:thorns": "ガーディアンやトゲのエンチャントがついたエンティティを攻撃したことによるダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:thrown.name": "投擲物",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:thrown": "投げた雪玉、卵、エンダーパールによるダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:trident.name": "トライデント",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:trident": "トライデントが命中したことによるダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:unattributed_fireball.name": "持ち主不明の火球",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:unattributed_fireball": "持ち主のいないガストまたはブレイズの火球による直接ダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:wind_charge.name": "ウィンドチャージ",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:wind_charge": "ウィンドチャージが命中したことによるダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:wither.name": "ウィザー",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:wither": "ウィザー効果による継続ダメージ。",
+    "command_translation.registry.minecraft:damage_type.minecraft:wither_skull.name": "ウィザースカル",
+    "command_translation.help.registry.minecraft:damage_type.minecraft:wither_skull": "持ち主のいるウィザースカルが命中したことによるダメージ。"
+  },
+  "sources": {
+    "command_translation.registry.minecraft:damage_type.minecraft:arrow.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:arrow": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:bad_respawn_point.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:bad_respawn_point": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:cactus.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:cactus": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:campfire.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:campfire": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:cramming.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:cramming": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:dragon_breath.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:dragon_breath": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:drown.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:drown": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:dry_out.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:dry_out": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:ender_pearl.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:ender_pearl": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:explosion.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:explosion": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:fall.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:fall": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:falling_anvil.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:falling_anvil": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:falling_block.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:falling_block": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:falling_stalactite.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:falling_stalactite": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:fireball.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:fireball": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:fireworks.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:fireworks": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:fly_into_wall.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:fly_into_wall": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:freeze.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:freeze": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:generic.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:generic": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:generic_kill.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:generic_kill": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:hot_floor.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:hot_floor": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:in_fire.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:in_fire": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:in_wall.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:in_wall": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:indirect_magic.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:indirect_magic": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:lava.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:lava": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:lightning_bolt.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:lightning_bolt": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:mace_smash.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:mace_smash": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:magic.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:magic": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:mob_attack.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:mob_attack": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:mob_attack_no_aggro.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:mob_attack_no_aggro": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:mob_projectile.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:mob_projectile": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:on_fire.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:on_fire": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:out_of_world.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:out_of_world": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:outside_border.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:outside_border": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:player_attack.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:player_attack": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:player_explosion.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:player_explosion": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:sonic_boom.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:sonic_boom": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:spear.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:spear": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:spit.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:spit": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:stalagmite.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:stalagmite": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:starve.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:starve": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:sting.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:sting": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:sulfur_cube_hot.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:sulfur_cube_hot": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:sweet_berry_bush.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:sweet_berry_bush": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:thorns.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:thorns": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:thrown.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:thrown": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:trident.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:trident": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:unattributed_fireball.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:unattributed_fireball": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:wind_charge.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:wind_charge": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:wither.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:wither": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.registry.minecraft:damage_type.minecraft:wither_skull.name": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ],
+    "command_translation.help.registry.minecraft:damage_type.minecraft:wither_skull": [
+      {
+        "url": "https://minecraft.wiki/w/Damage_type?oldid=3751198",
+        "revision": 3751198
+      }
+    ]
+  }
+}

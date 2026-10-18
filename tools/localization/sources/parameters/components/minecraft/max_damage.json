@@ -1,0 +1,30 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:max_damage": "The maximum durability of this item before it breaks."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:max_damage": "该物品损坏前的最大耐久值。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:max_damage": "Die maximale Haltbarkeit dieses Items, bevor es zerbricht."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:max_damage": "このアイテムが壊れるまでの最大耐久値。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:max_damage": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

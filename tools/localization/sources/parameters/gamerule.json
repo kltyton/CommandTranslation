@@ -1,0 +1,3935 @@
+{
+  "en_us": {
+    "command_translation.help.argument.gamerule.advance_time": "Whether world time keeps advancing, i.e. the day/night cycle.",
+    "command_translation.help.argument.gamerule.advance_weather": "Whether weather changes over time.",
+    "command_translation.help.argument.gamerule.allow_entering_nether_using_portals": "Whether players may travel to the Nether through portals.",
+    "command_translation.help.argument.gamerule.block_drops": "Whether broken blocks drop their items.",
+    "command_translation.help.argument.gamerule.block_explosion_drop_decay": "Whether block explosions may destroy some of the drops.",
+    "command_translation.help.argument.gamerule.command_block_output": "Whether command blocks broadcast their output to operators.",
+    "command_translation.help.argument.gamerule.command_blocks_work": "Whether command blocks execute the commands they contain.",
+    "command_translation.help.argument.gamerule.drowning_damage": "Whether players take drowning damage; false protects players from this damage, not all entities.",
+    "command_translation.help.argument.gamerule.elytra_movement_check": "Whether the server validates elytra flight movement; true enables the check.",
+    "command_translation.help.argument.gamerule.disable_elytra_movement_check": "Whether to DISABLE the elytra movement check; true turns the check off.",
+    "command_translation.help.argument.gamerule.ender_pearls_vanish_on_death": "Whether thrown ender pearls vanish when their thrower dies.",
+    "command_translation.help.argument.gamerule.entity_drops": "Whether non-mob entities such as minecarts and item frames drop items when destroyed; mob loot is controlled by mob_drops.",
+    "command_translation.help.argument.gamerule.fall_damage": "Whether players take fall damage; false protects players from falling, not all entities.",
+    "command_translation.help.argument.gamerule.fire_damage": "Whether players take damage from fire, lava, campfires and magma blocks.",
+    "command_translation.help.argument.gamerule.fire_spread_radius_around_player": "Maximum distance in blocks from a player at which fire may spread; 0 disables fire spread, -1 removes the distance limit.",
+    "command_translation.help.argument.gamerule.forgive_dead_players": "Whether angered neutral mobs forgive a player after that player dies.",
+    "command_translation.help.argument.gamerule.freeze_damage": "Whether players take freezing damage in powder snow.",
+    "command_translation.help.argument.gamerule.global_sound_events": "Whether certain sound events are heard by all players regardless of distance.",
+    "command_translation.help.argument.gamerule.immediate_respawn": "Whether players respawn immediately, skipping the death screen.",
+    "command_translation.help.argument.gamerule.keep_inventory": "Whether players keep both inventory items and experience after death.",
+    "command_translation.help.argument.gamerule.lava_source_conversion": "Whether flowing lava next to two lava sources becomes a source block.",
+    "command_translation.help.argument.gamerule.limited_crafting": "Whether players must unlock a recipe before they can craft it.",
+    "command_translation.help.argument.gamerule.locator_bar": "Whether the HUD locator bar displays waypoints indicating other players and transmitting entities.",
+    "command_translation.help.argument.gamerule.log_admin_commands": "Whether admin commands not run from command blocks are written to the server console.",
+    "command_translation.help.argument.gamerule.max_block_modifications": "The most blocks a single command may change; default 32768.",
+    "command_translation.help.argument.gamerule.max_command_forks": "Maximum number of execution contexts commands may create in a tick, including branches from commands targeting multiple entities.",
+    "command_translation.help.argument.gamerule.max_command_sequence_length": "Maximum commands in a chain executed in one tick from one execution source.",
+    "command_translation.help.argument.gamerule.max_entity_cramming": "Maximum pushable entities a mob or player may be crowded against before taking cramming damage; default 24, and 0 disables this damage.",
+    "command_translation.help.argument.gamerule.max_minecart_speed": "The maximum speed of minecarts, in blocks per second.",
+    "command_translation.help.argument.gamerule.max_snow_accumulation_height": "The maximum snow layers that accumulate during snowfall.",
+    "command_translation.help.argument.gamerule.mob_drops": "Whether mobs drop items and experience orbs when killed.",
+    "command_translation.help.argument.gamerule.mob_explosion_drop_decay": "Whether mob-caused explosions may destroy some of the drops.",
+    "command_translation.help.argument.gamerule.mob_griefing": "Whether mobs may change blocks or pick up items, such as creepers destroying terrain and villagers collecting food.",
+    "command_translation.help.argument.gamerule.natural_health_regeneration": "Whether players naturally regenerate health when sufficiently fed; false does not disable healing from potions and other external sources.",
+    "command_translation.help.argument.gamerule.player_movement_check": "Whether the server checks player movement speed; false disables this speed check only.",
+    "command_translation.help.argument.gamerule.players_nether_portal_creative_delay": "How many game ticks a creative player must stand inside a Nether portal before teleporting.",
+    "command_translation.help.argument.gamerule.players_nether_portal_default_delay": "How many game ticks a non-creative player must stand inside a Nether portal before teleporting.",
+    "command_translation.help.argument.gamerule.players_sleeping_percentage": "Percentage of eligible Overworld players who must sleep to skip the night; above 100 prevents skipping the night, not sleeping itself.",
+    "command_translation.help.argument.gamerule.projectiles_can_break_blocks": "Whether projectiles can break blocks.",
+    "command_translation.help.argument.gamerule.pvp": "Whether players can damage each other.",
+    "command_translation.help.argument.gamerule.raids": "Whether raids may start; true allows them.",
+    "command_translation.help.argument.gamerule.disable_raids": "Whether to disable raids; true stops them.",
+    "command_translation.help.argument.gamerule.random_tick_speed": "How many random block ticks occur per chunk section each tick; 0 disables them.",
+    "command_translation.help.argument.gamerule.reduced_debug_info": "Whether the debug screen omits most information.",
+    "command_translation.help.argument.gamerule.respawn_radius": "Radius in blocks around the world spawn where players respawn.",
+    "command_translation.help.argument.gamerule.send_command_feedback": "Whether the results of commands are sent back to players.",
+    "command_translation.help.argument.gamerule.show_advancement_messages": "Whether earning an advancement is announced in chat.",
+    "command_translation.help.argument.gamerule.show_death_messages": "Whether death messages are announced in chat.",
+    "command_translation.help.argument.gamerule.spawn_mobs": "Whether mobs spawn naturally.",
+    "command_translation.help.argument.gamerule.spawn_monsters": "Whether hostile monsters spawn naturally.",
+    "command_translation.help.argument.gamerule.spawn_patrols": "Whether pillager patrols spawn.",
+    "command_translation.help.argument.gamerule.spawn_phantoms": "Whether phantoms spawn from player insomnia.",
+    "command_translation.help.argument.gamerule.spawn_wandering_traders": "Whether wandering traders spawn.",
+    "command_translation.help.argument.gamerule.spawn_wardens": "Whether wardens may spawn.",
+    "command_translation.help.argument.gamerule.spawner_blocks_work": "Whether monster spawner blocks function.",
+    "command_translation.help.argument.gamerule.spectators_generate_chunks": "Whether spectators can generate new chunks around them; false does not erase chunks already generated.",
+    "command_translation.help.argument.gamerule.spread_vines": "Whether ordinary vines spread to adjacent blocks; cave vines, twisting vines and weeping vines are not controlled by this.",
+    "command_translation.help.argument.gamerule.tnt_explodes": "Whether primed TNT actually explodes.",
+    "command_translation.help.argument.gamerule.tnt_explosion_drop_decay": "Whether TNT explosions may destroy some of the drops.",
+    "command_translation.help.argument.gamerule.universal_anger": "Whether angered neutral mobs attack any nearby player rather than only the one who angered them.",
+    "command_translation.help.argument.gamerule.water_source_conversion": "Whether flowing water next to two water sources becomes a source block.",
+    "command_translation.help.argument.gamerule.do_fire_tick": "Whether fire spreads to nearby flammable blocks and eventually burns out.",
+    "command_translation.help.argument.gamerule.spawn_chunk_radius": "The radius in chunks around the world spawn that is kept loaded."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.gamerule.advance_time": "世界时间是否持续推进，即昼夜循环。",
+    "command_translation.help.argument.gamerule.advance_weather": "天气是否随时间变化。",
+    "command_translation.help.argument.gamerule.allow_entering_nether_using_portals": "玩家是否可以通过传送门前往下界。",
+    "command_translation.help.argument.gamerule.block_drops": "方块被破坏时是否掉落物品。",
+    "command_translation.help.argument.gamerule.block_explosion_drop_decay": "方块爆炸是否可能摧毁部分掉落物。",
+    "command_translation.help.argument.gamerule.command_block_output": "命令方块是否把输出广播给管理员。",
+    "command_translation.help.argument.gamerule.command_blocks_work": "命令方块是否执行其中的命令。",
+    "command_translation.help.argument.gamerule.drowning_damage": "玩家是否受到溺水伤害；false 只保护玩家，不是所有实体。",
+    "command_translation.help.argument.gamerule.elytra_movement_check": "服务器是否校验鞘翅飞行移动；true 表示启用校验。",
+    "command_translation.help.argument.gamerule.disable_elytra_movement_check": "是否禁用鞘翅移动校验；true 表示关闭校验。",
+    "command_translation.help.argument.gamerule.ender_pearls_vanish_on_death": "投出的末影珍珠是否在投掷者死亡时消失。",
+    "command_translation.help.argument.gamerule.entity_drops": "矿车、物品展示框等非生物实体被破坏时是否掉落物品；生物掉落由 mob_drops 控制。",
+    "command_translation.help.argument.gamerule.fall_damage": "玩家是否受到摔落伤害；false 只保护玩家，不是所有实体。",
+    "command_translation.help.argument.gamerule.fire_damage": "玩家是否受到火、熔岩、营火和岩浆块的伤害。",
+    "command_translation.help.argument.gamerule.fire_spread_radius_around_player": "火可以在距玩家多少方块内蔓延；0 禁止蔓延，-1 取消距离限制。",
+    "command_translation.help.argument.gamerule.forgive_dead_players": "被激怒的中立生物是否在玩家死亡后原谅该玩家。",
+    "command_translation.help.argument.gamerule.freeze_damage": "玩家是否受到细雪造成的冰冻伤害。",
+    "command_translation.help.argument.gamerule.global_sound_events": "某些声音事件是否不分距离被所有玩家听到。",
+    "command_translation.help.argument.gamerule.immediate_respawn": "玩家是否立即重生，跳过死亡界面。",
+    "command_translation.help.argument.gamerule.keep_inventory": "玩家死亡后是否保留物品栏物品和经验。",
+    "command_translation.help.argument.gamerule.lava_source_conversion": "紧邻两个岩浆源的流动岩浆是否变为源方块。",
+    "command_translation.help.argument.gamerule.limited_crafting": "玩家是否必须先解锁配方才能合成。",
+    "command_translation.help.argument.gamerule.locator_bar": "HUD 定位条是否用路标指示其他玩家和发送路标的实体。",
+    "command_translation.help.argument.gamerule.log_admin_commands": "非由命令方块执行的管理命令是否写入服务器控制台。",
+    "command_translation.help.argument.gamerule.max_block_modifications": "单条命令最多可更改的方块数；默认 32768。",
+    "command_translation.help.argument.gamerule.max_command_forks": "每游戏刻命令可创建的执行上下文数量上限，包括多目标命令产生的分支。",
+    "command_translation.help.argument.gamerule.max_command_sequence_length": "同一执行源在一个游戏刻内可执行的命令链长度上限。",
+    "command_translation.help.argument.gamerule.max_entity_cramming": "生物或玩家与多少可推动实体挤在一起时开始受到拥挤伤害；默认 24，0 关闭。",
+    "command_translation.help.argument.gamerule.max_minecart_speed": "矿车的最高速度，单位为方块每秒。",
+    "command_translation.help.argument.gamerule.max_snow_accumulation_height": "降雪时积雪可达到的最高层数。",
+    "command_translation.help.argument.gamerule.mob_drops": "生物死亡时是否掉落物品和经验球。",
+    "command_translation.help.argument.gamerule.mob_explosion_drop_decay": "生物造成的爆炸是否可能摧毁部分掉落物。",
+    "command_translation.help.argument.gamerule.mob_griefing": "生物是否可以改变方块或拾取物品，如苦力怕破坏地形、村民收集食物。",
+    "command_translation.help.argument.gamerule.natural_health_regeneration": "玩家饥饿值足够时是否自然恢复生命；false 不禁止药水等外部治疗。",
+    "command_translation.help.argument.gamerule.player_movement_check": "服务器是否检查玩家的移动速度；false 只关闭这项速度检查。",
+    "command_translation.help.argument.gamerule.players_nether_portal_creative_delay": "创造模式玩家必须站在下界传送门中多少游戏刻后才传送。",
+    "command_translation.help.argument.gamerule.players_nether_portal_default_delay": "非创造模式玩家必须站在下界传送门中多少游戏刻后才传送。",
+    "command_translation.help.argument.gamerule.players_sleeping_percentage": "跳过夜晚所需的主世界有效玩家入睡比例；大于 100 会禁止跳过夜晚，而非禁止入睡。",
+    "command_translation.help.argument.gamerule.projectiles_can_break_blocks": "弹射物是否可以破坏方块。",
+    "command_translation.help.argument.gamerule.pvp": "玩家之间是否可以互相造成伤害。",
+    "command_translation.help.argument.gamerule.raids": "是否允许袭击发生；true 表示允许。",
+    "command_translation.help.argument.gamerule.disable_raids": "是否禁止袭击；true 表示停止袭击。",
+    "command_translation.help.argument.gamerule.random_tick_speed": "每游戏刻每个区块段发生的随机方块刻数量；0 表示禁用。",
+    "command_translation.help.argument.gamerule.reduced_debug_info": "调试界面是否只显示精简信息。",
+    "command_translation.help.argument.gamerule.respawn_radius": "世界出生点周围玩家重生的半径。",
+    "command_translation.help.argument.gamerule.send_command_feedback": "命令结果是否反馈给玩家。",
+    "command_translation.help.argument.gamerule.show_advancement_messages": "获得进度时是否在聊天中公告。",
+    "command_translation.help.argument.gamerule.show_death_messages": "死亡消息是否在聊天中公告。",
+    "command_translation.help.argument.gamerule.spawn_mobs": "生物是否自然生成。",
+    "command_translation.help.argument.gamerule.spawn_monsters": "敌对怪物是否自然生成。",
+    "command_translation.help.argument.gamerule.spawn_patrols": "掠夺者巡逻队是否生成。",
+    "command_translation.help.argument.gamerule.spawn_phantoms": "幻翼是否因玩家失眠而生成。",
+    "command_translation.help.argument.gamerule.spawn_wandering_traders": "流浪商人是否生成。",
+    "command_translation.help.argument.gamerule.spawn_wardens": "监守者是否可能生成。",
+    "command_translation.help.argument.gamerule.spawner_blocks_work": "刷怪笼方块是否工作。",
+    "command_translation.help.argument.gamerule.spectators_generate_chunks": "旁观者是否可以在周围生成新区块；false 不会删除已生成的区块。",
+    "command_translation.help.argument.gamerule.spread_vines": "普通藤蔓是否向相邻方块蔓延；不影响洞穴藤蔓、缠怨藤和垂泪藤。",
+    "command_translation.help.argument.gamerule.tnt_explodes": "被点燃的 TNT 是否真的爆炸。",
+    "command_translation.help.argument.gamerule.tnt_explosion_drop_decay": "TNT 爆炸是否可能摧毁部分掉落物。",
+    "command_translation.help.argument.gamerule.universal_anger": "被激怒的中立生物是否攻击附近任意玩家，而不只针对激怒它的玩家。",
+    "command_translation.help.argument.gamerule.water_source_conversion": "紧邻两个水源的流动水是否变为源方块。",
+    "command_translation.help.argument.gamerule.do_fire_tick": "火是否蔓延到邻近可燃方块并最终熄灭。",
+    "command_translation.help.argument.gamerule.spawn_chunk_radius": "世界出生点周围保持加载的区块半径。"
+  },
+  "sources": {
+    "command_translation.help.argument.gamerule.advance_time": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.advance_weather": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.allow_entering_nether_using_portals": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.block_drops": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.block_explosion_drop_decay": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.command_block_output": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.command_blocks_work": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.drowning_damage": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.elytra_movement_check": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.disable_elytra_movement_check": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.ender_pearls_vanish_on_death": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.entity_drops": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.fall_damage": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.fire_damage": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.fire_spread_radius_around_player": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.forgive_dead_players": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.freeze_damage": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.global_sound_events": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.immediate_respawn": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.keep_inventory": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.lava_source_conversion": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.limited_crafting": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.locator_bar": [
+      {
+        "url": "https://minecraft.wiki/w/Locator_Bar",
+        "revision": 3776618
+      }
+    ],
+    "command_translation.help.argument.gamerule.log_admin_commands": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.max_block_modifications": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.max_command_forks": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.max_command_sequence_length": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.max_entity_cramming": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.max_minecart_speed": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.max_snow_accumulation_height": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.mob_drops": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.mob_explosion_drop_decay": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.mob_griefing": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.natural_health_regeneration": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.player_movement_check": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.players_nether_portal_creative_delay": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.players_nether_portal_default_delay": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.players_sleeping_percentage": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.projectiles_can_break_blocks": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.pvp": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.raids": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.disable_raids": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.random_tick_speed": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.reduced_debug_info": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.respawn_radius": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.send_command_feedback": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.show_advancement_messages": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.show_death_messages": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.spawn_mobs": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.spawn_monsters": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.spawn_patrols": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.spawn_phantoms": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.spawn_wandering_traders": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.spawn_wardens": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.spawner_blocks_work": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.spectators_generate_chunks": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.spread_vines": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.tnt_explodes": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.tnt_explosion_drop_decay": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.universal_anger": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.water_source_conversion": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.do_fire_tick": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ],
+    "command_translation.help.argument.gamerule.spawn_chunk_radius": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20rule",
+        "revision": 3785210
+      }
+    ]
+  },
+  "bindings": {
+    "gamerule.announceAdvancements": "command_translation.help.argument.gamerule.show_advancement_messages",
+    "gamerule.announceAdvancements.value": "command_translation.help.argument.gamerule.show_advancement_messages",
+    "gamerule.blockExplosionDropDecay": "command_translation.help.argument.gamerule.block_explosion_drop_decay",
+    "gamerule.blockExplosionDropDecay.value": "command_translation.help.argument.gamerule.block_explosion_drop_decay",
+    "gamerule.commandBlockOutput": "command_translation.help.argument.gamerule.command_block_output",
+    "gamerule.commandBlockOutput.value": "command_translation.help.argument.gamerule.command_block_output",
+    "gamerule.commandModificationBlockLimit": "command_translation.help.argument.gamerule.max_block_modifications",
+    "gamerule.commandModificationBlockLimit.value": "command_translation.help.argument.gamerule.max_block_modifications",
+    "gamerule.disableElytraMovementCheck": "command_translation.help.argument.gamerule.disable_elytra_movement_check",
+    "gamerule.disableElytraMovementCheck.value": "command_translation.help.argument.gamerule.disable_elytra_movement_check",
+    "gamerule.disableRaids": "command_translation.help.argument.gamerule.disable_raids",
+    "gamerule.disableRaids.value": "command_translation.help.argument.gamerule.disable_raids",
+    "gamerule.doDaylightCycle": "command_translation.help.argument.gamerule.advance_time",
+    "gamerule.doDaylightCycle.value": "command_translation.help.argument.gamerule.advance_time",
+    "gamerule.doEntityDrops": "command_translation.help.argument.gamerule.entity_drops",
+    "gamerule.doEntityDrops.value": "command_translation.help.argument.gamerule.entity_drops",
+    "gamerule.doFireTick": "command_translation.help.argument.gamerule.do_fire_tick",
+    "gamerule.doFireTick.value": "command_translation.help.argument.gamerule.do_fire_tick",
+    "gamerule.doImmediateRespawn": "command_translation.help.argument.gamerule.immediate_respawn",
+    "gamerule.doImmediateRespawn.value": "command_translation.help.argument.gamerule.immediate_respawn",
+    "gamerule.doInsomnia": "command_translation.help.argument.gamerule.spawn_phantoms",
+    "gamerule.doInsomnia.value": "command_translation.help.argument.gamerule.spawn_phantoms",
+    "gamerule.doLimitedCrafting": "command_translation.help.argument.gamerule.limited_crafting",
+    "gamerule.doLimitedCrafting.value": "command_translation.help.argument.gamerule.limited_crafting",
+    "gamerule.doMobLoot": "command_translation.help.argument.gamerule.mob_drops",
+    "gamerule.doMobLoot.value": "command_translation.help.argument.gamerule.mob_drops",
+    "gamerule.doMobSpawning": "command_translation.help.argument.gamerule.spawn_mobs",
+    "gamerule.doMobSpawning.value": "command_translation.help.argument.gamerule.spawn_mobs",
+    "gamerule.doPatrolSpawning": "command_translation.help.argument.gamerule.spawn_patrols",
+    "gamerule.doPatrolSpawning.value": "command_translation.help.argument.gamerule.spawn_patrols",
+    "gamerule.doTileDrops": "command_translation.help.argument.gamerule.block_drops",
+    "gamerule.doTileDrops.value": "command_translation.help.argument.gamerule.block_drops",
+    "gamerule.doTraderSpawning": "command_translation.help.argument.gamerule.spawn_wandering_traders",
+    "gamerule.doTraderSpawning.value": "command_translation.help.argument.gamerule.spawn_wandering_traders",
+    "gamerule.doVinesSpread": "command_translation.help.argument.gamerule.spread_vines",
+    "gamerule.doVinesSpread.value": "command_translation.help.argument.gamerule.spread_vines",
+    "gamerule.doWardenSpawning": "command_translation.help.argument.gamerule.spawn_wardens",
+    "gamerule.doWardenSpawning.value": "command_translation.help.argument.gamerule.spawn_wardens",
+    "gamerule.doWeatherCycle": "command_translation.help.argument.gamerule.advance_weather",
+    "gamerule.doWeatherCycle.value": "command_translation.help.argument.gamerule.advance_weather",
+    "gamerule.drowningDamage": "command_translation.help.argument.gamerule.drowning_damage",
+    "gamerule.drowningDamage.value": "command_translation.help.argument.gamerule.drowning_damage",
+    "gamerule.fallDamage": "command_translation.help.argument.gamerule.fall_damage",
+    "gamerule.fallDamage.value": "command_translation.help.argument.gamerule.fall_damage",
+    "gamerule.fireDamage": "command_translation.help.argument.gamerule.fire_damage",
+    "gamerule.fireDamage.value": "command_translation.help.argument.gamerule.fire_damage",
+    "gamerule.forgiveDeadPlayers": "command_translation.help.argument.gamerule.forgive_dead_players",
+    "gamerule.forgiveDeadPlayers.value": "command_translation.help.argument.gamerule.forgive_dead_players",
+    "gamerule.freezeDamage": "command_translation.help.argument.gamerule.freeze_damage",
+    "gamerule.freezeDamage.value": "command_translation.help.argument.gamerule.freeze_damage",
+    "gamerule.globalSoundEvents": "command_translation.help.argument.gamerule.global_sound_events",
+    "gamerule.globalSoundEvents.value": "command_translation.help.argument.gamerule.global_sound_events",
+    "gamerule.keepInventory": "command_translation.help.argument.gamerule.keep_inventory",
+    "gamerule.keepInventory.value": "command_translation.help.argument.gamerule.keep_inventory",
+    "gamerule.lavaSourceConversion": "command_translation.help.argument.gamerule.lava_source_conversion",
+    "gamerule.lavaSourceConversion.value": "command_translation.help.argument.gamerule.lava_source_conversion",
+    "gamerule.logAdminCommands": "command_translation.help.argument.gamerule.log_admin_commands",
+    "gamerule.logAdminCommands.value": "command_translation.help.argument.gamerule.log_admin_commands",
+    "gamerule.maxCommandChainLength": "command_translation.help.argument.gamerule.max_command_sequence_length",
+    "gamerule.maxCommandChainLength.value": "command_translation.help.argument.gamerule.max_command_sequence_length",
+    "gamerule.maxEntityCramming": "command_translation.help.argument.gamerule.max_entity_cramming",
+    "gamerule.maxEntityCramming.value": "command_translation.help.argument.gamerule.max_entity_cramming",
+    "gamerule.mobExplosionDropDecay": "command_translation.help.argument.gamerule.mob_explosion_drop_decay",
+    "gamerule.mobExplosionDropDecay.value": "command_translation.help.argument.gamerule.mob_explosion_drop_decay",
+    "gamerule.mobGriefing": "command_translation.help.argument.gamerule.mob_griefing",
+    "gamerule.mobGriefing.value": "command_translation.help.argument.gamerule.mob_griefing",
+    "gamerule.naturalRegeneration": "command_translation.help.argument.gamerule.natural_health_regeneration",
+    "gamerule.naturalRegeneration.value": "command_translation.help.argument.gamerule.natural_health_regeneration",
+    "gamerule.playersSleepingPercentage": "command_translation.help.argument.gamerule.players_sleeping_percentage",
+    "gamerule.playersSleepingPercentage.value": "command_translation.help.argument.gamerule.players_sleeping_percentage",
+    "gamerule.randomTickSpeed": "command_translation.help.argument.gamerule.random_tick_speed",
+    "gamerule.randomTickSpeed.value": "command_translation.help.argument.gamerule.random_tick_speed",
+    "gamerule.reducedDebugInfo": "command_translation.help.argument.gamerule.reduced_debug_info",
+    "gamerule.reducedDebugInfo.value": "command_translation.help.argument.gamerule.reduced_debug_info",
+    "gamerule.sendCommandFeedback": "command_translation.help.argument.gamerule.send_command_feedback",
+    "gamerule.sendCommandFeedback.value": "command_translation.help.argument.gamerule.send_command_feedback",
+    "gamerule.showDeathMessages": "command_translation.help.argument.gamerule.show_death_messages",
+    "gamerule.showDeathMessages.value": "command_translation.help.argument.gamerule.show_death_messages",
+    "gamerule.snowAccumulationHeight": "command_translation.help.argument.gamerule.max_snow_accumulation_height",
+    "gamerule.snowAccumulationHeight.value": "command_translation.help.argument.gamerule.max_snow_accumulation_height",
+    "gamerule.spawnRadius": "command_translation.help.argument.gamerule.respawn_radius",
+    "gamerule.spawnRadius.value": "command_translation.help.argument.gamerule.respawn_radius",
+    "gamerule.spectatorsGenerateChunks": "command_translation.help.argument.gamerule.spectators_generate_chunks",
+    "gamerule.spectatorsGenerateChunks.value": "command_translation.help.argument.gamerule.spectators_generate_chunks",
+    "gamerule.tntExplosionDropDecay": "command_translation.help.argument.gamerule.tnt_explosion_drop_decay",
+    "gamerule.tntExplosionDropDecay.value": "command_translation.help.argument.gamerule.tnt_explosion_drop_decay",
+    "gamerule.universalAnger": "command_translation.help.argument.gamerule.universal_anger",
+    "gamerule.universalAnger.value": "command_translation.help.argument.gamerule.universal_anger",
+    "gamerule.waterSourceConversion": "command_translation.help.argument.gamerule.water_source_conversion",
+    "gamerule.waterSourceConversion.value": "command_translation.help.argument.gamerule.water_source_conversion",
+    "gamerule.enderPearlsVanishOnDeath": "command_translation.help.argument.gamerule.ender_pearls_vanish_on_death",
+    "gamerule.enderPearlsVanishOnDeath.value": "command_translation.help.argument.gamerule.ender_pearls_vanish_on_death",
+    "gamerule.maxCommandForkCount": "command_translation.help.argument.gamerule.max_command_forks",
+    "gamerule.maxCommandForkCount.value": "command_translation.help.argument.gamerule.max_command_forks",
+    "gamerule.playersNetherPortalCreativeDelay": "command_translation.help.argument.gamerule.players_nether_portal_creative_delay",
+    "gamerule.playersNetherPortalCreativeDelay.value": "command_translation.help.argument.gamerule.players_nether_portal_creative_delay",
+    "gamerule.playersNetherPortalDefaultDelay": "command_translation.help.argument.gamerule.players_nether_portal_default_delay",
+    "gamerule.playersNetherPortalDefaultDelay.value": "command_translation.help.argument.gamerule.players_nether_portal_default_delay",
+    "gamerule.projectilesCanBreakBlocks": "command_translation.help.argument.gamerule.projectiles_can_break_blocks",
+    "gamerule.projectilesCanBreakBlocks.value": "command_translation.help.argument.gamerule.projectiles_can_break_blocks",
+    "gamerule.spawnChunkRadius": "command_translation.help.argument.gamerule.spawn_chunk_radius",
+    "gamerule.spawnChunkRadius.value": "command_translation.help.argument.gamerule.spawn_chunk_radius",
+    "gamerule.advance_time": "command_translation.help.argument.gamerule.advance_time",
+    "gamerule.advance_time.value": "command_translation.help.argument.gamerule.advance_time",
+    "gamerule.advance_weather": "command_translation.help.argument.gamerule.advance_weather",
+    "gamerule.advance_weather.value": "command_translation.help.argument.gamerule.advance_weather",
+    "gamerule.allow_entering_nether_using_portals": "command_translation.help.argument.gamerule.allow_entering_nether_using_portals",
+    "gamerule.allow_entering_nether_using_portals.value": "command_translation.help.argument.gamerule.allow_entering_nether_using_portals",
+    "gamerule.block_drops": "command_translation.help.argument.gamerule.block_drops",
+    "gamerule.block_drops.value": "command_translation.help.argument.gamerule.block_drops",
+    "gamerule.block_explosion_drop_decay": "command_translation.help.argument.gamerule.block_explosion_drop_decay",
+    "gamerule.block_explosion_drop_decay.value": "command_translation.help.argument.gamerule.block_explosion_drop_decay",
+    "gamerule.command_block_output": "command_translation.help.argument.gamerule.command_block_output",
+    "gamerule.command_block_output.value": "command_translation.help.argument.gamerule.command_block_output",
+    "gamerule.command_blocks_work": "command_translation.help.argument.gamerule.command_blocks_work",
+    "gamerule.command_blocks_work.value": "command_translation.help.argument.gamerule.command_blocks_work",
+    "gamerule.drowning_damage": "command_translation.help.argument.gamerule.drowning_damage",
+    "gamerule.drowning_damage.value": "command_translation.help.argument.gamerule.drowning_damage",
+    "gamerule.elytra_movement_check": "command_translation.help.argument.gamerule.elytra_movement_check",
+    "gamerule.elytra_movement_check.value": "command_translation.help.argument.gamerule.elytra_movement_check",
+    "gamerule.ender_pearls_vanish_on_death": "command_translation.help.argument.gamerule.ender_pearls_vanish_on_death",
+    "gamerule.ender_pearls_vanish_on_death.value": "command_translation.help.argument.gamerule.ender_pearls_vanish_on_death",
+    "gamerule.entity_drops": "command_translation.help.argument.gamerule.entity_drops",
+    "gamerule.entity_drops.value": "command_translation.help.argument.gamerule.entity_drops",
+    "gamerule.fall_damage": "command_translation.help.argument.gamerule.fall_damage",
+    "gamerule.fall_damage.value": "command_translation.help.argument.gamerule.fall_damage",
+    "gamerule.fire_damage": "command_translation.help.argument.gamerule.fire_damage",
+    "gamerule.fire_damage.value": "command_translation.help.argument.gamerule.fire_damage",
+    "gamerule.fire_spread_radius_around_player": "command_translation.help.argument.gamerule.fire_spread_radius_around_player",
+    "gamerule.fire_spread_radius_around_player.value": "command_translation.help.argument.gamerule.fire_spread_radius_around_player",
+    "gamerule.forgive_dead_players": "command_translation.help.argument.gamerule.forgive_dead_players",
+    "gamerule.forgive_dead_players.value": "command_translation.help.argument.gamerule.forgive_dead_players",
+    "gamerule.freeze_damage": "command_translation.help.argument.gamerule.freeze_damage",
+    "gamerule.freeze_damage.value": "command_translation.help.argument.gamerule.freeze_damage",
+    "gamerule.global_sound_events": "command_translation.help.argument.gamerule.global_sound_events",
+    "gamerule.global_sound_events.value": "command_translation.help.argument.gamerule.global_sound_events",
+    "gamerule.immediate_respawn": "command_translation.help.argument.gamerule.immediate_respawn",
+    "gamerule.immediate_respawn.value": "command_translation.help.argument.gamerule.immediate_respawn",
+    "gamerule.keep_inventory": "command_translation.help.argument.gamerule.keep_inventory",
+    "gamerule.keep_inventory.value": "command_translation.help.argument.gamerule.keep_inventory",
+    "gamerule.lava_source_conversion": "command_translation.help.argument.gamerule.lava_source_conversion",
+    "gamerule.lava_source_conversion.value": "command_translation.help.argument.gamerule.lava_source_conversion",
+    "gamerule.limited_crafting": "command_translation.help.argument.gamerule.limited_crafting",
+    "gamerule.limited_crafting.value": "command_translation.help.argument.gamerule.limited_crafting",
+    "gamerule.locator_bar": "command_translation.help.argument.gamerule.locator_bar",
+    "gamerule.locator_bar.value": "command_translation.help.argument.gamerule.locator_bar",
+    "gamerule.log_admin_commands": "command_translation.help.argument.gamerule.log_admin_commands",
+    "gamerule.log_admin_commands.value": "command_translation.help.argument.gamerule.log_admin_commands",
+    "gamerule.max_block_modifications": "command_translation.help.argument.gamerule.max_block_modifications",
+    "gamerule.max_block_modifications.value": "command_translation.help.argument.gamerule.max_block_modifications",
+    "gamerule.max_command_forks": "command_translation.help.argument.gamerule.max_command_forks",
+    "gamerule.max_command_forks.value": "command_translation.help.argument.gamerule.max_command_forks",
+    "gamerule.max_command_sequence_length": "command_translation.help.argument.gamerule.max_command_sequence_length",
+    "gamerule.max_command_sequence_length.value": "command_translation.help.argument.gamerule.max_command_sequence_length",
+    "gamerule.max_entity_cramming": "command_translation.help.argument.gamerule.max_entity_cramming",
+    "gamerule.max_entity_cramming.value": "command_translation.help.argument.gamerule.max_entity_cramming",
+    "gamerule.max_minecart_speed": "command_translation.help.argument.gamerule.max_minecart_speed",
+    "gamerule.max_minecart_speed.value": "command_translation.help.argument.gamerule.max_minecart_speed",
+    "gamerule.max_snow_accumulation_height": "command_translation.help.argument.gamerule.max_snow_accumulation_height",
+    "gamerule.max_snow_accumulation_height.value": "command_translation.help.argument.gamerule.max_snow_accumulation_height",
+    "gamerule.mob_drops": "command_translation.help.argument.gamerule.mob_drops",
+    "gamerule.mob_drops.value": "command_translation.help.argument.gamerule.mob_drops",
+    "gamerule.mob_explosion_drop_decay": "command_translation.help.argument.gamerule.mob_explosion_drop_decay",
+    "gamerule.mob_explosion_drop_decay.value": "command_translation.help.argument.gamerule.mob_explosion_drop_decay",
+    "gamerule.mob_griefing": "command_translation.help.argument.gamerule.mob_griefing",
+    "gamerule.mob_griefing.value": "command_translation.help.argument.gamerule.mob_griefing",
+    "gamerule.natural_health_regeneration": "command_translation.help.argument.gamerule.natural_health_regeneration",
+    "gamerule.natural_health_regeneration.value": "command_translation.help.argument.gamerule.natural_health_regeneration",
+    "gamerule.player_movement_check": "command_translation.help.argument.gamerule.player_movement_check",
+    "gamerule.player_movement_check.value": "command_translation.help.argument.gamerule.player_movement_check",
+    "gamerule.players_nether_portal_creative_delay": "command_translation.help.argument.gamerule.players_nether_portal_creative_delay",
+    "gamerule.players_nether_portal_creative_delay.value": "command_translation.help.argument.gamerule.players_nether_portal_creative_delay",
+    "gamerule.players_nether_portal_default_delay": "command_translation.help.argument.gamerule.players_nether_portal_default_delay",
+    "gamerule.players_nether_portal_default_delay.value": "command_translation.help.argument.gamerule.players_nether_portal_default_delay",
+    "gamerule.players_sleeping_percentage": "command_translation.help.argument.gamerule.players_sleeping_percentage",
+    "gamerule.players_sleeping_percentage.value": "command_translation.help.argument.gamerule.players_sleeping_percentage",
+    "gamerule.projectiles_can_break_blocks": "command_translation.help.argument.gamerule.projectiles_can_break_blocks",
+    "gamerule.projectiles_can_break_blocks.value": "command_translation.help.argument.gamerule.projectiles_can_break_blocks",
+    "gamerule.pvp": "command_translation.help.argument.gamerule.pvp",
+    "gamerule.pvp.value": "command_translation.help.argument.gamerule.pvp",
+    "gamerule.raids": "command_translation.help.argument.gamerule.raids",
+    "gamerule.raids.value": "command_translation.help.argument.gamerule.raids",
+    "gamerule.random_tick_speed": "command_translation.help.argument.gamerule.random_tick_speed",
+    "gamerule.random_tick_speed.value": "command_translation.help.argument.gamerule.random_tick_speed",
+    "gamerule.reduced_debug_info": "command_translation.help.argument.gamerule.reduced_debug_info",
+    "gamerule.reduced_debug_info.value": "command_translation.help.argument.gamerule.reduced_debug_info",
+    "gamerule.respawn_radius": "command_translation.help.argument.gamerule.respawn_radius",
+    "gamerule.respawn_radius.value": "command_translation.help.argument.gamerule.respawn_radius",
+    "gamerule.send_command_feedback": "command_translation.help.argument.gamerule.send_command_feedback",
+    "gamerule.send_command_feedback.value": "command_translation.help.argument.gamerule.send_command_feedback",
+    "gamerule.show_advancement_messages": "command_translation.help.argument.gamerule.show_advancement_messages",
+    "gamerule.show_advancement_messages.value": "command_translation.help.argument.gamerule.show_advancement_messages",
+    "gamerule.show_death_messages": "command_translation.help.argument.gamerule.show_death_messages",
+    "gamerule.show_death_messages.value": "command_translation.help.argument.gamerule.show_death_messages",
+    "gamerule.spawn_mobs": "command_translation.help.argument.gamerule.spawn_mobs",
+    "gamerule.spawn_mobs.value": "command_translation.help.argument.gamerule.spawn_mobs",
+    "gamerule.spawn_monsters": "command_translation.help.argument.gamerule.spawn_monsters",
+    "gamerule.spawn_monsters.value": "command_translation.help.argument.gamerule.spawn_monsters",
+    "gamerule.spawn_patrols": "command_translation.help.argument.gamerule.spawn_patrols",
+    "gamerule.spawn_patrols.value": "command_translation.help.argument.gamerule.spawn_patrols",
+    "gamerule.spawn_phantoms": "command_translation.help.argument.gamerule.spawn_phantoms",
+    "gamerule.spawn_phantoms.value": "command_translation.help.argument.gamerule.spawn_phantoms",
+    "gamerule.spawn_wandering_traders": "command_translation.help.argument.gamerule.spawn_wandering_traders",
+    "gamerule.spawn_wandering_traders.value": "command_translation.help.argument.gamerule.spawn_wandering_traders",
+    "gamerule.spawn_wardens": "command_translation.help.argument.gamerule.spawn_wardens",
+    "gamerule.spawn_wardens.value": "command_translation.help.argument.gamerule.spawn_wardens",
+    "gamerule.spawner_blocks_work": "command_translation.help.argument.gamerule.spawner_blocks_work",
+    "gamerule.spawner_blocks_work.value": "command_translation.help.argument.gamerule.spawner_blocks_work",
+    "gamerule.spectators_generate_chunks": "command_translation.help.argument.gamerule.spectators_generate_chunks",
+    "gamerule.spectators_generate_chunks.value": "command_translation.help.argument.gamerule.spectators_generate_chunks",
+    "gamerule.spread_vines": "command_translation.help.argument.gamerule.spread_vines",
+    "gamerule.spread_vines.value": "command_translation.help.argument.gamerule.spread_vines",
+    "gamerule.tnt_explodes": "command_translation.help.argument.gamerule.tnt_explodes",
+    "gamerule.tnt_explodes.value": "command_translation.help.argument.gamerule.tnt_explodes",
+    "gamerule.tnt_explosion_drop_decay": "command_translation.help.argument.gamerule.tnt_explosion_drop_decay",
+    "gamerule.tnt_explosion_drop_decay.value": "command_translation.help.argument.gamerule.tnt_explosion_drop_decay",
+    "gamerule.universal_anger": "command_translation.help.argument.gamerule.universal_anger",
+    "gamerule.universal_anger.value": "command_translation.help.argument.gamerule.universal_anger",
+    "gamerule.water_source_conversion": "command_translation.help.argument.gamerule.water_source_conversion",
+    "gamerule.water_source_conversion.value": "command_translation.help.argument.gamerule.water_source_conversion",
+    "gamerule.minecraft:advance_time": "command_translation.help.argument.gamerule.advance_time",
+    "gamerule.minecraft:advance_time.value": "command_translation.help.argument.gamerule.advance_time",
+    "gamerule.minecraft:advance_weather": "command_translation.help.argument.gamerule.advance_weather",
+    "gamerule.minecraft:advance_weather.value": "command_translation.help.argument.gamerule.advance_weather",
+    "gamerule.minecraft:allow_entering_nether_using_portals": "command_translation.help.argument.gamerule.allow_entering_nether_using_portals",
+    "gamerule.minecraft:allow_entering_nether_using_portals.value": "command_translation.help.argument.gamerule.allow_entering_nether_using_portals",
+    "gamerule.minecraft:block_drops": "command_translation.help.argument.gamerule.block_drops",
+    "gamerule.minecraft:block_drops.value": "command_translation.help.argument.gamerule.block_drops",
+    "gamerule.minecraft:block_explosion_drop_decay": "command_translation.help.argument.gamerule.block_explosion_drop_decay",
+    "gamerule.minecraft:block_explosion_drop_decay.value": "command_translation.help.argument.gamerule.block_explosion_drop_decay",
+    "gamerule.minecraft:command_block_output": "command_translation.help.argument.gamerule.command_block_output",
+    "gamerule.minecraft:command_block_output.value": "command_translation.help.argument.gamerule.command_block_output",
+    "gamerule.minecraft:command_blocks_work": "command_translation.help.argument.gamerule.command_blocks_work",
+    "gamerule.minecraft:command_blocks_work.value": "command_translation.help.argument.gamerule.command_blocks_work",
+    "gamerule.minecraft:drowning_damage": "command_translation.help.argument.gamerule.drowning_damage",
+    "gamerule.minecraft:drowning_damage.value": "command_translation.help.argument.gamerule.drowning_damage",
+    "gamerule.minecraft:elytra_movement_check": "command_translation.help.argument.gamerule.elytra_movement_check",
+    "gamerule.minecraft:elytra_movement_check.value": "command_translation.help.argument.gamerule.elytra_movement_check",
+    "gamerule.minecraft:ender_pearls_vanish_on_death": "command_translation.help.argument.gamerule.ender_pearls_vanish_on_death",
+    "gamerule.minecraft:ender_pearls_vanish_on_death.value": "command_translation.help.argument.gamerule.ender_pearls_vanish_on_death",
+    "gamerule.minecraft:entity_drops": "command_translation.help.argument.gamerule.entity_drops",
+    "gamerule.minecraft:entity_drops.value": "command_translation.help.argument.gamerule.entity_drops",
+    "gamerule.minecraft:fall_damage": "command_translation.help.argument.gamerule.fall_damage",
+    "gamerule.minecraft:fall_damage.value": "command_translation.help.argument.gamerule.fall_damage",
+    "gamerule.minecraft:fire_damage": "command_translation.help.argument.gamerule.fire_damage",
+    "gamerule.minecraft:fire_damage.value": "command_translation.help.argument.gamerule.fire_damage",
+    "gamerule.minecraft:fire_spread_radius_around_player": "command_translation.help.argument.gamerule.fire_spread_radius_around_player",
+    "gamerule.minecraft:fire_spread_radius_around_player.value": "command_translation.help.argument.gamerule.fire_spread_radius_around_player",
+    "gamerule.minecraft:forgive_dead_players": "command_translation.help.argument.gamerule.forgive_dead_players",
+    "gamerule.minecraft:forgive_dead_players.value": "command_translation.help.argument.gamerule.forgive_dead_players",
+    "gamerule.minecraft:freeze_damage": "command_translation.help.argument.gamerule.freeze_damage",
+    "gamerule.minecraft:freeze_damage.value": "command_translation.help.argument.gamerule.freeze_damage",
+    "gamerule.minecraft:global_sound_events": "command_translation.help.argument.gamerule.global_sound_events",
+    "gamerule.minecraft:global_sound_events.value": "command_translation.help.argument.gamerule.global_sound_events",
+    "gamerule.minecraft:immediate_respawn": "command_translation.help.argument.gamerule.immediate_respawn",
+    "gamerule.minecraft:immediate_respawn.value": "command_translation.help.argument.gamerule.immediate_respawn",
+    "gamerule.minecraft:keep_inventory": "command_translation.help.argument.gamerule.keep_inventory",
+    "gamerule.minecraft:keep_inventory.value": "command_translation.help.argument.gamerule.keep_inventory",
+    "gamerule.minecraft:lava_source_conversion": "command_translation.help.argument.gamerule.lava_source_conversion",
+    "gamerule.minecraft:lava_source_conversion.value": "command_translation.help.argument.gamerule.lava_source_conversion",
+    "gamerule.minecraft:limited_crafting": "command_translation.help.argument.gamerule.limited_crafting",
+    "gamerule.minecraft:limited_crafting.value": "command_translation.help.argument.gamerule.limited_crafting",
+    "gamerule.minecraft:locator_bar": "command_translation.help.argument.gamerule.locator_bar",
+    "gamerule.minecraft:locator_bar.value": "command_translation.help.argument.gamerule.locator_bar",
+    "gamerule.minecraft:log_admin_commands": "command_translation.help.argument.gamerule.log_admin_commands",
+    "gamerule.minecraft:log_admin_commands.value": "command_translation.help.argument.gamerule.log_admin_commands",
+    "gamerule.minecraft:max_block_modifications": "command_translation.help.argument.gamerule.max_block_modifications",
+    "gamerule.minecraft:max_block_modifications.value": "command_translation.help.argument.gamerule.max_block_modifications",
+    "gamerule.minecraft:max_command_forks": "command_translation.help.argument.gamerule.max_command_forks",
+    "gamerule.minecraft:max_command_forks.value": "command_translation.help.argument.gamerule.max_command_forks",
+    "gamerule.minecraft:max_command_sequence_length": "command_translation.help.argument.gamerule.max_command_sequence_length",
+    "gamerule.minecraft:max_command_sequence_length.value": "command_translation.help.argument.gamerule.max_command_sequence_length",
+    "gamerule.minecraft:max_entity_cramming": "command_translation.help.argument.gamerule.max_entity_cramming",
+    "gamerule.minecraft:max_entity_cramming.value": "command_translation.help.argument.gamerule.max_entity_cramming",
+    "gamerule.minecraft:max_minecart_speed": "command_translation.help.argument.gamerule.max_minecart_speed",
+    "gamerule.minecraft:max_minecart_speed.value": "command_translation.help.argument.gamerule.max_minecart_speed",
+    "gamerule.minecraft:max_snow_accumulation_height": "command_translation.help.argument.gamerule.max_snow_accumulation_height",
+    "gamerule.minecraft:max_snow_accumulation_height.value": "command_translation.help.argument.gamerule.max_snow_accumulation_height",
+    "gamerule.minecraft:mob_drops": "command_translation.help.argument.gamerule.mob_drops",
+    "gamerule.minecraft:mob_drops.value": "command_translation.help.argument.gamerule.mob_drops",
+    "gamerule.minecraft:mob_explosion_drop_decay": "command_translation.help.argument.gamerule.mob_explosion_drop_decay",
+    "gamerule.minecraft:mob_explosion_drop_decay.value": "command_translation.help.argument.gamerule.mob_explosion_drop_decay",
+    "gamerule.minecraft:mob_griefing": "command_translation.help.argument.gamerule.mob_griefing",
+    "gamerule.minecraft:mob_griefing.value": "command_translation.help.argument.gamerule.mob_griefing",
+    "gamerule.minecraft:natural_health_regeneration": "command_translation.help.argument.gamerule.natural_health_regeneration",
+    "gamerule.minecraft:natural_health_regeneration.value": "command_translation.help.argument.gamerule.natural_health_regeneration",
+    "gamerule.minecraft:player_movement_check": "command_translation.help.argument.gamerule.player_movement_check",
+    "gamerule.minecraft:player_movement_check.value": "command_translation.help.argument.gamerule.player_movement_check",
+    "gamerule.minecraft:players_nether_portal_creative_delay": "command_translation.help.argument.gamerule.players_nether_portal_creative_delay",
+    "gamerule.minecraft:players_nether_portal_creative_delay.value": "command_translation.help.argument.gamerule.players_nether_portal_creative_delay",
+    "gamerule.minecraft:players_nether_portal_default_delay": "command_translation.help.argument.gamerule.players_nether_portal_default_delay",
+    "gamerule.minecraft:players_nether_portal_default_delay.value": "command_translation.help.argument.gamerule.players_nether_portal_default_delay",
+    "gamerule.minecraft:players_sleeping_percentage": "command_translation.help.argument.gamerule.players_sleeping_percentage",
+    "gamerule.minecraft:players_sleeping_percentage.value": "command_translation.help.argument.gamerule.players_sleeping_percentage",
+    "gamerule.minecraft:projectiles_can_break_blocks": "command_translation.help.argument.gamerule.projectiles_can_break_blocks",
+    "gamerule.minecraft:projectiles_can_break_blocks.value": "command_translation.help.argument.gamerule.projectiles_can_break_blocks",
+    "gamerule.minecraft:pvp": "command_translation.help.argument.gamerule.pvp",
+    "gamerule.minecraft:pvp.value": "command_translation.help.argument.gamerule.pvp",
+    "gamerule.minecraft:raids": "command_translation.help.argument.gamerule.raids",
+    "gamerule.minecraft:raids.value": "command_translation.help.argument.gamerule.raids",
+    "gamerule.minecraft:random_tick_speed": "command_translation.help.argument.gamerule.random_tick_speed",
+    "gamerule.minecraft:random_tick_speed.value": "command_translation.help.argument.gamerule.random_tick_speed",
+    "gamerule.minecraft:reduced_debug_info": "command_translation.help.argument.gamerule.reduced_debug_info",
+    "gamerule.minecraft:reduced_debug_info.value": "command_translation.help.argument.gamerule.reduced_debug_info",
+    "gamerule.minecraft:respawn_radius": "command_translation.help.argument.gamerule.respawn_radius",
+    "gamerule.minecraft:respawn_radius.value": "command_translation.help.argument.gamerule.respawn_radius",
+    "gamerule.minecraft:send_command_feedback": "command_translation.help.argument.gamerule.send_command_feedback",
+    "gamerule.minecraft:send_command_feedback.value": "command_translation.help.argument.gamerule.send_command_feedback",
+    "gamerule.minecraft:show_advancement_messages": "command_translation.help.argument.gamerule.show_advancement_messages",
+    "gamerule.minecraft:show_advancement_messages.value": "command_translation.help.argument.gamerule.show_advancement_messages",
+    "gamerule.minecraft:show_death_messages": "command_translation.help.argument.gamerule.show_death_messages",
+    "gamerule.minecraft:show_death_messages.value": "command_translation.help.argument.gamerule.show_death_messages",
+    "gamerule.minecraft:spawn_mobs": "command_translation.help.argument.gamerule.spawn_mobs",
+    "gamerule.minecraft:spawn_mobs.value": "command_translation.help.argument.gamerule.spawn_mobs",
+    "gamerule.minecraft:spawn_monsters": "command_translation.help.argument.gamerule.spawn_monsters",
+    "gamerule.minecraft:spawn_monsters.value": "command_translation.help.argument.gamerule.spawn_monsters",
+    "gamerule.minecraft:spawn_patrols": "command_translation.help.argument.gamerule.spawn_patrols",
+    "gamerule.minecraft:spawn_patrols.value": "command_translation.help.argument.gamerule.spawn_patrols",
+    "gamerule.minecraft:spawn_phantoms": "command_translation.help.argument.gamerule.spawn_phantoms",
+    "gamerule.minecraft:spawn_phantoms.value": "command_translation.help.argument.gamerule.spawn_phantoms",
+    "gamerule.minecraft:spawn_wandering_traders": "command_translation.help.argument.gamerule.spawn_wandering_traders",
+    "gamerule.minecraft:spawn_wandering_traders.value": "command_translation.help.argument.gamerule.spawn_wandering_traders",
+    "gamerule.minecraft:spawn_wardens": "command_translation.help.argument.gamerule.spawn_wardens",
+    "gamerule.minecraft:spawn_wardens.value": "command_translation.help.argument.gamerule.spawn_wardens",
+    "gamerule.minecraft:spawner_blocks_work": "command_translation.help.argument.gamerule.spawner_blocks_work",
+    "gamerule.minecraft:spawner_blocks_work.value": "command_translation.help.argument.gamerule.spawner_blocks_work",
+    "gamerule.minecraft:spectators_generate_chunks": "command_translation.help.argument.gamerule.spectators_generate_chunks",
+    "gamerule.minecraft:spectators_generate_chunks.value": "command_translation.help.argument.gamerule.spectators_generate_chunks",
+    "gamerule.minecraft:spread_vines": "command_translation.help.argument.gamerule.spread_vines",
+    "gamerule.minecraft:spread_vines.value": "command_translation.help.argument.gamerule.spread_vines",
+    "gamerule.minecraft:tnt_explodes": "command_translation.help.argument.gamerule.tnt_explodes",
+    "gamerule.minecraft:tnt_explodes.value": "command_translation.help.argument.gamerule.tnt_explodes",
+    "gamerule.minecraft:tnt_explosion_drop_decay": "command_translation.help.argument.gamerule.tnt_explosion_drop_decay",
+    "gamerule.minecraft:tnt_explosion_drop_decay.value": "command_translation.help.argument.gamerule.tnt_explosion_drop_decay",
+    "gamerule.minecraft:universal_anger": "command_translation.help.argument.gamerule.universal_anger",
+    "gamerule.minecraft:universal_anger.value": "command_translation.help.argument.gamerule.universal_anger",
+    "gamerule.minecraft:water_source_conversion": "command_translation.help.argument.gamerule.water_source_conversion",
+    "gamerule.minecraft:water_source_conversion.value": "command_translation.help.argument.gamerule.water_source_conversion"
+  },
+  "de_de": {
+    "command_translation.help.argument.gamerule.advance_time": "Ob die Weltzeit weiterläuft, also der Tag-/Nacht-Zyklus.",
+    "command_translation.help.argument.gamerule.advance_weather": "Ob sich das Wetter mit der Zeit ändert.",
+    "command_translation.help.argument.gamerule.allow_entering_nether_using_portals": "Ob Spieler durch Portale in den Nether reisen dürfen.",
+    "command_translation.help.argument.gamerule.block_drops": "Ob abgebaute Blöcke ihre Gegenstände fallen lassen.",
+    "command_translation.help.argument.gamerule.block_explosion_drop_decay": "Ob Blockexplosionen einen Teil der Drops zerstören können.",
+    "command_translation.help.argument.gamerule.command_block_output": "Ob Befehlsblöcke ihre Ausgabe an Operatoren senden.",
+    "command_translation.help.argument.gamerule.command_blocks_work": "Ob Befehlsblöcke die enthaltenen Befehle ausführen.",
+    "command_translation.help.argument.gamerule.drowning_damage": "Ob Spieler Ertrinkungsschaden erleiden; false schützt Spieler, nicht alle Entitäten.",
+    "command_translation.help.argument.gamerule.elytra_movement_check": "Ob der Server die Elytren-Flugbewegung überprüft; true aktiviert die Prüfung.",
+    "command_translation.help.argument.gamerule.disable_elytra_movement_check": "Ob die Elytren-Bewegungsprüfung DEAKTIVIERT wird; true schaltet die Prüfung aus.",
+    "command_translation.help.argument.gamerule.ender_pearls_vanish_on_death": "Ob geworfene Enderperlen verschwinden, wenn ihr Werfer stirbt.",
+    "command_translation.help.argument.gamerule.entity_drops": "Ob Nicht-Mob-Entitäten wie Loren und Rahmen beim Zerstören Gegenstände fallen lassen; Mob-Beute steuert mob_drops.",
+    "command_translation.help.argument.gamerule.fall_damage": "Ob Spieler Fallschaden erleiden; false schützt Spieler, nicht alle Entitäten.",
+    "command_translation.help.argument.gamerule.fire_damage": "Ob Spieler Schaden durch Feuer, Lava, Lagerfeuer und Magmablöcke erleiden.",
+    "command_translation.help.argument.gamerule.fire_spread_radius_around_player": "Maximale Entfernung in Blöcken von einem Spieler, in der sich Feuer ausbreiten darf; 0 deaktiviert die Ausbreitung, -1 hebt das Limit auf.",
+    "command_translation.help.argument.gamerule.forgive_dead_players": "Ob verärgerte neutrale Mobs einem Spieler vergeben, nachdem dieser gestorben ist.",
+    "command_translation.help.argument.gamerule.freeze_damage": "Ob Spieler in Pulverschnee Erfrierungsschaden erleiden.",
+    "command_translation.help.argument.gamerule.global_sound_events": "Ob bestimmte Klangereignisse von allen Spielern unabhängig von der Entfernung gehört werden.",
+    "command_translation.help.argument.gamerule.immediate_respawn": "Ob Spieler sofort wiederauferstehen und den Todesbildschirm überspringen.",
+    "command_translation.help.argument.gamerule.keep_inventory": "Ob Spieler nach dem Tod Inventargegenstände und Erfahrung behalten.",
+    "command_translation.help.argument.gamerule.lava_source_conversion": "Ob fließende Lava neben zwei Lavaquellen zu einem Quellblock wird.",
+    "command_translation.help.argument.gamerule.limited_crafting": "Ob Spieler ein Rezept erst freischalten müssen, bevor sie es herstellen können.",
+    "command_translation.help.argument.gamerule.locator_bar": "Ob die HUD-Ortungsleiste Wegpunkte für andere Spieler und sendende Entitäten anzeigt.",
+    "command_translation.help.argument.gamerule.log_admin_commands": "Ob Admin-Befehle, die nicht von Befehlsblöcken ausgeführt werden, in die Serverkonsole geschrieben werden.",
+    "command_translation.help.argument.gamerule.max_block_modifications": "Die meisten Blöcke, die ein einzelner Befehl ändern darf; Standard 32768.",
+    "command_translation.help.argument.gamerule.max_command_forks": "Maximale Anzahl an Ausführungskontexten, die Befehle in einem Tick erzeugen dürfen, einschließlich Verzweigungen von Befehlen mit mehreren Zielen.",
+    "command_translation.help.argument.gamerule.max_command_sequence_length": "Maximale Anzahl an Befehlen in einer Kette, die in einem Tick von einer Ausführungsquelle ausgeführt werden.",
+    "command_translation.help.argument.gamerule.max_entity_cramming": "Maximale Anzahl schiebbarer Entitäten, gegen die ein Mob oder Spieler gedrängt werden kann, bevor er Engschaden erleidet; Standard 24, 0 deaktiviert diesen Schaden.",
+    "command_translation.help.argument.gamerule.max_minecart_speed": "Die maximale Geschwindigkeit von Loren, in Blöcken pro Sekunde.",
+    "command_translation.help.argument.gamerule.max_snow_accumulation_height": "Die maximale Anzahl an Schneeschichten, die sich bei Schneefall ansammeln.",
+    "command_translation.help.argument.gamerule.mob_drops": "Ob Mobs beim Töten Gegenstände und Erfahrungskugeln fallen lassen.",
+    "command_translation.help.argument.gamerule.mob_explosion_drop_decay": "Ob von Mobs verursachte Explosionen einen Teil der Drops zerstören können.",
+    "command_translation.help.argument.gamerule.mob_griefing": "Ob Mobs Blöcke ändern oder Gegenstände aufnehmen dürfen, etwa Creeper, die Gelände zerstören, und Dorfbewohner, die Nahrung einsammeln.",
+    "command_translation.help.argument.gamerule.natural_health_regeneration": "Ob Spieler bei ausreichender Sättigung natürlich Gesundheit regenerieren; false deaktiviert keine Heilung durch Tränke und externe Quellen.",
+    "command_translation.help.argument.gamerule.player_movement_check": "Ob der Server die Bewegungsgeschwindigkeit von Spielern prüft; false deaktiviert nur diese Geschwindigkeitsprüfung.",
+    "command_translation.help.argument.gamerule.players_nether_portal_creative_delay": "Wie viele Spielticks ein Spieler im Kreativmodus in einem Netherportal stehen muss, bevor er teleportiert wird.",
+    "command_translation.help.argument.gamerule.players_nether_portal_default_delay": "Wie viele Spielticks ein Spieler im Nicht-Kreativmodus in einem Netherportal stehen muss, bevor er teleportiert wird.",
+    "command_translation.help.argument.gamerule.players_sleeping_percentage": "Prozentsatz der berechtigten Oberwelt-Spieler, die schlafen müssen, um die Nacht zu überspringen; über 100 verhindert das Überspringen, nicht das Schlafen selbst.",
+    "command_translation.help.argument.gamerule.projectiles_can_break_blocks": "Ob Projektile Blöcke zerbrechen können.",
+    "command_translation.help.argument.gamerule.pvp": "Ob Spieler sich gegenseitig Schaden zufügen können.",
+    "command_translation.help.argument.gamerule.raids": "Ob Überfälle beginnen dürfen; true erlaubt sie.",
+    "command_translation.help.argument.gamerule.disable_raids": "Ob Überfälle deaktiviert werden; true stoppt sie.",
+    "command_translation.help.argument.gamerule.random_tick_speed": "Wie viele zufällige Blockticks pro Chunk-Abschnitt in jedem Tick auftreten; 0 deaktiviert sie.",
+    "command_translation.help.argument.gamerule.reduced_debug_info": "Ob der Debug-Bildschirm die meisten Informationen auslässt.",
+    "command_translation.help.argument.gamerule.respawn_radius": "Radius in Blöcken um den Weltspawn, in dem Spieler wiederauferstehen.",
+    "command_translation.help.argument.gamerule.send_command_feedback": "Ob die Ergebnisse von Befehlen an Spieler zurückgesendet werden.",
+    "command_translation.help.argument.gamerule.show_advancement_messages": "Ob das Erreichen eines Fortschritts im Chat angekündigt wird.",
+    "command_translation.help.argument.gamerule.show_death_messages": "Ob Todesmeldungen im Chat angekündigt werden.",
+    "command_translation.help.argument.gamerule.spawn_mobs": "Ob Mobs natürlich spawnen.",
+    "command_translation.help.argument.gamerule.spawn_monsters": "Ob feindliche Monster natürlich spawnen.",
+    "command_translation.help.argument.gamerule.spawn_patrols": "Ob Plündererpatrouillen spawnen.",
+    "command_translation.help.argument.gamerule.spawn_phantoms": "Ob Phantome durch Schlaflosigkeit von Spielern spawnen.",
+    "command_translation.help.argument.gamerule.spawn_wandering_traders": "Ob fahrende Händler spawnen.",
+    "command_translation.help.argument.gamerule.spawn_wardens": "Ob Wärter spawnen dürfen.",
+    "command_translation.help.argument.gamerule.spawner_blocks_work": "Ob Monsterspawner-Blöcke funktionieren.",
+    "command_translation.help.argument.gamerule.spectators_generate_chunks": "Ob Zuschauer um sich herum neue Chunks generieren können; false löscht bereits generierte Chunks nicht.",
+    "command_translation.help.argument.gamerule.spread_vines": "Ob sich gewöhnliche Ranken auf benachbarte Blöcke ausbreiten; Höhlenranken, verdrehte Ranken und Trauerranken sind davon nicht betroffen.",
+    "command_translation.help.argument.gamerule.tnt_explodes": "Ob gezündetes TNT tatsächlich explodiert.",
+    "command_translation.help.argument.gamerule.tnt_explosion_drop_decay": "Ob TNT-Explosionen einen Teil der Drops zerstören können.",
+    "command_translation.help.argument.gamerule.universal_anger": "Ob verärgerte neutrale Mobs jeden nahen Spieler angreifen, statt nur den, der sie verärgert hat.",
+    "command_translation.help.argument.gamerule.water_source_conversion": "Ob fließendes Wasser neben zwei Wasserquellen zu einem Quellblock wird.",
+    "command_translation.help.argument.gamerule.do_fire_tick": "Ob sich Feuer auf nahe brennbare Blöcke ausbreitet und schließlich erlischt.",
+    "command_translation.help.argument.gamerule.spawn_chunk_radius": "Der Radius in Chunks um den Weltspawn, der geladen gehalten wird."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.gamerule.advance_time": "ワールド時間が進み続けるか、つまり昼夜サイクル。",
+    "command_translation.help.argument.gamerule.advance_weather": "天気が時間とともに変化するか。",
+    "command_translation.help.argument.gamerule.allow_entering_nether_using_portals": "プレイヤーがポータルでネザーへ行けるか。",
+    "command_translation.help.argument.gamerule.block_drops": "壊したブロックがアイテムをドロップするか。",
+    "command_translation.help.argument.gamerule.block_explosion_drop_decay": "ブロックの爆発がドロップの一部を消滅させ得るか。",
+    "command_translation.help.argument.gamerule.command_block_output": "コマンドブロックが出力をオペレーターに通知するか。",
+    "command_translation.help.argument.gamerule.command_blocks_work": "コマンドブロックが中に入っているコマンドを実行するか。",
+    "command_translation.help.argument.gamerule.drowning_damage": "プレイヤーが溺死ダメージを受けるか。false はプレイヤーを守るだけで、すべてのエンティティではない。",
+    "command_translation.help.argument.gamerule.elytra_movement_check": "サーバーがエリトラ飛行の移動を検証するか。true で検証が有効。",
+    "command_translation.help.argument.gamerule.disable_elytra_movement_check": "エリトラ移動チェックを無効化するか。true でチェックがオフになる。",
+    "command_translation.help.argument.gamerule.ender_pearls_vanish_on_death": "投げたエンダーパールが投げた者の死亡時に消えるか。",
+    "command_translation.help.argument.gamerule.entity_drops": "トロッコや額縁など非 Mob のエンティティが破壊時にアイテムをドロップするか。Mob のドロップは mob_drops が制御する。",
+    "command_translation.help.argument.gamerule.fall_damage": "プレイヤーが落下ダメージを受けるか。false はプレイヤーを守るだけで、すべてのエンティティではない。",
+    "command_translation.help.argument.gamerule.fire_damage": "プレイヤーが火、溶岩、焚き火、マグマブロックからダメージを受けるか。",
+    "command_translation.help.argument.gamerule.fire_spread_radius_around_player": "火が燃え広がれる、プレイヤーからの最大距離（ブロック）。0 で延焼を無効化、-1 で距離制限を撤廃。",
+    "command_translation.help.argument.gamerule.forgive_dead_players": "怒った中立 Mob が、そのプレイヤーの死亡後に許すか。",
+    "command_translation.help.argument.gamerule.freeze_damage": "プレイヤーが粉雪で凍結ダメージを受けるか。",
+    "command_translation.help.argument.gamerule.global_sound_events": "特定のサウンドイベントが距離に関係なく全プレイヤーに聞こえるか。",
+    "command_translation.help.argument.gamerule.immediate_respawn": "プレイヤーが即座にリスポーンし、死亡画面を飛ばすか。",
+    "command_translation.help.argument.gamerule.keep_inventory": "プレイヤーが死亡後もインベントリのアイテムと経験値の両方を保持するか。",
+    "command_translation.help.argument.gamerule.lava_source_conversion": "2 つの溶岩源に隣接する流れる溶岩が源ブロック化するか。",
+    "command_translation.help.argument.gamerule.limited_crafting": "プレイヤーがレシピをクラフトする前に解除する必要があるか。",
+    "command_translation.help.argument.gamerule.locator_bar": "HUD のロケーターバーが、他のプレイヤーや発信エンティティを示すウェイポイントを表示するか。",
+    "command_translation.help.argument.gamerule.log_admin_commands": "コマンドブロック以外から実行された管理コマンドがサーバーコンソールに記録されるか。",
+    "command_translation.help.argument.gamerule.max_block_modifications": "1 つのコマンドが変更できるブロックの最大数。既定は 32768。",
+    "command_translation.help.argument.gamerule.max_command_forks": "1 ティック内にコマンドが作成できる実行コンテキストの最大数。複数のエンティティを対象とするコマンドによる分岐も含む。",
+    "command_translation.help.argument.gamerule.max_command_sequence_length": "1 つの実行元から 1 ティック内に実行されるチェーン内のコマンドの最大数。",
+    "command_translation.help.argument.gamerule.max_entity_cramming": "Mob やプレイヤーが圧迫ダメージを受けるまでに、押し出し可能なエンティティと密集できる最大数。既定は 24、0 でこのダメージを無効化。",
+    "command_translation.help.argument.gamerule.max_minecart_speed": "トロッコの最高速度（ブロック毎秒）。",
+    "command_translation.help.argument.gamerule.max_snow_accumulation_height": "降雪時に積もる雪の最大層数。",
+    "command_translation.help.argument.gamerule.mob_drops": "Mob が倒されたときにアイテムと経験値オーブをドロップするか。",
+    "command_translation.help.argument.gamerule.mob_explosion_drop_decay": "Mob が起こした爆発がドロップの一部を消滅させ得るか。",
+    "command_translation.help.argument.gamerule.mob_griefing": "Mob がブロックを変更したりアイテムを拾ったりできるか。例：クリーパーが地形を壊し、村人が食料を回収する。",
+    "command_translation.help.argument.gamerule.natural_health_regeneration": "十分に満腹のとき、プレイヤーが自然に体力を回復するか。false でもポーションなど外部からの回復は無効にならない。",
+    "command_translation.help.argument.gamerule.player_movement_check": "サーバーがプレイヤーの移動速度をチェックするか。false でこの速度チェックだけが無効になる。",
+    "command_translation.help.argument.gamerule.players_nether_portal_creative_delay": "クリエイティブのプレイヤーがテレポートする前にネザーポータル内に立つ必要があるゲームティック数。",
+    "command_translation.help.argument.gamerule.players_nether_portal_default_delay": "非クリエイティブのプレイヤーがテレポートする前にネザーポータル内に立つ必要があるゲームティック数。",
+    "command_translation.help.argument.gamerule.players_sleeping_percentage": "夜を飛ばすために就寝が必要な、対象となるオーバーワールドのプレイヤーの割合。100 超は夜飛ばしを防ぐが、就寝自体は防がない。",
+    "command_translation.help.argument.gamerule.projectiles_can_break_blocks": "発射物がブロックを壊せるか。",
+    "command_translation.help.argument.gamerule.pvp": "プレイヤー同士がダメージを与え合えるか。",
+    "command_translation.help.argument.gamerule.raids": "襲撃が始まってよいか。true で許可。",
+    "command_translation.help.argument.gamerule.disable_raids": "襲撃を無効化するか。true で襲撃が止まる。",
+    "command_translation.help.argument.gamerule.random_tick_speed": "毎ティック、チャンクセクションごとに発生するランダムブロックティックの数。0 で無効化。",
+    "command_translation.help.argument.gamerule.reduced_debug_info": "デバッグ画面がほとんどの情報を省略するか。",
+    "command_translation.help.argument.gamerule.respawn_radius": "プレイヤーがリスポーンするワールドスポーン周辺の半径（ブロック）。",
+    "command_translation.help.argument.gamerule.send_command_feedback": "コマンドの結果がプレイヤーに返されるか。",
+    "command_translation.help.argument.gamerule.show_advancement_messages": "進捗の獲得がチャットで通知されるか。",
+    "command_translation.help.argument.gamerule.show_death_messages": "死亡メッセージがチャットで通知されるか。",
+    "command_translation.help.argument.gamerule.spawn_mobs": "Mob が自然にスポーンするか。",
+    "command_translation.help.argument.gamerule.spawn_monsters": "敵対モンスターが自然にスポーンするか。",
+    "command_translation.help.argument.gamerule.spawn_patrols": "ピリジャーの巡回隊がスポーンするか。",
+    "command_translation.help.argument.gamerule.spawn_phantoms": "ファントムがプレイヤーの不眠からスポーンするか。",
+    "command_translation.help.argument.gamerule.spawn_wandering_traders": "行商人がスポーンするか。",
+    "command_translation.help.argument.gamerule.spawn_wardens": "ウォーデンがスポーンしてよいか。",
+    "command_translation.help.argument.gamerule.spawner_blocks_work": "モンスタースポナーが機能するか。",
+    "command_translation.help.argument.gamerule.spectators_generate_chunks": "スペクテイターが周囲に新しいチャンクを生成できるか。false でも生成済みのチャンクは消去されない。",
+    "command_translation.help.argument.gamerule.spread_vines": "普通のツタが隣接ブロックへ広がるか。洞窟のツタ、ねじれツタ、しだれツタは対象外。",
+    "command_translation.help.argument.gamerule.tnt_explodes": "点火された TNT が実際に爆発するか。",
+    "command_translation.help.argument.gamerule.tnt_explosion_drop_decay": "TNT の爆発がドロップの一部を消滅させ得るか。",
+    "command_translation.help.argument.gamerule.universal_anger": "怒った中立 Mob が、怒らせた相手だけでなく近くの任意のプレイヤーを攻撃するか。",
+    "command_translation.help.argument.gamerule.water_source_conversion": "2 つの水源に隣接する流れる水が源ブロック化するか。",
+    "command_translation.help.argument.gamerule.do_fire_tick": "火が近くの可燃ブロックへ燃え広がり、やがて消えるか。",
+    "command_translation.help.argument.gamerule.spawn_chunk_radius": "ロード状態に保たれる、ワールドスポーン周辺のチャンク単位の半径。"
+  },
+  "syntax": [
+    {
+      "path": "gamerule",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.announceAdvancements",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.announceAdvancements.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.blockExplosionDropDecay",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.blockExplosionDropDecay.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.commandBlockOutput",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.commandBlockOutput.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.commandModificationBlockLimit",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.commandModificationBlockLimit.value",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.disableElytraMovementCheck",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.disableElytraMovementCheck.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.disableRaids",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.disableRaids.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.doDaylightCycle",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.doDaylightCycle.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.doEntityDrops",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.doEntityDrops.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.doFireTick",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.doFireTick.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.doImmediateRespawn",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.doImmediateRespawn.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.doInsomnia",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.doInsomnia.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.doLimitedCrafting",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.doLimitedCrafting.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.doMobLoot",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.doMobLoot.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.doMobSpawning",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.doMobSpawning.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.doPatrolSpawning",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.doPatrolSpawning.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.doTileDrops",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.doTileDrops.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.doTraderSpawning",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.doTraderSpawning.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.doVinesSpread",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.doVinesSpread.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.doWardenSpawning",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.doWardenSpawning.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.doWeatherCycle",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.doWeatherCycle.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.drowningDamage",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.drowningDamage.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.fallDamage",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.fallDamage.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.fireDamage",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.fireDamage.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.forgiveDeadPlayers",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.forgiveDeadPlayers.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.freezeDamage",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.freezeDamage.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.globalSoundEvents",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.globalSoundEvents.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.keepInventory",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.keepInventory.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.lavaSourceConversion",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.lavaSourceConversion.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.logAdminCommands",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.logAdminCommands.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.maxCommandChainLength",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.maxCommandChainLength.value",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.maxEntityCramming",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.maxEntityCramming.value",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.mobExplosionDropDecay",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.mobExplosionDropDecay.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.mobGriefing",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.mobGriefing.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.naturalRegeneration",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.naturalRegeneration.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.playersSleepingPercentage",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.playersSleepingPercentage.value",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.randomTickSpeed",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.randomTickSpeed.value",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.reducedDebugInfo",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.reducedDebugInfo.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.sendCommandFeedback",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.sendCommandFeedback.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.showDeathMessages",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.showDeathMessages.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.snowAccumulationHeight",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.snowAccumulationHeight.value",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.spawnRadius",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.spawnRadius.value",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.spectatorsGenerateChunks",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.spectatorsGenerateChunks.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.tntExplosionDropDecay",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.tntExplosionDropDecay.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.universalAnger",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.universalAnger.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.waterSourceConversion",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.waterSourceConversion.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.enderPearlsVanishOnDeath",
+      "type": "literal",
+      "versions": [
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.enderPearlsVanishOnDeath.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.maxCommandForkCount",
+      "type": "literal",
+      "versions": [
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.maxCommandForkCount.value",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "versions": [
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.playersNetherPortalCreativeDelay",
+      "type": "literal",
+      "versions": [
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.playersNetherPortalCreativeDelay.value",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "versions": [
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.playersNetherPortalDefaultDelay",
+      "type": "literal",
+      "versions": [
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.playersNetherPortalDefaultDelay.value",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "versions": [
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.projectilesCanBreakBlocks",
+      "type": "literal",
+      "versions": [
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.projectilesCanBreakBlocks.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.spawnChunkRadius",
+      "type": "literal",
+      "versions": [
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.spawnChunkRadius.value",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "max": 32,
+        "min": 0
+      },
+      "versions": [
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "gamerule.advance_time",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.advance_time.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.advance_weather",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.advance_weather.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.allow_entering_nether_using_portals",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.allow_entering_nether_using_portals.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.block_drops",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.block_drops.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.block_explosion_drop_decay",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.block_explosion_drop_decay.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.command_block_output",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.command_block_output.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.command_blocks_work",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.command_blocks_work.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.drowning_damage",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.drowning_damage.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.elytra_movement_check",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.elytra_movement_check.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.ender_pearls_vanish_on_death",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.ender_pearls_vanish_on_death.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.entity_drops",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.entity_drops.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.fall_damage",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.fall_damage.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.fire_damage",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.fire_damage.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.fire_spread_radius_around_player",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.fire_spread_radius_around_player.value",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "min": -1
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.forgive_dead_players",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.forgive_dead_players.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.freeze_damage",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.freeze_damage.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.global_sound_events",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.global_sound_events.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.immediate_respawn",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.immediate_respawn.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.keep_inventory",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.keep_inventory.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.lava_source_conversion",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.lava_source_conversion.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.limited_crafting",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.limited_crafting.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.locator_bar",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.locator_bar.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.log_admin_commands",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.log_admin_commands.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.max_block_modifications",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.max_block_modifications.value",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "min": 1
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.max_command_forks",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.max_command_forks.value",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.max_command_sequence_length",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.max_command_sequence_length.value",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.max_entity_cramming",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.max_entity_cramming.value",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.max_minecart_speed",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.max_minecart_speed.value",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "max": 1000,
+        "min": 1
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.max_snow_accumulation_height",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.max_snow_accumulation_height.value",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "max": 8,
+        "min": 0
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:advance_time",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:advance_time.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:advance_weather",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:advance_weather.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:allow_entering_nether_using_portals",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:allow_entering_nether_using_portals.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:block_drops",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:block_drops.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:block_explosion_drop_decay",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:block_explosion_drop_decay.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:command_block_output",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:command_block_output.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:command_blocks_work",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:command_blocks_work.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:drowning_damage",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:drowning_damage.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:elytra_movement_check",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:elytra_movement_check.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:ender_pearls_vanish_on_death",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:ender_pearls_vanish_on_death.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:entity_drops",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:entity_drops.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:fall_damage",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:fall_damage.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:fire_damage",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:fire_damage.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:fire_spread_radius_around_player",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:fire_spread_radius_around_player.value",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "min": -1
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:forgive_dead_players",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:forgive_dead_players.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:freeze_damage",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:freeze_damage.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:global_sound_events",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:global_sound_events.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:immediate_respawn",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:immediate_respawn.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:keep_inventory",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:keep_inventory.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:lava_source_conversion",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:lava_source_conversion.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:limited_crafting",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:limited_crafting.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:locator_bar",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:locator_bar.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:log_admin_commands",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:log_admin_commands.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:max_block_modifications",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:max_block_modifications.value",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "min": 1
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:max_command_forks",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:max_command_forks.value",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:max_command_sequence_length",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:max_command_sequence_length.value",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:max_entity_cramming",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:max_entity_cramming.value",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:max_minecart_speed",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:max_minecart_speed.value",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "max": 1000,
+        "min": 1
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:max_snow_accumulation_height",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:max_snow_accumulation_height.value",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "max": 8,
+        "min": 0
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:mob_drops",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:mob_drops.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:mob_explosion_drop_decay",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:mob_explosion_drop_decay.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:mob_griefing",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:mob_griefing.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:natural_health_regeneration",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:natural_health_regeneration.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:player_movement_check",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:player_movement_check.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:players_nether_portal_creative_delay",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:players_nether_portal_creative_delay.value",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:players_nether_portal_default_delay",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:players_nether_portal_default_delay.value",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:players_sleeping_percentage",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:players_sleeping_percentage.value",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:projectiles_can_break_blocks",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:projectiles_can_break_blocks.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:pvp",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:pvp.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:raids",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:raids.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:random_tick_speed",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:random_tick_speed.value",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:reduced_debug_info",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:reduced_debug_info.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:respawn_radius",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:respawn_radius.value",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:send_command_feedback",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:send_command_feedback.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:show_advancement_messages",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:show_advancement_messages.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:show_death_messages",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:show_death_messages.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:spawn_mobs",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:spawn_mobs.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:spawn_monsters",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:spawn_monsters.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:spawn_patrols",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:spawn_patrols.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:spawn_phantoms",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:spawn_phantoms.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:spawn_wandering_traders",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:spawn_wandering_traders.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:spawn_wardens",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:spawn_wardens.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:spawner_blocks_work",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:spawner_blocks_work.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:spectators_generate_chunks",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:spectators_generate_chunks.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:spread_vines",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:spread_vines.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:tnt_explodes",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:tnt_explodes.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:tnt_explosion_drop_decay",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:tnt_explosion_drop_decay.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:universal_anger",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:universal_anger.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:water_source_conversion",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.minecraft:water_source_conversion.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.mob_drops",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.mob_drops.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.mob_explosion_drop_decay",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.mob_explosion_drop_decay.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.mob_griefing",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.mob_griefing.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.natural_health_regeneration",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.natural_health_regeneration.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.player_movement_check",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.player_movement_check.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.players_nether_portal_creative_delay",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.players_nether_portal_creative_delay.value",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.players_nether_portal_default_delay",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.players_nether_portal_default_delay.value",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.players_sleeping_percentage",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.players_sleeping_percentage.value",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.projectiles_can_break_blocks",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.projectiles_can_break_blocks.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.pvp",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.pvp.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.raids",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.raids.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.random_tick_speed",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.random_tick_speed.value",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.reduced_debug_info",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.reduced_debug_info.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.respawn_radius",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.respawn_radius.value",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.send_command_feedback",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.send_command_feedback.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.show_advancement_messages",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.show_advancement_messages.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.show_death_messages",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.show_death_messages.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.spawn_mobs",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.spawn_mobs.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.spawn_monsters",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.spawn_monsters.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.spawn_patrols",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.spawn_patrols.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.spawn_phantoms",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.spawn_phantoms.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.spawn_wandering_traders",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.spawn_wandering_traders.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.spawn_wardens",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.spawn_wardens.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.spawner_blocks_work",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.spawner_blocks_work.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.spectators_generate_chunks",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.spectators_generate_chunks.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.spread_vines",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.spread_vines.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.tnt_explodes",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.tnt_explodes.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.tnt_explosion_drop_decay",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.tnt_explosion_drop_decay.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.universal_anger",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.universal_anger.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.water_source_conversion",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamerule.water_source_conversion.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

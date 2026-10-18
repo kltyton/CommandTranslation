@@ -1,0 +1,296 @@
+{
+  "sources": {
+    "command_translation.tag.entity_type.c.boats": [
+      {
+        "artifact": "net.neoforged:neoforge:21.1.234",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.1.2.84",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:2.12.0+c3656daa19",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.6.2+4f11f7994c",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.7.1+1f023a9e9e",
+        "resource": "assets/*/lang/*.json"
+      }
+    ],
+    "command_translation.tag.entity_type.c.bosses": [
+      {
+        "artifact": "net.neoforged:neoforge:21.1.234",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.1.2.84",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:2.12.0+c3656daa19",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.6.2+4f11f7994c",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.7.1+1f023a9e9e",
+        "resource": "assets/*/lang/*.json"
+      }
+    ],
+    "command_translation.tag.entity_type.c.capturing_not_supported": [
+      {
+        "artifact": "net.neoforged:neoforge:21.1.234",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.1.2.84",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:2.12.0+c3656daa19",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.6.2+4f11f7994c",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.7.1+1f023a9e9e",
+        "resource": "assets/*/lang/*.json"
+      }
+    ],
+    "command_translation.tag.entity_type.c.minecarts": [
+      {
+        "artifact": "net.neoforged:neoforge:21.1.234",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.1.2.84",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:2.12.0+c3656daa19",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.6.2+4f11f7994c",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.7.1+1f023a9e9e",
+        "resource": "assets/*/lang/*.json"
+      }
+    ],
+    "command_translation.tag.entity_type.c.teleporting_not_supported": [
+      {
+        "artifact": "net.neoforged:neoforge:21.1.234",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.1.2.84",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:2.12.0+c3656daa19",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.6.2+4f11f7994c",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.7.1+1f023a9e9e",
+        "resource": "assets/*/lang/*.json"
+      }
+    ],
+    "command_translation.tag.entity_type.c.item_frames": [
+      {
+        "artifact": "net.neoforged:neoforge:26.1.2.84",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.6.2+4f11f7994c",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.7.1+1f023a9e9e",
+        "resource": "assets/*/lang/*.json"
+      }
+    ],
+    "command_translation.tag.entity_type.forge.bosses": [
+      {
+        "artifact": "net.neoforged:neoforge:21.1.234",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.1.2.84",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:2.12.0+c3656daa19",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.6.2+4f11f7994c",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.7.1+1f023a9e9e",
+        "resource": "assets/*/lang/*.json"
+      }
+    ]
+  },
+  "en_us": {
+    "command_translation.tag.entity_type.c.boats": "Boats",
+    "command_translation.tag.entity_type.c.bosses": "Bosses",
+    "command_translation.tag.entity_type.c.capturing_not_supported": "Capturing Not Supported",
+    "command_translation.tag.entity_type.c.minecarts": "Minecarts",
+    "command_translation.tag.entity_type.c.teleporting_not_supported": "Teleporting Not Supported",
+    "command_translation.tag.entity_type.c.item_frames": "Item Frames",
+    "command_translation.tag.entity_type.forge.bosses": "Bosses"
+  },
+  "cs_cz": {
+    "command_translation.tag.entity_type.c.boats": "Lodě"
+  },
+  "de_de": {
+    "command_translation.tag.entity_type.c.boats": "Boote",
+    "command_translation.tag.entity_type.c.bosses": "Bosse",
+    "command_translation.tag.entity_type.c.capturing_not_supported": "Aufnahme nicht unterstützt",
+    "command_translation.tag.entity_type.c.minecarts": "Loren",
+    "command_translation.tag.entity_type.c.teleporting_not_supported": "Teleportation nicht unterstützt",
+    "command_translation.tag.entity_type.forge.bosses": "Bosse"
+  },
+  "it_it": {
+    "command_translation.tag.entity_type.c.boats": "Barche",
+    "command_translation.tag.entity_type.c.bosses": "Boss",
+    "command_translation.tag.entity_type.c.capturing_not_supported": "Cattura non supportata",
+    "command_translation.tag.entity_type.c.minecarts": "Vagonetti",
+    "command_translation.tag.entity_type.c.teleporting_not_supported": "Teletrasporto non supportato",
+    "command_translation.tag.entity_type.c.item_frames": "Cornici",
+    "command_translation.tag.entity_type.forge.bosses": "Boss"
+  },
+  "ja_jp": {
+    "command_translation.tag.entity_type.c.boats": "ボート",
+    "command_translation.tag.entity_type.c.bosses": "ボス",
+    "command_translation.tag.entity_type.c.capturing_not_supported": "捕獲不可",
+    "command_translation.tag.entity_type.c.minecarts": "トロッコ",
+    "command_translation.tag.entity_type.c.teleporting_not_supported": "テレポート不可",
+    "command_translation.tag.entity_type.forge.bosses": "ボス"
+  },
+  "ko_kr": {
+    "command_translation.tag.entity_type.c.boats": "배",
+    "command_translation.tag.entity_type.c.bosses": "보스",
+    "command_translation.tag.entity_type.c.minecarts": "광산 수레",
+    "command_translation.tag.entity_type.c.capturing_not_supported": "캡쳐 지원되지 않음",
+    "command_translation.tag.entity_type.c.teleporting_not_supported": "순간이동이 지원되지 않음",
+    "command_translation.tag.entity_type.forge.bosses": "보스"
+  },
+  "ms_my": {
+    "command_translation.tag.entity_type.c.boats": "Sampan",
+    "command_translation.tag.entity_type.c.bosses": "Bos",
+    "command_translation.tag.entity_type.c.capturing_not_supported": "Penangkapan Tidak Disokong",
+    "command_translation.tag.entity_type.c.minecarts": "Kereta Lombong",
+    "command_translation.tag.entity_type.c.teleporting_not_supported": "Rentas Jarak Tidak Disokong",
+    "command_translation.tag.entity_type.forge.bosses": "Bos"
+  },
+  "pl_pl": {
+    "command_translation.tag.entity_type.c.boats": "Łódki",
+    "command_translation.tag.entity_type.c.bosses": "Bossy",
+    "command_translation.tag.entity_type.c.capturing_not_supported": "Schwytanie niewspierane",
+    "command_translation.tag.entity_type.c.minecarts": "Wagoniki",
+    "command_translation.tag.entity_type.c.teleporting_not_supported": "Teleportowanie niewspierane",
+    "command_translation.tag.entity_type.forge.bosses": "Bossy"
+  },
+  "pt_br": {
+    "command_translation.tag.entity_type.c.boats": "Botes",
+    "command_translation.tag.entity_type.c.bosses": "Chefes",
+    "command_translation.tag.entity_type.c.capturing_not_supported": "Captura não suportada",
+    "command_translation.tag.entity_type.c.minecarts": "Carrinhos de mina",
+    "command_translation.tag.entity_type.c.teleporting_not_supported": "Teleporte não suportado",
+    "command_translation.tag.entity_type.forge.bosses": "Chefes"
+  },
+  "ru_ru": {
+    "command_translation.tag.entity_type.c.boats": "Лодки",
+    "command_translation.tag.entity_type.c.bosses": "Боссы",
+    "command_translation.tag.entity_type.c.capturing_not_supported": "Захват не поддерживается",
+    "command_translation.tag.entity_type.c.minecarts": "Вагонетки",
+    "command_translation.tag.entity_type.c.teleporting_not_supported": "Телепортация не поддерживается",
+    "command_translation.tag.entity_type.forge.bosses": "Боссы"
+  },
+  "zh_cn": {
+    "command_translation.tag.entity_type.c.boats": "船",
+    "command_translation.tag.entity_type.c.bosses": "Boss",
+    "command_translation.tag.entity_type.c.capturing_not_supported": "不支持捕捉",
+    "command_translation.tag.entity_type.c.minecarts": "矿车",
+    "command_translation.tag.entity_type.c.teleporting_not_supported": "不支持传送",
+    "command_translation.tag.entity_type.forge.bosses": "Boss"
+  },
+  "zh_tw": {
+    "command_translation.tag.entity_type.c.boats": "船",
+    "command_translation.tag.entity_type.c.bosses": "Boss",
+    "command_translation.tag.entity_type.c.capturing_not_supported": "不支援捕捉",
+    "command_translation.tag.entity_type.c.minecarts": "礦車",
+    "command_translation.tag.entity_type.c.teleporting_not_supported": "不支援傳送",
+    "command_translation.tag.entity_type.forge.bosses": "Boss"
+  },
+  "zlm_arab": {
+    "command_translation.tag.entity_type.c.boats": "سمڤن",
+    "command_translation.tag.entity_type.c.bosses": "بوس",
+    "command_translation.tag.entity_type.c.capturing_not_supported": "ڤنڠکڤن تيدق دسوکوڠ",
+    "command_translation.tag.entity_type.c.minecarts": "کريتا لومبوڠ",
+    "command_translation.tag.entity_type.c.teleporting_not_supported": "رنتس جارق تيدق دسوکوڠ",
+    "command_translation.tag.entity_type.forge.bosses": "بوس"
+  },
+  "fr_fr": {
+    "command_translation.tag.entity_type.c.boats": "Bateaux",
+    "command_translation.tag.entity_type.c.bosses": "Bosses",
+    "command_translation.tag.entity_type.c.capturing_not_supported": "Capture non supportée",
+    "command_translation.tag.entity_type.c.minecarts": "Wagonnets",
+    "command_translation.tag.entity_type.c.teleporting_not_supported": "Téléportation non supportée",
+    "command_translation.tag.entity_type.forge.bosses": "Bosses"
+  },
+  "uk_ua": {
+    "command_translation.tag.entity_type.c.boats": "Човни",
+    "command_translation.tag.entity_type.c.bosses": "Боси",
+    "command_translation.tag.entity_type.c.capturing_not_supported": "Не захоплюється",
+    "command_translation.tag.entity_type.c.item_frames": "Рамки для предметів",
+    "command_translation.tag.entity_type.c.minecarts": "Вагонетки",
+    "command_translation.tag.entity_type.c.teleporting_not_supported": "Не телепортується",
+    "command_translation.tag.entity_type.forge.bosses": "Боси"
+  }
+}

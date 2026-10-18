@@ -1,0 +1,92 @@
+{
+  "en_us": {
+    "command_translation.help.coordinate.x": "World X coordinate; +X points east and -X points west.",
+    "command_translation.help.coordinate.y": "World Y coordinate; +Y points up.",
+    "command_translation.help.coordinate.z": "World Z coordinate; +Z points south and -Z points north.",
+    "command_translation.help.coordinate.left": "Local left-axis offset (^), rotated with the execution facing.",
+    "command_translation.help.coordinate.up": "Local up-axis offset (^), rotated with the execution facing.",
+    "command_translation.help.coordinate.forward": "Local forward-axis offset (^), along the execution facing.",
+    "command_translation.help.coordinate.yaw": "Horizontal rotation in degrees: -180 north, -90 east, 0 south, +90 west.",
+    "command_translation.help.coordinate.pitch": "Vertical rotation in degrees: -90 straight up, 0 at the horizon, +90 straight down."
+  },
+  "zh_cn": {
+    "command_translation.help.coordinate.x": "世界 X 坐标；+X 指向东，-X 指向西。",
+    "command_translation.help.coordinate.y": "世界 Y 坐标；+Y 指向上。",
+    "command_translation.help.coordinate.z": "世界 Z 坐标；+Z 指向南，-Z 指向北。",
+    "command_translation.help.coordinate.left": "本地左轴偏移（^），随执行朝向旋转。",
+    "command_translation.help.coordinate.up": "本地上轴偏移（^），随执行朝向旋转。",
+    "command_translation.help.coordinate.forward": "本地前轴偏移（^），沿执行朝向的前方。",
+    "command_translation.help.coordinate.yaw": "水平旋转角（度）：-180 北，-90 东，0 南，+90 西。",
+    "command_translation.help.coordinate.pitch": "垂直旋转角（度）：-90 正上，0 水平，+90 正下。"
+  },
+  "de_de": {
+    "command_translation.help.coordinate.x": "Welt-X-Koordinate; +X zeigt nach Osten und -X nach Westen.",
+    "command_translation.help.coordinate.y": "Welt-Y-Koordinate; +Y zeigt nach oben.",
+    "command_translation.help.coordinate.z": "Welt-Z-Koordinate; +Z zeigt nach Süden und -Z nach Norden.",
+    "command_translation.help.coordinate.left": "Lokaler Linksversatz (^), gedreht mit der Ausführungsrichtung.",
+    "command_translation.help.coordinate.up": "Lokaler Aufwärtsversatz (^), gedreht mit der Ausführungsrichtung.",
+    "command_translation.help.coordinate.forward": "Lokaler Vorwärtsversatz (^) entlang der Ausführungsrichtung.",
+    "command_translation.help.coordinate.yaw": "Horizontale Drehung in Grad: -180 Norden, -90 Osten, 0 Süden, +90 Westen.",
+    "command_translation.help.coordinate.pitch": "Vertikale Drehung in Grad: -90 gerade nach oben, 0 am Horizont, +90 gerade nach unten."
+  },
+  "ja_jp": {
+    "command_translation.help.coordinate.x": "ワールド X 座標。+X は東、-X は西。",
+    "command_translation.help.coordinate.y": "ワールド Y 座標。+Y は上。",
+    "command_translation.help.coordinate.z": "ワールド Z 座標。+Z は南、-Z は北。",
+    "command_translation.help.coordinate.left": "実行時の向きに追従するローカル左軸のオフセット（^）。",
+    "command_translation.help.coordinate.up": "実行時の向きに追従するローカル上軸のオフセット（^）。",
+    "command_translation.help.coordinate.forward": "実行時の向きに沿ったローカル前軸のオフセット（^）。",
+    "command_translation.help.coordinate.yaw": "水平方向の回転（度）。-180 北、-90 東、0 南、+90 西。",
+    "command_translation.help.coordinate.pitch": "垂直方向の回転（度）。-90 が真上、0 が水平、+90 が真下。"
+  },
+  "sources": {
+    "command_translation.help.coordinate.x": [
+      {
+        "url": "https://minecraft.wiki/w/Argument%20types",
+        "revision": 3825973
+      }
+    ],
+    "command_translation.help.coordinate.y": [
+      {
+        "url": "https://minecraft.wiki/w/Argument%20types",
+        "revision": 3825973
+      }
+    ],
+    "command_translation.help.coordinate.z": [
+      {
+        "url": "https://minecraft.wiki/w/Argument%20types",
+        "revision": 3825973
+      }
+    ],
+    "command_translation.help.coordinate.left": [
+      {
+        "url": "https://minecraft.wiki/w/Argument%20types",
+        "revision": 3825973
+      }
+    ],
+    "command_translation.help.coordinate.up": [
+      {
+        "url": "https://minecraft.wiki/w/Argument%20types",
+        "revision": 3825973
+      }
+    ],
+    "command_translation.help.coordinate.forward": [
+      {
+        "url": "https://minecraft.wiki/w/Argument%20types",
+        "revision": 3825973
+      }
+    ],
+    "command_translation.help.coordinate.yaw": [
+      {
+        "url": "https://minecraft.wiki/w/Argument%20types",
+        "revision": 3825973
+      }
+    ],
+    "command_translation.help.coordinate.pitch": [
+      {
+        "url": "https://minecraft.wiki/w/Argument%20types",
+        "revision": 3825973
+      }
+    ]
+  }
+}

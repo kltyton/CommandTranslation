@@ -1,0 +1,26 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:glider": "Lets equipped living entities glide like with elytra."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:glider": "使装备该物品的生物能像鞘翅一样滑翔。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:glider": "Lässt ausgerüstete Lebewesen wie mit Elytren gleiten."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:glider": "装備した生物がエリトラのように滑空できるようにする。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:glider": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

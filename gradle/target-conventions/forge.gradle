@@ -1,0 +1,32 @@
+apply from: file('../../gradle/target-conventions/base.gradle')
+
+repositories { maven { url = 'https://repo.spongepowered.org/repository/maven-public/' } }
+dependencies {
+    annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+    jarJar(implementation('io.github.llamalad7:mixinextras-forge:0.4.1')) {
+        version { strictly '[0.4.1,)'; prefer '0.4.1' }
+    }
+}
+mixin {
+    add(sourceSets.main, "${mod_id}.refmap.json")
+    config("${mod_id}.mixins.json")
+}
+tasks.named('jar', Jar) { manifest.attributes('MixinConfigs': "${mod_id}.mixins.json") }
+
+legacyForge {
+    version = "${minecraft_version}-${loader_version}"
+    validateAccessTransformers = true
+    runs {
+        client { client() }
+        server { server(); programArgument '--nogui' }
+        data {
+            data()
+            programArguments.addAll('--mod', mod_id, '--all', '--output', file('src/generated/resources').absolutePath,
+                    *project.ext.templeDatagenExistingArgs)
+        }
+    }
+    mods { "${mod_id}" { sourceSet sourceSets.main; sourceSet project(':common').sourceSets.main } }
+}
+apply from: file('../../gradle/target-conventions/publish.gradle')
+apply from: file('../../gradle/target-conventions/nbt-autocomplete.gradle')
+apply from: file('../../gradle/target-conventions/forge-common-mixin.gradle')

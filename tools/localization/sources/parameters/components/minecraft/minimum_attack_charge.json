@@ -1,0 +1,26 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:minimum_attack_charge": "The minimum attack charge required on the attack indicator to attack with this item."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:minimum_attack_charge": "使用该物品攻击时攻击指示器所需的最低蓄力值。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:minimum_attack_charge": "Die mindestens erforderliche Angriffsaufladung am Angriffsindikator, um mit diesem Item anzugreifen."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:minimum_attack_charge": "このアイテムで攻撃するのに攻撃インジケーターで必要な最小チャージ量。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:minimum_attack_charge": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

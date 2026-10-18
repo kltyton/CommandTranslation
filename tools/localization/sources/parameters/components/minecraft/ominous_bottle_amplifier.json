@@ -1,0 +1,30 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:ominous_bottle_amplifier": "The amplifier of the Bad Omen effect granted on consumption, from 0 to 4."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:ominous_bottle_amplifier": "食用后获得的不祥之兆效果的等级，范围 0 到 4。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:ominous_bottle_amplifier": "Der Verstärker des beim Verzehr gewährten Effekts 'Böses Omen', von 0 bis 4."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:ominous_bottle_amplifier": "消費時に付与される不吉な前兆効果の強度（0～4）。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:ominous_bottle_amplifier": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sources": {
+    "command_translation.tag.potion.c.hidden_from_recipe_viewers": [
+      {
+        "artifact": "net.neoforged:neoforge:26.1.2.84",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.6.2+4f11f7994c",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.7.1+1f023a9e9e",
+        "resource": "assets/*/lang/*.json"
+      }
+    ]
+  },
+  "en_us": {
+    "command_translation.tag.potion.c.hidden_from_recipe_viewers": "Hidden From Recipe Viewers"
+  },
+  "it_it": {
+    "command_translation.tag.potion.c.hidden_from_recipe_viewers": "Nascosto nelle anteprime di ricette"
+  },
+  "uk_ua": {
+    "command_translation.tag.potion.c.hidden_from_recipe_viewers": "Сховані від переглядачів рецептів"
+  }
+}

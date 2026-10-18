@@ -1,0 +1,22 @@
+{
+  "en_us": {
+    "command_translation.tag.potion.minecraft.tradeable": "Potions villagers can trade"
+  },
+  "zh_cn": {
+    "command_translation.tag.potion.minecraft.tradeable": "村民可交易的药水"
+  },
+  "de_de": {
+    "command_translation.tag.potion.minecraft.tradeable": "Tränke, die Dorfbewohner handeln"
+  },
+  "ja_jp": {
+    "command_translation.tag.potion.minecraft.tradeable": "村人が取引できるポーション"
+  },
+  "sources": {
+    "command_translation.tag.potion.minecraft.tradeable": [
+      {
+        "url": "https://minecraft.wiki/w/Potion%20tag%20(Java%20Edition)",
+        "revision": 3839229
+      }
+    ]
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "en_us": {
+    "command_translation.help.argument.recipe.give": "Unlocks (gives) recipes for the targets so they appear in the recipe book.",
+    "command_translation.help.argument.recipe.take": "Locks (takes) recipes from the targets so they no longer appear until unlocked again.",
+    "command_translation.help.argument.recipe.target": "The players whose recipe book is changed.",
+    "command_translation.help.argument.recipe.recipe": "The recipe to give or take.",
+    "command_translation.help.argument.recipe.all": "*: applies to every recipe at once."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.recipe.give": "为目标解锁（给予）配方，使其出现在配方书中。",
+    "command_translation.help.argument.recipe.take": "从目标身上锁定（收回）配方，使其在重新解锁前不再出现。",
+    "command_translation.help.argument.recipe.target": "要更改配方书的玩家。",
+    "command_translation.help.argument.recipe.recipe": "要给予或收回的配方。",
+    "command_translation.help.argument.recipe.all": "*：一次作用于所有配方。"
+  },
+  "sources": {
+    "command_translation.help.argument.recipe.give": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Frecipe",
+        "revision": 3835353
+      }
+    ],
+    "command_translation.help.argument.recipe.take": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Frecipe",
+        "revision": 3835353
+      }
+    ],
+    "command_translation.help.argument.recipe.target": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Frecipe",
+        "revision": 3835353
+      }
+    ],
+    "command_translation.help.argument.recipe.recipe": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Frecipe",
+        "revision": 3835353
+      }
+    ],
+    "command_translation.help.argument.recipe.all": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Frecipe",
+        "revision": 3835353
+      }
+    ]
+  },
+  "bindings": {
+    "recipe.give": "command_translation.help.argument.recipe.give",
+    "recipe.give.targets": "command_translation.help.argument.recipe.target",
+    "recipe.give.targets.*": "command_translation.help.argument.recipe.all",
+    "recipe.give.targets.recipe": "command_translation.help.argument.recipe.recipe",
+    "recipe.take": "command_translation.help.argument.recipe.take",
+    "recipe.take.targets": "command_translation.help.argument.recipe.target",
+    "recipe.take.targets.*": "command_translation.help.argument.recipe.all",
+    "recipe.take.targets.recipe": "command_translation.help.argument.recipe.recipe"
+  },
+  "de_de": {
+    "command_translation.help.argument.recipe.give": "Schaltet Rezepte für die Ziele frei (gibt sie), sodass sie im Rezeptbuch erscheinen.",
+    "command_translation.help.argument.recipe.take": "Sperrt Rezepte bei den Zielen (nimmt sie), sodass sie bis zur erneuten Freischaltung nicht erscheinen.",
+    "command_translation.help.argument.recipe.target": "Die Spieler, deren Rezeptbuch geändert wird.",
+    "command_translation.help.argument.recipe.recipe": "Das zu gebende oder zu nehmende Rezept.",
+    "command_translation.help.argument.recipe.all": "*: gilt auf einmal für alle Rezepte."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.recipe.give": "対象のレシピを解放（付与）し、レシピ帳に表示されるようにする。",
+    "command_translation.help.argument.recipe.take": "対象のレシピをロック（剥奪）し、再解放されるまで表示されないようにする。",
+    "command_translation.help.argument.recipe.target": "レシピ帳を変更するプレイヤー。",
+    "command_translation.help.argument.recipe.recipe": "付与または剥奪するレシピ。",
+    "command_translation.help.argument.recipe.all": "*：すべてのレシピを一度に対象にする。"
+  },
+  "syntax": [
+    {
+      "path": "recipe",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "recipe.give",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "recipe.give.targets",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "players",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "recipe.give.targets.*",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "recipe.give.targets.recipe",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "recipe.take",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "recipe.take.targets",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "players",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "recipe.take.targets.*",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "recipe.take.targets.recipe",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "recipe.give.targets.recipe",
+      "type": "argument",
+      "parser": "minecraft:resource_key",
+      "properties": {
+        "registry": "minecraft:recipe"
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "recipe.take.targets.recipe",
+      "type": "argument",
+      "parser": "minecraft:resource_key",
+      "properties": {
+        "registry": "minecraft:recipe"
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

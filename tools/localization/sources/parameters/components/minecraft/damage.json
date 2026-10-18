@@ -1,0 +1,30 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:damage": "The durability uses already consumed by this item."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:damage": "该物品已消耗的耐久使用次数。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:damage": "Die bereits verbrauchten Haltbarkeitsnutzungen dieses Items."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:damage": "このアイテムが消費した耐久値の使用回数。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:damage": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

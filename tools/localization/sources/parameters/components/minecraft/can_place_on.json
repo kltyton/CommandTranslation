@@ -1,0 +1,282 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:can_place_on": "The blocks this item may be placed against in Adventure mode.",
+    "command_translation.help.component.minecraft:can_place_on.field.blocks": "The block types this predicate matches.",
+    "command_translation.help.component.minecraft:can_place_on.field.state.*": "A block state property value or range to match.",
+    "command_translation.help.component.minecraft:can_place_on.field.state.*.min": "The minimum value of the property range.",
+    "command_translation.help.component.minecraft:can_place_on.field.state.*.max": "The maximum value of the property range.",
+    "command_translation.help.component.minecraft:can_place_on.field.nbt": "The block NBT data that must match.",
+    "command_translation.help.component.minecraft:can_place_on.field.components": "The data components that must match exactly.",
+    "command_translation.help.component.minecraft:can_place_on.field.show_in_tooltip": "Whether this component’s details appear in the item tooltip.",
+    "command_translation.help.component.minecraft:can_place_on.field.predicates": "Block conditions checked for this adventure-mode permission.",
+    "command_translation.help.component.minecraft:can_place_on.field.predicates.blocks": "The block types this predicate matches.",
+    "command_translation.help.component.minecraft:can_place_on.field.predicates.state.*": "A block state property value or range to match.",
+    "command_translation.help.component.minecraft:can_place_on.field.predicates.state.*.min": "The minimum value of the property range.",
+    "command_translation.help.component.minecraft:can_place_on.field.predicates.state.*.max": "The maximum value of the property range.",
+    "command_translation.help.component.minecraft:can_place_on.field.predicates.nbt": "The block NBT data that must match.",
+    "command_translation.help.component.minecraft:can_place_on.field.predicates.components": "The data components that must match exactly."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:can_place_on": "冒险模式下该物品可放置在其上的方块。",
+    "command_translation.help.component.minecraft:can_place_on.field.blocks": "该判定条件匹配的方块类型。",
+    "command_translation.help.component.minecraft:can_place_on.field.state.*": "需要匹配的方块状态属性值或范围。",
+    "command_translation.help.component.minecraft:can_place_on.field.state.*.min": "属性范围的下限。",
+    "command_translation.help.component.minecraft:can_place_on.field.state.*.max": "属性范围的上限。",
+    "command_translation.help.component.minecraft:can_place_on.field.nbt": "必须匹配的方块 NBT 数据。",
+    "command_translation.help.component.minecraft:can_place_on.field.components": "必须完全匹配的数据组件。",
+    "command_translation.help.component.minecraft:can_place_on.field.show_in_tooltip": "是否在物品提示中显示该组件的信息。",
+    "command_translation.help.component.minecraft:can_place_on.field.predicates": "该冒险模式权限要求匹配的方块条件。",
+    "command_translation.help.component.minecraft:can_place_on.field.predicates.blocks": "该判定条件匹配的方块类型。",
+    "command_translation.help.component.minecraft:can_place_on.field.predicates.state.*": "需要匹配的方块状态属性值或范围。",
+    "command_translation.help.component.minecraft:can_place_on.field.predicates.state.*.min": "属性范围的下限。",
+    "command_translation.help.component.minecraft:can_place_on.field.predicates.state.*.max": "属性范围的上限。",
+    "command_translation.help.component.minecraft:can_place_on.field.predicates.nbt": "必须匹配的方块 NBT 数据。",
+    "command_translation.help.component.minecraft:can_place_on.field.predicates.components": "必须完全匹配的数据组件。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:can_place_on": "Die Blöcke, an die dieses Item im Abenteuermodus gesetzt werden darf.",
+    "command_translation.help.component.minecraft:can_place_on.field.blocks": "Die Blocktypen, auf die dieses Prädikat passt.",
+    "command_translation.help.component.minecraft:can_place_on.field.state.*": "Ein passender Blockzustands-Wert oder -Bereich.",
+    "command_translation.help.component.minecraft:can_place_on.field.state.*.min": "Der Mindestwert des Eigenschaftsbereichs.",
+    "command_translation.help.component.minecraft:can_place_on.field.state.*.max": "Der Höchstwert des Eigenschaftsbereichs.",
+    "command_translation.help.component.minecraft:can_place_on.field.nbt": "Die passenden NBT-Daten des Blocks.",
+    "command_translation.help.component.minecraft:can_place_on.field.components": "Die exakt passenden Datenkomponenten.",
+    "command_translation.help.component.minecraft:can_place_on.field.show_in_tooltip": "Ob die Informationen dieser Komponente im Item-Tooltip erscheinen.",
+    "command_translation.help.component.minecraft:can_place_on.field.predicates": "Blockbedingungen für diese Abenteuermodus-Berechtigung.",
+    "command_translation.help.component.minecraft:can_place_on.field.predicates.blocks": "Die Blocktypen, auf die dieses Prädikat passt.",
+    "command_translation.help.component.minecraft:can_place_on.field.predicates.state.*": "Ein passender Blockzustands-Wert oder -Bereich.",
+    "command_translation.help.component.minecraft:can_place_on.field.predicates.state.*.min": "Der Mindestwert des Eigenschaftsbereichs.",
+    "command_translation.help.component.minecraft:can_place_on.field.predicates.state.*.max": "Der Höchstwert des Eigenschaftsbereichs.",
+    "command_translation.help.component.minecraft:can_place_on.field.predicates.nbt": "Die passenden NBT-Daten des Blocks.",
+    "command_translation.help.component.minecraft:can_place_on.field.predicates.components": "Die exakt passenden Datenkomponenten."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:can_place_on": "アドベンチャーモードでこのアイテムを設置できる相手ブロック。",
+    "command_translation.help.component.minecraft:can_place_on.field.blocks": "この条件に一致するブロックの種類。",
+    "command_translation.help.component.minecraft:can_place_on.field.state.*": "一致させるブロック状態のプロパティ値または範囲。",
+    "command_translation.help.component.minecraft:can_place_on.field.state.*.min": "プロパティ範囲の下限。",
+    "command_translation.help.component.minecraft:can_place_on.field.state.*.max": "プロパティ範囲の上限。",
+    "command_translation.help.component.minecraft:can_place_on.field.nbt": "一致が必要なブロックのNBTデータ。",
+    "command_translation.help.component.minecraft:can_place_on.field.components": "完全一致が必要なデータコンポーネント。",
+    "command_translation.help.component.minecraft:can_place_on.field.show_in_tooltip": "このコンポーネントの情報をアイテムのツールチップに表示するか。",
+    "command_translation.help.component.minecraft:can_place_on.field.predicates": "このアドベンチャー権限で照合するブロック条件。",
+    "command_translation.help.component.minecraft:can_place_on.field.predicates.blocks": "この条件に一致するブロックの種類。",
+    "command_translation.help.component.minecraft:can_place_on.field.predicates.state.*": "一致させるブロック状態のプロパティ値または範囲。",
+    "command_translation.help.component.minecraft:can_place_on.field.predicates.state.*.min": "プロパティ範囲の下限。",
+    "command_translation.help.component.minecraft:can_place_on.field.predicates.state.*.max": "プロパティ範囲の上限。",
+    "command_translation.help.component.minecraft:can_place_on.field.predicates.nbt": "一致が必要なブロックのNBTデータ。",
+    "command_translation.help.component.minecraft:can_place_on.field.predicates.components": "完全一致が必要なデータコンポーネント。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:can_place_on": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:can_place_on.field.blocks": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:can_place_on.field.state.*": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:can_place_on.field.state.*.min": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:can_place_on.field.state.*.max": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:can_place_on.field.nbt": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:can_place_on.field.components": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:can_place_on.field.show_in_tooltip": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:can_place_on.field.predicates": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:can_place_on.field.predicates.blocks": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:can_place_on.field.predicates.state.*": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:can_place_on.field.predicates.state.*.min": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:can_place_on.field.predicates.state.*.max": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:can_place_on.field.predicates.nbt": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:can_place_on.field.predicates.components": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

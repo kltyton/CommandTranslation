@@ -1,0 +1,102 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:map_decorations": "The decoration icons displayed on this filled map.",
+    "command_translation.help.component.minecraft:map_decorations.field.type": "The type of the decoration icon.",
+    "command_translation.help.component.minecraft:map_decorations.field.x": "The X world coordinate of the decoration.",
+    "command_translation.help.component.minecraft:map_decorations.field.z": "The Z world coordinate of the decoration.",
+    "command_translation.help.component.minecraft:map_decorations.field.rotation": "The icon's rotation in degrees clockwise from north, from 0.0 to 360.0."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:map_decorations": "该已填充地图上显示的装饰图标。",
+    "command_translation.help.component.minecraft:map_decorations.field.type": "装饰图标的类型。",
+    "command_translation.help.component.minecraft:map_decorations.field.x": "装饰的 X 世界坐标。",
+    "command_translation.help.component.minecraft:map_decorations.field.z": "装饰的 Z 世界坐标。",
+    "command_translation.help.component.minecraft:map_decorations.field.rotation": "图标自北顺时针旋转的角度，范围 0.0 到 360.0。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:map_decorations": "Die auf dieser gefüllten Karte angezeigten Markierungs-Symbole.",
+    "command_translation.help.component.minecraft:map_decorations.field.type": "Der Typ des Markierungs-Symbols.",
+    "command_translation.help.component.minecraft:map_decorations.field.x": "Die X-Weltkoordinate der Markierung.",
+    "command_translation.help.component.minecraft:map_decorations.field.z": "Die Z-Weltkoordinate der Markierung.",
+    "command_translation.help.component.minecraft:map_decorations.field.rotation": "Die Drehung des Symbols in Grad im Uhrzeigersinn von Norden, von 0.0 bis 360.0."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:map_decorations": "この記入済みの地図に表示される装飾アイコン。",
+    "command_translation.help.component.minecraft:map_decorations.field.type": "装飾アイコンの種類。",
+    "command_translation.help.component.minecraft:map_decorations.field.x": "装飾のX座標。",
+    "command_translation.help.component.minecraft:map_decorations.field.z": "装飾のZ座標。",
+    "command_translation.help.component.minecraft:map_decorations.field.rotation": "北から時計回りのアイコンの回転角（0.0～360.0度）。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:map_decorations": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:map_decorations.field.type": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:map_decorations.field.x": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:map_decorations.field.z": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:map_decorations.field.rotation": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "en_us": {
+    "command_translation.help.argument.spreadplayers.center": "The horizontal centre of the area to spread into, as x and z.",
+    "command_translation.help.argument.spreadplayers.spreadDistance": "The minimum distance required between any two targets.",
+    "command_translation.help.argument.spreadplayers.maxRange": "The maximum distance from the centre to place targets, so the area is a square.",
+    "command_translation.help.argument.spreadplayers.respectTeams": "true keeps teammates together at one spot; false places every target separately.",
+    "command_translation.help.argument.spreadplayers.targets": "The entities to spread.",
+    "command_translation.help.argument.spreadplayers.under": "Limits how high the downward search for a safe landing position starts.",
+    "command_translation.help.argument.spreadplayers.maxHeight": "The highest Y level to search under for a safe landing spot."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.spreadplayers.center": "分散区域的水平中心，写成 x 与 z。",
+    "command_translation.help.argument.spreadplayers.spreadDistance": "任意两个目标之间要求的最小距离。",
+    "command_translation.help.argument.spreadplayers.maxRange": "目标离中心的最大距离，因此区域呈正方形。",
+    "command_translation.help.argument.spreadplayers.respectTeams": "true 让同队成员落在同一处，false 让每个目标各自分开。",
+    "command_translation.help.argument.spreadplayers.targets": "要分散的实体。",
+    "command_translation.help.argument.spreadplayers.under": "限定向下寻找安全落点时的起始最高高度。",
+    "command_translation.help.argument.spreadplayers.maxHeight": "向下搜索安全落点的最高 Y 层。"
+  },
+  "sources": {
+    "command_translation.help.argument.spreadplayers.center": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fspreadplayers",
+        "revision": 3826040
+      }
+    ],
+    "command_translation.help.argument.spreadplayers.spreadDistance": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fspreadplayers",
+        "revision": 3826040
+      }
+    ],
+    "command_translation.help.argument.spreadplayers.maxRange": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fspreadplayers",
+        "revision": 3826040
+      }
+    ],
+    "command_translation.help.argument.spreadplayers.respectTeams": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fspreadplayers",
+        "revision": 3826040
+      }
+    ],
+    "command_translation.help.argument.spreadplayers.targets": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fspreadplayers",
+        "revision": 3826040
+      }
+    ],
+    "command_translation.help.argument.spreadplayers.under": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fspreadplayers",
+        "revision": 3826040
+      }
+    ],
+    "command_translation.help.argument.spreadplayers.maxHeight": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fspreadplayers",
+        "revision": 3826040
+      }
+    ]
+  },
+  "bindings": {
+    "spreadplayers.center": "command_translation.help.argument.spreadplayers.center",
+    "spreadplayers.center.spreadDistance": "command_translation.help.argument.spreadplayers.spreadDistance",
+    "spreadplayers.center.spreadDistance.maxRange": "command_translation.help.argument.spreadplayers.maxRange",
+    "spreadplayers.center.spreadDistance.maxRange.respectTeams": "command_translation.help.argument.spreadplayers.respectTeams",
+    "spreadplayers.center.spreadDistance.maxRange.respectTeams.targets": "command_translation.help.argument.spreadplayers.targets",
+    "spreadplayers.center.spreadDistance.maxRange.under": "command_translation.help.argument.spreadplayers.under",
+    "spreadplayers.center.spreadDistance.maxRange.under.maxHeight": "command_translation.help.argument.spreadplayers.maxHeight",
+    "spreadplayers.center.spreadDistance.maxRange.under.maxHeight.respectTeams": "command_translation.help.argument.spreadplayers.respectTeams",
+    "spreadplayers.center.spreadDistance.maxRange.under.maxHeight.respectTeams.targets": "command_translation.help.argument.spreadplayers.targets"
+  },
+  "de_de": {
+    "command_translation.help.argument.spreadplayers.center": "Der waagerechte Mittelpunkt des Gebiets als x- und z-Koordinate.",
+    "command_translation.help.argument.spreadplayers.spreadDistance": "Der geforderte Mindestabstand zwischen zwei Zielen.",
+    "command_translation.help.argument.spreadplayers.maxRange": "Der maximale Abstand vom Mittelpunkt, daher ist das Gebiet ein Quadrat.",
+    "command_translation.help.argument.spreadplayers.respectTeams": "true hält Teammitglieder an einem Ort, false setzt jedes Ziel einzeln.",
+    "command_translation.help.argument.spreadplayers.targets": "Die zu verteilenden Wesen.",
+    "command_translation.help.argument.spreadplayers.under": "Begrenzt, wie hoch die Abwärtssuche nach einem sicheren Landepunkt beginnt.",
+    "command_translation.help.argument.spreadplayers.maxHeight": "Die höchste Y-Ebene, unter der nach einem sicheren Landepunkt gesucht wird."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.spreadplayers.center": "分散先領域の水平な中心。x と z で指定する。",
+    "command_translation.help.argument.spreadplayers.spreadDistance": "2 体の対象の間に必要な最小距離。",
+    "command_translation.help.argument.spreadplayers.maxRange": "中心から対象を置く最大距離。領域は正方形になる。",
+    "command_translation.help.argument.spreadplayers.respectTeams": "true は同じチームを同じ場所にまとめ、false は各対象を個別に配置する。",
+    "command_translation.help.argument.spreadplayers.targets": "分散させるエンティティ。",
+    "command_translation.help.argument.spreadplayers.under": "安全な着地点を下向きに探し始める上限高度を制限する。",
+    "command_translation.help.argument.spreadplayers.maxHeight": "安全な着地点を下向きに探す最高 Y レベル。"
+  },
+  "syntax": [
+    {
+      "path": "spreadplayers",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "spreadplayers.center",
+      "type": "argument",
+      "parser": "minecraft:vec2",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "spreadplayers.center.spreadDistance",
+      "type": "argument",
+      "parser": "brigadier:float",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "spreadplayers.center.spreadDistance.maxRange",
+      "type": "argument",
+      "parser": "brigadier:float",
+      "properties": {
+        "min": 1
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "spreadplayers.center.spreadDistance.maxRange.respectTeams",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "spreadplayers.center.spreadDistance.maxRange.respectTeams.targets",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "spreadplayers.center.spreadDistance.maxRange.under",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "spreadplayers.center.spreadDistance.maxRange.under.maxHeight",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "spreadplayers.center.spreadDistance.maxRange.under.maxHeight.respectTeams",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "spreadplayers.center.spreadDistance.maxRange.under.maxHeight.respectTeams.targets",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

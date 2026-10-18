@@ -1,0 +1,318 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:shulker/color": "The shulker’s shell color.",
+    "command_translation.help.component.minecraft:shulker/color.value.white": "White shulker shell.",
+    "command_translation.help.component.minecraft:shulker/color.value.orange": "Orange shulker shell.",
+    "command_translation.help.component.minecraft:shulker/color.value.magenta": "Magenta shulker shell.",
+    "command_translation.help.component.minecraft:shulker/color.value.light_blue": "Light blue shulker shell.",
+    "command_translation.help.component.minecraft:shulker/color.value.yellow": "Yellow shulker shell.",
+    "command_translation.help.component.minecraft:shulker/color.value.lime": "Lime shulker shell.",
+    "command_translation.help.component.minecraft:shulker/color.value.pink": "Pink shulker shell.",
+    "command_translation.help.component.minecraft:shulker/color.value.gray": "Gray shulker shell.",
+    "command_translation.help.component.minecraft:shulker/color.value.light_gray": "Light gray shulker shell.",
+    "command_translation.help.component.minecraft:shulker/color.value.cyan": "Cyan shulker shell.",
+    "command_translation.help.component.minecraft:shulker/color.value.purple": "Purple shulker shell.",
+    "command_translation.help.component.minecraft:shulker/color.value.blue": "Blue shulker shell.",
+    "command_translation.help.component.minecraft:shulker/color.value.brown": "Brown shulker shell.",
+    "command_translation.help.component.minecraft:shulker/color.value.green": "Green shulker shell.",
+    "command_translation.help.component.minecraft:shulker/color.value.red": "Red shulker shell.",
+    "command_translation.help.component.minecraft:shulker/color.value.black": "Black shulker shell."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:shulker/color": "潜影贝的外壳颜色。",
+    "command_translation.help.component.minecraft:shulker/color.value.white": "潜影贝的外壳为白色。",
+    "command_translation.help.component.minecraft:shulker/color.value.orange": "潜影贝的外壳为橙色。",
+    "command_translation.help.component.minecraft:shulker/color.value.magenta": "潜影贝的外壳为品红色。",
+    "command_translation.help.component.minecraft:shulker/color.value.light_blue": "潜影贝的外壳为淡蓝色。",
+    "command_translation.help.component.minecraft:shulker/color.value.yellow": "潜影贝的外壳为黄色。",
+    "command_translation.help.component.minecraft:shulker/color.value.lime": "潜影贝的外壳为黄绿色。",
+    "command_translation.help.component.minecraft:shulker/color.value.pink": "潜影贝的外壳为粉红色。",
+    "command_translation.help.component.minecraft:shulker/color.value.gray": "潜影贝的外壳为灰色。",
+    "command_translation.help.component.minecraft:shulker/color.value.light_gray": "潜影贝的外壳为淡灰色。",
+    "command_translation.help.component.minecraft:shulker/color.value.cyan": "潜影贝的外壳为青色。",
+    "command_translation.help.component.minecraft:shulker/color.value.purple": "潜影贝的外壳为紫色。",
+    "command_translation.help.component.minecraft:shulker/color.value.blue": "潜影贝的外壳为蓝色。",
+    "command_translation.help.component.minecraft:shulker/color.value.brown": "潜影贝的外壳为棕色。",
+    "command_translation.help.component.minecraft:shulker/color.value.green": "潜影贝的外壳为绿色。",
+    "command_translation.help.component.minecraft:shulker/color.value.red": "潜影贝的外壳为红色。",
+    "command_translation.help.component.minecraft:shulker/color.value.black": "潜影贝的外壳为黑色。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:shulker/color": "Die Schalenfarbe des Shulkers.",
+    "command_translation.help.component.minecraft:shulker/color.value.white": "Schalenfarbe: Weiß.",
+    "command_translation.help.component.minecraft:shulker/color.value.orange": "Schalenfarbe: Orange.",
+    "command_translation.help.component.minecraft:shulker/color.value.magenta": "Schalenfarbe: Magenta.",
+    "command_translation.help.component.minecraft:shulker/color.value.light_blue": "Schalenfarbe: Hellblau.",
+    "command_translation.help.component.minecraft:shulker/color.value.yellow": "Schalenfarbe: Gelb.",
+    "command_translation.help.component.minecraft:shulker/color.value.lime": "Schalenfarbe: Hellgrün.",
+    "command_translation.help.component.minecraft:shulker/color.value.pink": "Schalenfarbe: Rosa.",
+    "command_translation.help.component.minecraft:shulker/color.value.gray": "Schalenfarbe: Grau.",
+    "command_translation.help.component.minecraft:shulker/color.value.light_gray": "Schalenfarbe: Hellgrau.",
+    "command_translation.help.component.minecraft:shulker/color.value.cyan": "Schalenfarbe: Türkis.",
+    "command_translation.help.component.minecraft:shulker/color.value.purple": "Schalenfarbe: Violett.",
+    "command_translation.help.component.minecraft:shulker/color.value.blue": "Schalenfarbe: Blau.",
+    "command_translation.help.component.minecraft:shulker/color.value.brown": "Schalenfarbe: Braun.",
+    "command_translation.help.component.minecraft:shulker/color.value.green": "Schalenfarbe: Grün.",
+    "command_translation.help.component.minecraft:shulker/color.value.red": "Schalenfarbe: Rot.",
+    "command_translation.help.component.minecraft:shulker/color.value.black": "Schalenfarbe: Schwarz."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:shulker/color": "シュルカーの殻の色。",
+    "command_translation.help.component.minecraft:shulker/color.value.white": "シュルカーの殻の色：白色。",
+    "command_translation.help.component.minecraft:shulker/color.value.orange": "シュルカーの殻の色：橙色。",
+    "command_translation.help.component.minecraft:shulker/color.value.magenta": "シュルカーの殻の色：赤紫色。",
+    "command_translation.help.component.minecraft:shulker/color.value.light_blue": "シュルカーの殻の色：空色。",
+    "command_translation.help.component.minecraft:shulker/color.value.yellow": "シュルカーの殻の色：黄色。",
+    "command_translation.help.component.minecraft:shulker/color.value.lime": "シュルカーの殻の色：黄緑色。",
+    "command_translation.help.component.minecraft:shulker/color.value.pink": "シュルカーの殻の色：桃色。",
+    "command_translation.help.component.minecraft:shulker/color.value.gray": "シュルカーの殻の色：灰色。",
+    "command_translation.help.component.minecraft:shulker/color.value.light_gray": "シュルカーの殻の色：薄灰色。",
+    "command_translation.help.component.minecraft:shulker/color.value.cyan": "シュルカーの殻の色：青緑色。",
+    "command_translation.help.component.minecraft:shulker/color.value.purple": "シュルカーの殻の色：紫色。",
+    "command_translation.help.component.minecraft:shulker/color.value.blue": "シュルカーの殻の色：青色。",
+    "command_translation.help.component.minecraft:shulker/color.value.brown": "シュルカーの殻の色：茶色。",
+    "command_translation.help.component.minecraft:shulker/color.value.green": "シュルカーの殻の色：緑色。",
+    "command_translation.help.component.minecraft:shulker/color.value.red": "シュルカーの殻の色：赤色。",
+    "command_translation.help.component.minecraft:shulker/color.value.black": "シュルカーの殻の色：黒色。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:shulker/color": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:shulker/color.value.white": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:shulker/color.value.orange": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:shulker/color.value.magenta": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:shulker/color.value.light_blue": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:shulker/color.value.yellow": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:shulker/color.value.lime": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:shulker/color.value.pink": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:shulker/color.value.gray": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:shulker/color.value.light_gray": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:shulker/color.value.cyan": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:shulker/color.value.purple": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:shulker/color.value.blue": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:shulker/color.value.brown": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:shulker/color.value.green": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:shulker/color.value.red": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:shulker/color.value.black": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ]
+  }
+}

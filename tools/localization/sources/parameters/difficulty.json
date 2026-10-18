@@ -1,0 +1,110 @@
+{
+  "en_us": {
+    "command_translation.help.value.difficulty.peaceful": "Most hostile mobs cannot spawn naturally, players recover health over time and hunger does not decrease.",
+    "command_translation.help.value.difficulty.easy": "Hostile mobs spawn but deal reduced damage.",
+    "command_translation.help.value.difficulty.normal": "Standard mob damage.",
+    "command_translation.help.value.difficulty.hard": "Mobs deal maximum damage and hunger can kill."
+  },
+  "zh_cn": {
+    "command_translation.help.value.difficulty.peaceful": "大多数敌对生物不会自然生成，玩家生命会逐渐恢复，饥饿值不会降低。",
+    "command_translation.help.value.difficulty.easy": "会生成敌对生物，但造成较低伤害。",
+    "command_translation.help.value.difficulty.normal": "生物伤害为常规值。",
+    "command_translation.help.value.difficulty.hard": "生物伤害最高，饥饿可以致死。"
+  },
+  "sources": {
+    "command_translation.help.value.difficulty.peaceful": [
+      {
+        "url": "https://minecraft.wiki/w/Difficulty",
+        "revision": 3840034
+      }
+    ],
+    "command_translation.help.value.difficulty.easy": [
+      {
+        "url": "https://minecraft.wiki/w/Difficulty",
+        "revision": 3840034
+      }
+    ],
+    "command_translation.help.value.difficulty.normal": [
+      {
+        "url": "https://minecraft.wiki/w/Difficulty",
+        "revision": 3840034
+      }
+    ],
+    "command_translation.help.value.difficulty.hard": [
+      {
+        "url": "https://minecraft.wiki/w/Difficulty",
+        "revision": 3840034
+      }
+    ]
+  },
+  "bindings": {
+    "difficulty.peaceful": "command_translation.help.value.difficulty.peaceful",
+    "difficulty.easy": "command_translation.help.value.difficulty.easy",
+    "difficulty.normal": "command_translation.help.value.difficulty.normal",
+    "difficulty.hard": "command_translation.help.value.difficulty.hard"
+  },
+  "de_de": {
+    "command_translation.help.value.difficulty.peaceful": "Die meisten feindlichen Kreaturen erscheinen nicht natürlich, Spieler regenerieren Leben und der Hunger nimmt nicht ab.",
+    "command_translation.help.value.difficulty.easy": "Feindliche Mobs spawnen, verursachen aber weniger Schaden.",
+    "command_translation.help.value.difficulty.normal": "Üblicher Mob-Schaden.",
+    "command_translation.help.value.difficulty.hard": "Mobs verursachen maximalen Schaden, Hunger kann töten."
+  },
+  "ja_jp": {
+    "command_translation.help.value.difficulty.peaceful": "ほとんどの敵対的 Mob は自然出現せず、体力が徐々に回復し、満腹度が減らない。",
+    "command_translation.help.value.difficulty.easy": "敵対モブは湧くが与えるダメージは小さい。",
+    "command_translation.help.value.difficulty.normal": "標準的なモブダメージ。",
+    "command_translation.help.value.difficulty.hard": "モブのダメージが最大になり、飢えで死ぬこともある。"
+  },
+  "syntax": [
+    {
+      "path": "difficulty",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "difficulty.easy",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "difficulty.hard",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "difficulty.normal",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "difficulty.peaceful",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

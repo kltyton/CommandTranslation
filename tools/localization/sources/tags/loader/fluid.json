@@ -1,0 +1,536 @@
+{
+  "sources": {
+    "command_translation.tag.fluid.c.beetroot_soup": [
+      {
+        "artifact": "net.neoforged:neoforge:21.1.234",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.1.2.84",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:2.12.0+c3656daa19",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.6.2+4f11f7994c",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.7.1+1f023a9e9e",
+        "resource": "assets/*/lang/*.json"
+      }
+    ],
+    "command_translation.tag.fluid.c.experience": [
+      {
+        "artifact": "net.neoforged:neoforge:21.1.234",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.1.2.84",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:2.12.0+c3656daa19",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.6.2+4f11f7994c",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.7.1+1f023a9e9e",
+        "resource": "assets/*/lang/*.json"
+      }
+    ],
+    "command_translation.tag.fluid.c.gaseous": [
+      {
+        "artifact": "net.neoforged:neoforge:21.1.234",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.1.2.84",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:2.12.0+c3656daa19",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.6.2+4f11f7994c",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.7.1+1f023a9e9e",
+        "resource": "assets/*/lang/*.json"
+      }
+    ],
+    "command_translation.tag.fluid.c.hidden_from_recipe_viewers": [
+      {
+        "artifact": "net.neoforged:neoforge:21.1.234",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.1.2.84",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:2.12.0+c3656daa19",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.6.2+4f11f7994c",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.7.1+1f023a9e9e",
+        "resource": "assets/*/lang/*.json"
+      }
+    ],
+    "command_translation.tag.fluid.c.honey": [
+      {
+        "artifact": "net.neoforged:neoforge:21.1.234",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.1.2.84",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:2.12.0+c3656daa19",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.6.2+4f11f7994c",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.7.1+1f023a9e9e",
+        "resource": "assets/*/lang/*.json"
+      }
+    ],
+    "command_translation.tag.fluid.c.lava": [
+      {
+        "artifact": "net.neoforged:neoforge:21.1.234",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.1.2.84",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:2.12.0+c3656daa19",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.6.2+4f11f7994c",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.7.1+1f023a9e9e",
+        "resource": "assets/*/lang/*.json"
+      }
+    ],
+    "command_translation.tag.fluid.c.milk": [
+      {
+        "artifact": "net.neoforged:neoforge:21.1.234",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.1.2.84",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:2.12.0+c3656daa19",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.6.2+4f11f7994c",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.7.1+1f023a9e9e",
+        "resource": "assets/*/lang/*.json"
+      }
+    ],
+    "command_translation.tag.fluid.c.mushroom_stew": [
+      {
+        "artifact": "net.neoforged:neoforge:21.1.234",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.1.2.84",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:2.12.0+c3656daa19",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.6.2+4f11f7994c",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.7.1+1f023a9e9e",
+        "resource": "assets/*/lang/*.json"
+      }
+    ],
+    "command_translation.tag.fluid.c.potion": [
+      {
+        "artifact": "net.neoforged:neoforge:21.1.234",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.1.2.84",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:2.12.0+c3656daa19",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.6.2+4f11f7994c",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.7.1+1f023a9e9e",
+        "resource": "assets/*/lang/*.json"
+      }
+    ],
+    "command_translation.tag.fluid.c.rabbit_stew": [
+      {
+        "artifact": "net.neoforged:neoforge:21.1.234",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.1.2.84",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:2.12.0+c3656daa19",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.6.2+4f11f7994c",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.7.1+1f023a9e9e",
+        "resource": "assets/*/lang/*.json"
+      }
+    ],
+    "command_translation.tag.fluid.c.suspicious_stew": [
+      {
+        "artifact": "net.neoforged:neoforge:21.1.234",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.1.2.84",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:2.12.0+c3656daa19",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.6.2+4f11f7994c",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.7.1+1f023a9e9e",
+        "resource": "assets/*/lang/*.json"
+      }
+    ],
+    "command_translation.tag.fluid.c.water": [
+      {
+        "artifact": "net.neoforged:neoforge:21.1.234",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.1.2.84",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:2.12.0+c3656daa19",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.6.2+4f11f7994c",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.7.1+1f023a9e9e",
+        "resource": "assets/*/lang/*.json"
+      }
+    ],
+    "command_translation.tag.fluid.forge.milk": [
+      {
+        "artifact": "net.neoforged:neoforge:21.1.234",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.1.2.84",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:2.12.0+c3656daa19",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.6.2+4f11f7994c",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.7.1+1f023a9e9e",
+        "resource": "assets/*/lang/*.json"
+      }
+    ]
+  },
+  "en_us": {
+    "command_translation.tag.fluid.c.beetroot_soup": "Beetroot Soup",
+    "command_translation.tag.fluid.c.experience": "Experience",
+    "command_translation.tag.fluid.c.gaseous": "Gaseous",
+    "command_translation.tag.fluid.c.hidden_from_recipe_viewers": "Hidden From Recipe Viewers",
+    "command_translation.tag.fluid.c.honey": "Honey",
+    "command_translation.tag.fluid.c.lava": "Lava",
+    "command_translation.tag.fluid.c.milk": "Milk",
+    "command_translation.tag.fluid.c.mushroom_stew": "Mushroom Stew",
+    "command_translation.tag.fluid.c.potion": "Potion",
+    "command_translation.tag.fluid.c.rabbit_stew": "Rabbit Stew",
+    "command_translation.tag.fluid.c.suspicious_stew": "Suspicious Stew",
+    "command_translation.tag.fluid.c.water": "Water",
+    "command_translation.tag.fluid.forge.milk": "Milk"
+  },
+  "cs_cz": {
+    "command_translation.tag.fluid.c.milk": "Mléko",
+    "command_translation.tag.fluid.c.water": "Voda",
+    "command_translation.tag.fluid.forge.milk": "Mléko"
+  },
+  "de_de": {
+    "command_translation.tag.fluid.c.beetroot_soup": "Rote-Bete-Suppe",
+    "command_translation.tag.fluid.c.experience": "Erfahrung",
+    "command_translation.tag.fluid.c.gaseous": "Gasförmig",
+    "command_translation.tag.fluid.c.hidden_from_recipe_viewers": "Vor Rezeptbetrachtern verborgen",
+    "command_translation.tag.fluid.c.honey": "Honig",
+    "command_translation.tag.fluid.c.lava": "Lava",
+    "command_translation.tag.fluid.c.milk": "Milch",
+    "command_translation.tag.fluid.c.mushroom_stew": "Pilzsuppe",
+    "command_translation.tag.fluid.c.potion": "Trank",
+    "command_translation.tag.fluid.c.rabbit_stew": "Kaninchenragout",
+    "command_translation.tag.fluid.c.suspicious_stew": "Seltsame Suppe",
+    "command_translation.tag.fluid.c.water": "Wasser",
+    "command_translation.tag.fluid.forge.milk": "Milch"
+  },
+  "it_it": {
+    "command_translation.tag.fluid.c.beetroot_soup": "Zuppa di barbabietole",
+    "command_translation.tag.fluid.c.experience": "Esperienza",
+    "command_translation.tag.fluid.c.gaseous": "Gassoso",
+    "command_translation.tag.fluid.c.hidden_from_recipe_viewers": "Nascosto nelle anteprime di ricette",
+    "command_translation.tag.fluid.c.honey": "Miele",
+    "command_translation.tag.fluid.c.lava": "Lava",
+    "command_translation.tag.fluid.c.milk": "Latte",
+    "command_translation.tag.fluid.c.mushroom_stew": "Zuppa di funghi",
+    "command_translation.tag.fluid.c.potion": "Pozione",
+    "command_translation.tag.fluid.c.rabbit_stew": "Stufato di coniglio",
+    "command_translation.tag.fluid.c.suspicious_stew": "Zuppe sospette",
+    "command_translation.tag.fluid.c.water": "Acqua",
+    "command_translation.tag.fluid.forge.milk": "Latte"
+  },
+  "ja_jp": {
+    "command_translation.tag.fluid.c.hidden_from_recipe_viewers": "レシピ閲覧画面に表示しない",
+    "command_translation.tag.fluid.c.honey": "ハチミツ",
+    "command_translation.tag.fluid.c.lava": "溶岩",
+    "command_translation.tag.fluid.c.milk": "ミルク",
+    "command_translation.tag.fluid.c.water": "水",
+    "command_translation.tag.fluid.c.beetroot_soup": "ビートルートスープ",
+    "command_translation.tag.fluid.c.experience": "経験値",
+    "command_translation.tag.fluid.c.gaseous": "気体",
+    "command_translation.tag.fluid.c.mushroom_stew": "キノコシチュー",
+    "command_translation.tag.fluid.c.potion": "ポーション",
+    "command_translation.tag.fluid.c.rabbit_stew": "ウサギシチュー",
+    "command_translation.tag.fluid.c.suspicious_stew": "怪しげなシチュー",
+    "command_translation.tag.fluid.forge.milk": "ミルク"
+  },
+  "ko_kr": {
+    "command_translation.tag.fluid.c.beetroot_soup": "비트 수프",
+    "command_translation.tag.fluid.c.experience": "경험치",
+    "command_translation.tag.fluid.c.gaseous": "비어있는",
+    "command_translation.tag.fluid.c.honey": "꿀",
+    "command_translation.tag.fluid.c.lava": "용암",
+    "command_translation.tag.fluid.c.milk": "우유",
+    "command_translation.tag.fluid.c.mushroom_stew": "버섯 스튜",
+    "command_translation.tag.fluid.c.potion": "물약",
+    "command_translation.tag.fluid.c.rabbit_stew": "토끼 스튜",
+    "command_translation.tag.fluid.c.suspicious_stew": "수상한 스튜",
+    "command_translation.tag.fluid.c.water": "물",
+    "command_translation.tag.fluid.c.hidden_from_recipe_viewers": "레시피 뷰어에서 보이지 않음",
+    "command_translation.tag.fluid.forge.milk": "우유"
+  },
+  "ms_my": {
+    "command_translation.tag.fluid.c.hidden_from_recipe_viewers": "Tersembunyi dari Pelihat Resipi",
+    "command_translation.tag.fluid.c.honey": "Madu",
+    "command_translation.tag.fluid.c.lava": "Lahar",
+    "command_translation.tag.fluid.c.milk": "Susu",
+    "command_translation.tag.fluid.c.water": "Air",
+    "command_translation.tag.fluid.forge.milk": "Susu"
+  },
+  "pl_pl": {
+    "command_translation.tag.fluid.c.beetroot_soup": "Barszcz czerwony",
+    "command_translation.tag.fluid.c.experience": "Doświadczenie",
+    "command_translation.tag.fluid.c.gaseous": "Gazowe",
+    "command_translation.tag.fluid.c.hidden_from_recipe_viewers": "Ukryte przed kompendium receptur",
+    "command_translation.tag.fluid.c.honey": "Miód",
+    "command_translation.tag.fluid.c.lava": "Lawa",
+    "command_translation.tag.fluid.c.milk": "Mleko",
+    "command_translation.tag.fluid.c.mushroom_stew": "Zupa grzybowa",
+    "command_translation.tag.fluid.c.potion": "Mikstura",
+    "command_translation.tag.fluid.c.rabbit_stew": "Potrawka z królika",
+    "command_translation.tag.fluid.c.suspicious_stew": "Podejrzana potrawka",
+    "command_translation.tag.fluid.c.water": "Woda",
+    "command_translation.tag.fluid.forge.milk": "Mleko"
+  },
+  "pt_br": {
+    "command_translation.tag.fluid.c.hidden_from_recipe_viewers": "Receita escondida de espectadores",
+    "command_translation.tag.fluid.c.honey": "Mel",
+    "command_translation.tag.fluid.c.lava": "Lava",
+    "command_translation.tag.fluid.c.milk": "Leite",
+    "command_translation.tag.fluid.c.water": "Água",
+    "command_translation.tag.fluid.forge.milk": "Leite"
+  },
+  "ru_ru": {
+    "command_translation.tag.fluid.c.beetroot_soup": "Свекольный суп",
+    "command_translation.tag.fluid.c.experience": "Опыт",
+    "command_translation.tag.fluid.c.gaseous": "Газообразный",
+    "command_translation.tag.fluid.c.hidden_from_recipe_viewers": "Скрыто от обозревателей рецептов",
+    "command_translation.tag.fluid.c.honey": "Мёд",
+    "command_translation.tag.fluid.c.lava": "Лава",
+    "command_translation.tag.fluid.c.milk": "Молоко",
+    "command_translation.tag.fluid.c.mushroom_stew": "Грибной суп",
+    "command_translation.tag.fluid.c.potion": "Зелье",
+    "command_translation.tag.fluid.c.rabbit_stew": "Кроличий суп",
+    "command_translation.tag.fluid.c.suspicious_stew": "Подозрительный суп",
+    "command_translation.tag.fluid.c.water": "Вода",
+    "command_translation.tag.fluid.forge.milk": "Молоко"
+  },
+  "zh_cn": {
+    "command_translation.tag.fluid.c.hidden_from_recipe_viewers": "从配方查看器中隐藏",
+    "command_translation.tag.fluid.c.honey": "蜂蜜",
+    "command_translation.tag.fluid.c.lava": "熔岩",
+    "command_translation.tag.fluid.c.milk": "奶",
+    "command_translation.tag.fluid.c.water": "水",
+    "command_translation.tag.fluid.c.beetroot_soup": "甜菜汤",
+    "command_translation.tag.fluid.c.experience": "经验值",
+    "command_translation.tag.fluid.c.gaseous": "气体",
+    "command_translation.tag.fluid.c.mushroom_stew": "蘑菇煲",
+    "command_translation.tag.fluid.c.potion": "药水",
+    "command_translation.tag.fluid.c.rabbit_stew": "兔肉煲",
+    "command_translation.tag.fluid.c.suspicious_stew": "谜之炖菜",
+    "command_translation.tag.fluid.forge.milk": "奶"
+  },
+  "zh_tw": {
+    "command_translation.tag.fluid.c.hidden_from_recipe_viewers": "從配方查看器中隱藏",
+    "command_translation.tag.fluid.c.honey": "蜂蜜",
+    "command_translation.tag.fluid.c.lava": "熔岩",
+    "command_translation.tag.fluid.c.milk": "鮮奶",
+    "command_translation.tag.fluid.c.water": "水",
+    "command_translation.tag.fluid.c.beetroot_soup": "甜菜湯",
+    "command_translation.tag.fluid.c.experience": "經驗",
+    "command_translation.tag.fluid.c.gaseous": "氣態",
+    "command_translation.tag.fluid.c.mushroom_stew": "蘑菇湯",
+    "command_translation.tag.fluid.c.potion": "藥水",
+    "command_translation.tag.fluid.c.rabbit_stew": "兔肉湯",
+    "command_translation.tag.fluid.c.suspicious_stew": "可疑的燉湯",
+    "command_translation.tag.fluid.forge.milk": "鮮奶"
+  },
+  "zlm_arab": {
+    "command_translation.tag.fluid.c.hidden_from_recipe_viewers": "ترسمبوپي دري ڤليهت رسيڤي",
+    "command_translation.tag.fluid.c.honey": "مادو",
+    "command_translation.tag.fluid.c.lava": "لاهر",
+    "command_translation.tag.fluid.c.milk": "سوسو",
+    "command_translation.tag.fluid.c.water": "اءير",
+    "command_translation.tag.fluid.forge.milk": "سوسو"
+  },
+  "fr_fr": {
+    "command_translation.tag.fluid.c.beetroot_soup": "Soupe de betteraves",
+    "command_translation.tag.fluid.c.experience": "Expérience",
+    "command_translation.tag.fluid.c.gaseous": "Gazeux",
+    "command_translation.tag.fluid.c.hidden_from_recipe_viewers": "Caché des visionneuses de recettes",
+    "command_translation.tag.fluid.c.honey": "Miel",
+    "command_translation.tag.fluid.c.lava": "Lave",
+    "command_translation.tag.fluid.c.milk": "Lait",
+    "command_translation.tag.fluid.c.mushroom_stew": "Soupe de champignons",
+    "command_translation.tag.fluid.c.potion": "Potion",
+    "command_translation.tag.fluid.c.rabbit_stew": "Ragoût de lapin",
+    "command_translation.tag.fluid.c.suspicious_stew": "Soupe suspecte",
+    "command_translation.tag.fluid.c.water": "Eau",
+    "command_translation.tag.fluid.forge.milk": "Lait"
+  },
+  "uk_ua": {
+    "command_translation.tag.fluid.c.beetroot_soup": "Борщ",
+    "command_translation.tag.fluid.c.experience": "Досвід",
+    "command_translation.tag.fluid.c.gaseous": "Газоподібний",
+    "command_translation.tag.fluid.c.hidden_from_recipe_viewers": "Сховані від переглядачів рецептів",
+    "command_translation.tag.fluid.c.honey": "Мед",
+    "command_translation.tag.fluid.c.lava": "Лава",
+    "command_translation.tag.fluid.c.milk": "Молоко",
+    "command_translation.tag.fluid.c.mushroom_stew": "Тушковані гриби",
+    "command_translation.tag.fluid.c.potion": "Зілля",
+    "command_translation.tag.fluid.c.rabbit_stew": "Тушкований кролик",
+    "command_translation.tag.fluid.c.suspicious_stew": "Підозріла юшка",
+    "command_translation.tag.fluid.c.water": "Вода",
+    "command_translation.tag.fluid.forge.milk": "Молоко"
+  }
+}

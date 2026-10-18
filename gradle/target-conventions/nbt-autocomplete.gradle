@@ -1,0 +1,26 @@
+repositories {
+    exclusiveContent {
+        forRepository { maven { name = 'Modrinth'; url = 'https://api.modrinth.com/maven' } }
+        filter { includeGroup 'maven.modrinth' }
+    }
+}
+
+def artifactVersion = "${nbtac_version}-${loader}-${minecraft_version}"
+def coordinate = "maven.modrinth:nbt-autocomplete:${artifactVersion}"
+if (loader == 'fabric') {
+    dependencies.add((java_version as int) < 25 ? 'modImplementation' : 'implementation', coordinate)
+    dependencies.add('include', coordinate)
+} else if (loader == 'forge') {
+    dependencies {
+        modImplementation coordinate
+        jarJar(coordinate) {
+            version { strictly "[${artifactVersion}]"; prefer artifactVersion }
+        }
+    }
+} else {
+    dependencies {
+        jarJar(implementation(coordinate)) {
+            version { strictly "[${artifactVersion}]"; prefer artifactVersion }
+        }
+    }
+}

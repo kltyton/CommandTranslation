@@ -1,0 +1,164 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:food": "Hunger and saturation restored when the item is eaten.",
+    "command_translation.help.component.minecraft:food.field.nutrition": "The food points restored when the item is eaten.",
+    "command_translation.help.component.minecraft:food.field.saturation": "The saturation restored when the item is eaten.",
+    "command_translation.help.component.minecraft:food.field.can_always_eat": "Whether the item can be eaten even when not hungry.",
+    "command_translation.help.component.minecraft:food.field.eat_seconds": "The seconds needed to consume the item.",
+    "command_translation.help.component.minecraft:food.field.effects": "The effects applied when the item is eaten.",
+    "command_translation.help.component.minecraft:food.field.effects.effect": "The status effect to apply when the item is eaten.",
+    "command_translation.help.component.minecraft:food.field.effects.effect.id": "The ID of the effect.",
+    "command_translation.help.component.minecraft:food.field.effects.effect.amplifier": "The effect amplifier, with level I being 0.",
+    "command_translation.help.component.minecraft:food.field.effects.effect.duration": "The effect duration in ticks.",
+    "command_translation.help.component.minecraft:food.field.effects.effect.show_particles": "Whether the effect produces particles.",
+    "command_translation.help.component.minecraft:food.field.effects.probability": "The chance for this effect to be applied."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:food": "食用后恢复的饥饿值与饱和度。",
+    "command_translation.help.component.minecraft:food.field.nutrition": "食用该物品恢复的饥饿值。",
+    "command_translation.help.component.minecraft:food.field.saturation": "食用该物品恢复的饱和度。",
+    "command_translation.help.component.minecraft:food.field.can_always_eat": "即使不饿也能否食用该物品。",
+    "command_translation.help.component.minecraft:food.field.eat_seconds": "食用该物品所需的秒数。",
+    "command_translation.help.component.minecraft:food.field.effects": "食用该物品时施加的效果。",
+    "command_translation.help.component.minecraft:food.field.effects.effect": "食用该物品时施加的状态效果。",
+    "command_translation.help.component.minecraft:food.field.effects.effect.id": "效果的 ID。",
+    "command_translation.help.component.minecraft:food.field.effects.effect.amplifier": "效果等级，I 级为 0。",
+    "command_translation.help.component.minecraft:food.field.effects.effect.duration": "效果持续时间（刻）。",
+    "command_translation.help.component.minecraft:food.field.effects.effect.show_particles": "该效果是否产生粒子。",
+    "command_translation.help.component.minecraft:food.field.effects.probability": "施加该效果的概率。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:food": "Beim Essen wiederhergestellte Hunger- und Sättigungspunkte.",
+    "command_translation.help.component.minecraft:food.field.nutrition": "Die beim Essen wiederhergestellten Hungerpunkte.",
+    "command_translation.help.component.minecraft:food.field.saturation": "Die beim Essen wiederhergestellte Sättigung.",
+    "command_translation.help.component.minecraft:food.field.can_always_eat": "Ob das Item auch ohne Hunger gegessen werden kann.",
+    "command_translation.help.component.minecraft:food.field.eat_seconds": "Die zum Verzehren des Items benötigten Sekunden.",
+    "command_translation.help.component.minecraft:food.field.effects": "Die beim Essen des Items angewendeten Effekte.",
+    "command_translation.help.component.minecraft:food.field.effects.effect": "Der beim Essen anzuwendende Statuseffekt.",
+    "command_translation.help.component.minecraft:food.field.effects.effect.id": "Die ID des Effekts.",
+    "command_translation.help.component.minecraft:food.field.effects.effect.amplifier": "Der Effektverstärker, wobei Stufe I den Wert 0 hat.",
+    "command_translation.help.component.minecraft:food.field.effects.effect.duration": "Die Wirkungsdauer in Ticks.",
+    "command_translation.help.component.minecraft:food.field.effects.effect.show_particles": "Ob der Effekt Partikel erzeugt.",
+    "command_translation.help.component.minecraft:food.field.effects.probability": "Die Wahrscheinlichkeit, dass dieser Effekt angewendet wird."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:food": "食べたときに回復する満腹度と隠し満腹度。",
+    "command_translation.help.component.minecraft:food.field.nutrition": "食べたときに回復する食料ポイント。",
+    "command_translation.help.component.minecraft:food.field.saturation": "食べたときに回復する隠れ満腹度。",
+    "command_translation.help.component.minecraft:food.field.can_always_eat": "満腹でなくても食べられるか。",
+    "command_translation.help.component.minecraft:food.field.eat_seconds": "このアイテムを消費するのに必要な秒数。",
+    "command_translation.help.component.minecraft:food.field.effects": "このアイテムを食べたときに適用される効果。",
+    "command_translation.help.component.minecraft:food.field.effects.effect": "食べたときに適用する状態効果。",
+    "command_translation.help.component.minecraft:food.field.effects.effect.id": "効果のID。",
+    "command_translation.help.component.minecraft:food.field.effects.effect.amplifier": "効果の強度。レベルIが0。",
+    "command_translation.help.component.minecraft:food.field.effects.effect.duration": "効果の持続時間（ティック）。",
+    "command_translation.help.component.minecraft:food.field.effects.effect.show_particles": "この効果がパーティクルを出すか。",
+    "command_translation.help.component.minecraft:food.field.effects.probability": "この効果が付与される確率。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:food": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:food.field.nutrition": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:food.field.saturation": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:food.field.can_always_eat": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:food.field.eat_seconds": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      }
+    ],
+    "command_translation.help.component.minecraft:food.field.effects": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      }
+    ],
+    "command_translation.help.component.minecraft:food.field.effects.effect": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      }
+    ],
+    "command_translation.help.component.minecraft:food.field.effects.effect.id": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      }
+    ],
+    "command_translation.help.component.minecraft:food.field.effects.effect.amplifier": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      }
+    ],
+    "command_translation.help.component.minecraft:food.field.effects.effect.duration": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      }
+    ],
+    "command_translation.help.component.minecraft:food.field.effects.effect.show_particles": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      }
+    ],
+    "command_translation.help.component.minecraft:food.field.effects.probability": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      }
+    ]
+  }
+}

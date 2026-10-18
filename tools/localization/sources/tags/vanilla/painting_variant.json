@@ -1,0 +1,22 @@
+{
+  "en_us": {
+    "command_translation.tag.painting_variant.minecraft.placeable": "Variants chosen when placing a painting without one"
+  },
+  "zh_cn": {
+    "command_translation.tag.painting_variant.minecraft.placeable": "未指定变种时放置选择的画"
+  },
+  "de_de": {
+    "command_translation.tag.painting_variant.minecraft.placeable": "Varianten beim Platzieren ohne Auswahl"
+  },
+  "ja_jp": {
+    "command_translation.tag.painting_variant.minecraft.placeable": "指定なしで設置する絵の変種"
+  },
+  "sources": {
+    "command_translation.tag.painting_variant.minecraft.placeable": [
+      {
+        "url": "https://minecraft.wiki/w/Painting%20variant%20tag%20(Java%20Edition)",
+        "revision": 3839227
+      }
+    ]
+  }
+}

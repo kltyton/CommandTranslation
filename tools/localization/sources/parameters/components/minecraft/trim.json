@@ -1,0 +1,66 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:trim": "The armor trim applied to this armor piece.",
+    "command_translation.help.component.minecraft:trim.field.pattern": "The trim pattern, given as an ID or a trim pattern definition.",
+    "command_translation.help.component.minecraft:trim.field.material": "The trim material, given as an ID or a trim material definition."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:trim": "施加于该盔甲的盔甲纹饰。",
+    "command_translation.help.component.minecraft:trim.field.pattern": "纹饰图案，可为一个 ID 或纹饰图案定义。",
+    "command_translation.help.component.minecraft:trim.field.material": "纹饰材料，可为一个 ID 或纹饰材料定义。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:trim": "Der auf dieses Rüstungsteil angebrachte Rüstungsbesatz.",
+    "command_translation.help.component.minecraft:trim.field.pattern": "Das Besatzmuster, als ID oder Besatzmuster-Definition.",
+    "command_translation.help.component.minecraft:trim.field.material": "Das Besatzmaterial, als ID oder Besatzmaterial-Definition."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:trim": "この防具に適用された装飾。",
+    "command_translation.help.component.minecraft:trim.field.pattern": "装飾の模様。IDまたは模様定義で指定する。",
+    "command_translation.help.component.minecraft:trim.field.material": "装飾の素材。IDまたは素材定義で指定する。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:trim": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:trim.field.pattern": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:trim.field.material": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

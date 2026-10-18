@@ -1,0 +1,11 @@
+{
+  "name": "command-translation-localization",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node emit-language.mjs"
+  },
+  "devDependencies": {
+    "opencc-js": "1.4.2"
+  }
+}

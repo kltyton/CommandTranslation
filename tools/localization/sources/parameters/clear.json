@@ -1,0 +1,103 @@
+{
+  "en_us": {
+    "command_translation.help.argument.clear.targets": "The players whose items are cleared; defaults to the command's executor.",
+    "command_translation.help.argument.clear.item": "An item filter; only matching items are removed, and omitting it selects all items.",
+    "command_translation.help.argument.clear.maxCount": "The maximum number of matching items to remove; if 0, nothing is cleared and the matching items are counted instead."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.clear.targets": "要清空物品的玩家；省略时作用于命令执行者。",
+    "command_translation.help.argument.clear.item": "筛选要移除的物品；省略则选择全部物品。",
+    "command_translation.help.argument.clear.maxCount": "最多移除的匹配物品数量；填 0 时不清除，而是统计匹配物品的数量。"
+  },
+  "sources": {
+    "command_translation.help.argument.clear.targets": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fclear",
+        "revision": 3774572
+      },
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.argument.clear.item": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fclear",
+        "revision": 3774572
+      }
+    ],
+    "command_translation.help.argument.clear.maxCount": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fclear",
+        "revision": 3774572
+      }
+    ]
+  },
+  "bindings": {
+    "clear.targets": "command_translation.help.argument.clear.targets",
+    "clear.targets.item": "command_translation.help.argument.clear.item",
+    "clear.targets.item.maxCount": "command_translation.help.argument.clear.maxCount"
+  },
+  "de_de": {
+    "command_translation.help.argument.clear.targets": "Die Spieler, deren Inventar geleert wird; ohne Angabe der ausführende Spieler.",
+    "command_translation.help.argument.clear.item": "Ein Gegenstandsfilter; nur passende Gegenstände werden entfernt, ohne Filter werden alle gewählt.",
+    "command_translation.help.argument.clear.maxCount": "Die höchstens zu entfernende Anzahl passender Gegenstände; bei 0 wird nichts gelöscht, sondern gezählt."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.clear.targets": "インベントリを消去するプレイヤー。省略時は実行者。",
+    "command_translation.help.argument.clear.item": "対象アイテムの絞り込み。一致した物だけを削除し、省略するとすべてのアイテムを選ぶ。",
+    "command_translation.help.argument.clear.maxCount": "消去する一致アイテムの最大数。0 の場合は何も消去せず、一致アイテムの数を数えるだけ。"
+  },
+  "syntax": [
+    {
+      "path": "clear",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clear.targets",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "players",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clear.targets.item",
+      "type": "argument",
+      "parser": "minecraft:item_predicate",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clear.targets.item.maxCount",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

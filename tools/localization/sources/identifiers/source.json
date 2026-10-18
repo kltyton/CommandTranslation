@@ -1,0 +1,30 @@
+{
+  "project": "Identifier Translation",
+  "author": "Yeah-Zero",
+  "revision": "6bda4a11d30005697e82ea9043e7d486652542b9",
+  "url": "https://github.com/Yeah-Zero/Identifier-Translation/tree/6bda4a11d30005697e82ea9043e7d486652542b9",
+  "license": "LGPL-3.0-only",
+  "locales": [
+    "cs_cz",
+    "de_de",
+    "en_us",
+    "es_es",
+    "fr_fr",
+    "hu_hu",
+    "it_it",
+    "ja_jp",
+    "ko_kr",
+    "lzh",
+    "nl_nl",
+    "pl_pl",
+    "pt_pt",
+    "ru_ru",
+    "th_th",
+    "tr_tr",
+    "tt_ru",
+    "uk_ua",
+    "zh_cn",
+    "zh_hk",
+    "zh_tw"
+  ]
+}

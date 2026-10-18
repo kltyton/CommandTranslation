@@ -1,0 +1,210 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:profile": "Provides the textures used to render player models and player face sprites.",
+    "command_translation.help.component.minecraft:profile.field.name": "A username used to dynamically request that player's profile from Mojang.",
+    "command_translation.help.component.minecraft:profile.field.id": "A UUID used to dynamically request that player's profile from Mojang.",
+    "command_translation.help.component.minecraft:profile.field.properties": "A non-empty list of resolved user profile properties.",
+    "command_translation.help.component.minecraft:profile.field.properties.name": "The property name, which can only be textures.",
+    "command_translation.help.component.minecraft:profile.field.properties.value": "The base64-encoded texture data JSON.",
+    "command_translation.help.component.minecraft:profile.field.properties.signature": "The optional base64-encoded Mojang signature of the value.",
+    "command_translation.help.component.minecraft:profile.field.texture": "A namespaced path to a player skin texture overriding the profile's skin.",
+    "command_translation.help.component.minecraft:profile.field.cape": "A namespaced path to a cape texture overriding the profile's cape.",
+    "command_translation.help.component.minecraft:profile.field.elytra": "A namespaced path to an elytra texture overriding the profile's elytra.",
+    "command_translation.help.component.minecraft:profile.field.model": "The player model type, either wide or slim."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:profile": "提供渲染玩家模型与玩家面部贴图所用的纹理。",
+    "command_translation.help.component.minecraft:profile.field.name": "用于向 Mojang 动态请求该玩家档案的用户名。",
+    "command_translation.help.component.minecraft:profile.field.id": "用于向 Mojang 动态请求该玩家档案的 UUID。",
+    "command_translation.help.component.minecraft:profile.field.properties": "已解析的用户档案属性非空列表。",
+    "command_translation.help.component.minecraft:profile.field.properties.name": "属性名称，只能是 textures。",
+    "command_translation.help.component.minecraft:profile.field.properties.value": "以 base64 编码的纹理数据 JSON。",
+    "command_translation.help.component.minecraft:profile.field.properties.signature": "可选的、以 base64 编码的该值的 Mojang 签名。",
+    "command_translation.help.component.minecraft:profile.field.texture": "覆盖档案皮肤的玩家皮肤纹理命名空间路径。",
+    "command_translation.help.component.minecraft:profile.field.cape": "覆盖档案披风的披风纹理命名空间路径。",
+    "command_translation.help.component.minecraft:profile.field.elytra": "覆盖档案鞘翅的鞘翅纹理命名空间路径。",
+    "command_translation.help.component.minecraft:profile.field.model": "玩家模型类型，wide 或 slim。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:profile": "Liefert die Texturen zum Rendern von Spielermodellen und Spielergesichtern.",
+    "command_translation.help.component.minecraft:profile.field.name": "Ein Benutzername, mit dem das Profil dieses Spielers dynamisch bei Mojang angefragt wird.",
+    "command_translation.help.component.minecraft:profile.field.id": "Eine UUID, mit der das Profil dieses Spielers dynamisch bei Mojang angefragt wird.",
+    "command_translation.help.component.minecraft:profile.field.properties": "Eine nicht leere Liste aufgelöster Benutzerprofil-Eigenschaften.",
+    "command_translation.help.component.minecraft:profile.field.properties.name": "Der Eigenschaftsname, der nur textures sein kann.",
+    "command_translation.help.component.minecraft:profile.field.properties.value": "Die base64-kodierten Texturdaten als JSON.",
+    "command_translation.help.component.minecraft:profile.field.properties.signature": "Die optionale, base64-kodierte Mojang-Signatur des Werts.",
+    "command_translation.help.component.minecraft:profile.field.texture": "Ein Namensraumpfad zu einer Spieler-Skin-Textur, die die Skin des Profils überschreibt.",
+    "command_translation.help.component.minecraft:profile.field.cape": "Ein Namensraumpfad zu einer Umhangtextur, die den Umhang des Profils überschreibt.",
+    "command_translation.help.component.minecraft:profile.field.elytra": "Ein Namensraumpfad zu einer Elytrentextur, die die Elytra des Profils überschreibt.",
+    "command_translation.help.component.minecraft:profile.field.model": "Der Spielermodelltyp, entweder wide oder slim."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:profile": "プレイヤーモデルとプレイヤー顔スプライトの描画に使うテクスチャを提供する。",
+    "command_translation.help.component.minecraft:profile.field.name": "Mojangにそのプレイヤーのプロフィールを動的に要求するユーザー名。",
+    "command_translation.help.component.minecraft:profile.field.id": "Mojangにそのプレイヤーのプロフィールを動的に要求するUUID。",
+    "command_translation.help.component.minecraft:profile.field.properties": "解決済みユーザープロフィールプロパティの空でないリスト。",
+    "command_translation.help.component.minecraft:profile.field.properties.name": "プロパティ名。texturesのみ指定できる。",
+    "command_translation.help.component.minecraft:profile.field.properties.value": "base64でエンコードされたテクスチャデータのJSON。",
+    "command_translation.help.component.minecraft:profile.field.properties.signature": "省略可能な、値のbase64エンコードされたMojang署名。",
+    "command_translation.help.component.minecraft:profile.field.texture": "プロフィールのスキンを上書きするプレイヤースキンテクスチャの名前空間パス。",
+    "command_translation.help.component.minecraft:profile.field.cape": "プロフィールのマントを上書きするマントテクスチャの名前空間パス。",
+    "command_translation.help.component.minecraft:profile.field.elytra": "プロフィールのエリトラを上書きするエリトラテクスチャの名前空間パス。",
+    "command_translation.help.component.minecraft:profile.field.model": "プレイヤーモデルの種類。wideまたはslim。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:profile": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:profile.field.name": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:profile.field.id": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:profile.field.properties": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:profile.field.properties.name": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:profile.field.properties.value": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:profile.field.properties.signature": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:profile.field.texture": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:profile.field.cape": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:profile.field.elytra": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:profile.field.model": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

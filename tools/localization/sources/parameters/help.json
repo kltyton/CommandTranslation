@@ -1,0 +1,51 @@
+{
+  "en_us": {
+    "command_translation.help.argument.help.command": "The command whose usage you want; add more words to narrow the syntax."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.help.command": "要查询用法的命令；多填几个词可进一步限定语法。"
+  },
+  "sources": {
+    "command_translation.help.argument.help.command": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fhelp",
+        "revision": 3581329
+      }
+    ]
+  },
+  "bindings": {
+    "help.command": "command_translation.help.argument.help.command"
+  },
+  "de_de": {
+    "command_translation.help.argument.help.command": "Der Befehl, dessen Syntax angezeigt werden soll; weitere Wörter grenzen sie ein."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.help.command": "使い方を調べるコマンド。語を追加すると構文を絞れる。"
+  },
+  "syntax": [
+    {
+      "path": "help",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "help.command",
+      "type": "argument",
+      "parser": "brigadier:string",
+      "properties": {
+        "type": "greedy"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

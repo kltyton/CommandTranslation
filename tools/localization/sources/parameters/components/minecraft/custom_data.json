@@ -1,0 +1,30 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:custom_data": "Custom data used by commands and data packs."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:custom_data": "保存供指令或数据包使用的自定义数据。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:custom_data": "Benutzerdefinierte Daten für Befehle und Datenpakete."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:custom_data": "コマンドやデータパックで使う独自データ。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:custom_data": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

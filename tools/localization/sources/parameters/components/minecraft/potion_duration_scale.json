@@ -1,0 +1,26 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:potion_duration_scale": "Scales the duration of effects applied from the potion_contents component by this factor."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:potion_duration_scale": "将 potion_contents 组件施加的效果持续时间乘以该系数。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:potion_duration_scale": "Skaliert die Dauer der aus der potion_contents-Komponente angewendeten Effekte mit diesem Faktor."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:potion_duration_scale": "potion_contentsコンポーネントで適用される効果の持続時間をこの係数で倍率する。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:potion_duration_scale": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

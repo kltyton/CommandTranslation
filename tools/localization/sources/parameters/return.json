@@ -1,0 +1,88 @@
+{
+  "en_us": {
+    "command_translation.help.argument.return.value": "Sets the function return value to a 32-bit integer (-2147483648 to 2147483647) and ends the containing function with success.",
+    "command_translation.help.argument.return.fail": "Ends the running function immediately with failure and return value 0; later commands in that function are not run.",
+    "command_translation.help.argument.return.run": "Runs the following command, then ends the function using that command's success and result as the return value; a forking /execute runs only the first branch."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.return.value": "把函数返回值设为 32 位整数（-2147483648 到 2147483647），并以成功结束所在函数。",
+    "command_translation.help.argument.return.fail": "立即以失败结束正在运行的函数，返回值为 0；该函数中其后的命令不再执行。",
+    "command_translation.help.argument.return.run": "先执行后面的命令，再结束函数，并把该命令的成功值与结果值作为函数返回值；分叉的 /execute 只执行第一分支。"
+  },
+  "sources": {
+    "command_translation.help.argument.return.value": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Freturn",
+        "revision": 3826031
+      }
+    ],
+    "command_translation.help.argument.return.fail": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Freturn",
+        "revision": 3826031
+      }
+    ],
+    "command_translation.help.argument.return.run": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Freturn",
+        "revision": 3826031
+      }
+    ]
+  },
+  "bindings": {
+    "return.value": "command_translation.help.argument.return.value",
+    "return.fail": "command_translation.help.argument.return.fail",
+    "return.run": "command_translation.help.argument.return.run"
+  },
+  "de_de": {
+    "command_translation.help.argument.return.value": "Setzt den Rückgabewert der Funktion auf eine 32-Bit-Ganzzahl (-2147483648 bis 2147483647) und beendet die enthaltende Funktion mit Erfolg.",
+    "command_translation.help.argument.return.fail": "Beendet die laufende Funktion sofort mit Misserfolg und dem Rückgabewert 0; spätere Befehle darin werden nicht ausgeführt.",
+    "command_translation.help.argument.return.run": "Führt den folgenden Befehl aus und beendet dann die Funktion mit dessen Erfolgs- und Ergebniswert als Rückgabewert; ein verzweigendes /execute führt nur den ersten Zweig aus."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.return.value": "関数の戻り値を 32 ビット整数（-2147483648 から 2147483647）に設定し、その関数を成功で終了する。",
+    "command_translation.help.argument.return.fail": "実行中の関数を直ちに失敗で終了し、戻り値を 0 にする。その関数内のこれ以降のコマンドは実行されない。",
+    "command_translation.help.argument.return.run": "後続のコマンドを実行してから関数を終了し、その成功値と結果値を関数の戻り値にする。分岐する /execute は最初の分岐だけを実行する。"
+  },
+  "syntax": [
+    {
+      "path": "return",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "return.value",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "return.fail",
+      "type": "literal",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "return.run",
+      "type": "literal",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

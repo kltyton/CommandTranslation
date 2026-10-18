@@ -1,0 +1,354 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:attribute_modifiers": "Attribute modifiers applied to a player or mob that has the item equipped.",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.id": "A unique namespaced ID for this modifier.",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.type": "The namespaced ID of the attribute this modifier acts upon.",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.slot": "The equipment slot the item must be in for the modifier to take effect.",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.operation": "How the modifier value is applied.",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.amount": "The value used in the modifier's operation.",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.display": "How the modifier is shown in the item's tooltip.",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.display.type": "The display type of the modifier in the tooltip.",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.display.value": "The text shown instead when the display type is override.",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.show_in_tooltip": "Whether this component’s details appear in the item tooltip.",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers": "Attribute modifiers applied while the item is equipped.",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.id": "A unique namespaced ID for this modifier.",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.type": "The namespaced ID of the attribute this modifier acts upon.",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.slot": "The equipment slot the item must be in for the modifier to take effect.",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.operation": "How the modifier value is applied.",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.amount": "The value used in the modifier's operation.",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.display": "How the modifier is shown in the item's tooltip.",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.display.type": "The display type of the modifier in the tooltip.",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.display.value": "The text shown instead when the display type is override."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:attribute_modifiers": "装备后作用于玩家或生物的属性修饰符列表。",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.id": "该修饰符的唯一命名空间 ID。",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.type": "该修饰符作用的属性 ID。",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.slot": "修饰符生效所需的装备槽位。",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.operation": "修饰符数值的运算方式。",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.amount": "运算所使用的数值。",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.display": "该修饰符在提示中的显示方式。",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.display.type": "提示中修饰符的显示类型。",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.display.value": "显示类型为覆盖时替换的文本。",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.show_in_tooltip": "是否在物品提示中显示该组件的信息。",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers": "装备物品时生效的属性修饰符列表。",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.id": "该修饰符的唯一命名空间 ID。",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.type": "该修饰符作用的属性 ID。",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.slot": "修饰符生效所需的装备槽位。",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.operation": "修饰符数值的运算方式。",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.amount": "运算所使用的数值。",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.display": "该修饰符在提示中的显示方式。",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.display.type": "提示中修饰符的显示类型。",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.display.value": "显示类型为覆盖时替换的文本。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:attribute_modifiers": "Attributmodifikatoren für die das Item tragende Entität.",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.id": "Eine eindeutige Namensraum-ID für diesen Modifikator.",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.type": "Die Namensraum-ID des Attributs, auf das der Modifikator wirkt.",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.slot": "Der Ausrüstungsslot, in dem der Modifikator wirkt.",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.operation": "Wie der Modifikatorwert angewendet wird.",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.amount": "Der in der Operation verwendete Wert.",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.display": "Wie der Modifikator im Tooltip angezeigt wird.",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.display.type": "Der Anzeigetyp des Modifikators im Tooltip.",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.display.value": "Der ersetzte Text bei Anzeigetyp override.",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.show_in_tooltip": "Ob die Informationen dieser Komponente im Item-Tooltip erscheinen.",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers": "Attributmodifikatoren, die beim Tragen des Items wirken.",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.id": "Eine eindeutige Namensraum-ID für diesen Modifikator.",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.type": "Die Namensraum-ID des Attributs, auf das der Modifikator wirkt.",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.slot": "Der Ausrüstungsslot, in dem der Modifikator wirkt.",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.operation": "Wie der Modifikatorwert angewendet wird.",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.amount": "Der in der Operation verwendete Wert.",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.display": "Wie der Modifikator im Tooltip angezeigt wird.",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.display.type": "Der Anzeigetyp des Modifikators im Tooltip.",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.display.value": "Der ersetzte Text bei Anzeigetyp override."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:attribute_modifiers": "装備者に適用される属性修飾子の一覧。",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.id": "この修飾子の一意な名前空間ID。",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.type": "この修飾子が作用する属性のID。",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.slot": "修飾子が有効になる装備スロット。",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.operation": "修飾子の値の適用方法。",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.amount": "演算に使われる値。",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.display": "ツールチップでの修飾子の表示方法。",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.display.type": "ツールチップでの表示タイプ。",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.display.value": "表示タイプがoverrideのときに差し替えるテキスト。",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.show_in_tooltip": "このコンポーネントの情報をアイテムのツールチップに表示するか。",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers": "装備時に適用する属性修飾子の一覧。",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.id": "この修飾子の一意な名前空間ID。",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.type": "この修飾子が作用する属性のID。",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.slot": "修飾子が有効になる装備スロット。",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.operation": "修飾子の値の適用方法。",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.amount": "演算に使われる値。",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.display": "ツールチップでの修飾子の表示方法。",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.display.type": "ツールチップでの表示タイプ。",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.display.value": "表示タイプがoverrideのときに差し替えるテキスト。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:attribute_modifiers": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:attribute_modifiers.field.id": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:attribute_modifiers.field.type": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:attribute_modifiers.field.slot": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:attribute_modifiers.field.operation": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:attribute_modifiers.field.amount": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:attribute_modifiers.field.display": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:attribute_modifiers.field.display.type": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:attribute_modifiers.field.display.value": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:attribute_modifiers.field.show_in_tooltip": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.id": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.type": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.slot": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.operation": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.amount": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.display": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.display.type": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.display.value": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

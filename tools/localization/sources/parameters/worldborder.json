@@ -1,0 +1,450 @@
+{
+  "en_us": {
+    "command_translation.help.argument.worldborder.add": "Grows or shrinks the border by the given number of blocks; with a time it moves gradually.",
+    "command_translation.help.argument.worldborder.set": "Sets the border's width and length to the given size; with a time it animates there.",
+    "command_translation.help.argument.worldborder.get": "Prints the current size (diameter) of the world border.",
+    "command_translation.help.argument.worldborder.center": "Moves the horizontal centre of the world border.",
+    "command_translation.help.argument.worldborder.pos": "The new centre of the border as x and z coordinates.",
+    "command_translation.help.argument.worldborder.distance": "In set the new border side length; in add the change to it, so negative shrinks.",
+    "command_translation.help.argument.worldborder.time": "How long the border takes to move to the new size; if omitted, instantly.",
+    "command_translation.help.argument.worldborder.damage": "Controls the damage dealt to players outside the border buffer.",
+    "command_translation.help.argument.worldborder.amount": "Sets the per-block damage outside the buffer.",
+    "command_translation.help.argument.worldborder.damagePerBlock": "Damage per second for each block a player is beyond the buffer; 0.2 is one tenth of a heart.",
+    "command_translation.help.argument.worldborder.buffer": "Sets how far outside the border a player may stand before taking damage.",
+    "command_translation.help.argument.worldborder.buffer.distance": "The buffer width in blocks; within it no damage is taken.",
+    "command_translation.help.argument.worldborder.warning": "Controls the red tint a player sees near or about to be reached by the border.",
+    "command_translation.help.argument.worldborder.warning.distance": "The distance from the border at which the red warning screen begins.",
+    "command_translation.help.argument.worldborder.warning.time": "How far in advance to warn a player that a shrinking border will reach them."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.worldborder.add": "按给定方块数增大或缩小边界；给出时间时逐渐移动。",
+    "command_translation.help.argument.worldborder.set": "把边界的宽与长设为给定大小；给出时间时动画过渡。",
+    "command_translation.help.argument.worldborder.get": "输出世界边界当前的尺寸（直径）。",
+    "command_translation.help.argument.worldborder.center": "移动世界边界的水平中心。",
+    "command_translation.help.argument.worldborder.pos": "边界新的中心，写成 x 与 z 坐标。",
+    "command_translation.help.argument.worldborder.distance": "set 中为新的边长；add 中为边长增减量，负数表示缩小。",
+    "command_translation.help.argument.worldborder.time": "边界移动到新尺寸所需时间；省略则立即变化。",
+    "command_translation.help.argument.worldborder.damage": "控制对缓冲带之外玩家造成的伤害。",
+    "command_translation.help.argument.worldborder.amount": "设置缓冲带外每方块的伤害。",
+    "command_translation.help.argument.worldborder.damagePerBlock": "玩家每超出缓冲带 1 格每秒受到的伤害；0.2 为十分之一颗心。",
+    "command_translation.help.argument.worldborder.buffer": "设置玩家在受伤前可站在边界外多远。",
+    "command_translation.help.argument.worldborder.buffer.distance": "缓冲带宽度（方块）；在此范围内不受伤害。",
+    "command_translation.help.argument.worldborder.warning": "控制玩家靠近边界或即将被追上时看到的红色提示。",
+    "command_translation.help.argument.worldborder.warning.distance": "距边界多远开始出现红色警告画面。",
+    "command_translation.help.argument.worldborder.warning.time": "收缩中的边界即将到达时提前多久预警。"
+  },
+  "sources": {
+    "command_translation.help.argument.worldborder.add": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fworldborder",
+        "revision": 3834928
+      }
+    ],
+    "command_translation.help.argument.worldborder.set": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fworldborder",
+        "revision": 3834928
+      }
+    ],
+    "command_translation.help.argument.worldborder.get": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fworldborder",
+        "revision": 3834928
+      }
+    ],
+    "command_translation.help.argument.worldborder.center": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fworldborder",
+        "revision": 3834928
+      }
+    ],
+    "command_translation.help.argument.worldborder.pos": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fworldborder",
+        "revision": 3834928
+      }
+    ],
+    "command_translation.help.argument.worldborder.distance": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fworldborder",
+        "revision": 3834928
+      }
+    ],
+    "command_translation.help.argument.worldborder.time": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fworldborder",
+        "revision": 3834928
+      }
+    ],
+    "command_translation.help.argument.worldborder.damage": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fworldborder",
+        "revision": 3834928
+      }
+    ],
+    "command_translation.help.argument.worldborder.amount": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fworldborder",
+        "revision": 3834928
+      }
+    ],
+    "command_translation.help.argument.worldborder.damagePerBlock": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fworldborder",
+        "revision": 3834928
+      }
+    ],
+    "command_translation.help.argument.worldborder.buffer": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fworldborder",
+        "revision": 3834928
+      }
+    ],
+    "command_translation.help.argument.worldborder.buffer.distance": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fworldborder",
+        "revision": 3834928
+      }
+    ],
+    "command_translation.help.argument.worldborder.warning": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fworldborder",
+        "revision": 3834928
+      }
+    ],
+    "command_translation.help.argument.worldborder.warning.distance": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fworldborder",
+        "revision": 3834928
+      }
+    ],
+    "command_translation.help.argument.worldborder.warning.time": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fworldborder",
+        "revision": 3834928
+      }
+    ]
+  },
+  "bindings": {
+    "worldborder.add": "command_translation.help.argument.worldborder.add",
+    "worldborder.add.distance": "command_translation.help.argument.worldborder.distance",
+    "worldborder.add.distance.time": "command_translation.help.argument.worldborder.time",
+    "worldborder.center": "command_translation.help.argument.worldborder.center",
+    "worldborder.center.pos": "command_translation.help.argument.worldborder.pos",
+    "worldborder.damage": "command_translation.help.argument.worldborder.damage",
+    "worldborder.damage.amount": "command_translation.help.argument.worldborder.amount",
+    "worldborder.damage.amount.damagePerBlock": "command_translation.help.argument.worldborder.damagePerBlock",
+    "worldborder.damage.buffer": "command_translation.help.argument.worldborder.buffer",
+    "worldborder.damage.buffer.distance": "command_translation.help.argument.worldborder.buffer.distance",
+    "worldborder.get": "command_translation.help.argument.worldborder.get",
+    "worldborder.set": "command_translation.help.argument.worldborder.set",
+    "worldborder.set.distance": "command_translation.help.argument.worldborder.distance",
+    "worldborder.set.distance.time": "command_translation.help.argument.worldborder.time",
+    "worldborder.warning": "command_translation.help.argument.worldborder.warning",
+    "worldborder.warning.distance": "command_translation.help.argument.worldborder.warning.distance",
+    "worldborder.warning.distance.distance": "command_translation.help.argument.worldborder.warning.distance",
+    "worldborder.warning.time": "command_translation.help.argument.worldborder.warning.time",
+    "worldborder.warning.time.time": "command_translation.help.argument.worldborder.warning.time"
+  },
+  "de_de": {
+    "command_translation.help.argument.worldborder.add": "Vergrößert oder verkleinert die Grenze um die angegebene Blockzahl; mit Zeit allmählich.",
+    "command_translation.help.argument.worldborder.set": "Setzt Breite und Länge der Grenze auf die angegebene Größe; mit Zeit animiert.",
+    "command_translation.help.argument.worldborder.get": "Gibt die aktuelle Größe (Durchmesser) der Weltgrenze aus.",
+    "command_translation.help.argument.worldborder.center": "Verschiebt die waagerechte Mitte der Weltgrenze.",
+    "command_translation.help.argument.worldborder.pos": "Die neue Mitte der Grenze als x- und z-Koordinate.",
+    "command_translation.help.argument.worldborder.distance": "Bei set die neue Seitenlänge, bei add die Änderung; negativ verkleinert.",
+    "command_translation.help.argument.worldborder.time": "Wie lange die Grenze zur neuen Größe braucht; ohne Angabe sofort.",
+    "command_translation.help.argument.worldborder.damage": "Steuert den Schaden für Spieler außerhalb des Grenzpuffers.",
+    "command_translation.help.argument.worldborder.amount": "Setzt den Schaden pro Block außerhalb des Puffers.",
+    "command_translation.help.argument.worldborder.damagePerBlock": "Schaden pro Sekunde je Block über den Puffer hinaus; 0.2 ist ein Zehntel Herz.",
+    "command_translation.help.argument.worldborder.buffer": "Legt fest, wie weit außerhalb der Grenze ein Spieler stehen darf, bevor er Schaden nimmt.",
+    "command_translation.help.argument.worldborder.buffer.distance": "Die Pufferbreite in Blöcken; darin kein Schaden.",
+    "command_translation.help.argument.worldborder.warning": "Steuert die rote Tönung nahe der Grenze oder kurz vor deren Eintreffen.",
+    "command_translation.help.argument.worldborder.warning.distance": "Die Entfernung zur Grenze, ab der der rote Warnbildschirm beginnt.",
+    "command_translation.help.argument.worldborder.warning.time": "Vorlaufzeit der Warnung, bevor eine schrumpfende Grenze den Spieler erreicht."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.worldborder.add": "境界を指定ブロック数だけ広げる、または縮める。時間指定で徐々に動く。",
+    "command_translation.help.argument.worldborder.set": "境界の幅と長さを指定サイズに設定する。時間指定でアニメーションする。",
+    "command_translation.help.argument.worldborder.get": "ワールド境界の現在のサイズ（直径）を出力する。",
+    "command_translation.help.argument.worldborder.center": "ワールド境界の水平な中心を移動する。",
+    "command_translation.help.argument.worldborder.pos": "境界の新しい中心。x と z 座標で書く。",
+    "command_translation.help.argument.worldborder.distance": "set では新しい一辺の長さ、add ではその増減量。負数で縮小。",
+    "command_translation.help.argument.worldborder.time": "境界が新しいサイズへ移動するのにかかる時間。省略で即時。",
+    "command_translation.help.argument.worldborder.damage": "境界バッファの外にいるプレイヤーへのダメージを制御する。",
+    "command_translation.help.argument.worldborder.amount": "バッファ外の 1 ブロックあたりのダメージを設定する。",
+    "command_translation.help.argument.worldborder.damagePerBlock": "バッファを超えた 1 ブロックごとの毎秒ダメージ。0.2 はハート 1/10。",
+    "command_translation.help.argument.worldborder.buffer": "プレイヤーがダメージを受ける前に境界の外へ出られる距離を設定する。",
+    "command_translation.help.argument.worldborder.buffer.distance": "バッファ幅（ブロック）。この範囲内ではダメージを受けない。",
+    "command_translation.help.argument.worldborder.warning": "境界に近い、または迫っているときの赤い表示を制御する。",
+    "command_translation.help.argument.worldborder.warning.distance": "赤い警告画面が出始める境界からの距離。",
+    "command_translation.help.argument.worldborder.warning.time": "縮小する境界が到達する何秒前から警告するか。"
+  },
+  "syntax": [
+    {
+      "path": "worldborder",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "worldborder.add",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "worldborder.add.distance",
+      "type": "argument",
+      "parser": "brigadier:double",
+      "properties": {
+        "max": 59999968,
+        "min": -59999968
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "worldborder.add.distance.time",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "worldborder.center",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "worldborder.center.pos",
+      "type": "argument",
+      "parser": "minecraft:vec2",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "worldborder.damage",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "worldborder.damage.amount",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "worldborder.damage.amount.damagePerBlock",
+      "type": "argument",
+      "parser": "brigadier:float",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "worldborder.damage.buffer",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "worldborder.damage.buffer.distance",
+      "type": "argument",
+      "parser": "brigadier:float",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "worldborder.get",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "worldborder.set",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "worldborder.set.distance",
+      "type": "argument",
+      "parser": "brigadier:double",
+      "properties": {
+        "max": 59999968,
+        "min": -59999968
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "worldborder.set.distance.time",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "worldborder.warning",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "worldborder.warning.distance",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "worldborder.warning.distance.distance",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "worldborder.warning.time",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "worldborder.warning.time.time",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "worldborder.add.distance.time",
+      "type": "argument",
+      "parser": "minecraft:time",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "worldborder.set.distance.time",
+      "type": "argument",
+      "parser": "minecraft:time",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "worldborder.warning.time.time",
+      "type": "argument",
+      "parser": "minecraft:time",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

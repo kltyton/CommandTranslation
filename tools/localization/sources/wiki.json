@@ -1,0 +1,3356 @@
+{
+  "rights": {
+    "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "text": "CC BY-NC-SA 3.0"
+  },
+  "languageSites": [
+    {
+      "prefix": "cs",
+      "local": true,
+      "language": "čeština",
+      "bcp47": "cs",
+      "url": "https://cs.minecraft.wiki/w/$1",
+      "protorel": false
+    },
+    {
+      "prefix": "de",
+      "local": true,
+      "language": "Deutsch",
+      "bcp47": "de",
+      "url": "https://de.minecraft.wiki/w/$1",
+      "protorel": false
+    },
+    {
+      "prefix": "el",
+      "local": true,
+      "language": "Ελληνικά",
+      "bcp47": "el",
+      "url": "https://el.minecraft.wiki/w/$1",
+      "protorel": false
+    },
+    {
+      "prefix": "en",
+      "local": true,
+      "language": "English",
+      "bcp47": "en",
+      "localinterwiki": true,
+      "url": "https://minecraft.wiki/w/$1",
+      "protorel": false
+    },
+    {
+      "prefix": "es",
+      "local": true,
+      "language": "español",
+      "bcp47": "es",
+      "url": "https://es.minecraft.wiki/w/$1",
+      "protorel": false
+    },
+    {
+      "prefix": "fr",
+      "local": true,
+      "language": "français",
+      "bcp47": "fr",
+      "url": "https://fr.minecraft.wiki/w/$1",
+      "protorel": false
+    },
+    {
+      "prefix": "he",
+      "local": true,
+      "language": "עברית",
+      "bcp47": "he",
+      "url": "https://he.minecraft.wiki/w/$1",
+      "protorel": false
+    },
+    {
+      "prefix": "hu",
+      "local": true,
+      "language": "magyar",
+      "bcp47": "hu",
+      "url": "https://hu.minecraft.wiki/w/$1",
+      "protorel": false
+    },
+    {
+      "prefix": "id",
+      "local": true,
+      "language": "Bahasa Indonesia",
+      "bcp47": "id",
+      "url": "https://id.minecraft.wiki/w/$1",
+      "protorel": false
+    },
+    {
+      "prefix": "it",
+      "local": true,
+      "language": "italiano",
+      "bcp47": "it",
+      "url": "https://it.minecraft.wiki/w/$1",
+      "protorel": false
+    },
+    {
+      "prefix": "ja",
+      "local": true,
+      "language": "日本語",
+      "bcp47": "ja",
+      "url": "https://ja.minecraft.wiki/w/$1",
+      "protorel": false
+    },
+    {
+      "prefix": "ko",
+      "local": true,
+      "language": "한국어",
+      "bcp47": "ko",
+      "url": "https://ko.minecraft.wiki/w/$1",
+      "protorel": false
+    },
+    {
+      "prefix": "lzh",
+      "local": true,
+      "language": "文言",
+      "bcp47": "lzh",
+      "url": "https://lzh.minecraft.wiki/w/$1",
+      "protorel": false
+    },
+    {
+      "prefix": "nl",
+      "local": true,
+      "language": "Nederlands",
+      "bcp47": "nl",
+      "url": "https://nl.minecraft.wiki/w/$1",
+      "protorel": false
+    },
+    {
+      "prefix": "pl",
+      "local": true,
+      "language": "polski",
+      "bcp47": "pl",
+      "url": "https://pl.minecraft.wiki/w/$1",
+      "protorel": false
+    },
+    {
+      "prefix": "pt",
+      "local": true,
+      "language": "português",
+      "bcp47": "pt",
+      "url": "https://pt.minecraft.wiki/w/$1",
+      "protorel": false
+    },
+    {
+      "prefix": "pt-br",
+      "local": true,
+      "language": "português do Brasil",
+      "bcp47": "pt-BR",
+      "url": "https://pt.minecraft.wiki/w/$1",
+      "protorel": false
+    },
+    {
+      "prefix": "ru",
+      "local": true,
+      "language": "русский",
+      "bcp47": "ru",
+      "url": "https://ru.minecraft.wiki/w/$1",
+      "protorel": false
+    },
+    {
+      "prefix": "th",
+      "local": true,
+      "language": "ไทย",
+      "bcp47": "th",
+      "url": "https://th.minecraft.wiki/w/$1",
+      "protorel": false
+    },
+    {
+      "prefix": "tr",
+      "local": true,
+      "language": "Türkçe",
+      "bcp47": "tr",
+      "url": "https://tr.minecraft.wiki/w/$1",
+      "protorel": false
+    },
+    {
+      "prefix": "uk",
+      "local": true,
+      "language": "українська",
+      "bcp47": "uk",
+      "url": "https://uk.minecraft.wiki/w/$1",
+      "protorel": false
+    },
+    {
+      "prefix": "zh",
+      "local": true,
+      "language": "中文",
+      "bcp47": "zh",
+      "url": "https://zh.minecraft.wiki/w/$1",
+      "protorel": false
+    }
+  ],
+  "sources": [
+    {
+      "locale": "en_us",
+      "title": "Commands/advancement",
+      "revision": 3816103,
+      "url": "https://minecraft.wiki/w/Commands%2Fadvancement",
+      "commands": [
+        "advancement"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/ban",
+      "revision": 3563909,
+      "url": "https://minecraft.wiki/w/Commands%2Fban",
+      "commands": [
+        "ban",
+        "ban-ip",
+        "banlist"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/clear",
+      "revision": 3774572,
+      "url": "https://minecraft.wiki/w/Commands%2Fclear",
+      "commands": [
+        "clear"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/clone",
+      "revision": 3826017,
+      "url": "https://minecraft.wiki/w/Commands%2Fclone",
+      "commands": [
+        "clone"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/debug",
+      "revision": 3708743,
+      "url": "https://minecraft.wiki/w/Commands%2Fdebug",
+      "commands": [
+        "debug"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/data",
+      "revision": 3826018,
+      "url": "https://minecraft.wiki/w/Commands%2Fdata",
+      "commands": [
+        "data"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/datapack",
+      "revision": 3826020,
+      "url": "https://minecraft.wiki/w/Commands%2Fdatapack",
+      "commands": [
+        "datapack"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/bossbar",
+      "revision": 3834896,
+      "url": "https://minecraft.wiki/w/Commands%2Fbossbar",
+      "commands": [
+        "bossbar"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/attribute",
+      "revision": 3766700,
+      "url": "https://minecraft.wiki/w/Commands%2Fattribute",
+      "commands": [
+        "attribute"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/damage",
+      "revision": 3785896,
+      "url": "https://minecraft.wiki/w/Commands%2Fdamage",
+      "commands": [
+        "damage"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/defaultgamemode",
+      "revision": 3693009,
+      "url": "https://minecraft.wiki/w/Commands%2Fdefaultgamemode",
+      "commands": [
+        "defaultgamemode"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/deop",
+      "revision": 3697831,
+      "url": "https://minecraft.wiki/w/Commands%2Fdeop",
+      "commands": [
+        "deop"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/difficulty",
+      "revision": 3691073,
+      "url": "https://minecraft.wiki/w/Commands%2Fdifficulty",
+      "commands": [
+        "difficulty"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/effect",
+      "revision": 3721357,
+      "url": "https://minecraft.wiki/w/Commands%2Feffect",
+      "commands": [
+        "effect"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/enchant",
+      "revision": 3846696,
+      "url": "https://minecraft.wiki/w/Commands%2Fenchant",
+      "commands": [
+        "enchant"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/execute",
+      "revision": 3831996,
+      "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+      "commands": [
+        "execute"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/fill",
+      "revision": 3383435,
+      "url": "https://minecraft.wiki/w/Commands%2Ffill",
+      "commands": [
+        "fill"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/xp",
+      "revision": 3567326,
+      "url": "https://minecraft.wiki/w/Commands%2Fxp",
+      "commands": [
+        "experience",
+        "xp"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/fillbiome",
+      "revision": 3789040,
+      "url": "https://minecraft.wiki/w/Commands%2Ffillbiome",
+      "commands": [
+        "fillbiome"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/dialog",
+      "revision": 3826023,
+      "url": "https://minecraft.wiki/w/Commands%2Fdialog",
+      "commands": [
+        "dialog"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/function",
+      "revision": 3581313,
+      "url": "https://minecraft.wiki/w/Commands%2Ffunction",
+      "commands": [
+        "function"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/gamemode",
+      "revision": 3725108,
+      "url": "https://minecraft.wiki/w/Commands%2Fgamemode",
+      "commands": [
+        "gamemode"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/gamerule",
+      "revision": 3725314,
+      "url": "https://minecraft.wiki/w/Commands%2Fgamerule",
+      "commands": [
+        "gamerule"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/give",
+      "revision": 3838890,
+      "url": "https://minecraft.wiki/w/Commands%2Fgive",
+      "commands": [
+        "give"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/help",
+      "revision": 3581329,
+      "url": "https://minecraft.wiki/w/Commands%2Fhelp",
+      "commands": [
+        "help"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/kick",
+      "revision": 3683114,
+      "url": "https://minecraft.wiki/w/Commands%2Fkick",
+      "commands": [
+        "kick"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/kill",
+      "revision": 3836644,
+      "url": "https://minecraft.wiki/w/Commands%2Fkill",
+      "commands": [
+        "kill"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/forceload",
+      "revision": 3826026,
+      "url": "https://minecraft.wiki/w/Commands%2Fforceload",
+      "commands": [
+        "forceload"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/item",
+      "revision": 3780270,
+      "url": "https://minecraft.wiki/w/Commands%2Fitem",
+      "commands": [
+        "item"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/jfr",
+      "revision": 3662194,
+      "url": "https://minecraft.wiki/w/Commands%2Fjfr",
+      "commands": [
+        "jfr"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/list",
+      "revision": 3581363,
+      "url": "https://minecraft.wiki/w/Commands%2Flist",
+      "commands": [
+        "list"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/locate",
+      "revision": 3784532,
+      "url": "https://minecraft.wiki/w/Commands%2Flocate",
+      "commands": [
+        "locate"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/me",
+      "revision": 3826029,
+      "url": "https://minecraft.wiki/w/Commands%2Fme",
+      "commands": [
+        "me"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/op",
+      "revision": 3697828,
+      "url": "https://minecraft.wiki/w/Commands%2Fop",
+      "commands": [
+        "op"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/pardon",
+      "revision": 3662195,
+      "url": "https://minecraft.wiki/w/Commands%2Fpardon",
+      "commands": [
+        "pardon",
+        "pardon-ip"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/particle",
+      "revision": 3846970,
+      "url": "https://minecraft.wiki/w/Commands%2Fparticle",
+      "commands": [
+        "particle"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/msg",
+      "revision": 3826030,
+      "url": "https://minecraft.wiki/w/Commands%2Fmsg",
+      "commands": [
+        "msg",
+        "tell",
+        "w"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/loot",
+      "revision": 3831864,
+      "url": "https://minecraft.wiki/w/Commands%2Floot",
+      "commands": [
+        "loot"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/perf",
+      "revision": 2814129,
+      "url": "https://minecraft.wiki/w/Commands%2Fperf",
+      "commands": [
+        "perf"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/place",
+      "revision": 3780327,
+      "url": "https://minecraft.wiki/w/Commands%2Fplace",
+      "commands": [
+        "place"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/playsound",
+      "revision": 3844881,
+      "url": "https://minecraft.wiki/w/Commands%2Fplaysound",
+      "commands": [
+        "playsound"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/publish",
+      "revision": 3777390,
+      "url": "https://minecraft.wiki/w/Commands%2Fpublish",
+      "commands": [
+        "publish"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/recipe",
+      "revision": 3835353,
+      "url": "https://minecraft.wiki/w/Commands%2Frecipe",
+      "commands": [
+        "recipe"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/reload",
+      "revision": 3584635,
+      "url": "https://minecraft.wiki/w/Commands%2Freload",
+      "commands": [
+        "reload"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/save",
+      "revision": 3751754,
+      "url": "https://minecraft.wiki/w/Commands%2Fsave",
+      "commands": [
+        "save-all",
+        "save-off",
+        "save-on"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/say",
+      "revision": 3584642,
+      "url": "https://minecraft.wiki/w/Commands%2Fsay",
+      "commands": [
+        "say"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/ride",
+      "revision": 3838417,
+      "url": "https://minecraft.wiki/w/Commands%2Fride",
+      "commands": [
+        "ride"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/return",
+      "revision": 3826031,
+      "url": "https://minecraft.wiki/w/Commands%2Freturn",
+      "commands": [
+        "return"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/random",
+      "revision": 3688870,
+      "url": "https://minecraft.wiki/w/Commands%2Frandom",
+      "commands": [
+        "random"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/rotate",
+      "revision": 3826032,
+      "url": "https://minecraft.wiki/w/Commands%2Frotate",
+      "commands": [
+        "rotate"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/scoreboard",
+      "revision": 3640891,
+      "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+      "commands": [
+        "scoreboard"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/seed",
+      "revision": 3670276,
+      "url": "https://minecraft.wiki/w/Commands%2Fseed",
+      "commands": [
+        "seed"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/setblock",
+      "revision": 3826035,
+      "url": "https://minecraft.wiki/w/Commands%2Fsetblock",
+      "commands": [
+        "setblock"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/setidletimeout",
+      "revision": 3678699,
+      "url": "https://minecraft.wiki/w/Commands%2Fsetidletimeout",
+      "commands": [
+        "setidletimeout"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/setworldspawn",
+      "revision": 3627438,
+      "url": "https://minecraft.wiki/w/Commands%2Fsetworldspawn",
+      "commands": [
+        "setworldspawn"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/spawnpoint",
+      "revision": 3826036,
+      "url": "https://minecraft.wiki/w/Commands%2Fspawnpoint",
+      "commands": [
+        "spawnpoint"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/spreadplayers",
+      "revision": 3826040,
+      "url": "https://minecraft.wiki/w/Commands%2Fspreadplayers",
+      "commands": [
+        "spreadplayers"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/stop",
+      "revision": 3278134,
+      "url": "https://minecraft.wiki/w/Commands%2Fstop",
+      "commands": [
+        "stop"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/schedule",
+      "revision": 3743439,
+      "url": "https://minecraft.wiki/w/Commands%2Fschedule",
+      "commands": [
+        "schedule"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/spectate",
+      "revision": 3826038,
+      "url": "https://minecraft.wiki/w/Commands%2Fspectate",
+      "commands": [
+        "spectate"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/stopsound",
+      "revision": 3693867,
+      "url": "https://minecraft.wiki/w/Commands%2Fstopsound",
+      "commands": [
+        "stopsound"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/summon",
+      "revision": 3831367,
+      "url": "https://minecraft.wiki/w/Commands%2Fsummon",
+      "commands": [
+        "summon"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/teleport",
+      "revision": 3846861,
+      "url": "https://minecraft.wiki/w/Commands%2Fteleport",
+      "commands": [
+        "teleport",
+        "tp"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/tellraw",
+      "revision": 3778231,
+      "url": "https://minecraft.wiki/w/Commands%2Ftellraw",
+      "commands": [
+        "tellraw"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/team",
+      "revision": 3789537,
+      "url": "https://minecraft.wiki/w/Commands%2Fteam",
+      "commands": [
+        "team"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/tag",
+      "revision": 3693871,
+      "url": "https://minecraft.wiki/w/Commands%2Ftag",
+      "commands": [
+        "tag"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/teammsg",
+      "revision": 3835291,
+      "url": "https://minecraft.wiki/w/Commands%2Fteammsg",
+      "commands": [
+        "teammsg",
+        "tm"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/tick",
+      "revision": 3778223,
+      "url": "https://minecraft.wiki/w/Commands%2Ftick",
+      "commands": [
+        "tick"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/stopwatch",
+      "revision": 3757377,
+      "url": "https://minecraft.wiki/w/Commands%2Fstopwatch",
+      "commands": [
+        "stopwatch"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/swing",
+      "revision": 3777148,
+      "url": "https://minecraft.wiki/w/Commands%2Fswing",
+      "commands": [
+        "swing"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/time",
+      "revision": 3813552,
+      "url": "https://minecraft.wiki/w/Commands%2Ftime",
+      "commands": [
+        "time"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/title",
+      "revision": 3662199,
+      "url": "https://minecraft.wiki/w/Commands%2Ftitle",
+      "commands": [
+        "title"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/trigger",
+      "revision": 3522153,
+      "url": "https://minecraft.wiki/w/Commands%2Ftrigger",
+      "commands": [
+        "trigger"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/weather",
+      "revision": 3751988,
+      "url": "https://minecraft.wiki/w/Commands%2Fweather",
+      "commands": [
+        "weather"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/whitelist",
+      "revision": 3778184,
+      "url": "https://minecraft.wiki/w/Commands%2Fwhitelist",
+      "commands": [
+        "whitelist"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/worldborder",
+      "revision": 3834928,
+      "url": "https://minecraft.wiki/w/Commands%2Fworldborder",
+      "commands": [
+        "worldborder"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/transfer",
+      "revision": 3693930,
+      "url": "https://minecraft.wiki/w/Commands%2Ftransfer",
+      "commands": [
+        "transfer"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/version",
+      "revision": 3846265,
+      "url": "https://minecraft.wiki/w/Commands%2Fversion",
+      "commands": [
+        "version"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/waypoint",
+      "revision": 3724964,
+      "url": "https://minecraft.wiki/w/Commands%2Fwaypoint",
+      "commands": [
+        "waypoint"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/unpublish",
+      "revision": 3783929,
+      "url": "https://minecraft.wiki/w/Commands%2Funpublish",
+      "commands": [
+        "unpublish"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/test",
+      "revision": 3724366,
+      "url": "https://minecraft.wiki/w/Commands%2Ftest",
+      "commands": [
+        "test"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/fetchprofile",
+      "revision": 3494617,
+      "url": "https://minecraft.wiki/w/Commands%2Ffetchprofile",
+      "commands": [
+        "fetchprofile"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/posteffect",
+      "revision": 3779584,
+      "url": "https://minecraft.wiki/w/Commands%2Fposteffect",
+      "commands": [
+        "posteffect"
+      ]
+    },
+    {
+      "locale": "en_us",
+      "title": "Commands/compute",
+      "revision": 3845497,
+      "url": "https://minecraft.wiki/w/Commands%2Fcompute",
+      "commands": [
+        "compute"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/ban",
+      "revision": 725676,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fban",
+      "commands": [
+        "ban",
+        "ban-ip",
+        "banlist"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/clear",
+      "revision": 737253,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fclear",
+      "commands": [
+        "clear"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/debug",
+      "revision": 722850,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fdebug",
+      "commands": [
+        "debug"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/clone",
+      "revision": 722842,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fclone",
+      "commands": [
+        "clone"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/advancement",
+      "revision": 741644,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fadvancement",
+      "commands": [
+        "advancement"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/data",
+      "revision": 740234,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fdata",
+      "commands": [
+        "data"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/datapack",
+      "revision": 735065,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fdatapack",
+      "commands": [
+        "datapack"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/bossbar",
+      "revision": 735063,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fbossbar",
+      "commands": [
+        "bossbar"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/attribute",
+      "revision": 739924,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fattribute",
+      "commands": [
+        "attribute"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/damage",
+      "revision": 732332,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fdamage",
+      "commands": [
+        "damage"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/defaultgamemode",
+      "revision": 735350,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fdefaultgamemode",
+      "commands": [
+        "defaultgamemode"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/deop",
+      "revision": 732827,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fdeop",
+      "commands": [
+        "deop"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/difficulty",
+      "revision": 732330,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fdifficulty",
+      "commands": [
+        "difficulty"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/effect",
+      "revision": 732308,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Feffect",
+      "commands": [
+        "effect"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/enchant",
+      "revision": 737262,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fenchant",
+      "commands": [
+        "enchant"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/fill",
+      "revision": 737440,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Ffill",
+      "commands": [
+        "fill"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/execute",
+      "revision": 740235,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fexecute",
+      "commands": [
+        "execute"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/experience",
+      "revision": 732331,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fexperience",
+      "commands": [
+        "experience",
+        "xp"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/fillbiome",
+      "revision": 735393,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Ffillbiome",
+      "commands": [
+        "fillbiome"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/dialog",
+      "revision": 723187,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fdialog",
+      "commands": [
+        "dialog"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/gamemode",
+      "revision": 738667,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fgamemode",
+      "commands": [
+        "gamemode"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/gamerule",
+      "revision": 732830,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fgamerule",
+      "commands": [
+        "gamerule"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/give",
+      "revision": 728659,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fgive",
+      "commands": [
+        "give"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/help",
+      "revision": 732831,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fhelp",
+      "commands": [
+        "help"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/kick",
+      "revision": 732832,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fkick",
+      "commands": [
+        "kick"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/kill",
+      "revision": 738019,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fkill",
+      "commands": [
+        "kill"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/function",
+      "revision": 732829,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Ffunction",
+      "commands": [
+        "function"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/forceload",
+      "revision": 735429,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fforceload",
+      "commands": [
+        "forceload"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/item",
+      "revision": 740236,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fitem",
+      "commands": [
+        "item"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/jfr",
+      "revision": 735556,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fjfr",
+      "commands": [
+        "jfr"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/list",
+      "revision": 732834,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Flist",
+      "commands": [
+        "list"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/me",
+      "revision": 737263,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fme",
+      "commands": [
+        "me"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/op",
+      "revision": 732333,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fop",
+      "commands": [
+        "op"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/pardon",
+      "revision": 735557,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fpardon",
+      "commands": [
+        "pardon",
+        "pardon-ip"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/msg",
+      "revision": 732930,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fmsg",
+      "commands": [
+        "msg",
+        "tell",
+        "w"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/particle",
+      "revision": 732932,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fparticle",
+      "commands": [
+        "particle"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/locate",
+      "revision": 728662,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Flocate",
+      "commands": [
+        "locate"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/loot",
+      "revision": 732328,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Floot",
+      "commands": [
+        "loot"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/perf",
+      "revision": 722902,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fperf",
+      "commands": [
+        "perf"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/place",
+      "revision": 732933,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fplace",
+      "commands": [
+        "place"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/playsound",
+      "revision": 732934,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fplaysound",
+      "commands": [
+        "playsound"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/publish",
+      "revision": 740237,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fpublish",
+      "commands": [
+        "publish"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/save-all",
+      "revision": 722921,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fsave-all",
+      "commands": [
+        "save-all",
+        "save-off",
+        "save-on"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/say",
+      "revision": 732984,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fsay",
+      "commands": [
+        "say"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/recipe",
+      "revision": 732348,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Frecipe",
+      "commands": [
+        "recipe"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/reload",
+      "revision": 732982,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Freload",
+      "commands": [
+        "reload"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/ride",
+      "revision": 732983,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fride",
+      "commands": [
+        "ride"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/return",
+      "revision": 735648,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Freturn",
+      "commands": [
+        "return"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/random",
+      "revision": 735625,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Frandom",
+      "commands": [
+        "random"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/rotate",
+      "revision": 722919,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Frotate",
+      "commands": [
+        "rotate"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/scoreboard",
+      "revision": 739809,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fscoreboard",
+      "commands": [
+        "scoreboard"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/seed",
+      "revision": 735749,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fseed",
+      "commands": [
+        "seed"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/setblock",
+      "revision": 733026,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fsetblock",
+      "commands": [
+        "setblock"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/setidletimeout",
+      "revision": 736131,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fsetidletimeout",
+      "commands": [
+        "setidletimeout"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/setworldspawn",
+      "revision": 733027,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fsetworldspawn",
+      "commands": [
+        "setworldspawn"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/spawnpoint",
+      "revision": 733029,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fspawnpoint",
+      "commands": [
+        "spawnpoint"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/spreadplayers",
+      "revision": 740238,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fspreadplayers",
+      "commands": [
+        "spreadplayers"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/stop",
+      "revision": 722942,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fstop",
+      "commands": [
+        "stop"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/schedule",
+      "revision": 732985,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fschedule",
+      "commands": [
+        "schedule"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/spectate",
+      "revision": 722939,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fspectate",
+      "commands": [
+        "spectate"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/summon",
+      "revision": 722946,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fsummon",
+      "commands": [
+        "summon"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/tellraw",
+      "revision": 737452,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Ftellraw",
+      "commands": [
+        "tellraw"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/teleport",
+      "revision": 741612,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fteleport",
+      "commands": [
+        "teleport",
+        "tp"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/stopsound",
+      "revision": 737450,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fstopsound",
+      "commands": [
+        "stopsound"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/tag",
+      "revision": 737451,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Ftag",
+      "commands": [
+        "tag"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/team",
+      "revision": 732360,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fteam",
+      "commands": [
+        "team"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/teammsg",
+      "revision": 722951,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fteammsg",
+      "commands": [
+        "teammsg",
+        "tm"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/tick",
+      "revision": 722958,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Ftick",
+      "commands": [
+        "tick"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/stopwatch",
+      "revision": 722944,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fstopwatch",
+      "commands": [
+        "stopwatch"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/swing",
+      "revision": 740239,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fswing",
+      "commands": [
+        "swing"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/time",
+      "revision": 737455,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Ftime",
+      "commands": [
+        "time"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/weather",
+      "revision": 735062,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fweather",
+      "commands": [
+        "weather"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/whitelist",
+      "revision": 722974,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fwhitelist",
+      "commands": [
+        "whitelist"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/trigger",
+      "revision": 722966,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Ftrigger",
+      "commands": [
+        "trigger"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/worldborder",
+      "revision": 735349,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fworldborder",
+      "commands": [
+        "worldborder"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/title",
+      "revision": 735558,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Ftitle",
+      "commands": [
+        "title"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/transfer",
+      "revision": 737466,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Ftransfer",
+      "commands": [
+        "transfer"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/version",
+      "revision": 722967,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fversion",
+      "commands": [
+        "version"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/waypoint",
+      "revision": 735069,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fwaypoint",
+      "commands": [
+        "waypoint"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/unpublish",
+      "revision": 734426,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Funpublish",
+      "commands": [
+        "unpublish"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/test",
+      "revision": 722954,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Ftest",
+      "commands": [
+        "test"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/fetchprofile",
+      "revision": 730454,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Ffetchprofile",
+      "commands": [
+        "fetchprofile"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/posteffect",
+      "revision": 740204,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fposteffect",
+      "commands": [
+        "posteffect"
+      ]
+    },
+    {
+      "locale": "de_de",
+      "title": "Befehl/compute",
+      "revision": 740205,
+      "url": "https://de.minecraft.wiki/w/Befehl%2Fcompute",
+      "commands": [
+        "compute"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/advancement",
+      "revision": 399787,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fadvancement",
+      "commands": [
+        "advancement"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/ban",
+      "revision": 373348,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fban",
+      "commands": [
+        "ban",
+        "ban-ip",
+        "banlist"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/clear",
+      "revision": 391700,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fclear",
+      "commands": [
+        "clear"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/clone",
+      "revision": 373350,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fclone",
+      "commands": [
+        "clone"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/debug",
+      "revision": 373351,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fdebug",
+      "commands": [
+        "debug"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/bossbar",
+      "revision": 388339,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fbossbar",
+      "commands": [
+        "bossbar"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/data",
+      "revision": 397951,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fdata",
+      "commands": [
+        "data"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/datapack",
+      "revision": 388341,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fdatapack",
+      "commands": [
+        "datapack"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/attribute",
+      "revision": 395351,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fattribute",
+      "commands": [
+        "attribute"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/damage",
+      "revision": 394267,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fdamage",
+      "commands": [
+        "damage"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/defaultgamemode",
+      "revision": 388768,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fdefaultgamemode",
+      "commands": [
+        "defaultgamemode"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/deop",
+      "revision": 384312,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fdeop",
+      "commands": [
+        "deop"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/difficulty",
+      "revision": 384124,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fdifficulty",
+      "commands": [
+        "difficulty"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/effect",
+      "revision": 384094,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Feffect",
+      "commands": [
+        "effect"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/enchant",
+      "revision": 391719,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fenchant",
+      "commands": [
+        "enchant"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/execute",
+      "revision": 397947,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fexecute",
+      "commands": [
+        "execute"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/fill",
+      "revision": 393007,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Ffill",
+      "commands": [
+        "fill"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/experience",
+      "revision": 384125,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fexperience",
+      "commands": [
+        "experience",
+        "xp"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/fillbiome",
+      "revision": 398578,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Ffillbiome",
+      "commands": [
+        "fillbiome"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/dialog",
+      "revision": 374306,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fdialog",
+      "commands": [
+        "dialog"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/function",
+      "revision": 384314,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Ffunction",
+      "commands": [
+        "function"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/gamemode",
+      "revision": 393411,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fgamemode",
+      "commands": [
+        "gamemode"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/gamerule",
+      "revision": 384317,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fgamerule",
+      "commands": [
+        "gamerule"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/give",
+      "revision": 377620,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fgive",
+      "commands": [
+        "give"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/help",
+      "revision": 384318,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fhelp",
+      "commands": [
+        "help"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/kick",
+      "revision": 384319,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fkick",
+      "commands": [
+        "kick"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/kill",
+      "revision": 392655,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fkill",
+      "commands": [
+        "kill"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/forceload",
+      "revision": 389405,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fforceload",
+      "commands": [
+        "forceload"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/item",
+      "revision": 397946,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fitem",
+      "commands": [
+        "item"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/jfr",
+      "revision": 389508,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fjfr",
+      "commands": [
+        "jfr"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/list",
+      "revision": 384321,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Flist",
+      "commands": [
+        "list"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/locate",
+      "revision": 377629,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Flocate",
+      "commands": [
+        "locate"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/me",
+      "revision": 391720,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fme",
+      "commands": [
+        "me"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/op",
+      "revision": 384127,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fop",
+      "commands": [
+        "op"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/pardon",
+      "revision": 389509,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fpardon",
+      "commands": [
+        "pardon",
+        "pardon-ip"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/particle",
+      "revision": 392246,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fparticle",
+      "commands": [
+        "particle"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/msg",
+      "revision": 384398,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fmsg",
+      "commands": [
+        "msg",
+        "tell",
+        "w"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/loot",
+      "revision": 384122,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Floot",
+      "commands": [
+        "loot"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/place",
+      "revision": 397945,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fplace",
+      "commands": [
+        "place"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/perf",
+      "revision": 373792,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fperf",
+      "commands": [
+        "perf"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/playsound",
+      "revision": 384361,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fplaysound",
+      "commands": [
+        "playsound"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/publish",
+      "revision": 397944,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fpublish",
+      "commands": [
+        "publish"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/recipe",
+      "revision": 384143,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Frecipe",
+      "commands": [
+        "recipe"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/reload",
+      "revision": 384396,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Freload",
+      "commands": [
+        "reload"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/save",
+      "revision": 373376,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fsave",
+      "commands": [
+        "save-all",
+        "save-off",
+        "save-on"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/say",
+      "revision": 373377,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fsay",
+      "commands": [
+        "say"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/ride",
+      "revision": 384397,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fride",
+      "commands": [
+        "ride"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/return",
+      "revision": 389668,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Freturn",
+      "commands": [
+        "return"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/random",
+      "revision": 389599,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Frandom",
+      "commands": [
+        "random"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/rotate",
+      "revision": 322212,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Frotate",
+      "commands": [
+        "rotate"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/scoreboard",
+      "revision": 384437,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fscoreboard",
+      "commands": [
+        "scoreboard"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/seed",
+      "revision": 389804,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fseed",
+      "commands": [
+        "seed"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/setblock",
+      "revision": 384438,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fsetblock",
+      "commands": [
+        "setblock"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/setidletimeout",
+      "revision": 390524,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fsetidletimeout",
+      "commands": [
+        "setidletimeout"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/setworldspawn",
+      "revision": 384439,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fsetworldspawn",
+      "commands": [
+        "setworldspawn"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/spawnpoint",
+      "revision": 384440,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fspawnpoint",
+      "commands": [
+        "spawnpoint"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/spreadplayers",
+      "revision": 397954,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fspreadplayers",
+      "commands": [
+        "spreadplayers"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/stop",
+      "revision": 370774,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fstop",
+      "commands": [
+        "stop"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/schedule",
+      "revision": 384399,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fschedule",
+      "commands": [
+        "schedule"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/spectate",
+      "revision": 373518,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fspectate",
+      "commands": [
+        "spectate"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/stopsound",
+      "revision": 391923,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fstopsound",
+      "commands": [
+        "stopsound"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/summon",
+      "revision": 373387,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fsummon",
+      "commands": [
+        "summon"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/teleport",
+      "revision": 399641,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fteleport",
+      "commands": [
+        "teleport",
+        "tp"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/tellraw",
+      "revision": 397955,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Ftellraw",
+      "commands": [
+        "tellraw"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/tag",
+      "revision": 391924,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Ftag",
+      "commands": [
+        "tag"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/team",
+      "revision": 397941,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fteam",
+      "commands": [
+        "team"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/teammsg",
+      "revision": 373767,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fteammsg",
+      "commands": [
+        "teammsg",
+        "tm"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/tick",
+      "revision": 373829,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Ftick",
+      "commands": [
+        "tick"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/stopwatch",
+      "revision": 380962,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fstopwatch",
+      "commands": [
+        "stopwatch"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/swing",
+      "revision": 397942,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fswing",
+      "commands": [
+        "swing"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/time",
+      "revision": 391927,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Ftime",
+      "commands": [
+        "time"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/title",
+      "revision": 389510,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Ftitle",
+      "commands": [
+        "title"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/trigger",
+      "revision": 370739,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Ftrigger",
+      "commands": [
+        "trigger"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/weather",
+      "revision": 388338,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fweather",
+      "commands": [
+        "weather"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/whitelist",
+      "revision": 373393,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fwhitelist",
+      "commands": [
+        "whitelist"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/worldborder",
+      "revision": 388767,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fworldborder",
+      "commands": [
+        "worldborder"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/transfer",
+      "revision": 391930,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Ftransfer",
+      "commands": [
+        "transfer"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/version",
+      "revision": 368322,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fversion",
+      "commands": [
+        "version"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/waypoint",
+      "revision": 388344,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fwaypoint",
+      "commands": [
+        "waypoint"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/unpublish",
+      "revision": 387397,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Funpublish",
+      "commands": [
+        "unpublish"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/test",
+      "revision": 364151,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Ftest",
+      "commands": [
+        "test"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/fetchprofile",
+      "revision": 380960,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Ffetchprofile",
+      "commands": [
+        "fetchprofile"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/posteffect",
+      "revision": 397855,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fposteffect",
+      "commands": [
+        "posteffect"
+      ]
+    },
+    {
+      "locale": "ja_jp",
+      "title": "コマンド/compute",
+      "revision": 397856,
+      "url": "https://ja.minecraft.wiki/w/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%2Fcompute",
+      "commands": [
+        "compute"
+      ]
+    }
+  ],
+  "entries": {
+    "en_us": {
+      "command_translation.help.command.advancement": "Gives or takes an advancement or its criterion from one or more players.",
+      "command_translation.help.command.ban": "These commands add a single or multiple players into the server's ban list (or blacklist) by their game profile or IP address. A ban list is a list of players or IP addresses that are not allowed to connect to the server; this list supersede any whitelisting in place.\nTo remove players from the ban list, operator may use /pardon or manually removing it from the banned-players.json.",
+      "command_translation.help.command.ban-ip": "These commands add a single or multiple players into the server's ban list (or blacklist) by their game profile or IP address. A ban list is a list of players or IP addresses that are not allowed to connect to the server; this list supersede any whitelisting in place.\nTo remove players from the ban list, operator may use /pardon or manually removing it from the banned-players.json.",
+      "command_translation.help.command.banlist": "These commands add a single or multiple players into the server's ban list (or blacklist) by their game profile or IP address. A ban list is a list of players or IP addresses that are not allowed to connect to the server; this list supersede any whitelisting in place.\nTo remove players from the ban list, operator may use /pardon or manually removing it from the banned-players.json.",
+      "command_translation.help.command.clear": "Clears items from player inventory, including items \nbeing dragged by the player. Can also detect and query the amount of specified items.",
+      "command_translation.help.command.clone": "Clones blocks from one region to another.",
+      "command_translation.help.command.debug": "Starts or stops a time profiler session. Gets more detailed information of function execution.",
+      "command_translation.help.command.data": "Allows the user to get, merge, modify, and remove NBT data of a block entity, entity, or Command NBT storage.",
+      "command_translation.help.command.datapack": "Controls the loading/unloading of data packs.\nNote that feature flags can be enabled through data pack only when creating the world. Data packs requiring a feature flag that is not enabled cannot be loaded by this command.\nIf a built-in datapack in the path of datapacks in the vanilla datapack is enabled during world creating, it cannot be disabled by this command.",
+      "command_translation.help.command.bossbar": "Creates, modifies and lists bossbars.",
+      "command_translation.help.command.attribute": "Used to change or read attributes.",
+      "command_translation.help.command.damage": "Applies a set amount of damage to the specified entities.",
+      "command_translation.help.command.defaultgamemode": "Sets the default game mode (Creative, Survival, etc.) for new players entering a multiplayer server. If in multiplayer and force-gamemode in the server.properties file is true, or if in LAN world, all online players are set to this game mode.",
+      "command_translation.help.command.deop": "Revokes operator status from a player.",
+      "command_translation.help.command.difficulty": "Sets or queries the difficulty level (peaceful, easy, etc.).",
+      "command_translation.help.command.effect": "Adds or removes status effects of players and other entities.",
+      "command_translation.help.command.enchant": "Adds an enchantment to a player's selected item, subject to the same restrictions as an anvil. Also works on any mob or entity holding a weapon;tool;armor in its main hand only.",
+      "command_translation.help.command.execute": "Executes another command but allows changing the executor, changing the position and angle it is executed at, adding preconditions, and storing its result.",
+      "command_translation.help.command.fill": "Fills all or parts of a region with a specific block.",
+      "command_translation.help.command.experience": "Adds, removes or queries player experience.",
+      "command_translation.help.command.xp": "Adds, removes or queries player experience.",
+      "command_translation.help.command.fillbiome": "Fills a specified area with a specific biome.",
+      "command_translation.help.command.dialog": "Manages dialog screens displayed to players. Allows server operators to show custom or predefined dialogs in data pack to specified players, and clear any displayed dialogs on their screen.",
+      "command_translation.help.command.function": "Runs commands found in the corresponding function file(s) with command execution context (executor, execution position, angles, etc) of the /function command itself.",
+      "command_translation.help.command.gamemode": "Sets a player's game mode.",
+      "command_translation.help.command.gamerule": "Sets or queries a game rule value.",
+      "command_translation.help.command.give": "Gives a specified amount of a certain item to one or more players.",
+      "command_translation.help.command.help": "Provides help/lists of commands.",
+      "command_translation.help.command.kick": "Kicks a player off the server, and displays an optional reason to it.\nThe player in a single player world or the host of a world cannot be kicked.",
+      "command_translation.help.command.kill": "Kills entities (players, mobs, items, etc.).",
+      "command_translation.help.command.forceload": "Force chunks to load constantly or not, or lists/queries forceloaded chunks.",
+      "command_translation.help.command.item": "Manipulate or copy items in the inventories of blocks (chests, furnaces, etc.) or entities (players or mobs).",
+      "command_translation.help.command.jfr": "Starts and stops profiling with Java Flight Recorder (JEP) as well as a few custom events.",
+      "command_translation.help.command.list": "Lists players on the server.",
+      "command_translation.help.command.locate": "Displays the coordinates for the closest generated structure or biomes of a given type in the chat for the player who executed the command. In Java Edition, it can also display for the closest points of interest.​[upcoming: BE]",
+      "command_translation.help.command.me": "Broadcasts a narrative message in third person.",
+      "command_translation.help.command.op": "Grants operator status to the player(s).\nIn Java Edition, adds the players into the ops.json file with the default op permission level specified by op-permission-level in the server.properties.\nIn Bedrock Edition, changes the player's permission in the \"Player Permission\" screen to the \"Operator\" option . In dedicated servers, it is also recorded in permissions.json. The permissions.json file can be reloaded with /permission command.",
+      "command_translation.help.command.pardon": "These commands remove a single or multiple players from the ban list by their game profile or IP address.\nTo add players into the ban list, operator may use /ban or manually adding it into the banned-players.json.",
+      "command_translation.help.command.pardon-ip": "These commands remove a single or multiple players from the ban list by their game profile or IP address.\nTo add players into the ban list, operator may use /ban or manually adding it into the banned-players.json.",
+      "command_translation.help.command.particle": "Creates particles.",
+      "command_translation.help.command.msg": "Sends a private message to one or more players.",
+      "command_translation.help.command.tell": "Sends a private message to one or more players.",
+      "command_translation.help.command.w": "Sends a private message to one or more players.",
+      "command_translation.help.command.loot": "Drops the given loot table into the specified inventory or into the world.",
+      "command_translation.help.command.perf": "Captures information and metrics about the game such as tick durations, used heap sizes, and other more detailed stats.\nNote that this command can only be executed on a dedicated server; use F3 + L run the performance profiler on a locally hosted world.",
+      "command_translation.help.command.place": "Places a configured feature, structure, structure template, or template pool if possible.",
+      "command_translation.help.command.playsound": "Plays a specified sound to a player, in a location, and in a specific volume and pitch.",
+      "command_translation.help.command.publish": "Opens singleplayer world to the local network.",
+      "command_translation.help.command.recipe": "Gives or takes (unlocks or locks) recipes for players.",
+      "command_translation.help.command.reload": "Reloads data packs in Java Edition, or reloads functions and scripts in behavior packs in Bedrock Edition.\nIf a data pack or behavior pack has invalid data (such as an invalid recipe format), changes are not applied and the game continues using the previous data.[needs testing in Bedrock Edition]",
+      "command_translation.help.command.save-all": "These commands manage server saves.",
+      "command_translation.help.command.save-off": "These commands manage server saves.",
+      "command_translation.help.command.save-on": "These commands manage server saves.",
+      "command_translation.help.command.say": "Broadcasts message in the chat to all players on the server.",
+      "command_translation.help.command.ride": "Allows entities to mount or dismount other entities.",
+      "command_translation.help.command.return": "A command that can be embedded inside a function to control its execution.\nIt ends function execution and sets the successfulness and the return value of the function, which is returned to the /function command as its output values, or the /execute if function ... command to test.\nIt can also end a forking /execute command that has multiple branches at the first branch.",
+      "command_translation.help.command.random": "Generates a random integer, or controls random sequences in the world.",
+      "command_translation.help.command.rotate": "Changes the rotation of an entity.",
+      "command_translation.help.command.scoreboard": "Manages and displays scores for various scoreboard objectives.",
+      "command_translation.help.command.seed": "Displays the world seed, which can be copied on click.",
+      "command_translation.help.command.setblock": "Changes a block to another block.",
+      "command_translation.help.command.setidletimeout": "Sets the time before idle players are kicked from the server. Any players idle for <minutes> are kicked.",
+      "command_translation.help.command.setworldspawn": "Sets the world spawn.",
+      "command_translation.help.command.spawnpoint": "This command sets the spawn point for a player.\nThis command works in any dimension and can set the player's spawn point into any dimension.",
+      "command_translation.help.command.spreadplayers": "Teleports entities to random surface locations within an area. Despite its name, this command can be used to teleport any entities, not just players.",
+      "command_translation.help.command.stop": "Stops a server. Saves all changes to disk, then shuts down the server. Additionally, all players are kicked out of the server.",
+      "command_translation.help.command.schedule": "Schedules functions.",
+      "command_translation.help.command.spectate": "Causes a player in Spectator mode to spectate another entity or stop spectating.\nIf the spectator is away from the target, the command will result in a camera follow mode, instead of the default first-person view.",
+      "command_translation.help.command.stopsound": "Stops a given sound.",
+      "command_translation.help.command.summon": "Summons an entity.",
+      "command_translation.help.command.teleport": "Teleports entities (players, mobs, etc.).\nAlthough most commands can affect only chunks that have already been generated, /teleport can send entities into chunks that have yet to be generated. Right before teleporting, the game generates the destination chunk.",
+      "command_translation.help.command.tp": "Teleports entities (players, mobs, etc.).\nAlthough most commands can affect only chunks that have already been generated, /teleport can send entities into chunks that have yet to be generated. Right before teleporting, the game generates the destination chunk.",
+      "command_translation.help.command.tellraw": "Sends a JSON message to players.",
+      "command_translation.help.command.team": "Controls teams.",
+      "command_translation.help.command.tag": "Controls scoreboard tags on individual entities. In Java Edition, the number of tags owned by an entity cannot exceed 1024.\nJava Edition note: This is distinct from entity type tags, which are applied to entity types and can't be changed by commands.",
+      "command_translation.help.command.teammsg": "Sends a message to all players in the team of the entity who runs the command.",
+      "command_translation.help.command.tm": "Sends a message to all players in the team of the entity who runs the command.",
+      "command_translation.help.command.tick": "The /tick command provides utilities for modifying the target tick rate of the game, temporarily fast forwarding the game, and pausing the game server side among other things. The /tick command cannot be executed from a command block.",
+      "command_translation.help.command.stopwatch": "Allows manipulation of stopwatches to keep track of real time — the time measured is not affected by the game's tick rate (i.e. pausing, /tick, or even server lag). This makes it useful to detect and compensate for lag e.g. when programming functions in a data pack.\nTheir elapsed time can be checked against a value range using /execute (if|unless) stopwatch.",
+      "command_translation.help.command.swing": "Controls the swinging animation of entities' hands.",
+      "command_translation.help.command.time": "Changes or queries the world's game time or the time of a world clock.",
+      "command_translation.help.command.title": "Controls text displayed on the screen.",
+      "command_translation.help.command.trigger": "Changes the executor player's score in a scoreboard objective with a \"trigger\" criterion, and un-enables the objective for this player. Allows non-operator players to modify their own scoreboard objectives under tightly controlled conditions. Often used to let players activate systems controlled by data packs or command blocks.",
+      "command_translation.help.command.weather": "Sets the weather. In Bedrock Edition, it can also be used to get the current weather.",
+      "command_translation.help.command.whitelist": "Used to manage server whitelists.\nIn Java Edition, server operators can always connect when the whitelist is active, even if their profiles do not appear in the whitelist. In Bedrock Edition, players must be whitelisted regardless of operator status. The profiles of the whitelisted players are stored in the whitelist.json or allowlist.json‌[Bedrock Edition  only] configuration file.",
+      "command_translation.help.command.worldborder": "This command controls the world border. They only affect the world border of the dimension in which the command is executed.",
+      "command_translation.help.command.transfer": "Triggers a transfer of a player to another server.",
+      "command_translation.help.command.version": "Presents the server's game version information to the client on the chat.",
+      "command_translation.help.command.waypoint": "Manages waypoints displayed on the locator bar. Allows querying existing waypoints of entities and modifying their appearance properties like color and fade effect.",
+      "command_translation.help.command.unpublish": "Unpublishes an integrated server.",
+      "command_translation.help.command.test": "Manage and execute GameTests.",
+      "command_translation.help.command.fetchprofile": "Fetches the contents of a player profile from Minecraft servers.",
+      "command_translation.help.command.posteffect": "Allows adding or removing post effects to players.",
+      "command_translation.help.command.compute": "Evaluates number providers in various loot contexts.",
+      "command_translation.help.argument.advancement.targets": "Specifies one player or more.",
+      "command_translation.help.argument.advancement.advancement": "Specifies a valid resource location of the advancement to target.",
+      "command_translation.help.argument.advancement.criterion": "Specifies a valid criterion of the advancement to manipulate.",
+      "command_translation.help.argument.ban.targets": "Specifies the player profile(s) to be added to the blacklist.",
+      "command_translation.help.argument.ban.reason": "Message to display to the banned player, to other operators , and in the server logs.",
+      "command_translation.help.argument.ban-ip.targets": "Specifies the player profile(s) to be added to the blacklist.",
+      "command_translation.help.argument.ban-ip.reason": "Message to display to the banned player, to other operators , and in the server logs.",
+      "command_translation.help.argument.banlist.targets": "Specifies the player profile(s) to be added to the blacklist.",
+      "command_translation.help.argument.banlist.reason": "Message to display to the banned player, to other operators , and in the server logs.",
+      "command_translation.help.argument.clear.targets": "Specifies the player(s) whose items are cleared.",
+      "command_translation.help.argument.clear.item": "Specifies the item to be cleared.",
+      "command_translation.help.argument.clear.maxCount": "Specifies the maximum number of items to be cleared.",
+      "command_translation.help.argument.clone.sourceDimension": "Specifies the dimension to clone the blocks from.",
+      "command_translation.help.argument.clone.begin": "Specifies the coordinates of two opposing corner blocks of the source region.",
+      "command_translation.help.argument.clone.targetDimension": "Specifies the dimension to clone the blocks to.",
+      "command_translation.help.argument.clone.destination": "Specifies the lower northwest corner of the destination region.",
+      "command_translation.help.argument.clone.filter": "Specifies the block id to copy in filtered mode.",
+      "command_translation.help.argument.debug.name": "It must be a resource location or one prefixed with a # , which resolves into a function or a function tag during command execution.",
+      "command_translation.help.argument.data.targetPos": "The position of the target block entity whose NBT is to be operated on.",
+      "command_translation.help.argument.data.target": "Specifies an entity whose NBT is to be operated on.",
+      "command_translation.help.argument.data.path": "Specifies the NBT to retrieve or remove.",
+      "command_translation.help.argument.data.scale": "Scalar for the command's output value.",
+      "command_translation.help.argument.data.nbt": "Specifies a compound tag to be merged into somewhere.",
+      "command_translation.help.argument.data.targetPath": "Specifies target NBT to modify.",
+      "command_translation.help.argument.data.index": "Specifies an item's index within a list.",
+      "command_translation.help.argument.data.sourcePos": "The position of the target block entity whose NBT is to be used.",
+      "command_translation.help.argument.data.source": "Specifies an entity whose NBT is to be used by modify .",
+      "command_translation.help.argument.data.sourcePath": "Specifies the source NBT to be used by modify .",
+      "command_translation.help.argument.data.start": "Specifies the index of first character to include at the start of the string.",
+      "command_translation.help.argument.data.end": "Specifies the index of the first character to exclude at the end of the string.",
+      "command_translation.help.argument.data.value": "Value used in modifying the target NBT.",
+      "command_translation.help.argument.datapack.name": "Specifies the name of the data pack.",
+      "command_translation.help.argument.datapack.existing": "Specifies the name of an existing enabled data pack.",
+      "command_translation.help.argument.datapack.id": "Created pack name, must be a valid directory name.",
+      "command_translation.help.argument.datapack.description": "text component to be placed in description in pack.mcmeta .",
+      "command_translation.help.argument.bossbar.id": "Specifies a unique bossbar.",
+      "command_translation.help.argument.bossbar.name": "Specifies the display name of the bossbar.",
+      "command_translation.help.argument.bossbar.max": "Specifies the bossbar's maximum value.",
+      "command_translation.help.argument.bossbar.targets": "Specifies the set of players to whom the bar is visible.",
+      "command_translation.help.argument.bossbar.value": "Specifies the bossbar's current value.",
+      "command_translation.help.argument.bossbar.visible": "Specifies the bossbar's visibility.",
+      "command_translation.help.argument.attribute.target": "The entity that the attribute is applied to.",
+      "command_translation.help.argument.attribute.attribute": "Specifies the attribute .",
+      "command_translation.help.argument.attribute.scale": "The number the value is multiplied with before being stored with / execute command.",
+      "command_translation.help.argument.attribute.id": "Specifies the id of a modifier .",
+      "command_translation.help.argument.attribute.value": "Specifies the value to use.",
+      "command_translation.help.argument.damage.target": "Specifies the entity‌ [ Java Edition only ] or entities‌ [ Bedrock Edition only ] to damage.",
+      "command_translation.help.argument.damage.amount": "Specifies the amount of damage to inflict.",
+      "command_translation.help.argument.damage.damageType": "Specifies the damage type ‌ [ Java Edition only ] or type of damage‌ [ Bedrock Edition only ] .",
+      "command_translation.help.argument.damage.location": "Specifies the location the damage originated at if the cause of the damage is not an entity (e.g., the position of the bed that exploded in the Nether ).",
+      "command_translation.help.argument.damage.entity": "Specifies the entity who dealt the damage.",
+      "command_translation.help.argument.damage.cause": "Specifies the cause of the damage (for example, the skeleton that shot the arrow ).",
+      "command_translation.help.argument.defaultgamemode.gamemode": "Specifies the default game mode.",
+      "command_translation.help.argument.deop.targets": "Specifies the player to be deopped.",
+      "command_translation.help.argument.effect.targets": "Specifies the target(s).",
+      "command_translation.help.argument.effect.effect": "Specifies the effect to be added or removed.",
+      "command_translation.help.argument.effect.seconds": "Specifies the effect's duration in seconds (or in gameticks for instant_damage , instant_health , and saturation ).",
+      "command_translation.help.argument.effect.amplifier": "Specifies the number of additional levels to add to the effect.",
+      "command_translation.help.argument.effect.hideParticles": "Specifies whether the particles and the HUD indicator‌ [ Java Edition only ] of the status effect should be hidden.",
+      "command_translation.help.argument.enchant.targets": "Specifies the target(s).",
+      "command_translation.help.argument.enchant.enchantment": "Specifies the enchantment to be added to the item held in main hand by the target.",
+      "command_translation.help.argument.enchant.level": "Specifies the enchantment level.",
+      "command_translation.help.argument.execute.axes": "Any non-repeating combination of the characters 'x', 'y', and 'z'.",
+      "command_translation.help.argument.execute.anchor": "Whether to anchor the executed command to eyes or feet .",
+      "command_translation.help.argument.execute.targets": "Target entity/entities to become the new executor.",
+      "command_translation.help.argument.execute.pos": "Coordinates to rotate toward.",
+      "command_translation.help.argument.execute.dimension": "ID of the new execution dimension.",
+      "command_translation.help.argument.execute.heightmap": "Specifies the heightmap .",
+      "command_translation.help.argument.execute.entity": "The entity to be summoned and become the new executor.",
+      "command_translation.help.argument.execute.biome": "Biome(s) to test for.",
+      "command_translation.help.argument.execute.block": "Specifies the block to test for.",
+      "command_translation.help.argument.execute.start": "JE : <start> : block_pos BE : begin: x y z : CommandPosition",
+      "command_translation.help.argument.execute.end": "Positions of any two diagonal corners of the source volume (the volume to compare).",
+      "command_translation.help.argument.execute.destination": "Position of the lower northwest corner of the destination volume (the volume to compare to).",
+      "command_translation.help.argument.execute.path": "Data path to check whether the block has.",
+      "command_translation.help.argument.execute.target": "A single entity for data testing.",
+      "command_translation.help.argument.execute.source": "The resource location of the storage for data testing.",
+      "command_translation.help.argument.execute.entities": "The target entity/ies to test for.",
+      "command_translation.help.argument.execute.function": "<function> : function Function to test for.",
+      "command_translation.help.argument.execute.sourcePos": "<sourcePos> : block_pos Location of a block entity to test.",
+      "command_translation.help.argument.execute.slots": "Slots to test.",
+      "command_translation.help.argument.execute.item_predicate": "Item or item tag to test for.",
+      "command_translation.help.argument.execute.predicate": "The predicate to be checked whether it evaluates to a positive result.",
+      "command_translation.help.argument.execute.targetObjective": "The scoreboard objective to check under.",
+      "command_translation.help.argument.execute.sourceObjective": "A scoreboard objective.",
+      "command_translation.help.argument.execute.range": "Range to compare score against.",
+      "command_translation.help.argument.execute.targetPos": "<targetPos> : block_pos Position of target block.",
+      "command_translation.help.argument.execute.scale": "Multiplier to apply before storing value, may be negative.",
+      "command_translation.help.argument.execute.id": "ID of the bossbar to target for saving.",
+      "command_translation.help.argument.execute.objective": "A scoreboard objective.",
+      "command_translation.help.argument.execute.align": "Updates the execution position , aligning to its current block position (integer coordinates).",
+      "command_translation.help.argument.execute.anchored": "Sets the execution anchor to the eyes or feet.",
+      "command_translation.help.argument.execute.as": "Sets the executor to target entity, without changing execution position , rotation , dimension , and anchor .",
+      "command_translation.help.argument.execute.at": "Sets the execution position , rotation , and dimension to match those of an entity; does not change executor .",
+      "command_translation.help.argument.execute.facing": "Sets the execution rotation to face a given point, as viewed from its anchor (either the eyes or the feet).",
+      "command_translation.help.argument.execute.in": "Sets the execution dimension and execution position .",
+      "command_translation.help.argument.execute.positioned": "Sets the execution position , without changing execution rotation or dimension ; can match an entity's position, or at one block above the Y-level stored in the specified heightmap ‌ [ JE only ] .",
+      "command_translation.help.argument.execute.rotated": "Sets the execution rotation ; can match an entity's rotation.",
+      "command_translation.help.argument.execute.blocks": "Compares the blocks in two equally sized volumes.",
+      "command_translation.help.argument.execute.score": "Check whether a score has the specific relation to another score, or whether it is in a given range.",
+      "command_translation.help.argument.execute.run": "The run command's single argument is the command to be executed, the context variables of which may be modified by the subcommands used.",
+      "command_translation.help.argument.fill.from": "Specifies any two opposing corner blocks of the region to be filled (the \"fill region\").",
+      "command_translation.help.argument.fill.block": "Specifies the block to fill the region with.",
+      "command_translation.help.argument.fill.filter": "Specifies the ID of the blocks in the fill region to be replaced.",
+      "command_translation.help.argument.experience.amount": "Specifies the amount of experience points or levels to give to the player.",
+      "command_translation.help.argument.experience.targets": "Specifies the target of the command.",
+      "command_translation.help.argument.xp.amount": "Specifies the amount of experience points or levels to give to the player.",
+      "command_translation.help.argument.xp.targets": "Specifies the target of the command.",
+      "command_translation.help.argument.fillbiome.from": "The two corners to fill the biome between.",
+      "command_translation.help.argument.fillbiome.biome": "Specifies the biome to fill the specified area with.",
+      "command_translation.help.argument.fillbiome.filter": "Specifies the biomes in the fill region to be replaced.",
+      "command_translation.help.argument.dialog.targets": "Specifies the players whose dialog is shown or cleared.",
+      "command_translation.help.argument.dialog.dialog": "Specifies the dialog to show to the players.",
+      "command_translation.help.argument.function.name": "Specifies the function(s) to execute.",
+      "command_translation.help.argument.function.arguments": "Specifies arguments for macro functions in a compound NBT tag.",
+      "command_translation.help.argument.function.sourcePos": "The position of the target block entity whose NBT is to be used.",
+      "command_translation.help.argument.function.source": "Specifies an entity whose NBT is to be used.",
+      "command_translation.help.argument.function.path": "Specifies the NBT path.",
+      "command_translation.help.argument.gamemode.gamemode": "Specifies the new game mode.",
+      "command_translation.help.argument.gamemode.target": "Specifies the target(s).",
+      "command_translation.help.argument.give.targets": "Specifies the target(s) to give item(s) to.",
+      "command_translation.help.argument.give.item": "Specifies the item to give.",
+      "command_translation.help.argument.give.count": "Specifies the number of items to give.",
+      "command_translation.help.argument.help.command": "Specifies the command name to provide help for.",
+      "command_translation.help.argument.kick.targets": "Specifies the player(s) to be kicked.",
+      "command_translation.help.argument.kick.reason": "Message to display to the kicked player.",
+      "command_translation.help.argument.kill.targets": "Specifies the target(s) to kill.",
+      "command_translation.help.argument.forceload.from": "Specifies the targeted chunks based on block position.",
+      "command_translation.help.argument.forceload.pos": "Specifies a chunk to query based on block position.",
+      "command_translation.help.argument.item.pos": "Specifies the position of the block to be modified.",
+      "command_translation.help.argument.item.targets": "Specifies one or more entities to modify.",
+      "command_translation.help.argument.item.slot": "Specifies the inventory slot to be modified.",
+      "command_translation.help.argument.item.slots": "Similar to <slot> , but can contain multiple slots.",
+      "command_translation.help.argument.item.modifier": "Specifies the item modifier to apply on the chosen item.",
+      "command_translation.help.argument.item.item": "Specifies the item to be placed in the block or entity's inventory slot.",
+      "command_translation.help.argument.item.count": "Specifies the number of items to be placed in the block or entity's inventory slot.",
+      "command_translation.help.argument.item.sourcePos": "Specifies the position of the block to copy items from.",
+      "command_translation.help.argument.item.sourceTarget": "Specifies an entity to copy items from.",
+      "command_translation.help.argument.item.sourceSlot": "Specifies the inventory slot to copy the items from.",
+      "command_translation.help.argument.item.sourceSlots": "Similar to <sourceSlot> , but can contain multiple slots.",
+      "command_translation.help.argument.locate.biome": "Specifies the biome to locate.",
+      "command_translation.help.argument.locate.structure": "Specifies the structure to locate.",
+      "command_translation.help.argument.locate.poi": "Specifies the point of interest to locate.",
+      "command_translation.help.argument.me.action": "Specifies the message to display.",
+      "command_translation.help.argument.op.targets": "Specifies the player to be granted op.",
+      "command_translation.help.argument.pardon.targets": "Specifies the player profile(s) to remove from the ban list.",
+      "command_translation.help.argument.pardon.target": "Specifies the IP address to remove from the ban list.",
+      "command_translation.help.argument.pardon-ip.targets": "Specifies the player profile(s) to remove from the ban list.",
+      "command_translation.help.argument.pardon-ip.target": "Specifies the IP address to remove from the ban list.",
+      "command_translation.help.argument.particle.name": "Specifies the particle type to create.",
+      "command_translation.help.argument.particle.pos": "Specifies the position at which to create particle.",
+      "command_translation.help.argument.particle.count": "Specifies the number of particle effects to create.",
+      "command_translation.help.argument.particle.delta": "<delta> and <speed> parameters determine where the particles are created and the parameters to pass into the particles (see the table Extra parameters of particle types below).",
+      "command_translation.help.argument.particle.viewers": "Allows control of which player should view this particle instead of everyone in the viewing range of the particle.",
+      "command_translation.help.argument.msg.targets": "Specifies the player(s) to send the message to.",
+      "command_translation.help.argument.msg.message": "Specifies the message to tell.",
+      "command_translation.help.argument.tell.targets": "Specifies the player(s) to send the message to.",
+      "command_translation.help.argument.tell.message": "Specifies the message to tell.",
+      "command_translation.help.argument.w.targets": "Specifies the player(s) to send the message to.",
+      "command_translation.help.argument.w.message": "Specifies the message to tell.",
+      "command_translation.help.argument.loot.loot_table": "Specifies which loot table to use.",
+      "command_translation.help.argument.loot.tool": "Specifies a tool to simulatively mine or fish.",
+      "command_translation.help.argument.loot.target": "Specifies one entity to kill simulatively.",
+      "command_translation.help.argument.loot.players": "Specifies one or more players to give.",
+      "command_translation.help.argument.loot.pos": "Specifies the position of a block.",
+      "command_translation.help.argument.loot.targetPos": "Specifies the location where item entities drop.",
+      "command_translation.help.argument.loot.entities": "Specifies one or more entities to modify.",
+      "command_translation.help.argument.loot.count": "Specifies the number of consecutive slots to be cleared.",
+      "command_translation.help.argument.loot.slot": "Specifies the inventory slot to be modified.",
+      "command_translation.help.argument.place.feature": "Specifies the configured feature to place.",
+      "command_translation.help.argument.place.structure": "Specifies the structure .",
+      "command_translation.help.argument.place.pool": "Specifies the start template pool to start generating a jigsaw.",
+      "command_translation.help.argument.place.target": "Specifies the jigsaw block that is connected to when generating the start structure pool.",
+      "command_translation.help.argument.place.max_depth": "Specifies the max depth of the jigsaw.",
+      "command_translation.help.argument.place.template": "Specifies the structure template to place.",
+      "command_translation.help.argument.place.pos": "Specifies the start position of the placement.",
+      "command_translation.help.argument.place.rotation": "Specifies the rotation to apply to the placed template.",
+      "command_translation.help.argument.place.mirror": "Specifies the mirroring to apply to the placed template.",
+      "command_translation.help.argument.place.integrity": "Specifies the integrity value to apply to the placed template (how complete the template that gets placed is).",
+      "command_translation.help.argument.place.seed": "Specifies the seed to use for randomized degradation of the placed template when integrity is less than 1.",
+      "command_translation.help.argument.playsound.sound": "Specifies the sound to play.",
+      "command_translation.help.argument.playsound.targets": "Specifies the player(s) for whom the sound is going to be played.",
+      "command_translation.help.argument.playsound.pos": "Specifies the position to play the sounds from.",
+      "command_translation.help.argument.playsound.volume": "Specifies the distance that the sound can be heard.",
+      "command_translation.help.argument.playsound.pitch": "Specifies the pitch and speed of the sound.",
+      "command_translation.help.argument.playsound.minVolume": "Specifies the volume for targets outside the sound's normal audible sphere.",
+      "command_translation.help.argument.publish.allowCommands": "Whether commands are allowed when the world is hosted on the local network.",
+      "command_translation.help.argument.publish.port": "The port to host on.",
+      "command_translation.help.argument.recipe.target": "Specifies the player(s) to give or take the recipe from.",
+      "command_translation.help.argument.recipe.recipe": "Specifies a recipe to give or take.",
+      "command_translation.help.argument.say.message": "Specifies the message to say.",
+      "command_translation.help.argument.ride.target": "Specifies the passenger.",
+      "command_translation.help.argument.ride.vehicle": "Specifies the mount.",
+      "command_translation.help.argument.return.value": "An integer value to use as the return value of the function .",
+      "command_translation.help.argument.random.range": "Specifies the range to pick the random number from.",
+      "command_translation.help.argument.random.sequence": "Specifies the resource location of a random sequence to sample or reset.",
+      "command_translation.help.argument.random.seed": "The salt value.",
+      "command_translation.help.argument.random.includeWorldSeed": "Whether to incorporate the world seed value with the specified <seed> when seeding a random sequence.",
+      "command_translation.help.argument.random.includeSequenceId": "Whether to incorporate the hash of the ID with the specified <seed> when seeding a random sequence.",
+      "command_translation.help.argument.rotate.target": "Specifies the entity to rotate.",
+      "command_translation.help.argument.rotate.rotation": "Specifies the rotation.",
+      "command_translation.help.argument.rotate.facingLocation": "Specifies the coordinates to make the target entity face towards.",
+      "command_translation.help.argument.rotate.facingEntity": "Specifies the entity to make the target entity face towards.",
+      "command_translation.help.argument.rotate.facingAnchor": "Specifies whether to face towards the entity's eyes or feet.",
+      "command_translation.help.argument.scoreboard.objective": "Specifies the internal objective name.",
+      "command_translation.help.argument.scoreboard.criteria": "Specifies the criterion of the new objective.",
+      "command_translation.help.argument.scoreboard.displayName": "Specifies the display name, defaulting to <objective> when unspecified.",
+      "command_translation.help.argument.scoreboard.slot": "Specifies the slot to display the objective.",
+      "command_translation.help.argument.scoreboard.value": "Specifies whether display names are auto-updated.",
+      "command_translation.help.argument.scoreboard.component": "Specifies display text.",
+      "command_translation.help.argument.scoreboard.style": "Specifies the style.",
+      "command_translation.help.argument.scoreboard.target": "Specifies the score holder.",
+      "command_translation.help.argument.scoreboard.targets": "Specifies the score holders.",
+      "command_translation.help.argument.scoreboard.score": "Specifies the new score, an amount to add to the score, or an amount to subtract from the score.",
+      "command_translation.help.argument.scoreboard.targetObjective": "Specifies the objective for targets.",
+      "command_translation.help.argument.scoreboard.source": "Specifies the source score holders whose scores are used as source inputs.",
+      "command_translation.help.argument.scoreboard.sourceObjective": "Specifies the objective for sources.",
+      "command_translation.help.argument.scoreboard.operation": "Specifies the operation to be applied.",
+      "command_translation.help.argument.scoreboard.text": "Specifies the display name.",
+      "command_translation.help.argument.scoreboard.contents": "Specifies display text.",
+      "command_translation.help.argument.setblock.pos": "Specifies the position of the block to be changed.",
+      "command_translation.help.argument.setblock.block": "Specifies the new block.",
+      "command_translation.help.argument.setidletimeout.minutes": "Specifies the idle kick timer.",
+      "command_translation.help.argument.setworldspawn.pos": "Specifies the coordinates of the world spawn .",
+      "command_translation.help.argument.setworldspawn.angle": "Specified the yaw angle to spawn with.",
+      "command_translation.help.argument.spawnpoint.targets": "Specifies the player whose spawn point should be set.",
+      "command_translation.help.argument.spawnpoint.pos": "Specifies the coordinates of the player's new spawn point.",
+      "command_translation.help.argument.spawnpoint.angle": "Specifies the yaw angle to spawn with.",
+      "command_translation.help.argument.spreadplayers.center": "Specifies the center of the region to spread targets to.",
+      "command_translation.help.argument.spreadplayers.spreadDistance": "Specifies the minimum distance between each two targets.",
+      "command_translation.help.argument.spreadplayers.maxRange": "Specifies the maximum distance on each horizontal axis from the center of the area to spread targets (thus, the area is square, not circular).",
+      "command_translation.help.argument.spreadplayers.maxHeight": "Specifies the maximum height for the target positions.",
+      "command_translation.help.argument.spreadplayers.respectTeams": "Specifies whether to keep entities on the same team together.",
+      "command_translation.help.argument.spreadplayers.targets": "Specifies the targets to spread.",
+      "command_translation.help.argument.schedule.function": "Specify the function to be run.",
+      "command_translation.help.argument.schedule.time": "Specify the delay time.",
+      "command_translation.help.argument.spectate.target": "Specifies the target to be spectated.",
+      "command_translation.help.argument.spectate.player": "Specifies the spectating player.",
+      "command_translation.help.argument.stopsound.targets": "Specifies the command's target.",
+      "command_translation.help.argument.stopsound.sound": "Specifies the sound to stop.",
+      "command_translation.help.argument.summon.entity": "Specifies the entity to be summoned.",
+      "command_translation.help.argument.summon.pos": "Specifies the position to summon the entity.",
+      "command_translation.help.argument.summon.nbt": "Specifies the data tag for the entity, this can include any NBT in Entity format .",
+      "command_translation.help.argument.teleport.targets": "Specifies the entity(s) to be teleported.",
+      "command_translation.help.argument.teleport.location": "Specifies the coordinates to teleport the target(s) to.",
+      "command_translation.help.argument.teleport.destination": "Specifies the entity to teleport the target(s) to.",
+      "command_translation.help.argument.teleport.rotation": "Specifies the rotation.",
+      "command_translation.help.argument.teleport.facingLocation": "Specifies the coordinates to make the target(s) facing to.",
+      "command_translation.help.argument.teleport.facingEntity": "Specifies the entity to make the target(s) facing to.",
+      "command_translation.help.argument.teleport.facingAnchor": "Specifies the entity's eyes or feet to make the target(s) facing to.",
+      "command_translation.help.argument.tp.targets": "Specifies the entity(s) to be teleported.",
+      "command_translation.help.argument.tp.location": "Specifies the coordinates to teleport the target(s) to.",
+      "command_translation.help.argument.tp.destination": "Specifies the entity to teleport the target(s) to.",
+      "command_translation.help.argument.tp.rotation": "Specifies the rotation.",
+      "command_translation.help.argument.tp.facingLocation": "Specifies the coordinates to make the target(s) facing to.",
+      "command_translation.help.argument.tp.facingEntity": "Specifies the entity to make the target(s) facing to.",
+      "command_translation.help.argument.tp.facingAnchor": "Specifies the entity's eyes or feet to make the target(s) facing to.",
+      "command_translation.help.argument.tellraw.targets": "Specifies the player(s) to send the message to.",
+      "command_translation.help.argument.tellraw.message": "Specifies the message to send.",
+      "command_translation.help.argument.team.team": "Specifies the name of a team.",
+      "command_translation.help.argument.team.displayName": "Specifies the team name to be displayed.",
+      "command_translation.help.argument.team.members": "Specifies the entities to join or leave the team.",
+      "command_translation.help.argument.tag.targets": "Specifies the command's target.",
+      "command_translation.help.argument.tag.name": "Specifies the name of the tag to be added into or removed from the targets.",
+      "command_translation.help.argument.teammsg.message": "Specifies the message to send to team.",
+      "command_translation.help.argument.tm.message": "Specifies the message to send to team.",
+      "command_translation.help.argument.tick.rate": "Specifies the target rate in TPS.",
+      "command_translation.help.argument.tick.time": "Specifies the number of ticks to step or sprint.",
+      "command_translation.help.argument.stopwatch.id": "Specifies the stopwatch to operate on.",
+      "command_translation.help.argument.stopwatch.scale": "Specifies the value to multiply the returned value by, e.",
+      "command_translation.help.argument.swing.targets": "Specifies entities to swing.",
+      "command_translation.help.argument.swing.animation": "Specifies the swing animation to play.",
+      "command_translation.help.argument.swing.duration": "Specifies the duration of the swing animation.",
+      "command_translation.help.argument.time.time": "Specifies the time to add or set.",
+      "command_translation.help.argument.time.clock": "Specifies the world clock to operate on.",
+      "command_translation.help.argument.time.timemarker": "Specifies the time marker to set the time to",
+      "command_translation.help.argument.time.timeline": "Specifies the timeline to query.",
+      "command_translation.help.argument.title.targets": "Specifies the player(s) to display a screen title to.",
+      "command_translation.help.argument.title.title": "Specifies the text to display as a title, subtitle, or on the action bar.",
+      "command_translation.help.argument.title.fadeIn": "Specifies the time for the screen title to fade in, stay, and fade out.",
+      "command_translation.help.argument.trigger.objective": "An enabled scoreboard objective with the \"trigger\" criterion.",
+      "command_translation.help.argument.trigger.value": "Specifies the value to be set to or added to the objective.",
+      "command_translation.help.argument.weather.duration": "Specifies the time for the specified weather to last.",
+      "command_translation.help.argument.whitelist.targets": "Specifies the player profile(s) to be added into or removed from the whitelist.",
+      "command_translation.help.argument.worldborder.distance": "Specifies the number of blocks to add to the world border diameter.",
+      "command_translation.help.argument.worldborder.time": "Specifies the number of seconds it should take for the world border to move from its current diameter to the new diameter.",
+      "command_translation.help.argument.worldborder.pos": "Specifies the horizontal coordinates of the world border's center.",
+      "command_translation.help.argument.worldborder.damagePerBlock": "Specifies the damage a player takes per second per block past the world border buffer.",
+      "command_translation.help.argument.transfer.hostname": "Describes the hostname of the server to connect to.",
+      "command_translation.help.argument.transfer.port": "Denotes the port number of the server to connect to.",
+      "command_translation.help.argument.transfer.players": "The player(s) to transfer.",
+      "command_translation.help.argument.waypoint.waypoint": "Specifies the target entity whose transmitted waypoint should be modified.",
+      "command_translation.help.argument.waypoint.color": "Specifies a color name to apply to the waypoint's indicator on the locator bar .",
+      "command_translation.help.argument.waypoint.hex_color": "Specifies a hexadecimal color code (RRGGBB format) to apply to the waypoint's indicator on the locator bar .",
+      "command_translation.help.argument.waypoint.style": "Specifies the waypoint style from waypoint_style directory in a resource pack.",
+      "command_translation.help.argument.test.radius": "Specifies the radius to clear tests within.",
+      "command_translation.help.argument.test.id": "Specifies the ID of a test.",
+      "command_translation.help.argument.test.width": "Specifies the width of the test structure.",
+      "command_translation.help.argument.test.height": "Specifies the height of the test structure.",
+      "command_translation.help.argument.test.depth": "Specifies the depth of the test structure.",
+      "command_translation.help.argument.test.var": "Specifies the variable name to include in the copied code snippet.",
+      "command_translation.help.argument.test.tests": "Specifies the ID of a test.",
+      "command_translation.help.argument.test.numberOfTimes": "Specifies the number of times to repeat each test in different batches.",
+      "command_translation.help.argument.test.untilFailed": "Specifies if the test should be stopped as soon as one iteration fails.",
+      "command_translation.help.argument.test.rotationSteps": "Specifies the number of extra 90 degree steps to apply to the test.",
+      "command_translation.help.argument.test.testsPerRow": "Specifies the number of tests to place per row in a grid layout.",
+      "command_translation.help.argument.test.amount": "Specifies the number of times to repeat each test in the same batch.",
+      "command_translation.help.argument.test.onlyRequiredTests": "Specifies if only necessary tests are needed.",
+      "command_translation.help.argument.test.test": "Specifies the ID of a test.",
+      "command_translation.help.argument.fetchprofile.name": "Specifies a player name (player does not need to be online), case-insensitive.",
+      "command_translation.help.argument.fetchprofile.id": "Specifies UUID of a player (player does not need to be online).",
+      "command_translation.help.argument.fetchprofile.target": "Specifies an entity (player must be online).",
+      "command_translation.help.argument.posteffect.players": "Specifies one or more players to modify.",
+      "command_translation.help.argument.posteffect.target": "Specifies a player to show the post effects applied list.",
+      "command_translation.help.argument.posteffect.posteffect": "Specifies the post effect to be added/removed.",
+      "command_translation.help.argument.compute.pos": "Specifies the block whose state and block entity are made available to the number provider.",
+      "command_translation.help.argument.compute.target": "Specifies the entity whose data is made available to the number provider as target_entity .",
+      "command_translation.help.argument.compute.floatProvider": "Specifies the context float provider to evaluate.",
+      "command_translation.help.argument.compute.intProvider": "Specifies the context int provider to evaluate.",
+      "command_translation.help.argument.compute.scale": "Specifies the value by which the float provider's result is multiplied."
+    },
+    "de_de": {
+      "command_translation.help.command.ban": "/ban sperrt einen Spieler dauerhaft vom Server, das heißt der Spieler kann sich mit seiner UUID nicht mehr mit dem Server verbinden. Eine Namensänderung kann die Sperre auch nicht umgehen, da bei der Namensänderung nicht die einmalig vergebende UUID geändert wird. Versucht der Spieler sich dennoch mit dem Server zu verbinden, so wird dies in der Server-Konsole protokolliert und dem Spieler wird eine Meldung ausgegeben, dass dieser auf diesem Server gesperrt sei. Gegebenenfalls wird auch der Grund der Sperre angegeben.",
+      "command_translation.help.command.ban-ip": "/ban sperrt einen Spieler dauerhaft vom Server, das heißt der Spieler kann sich mit seiner UUID nicht mehr mit dem Server verbinden. Eine Namensänderung kann die Sperre auch nicht umgehen, da bei der Namensänderung nicht die einmalig vergebende UUID geändert wird. Versucht der Spieler sich dennoch mit dem Server zu verbinden, so wird dies in der Server-Konsole protokolliert und dem Spieler wird eine Meldung ausgegeben, dass dieser auf diesem Server gesperrt sei. Gegebenenfalls wird auch der Grund der Sperre angegeben.",
+      "command_translation.help.command.banlist": "/ban sperrt einen Spieler dauerhaft vom Server, das heißt der Spieler kann sich mit seiner UUID nicht mehr mit dem Server verbinden. Eine Namensänderung kann die Sperre auch nicht umgehen, da bei der Namensänderung nicht die einmalig vergebende UUID geändert wird. Versucht der Spieler sich dennoch mit dem Server zu verbinden, so wird dies in der Server-Konsole protokolliert und dem Spieler wird eine Meldung ausgegeben, dass dieser auf diesem Server gesperrt sei. Gegebenenfalls wird auch der Grund der Sperre angegeben.",
+      "command_translation.help.command.clear": "/clear entfernt Gegenstände aus dem Inventar des Spielers oder überprüft, ob ein Spieler einen bestimmten Gegenstand im Inventar hat.",
+      "command_translation.help.command.debug": "/debug startet oder stoppt das Schreiben eines Debug-Protokolls.",
+      "command_translation.help.command.clone": "/clone kopiert einen quaderförmigen Blockbereich mit Angabe der Koordinaten an eine andere Position.",
+      "command_translation.help.command.advancement": "Der Befehl /advancement kann Fortschritte oder Fortschrittskriterien gewähren oder entfernen. Zudem kann man damit überprüfen, ob ein Spieler einen Fortschritt oder ein Fortschrittskriterium bereits erzielt hat.\nDa die erhaltenen Rezepte auch als Fortschritte gespeichert werden, kann man mithilfe dieses Befehls auch Rezepte vergeben, nehmen oder überprüfen.",
+      "command_translation.help.command.data": "/data verändert oder zeigt die Eigenschaften von Kreaturen, Blöcken und Datenspeichern an.",
+      "command_translation.help.command.datapack": "Durch den Befehl /datapack kann man Datenpakete anzeigen, sortieren, deaktivieren und erstellen. Datenpakete liegen im Ordner datapacks und die Informationen werden in den Weltdaten unter DataPacks gespeichert.",
+      "command_translation.help.command.bossbar": "/bossbar dient zur Einrichtung und Verwaltung benutzerdefinierter Bossleisten. Eine Bossleiste ist ein beschrifteter Fortschrittsbalken am oberen Rand des Bildschirms. Vom Spiel wird die Lebensenergie von Bossmonstern als Bossleiste angezeigt.",
+      "command_translation.help.command.attribute": "/attribute kann Attribute von Spielern oder Objekten einstellen.",
+      "command_translation.help.command.damage": "Der Befehl /damage fügt einem angegebenen Wesen je nach Schadensart eine bestimmte Schaden hinzu.",
+      "command_translation.help.command.defaultgamemode": "/defaultgamemode verändert den Spielmodus der Welt.",
+      "command_translation.help.command.deop": "/deop entfernt die Operator-Rechte von einem Spieler für diesen Server.",
+      "command_translation.help.command.difficulty": "/difficulty verändert den Schwierigkeitsgrad der Welt, d.h. er gilt immer für alle Spieler.",
+      "command_translation.help.command.effect": "/effect gibt oder entfernt einem Spieler oder einer Kreatur einen Statuseffekt.",
+      "command_translation.help.command.enchant": "/enchant gibt dem Gegenstand, den der Spieler in der Hand hält, eine Verzauberung, abhängig davon wie sie auch bei einem Zaubertisch nur möglich wäre.",
+      "command_translation.help.command.fill": "/fill füllt einen quaderförmigen Blockbereich an den angegebenen Koordinaten mit einem Block oder leert ihn.",
+      "command_translation.help.command.execute": "/execute führt mit einer beliebig langen Reihe an Bedingungen einen Befehl aus oder prüft, ob ein Block oder Objekt, nach der angegeben Bedingung, anwesend oder abwesend ist, ohne weitere Befehle. Der Befehl kann an der angegeben Block-Position oder vom angegebenen Objekt ausgeführt werden.",
+      "command_translation.help.command.experience": "Durch den Befehl /experience kann man einem Spieler Erfahrungspunkte oder Stufen geben, aufsummieren oder abfragen.",
+      "command_translation.help.command.xp": "Durch den Befehl /experience kann man einem Spieler Erfahrungspunkte oder Stufen geben, aufsummieren oder abfragen.",
+      "command_translation.help.command.fillbiome": "/fillbiome füllt einen quaderförmigen Blockbereich mit einem Biom. Hierbei werden keine Blöcke gesetzt oder geändert.",
+      "command_translation.help.command.dialog": "Mit dem Befehl /dialog können, ähnlich wie in der Bedrock Edition mit dem Befehl /dialogue, Dialoge erstellt werden. In der Java Edition werden diese aber nicht mithilfe von NPCs erstellt, sondern bekommen ein eigenes GUI",
+      "command_translation.help.command.gamemode": "/gamemode verändert den Spielmodus des Spielers.",
+      "command_translation.help.command.gamerule": "/gamerule ändert eine Spielregel einer Welt.",
+      "command_translation.help.command.give": "/give gibt Gegenstände in den ersten freien Platz des Spielerinventars.",
+      "command_translation.help.command.help": "/help listet einen oder mehrere Befehle mit ihrer Syntax auf.",
+      "command_translation.help.command.kick": "/kick entfernt einen Spieler sofort vom Server.",
+      "command_translation.help.command.kill": "/kill tötet das Objekt (Spieler, Kreatur, Fahrzeug, Drop etc.) sofort. Dabei werden alle Gegenstände aus dem Inventar fallen gelassen und können vom Sterbeort geholt werden. Wird der Befehl jedoch mit der Zielauswahl @e vor dem Aufsammeln der verlorenen Gegenstände erneut angewendet, werden diese Objekte ebenfalls gelöscht.",
+      "command_translation.help.command.function": "/function startet eine Funktion. Beim ausführen dieses Befehls werden weitere Befehle ausgeführt, die sich in einer Textdatei befinden. Funktionen können auch weitere Funktionen und Funktions-Aliase aufrufen.",
+      "command_translation.help.command.forceload": "/forceload kann einstellen, welche Chunks dauerhaft geladen werden.",
+      "command_translation.help.command.item": "/item ersetzt, modifiziert oder kopiert Gegenstände in einem Inventarplatz (engl. Slot) des Inventars von Spielern, Kreaturen oder Behältern.",
+      "command_translation.help.command.jfr": "/jfr startet oder stoppt die Protokoll-Erstellung mit Java FlightRecorder sowie einige benutzerdefinierte Ereignisse.",
+      "command_translation.help.command.list": "/list listet alle aktiven Spieler des Servers auf. Der Befehl funktioniert auch im Einzelspielermodus und listet die bis zu acht möglichen Spieler einer LAN-Welt auf.",
+      "command_translation.help.command.me": "/me sendet im Chat den Namen des Absenders zusammen mit einem Aktionstext.",
+      "command_translation.help.command.op": "/op gibt Operator-Rechte für diesen Server an einen Spieler.",
+      "command_translation.help.command.pardon": "/pardon hebt die Sperre eines Spielers (siehe Befehl /ban) für den Server auf, d. h. er kann sich wieder unter diesem Namen mit dem Server verbinden.",
+      "command_translation.help.command.pardon-ip": "/pardon hebt die Sperre eines Spielers (siehe Befehl /ban) für den Server auf, d. h. er kann sich wieder unter diesem Namen mit dem Server verbinden.",
+      "command_translation.help.command.msg": "/msg sendet im Chat eine Nachricht an einen Spieler (flüstern genannt).",
+      "command_translation.help.command.tell": "/msg sendet im Chat eine Nachricht an einen Spieler (flüstern genannt).",
+      "command_translation.help.command.w": "/msg sendet im Chat eine Nachricht an einen Spieler (flüstern genannt).",
+      "command_translation.help.command.particle": "/particle lässt Partikel wahlweise an einer bestimmten Position in der Welt, um Spieler oder Kreaturen erscheinen.",
+      "command_translation.help.command.locate": "Der Befehl /locate zeigt die Koordinaten eines dem Spieler am nächsten gelegenen Bauwerks, Biom oder Zielpunkt (PoI oder points-of-interest) an. Das Bauwerk, Biom oder Zielpunkt kann dabei frei gewählt werden: Entweder durch direkter Eingabe einer ID oder durch Eingeben eines Aliases.",
+      "command_translation.help.command.loot": "/loot verteilt Gegenstände aus einer angegebenen Beutetabelle in das angegebene Inventar, Behälter oder in der Welt.",
+      "command_translation.help.command.perf": "/perf erfasst 10 Sekunden lang Informationen und Metriken über das Spiel.\nBeachte, dass dieser Befehl nur auf einem dedizierten Server ausgeführt werden kann. Verwenden Sie F3+L im Client, um den Performance Profiler zu starten.",
+      "command_translation.help.command.place": "Der Befehl /place kann Merkmale, Verbundblock- und Konstruktionsblock-Strukturen oder Bauwerke an einer bestimmten Stelle platzieren. Ein Merkmal wird in der Landschaft platziert, wenn dessen Platzierungsbedingungen erfüllt sind.",
+      "command_translation.help.command.playsound": "/playsound spielt ein Geräusch für den Spieler ab.",
+      "command_translation.help.command.publish": "/publish stellt die Einzelspieler-Welt zum gemeinsamen Spielen in einem LAN (lokalen Netzwerk) zur Verfügung.",
+      "command_translation.help.command.save-all": "/save-all sichert die Welt sofort auf dem Server.",
+      "command_translation.help.command.save-off": "/save-all sichert die Welt sofort auf dem Server.",
+      "command_translation.help.command.save-on": "/save-all sichert die Welt sofort auf dem Server.",
+      "command_translation.help.command.say": "/say sendet im Chat eine Nachricht an alle Spieler.",
+      "command_translation.help.command.recipe": "Der Befehl /recipe kann Spielern Rezepte geben oder nehmen.",
+      "command_translation.help.command.reload": "/reload lädt alle Datenpakete neu und löst die load-Funktion einmal aus. Der Befehl kann von einem Spieler ausgeführt werden, man kann ihn aber auch automatisch mit einem Befehlsblock oder einer Funktion aktivieren.",
+      "command_translation.help.command.ride": "Mit dem Befehl /ride kann man ein Objekt auf einem anderen Objekt sitzen / reiten lassen oder einen Reitvorgang beenden.",
+      "command_translation.help.command.return": "Der Befehl /return wird in Funktionen verwendet um den Rückgabewert zu ändern und um in Funktionen nachfolgende Befehle zu überspringen.",
+      "command_translation.help.command.random": "Der Befehl /random wird verwendet um eine Zufallszahl zu erzeugen.",
+      "command_translation.help.command.rotate": "Der Befehl /rotate ändert den Blickwinkel eines Spieler, Kreatur oder Objekt.",
+      "command_translation.help.command.scoreboard": "/scoreboard ist der Befehl der Anzeigetafel zum Verwalten von Punkteständen. \nMit der Anzeigetafel können beliebige Punkte-Ziele (engl. objectives) für eine Welt erstellt werden, für die Spieler (engl. players) Punkte sammeln können. Punkte können aber auch an Kreaturen, Objekte oder Variablen / FakePlayer / Virtuelle Punktehalter vergeben werden. Die Punktestände können auf dem Bildschirm angezeigt werden.",
+      "command_translation.help.command.seed": "/seed nennt den Startwert der Welt. Damit kann man dieselbe Welt erneut generieren. Klickt man auf den angezeigten Startwert, wird er in den Chat geschrieben und kann von dort kopiert werden.",
+      "command_translation.help.command.setblock": "/setblock setzt oder löscht einen Block an einer bestimmten Position.",
+      "command_translation.help.command.setidletimeout": "/setidletimeout setzt eine Grenze, wie lange Spieler unbeweglich auf dem Server herumstehen dürfen.",
+      "command_translation.help.command.setworldspawn": "/setworldspawn ändert den Mittelpunkt des Spawnbereiches der Welt auf die Koordinaten und Blickrichtung.",
+      "command_translation.help.command.spawnpoint": "/spawnpoint ändert den Spawnpunkt des Spielers auf die gewählten Koordinaten.",
+      "command_translation.help.command.spreadplayers": "/spreadplayers verteilt die Spieler oder Kreaturen innerhalb eines vorgegebenen Bereiches in der Landschaft.",
+      "command_translation.help.command.stop": "/stop stoppt den Server sofort ohne Rückfrage, speichert die Welt und fährt ihn herunter.",
+      "command_translation.help.command.schedule": "/schedule führt eine Funktion mit einer bestimmten Verzögerung aus. Dadurch lassen sich Funktionen zu einem anderem Zeitpunkt ausführen als sie aufgerufen wurden. Ferner lassen sie sich so auch in einem Intervall wiederholen.",
+      "command_translation.help.command.spectate": "Mit dem Befehl /spectate kann man als Spieler jede beliebige Kreatur im Zuschauermodus beobachten.",
+      "command_translation.help.command.summon": "/summon erzeugt ein Objekt (Kreatur usw.) in die Welt.",
+      "command_translation.help.command.tellraw": "/tellraw sendet im Chat Textkomponenten an einen Spieler, d.h. einen Text, der formatiert ist und auf die Maus reagieren kann.",
+      "command_translation.help.command.teleport": "Der Befehl /teleport teleportiert einen oder mehrere Spieler, Kreaturen oder Objekte zu einem Zielort.",
+      "command_translation.help.command.tp": "Der Befehl /teleport teleportiert einen oder mehrere Spieler, Kreaturen oder Objekte zu einem Zielort.",
+      "command_translation.help.command.stopsound": "/stopsound stoppt ein oder mehrere Geräusche, die für bestimmte Spieler abgespielt werden.",
+      "command_translation.help.command.tag": "/tag ist der Befehl zum Verwalten von Etiketten.",
+      "command_translation.help.command.team": "/team ist der Befehl zum Verwalten von Mannschaften.",
+      "command_translation.help.command.teammsg": "/teammsg sendet eine Chat-Nachricht an alle Teammitglieder des Teams, dem man momentan angehört.",
+      "command_translation.help.command.tm": "/teammsg sendet eine Chat-Nachricht an alle Teammitglieder des Teams, dem man momentan angehört.",
+      "command_translation.help.command.tick": "Der Befehl /tick steuert die Tick-Rate des Spiels.\nDies ist ein Verwaltungs- und Debugging-Befehl, der es erlaubt, den Tick-Fluss zu kontrollieren und die Leistung des Spiels zu messen. Der Befehl erfordert erhöhte Berechtigungen (Admins und höher) und ist daher nicht standardmäßig in Befehlsblöcken und Datenpaketen ausführbar.",
+      "command_translation.help.command.stopwatch": "/stopwatch  ermöglicht die Manipulation von Stoppuhren, um die Zeit im Auge zu behalten.",
+      "command_translation.help.command.swing": "Der Befehl /swing erlaubt es einem, die Arme von Kreaturen oder Spielern schwingen zu lassen.",
+      "command_translation.help.command.time": "/time ändert die Tageszeit im Spiel.",
+      "command_translation.help.command.weather": "/weather ändert das Wetter in der Welt. Hierbei gibt es die Auswahl zwischen: Klar, Regen(bzw. Schnee) und Gewitter.",
+      "command_translation.help.command.whitelist": "/whitelist verwaltet die Gästeliste des Servers.",
+      "command_translation.help.command.trigger": "/trigger ist speziell für das Ändern eines Punkte-Ziels über die Chat-Eingabe oder einen JSON-Text im Chat oder Buch gedacht. \nMit dem Befehl /scoreboard können beliebige Punkte-Ziele (engl. objectives) für eine Anzeigetafel in der Welt erstellt werden, für die die Spieler Punkte sammeln können. Dabei wird für jedes Punkte-Ziel ein Kriterium angegeben, was als Punkte gezählt wird, z.B. eine bestimmte Statistik oder die Anzahl von Tötungen. \nEs gibt auch das Zielkriterium dummy. Für solche Ziele ändert sich der Punktestand nur durch /scoreboard-Befehle, wie z.B. den Befehl /scoreboard  players add Punktehalter Punkte-Ziel Wert. Diese Befehle werden in Befehlsblöcken oder Funktionen hinterlegt, sodass sie auf jeden Spieler wirken, der das Ereignis aktiviert. Die /scoreboard-Befehle eignen sich jedoch nicht für die Anwendung in JSON-Texten.\nJSON-Texte können über Befehlsblöcke versendet werden oder in einem beschriebenen Buch enthalten sein oder - wenn sie kurz sind - auch direkt in der Server-Konsole oder von Operatoren im Chat eingegeben werden. Sie können Textteile enthalten, die beim Überfahren mit der Maus oder beim Anklicken einen Befehl auslösen können. Diese Befehle werden von dem jeweils betroffenen Spieler selbst ausgeführt, er muss also die Berechtigung dafür haben. Die hat der normale Spieler für /scoreboard-Befehle nicht. \nEigens für die Anwendung in der Chat-Eingabe oder JSON-Texten gibt es daher den /trigger-Befehl. Diesen Befehl kann jeder Spieler ausführen, auch ohne Befehlen-erlauben-Aktivierung und ohne Operator-Rechte.",
+      "command_translation.help.command.worldborder": "/worldborder setzt oder ändert die Grenze um die Welt.",
+      "command_translation.help.command.title": "/title zeigt dem Spieler einen Titelnachricht auf dem Bildschirm an. Der Titel kann hierbei ein normaler Text oder Textkomponenten[Nur Java Edition] sein.",
+      "command_translation.help.command.transfer": "/transfer überträgt einen oder mehrere Spieler auf einen anderen Server.",
+      "command_translation.help.command.version": "Der Befehl /version zeigt die Versionsdaten des Servers an, z. B. Name, Protokollversion und die Ressourcenpaket- und Datenpaketformate.\nÄhnlich wie F3+V, zeigt jedoch serverseitige statt clientseitige Informationen an.",
+      "command_translation.help.command.waypoint": "Mit dem Befehl /waypoint können Wegpunkte abgefragt und geändert werden. Dabei kann die Farbe und die Textur des Wegpunktes geändert und zurückgesetzt werden. Wegpunkte können über das Attribut waypoint_transmit_range, das durch den Befehl /attribute vergeben werden kann, erstellt werden.",
+      "command_translation.help.command.unpublish": "/unpublish beendet die Veröffentlichung einer Einzelspieler-Welt im LAN oder als Online-Welt.",
+      "command_translation.help.command.test": "/test ist der Befehl für Spieltests um diese zu verwalten und durchzuführen.",
+      "command_translation.help.command.fetchprofile": "Ruft den Inhalt eines Spielerprofils von Minecraft-Servern ab.",
+      "command_translation.help.command.posteffect": "Der Befehl /posteffect fügt Nachbearbeitungseffekte (Post Effects) für Spieler hinzu oder entfernt sie wieder.\nNachbearbeitungseffekte werden clientseitig dargestellt und verändern die Bildausgabe des Spiels. In Minecraft sind standardmäßig die Effekte minecraft:blur, minecraft:creeper, minecraft:entity_outline, minecraft:invert und minecraft:spider enthalten.",
+      "command_translation.help.command.compute": "/compute wertet einen Zahlenanbieter (engl. number provider) in einem angegebenen Beutekontext aus und gibt das Ergebnis als Zahl aus. Je nach angegebenem Kontext können dem Zahlenanbieter zusätzliche Informationen über einen Block oder ein Objekt zur Verfügung gestellt werden."
+    },
+    "ja_jp": {
+      "command_translation.help.command.advancement": "進捗またはそのサブ達成要件を付与・剥奪する。",
+      "command_translation.help.command.ban": "以下のコマンドはサーバーのブラックリスト（BANリスト）を管理することができる。ブラックリストとは、サーバーへの接続を許可しないプレイヤーおよびIPアドレスの一覧である。BANされたプレイヤーはホワイトリストに登録されていてもサーバーに接続することができない。",
+      "command_translation.help.command.ban-ip": "以下のコマンドはサーバーのブラックリスト（BANリスト）を管理することができる。ブラックリストとは、サーバーへの接続を許可しないプレイヤーおよびIPアドレスの一覧である。BANされたプレイヤーはホワイトリストに登録されていてもサーバーに接続することができない。",
+      "command_translation.help.command.banlist": "以下のコマンドはサーバーのブラックリスト（BANリスト）を管理することができる。ブラックリストとは、サーバーへの接続を許可しないプレイヤーおよびIPアドレスの一覧である。BANされたプレイヤーはホワイトリストに登録されていてもサーバーに接続することができない。",
+      "command_translation.help.command.clear": "プレイヤーのインベントリからアイテムを消去する。カーソルで持っている状態でスロットには設置されていないアイテムにも作用する。",
+      "command_translation.help.command.clone": "指定した領域のブロックを別の領域に複製する。",
+      "command_translation.help.command.debug": "デバッグセッションを開始/停止する。",
+      "command_translation.help.command.bossbar": "ボスバーを作成、変更する。",
+      "command_translation.help.command.data": "ブロックエンティティ・エンティティ・NBTストレージのNBTデータの取得・統合・編集・削除を行うことができる。",
+      "command_translation.help.command.datapack": "/datapackは、データパックに関する操作を行うコマンドである。\nなお、要素フラグはデータパックを介してワールド作成時にしか有効化できないため、要素フラグを要求するデータパックはこのコマンドで操作できない。",
+      "command_translation.help.command.attribute": "属性の編集、および読み取りを行う。",
+      "command_translation.help.command.damage": "指定したエンティティにダメージを与える。",
+      "command_translation.help.command.defaultgamemode": "マルチプレイサーバーにおける新規プレイヤーのデフォルトのゲームモード（クリエイティブ、サバイバル、など）を設定する。server.propertiesのforce-gamemodeがtureに設定されている状態、またはLANのワールドで実行した場合は、デフォルトのゲームモードが設定されるとともにオンラインのプレイヤー全員のゲームモードが設定したゲームモードに変更される。",
+      "command_translation.help.command.deop": "対象のプレイヤーから、オペレーター権限を剥奪する。",
+      "command_translation.help.command.difficulty": "難易度の設定・取得を行う。",
+      "command_translation.help.command.effect": "対象のプレイヤーや他のエンティティの、ステータス効果を管理する。",
+      "command_translation.help.command.enchant": "プレイヤーが手に持っているアイテムにエンチャントを付与する。プレイヤー以外のエンティティが手に持っているアイテムにも同様の操作ができる。\n金床と同様の仕組みでエンチャントを施すため、/give、/replaceitem、/dataを用いた場合と異なり競合するエンチャントを同時に付与したり、最大レベル以上のレベルを設定することはできない。",
+      "command_translation.help.command.execute": "/executeは、実行者、実行する位置や方角、前提条件、実行結果の格納先を指定して他のコマンドを実行するコマンドである。",
+      "command_translation.help.command.fill": "領域の全部または一部を指定したブロックで満たす。",
+      "command_translation.help.command.experience": "プレイヤーの経験値を増減させたり、値を取得したりする。\nJava Editionでは別種である/xpも共に使用できるが、Bedrock Editionでは、/xpのみが使用できる。",
+      "command_translation.help.command.xp": "プレイヤーの経験値を増減させたり、値を取得したりする。\nJava Editionでは別種である/xpも共に使用できるが、Bedrock Editionでは、/xpのみが使用できる。",
+      "command_translation.help.command.fillbiome": "指定した領域を指定したバイオームで上書きする。",
+      "command_translation.help.command.dialog": "/dialog は、ダイアログを表示・非表示にするコマンドである。",
+      "command_translation.help.command.function": "このコマンドの実行文脈（実行者、実行地点、視方向など）をそのまま適用して関数を実行する。\nJava Editionでは、データパックから単一の関数、あるいは関数タグに含まれるタグすべてを実行する。\nBedrock Editionでは、ビヘイビアーパックから単一の関数を実行する。",
+      "command_translation.help.command.gamemode": "プレイヤーのゲームモードを変更する。",
+      "command_translation.help.command.gamerule": "ゲームルールの値を変更もしくは確認する。",
+      "command_translation.help.command.give": "プレイヤーにアイテムを与える。",
+      "command_translation.help.command.help": "コマンドのヘルプや一覧を表示する。",
+      "command_translation.help.command.kick": "対象のプレイヤーをサーバーから強制退出させるとともに、相手の画面に表示される退出理由を表示させる。",
+      "command_translation.help.command.kill": "プレイヤーやMob、アイテムなどのエンティティを死亡・消滅させる。",
+      "command_translation.help.command.forceload": "常時読み込みするチャンクの追加・解除、リストの表示を行う。",
+      "command_translation.help.command.item": "/itemは、ブロックエンティティやエンティティのインベントリ内のアイテムスタックを置換・コピー、およびアイテム修飾子で変更するコマンドである。",
+      "command_translation.help.command.jfr": "Java FlightRecorderによるプロファイリング、およびカスタマイズされた追加のイベントを開始・停止する。",
+      "command_translation.help.command.list": "サーバー上のプレイヤーの一覧を表示する。",
+      "command_translation.help.command.locate": "コマンドを実行したプレイヤーから最も近い位置にある構造物やバイオームを検索し、その座標をチャット欄に表示する。\nJava Editionでは、関心地点も検索できる。",
+      "command_translation.help.command.me": "自分自身に関するメッセージを配信する。",
+      "command_translation.help.command.op": "対象プレイヤーにオペレーター権限を与える。",
+      "command_translation.help.command.pardon": "BANリストからプロファイルを削除し、そのプロファイルに対応するUUIDのプレイヤーをサーバーに接続できるようにする。",
+      "command_translation.help.command.pardon-ip": "BANリストからプロファイルを削除し、そのプロファイルに対応するUUIDのプレイヤーをサーバーに接続できるようにする。",
+      "command_translation.help.command.particle": "パーティクルを発生させる。",
+      "command_translation.help.command.msg": "1人以上のプレイヤーにプライベートメッセージを送信する。",
+      "command_translation.help.command.tell": "1人以上のプレイヤーにプライベートメッセージを送信する。",
+      "command_translation.help.command.w": "1人以上のプレイヤーにプライベートメッセージを送信する。",
+      "command_translation.help.command.loot": "ルートテーブルを用いてアイテムを生成し、指定したインベントリのスロットに与えるかドロップアイテムとしてスポーンさせる。",
+      "command_translation.help.command.place": "このコマンドは、構成された生成物、構造物、構造物テンプレート、ジグソーを、可能であれば設置する。",
+      "command_translation.help.command.perf": "ゲームの実行状況に関する情報と測定値を10秒間収集する。\nこのコマンドはサーバー上専用であるため、クライアント側のパフォーマンスプロファイリングにはF3 + Lを使用されたい。",
+      "command_translation.help.command.playsound": "指定のサウンドを指定の音量とピッチで、任意のプレイヤーまたは位置に対して再生する。",
+      "command_translation.help.command.publish": "シングルプレイのワールドをローカルネットワークに公開する。",
+      "command_translation.help.command.recipe": "プレイヤーのレシピを解放・剥奪する。",
+      "command_translation.help.command.reload": "Java Editionではデータパックを、Bedrock Editionではビヘイビアーパック内の関数を再読み込みする。",
+      "command_translation.help.command.save-all": "サーバーの保存に関するコマンドである。Java Editionでは、/save-all、/save-off、/save-onの3種類がある。Bedrock Editionでは、/saveのみがある。",
+      "command_translation.help.command.save-off": "サーバーの保存に関するコマンドである。Java Editionでは、/save-all、/save-off、/save-onの3種類がある。Bedrock Editionでは、/saveのみがある。",
+      "command_translation.help.command.save-on": "サーバーの保存に関するコマンドである。Java Editionでは、/save-all、/save-off、/save-onの3種類がある。Bedrock Editionでは、/saveのみがある。",
+      "command_translation.help.command.say": "サーバー上のすべてのプレイヤーにメッセージを送信する。",
+      "command_translation.help.command.ride": "エンティティを別のエンティティに乗せたり降ろしたりする。",
+      "command_translation.help.command.return": "関数の中に組み込んで関数の実行を制御するためのコマンド。その関数の実行を終了させるとともにその関数を起動した/functionの戻り値を与えることができる。\n戻り値を任意の値に設定することで、条件分岐を持つコマンドの実行結果を記録し、以降の関数の実行にこれを反映させるためなどに使用できる。",
+      "command_translation.help.command.random": "乱数を抽出したり、乱数列を再設定することができる。",
+      "command_translation.help.command.rotate": "エンティティの向きを変更する。",
+      "command_translation.help.command.scoreboard": "スコアボードに関する様々な設定を行う。",
+      "command_translation.help.command.seed": "ワールドのシード値を表示する。",
+      "command_translation.help.command.setblock": "ブロックを別のブロックに変更する。",
+      "command_translation.help.command.setidletimeout": "何もしていないプレイヤーがサーバーからキックされるまでの時間を設定する。",
+      "command_translation.help.command.setworldspawn": "初期スポーン地点、別称ワールドのスポーン地点を設定する。",
+      "command_translation.help.command.spawnpoint": "プレイヤーのスポーン地点を設定する。\nスポーン地点のディメンションは実行文脈を参照し、ネザーやジ・エンドにも設定できる。",
+      "command_translation.help.command.spreadplayers": "エンティティ（プレイヤー、モブ、アイテムなど）を、特定の範囲内のランダムな地表の位置にテレポートさせる。名前に反して、このコマンドはプレイヤーだけでなく、すべてのエンティティをテレポートさせることができる。",
+      "command_translation.help.command.stop": "サーバーを安全に停止する。",
+      "command_translation.help.command.schedule": "Java Editionでは、関数を一定の遅延後にサーバー側で実行用予約する。\nBedrock Editionでは、関数をその領域が読み込まれた際に実行するよう予約する。",
+      "command_translation.help.command.spectate": "スペクテイターのプレイヤーを別のエンティティの視点にする。",
+      "command_translation.help.command.stopsound": "指定のサウンドを停止する。",
+      "command_translation.help.command.summon": "エンティティを出現させる。",
+      "command_translation.help.command.teleport": "エンティティを指定の場所へテレポートさせる。\n大抵のコマンドは既に生成されているチャンクにしか作用できないが、このコマンドは未生成のチャンクにエンティティを転送することができる。転送されたエンティティがプレイヤーであった場合は、転送先のチャンクがその後に生成される。",
+      "command_translation.help.command.tp": "エンティティを指定の場所へテレポートさせる。\n大抵のコマンドは既に生成されているチャンクにしか作用できないが、このコマンドは未生成のチャンクにエンティティを転送することができる。転送されたエンティティがプレイヤーであった場合は、転送先のチャンクがその後に生成される。",
+      "command_translation.help.command.tellraw": "テキストコンポーネントによるメッセージをプレイヤーに送信する。",
+      "command_translation.help.command.tag": "一体のエンティティに対してスコアボードのタグの管理を行う。Java Editionでは、1体のエンティティが所有できるタグの数は1024を超えることができない。\nここで「スコアボードのタグ」とは、詳しくは当該項目を参照されたいが、エンティティのNBTデータ上に任意の文字列を複数保存しておくことのできる機能である。保存した文字列は、ターゲットセレクターでエンティティを絞り込む際の識別子として使用できる。",
+      "command_translation.help.command.team": "チームに関する設定を行う。",
+      "command_translation.help.command.teammsg": "コマンドを実行したエンティティと同じチームに所属しているプレイヤー全員にメッセージを送信する。",
+      "command_translation.help.command.tm": "コマンドを実行したエンティティと同じチームに所属しているプレイヤー全員にメッセージを送信する。",
+      "command_translation.help.command.tick": "ゲームのティック処理の速さを操作する。コマンドブロックやデータパックから実行することはできない。",
+      "command_translation.help.command.stopwatch": "実時間を測定する機能であるストップウォッチを操作する。",
+      "command_translation.help.command.swing": "生物エンティティの腕を振らせる。",
+      "command_translation.help.command.time": "時刻を変更・取得する。",
+      "command_translation.help.command.title": "プレイヤーの画面上に表示するテキストを操作する。",
+      "command_translation.help.command.trigger": "トリガー型のスコアボードオブジェクトを変更する。",
+      "command_translation.help.command.weather": "天候を設定する。Bedrock Editionでは、現在の天気を取得することもできる。",
+      "command_translation.help.command.whitelist": "サーバーのホワイトリストを操作することができる。ホワイトリストを有効にすると、そのリストに含まれているプレイヤーのみがそのサーバーに参加できるようになる。\nホワイトリストが有効化された状態でもJava Editionでは、サーバーの管理者だけはホワイトリストに含まれていなくても常にサーバーに接続できる。一方Bedrock Editionでは、管理者権限の有無に関わらずプレイヤーがサーバーに参加するにはホワイトリストに載っていることが必要である。ホワイトリストに載っているプレイヤーのプロファイルはwhitelist.json（allowlist.json‌[BE限定]）ファイルに記録されており、手動で変更することもできる。\nBedrock Editionでは1.18.10においてこのコマンドは/allowlistに改名されたが、こちらのコマンドも依然として使用でき、保存ファイルも移行時には削除されずに複製される。",
+      "command_translation.help.command.worldborder": "現在のディメンションのワールドボーダーを操作することができる。",
+      "command_translation.help.command.transfer": "プレイヤーを別のサーバーに転送することができる。専用サーバーでのみ利用可能。",
+      "command_translation.help.command.version": "/version は、サーバー側のバージョン情報を表示するコマンドである。",
+      "command_translation.help.command.waypoint": "/waypoint は、方向バーのウェイポイントに関する操作をするコマンドである。\nウェイポイントや属性 waypoint_transmit_range・waypoint_receive_range も参照のこと。",
+      "command_translation.help.command.unpublish": "ワールドの公開を終了し、シングルプレイに戻す。",
+      "command_translation.help.command.test": "ゲームテストの操作と実行を行う。",
+      "command_translation.help.command.fetchprofile": "特定のプレイヤーのプロファイルを取得する。",
+      "command_translation.help.command.posteffect": "ポストエフェクトシェーダー（例：スペクテイター時の特殊なMobの視点など）の適用・解除・列挙を行う。",
+      "command_translation.help.command.compute": "/computeは、ナンバープロバイダーを計算してその結果を出力するコマンドである。",
+      "command_translation.help.argument.clone.begin": "コピー元領域を、任意の向かい合う2つの頂点のブロックで指定する。",
+      "command_translation.help.argument.clone.sourceDimension": "コピー元のディメンションを指定する。",
+      "command_translation.help.argument.clone.targetDimension": "コピー先のディメンションを指定する。",
+      "command_translation.help.argument.clone.destination": "コピー先領域の北西下隅（＝各軸の最小座標）を指定する。",
+      "command_translation.help.argument.clone.filter": "filtered モードでコピーするブロックの条件指定する。",
+      "command_translation.help.argument.bossbar.max": "<max>：ボスバーの最大値",
+      "command_translation.help.argument.bossbar.ID": "ボスバー指定する際に使用するID。",
+      "command_translation.help.argument.data.NBT": "統合に使用する Compound タグを指定する。",
+      "command_translation.help.argument.data.provider": "設定値の計算に使用する floatナンバープロバイダー を指定する。",
+      "command_translation.help.argument.data.value": "NBTの編集に使用する値を指定する。",
+      "command_translation.help.argument.data.get": "/data get (block <対象の座標>|entity <対象>|storage <対象>)　[<NBTパス>]　[<倍率>]",
+      "command_translation.help.argument.data.merge": "/data merge (block <対象の座標>|entity <対象>|storage <対象>)　[<NBT>]",
+      "command_translation.help.argument.data.modify": "/data modify <対象のパス> <操作> <取得方法>",
+      "command_translation.help.argument.data.remove": "/data remove (block <取得元の座標>|entity <取得元>|storage <取得元>) <NBTパス>",
+      "command_translation.help.argument.datapack.ID": "作成するデータパックのディレクトリ名を指定する。",
+      "command_translation.help.argument.attribute.ID": "補正値のIDを指定する。",
+      "command_translation.help.argument.damage.target": "ダメージを受けるエンティティを指定する。",
+      "command_translation.help.argument.damage.amount": "与えるダメージ量を指定する。",
+      "command_translation.help.argument.damage.damageType": "ダメージの種類 を指定する。",
+      "command_translation.help.argument.damage.location": "ネザー での ベッド の爆発など、エンティティ以外によるダメージの発生源の座標を指定する。",
+      "command_translation.help.argument.damage.entity": "ダメージの発生源のエンティティを指定する。",
+      "command_translation.help.argument.damage.cause": "矢 を放った スケルトン など、ダメージの発生源の原因となるエンティティを指定する。",
+      "command_translation.help.argument.defaultgamemode.gamemode": "デフォルトに設定したいゲームモードを指定する。",
+      "command_translation.help.argument.deop.targets": "オペレーター権限を剥奪するプレイヤーを指定する。",
+      "command_translation.help.argument.effect.targets": "対象を指定する。",
+      "command_translation.help.argument.effect.effect": "ステータス効果 を指定する。",
+      "command_translation.help.argument.effect.seconds": "ステータス効果の持続時間を秒単位で指定する。",
+      "command_translation.help.argument.effect.amplifier": "追加の効果レベルを指定する。",
+      "command_translation.help.argument.effect.hideParticles": "パーティクル や画面右上のアイコン‌ [ Java Edition 限定 ] を非表示にするかどうか。",
+      "command_translation.help.argument.enchant.targets": "対象（エンチャントを施したいアイテムを持っているエンティティ）を指定する。",
+      "command_translation.help.argument.enchant.enchantment": "対象が手に持っているアイテムに施したい エンチャント を指定する。",
+      "command_translation.help.argument.enchant.level": "エンチャントのレベルを指定する。",
+      "command_translation.help.argument.execute.heightmap": "ハイトマップの種類。",
+      "command_translation.help.argument.execute.entity": "召喚して後続のサブコマンドの実行者になるエンティティ。",
+      "command_translation.help.argument.execute.pos": "<pos> ： biome_pos バイオームを判定したい位置の座標",
+      "command_translation.help.argument.execute.biome": "判定に使う有効なバイオームID",
+      "command_translation.help.argument.execute.block": "比較したいブロックIDかブロックタグ",
+      "command_translation.help.argument.execute.start": "JE ： <start> ： ブロック座標",
+      "command_translation.help.argument.execute.path": "ブロックが持っているかどうか判定したいデータパス。",
+      "command_translation.help.argument.execute.target": "データを判定したい単体のエンティティ。",
+      "command_translation.help.argument.execute.source": "データを判定したいストレージの リソース位置 。",
+      "command_translation.help.argument.execute.dimension": "<dimension> ： ディメンション リソース位置 でなければならない。",
+      "command_translation.help.argument.execute.entities": "JE ： <entities> ： エンティティ",
+      "command_translation.help.argument.execute.function": "<function> ： 関数 実行する関数および関数タグ。",
+      "command_translation.help.argument.execute.targets": "判定したいエンティティ。",
+      "command_translation.help.argument.execute.slot": "単一用または範囲指定用の スロット ID（ 一覧はこちら ）でなければならない。",
+      "command_translation.help.argument.execute.item": "形式 <種類>[<追加条件群>] で記述する。",
+      "command_translation.help.argument.execute.ID": "<ID> ： リソース位置 確認したいストップウォッチのID。",
+      "command_translation.help.argument.execute.targetPos": "<targetPos> ： ブロック座標 対象となるブロックの位置。",
+      "command_translation.help.argument.execute.scale": "格納前に値に乗算される数値。",
+      "command_translation.help.argument.execute.id": "格納先としたいボスバーのID。",
+      "command_translation.help.argument.execute.objective": "スコアボードのオブジェクト。",
+      "command_translation.help.argument.execute.align": "指定した座標軸に沿って、コマンドの 実行位置 を、そこにあるブロックの位置（整数値）に揃える。",
+      "command_translation.help.argument.execute.anchored": "座標の基準 を目線か足元に設定する。",
+      "command_translation.help.argument.execute.as": "実行者 （ ターゲットセレクター @s ）を指定したエンティティに設定する。",
+      "command_translation.help.argument.execute.at": "実行位置、方角、ディメンション を指定したエンティティと同じになるように設定する。",
+      "command_translation.help.argument.execute.facing": "実行方角 を、基準（目線か足元）から指定した地点を向いているものとして設定する。",
+      "command_translation.help.argument.execute.in": "実行ディメンション を設定する。",
+      "command_translation.help.argument.execute.on": "実行エンティティの関係性 を、現在実行者となっているエンティティとの関係に基づいて指定する。",
+      "command_translation.help.argument.execute.positioned": "実行位置 を指定した座標、エンティティ、あるいはハイトマップの表面と同じになるように設定する。",
+      "command_translation.help.argument.execute.rotated": "実行方角 を指定した角度あるいはエンティティと同じになるように設定する。",
+      "command_translation.help.argument.execute.summon": "新たな実行者となるエンティティ を召喚し、そのエンティティを実行者 @s に設定する。",
+      "command_translation.help.argument.execute.blocks": "同じ寸法の領域同士でブロックを比較する。",
+      "command_translation.help.argument.execute.loaded": "指定された位置が、ブロックとエンティティの両方について完全に読み込まれているかどうかを判定する。",
+      "command_translation.help.argument.execute.score": "スコアと他のスコアを比較、あるいは所定の範囲内にあるかどうかを判定する。",
+      "command_translation.help.argument.fill.from": "ブロックで満たす領域を、任意の向かい合う2つの頂点のブロックで指定する。",
+      "command_translation.help.argument.fill.block": "領域を満たすブロックを指定する。",
+      "command_translation.help.argument.fill.filter": "replace ...",
+      "command_translation.help.argument.experience.amount": "プレイヤーに与える経験値ポイントおよびレベルの量を指定する。",
+      "command_translation.help.argument.experience.targets": "経験値を加減・設定・取得する対象を指定する。",
+      "command_translation.help.argument.xp.amount": "プレイヤーに与える経験値ポイントおよびレベルの量を指定する。",
+      "command_translation.help.argument.xp.targets": "経験値を加減・設定・取得する対象を指定する。",
+      "command_translation.help.argument.fillbiome.from": "上書きしたい直方体の領域の対角同士の座標。",
+      "command_translation.help.argument.fillbiome.biome": "バイオームの リソース位置 。",
+      "command_translation.help.argument.fillbiome.filter": "置換したいバイオームのリソース位置か、置換したいバイオームを含むバイオームタグ。",
+      "command_translation.help.argument.function.name": "Java Edition では、 リソース位置 か、 # から始まる タグ でなければならない。",
+      "command_translation.help.argument.function.arguments": "マクロ関数が使用する引数に対して、代入値を与えるためのコンパウンド。",
+      "command_translation.help.argument.function.sourcePos": "block <sourcePos> : ブロックエンティティ から取得する。",
+      "command_translation.help.argument.function.source": "<source> ： エンティティ ...",
+      "command_translation.help.argument.function.path": "代入値を与えるコンパウンドの NBTパス 。",
+      "command_translation.help.argument.gamemode.gamemode": "新しいゲームモードを指定する。",
+      "command_translation.help.argument.gamemode.target": "ゲームモード変更の対象となるプレイヤーを指定する。",
+      "command_translation.help.argument.gamerule.value": "変更後のゲームルールの値を指定する。",
+      "command_translation.help.argument.give.targets": "アイテムを与えるプレイヤーを指定する。",
+      "command_translation.help.argument.give.item": "与えるアイテム（およびそのデータタグ‌ [ Java Edition 限定 ] ）を指定する。",
+      "command_translation.help.argument.give.count": "与えるアイテムの数を指定する。",
+      "command_translation.help.argument.help.command": "文字列で指定する。",
+      "command_translation.help.argument.kick.targets": "強制退出させるプレイヤーを指定する。",
+      "command_translation.help.argument.kick.reason": "強制退出されたプレイヤーの画面に表示される理由を設定する。",
+      "command_translation.help.argument.kill.targets": "死亡・消滅させる対象を指定する。",
+      "command_translation.help.argument.forceload.from": "対象とするチャンクを指定する。",
+      "command_translation.help.argument.forceload.pos": "強制読み込みの有無を調べるチャンクを指定する。",
+      "command_translation.help.argument.item.target": "変更したいインベントリを有するブロックエンティティの座標を指定する。",
+      "command_translation.help.argument.item.slots": "変更対象のスロットを指定する。",
+      "command_translation.help.argument.item.modifer": "適用する アイテム修飾子 を指定する。",
+      "command_translation.help.argument.item.item": "置換後のアイテムスタックのデータを指定する。",
+      "command_translation.help.argument.item.count": "置換後のアイテムスタックの個数を指定する。",
+      "command_translation.help.argument.item.source": "コピー元として参照したいインベントリを有するブロックエンティティの座標を指定する。",
+      "command_translation.help.argument.item.sourceSlots": "コピー元として参照したいスロットを指定する。",
+      "command_translation.help.argument.me.action": "表示するメッセージの、自分の名前に続く部分を指定する。",
+      "command_translation.help.argument.op.targets": "オペレーター権限を与えるプレイヤーを指定する。",
+      "command_translation.help.argument.pardon.targets": "BANリストから削除するプレイヤーのプロファイルを指定する。",
+      "command_translation.help.argument.pardon.target": "BANリストから撤回するIPアドレスを指定する。",
+      "command_translation.help.argument.pardon.pardon": "BANリストからプロファイルを削除する。",
+      "command_translation.help.argument.pardon.pardon-ip": "BANリストからIPアドレスを削除する。",
+      "command_translation.help.argument.pardon-ip.targets": "BANリストから削除するプレイヤーのプロファイルを指定する。",
+      "command_translation.help.argument.pardon-ip.target": "BANリストから撤回するIPアドレスを指定する。",
+      "command_translation.help.argument.pardon-ip.pardon": "BANリストからプロファイルを削除する。",
+      "command_translation.help.argument.pardon-ip.pardon-ip": "BANリストからIPアドレスを削除する。",
+      "command_translation.help.argument.msg.targets": "メッセージの送り先のプレイヤーを指定する。",
+      "command_translation.help.argument.msg.message": "送信するメッセージの内容を指定する。",
+      "command_translation.help.argument.tell.targets": "メッセージの送り先のプレイヤーを指定する。",
+      "command_translation.help.argument.tell.message": "送信するメッセージの内容を指定する。",
+      "command_translation.help.argument.w.targets": "メッセージの送り先のプレイヤーを指定する。",
+      "command_translation.help.argument.w.message": "送信するメッセージの内容を指定する。",
+      "command_translation.help.argument.loot.loot_table": "使用するルートテーブルを指定する。",
+      "command_translation.help.argument.loot.tool": "採掘および釣りに用いたと見なしたいアイテムを指定する。",
+      "command_translation.help.argument.loot.target": "ドロップアイテムのルートテーブルを参照するエンティティを指定する。",
+      "command_translation.help.argument.loot.players": "アイテムを与えるプレイヤー（複数も可）を指定する。",
+      "command_translation.help.argument.loot.pos": "ドロップアイテムのルートテーブルを参照するブロックを指定する。",
+      "command_translation.help.argument.loot.targetPos": "アイテム（エンティティ）がスポーンする座標。",
+      "command_translation.help.argument.loot.entities": "アイテムを与えるエンティティ。",
+      "command_translation.help.argument.loot.count": "アイテムを配置するスロットの個数。",
+      "command_translation.help.argument.loot.slot": "アイテムを配置するスロットの番号。",
+      "command_translation.help.argument.place.feature": "生成したい 生成物の構成 を指定する。",
+      "command_translation.help.argument.place.structure": "構造物 を指定する。",
+      "command_translation.help.argument.place.pool": "ジグソー構造物の最初のパーツを生成する テンプレートプール を指定する。",
+      "command_translation.help.argument.place.target": "起点と接続させたい ジグソーブロック の名前を指定する。",
+      "command_translation.help.argument.place.max_depth": "ジグソー構造物の深度を指定する。",
+      "command_translation.help.argument.place.template": "構造物ファイルフォーマット を指定する。",
+      "command_translation.help.argument.place.pos": "設置の開始位置を指定する。",
+      "command_translation.help.argument.place.rotation": "設置するテンプレートに適用する回転を指定する。",
+      "command_translation.help.argument.place.mirror": "設置するテンプレートに適用する反転処理を指定する。",
+      "command_translation.help.argument.place.integrity": "構造物の完全性 を指定する。",
+      "command_translation.help.argument.place.seed": "完全性が1未満の場合に、欠落させるブロックのランダム選択に使用する シード値 を指定する。",
+      "command_translation.help.argument.playsound.sound": "再生するサウンド。",
+      "command_translation.help.argument.playsound.targets": "サウンドを鳴らす対象となるプレイヤーを指定する。",
+      "command_translation.help.argument.playsound.pos": "サウンドを鳴らす 座標 を指定する。",
+      "command_translation.help.argument.playsound.volume": "音量を指定する。",
+      "command_translation.help.argument.playsound.pitch": "サウンドのピッチと速度を指定する。",
+      "command_translation.help.argument.playsound.minVolume": "サウンドの可聴範囲外にいるプレイヤーに対する音量を決定する。",
+      "command_translation.help.argument.publish.allowCommands": "LANに公開後のワールドでの コマンド 使用可・不可を設定する。",
+      "command_translation.help.argument.publish.port": "ワールドを公開する ポート 。",
+      "command_translation.help.argument.recipe.target": "レシピを解放ないし剥奪するプレイヤーを指定する。",
+      "command_translation.help.argument.recipe.recipe": "解放・剥奪するレシピのIDを指定する。",
+      "command_translation.help.argument.say.message": "送信するメッセージを指定する。",
+      "command_translation.help.argument.ride.target": "騎乗するエンティティを指定する。",
+      "command_translation.help.argument.ride.vehicle": "騎乗されるエンティティを指定する。",
+      "command_translation.help.argument.random.range": "生成する乱数の範囲を指定する。",
+      "command_translation.help.argument.random.sequenceId": "使用・再設定する乱数列の リソース位置 を指定する。",
+      "command_translation.help.argument.random.seed": "乱数列の再設定に使用するシード値。",
+      "command_translation.help.argument.random.includeWorldSeed": "乱数列にシード値を与える際に、ワールドのシード値を組み込むどうか。",
+      "command_translation.help.argument.random.includeSequenceId": "乱数列にシード値を与える際に、乱数列のIDを組み込むどうか。",
+      "command_translation.help.argument.scoreboard.objective": "オブジェクトの内部名を指定する。",
+      "command_translation.help.argument.scoreboard.criteria": "オブジェクトが使用する変動基準の名前空間IDを指定する。",
+      "command_translation.help.argument.scoreboard.displayName": "オブジェクトの表示名を指定する。",
+      "command_translation.help.argument.scoreboard.slot": "オブジェクトを表示する表示スロットを指定する。",
+      "command_translation.help.argument.scoreboard.target": "スコアホルダーを指定する。",
+      "command_translation.help.argument.scoreboard.targets": "スコアホルダーを指定する。",
+      "command_translation.help.argument.scoreboard.score": "変更後のスコア。",
+      "command_translation.help.argument.scoreboard.targetObjective": "編集対象のスコアを格納しているオブジェクト。",
+      "command_translation.help.argument.scoreboard.source": "算術処理に使用するスコアを保有しているスコアホルダー。",
+      "command_translation.help.argument.scoreboard.sourceObjective": "算術処理に使用するスコアを格納しているオブジェクト。",
+      "command_translation.help.argument.scoreboard.operation": "使用する算術処理の種類。",
+      "command_translation.help.argument.setblock.pos": "変更するブロックの座標を指定する。",
+      "command_translation.help.argument.setblock.block": "新しく指定するブロックを指定する。",
+      "command_translation.help.argument.setidletimeout.minutes": "32ビット整数でなければならない。",
+      "command_translation.help.argument.setworldspawn.pos": "変更後の 初期スポーン地点 の 座標 。",
+      "command_translation.help.argument.setworldspawn.rotation": "スポーン時の向きを指定する。",
+      "command_translation.help.argument.spawnpoint.targets": "スポーン地点を設定するプレイヤー。",
+      "command_translation.help.argument.spawnpoint.pos": "新しいスポーン地点の ブロック座標 。",
+      "command_translation.help.argument.spawnpoint.rotation": "スポーン時の向きを指定する。",
+      "command_translation.help.argument.spreadplayers.center": "対象を分散させる領域の中心地点を指定する。",
+      "command_translation.help.argument.spreadplayers.spreadDistance": "対象同士の最小距離を指定する。",
+      "command_translation.help.argument.spreadplayers.maxRange": "中心地点から分散範囲（正方形）の各辺までの最大距離を指定する（したがって、範囲は円形ではなく正方形となる）。",
+      "command_translation.help.argument.spreadplayers.maxHeight": "配置位置の高度上限を指定する。",
+      "command_translation.help.argument.spreadplayers.respectTeams": "同じチームのエンティティをまとめて保持するかどうかを指定する。",
+      "command_translation.help.argument.spreadplayers.targets": "分散させる対象を指定する。",
+      "command_translation.help.argument.schedule.function": "実行する関数を指定する。",
+      "command_translation.help.argument.schedule.time": "遅延の時間を設定する。",
+      "command_translation.help.argument.spectate.target": "観戦の対象。",
+      "command_translation.help.argument.spectate.player": "スペクテイターモードのプレイヤーを指定する。",
+      "command_translation.help.argument.stopsound.targets": "サウンド停止の対象となるプレイヤーを指定する。",
+      "command_translation.help.argument.stopsound.sound": "停止するサウンドを指定する。",
+      "command_translation.help.argument.summon.entity": "出現させたいエンティティを指定する。",
+      "command_translation.help.argument.summon.pos": "エンティティの出現場所を指定する。",
+      "command_translation.help.argument.summon.nbt": "出現させたいエンティティの NBTデータ を指定する。",
+      "command_translation.help.argument.teleport.targets": "テレポートさせるエンティティを指定する。",
+      "command_translation.help.argument.teleport.location": "テレポート先の座標を指定する。",
+      "command_translation.help.argument.teleport.destination": "テレポート先となるエンティティを指定する。",
+      "command_translation.help.argument.teleport.rotation": "テレポート後の向きを指定する。",
+      "command_translation.help.argument.teleport.facingLocation": "テレポート後にエンティティが向く先の座標を指定する。",
+      "command_translation.help.argument.teleport.facingEntity": "テレポート後にエンティティが向く先のエンティティを指定する。",
+      "command_translation.help.argument.teleport.facingAnchor": "テレポート後に指定のエンティティの方を向かせるにあたって、そのエンティティの目を向かせるか或は足を向かせるかを指定する。",
+      "command_translation.help.argument.tp.targets": "テレポートさせるエンティティを指定する。",
+      "command_translation.help.argument.tp.location": "テレポート先の座標を指定する。",
+      "command_translation.help.argument.tp.destination": "テレポート先となるエンティティを指定する。",
+      "command_translation.help.argument.tp.rotation": "テレポート後の向きを指定する。",
+      "command_translation.help.argument.tp.facingLocation": "テレポート後にエンティティが向く先の座標を指定する。",
+      "command_translation.help.argument.tp.facingEntity": "テレポート後にエンティティが向く先のエンティティを指定する。",
+      "command_translation.help.argument.tp.facingAnchor": "テレポート後に指定のエンティティの方を向かせるにあたって、そのエンティティの目を向かせるか或は足を向かせるかを指定する。",
+      "command_translation.help.argument.tag.targets": "Java Edition では、 プレイヤー名、 ターゲットセレクター 、 UUID のいずれかでなければならない。",
+      "command_translation.help.argument.tag.name": "対象に追加もしくは削除するタグの名前を指定する。",
+      "command_translation.help.argument.team.team": "コマンドの対象となるチームの内部名を指定する。",
+      "command_translation.help.argument.team.displayName": "チームの表示名を指定する。",
+      "command_translation.help.argument.team.members": "チームに参加・脱退するスコアホルダーを指定する。",
+      "command_translation.help.argument.team.value": "<value> ： チーム色 チームの色を設定する。",
+      "command_translation.help.argument.team.allowed": "<allowed> ： ブール値（論理値） ブール値（ true または false ）でなければならない。",
+      "command_translation.help.argument.team.prefix": "<prefix> ： テキストコンポーネント 接頭辞を設定する。",
+      "command_translation.help.argument.team.suffix": "接頭辞を設定する。",
+      "command_translation.help.argument.teammsg.message": "チームメンバーに送信するメッセージを指定する。",
+      "command_translation.help.argument.tm.message": "チームメンバーに送信するメッセージを指定する。",
+      "command_translation.help.argument.stopwatch.id": "作成・指定したいストップウォッチのIDを指定する。",
+      "command_translation.help.argument.stopwatch.scale": "取得した時間に掛ける倍率を指定する。",
+      "command_translation.help.argument.swing.targets": "腕を振らせたいエンティティ。",
+      "command_translation.help.argument.swing.animation": "再生する腕振りアニメーション。",
+      "command_translation.help.argument.swing.duration": "アニメーションの再生長さ。",
+      "command_translation.help.argument.time.clock": "操作の対象となる 世界時計 のIDを指定する。",
+      "command_translation.help.argument.time.time": "加算・設定したい時間を指定する。",
+      "command_translation.help.argument.time.timemarker": "時刻設定に使用する タイムマーカー ‌ [ JE 限定 ] ／時刻ID‌ [ BE 限定 ] を指定する。",
+      "command_translation.help.argument.time.rate": "変更後の世界時計の1 ティック 当たりの進行量を指定する。",
+      "command_translation.help.argument.time.timeline": "参照したい タイムライン を指定する。",
+      "command_translation.help.argument.title.targets": "テキストを表示したり、表示時間を設定する対象のプレイヤーを指定する。",
+      "command_translation.help.argument.title.title": "表示するテキストの内容を指定する。",
+      "command_translation.help.argument.title.fadeIn": "フェードイン時間、表示持続時間、フェードアウト時間を指定する。",
+      "command_translation.help.argument.weather.duration": "新しく設定した天候の持続時間を指定する。",
+      "command_translation.help.argument.whitelist.targets": "ホワイトリストに追加・削除するプレイヤーのプロファイルを指定する。",
+      "command_translation.help.argument.worldborder.distance": "一辺の長さの変化量を指定する。",
+      "command_translation.help.argument.worldborder.time": "サイズの変化にかける時間を指定する。",
+      "command_translation.help.argument.worldborder.pos": "中心に設定するXZ座標を指定する。",
+      "command_translation.help.argument.worldborder.damagePerBlock": "ワールドボーダー外におけるダメージの、距離あたりの倍率を指定する。",
+      "command_translation.help.argument.waypoint.waypoint": "操作したいウェイポイントと結びついているエンティティを指定する。",
+      "command_translation.help.argument.waypoint.color": "変更先の色を指定する。",
+      "command_translation.help.argument.waypoint.hex_color": "変更先の色を指定する。",
+      "command_translation.help.argument.waypoint.style": "使用する ウェイポイントのスタイル を指定する。",
+      "command_translation.help.argument.waypoint.fade_start": "フェードアウトが始まる距離を指定する。",
+      "command_translation.help.argument.waypoint.alpha_start": "<fade_start> 以内でのα値を指定する。",
+      "command_translation.help.argument.waypoint.fade_end": "フェードアウトが停止する距離を指定する。",
+      "command_translation.help.argument.waypoint.alpha_end": "<fade_end> 以遠でのα値を指定する。",
+      "command_translation.help.argument.test.radius": "テストを削除する半径を指定する。",
+      "command_translation.help.argument.test.id": "テストインスタンスのIDを指定する。",
+      "command_translation.help.argument.test.width": "テスト構造物のX方向（回転前）の大きさを指定する。",
+      "command_translation.help.argument.test.height": "テスト構造物のY方向の大きさを指定する。",
+      "command_translation.help.argument.test.depth": "テスト構造物のZ方向（回転前）の大きさを指定する。",
+      "command_translation.help.argument.test.var": "コピーされた部分コード内で使用する変数名を指定する。",
+      "command_translation.help.argument.test.tests": "テストのIDを指定する。",
+      "command_translation.help.argument.test.numberOfTimes": "各バッチ内でのテストの繰り返し回数。",
+      "command_translation.help.argument.test.untilFailed": "繰り返しが1度でも失敗したら直ちに実行を終了するかどうか。",
+      "command_translation.help.argument.test.rotationSteps": "90°ずつ回転して行う追加実行を、各テストで何回行うか。",
+      "command_translation.help.argument.test.testsPerRow": "テストを並べて実行する際、1行に並べるテストの数を指定する。",
+      "command_translation.help.argument.test.amount": "同じバッチ内でのテストの繰り返し回数。",
+      "command_translation.help.argument.test.onlyRequiredTests": "必須テストのみを必要と見なすか。",
+      "command_translation.help.argument.test.test": "テストのIDを指定する。",
+      "command_translation.help.argument.fetchprofile.UUID": "プロファイルを取得したいプレイヤーのUUIDを指定する。",
+      "command_translation.help.argument.posteffect.targets": "シェーダーの適用・除去の対象となるプレイヤーを指定する。",
+      "command_translation.help.argument.posteffect.target": "適用中のシェーダーを列挙したいプレイヤーを指定する。",
+      "command_translation.help.argument.posteffect.posteffect": "適用・除去したいポストエフェクトシェーダーのIDを指定する。",
+      "command_translation.help.argument.compute.computePos": "文脈パラメータ 生成に使用されるブロック座標。",
+      "command_translation.help.argument.compute.computeTarget": "文脈パラメータ生成に使用されるエンティティ。",
+      "command_translation.help.argument.compute.provider": "計算に使用する floatナンバープロバイダー 。",
+      "command_translation.help.argument.compute.scale": "丸め前に結果に掛ける倍率。"
+    }
+  }
+}

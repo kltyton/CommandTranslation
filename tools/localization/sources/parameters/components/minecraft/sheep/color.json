@@ -1,0 +1,318 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:sheep/color": "The sheep’s wool color.",
+    "command_translation.help.component.minecraft:sheep/color.value.white": "White wool.",
+    "command_translation.help.component.minecraft:sheep/color.value.orange": "Orange wool.",
+    "command_translation.help.component.minecraft:sheep/color.value.magenta": "Magenta wool.",
+    "command_translation.help.component.minecraft:sheep/color.value.light_blue": "Light blue wool.",
+    "command_translation.help.component.minecraft:sheep/color.value.yellow": "Yellow wool.",
+    "command_translation.help.component.minecraft:sheep/color.value.lime": "Lime wool.",
+    "command_translation.help.component.minecraft:sheep/color.value.pink": "Pink wool.",
+    "command_translation.help.component.minecraft:sheep/color.value.gray": "Gray wool.",
+    "command_translation.help.component.minecraft:sheep/color.value.light_gray": "Light gray wool.",
+    "command_translation.help.component.minecraft:sheep/color.value.cyan": "Cyan wool.",
+    "command_translation.help.component.minecraft:sheep/color.value.purple": "Purple wool.",
+    "command_translation.help.component.minecraft:sheep/color.value.blue": "Blue wool.",
+    "command_translation.help.component.minecraft:sheep/color.value.brown": "Brown wool.",
+    "command_translation.help.component.minecraft:sheep/color.value.green": "Green wool.",
+    "command_translation.help.component.minecraft:sheep/color.value.red": "Red wool.",
+    "command_translation.help.component.minecraft:sheep/color.value.black": "Black wool."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:sheep/color": "绵羊的羊毛颜色。",
+    "command_translation.help.component.minecraft:sheep/color.value.white": "羊毛为白色。",
+    "command_translation.help.component.minecraft:sheep/color.value.orange": "羊毛为橙色。",
+    "command_translation.help.component.minecraft:sheep/color.value.magenta": "羊毛为品红色。",
+    "command_translation.help.component.minecraft:sheep/color.value.light_blue": "羊毛为淡蓝色。",
+    "command_translation.help.component.minecraft:sheep/color.value.yellow": "羊毛为黄色。",
+    "command_translation.help.component.minecraft:sheep/color.value.lime": "羊毛为黄绿色。",
+    "command_translation.help.component.minecraft:sheep/color.value.pink": "羊毛为粉红色。",
+    "command_translation.help.component.minecraft:sheep/color.value.gray": "羊毛为灰色。",
+    "command_translation.help.component.minecraft:sheep/color.value.light_gray": "羊毛为淡灰色。",
+    "command_translation.help.component.minecraft:sheep/color.value.cyan": "羊毛为青色。",
+    "command_translation.help.component.minecraft:sheep/color.value.purple": "羊毛为紫色。",
+    "command_translation.help.component.minecraft:sheep/color.value.blue": "羊毛为蓝色。",
+    "command_translation.help.component.minecraft:sheep/color.value.brown": "羊毛为棕色。",
+    "command_translation.help.component.minecraft:sheep/color.value.green": "羊毛为绿色。",
+    "command_translation.help.component.minecraft:sheep/color.value.red": "羊毛为红色。",
+    "command_translation.help.component.minecraft:sheep/color.value.black": "羊毛为黑色。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:sheep/color": "Die Wollfarbe des Schafs.",
+    "command_translation.help.component.minecraft:sheep/color.value.white": "Wollfarbe: Weiß.",
+    "command_translation.help.component.minecraft:sheep/color.value.orange": "Wollfarbe: Orange.",
+    "command_translation.help.component.minecraft:sheep/color.value.magenta": "Wollfarbe: Magenta.",
+    "command_translation.help.component.minecraft:sheep/color.value.light_blue": "Wollfarbe: Hellblau.",
+    "command_translation.help.component.minecraft:sheep/color.value.yellow": "Wollfarbe: Gelb.",
+    "command_translation.help.component.minecraft:sheep/color.value.lime": "Wollfarbe: Hellgrün.",
+    "command_translation.help.component.minecraft:sheep/color.value.pink": "Wollfarbe: Rosa.",
+    "command_translation.help.component.minecraft:sheep/color.value.gray": "Wollfarbe: Grau.",
+    "command_translation.help.component.minecraft:sheep/color.value.light_gray": "Wollfarbe: Hellgrau.",
+    "command_translation.help.component.minecraft:sheep/color.value.cyan": "Wollfarbe: Türkis.",
+    "command_translation.help.component.minecraft:sheep/color.value.purple": "Wollfarbe: Violett.",
+    "command_translation.help.component.minecraft:sheep/color.value.blue": "Wollfarbe: Blau.",
+    "command_translation.help.component.minecraft:sheep/color.value.brown": "Wollfarbe: Braun.",
+    "command_translation.help.component.minecraft:sheep/color.value.green": "Wollfarbe: Grün.",
+    "command_translation.help.component.minecraft:sheep/color.value.red": "Wollfarbe: Rot.",
+    "command_translation.help.component.minecraft:sheep/color.value.black": "Wollfarbe: Schwarz."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:sheep/color": "ヒツジの羊毛の色。",
+    "command_translation.help.component.minecraft:sheep/color.value.white": "羊毛の色：白色。",
+    "command_translation.help.component.minecraft:sheep/color.value.orange": "羊毛の色：橙色。",
+    "command_translation.help.component.minecraft:sheep/color.value.magenta": "羊毛の色：赤紫色。",
+    "command_translation.help.component.minecraft:sheep/color.value.light_blue": "羊毛の色：空色。",
+    "command_translation.help.component.minecraft:sheep/color.value.yellow": "羊毛の色：黄色。",
+    "command_translation.help.component.minecraft:sheep/color.value.lime": "羊毛の色：黄緑色。",
+    "command_translation.help.component.minecraft:sheep/color.value.pink": "羊毛の色：桃色。",
+    "command_translation.help.component.minecraft:sheep/color.value.gray": "羊毛の色：灰色。",
+    "command_translation.help.component.minecraft:sheep/color.value.light_gray": "羊毛の色：薄灰色。",
+    "command_translation.help.component.minecraft:sheep/color.value.cyan": "羊毛の色：青緑色。",
+    "command_translation.help.component.minecraft:sheep/color.value.purple": "羊毛の色：紫色。",
+    "command_translation.help.component.minecraft:sheep/color.value.blue": "羊毛の色：青色。",
+    "command_translation.help.component.minecraft:sheep/color.value.brown": "羊毛の色：茶色。",
+    "command_translation.help.component.minecraft:sheep/color.value.green": "羊毛の色：緑色。",
+    "command_translation.help.component.minecraft:sheep/color.value.red": "羊毛の色：赤色。",
+    "command_translation.help.component.minecraft:sheep/color.value.black": "羊毛の色：黒色。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:sheep/color": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:sheep/color.value.white": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:sheep/color.value.orange": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:sheep/color.value.magenta": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:sheep/color.value.light_blue": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:sheep/color.value.yellow": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:sheep/color.value.lime": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:sheep/color.value.pink": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:sheep/color.value.gray": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:sheep/color.value.light_gray": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:sheep/color.value.cyan": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:sheep/color.value.purple": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:sheep/color.value.blue": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:sheep/color.value.brown": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:sheep/color.value.green": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:sheep/color.value.red": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:sheep/color.value.black": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ]
+  }
+}

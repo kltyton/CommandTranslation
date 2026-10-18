@@ -1,0 +1,1856 @@
+{
+  "en_us": {
+    "command_translation.help.argument.loot.side.give": "Distributes the generated items into players' inventories, skipping empty stacks.",
+    "command_translation.help.argument.loot.side.give.players": "One or more players to receive the items: a player name, target selector, or UUID.",
+    "command_translation.help.argument.loot.src.fish": "Simulates fishing at a position with a tool, supplying origin, fishing entity, and tool as loot context.",
+    "command_translation.help.argument.loot.src.fish.loot_table": "The loot table to draw from: a registered loot_table id or inline SNBT.",
+    "command_translation.help.argument.loot.src.fish.loot_table.pos": "Block position where fishing is simulated; its center becomes the loot origin.",
+    "command_translation.help.argument.loot.src.fish.loot_table.pos.mainhand": "Uses the executor's main-hand item as the tool.",
+    "command_translation.help.argument.loot.src.fish.loot_table.pos.offhand": "Uses the executor's off-hand item as the tool.",
+    "command_translation.help.argument.loot.src.fish.loot_table.pos.tool": "Provides the tool item explicitly as item_id[components].",
+    "command_translation.help.argument.loot.src.kill": "Simulates killing the given entity so tables depending on the killer or the loot entity work.",
+    "command_translation.help.argument.loot.src.kill.target": "The single entity to simulate killing: a player name, target selector, or UUID; must resolve to one living entity with a loot table.",
+    "command_translation.help.argument.loot.src.loot": "Invokes the loot table directly using only the command's execution context.",
+    "command_translation.help.argument.loot.src.loot.loot_table": "The loot table to draw from: a registered loot_table id or inline SNBT definition.",
+    "command_translation.help.argument.loot.src.mine": "Simulates mining a block at a position with a tool, supplying block state and block entity context.",
+    "command_translation.help.argument.loot.src.mine.pos": "Block position of the block to simulate mining.",
+    "command_translation.help.argument.loot.src.mine.pos.mainhand": "Uses the main-hand item as the mining tool.",
+    "command_translation.help.argument.loot.src.mine.pos.offhand": "Uses the off-hand item as the mining tool.",
+    "command_translation.help.argument.loot.src.mine.pos.tool": "Provides the mining tool explicitly as item_id[components].",
+    "command_translation.help.argument.loot.side.insert": "Puts the generated items into a container block at the position, skipping empty stacks; fails if the block is not a container.",
+    "command_translation.help.argument.loot.side.insert.targetPos": "Block position of the target container block, as x y z.",
+    "command_translation.help.argument.loot.side.replace": "Places the generated item stacks into consecutive slots of a block or entity inventory.",
+    "command_translation.help.argument.loot.side.replace.block": "Replaces into a container block.",
+    "command_translation.help.argument.loot.side.replace.block.targetPos": "Block position of the container to fill, as x y z.",
+    "command_translation.help.argument.loot.side.replace.block.targetPos.slot": "The first slot to write into, written slot_type or slot_type.number; items fill upward from there.",
+    "command_translation.help.argument.loot.side.replace.block.targetPos.slot.count": "Number of consecutive slots to clear and fill (0 or more); surplus generated stacks are discarded.",
+    "command_translation.help.argument.loot.side.replace.entity": "Replaces into one or more entities' inventories.",
+    "command_translation.help.argument.loot.side.replace.entity.entities": "One or more entities to fill: a player name, target selector, or UUID.",
+    "command_translation.help.argument.loot.side.replace.entity.entities.slot": "The first target slot in each entity's inventory, written slot_type or slot_type.number.",
+    "command_translation.help.argument.loot.side.replace.entity.entities.slot.count": "Number of consecutive slots to clear and fill; surplus generated stacks are discarded.",
+    "command_translation.help.argument.loot.side.spawn": "Spawns the generated items as dropped item entities at the position.",
+    "command_translation.help.argument.loot.side.spawn.targetPos": "Position where the item entities spawn, as x y z; decimals are allowed."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.loot.side.give": "把生成的物品分发给玩家物品栏，忽略空堆叠。",
+    "command_translation.help.argument.loot.side.give.players": "接收物品的一个或多个玩家：玩家名、目标选择器或 UUID。",
+    "command_translation.help.argument.loot.src.fish": "在指定位置用工具模拟钓鱼，为战利品表提供原点、钓鱼实体与工具上下文。",
+    "command_translation.help.argument.loot.src.fish.loot_table": "要抽取的战利品表：已注册 loot_table 的 id 或内联 SNBT。",
+    "command_translation.help.argument.loot.src.fish.loot_table.pos": "模拟钓鱼的方块位置，其中心成为战利品原点。",
+    "command_translation.help.argument.loot.src.fish.loot_table.pos.mainhand": "用执行者主手中的物品作为工具。",
+    "command_translation.help.argument.loot.src.fish.loot_table.pos.offhand": "用执行者副手中的物品作为工具。",
+    "command_translation.help.argument.loot.src.fish.loot_table.pos.tool": "显式给出工具物品，写成 item_id[组件]。",
+    "command_translation.help.argument.loot.src.kill": "模拟击杀指定实体，使依赖击杀者或掉落实体的战利品表生效。",
+    "command_translation.help.argument.loot.src.kill.target": "被模拟击杀的单个实体：玩家名、目标选择器或 UUID，必须解析到一个有战利品表的活体。",
+    "command_translation.help.argument.loot.src.loot": "直接调用战利品表，仅使用命令的执行上下文。",
+    "command_translation.help.argument.loot.src.loot.loot_table": "要抽取的战利品表：已注册 loot_table 的 id 或内联 SNBT 定义。",
+    "command_translation.help.argument.loot.src.mine": "在指定位置用工具模拟挖掘方块，提供方块状态与方块实体上下文。",
+    "command_translation.help.argument.loot.src.mine.pos": "要模拟挖掘的方块位置。",
+    "command_translation.help.argument.loot.src.mine.pos.mainhand": "用主手物品作为挖掘工具。",
+    "command_translation.help.argument.loot.src.mine.pos.offhand": "用副手物品作为挖掘工具。",
+    "command_translation.help.argument.loot.src.mine.pos.tool": "显式给出挖掘工具，写成 item_id[组件]。",
+    "command_translation.help.argument.loot.side.insert": "把生成的物品放入指定位置的容器方块，忽略空堆叠；方块不是容器则失败。",
+    "command_translation.help.argument.loot.side.insert.targetPos": "目标容器方块的位置，x y z。",
+    "command_translation.help.argument.loot.side.replace": "把生成的物品堆叠依次放入方块或实体物品栏的连续槽位。",
+    "command_translation.help.argument.loot.side.replace.block": "替换到容器方块中。",
+    "command_translation.help.argument.loot.side.replace.block.targetPos": "要填充的容器方块位置，x y z。",
+    "command_translation.help.argument.loot.side.replace.block.targetPos.slot": "开始写入的首个槽位，写成 slot_type 或 slot_type.number；物品从此向上填充。",
+    "command_translation.help.argument.loot.side.replace.block.targetPos.slot.count": "要清除并填充的连续槽位数（0 或更多）；超出的生成堆叠会被丢弃。",
+    "command_translation.help.argument.loot.side.replace.entity": "替换到一个或多个实体的物品栏。",
+    "command_translation.help.argument.loot.side.replace.entity.entities": "要填充的一个或多个实体：玩家名、目标选择器或 UUID。",
+    "command_translation.help.argument.loot.side.replace.entity.entities.slot": "每个实体物品栏中的首个目标槽位，写成 slot_type 或 slot_type.number。",
+    "command_translation.help.argument.loot.side.replace.entity.entities.slot.count": "要清除并填充的连续槽位数；多余的生成堆叠被丢弃。",
+    "command_translation.help.argument.loot.side.spawn": "在指定位置把生成的物品作为掉落物实体生成。",
+    "command_translation.help.argument.loot.side.spawn.targetPos": "掉落物生成的位置，x y z，可用小数。"
+  },
+  "sources": {
+    "command_translation.help.argument.loot.side.give": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Floot",
+        "revision": 3831864
+      }
+    ],
+    "command_translation.help.argument.loot.side.give.players": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Floot",
+        "revision": 3831864
+      },
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.argument.loot.src.fish": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Floot",
+        "revision": 3831864
+      }
+    ],
+    "command_translation.help.argument.loot.src.fish.loot_table": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Floot",
+        "revision": 3831864
+      }
+    ],
+    "command_translation.help.argument.loot.src.fish.loot_table.pos": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Floot",
+        "revision": 3831864
+      }
+    ],
+    "command_translation.help.argument.loot.src.fish.loot_table.pos.mainhand": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Floot",
+        "revision": 3831864
+      }
+    ],
+    "command_translation.help.argument.loot.src.fish.loot_table.pos.offhand": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Floot",
+        "revision": 3831864
+      }
+    ],
+    "command_translation.help.argument.loot.src.fish.loot_table.pos.tool": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Floot",
+        "revision": 3831864
+      }
+    ],
+    "command_translation.help.argument.loot.src.kill": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Floot",
+        "revision": 3831864
+      }
+    ],
+    "command_translation.help.argument.loot.src.kill.target": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Floot",
+        "revision": 3831864
+      },
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.argument.loot.src.loot": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Floot",
+        "revision": 3831864
+      }
+    ],
+    "command_translation.help.argument.loot.src.loot.loot_table": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Floot",
+        "revision": 3831864
+      }
+    ],
+    "command_translation.help.argument.loot.src.mine": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Floot",
+        "revision": 3831864
+      }
+    ],
+    "command_translation.help.argument.loot.src.mine.pos": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Floot",
+        "revision": 3831864
+      }
+    ],
+    "command_translation.help.argument.loot.src.mine.pos.mainhand": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Floot",
+        "revision": 3831864
+      }
+    ],
+    "command_translation.help.argument.loot.src.mine.pos.offhand": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Floot",
+        "revision": 3831864
+      }
+    ],
+    "command_translation.help.argument.loot.src.mine.pos.tool": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Floot",
+        "revision": 3831864
+      }
+    ],
+    "command_translation.help.argument.loot.side.insert": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Floot",
+        "revision": 3831864
+      }
+    ],
+    "command_translation.help.argument.loot.side.insert.targetPos": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Floot",
+        "revision": 3831864
+      }
+    ],
+    "command_translation.help.argument.loot.side.replace": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Floot",
+        "revision": 3831864
+      }
+    ],
+    "command_translation.help.argument.loot.side.replace.block": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Floot",
+        "revision": 3831864
+      }
+    ],
+    "command_translation.help.argument.loot.side.replace.block.targetPos": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Floot",
+        "revision": 3831864
+      }
+    ],
+    "command_translation.help.argument.loot.side.replace.block.targetPos.slot": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Floot",
+        "revision": 3831864
+      }
+    ],
+    "command_translation.help.argument.loot.side.replace.block.targetPos.slot.count": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Floot",
+        "revision": 3831864
+      }
+    ],
+    "command_translation.help.argument.loot.side.replace.entity": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Floot",
+        "revision": 3831864
+      }
+    ],
+    "command_translation.help.argument.loot.side.replace.entity.entities": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Floot",
+        "revision": 3831864
+      },
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.argument.loot.side.replace.entity.entities.slot": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Floot",
+        "revision": 3831864
+      }
+    ],
+    "command_translation.help.argument.loot.side.replace.entity.entities.slot.count": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Floot",
+        "revision": 3831864
+      }
+    ],
+    "command_translation.help.argument.loot.side.spawn": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Floot",
+        "revision": 3831864
+      }
+    ],
+    "command_translation.help.argument.loot.side.spawn.targetPos": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Floot",
+        "revision": 3831864
+      }
+    ]
+  },
+  "bindings": {
+    "loot.give": "command_translation.help.argument.loot.side.give",
+    "loot.give.players": "command_translation.help.argument.loot.side.give.players",
+    "loot.give.players.fish": "command_translation.help.argument.loot.src.fish",
+    "loot.give.players.fish.loot_table": "command_translation.help.argument.loot.src.fish.loot_table",
+    "loot.give.players.fish.loot_table.pos": "command_translation.help.argument.loot.src.fish.loot_table.pos",
+    "loot.give.players.fish.loot_table.pos.mainhand": "command_translation.help.argument.loot.src.fish.loot_table.pos.mainhand",
+    "loot.give.players.fish.loot_table.pos.offhand": "command_translation.help.argument.loot.src.fish.loot_table.pos.offhand",
+    "loot.give.players.fish.loot_table.pos.tool": "command_translation.help.argument.loot.src.fish.loot_table.pos.tool",
+    "loot.give.players.kill": "command_translation.help.argument.loot.src.kill",
+    "loot.give.players.kill.target": "command_translation.help.argument.loot.src.kill.target",
+    "loot.give.players.loot": "command_translation.help.argument.loot.src.loot",
+    "loot.give.players.loot.loot_table": "command_translation.help.argument.loot.src.loot.loot_table",
+    "loot.give.players.mine": "command_translation.help.argument.loot.src.mine",
+    "loot.give.players.mine.pos": "command_translation.help.argument.loot.src.mine.pos",
+    "loot.give.players.mine.pos.mainhand": "command_translation.help.argument.loot.src.mine.pos.mainhand",
+    "loot.give.players.mine.pos.offhand": "command_translation.help.argument.loot.src.mine.pos.offhand",
+    "loot.give.players.mine.pos.tool": "command_translation.help.argument.loot.src.mine.pos.tool",
+    "loot.insert": "command_translation.help.argument.loot.side.insert",
+    "loot.insert.targetPos": "command_translation.help.argument.loot.side.insert.targetPos",
+    "loot.insert.targetPos.fish": "command_translation.help.argument.loot.src.fish",
+    "loot.insert.targetPos.fish.loot_table": "command_translation.help.argument.loot.src.fish.loot_table",
+    "loot.insert.targetPos.fish.loot_table.pos": "command_translation.help.argument.loot.src.fish.loot_table.pos",
+    "loot.insert.targetPos.fish.loot_table.pos.mainhand": "command_translation.help.argument.loot.src.fish.loot_table.pos.mainhand",
+    "loot.insert.targetPos.fish.loot_table.pos.offhand": "command_translation.help.argument.loot.src.fish.loot_table.pos.offhand",
+    "loot.insert.targetPos.fish.loot_table.pos.tool": "command_translation.help.argument.loot.src.fish.loot_table.pos.tool",
+    "loot.insert.targetPos.kill": "command_translation.help.argument.loot.src.kill",
+    "loot.insert.targetPos.kill.target": "command_translation.help.argument.loot.src.kill.target",
+    "loot.insert.targetPos.loot": "command_translation.help.argument.loot.src.loot",
+    "loot.insert.targetPos.loot.loot_table": "command_translation.help.argument.loot.src.loot.loot_table",
+    "loot.insert.targetPos.mine": "command_translation.help.argument.loot.src.mine",
+    "loot.insert.targetPos.mine.pos": "command_translation.help.argument.loot.src.mine.pos",
+    "loot.insert.targetPos.mine.pos.mainhand": "command_translation.help.argument.loot.src.mine.pos.mainhand",
+    "loot.insert.targetPos.mine.pos.offhand": "command_translation.help.argument.loot.src.mine.pos.offhand",
+    "loot.insert.targetPos.mine.pos.tool": "command_translation.help.argument.loot.src.mine.pos.tool",
+    "loot.replace": "command_translation.help.argument.loot.side.replace",
+    "loot.replace.block": "command_translation.help.argument.loot.side.replace.block",
+    "loot.replace.block.targetPos": "command_translation.help.argument.loot.side.replace.block.targetPos",
+    "loot.replace.block.targetPos.slot": "command_translation.help.argument.loot.side.replace.block.targetPos.slot",
+    "loot.replace.block.targetPos.slot.count": "command_translation.help.argument.loot.side.replace.block.targetPos.slot.count",
+    "loot.replace.block.targetPos.slot.count.fish": "command_translation.help.argument.loot.src.fish",
+    "loot.replace.block.targetPos.slot.count.fish.loot_table": "command_translation.help.argument.loot.src.fish.loot_table",
+    "loot.replace.block.targetPos.slot.count.fish.loot_table.pos": "command_translation.help.argument.loot.src.fish.loot_table.pos",
+    "loot.replace.block.targetPos.slot.count.fish.loot_table.pos.mainhand": "command_translation.help.argument.loot.src.fish.loot_table.pos.mainhand",
+    "loot.replace.block.targetPos.slot.count.fish.loot_table.pos.offhand": "command_translation.help.argument.loot.src.fish.loot_table.pos.offhand",
+    "loot.replace.block.targetPos.slot.count.fish.loot_table.pos.tool": "command_translation.help.argument.loot.src.fish.loot_table.pos.tool",
+    "loot.replace.block.targetPos.slot.count.kill": "command_translation.help.argument.loot.src.kill",
+    "loot.replace.block.targetPos.slot.count.kill.target": "command_translation.help.argument.loot.src.kill.target",
+    "loot.replace.block.targetPos.slot.count.loot": "command_translation.help.argument.loot.src.loot",
+    "loot.replace.block.targetPos.slot.count.loot.loot_table": "command_translation.help.argument.loot.src.loot.loot_table",
+    "loot.replace.block.targetPos.slot.count.mine": "command_translation.help.argument.loot.src.mine",
+    "loot.replace.block.targetPos.slot.count.mine.pos": "command_translation.help.argument.loot.src.mine.pos",
+    "loot.replace.block.targetPos.slot.count.mine.pos.mainhand": "command_translation.help.argument.loot.src.mine.pos.mainhand",
+    "loot.replace.block.targetPos.slot.count.mine.pos.offhand": "command_translation.help.argument.loot.src.mine.pos.offhand",
+    "loot.replace.block.targetPos.slot.count.mine.pos.tool": "command_translation.help.argument.loot.src.mine.pos.tool",
+    "loot.replace.block.targetPos.slot.fish": "command_translation.help.argument.loot.src.fish",
+    "loot.replace.block.targetPos.slot.fish.loot_table": "command_translation.help.argument.loot.src.fish.loot_table",
+    "loot.replace.block.targetPos.slot.fish.loot_table.pos": "command_translation.help.argument.loot.src.fish.loot_table.pos",
+    "loot.replace.block.targetPos.slot.fish.loot_table.pos.mainhand": "command_translation.help.argument.loot.src.fish.loot_table.pos.mainhand",
+    "loot.replace.block.targetPos.slot.fish.loot_table.pos.offhand": "command_translation.help.argument.loot.src.fish.loot_table.pos.offhand",
+    "loot.replace.block.targetPos.slot.fish.loot_table.pos.tool": "command_translation.help.argument.loot.src.fish.loot_table.pos.tool",
+    "loot.replace.block.targetPos.slot.kill": "command_translation.help.argument.loot.src.kill",
+    "loot.replace.block.targetPos.slot.kill.target": "command_translation.help.argument.loot.src.kill.target",
+    "loot.replace.block.targetPos.slot.loot": "command_translation.help.argument.loot.src.loot",
+    "loot.replace.block.targetPos.slot.loot.loot_table": "command_translation.help.argument.loot.src.loot.loot_table",
+    "loot.replace.block.targetPos.slot.mine": "command_translation.help.argument.loot.src.mine",
+    "loot.replace.block.targetPos.slot.mine.pos": "command_translation.help.argument.loot.src.mine.pos",
+    "loot.replace.block.targetPos.slot.mine.pos.mainhand": "command_translation.help.argument.loot.src.mine.pos.mainhand",
+    "loot.replace.block.targetPos.slot.mine.pos.offhand": "command_translation.help.argument.loot.src.mine.pos.offhand",
+    "loot.replace.block.targetPos.slot.mine.pos.tool": "command_translation.help.argument.loot.src.mine.pos.tool",
+    "loot.replace.entity": "command_translation.help.argument.loot.side.replace.entity",
+    "loot.replace.entity.entities": "command_translation.help.argument.loot.side.replace.entity.entities",
+    "loot.replace.entity.entities.slot": "command_translation.help.argument.loot.side.replace.entity.entities.slot",
+    "loot.replace.entity.entities.slot.count": "command_translation.help.argument.loot.side.replace.entity.entities.slot.count",
+    "loot.replace.entity.entities.slot.count.fish": "command_translation.help.argument.loot.src.fish",
+    "loot.replace.entity.entities.slot.count.fish.loot_table": "command_translation.help.argument.loot.src.fish.loot_table",
+    "loot.replace.entity.entities.slot.count.fish.loot_table.pos": "command_translation.help.argument.loot.src.fish.loot_table.pos",
+    "loot.replace.entity.entities.slot.count.fish.loot_table.pos.mainhand": "command_translation.help.argument.loot.src.fish.loot_table.pos.mainhand",
+    "loot.replace.entity.entities.slot.count.fish.loot_table.pos.offhand": "command_translation.help.argument.loot.src.fish.loot_table.pos.offhand",
+    "loot.replace.entity.entities.slot.count.fish.loot_table.pos.tool": "command_translation.help.argument.loot.src.fish.loot_table.pos.tool",
+    "loot.replace.entity.entities.slot.count.kill": "command_translation.help.argument.loot.src.kill",
+    "loot.replace.entity.entities.slot.count.kill.target": "command_translation.help.argument.loot.src.kill.target",
+    "loot.replace.entity.entities.slot.count.loot": "command_translation.help.argument.loot.src.loot",
+    "loot.replace.entity.entities.slot.count.loot.loot_table": "command_translation.help.argument.loot.src.loot.loot_table",
+    "loot.replace.entity.entities.slot.count.mine": "command_translation.help.argument.loot.src.mine",
+    "loot.replace.entity.entities.slot.count.mine.pos": "command_translation.help.argument.loot.src.mine.pos",
+    "loot.replace.entity.entities.slot.count.mine.pos.mainhand": "command_translation.help.argument.loot.src.mine.pos.mainhand",
+    "loot.replace.entity.entities.slot.count.mine.pos.offhand": "command_translation.help.argument.loot.src.mine.pos.offhand",
+    "loot.replace.entity.entities.slot.count.mine.pos.tool": "command_translation.help.argument.loot.src.mine.pos.tool",
+    "loot.replace.entity.entities.slot.fish": "command_translation.help.argument.loot.src.fish",
+    "loot.replace.entity.entities.slot.fish.loot_table": "command_translation.help.argument.loot.src.fish.loot_table",
+    "loot.replace.entity.entities.slot.fish.loot_table.pos": "command_translation.help.argument.loot.src.fish.loot_table.pos",
+    "loot.replace.entity.entities.slot.fish.loot_table.pos.mainhand": "command_translation.help.argument.loot.src.fish.loot_table.pos.mainhand",
+    "loot.replace.entity.entities.slot.fish.loot_table.pos.offhand": "command_translation.help.argument.loot.src.fish.loot_table.pos.offhand",
+    "loot.replace.entity.entities.slot.fish.loot_table.pos.tool": "command_translation.help.argument.loot.src.fish.loot_table.pos.tool",
+    "loot.replace.entity.entities.slot.kill": "command_translation.help.argument.loot.src.kill",
+    "loot.replace.entity.entities.slot.kill.target": "command_translation.help.argument.loot.src.kill.target",
+    "loot.replace.entity.entities.slot.loot": "command_translation.help.argument.loot.src.loot",
+    "loot.replace.entity.entities.slot.loot.loot_table": "command_translation.help.argument.loot.src.loot.loot_table",
+    "loot.replace.entity.entities.slot.mine": "command_translation.help.argument.loot.src.mine",
+    "loot.replace.entity.entities.slot.mine.pos": "command_translation.help.argument.loot.src.mine.pos",
+    "loot.replace.entity.entities.slot.mine.pos.mainhand": "command_translation.help.argument.loot.src.mine.pos.mainhand",
+    "loot.replace.entity.entities.slot.mine.pos.offhand": "command_translation.help.argument.loot.src.mine.pos.offhand",
+    "loot.replace.entity.entities.slot.mine.pos.tool": "command_translation.help.argument.loot.src.mine.pos.tool",
+    "loot.spawn": "command_translation.help.argument.loot.side.spawn",
+    "loot.spawn.targetPos": "command_translation.help.argument.loot.side.spawn.targetPos",
+    "loot.spawn.targetPos.fish": "command_translation.help.argument.loot.src.fish",
+    "loot.spawn.targetPos.fish.loot_table": "command_translation.help.argument.loot.src.fish.loot_table",
+    "loot.spawn.targetPos.fish.loot_table.pos": "command_translation.help.argument.loot.src.fish.loot_table.pos",
+    "loot.spawn.targetPos.fish.loot_table.pos.mainhand": "command_translation.help.argument.loot.src.fish.loot_table.pos.mainhand",
+    "loot.spawn.targetPos.fish.loot_table.pos.offhand": "command_translation.help.argument.loot.src.fish.loot_table.pos.offhand",
+    "loot.spawn.targetPos.fish.loot_table.pos.tool": "command_translation.help.argument.loot.src.fish.loot_table.pos.tool",
+    "loot.spawn.targetPos.kill": "command_translation.help.argument.loot.src.kill",
+    "loot.spawn.targetPos.kill.target": "command_translation.help.argument.loot.src.kill.target",
+    "loot.spawn.targetPos.loot": "command_translation.help.argument.loot.src.loot",
+    "loot.spawn.targetPos.loot.loot_table": "command_translation.help.argument.loot.src.loot.loot_table",
+    "loot.spawn.targetPos.mine": "command_translation.help.argument.loot.src.mine",
+    "loot.spawn.targetPos.mine.pos": "command_translation.help.argument.loot.src.mine.pos",
+    "loot.spawn.targetPos.mine.pos.mainhand": "command_translation.help.argument.loot.src.mine.pos.mainhand",
+    "loot.spawn.targetPos.mine.pos.offhand": "command_translation.help.argument.loot.src.mine.pos.offhand",
+    "loot.spawn.targetPos.mine.pos.tool": "command_translation.help.argument.loot.src.mine.pos.tool"
+  },
+  "de_de": {
+    "command_translation.help.argument.loot.side.give": "Verteilt die erzeugten Gegenstände auf die Inventare der Spieler und überspringt leere Stapel.",
+    "command_translation.help.argument.loot.side.give.players": "Ein oder mehrere Spieler, die die Gegenstände erhalten: ein Spielername, Zielselektor oder eine UUID.",
+    "command_translation.help.argument.loot.src.fish": "Simuliert das Fischen an einer Position mit einem Werkzeug und liefert Ursprung, fischende Entität und Werkzeug als Loot-Kontext.",
+    "command_translation.help.argument.loot.src.fish.loot_table": "Die Loot-Tabelle, aus der gezogen wird: eine registrierte loot_table-ID oder Inline-SNBT.",
+    "command_translation.help.argument.loot.src.fish.loot_table.pos": "Blockposition, an der das Fischen simuliert wird; ihre Mitte wird zum Loot-Ursprung.",
+    "command_translation.help.argument.loot.src.fish.loot_table.pos.mainhand": "Verwendet den Gegenstand in der Haupthand des Ausführers als Werkzeug.",
+    "command_translation.help.argument.loot.src.fish.loot_table.pos.offhand": "Verwendet den Gegenstand in der Nebenhand des Ausführers als Werkzeug.",
+    "command_translation.help.argument.loot.src.fish.loot_table.pos.tool": "Gibt das Werkzeug explizit als item_id[components] an.",
+    "command_translation.help.argument.loot.src.kill": "Simuliert das Töten der angegebenen Entität, damit Tabellen funktionieren, die vom Töter oder von der Loot-Entität abhängen.",
+    "command_translation.help.argument.loot.src.kill.target": "Die einzelne Entität, deren Tötung simuliert wird: ein Spielername, Zielselektor oder eine UUID; muss sich auf eine lebende Entität mit Loot-Tabelle auflösen.",
+    "command_translation.help.argument.loot.src.loot": "Ruft die Loot-Tabelle direkt auf und nutzt nur den Ausführungskontext des Befehls.",
+    "command_translation.help.argument.loot.src.loot.loot_table": "Die Loot-Tabelle, aus der gezogen wird: eine registrierte ID oder Inline-SNBT-Definition.",
+    "command_translation.help.argument.loot.src.mine": "Simuliert das Abbauen eines Blocks an einer Position mit einem Werkzeug und liefert Blockzustand und Block-Entity-Kontext.",
+    "command_translation.help.argument.loot.src.mine.pos": "Blockposition des Blocks, dessen Abbau simuliert wird.",
+    "command_translation.help.argument.loot.src.mine.pos.mainhand": "Verwendet den Gegenstand in der Haupthand als Abbauwerkzeug.",
+    "command_translation.help.argument.loot.src.mine.pos.offhand": "Verwendet den Gegenstand in der Nebenhand als Abbauwerkzeug.",
+    "command_translation.help.argument.loot.src.mine.pos.tool": "Gibt das Abbauwerkzeug explizit als item_id[components] an.",
+    "command_translation.help.argument.loot.side.insert": "Legt die erzeugten Gegenstände in einen Behältnisblock an der Position und überspringt leere Stapel; schlägt fehl, wenn der Block kein Behältnis ist.",
+    "command_translation.help.argument.loot.side.insert.targetPos": "Blockposition des Ziel-Behältnisblocks, als x y z.",
+    "command_translation.help.argument.loot.side.replace": "Legt die erzeugten Gegenstandsstapel in aufeinanderfolgende Plätze eines Block- oder Entitätsinventars.",
+    "command_translation.help.argument.loot.side.replace.block": "Ersetzt in einem Behältnisblock.",
+    "command_translation.help.argument.loot.side.replace.block.targetPos": "Blockposition des zu füllenden Behältnisses, als x y z.",
+    "command_translation.help.argument.loot.side.replace.block.targetPos.slot": "Der erste Platz, in den geschrieben wird, als slot_type oder slot_type.number; von dort werden die Gegenstände nach oben aufgefüllt.",
+    "command_translation.help.argument.loot.side.replace.block.targetPos.slot.count": "Anzahl aufeinanderfolgender Plätze, die geleert und gefüllt werden (0 oder mehr); darüber erzeugte Stapel werden verworfen.",
+    "command_translation.help.argument.loot.side.replace.entity": "Ersetzt in den Inventaren einer oder mehrerer Entitäten.",
+    "command_translation.help.argument.loot.side.replace.entity.entities": "Eine oder mehrere zu füllende Entitäten: ein Spielername, Zielselektor oder eine UUID.",
+    "command_translation.help.argument.loot.side.replace.entity.entities.slot": "Der erste Zielplatz im Inventar jeder Entität, als slot_type oder slot_type.number.",
+    "command_translation.help.argument.loot.side.replace.entity.entities.slot.count": "Anzahl aufeinanderfolgender Plätze, die geleert und gefüllt werden; überschüssige erzeugte Stapel werden verworfen.",
+    "command_translation.help.argument.loot.side.spawn": "Erzeugt die Gegenstände als fallengelassene Gegenstandsentitäten an der Position.",
+    "command_translation.help.argument.loot.side.spawn.targetPos": "Position, an der die Gegenstandsentitäten erzeugt werden, als x y z; Dezimalzahlen sind erlaubt."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.loot.side.give": "生成したアイテムをプレイヤーのインベントリに分配する。空のスタックは無視する。",
+    "command_translation.help.argument.loot.side.give.players": "アイテムを受け取る 1 人以上のプレイヤー：プレイヤー名、ターゲットセレクター、または UUID。",
+    "command_translation.help.argument.loot.src.fish": "ある位置で道具を使って釣りをシミュレートし、原点・釣りを行うエンティティ・道具をルートコンテキストとして与える。",
+    "command_translation.help.argument.loot.src.fish.loot_table": "抽選するルートテーブル：登録済み loot_table の ID、またはインライン SNBT。",
+    "command_translation.help.argument.loot.src.fish.loot_table.pos": "釣りをシミュレートするブロック位置。その中心がルートの原点になる。",
+    "command_translation.help.argument.loot.src.fish.loot_table.pos.mainhand": "実行者がメインハンドに持つアイテムを道具として使う。",
+    "command_translation.help.argument.loot.src.fish.loot_table.pos.offhand": "実行者がオフハンドに持つアイテムを道具として使う。",
+    "command_translation.help.argument.loot.src.fish.loot_table.pos.tool": "道具のアイテムを item_id[components] として明示的に指定する。",
+    "command_translation.help.argument.loot.src.kill": "指定したエンティティの撃破をシミュレートし、倒した側やルート対象に依存するテーブルを機能させる。",
+    "command_translation.help.argument.loot.src.kill.target": "撃破をシミュレートする単一のエンティティ：プレイヤー名、ターゲットセレクター、または UUID。ルートテーブルを持つ 1 体の生物に解決される必要がある。",
+    "command_translation.help.argument.loot.src.loot": "コマンドの実行コンテキストだけを使ってルートテーブルを直接呼び出す。",
+    "command_translation.help.argument.loot.src.loot.loot_table": "抽選するルートテーブル：登録済みの ID、またはインライン SNBT 定義。",
+    "command_translation.help.argument.loot.src.mine": "ある位置で道具を使ってブロックの採掘をシミュレートし、ブロック状態とブロックエンティティのコンテキストを与える。",
+    "command_translation.help.argument.loot.src.mine.pos": "採掘をシミュレートするブロックのブロック位置。",
+    "command_translation.help.argument.loot.src.mine.pos.mainhand": "メインハンドのアイテムを採掘道具として使う。",
+    "command_translation.help.argument.loot.src.mine.pos.offhand": "オフハンドのアイテムを採掘道具として使う。",
+    "command_translation.help.argument.loot.src.mine.pos.tool": "採掘道具を item_id[components] として明示的に指定する。",
+    "command_translation.help.argument.loot.side.insert": "生成したアイテムを指定位置のコンテナブロックに入れる。空のスタックは無視する。ブロックがコンテナでなければ失敗する。",
+    "command_translation.help.argument.loot.side.insert.targetPos": "対象コンテナブロックのブロック位置。x y z。",
+    "command_translation.help.argument.loot.side.replace": "生成したアイテムのスタックを、ブロックまたはエンティティのインベントリの連続スロットに順に入れる。",
+    "command_translation.help.argument.loot.side.replace.block": "コンテナブロックに置き換える。",
+    "command_translation.help.argument.loot.side.replace.block.targetPos": "埋めるコンテナブロックのブロック位置。x y z。",
+    "command_translation.help.argument.loot.side.replace.block.targetPos.slot": "最初に書き込むスロット。slot_type または slot_type.number で書く。そこから上方向にアイテムが埋まる。",
+    "command_translation.help.argument.loot.side.replace.block.targetPos.slot.count": "空にして埋める連続スロット数（0 以上）。それを超えて生成されたスタックは破棄される。",
+    "command_translation.help.argument.loot.side.replace.entity": "1 つ以上のエンティティのインベントリに置き換える。",
+    "command_translation.help.argument.loot.side.replace.entity.entities": "埋める 1 つ以上のエンティティ：プレイヤー名、ターゲットセレクター、または UUID。",
+    "command_translation.help.argument.loot.side.replace.entity.entities.slot": "各エンティティのインベントリで最初の対象スロット。slot_type または slot_type.number で書く。",
+    "command_translation.help.argument.loot.side.replace.entity.entities.slot.count": "空にして埋める連続スロット数。余分に生成されたスタックは破棄される。",
+    "command_translation.help.argument.loot.side.spawn": "生成したアイテムを、指定した位置にドロップアイテムのエンティティとして出現させる。",
+    "command_translation.help.argument.loot.side.spawn.targetPos": "アイテムエンティティを出現させる位置。x y z で、小数も使える。"
+  },
+  "syntax": [
+    {
+      "path": "loot",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.give",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.give.players",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "players",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.give.players.fish",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.give.players.fish.loot_table",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1"
+      ]
+    },
+    {
+      "path": "loot.give.players.fish.loot_table.pos",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.give.players.fish.loot_table.pos.mainhand",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.give.players.fish.loot_table.pos.offhand",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.give.players.fish.loot_table.pos.tool",
+      "type": "argument",
+      "parser": "minecraft:item_stack",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.give.players.kill",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.give.players.kill.target",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "single"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.give.players.loot",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.give.players.loot.loot_table",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1"
+      ]
+    },
+    {
+      "path": "loot.give.players.mine",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.give.players.mine.pos",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.give.players.mine.pos.mainhand",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.give.players.mine.pos.offhand",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.give.players.mine.pos.tool",
+      "type": "argument",
+      "parser": "minecraft:item_stack",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.insert",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.insert.targetPos",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.insert.targetPos.fish",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.insert.targetPos.fish.loot_table",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1"
+      ]
+    },
+    {
+      "path": "loot.insert.targetPos.fish.loot_table.pos",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.insert.targetPos.fish.loot_table.pos.mainhand",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.insert.targetPos.fish.loot_table.pos.offhand",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.insert.targetPos.fish.loot_table.pos.tool",
+      "type": "argument",
+      "parser": "minecraft:item_stack",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.insert.targetPos.kill",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.insert.targetPos.kill.target",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "single"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.insert.targetPos.loot",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.insert.targetPos.loot.loot_table",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1"
+      ]
+    },
+    {
+      "path": "loot.insert.targetPos.mine",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.insert.targetPos.mine.pos",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.insert.targetPos.mine.pos.mainhand",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.insert.targetPos.mine.pos.offhand",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.insert.targetPos.mine.pos.tool",
+      "type": "argument",
+      "parser": "minecraft:item_stack",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.block",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.block.targetPos",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.block.targetPos.slot",
+      "type": "argument",
+      "parser": "minecraft:item_slot",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.block.targetPos.slot.count",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.block.targetPos.slot.count.fish",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.block.targetPos.slot.count.fish.loot_table",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1"
+      ]
+    },
+    {
+      "path": "loot.replace.block.targetPos.slot.count.fish.loot_table.pos",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.block.targetPos.slot.count.fish.loot_table.pos.mainhand",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.block.targetPos.slot.count.fish.loot_table.pos.offhand",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.block.targetPos.slot.count.fish.loot_table.pos.tool",
+      "type": "argument",
+      "parser": "minecraft:item_stack",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.block.targetPos.slot.count.kill",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.block.targetPos.slot.count.kill.target",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "single"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.block.targetPos.slot.count.loot",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.block.targetPos.slot.count.loot.loot_table",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1"
+      ]
+    },
+    {
+      "path": "loot.replace.block.targetPos.slot.count.mine",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.block.targetPos.slot.count.mine.pos",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.block.targetPos.slot.count.mine.pos.mainhand",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.block.targetPos.slot.count.mine.pos.offhand",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.block.targetPos.slot.count.mine.pos.tool",
+      "type": "argument",
+      "parser": "minecraft:item_stack",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.block.targetPos.slot.fish",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.block.targetPos.slot.fish.loot_table",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1"
+      ]
+    },
+    {
+      "path": "loot.replace.block.targetPos.slot.fish.loot_table.pos",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.block.targetPos.slot.fish.loot_table.pos.mainhand",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.block.targetPos.slot.fish.loot_table.pos.offhand",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.block.targetPos.slot.fish.loot_table.pos.tool",
+      "type": "argument",
+      "parser": "minecraft:item_stack",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.block.targetPos.slot.kill",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.block.targetPos.slot.kill.target",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "single"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.block.targetPos.slot.loot",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.block.targetPos.slot.loot.loot_table",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1"
+      ]
+    },
+    {
+      "path": "loot.replace.block.targetPos.slot.mine",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.block.targetPos.slot.mine.pos",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.block.targetPos.slot.mine.pos.mainhand",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.block.targetPos.slot.mine.pos.offhand",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.block.targetPos.slot.mine.pos.tool",
+      "type": "argument",
+      "parser": "minecraft:item_stack",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.entity",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.entity.entities",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.entity.entities.slot",
+      "type": "argument",
+      "parser": "minecraft:item_slot",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.entity.entities.slot.count",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.entity.entities.slot.count.fish",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.entity.entities.slot.count.fish.loot_table",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1"
+      ]
+    },
+    {
+      "path": "loot.replace.entity.entities.slot.count.fish.loot_table.pos",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.entity.entities.slot.count.fish.loot_table.pos.mainhand",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.entity.entities.slot.count.fish.loot_table.pos.offhand",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.entity.entities.slot.count.fish.loot_table.pos.tool",
+      "type": "argument",
+      "parser": "minecraft:item_stack",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.entity.entities.slot.count.kill",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.entity.entities.slot.count.kill.target",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "single"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.entity.entities.slot.count.loot",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.entity.entities.slot.count.loot.loot_table",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1"
+      ]
+    },
+    {
+      "path": "loot.replace.entity.entities.slot.count.mine",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.entity.entities.slot.count.mine.pos",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.entity.entities.slot.count.mine.pos.mainhand",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.entity.entities.slot.count.mine.pos.offhand",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.entity.entities.slot.count.mine.pos.tool",
+      "type": "argument",
+      "parser": "minecraft:item_stack",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.entity.entities.slot.fish",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.entity.entities.slot.fish.loot_table",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1"
+      ]
+    },
+    {
+      "path": "loot.replace.entity.entities.slot.fish.loot_table.pos",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.entity.entities.slot.fish.loot_table.pos.mainhand",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.entity.entities.slot.fish.loot_table.pos.offhand",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.entity.entities.slot.fish.loot_table.pos.tool",
+      "type": "argument",
+      "parser": "minecraft:item_stack",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.entity.entities.slot.kill",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.entity.entities.slot.kill.target",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "single"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.entity.entities.slot.loot",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.entity.entities.slot.loot.loot_table",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1"
+      ]
+    },
+    {
+      "path": "loot.replace.entity.entities.slot.mine",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.entity.entities.slot.mine.pos",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.entity.entities.slot.mine.pos.mainhand",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.entity.entities.slot.mine.pos.offhand",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.entity.entities.slot.mine.pos.tool",
+      "type": "argument",
+      "parser": "minecraft:item_stack",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.spawn",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.spawn.targetPos",
+      "type": "argument",
+      "parser": "minecraft:vec3",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.spawn.targetPos.fish",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.spawn.targetPos.fish.loot_table",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1"
+      ]
+    },
+    {
+      "path": "loot.spawn.targetPos.fish.loot_table.pos",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.spawn.targetPos.fish.loot_table.pos.mainhand",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.spawn.targetPos.fish.loot_table.pos.offhand",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.spawn.targetPos.fish.loot_table.pos.tool",
+      "type": "argument",
+      "parser": "minecraft:item_stack",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.spawn.targetPos.kill",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.spawn.targetPos.kill.target",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "single"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.spawn.targetPos.loot",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.spawn.targetPos.loot.loot_table",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1"
+      ]
+    },
+    {
+      "path": "loot.spawn.targetPos.mine",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.spawn.targetPos.mine.pos",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.spawn.targetPos.mine.pos.mainhand",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.spawn.targetPos.mine.pos.offhand",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.spawn.targetPos.mine.pos.tool",
+      "type": "argument",
+      "parser": "minecraft:item_stack",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.give.players.fish.loot_table",
+      "type": "argument",
+      "parser": "minecraft:loot_table",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.give.players.loot.loot_table",
+      "type": "argument",
+      "parser": "minecraft:loot_table",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.insert.targetPos.fish.loot_table",
+      "type": "argument",
+      "parser": "minecraft:loot_table",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.insert.targetPos.loot.loot_table",
+      "type": "argument",
+      "parser": "minecraft:loot_table",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.block.targetPos.slot.count.fish.loot_table",
+      "type": "argument",
+      "parser": "minecraft:loot_table",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.block.targetPos.slot.count.loot.loot_table",
+      "type": "argument",
+      "parser": "minecraft:loot_table",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.block.targetPos.slot.fish.loot_table",
+      "type": "argument",
+      "parser": "minecraft:loot_table",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.block.targetPos.slot.loot.loot_table",
+      "type": "argument",
+      "parser": "minecraft:loot_table",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.entity.entities.slot.count.fish.loot_table",
+      "type": "argument",
+      "parser": "minecraft:loot_table",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.entity.entities.slot.count.loot.loot_table",
+      "type": "argument",
+      "parser": "minecraft:loot_table",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.entity.entities.slot.fish.loot_table",
+      "type": "argument",
+      "parser": "minecraft:loot_table",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.replace.entity.entities.slot.loot.loot_table",
+      "type": "argument",
+      "parser": "minecraft:loot_table",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.spawn.targetPos.fish.loot_table",
+      "type": "argument",
+      "parser": "minecraft:loot_table",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "loot.spawn.targetPos.loot.loot_table",
+      "type": "argument",
+      "parser": "minecraft:loot_table",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:hide_additional_tooltip": "Hides additional information in this item's tooltip."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:hide_additional_tooltip": "隐藏该物品提示框中的附加信息。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:hide_additional_tooltip": "Blendet Zusatzinformationen im Tooltip dieses Items aus."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:hide_additional_tooltip": "このアイテムのツールチップの追加情報を隠す。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:hide_additional_tooltip": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      }
+    ]
+  }
+}

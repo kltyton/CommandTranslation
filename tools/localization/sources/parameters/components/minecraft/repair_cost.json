@@ -1,0 +1,30 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:repair_cost": "The extra experience levels added to anvil costs when repairing, combining, or renaming this item."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:repair_cost": "在铁砧中修理、合并或重命名该物品时额外增加的等级花费。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:repair_cost": "Die zusätzlichen Erfahrungsstufen, die beim Reparieren, Kombinieren oder Umbenennen dieses Items an einem Amboss anfallen."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:repair_cost": "金床でこのアイテムを修復・結合・改名するときに加算される経験値レベル。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:repair_cost": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

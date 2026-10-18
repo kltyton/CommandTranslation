@@ -1,0 +1,26 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.kltyton.commandtranslation.client.mixin",
+  "compatibilityLevel": "JAVA_${java_version}",
+  "refmap": "command_translation.refmap.json",
+  "client": [
+    "MinecraftMixin",
+    "NbtAutocompleteHintsMixin",
+    "CommandSuggestionsMixin",
+    "ClientPacketListenerMixin",
+    "EditBoxAccessor",
+    "InputHelpMixin",
+    "TooltipLayoutMixin",
+    "ClientFeedbackMixin",
+    "ClientCommandActionMixin",
+    "NbtSuggestionRegistryMixin",
+    "NbtRegistryTypeMixin",
+    "NbtComponentRegistryMixin",
+    "NbtSuggestionStateAccessor",
+    "ClientSuggestionProviderMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

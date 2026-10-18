@@ -1,0 +1,26 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:dye": "The dye color this item acts as in recipes and interactions."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:dye": "该物品在配方与交互中可充当的染料颜色。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:dye": "Die Farbstofffarbe, als die dieses Item in Rezepten und Interaktionen gilt."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:dye": "レシピや相互作用でこのアイテムが代用する染料の色。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:dye": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

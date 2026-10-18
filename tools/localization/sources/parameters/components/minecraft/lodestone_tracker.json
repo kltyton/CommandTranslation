@@ -1,0 +1,102 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:lodestone_tracker": "The lodestone this compass points toward.",
+    "command_translation.help.component.minecraft:lodestone_tracker.field.target": "The lodestone position and dimension.",
+    "command_translation.help.component.minecraft:lodestone_tracker.field.target.pos": "The integer coordinates of the lodestone.",
+    "command_translation.help.component.minecraft:lodestone_tracker.field.target.dimension": "The dimension ID of the lodestone.",
+    "command_translation.help.component.minecraft:lodestone_tracker.field.tracked": "Whether the component is removed when the lodestone is broken."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:lodestone_tracker": "该指南针指向的磁石。",
+    "command_translation.help.component.minecraft:lodestone_tracker.field.target": "磁石的位置与维度。",
+    "command_translation.help.component.minecraft:lodestone_tracker.field.target.pos": "磁石的整数坐标。",
+    "command_translation.help.component.minecraft:lodestone_tracker.field.target.dimension": "磁石所在维度的 ID。",
+    "command_translation.help.component.minecraft:lodestone_tracker.field.tracked": "磁石被破坏时是否移除该组件。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:lodestone_tracker": "Der Lodestone, auf den dieser Kompass zeigt.",
+    "command_translation.help.component.minecraft:lodestone_tracker.field.target": "Position und Dimension des Lodestones.",
+    "command_translation.help.component.minecraft:lodestone_tracker.field.target.pos": "Die ganzzahligen Koordinaten des Lodestones.",
+    "command_translation.help.component.minecraft:lodestone_tracker.field.target.dimension": "Die Dimensions-ID des Lodestones.",
+    "command_translation.help.component.minecraft:lodestone_tracker.field.tracked": "Ob die Komponente beim Zerstören des Lodestones entfernt wird."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:lodestone_tracker": "このコンパスが指すロードストーン。",
+    "command_translation.help.component.minecraft:lodestone_tracker.field.target": "ロードストーンの位置とディメンション。",
+    "command_translation.help.component.minecraft:lodestone_tracker.field.target.pos": "ロードストーンの整数座標。",
+    "command_translation.help.component.minecraft:lodestone_tracker.field.target.dimension": "ロードストーンがあるディメンションのID。",
+    "command_translation.help.component.minecraft:lodestone_tracker.field.tracked": "ロードストーンが壊れたときにコンポーネントを外すか。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:lodestone_tracker": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:lodestone_tracker.field.target": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:lodestone_tracker.field.target.pos": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:lodestone_tracker.field.target.dimension": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:lodestone_tracker.field.tracked": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:painting/variant": "The painting artwork to place; also determines its dimensions."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:painting/variant": "放置的画作图案，同时决定画作尺寸。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:painting/variant": "Das zu platzierende Gemäldemotiv und seine Abmessungen."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:painting/variant": "設置する絵画の図柄と大きさ。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:painting/variant": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ]
+  }
+}

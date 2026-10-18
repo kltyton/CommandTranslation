@@ -1,0 +1,26 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:damage_type": "The damage type this item deals."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:damage_type": "该物品造成的伤害类型。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:damage_type": "Der Schadenstyp, den dieses Item verursacht."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:damage_type": "このアイテムが与えるダメージ種別。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:damage_type": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

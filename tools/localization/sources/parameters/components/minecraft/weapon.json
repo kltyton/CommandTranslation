@@ -1,0 +1,54 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:weapon": "Controls attack durability cost and how long attacks disable blocking.",
+    "command_translation.help.component.minecraft:weapon.field.item_damage_per_attack": "The durability removed from the item per attack.",
+    "command_translation.help.component.minecraft:weapon.field.disable_blocking_for_seconds": "The seconds this item can disable a blocking shield on a successful attack."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:weapon": "规定攻击消耗的耐久及使格挡失效的时长。",
+    "command_translation.help.component.minecraft:weapon.field.item_damage_per_attack": "每次攻击从物品扣除的耐久值。",
+    "command_translation.help.component.minecraft:weapon.field.disable_blocking_for_seconds": "成功攻击时该物品能使格挡盾牌失效的秒数。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:weapon": "Bestimmt Haltbarkeitsverbrauch pro Angriff und die Dauer der Blocksperre.",
+    "command_translation.help.component.minecraft:weapon.field.item_damage_per_attack": "Die Haltbarkeit, die dem Item pro Angriff abgezogen wird.",
+    "command_translation.help.component.minecraft:weapon.field.disable_blocking_for_seconds": "Die Sekunden, die dieses Item bei erfolgreichem Angriff einen blockierenden Schild deaktivieren kann."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:weapon": "攻撃時の耐久消費と防御を無効にする時間を定める。",
+    "command_translation.help.component.minecraft:weapon.field.item_damage_per_attack": "攻撃1回ごとにアイテムから減る耐久値。",
+    "command_translation.help.component.minecraft:weapon.field.disable_blocking_for_seconds": "攻撃成功時にこのアイテムがブロック中の盾を無効化できる秒数。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:weapon": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:weapon.field.item_damage_per_attack": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:weapon.field.disable_blocking_for_seconds": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

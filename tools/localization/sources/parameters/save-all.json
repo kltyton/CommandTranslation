@@ -1,0 +1,47 @@
+{
+  "en_us": {
+    "command_translation.help.argument.save-all.flush": "Writes all players and chunks to disk immediately, briefly freezing the server; it works even while save-off is active."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.save-all.flush": "立即把所有玩家和区块写入磁盘，服务器会短暂卡顿；save-off 生效时也能强制保存。"
+  },
+  "sources": {
+    "command_translation.help.argument.save-all.flush": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fsave",
+        "revision": 3751754
+      }
+    ]
+  },
+  "bindings": {
+    "save-all.flush": "command_translation.help.argument.save-all.flush"
+  },
+  "de_de": {
+    "command_translation.help.argument.save-all.flush": "Schreibt alle Spieler und Chunks sofort auf die Festplatte; der Server hängt dabei kurz. Funktioniert auch bei aktivem save-off."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.save-all.flush": "全プレイヤーとチャンクを即座にディスクへ書き込み、その間サーバーが短時間停止する。save-off 中でも強制保存できる。"
+  },
+  "syntax": [
+    {
+      "path": "save-all",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "save-all.flush",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

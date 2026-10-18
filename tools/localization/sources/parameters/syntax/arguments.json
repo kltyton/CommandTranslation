@@ -1,0 +1,1590 @@
+{
+  "en_us": {
+    "command_translation.syntax.argument.targets": "Targets",
+    "command_translation.syntax.argument.advancement": "Advancement",
+    "command_translation.syntax.argument.criterion": "Criterion",
+    "command_translation.syntax.argument.target": "Target",
+    "command_translation.syntax.argument.attribute": "Attribute",
+    "command_translation.syntax.argument.scale": "Scale",
+    "command_translation.syntax.argument.value": "Value",
+    "command_translation.syntax.argument.uuid": "UUID",
+    "command_translation.syntax.argument.name": "Name",
+    "command_translation.syntax.argument.id": "ID",
+    "command_translation.syntax.argument.reason": "Reason",
+    "command_translation.syntax.argument.max": "Max",
+    "command_translation.syntax.argument.visible": "Visible",
+    "command_translation.syntax.argument.item": "Item",
+    "command_translation.syntax.argument.maxCount": "Max count",
+    "command_translation.syntax.argument.begin": "Begin",
+    "command_translation.syntax.argument.end": "End",
+    "command_translation.syntax.argument.destination": "Destination",
+    "command_translation.syntax.argument.filter": "Filter",
+    "command_translation.syntax.argument.targetDimension": "Target dimension",
+    "command_translation.syntax.argument.sourceDimension": "Source dimension",
+    "command_translation.syntax.argument.amount": "Amount",
+    "command_translation.syntax.argument.damageType": "Damage type",
+    "command_translation.syntax.argument.location": "Location",
+    "command_translation.syntax.argument.entity": "Entity",
+    "command_translation.syntax.argument.cause": "Cause",
+    "command_translation.syntax.argument.targetPos": "Target position",
+    "command_translation.syntax.argument.path": "Path",
+    "command_translation.syntax.argument.nbt": "NBT",
+    "command_translation.syntax.argument.targetPath": "Target path",
+    "command_translation.syntax.argument.sourcePos": "Source position",
+    "command_translation.syntax.argument.sourcePath": "Source path",
+    "command_translation.syntax.argument.source": "Source",
+    "command_translation.syntax.argument.start": "Start",
+    "command_translation.syntax.argument.index": "Index",
+    "command_translation.syntax.argument.existing": "Existing",
+    "command_translation.syntax.argument.description": "Description",
+    "command_translation.syntax.argument.gamemode": "Game mode",
+    "command_translation.syntax.argument.dialog": "Dialog",
+    "command_translation.syntax.argument.effect": "Effect",
+    "command_translation.syntax.argument.amplifier": "Amplifier",
+    "command_translation.syntax.argument.hideParticles": "Hide particles",
+    "command_translation.syntax.argument.seconds": "Seconds",
+    "command_translation.syntax.argument.enchantment": "Enchantment",
+    "command_translation.syntax.argument.level": "Level",
+    "command_translation.syntax.argument.axes": "Axes",
+    "command_translation.syntax.argument.anchor": "Anchor",
+    "command_translation.syntax.argument.pos": "Position",
+    "command_translation.syntax.argument.biome": "Biome",
+    "command_translation.syntax.argument.block": "Block",
+    "command_translation.syntax.argument.dimension": "Dimension",
+    "command_translation.syntax.argument.entities": "Entities",
+    "command_translation.syntax.argument.predicate": "Predicate",
+    "command_translation.syntax.argument.targetObjective": "Target objective",
+    "command_translation.syntax.argument.sourceObjective": "Source objective",
+    "command_translation.syntax.argument.range": "Range",
+    "command_translation.syntax.argument.heightmap": "Heightmap",
+    "command_translation.syntax.argument.rot": "Rotation",
+    "command_translation.syntax.argument.objective": "Objective",
+    "command_translation.syntax.argument.slots": "Slots",
+    "command_translation.syntax.argument.item_predicate": "Item",
+    "command_translation.syntax.argument.from": "From",
+    "command_translation.syntax.argument.to": "To",
+    "command_translation.syntax.argument.arguments": "Arguments",
+    "command_translation.syntax.argument.count": "Count",
+    "command_translation.syntax.argument.command": "Command",
+    "command_translation.syntax.argument.slot": "Slot",
+    "command_translation.syntax.argument.modifier": "Modifier",
+    "command_translation.syntax.argument.sourceSlot": "Source slot",
+    "command_translation.syntax.argument.poi": "Point of interest",
+    "command_translation.syntax.argument.structure": "Structure",
+    "command_translation.syntax.argument.players": "Players",
+    "command_translation.syntax.argument.loot_table": "Loot table",
+    "command_translation.syntax.argument.tool": "Tool",
+    "command_translation.syntax.argument.action": "Action",
+    "command_translation.syntax.argument.message": "Message",
+    "command_translation.syntax.argument.delta": "Delta",
+    "command_translation.syntax.argument.speed": "Speed",
+    "command_translation.syntax.argument.viewers": "Viewers",
+    "command_translation.syntax.argument.feature": "Feature",
+    "command_translation.syntax.argument.pool": "Pool",
+    "command_translation.syntax.argument.max_depth": "Max depth",
+    "command_translation.syntax.argument.position": "Position",
+    "command_translation.syntax.argument.template": "Template",
+    "command_translation.syntax.argument.rotation": "Rotation",
+    "command_translation.syntax.argument.mirror": "Mirror",
+    "command_translation.syntax.argument.integrity": "Integrity",
+    "command_translation.syntax.argument.seed": "Seed",
+    "command_translation.syntax.argument.sound": "Sound",
+    "command_translation.syntax.argument.volume": "Volume",
+    "command_translation.syntax.argument.pitch": "Pitch",
+    "command_translation.syntax.argument.minVolume": "Min volume",
+    "command_translation.syntax.argument.allowCommands": "Allow commands",
+    "command_translation.syntax.argument.port": "Port",
+    "command_translation.syntax.argument.includeWorldSeed": "Include world seed",
+    "command_translation.syntax.argument.includeSequenceId": "Include sequence ID",
+    "command_translation.syntax.argument.sequence": "Sequence",
+    "command_translation.syntax.argument.recipe": "Recipe",
+    "command_translation.syntax.argument.vehicle": "Vehicle",
+    "command_translation.syntax.argument.facingEntity": "Facing entity",
+    "command_translation.syntax.argument.facingAnchor": "Facing anchor",
+    "command_translation.syntax.argument.facingLocation": "Facing location",
+    "command_translation.syntax.argument.function": "Function",
+    "command_translation.syntax.argument.time": "Time",
+    "command_translation.syntax.argument.criteria": "Criteria",
+    "command_translation.syntax.argument.displayName": "Display name",
+    "command_translation.syntax.argument.score": "Score",
+    "command_translation.syntax.argument.operation": "Operation",
+    "command_translation.syntax.argument.contents": "Contents",
+    "command_translation.syntax.argument.style": "Style",
+    "command_translation.syntax.argument.minutes": "Minutes",
+    "command_translation.syntax.argument.angle": "Angle",
+    "command_translation.syntax.argument.player": "Player",
+    "command_translation.syntax.argument.center": "Center",
+    "command_translation.syntax.argument.spreadDistance": "Min distance",
+    "command_translation.syntax.argument.maxRange": "Max range",
+    "command_translation.syntax.argument.respectTeams": "Respect teams",
+    "command_translation.syntax.argument.maxHeight": "Max height",
+    "command_translation.syntax.argument.team": "Team",
+    "command_translation.syntax.argument.members": "Members",
+    "command_translation.syntax.argument.allowed": "Allowed",
+    "command_translation.syntax.argument.prefix": "Prefix",
+    "command_translation.syntax.argument.suffix": "Suffix",
+    "command_translation.syntax.argument.radius": "Radius",
+    "command_translation.syntax.argument.width": "Width",
+    "command_translation.syntax.argument.height": "Height",
+    "command_translation.syntax.argument.depth": "Depth",
+    "command_translation.syntax.argument.tests": "Tests",
+    "command_translation.syntax.argument.var": "Variable",
+    "command_translation.syntax.argument.numberOfTimes": "Repeat count",
+    "command_translation.syntax.argument.untilFailed": "Until failed",
+    "command_translation.syntax.argument.rotationSteps": "Rotation steps",
+    "command_translation.syntax.argument.testsPerRow": "Tests per row",
+    "command_translation.syntax.argument.onlyRequiredTests": "Only required",
+    "command_translation.syntax.argument.rate": "Rate",
+    "command_translation.syntax.argument.clock": "Clock",
+    "command_translation.syntax.argument.timeline": "Timeline",
+    "command_translation.syntax.argument.timemarker": "Time marker",
+    "command_translation.syntax.argument.title": "Title text",
+    "command_translation.syntax.argument.fadeIn": "Fade in",
+    "command_translation.syntax.argument.stay": "Stay",
+    "command_translation.syntax.argument.fadeOut": "Fade out",
+    "command_translation.syntax.argument.hostname": "Hostname",
+    "command_translation.syntax.argument.waypoint": "Waypoint",
+    "command_translation.syntax.argument.color": "Color",
+    "command_translation.syntax.argument.duration": "Duration",
+    "command_translation.syntax.argument.distance": "Distance",
+    "command_translation.syntax.argument.damagePerBlock": "Damage per block",
+    "command_translation.syntax.argument.give.targets": "Target players"
+  },
+  "zh_cn": {
+    "command_translation.syntax.argument.targets": "目标对象",
+    "command_translation.syntax.argument.advancement": "进度",
+    "command_translation.syntax.argument.criterion": "准则",
+    "command_translation.syntax.argument.target": "目标",
+    "command_translation.syntax.argument.attribute": "属性",
+    "command_translation.syntax.argument.scale": "倍率",
+    "command_translation.syntax.argument.value": "值",
+    "command_translation.syntax.argument.uuid": "UUID",
+    "command_translation.syntax.argument.name": "名称",
+    "command_translation.syntax.argument.id": "ID",
+    "command_translation.syntax.argument.reason": "原因",
+    "command_translation.syntax.argument.max": "最大值",
+    "command_translation.syntax.argument.visible": "可见",
+    "command_translation.syntax.argument.item": "物品",
+    "command_translation.syntax.argument.maxCount": "最大数量",
+    "command_translation.syntax.argument.begin": "起点",
+    "command_translation.syntax.argument.end": "终点",
+    "command_translation.syntax.argument.destination": "目标位置",
+    "command_translation.syntax.argument.filter": "过滤器",
+    "command_translation.syntax.argument.targetDimension": "目标维度",
+    "command_translation.syntax.argument.sourceDimension": "来源维度",
+    "command_translation.syntax.argument.amount": "数量",
+    "command_translation.syntax.argument.damageType": "伤害类型",
+    "command_translation.syntax.argument.location": "位置",
+    "command_translation.syntax.argument.entity": "实体",
+    "command_translation.syntax.argument.cause": "伤害来源实体",
+    "command_translation.syntax.argument.targetPos": "目标坐标",
+    "command_translation.syntax.argument.path": "路径",
+    "command_translation.syntax.argument.nbt": "NBT",
+    "command_translation.syntax.argument.targetPath": "目标路径",
+    "command_translation.syntax.argument.sourcePos": "来源坐标",
+    "command_translation.syntax.argument.sourcePath": "来源路径",
+    "command_translation.syntax.argument.source": "来源",
+    "command_translation.syntax.argument.start": "起始",
+    "command_translation.syntax.argument.index": "索引",
+    "command_translation.syntax.argument.existing": "现有",
+    "command_translation.syntax.argument.description": "描述",
+    "command_translation.syntax.argument.gamemode": "游戏模式",
+    "command_translation.syntax.argument.dialog": "对话框",
+    "command_translation.syntax.argument.effect": "效果",
+    "command_translation.syntax.argument.amplifier": "增幅值",
+    "command_translation.syntax.argument.hideParticles": "隐藏粒子",
+    "command_translation.syntax.argument.seconds": "秒数",
+    "command_translation.syntax.argument.enchantment": "附魔",
+    "command_translation.syntax.argument.level": "等级",
+    "command_translation.syntax.argument.axes": "坐标轴",
+    "command_translation.syntax.argument.anchor": "锚点",
+    "command_translation.syntax.argument.pos": "坐标",
+    "command_translation.syntax.argument.biome": "生物群系",
+    "command_translation.syntax.argument.block": "方块",
+    "command_translation.syntax.argument.dimension": "维度",
+    "command_translation.syntax.argument.entities": "实体",
+    "command_translation.syntax.argument.predicate": "谓词",
+    "command_translation.syntax.argument.targetObjective": "目标记分项",
+    "command_translation.syntax.argument.sourceObjective": "来源记分项",
+    "command_translation.syntax.argument.range": "范围",
+    "command_translation.syntax.argument.heightmap": "高度图",
+    "command_translation.syntax.argument.rot": "旋转",
+    "command_translation.syntax.argument.objective": "记分项",
+    "command_translation.syntax.argument.slots": "槽位",
+    "command_translation.syntax.argument.item_predicate": "物品",
+    "command_translation.syntax.argument.from": "起点",
+    "command_translation.syntax.argument.to": "终点",
+    "command_translation.syntax.argument.arguments": "参数",
+    "command_translation.syntax.argument.count": "数量",
+    "command_translation.syntax.argument.command": "命令",
+    "command_translation.syntax.argument.slot": "槽位",
+    "command_translation.syntax.argument.modifier": "修饰符",
+    "command_translation.syntax.argument.sourceSlot": "来源槽位",
+    "command_translation.syntax.argument.poi": "兴趣点",
+    "command_translation.syntax.argument.structure": "结构",
+    "command_translation.syntax.argument.players": "玩家",
+    "command_translation.syntax.argument.loot_table": "战利品表",
+    "command_translation.syntax.argument.tool": "工具",
+    "command_translation.syntax.argument.action": "动作",
+    "command_translation.syntax.argument.message": "消息",
+    "command_translation.syntax.argument.delta": "偏移",
+    "command_translation.syntax.argument.speed": "速度",
+    "command_translation.syntax.argument.viewers": "可见玩家",
+    "command_translation.syntax.argument.feature": "地物",
+    "command_translation.syntax.argument.pool": "模板池",
+    "command_translation.syntax.argument.max_depth": "最大深度",
+    "command_translation.syntax.argument.position": "位置",
+    "command_translation.syntax.argument.template": "模板",
+    "command_translation.syntax.argument.rotation": "旋转",
+    "command_translation.syntax.argument.mirror": "镜像",
+    "command_translation.syntax.argument.integrity": "完整度",
+    "command_translation.syntax.argument.seed": "种子",
+    "command_translation.syntax.argument.sound": "声音",
+    "command_translation.syntax.argument.volume": "音量",
+    "command_translation.syntax.argument.pitch": "音调",
+    "command_translation.syntax.argument.minVolume": "最小音量",
+    "command_translation.syntax.argument.allowCommands": "允许命令",
+    "command_translation.syntax.argument.port": "端口",
+    "command_translation.syntax.argument.includeWorldSeed": "包含世界种子",
+    "command_translation.syntax.argument.includeSequenceId": "包含序列ID",
+    "command_translation.syntax.argument.sequence": "序列",
+    "command_translation.syntax.argument.recipe": "配方",
+    "command_translation.syntax.argument.vehicle": "载具",
+    "command_translation.syntax.argument.facingEntity": "面朝实体",
+    "command_translation.syntax.argument.facingAnchor": "面朝锚点",
+    "command_translation.syntax.argument.facingLocation": "面朝坐标",
+    "command_translation.syntax.argument.function": "函数",
+    "command_translation.syntax.argument.time": "时间",
+    "command_translation.syntax.argument.criteria": "准则",
+    "command_translation.syntax.argument.displayName": "显示名称",
+    "command_translation.syntax.argument.score": "分数",
+    "command_translation.syntax.argument.operation": "运算",
+    "command_translation.syntax.argument.contents": "内容",
+    "command_translation.syntax.argument.style": "样式",
+    "command_translation.syntax.argument.minutes": "分钟",
+    "command_translation.syntax.argument.angle": "角度",
+    "command_translation.syntax.argument.player": "玩家",
+    "command_translation.syntax.argument.center": "中心",
+    "command_translation.syntax.argument.spreadDistance": "最小间距",
+    "command_translation.syntax.argument.maxRange": "最大范围",
+    "command_translation.syntax.argument.respectTeams": "按队伍",
+    "command_translation.syntax.argument.maxHeight": "最大高度",
+    "command_translation.syntax.argument.team": "队伍",
+    "command_translation.syntax.argument.members": "成员",
+    "command_translation.syntax.argument.allowed": "允许",
+    "command_translation.syntax.argument.prefix": "前缀",
+    "command_translation.syntax.argument.suffix": "后缀",
+    "command_translation.syntax.argument.radius": "半径",
+    "command_translation.syntax.argument.width": "宽度",
+    "command_translation.syntax.argument.height": "高度",
+    "command_translation.syntax.argument.depth": "深度",
+    "command_translation.syntax.argument.tests": "测试",
+    "command_translation.syntax.argument.var": "变量",
+    "command_translation.syntax.argument.numberOfTimes": "重复次数",
+    "command_translation.syntax.argument.untilFailed": "失败即停",
+    "command_translation.syntax.argument.rotationSteps": "旋转步数",
+    "command_translation.syntax.argument.testsPerRow": "每行测试数",
+    "command_translation.syntax.argument.onlyRequiredTests": "仅必需测试",
+    "command_translation.syntax.argument.rate": "速率",
+    "command_translation.syntax.argument.clock": "时钟",
+    "command_translation.syntax.argument.timeline": "时间线",
+    "command_translation.syntax.argument.timemarker": "时间标记",
+    "command_translation.syntax.argument.title": "标题文本",
+    "command_translation.syntax.argument.fadeIn": "淡入",
+    "command_translation.syntax.argument.stay": "停留",
+    "command_translation.syntax.argument.fadeOut": "淡出",
+    "command_translation.syntax.argument.hostname": "主机名",
+    "command_translation.syntax.argument.waypoint": "路径点",
+    "command_translation.syntax.argument.color": "颜色",
+    "command_translation.syntax.argument.duration": "持续时间",
+    "command_translation.syntax.argument.distance": "距离",
+    "command_translation.syntax.argument.damagePerBlock": "每方块伤害",
+    "command_translation.syntax.argument.give.targets": "目标玩家"
+  },
+  "de_de": {
+    "command_translation.syntax.argument.targets": "Ziele",
+    "command_translation.syntax.argument.advancement": "Fortschritt",
+    "command_translation.syntax.argument.criterion": "Kriterium",
+    "command_translation.syntax.argument.target": "Ziel",
+    "command_translation.syntax.argument.attribute": "Attribut",
+    "command_translation.syntax.argument.scale": "Skalierung",
+    "command_translation.syntax.argument.value": "Wert",
+    "command_translation.syntax.argument.uuid": "UUID",
+    "command_translation.syntax.argument.name": "Name",
+    "command_translation.syntax.argument.id": "ID",
+    "command_translation.syntax.argument.reason": "Grund",
+    "command_translation.syntax.argument.max": "Maximum",
+    "command_translation.syntax.argument.visible": "Sichtbar",
+    "command_translation.syntax.argument.item": "Gegenstand",
+    "command_translation.syntax.argument.maxCount": "Max. Anzahl",
+    "command_translation.syntax.argument.begin": "Anfang",
+    "command_translation.syntax.argument.end": "Ende",
+    "command_translation.syntax.argument.destination": "Zielort",
+    "command_translation.syntax.argument.filter": "Filter",
+    "command_translation.syntax.argument.targetDimension": "Ziel-Dimension",
+    "command_translation.syntax.argument.sourceDimension": "Quell-Dimension",
+    "command_translation.syntax.argument.amount": "Betrag",
+    "command_translation.syntax.argument.damageType": "Schadenstyp",
+    "command_translation.syntax.argument.location": "Position",
+    "command_translation.syntax.argument.entity": "Entität",
+    "command_translation.syntax.argument.cause": "Verursacher",
+    "command_translation.syntax.argument.targetPos": "Zielposition",
+    "command_translation.syntax.argument.path": "Pfad",
+    "command_translation.syntax.argument.nbt": "NBT",
+    "command_translation.syntax.argument.targetPath": "Zielpfad",
+    "command_translation.syntax.argument.sourcePos": "Quellposition",
+    "command_translation.syntax.argument.sourcePath": "Quellpfad",
+    "command_translation.syntax.argument.source": "Quelle",
+    "command_translation.syntax.argument.start": "Start",
+    "command_translation.syntax.argument.index": "Index",
+    "command_translation.syntax.argument.existing": "Vorhanden",
+    "command_translation.syntax.argument.description": "Beschreibung",
+    "command_translation.syntax.argument.gamemode": "Spielmodus",
+    "command_translation.syntax.argument.dialog": "Dialog",
+    "command_translation.syntax.argument.effect": "Effekt",
+    "command_translation.syntax.argument.amplifier": "Verstärker",
+    "command_translation.syntax.argument.hideParticles": "Partikel ausblenden",
+    "command_translation.syntax.argument.seconds": "Sekunden",
+    "command_translation.syntax.argument.enchantment": "Verzauberung",
+    "command_translation.syntax.argument.level": "Stufe",
+    "command_translation.syntax.argument.axes": "Achsen",
+    "command_translation.syntax.argument.anchor": "Anker",
+    "command_translation.syntax.argument.pos": "Position",
+    "command_translation.syntax.argument.biome": "Biom",
+    "command_translation.syntax.argument.block": "Block",
+    "command_translation.syntax.argument.dimension": "Dimension",
+    "command_translation.syntax.argument.entities": "Entitäten",
+    "command_translation.syntax.argument.predicate": "Prädikat",
+    "command_translation.syntax.argument.targetObjective": "Ziel-Objective",
+    "command_translation.syntax.argument.sourceObjective": "Quell-Objective",
+    "command_translation.syntax.argument.range": "Bereich",
+    "command_translation.syntax.argument.heightmap": "Höhenkarte",
+    "command_translation.syntax.argument.rot": "Drehung",
+    "command_translation.syntax.argument.objective": "Objective",
+    "command_translation.syntax.argument.slots": "Slots",
+    "command_translation.syntax.argument.item_predicate": "Gegenstand",
+    "command_translation.syntax.argument.from": "Von",
+    "command_translation.syntax.argument.to": "Bis",
+    "command_translation.syntax.argument.arguments": "Argumente",
+    "command_translation.syntax.argument.count": "Anzahl",
+    "command_translation.syntax.argument.command": "Befehl",
+    "command_translation.syntax.argument.slot": "Slot",
+    "command_translation.syntax.argument.modifier": "Modifikator",
+    "command_translation.syntax.argument.sourceSlot": "Quell-Slot",
+    "command_translation.syntax.argument.poi": "Interessenpunkt",
+    "command_translation.syntax.argument.structure": "Struktur",
+    "command_translation.syntax.argument.players": "Spieler",
+    "command_translation.syntax.argument.loot_table": "Loot-Tabelle",
+    "command_translation.syntax.argument.tool": "Werkzeug",
+    "command_translation.syntax.argument.action": "Aktion",
+    "command_translation.syntax.argument.message": "Nachricht",
+    "command_translation.syntax.argument.delta": "Delta",
+    "command_translation.syntax.argument.speed": "Geschwindigkeit",
+    "command_translation.syntax.argument.viewers": "Betrachter",
+    "command_translation.syntax.argument.feature": "Feature",
+    "command_translation.syntax.argument.pool": "Pool",
+    "command_translation.syntax.argument.max_depth": "Max. Tiefe",
+    "command_translation.syntax.argument.position": "Position",
+    "command_translation.syntax.argument.template": "Vorlage",
+    "command_translation.syntax.argument.rotation": "Drehung",
+    "command_translation.syntax.argument.mirror": "Spiegelung",
+    "command_translation.syntax.argument.integrity": "Integrität",
+    "command_translation.syntax.argument.seed": "Seed",
+    "command_translation.syntax.argument.sound": "Klang",
+    "command_translation.syntax.argument.volume": "Lautstärke",
+    "command_translation.syntax.argument.pitch": "Tonhöhe",
+    "command_translation.syntax.argument.minVolume": "Min. Lautstärke",
+    "command_translation.syntax.argument.allowCommands": "Befehle erlauben",
+    "command_translation.syntax.argument.port": "Port",
+    "command_translation.syntax.argument.includeWorldSeed": "Welt-Seed einbeziehen",
+    "command_translation.syntax.argument.includeSequenceId": "Sequenz-ID einbeziehen",
+    "command_translation.syntax.argument.sequence": "Sequenz",
+    "command_translation.syntax.argument.recipe": "Rezept",
+    "command_translation.syntax.argument.vehicle": "Fahrzeug",
+    "command_translation.syntax.argument.facingEntity": "Zielentität",
+    "command_translation.syntax.argument.facingAnchor": "Zielanker",
+    "command_translation.syntax.argument.facingLocation": "Zielposition",
+    "command_translation.syntax.argument.function": "Funktion",
+    "command_translation.syntax.argument.time": "Zeit",
+    "command_translation.syntax.argument.criteria": "Kriterien",
+    "command_translation.syntax.argument.displayName": "Anzeigename",
+    "command_translation.syntax.argument.score": "Punktzahl",
+    "command_translation.syntax.argument.operation": "Operation",
+    "command_translation.syntax.argument.contents": "Inhalt",
+    "command_translation.syntax.argument.style": "Stil",
+    "command_translation.syntax.argument.minutes": "Minuten",
+    "command_translation.syntax.argument.angle": "Winkel",
+    "command_translation.syntax.argument.player": "Spieler",
+    "command_translation.syntax.argument.center": "Zentrum",
+    "command_translation.syntax.argument.spreadDistance": "Mindestabstand",
+    "command_translation.syntax.argument.maxRange": "Max. Reichweite",
+    "command_translation.syntax.argument.respectTeams": "Teams beachten",
+    "command_translation.syntax.argument.maxHeight": "Max. Höhe",
+    "command_translation.syntax.argument.team": "Team",
+    "command_translation.syntax.argument.members": "Mitglieder",
+    "command_translation.syntax.argument.allowed": "Erlaubt",
+    "command_translation.syntax.argument.prefix": "Präfix",
+    "command_translation.syntax.argument.suffix": "Suffix",
+    "command_translation.syntax.argument.radius": "Radius",
+    "command_translation.syntax.argument.width": "Breite",
+    "command_translation.syntax.argument.height": "Höhe",
+    "command_translation.syntax.argument.depth": "Tiefe",
+    "command_translation.syntax.argument.tests": "Tests",
+    "command_translation.syntax.argument.var": "Variable",
+    "command_translation.syntax.argument.numberOfTimes": "Wiederholungen",
+    "command_translation.syntax.argument.untilFailed": "Bis Fehlschlag",
+    "command_translation.syntax.argument.rotationSteps": "Drehschritte",
+    "command_translation.syntax.argument.testsPerRow": "Tests pro Zeile",
+    "command_translation.syntax.argument.onlyRequiredTests": "Nur erforderliche",
+    "command_translation.syntax.argument.rate": "Rate",
+    "command_translation.syntax.argument.clock": "Uhr",
+    "command_translation.syntax.argument.timeline": "Zeitleiste",
+    "command_translation.syntax.argument.timemarker": "Zeitmarke",
+    "command_translation.syntax.argument.title": "Titeltext",
+    "command_translation.syntax.argument.fadeIn": "Einblenden",
+    "command_translation.syntax.argument.stay": "Halten",
+    "command_translation.syntax.argument.fadeOut": "Ausblenden",
+    "command_translation.syntax.argument.hostname": "Hostname",
+    "command_translation.syntax.argument.waypoint": "Wegpunkt",
+    "command_translation.syntax.argument.color": "Farbe",
+    "command_translation.syntax.argument.duration": "Dauer",
+    "command_translation.syntax.argument.distance": "Distanz",
+    "command_translation.syntax.argument.damagePerBlock": "Schaden pro Block",
+    "command_translation.syntax.argument.give.targets": "Zielspieler"
+  },
+  "ja_jp": {
+    "command_translation.syntax.argument.targets": "ターゲット",
+    "command_translation.syntax.argument.advancement": "進捗",
+    "command_translation.syntax.argument.criterion": "基準",
+    "command_translation.syntax.argument.target": "対象",
+    "command_translation.syntax.argument.attribute": "属性",
+    "command_translation.syntax.argument.scale": "倍率",
+    "command_translation.syntax.argument.value": "値",
+    "command_translation.syntax.argument.uuid": "UUID",
+    "command_translation.syntax.argument.name": "名前",
+    "command_translation.syntax.argument.id": "ID",
+    "command_translation.syntax.argument.reason": "理由",
+    "command_translation.syntax.argument.max": "最大値",
+    "command_translation.syntax.argument.visible": "表示",
+    "command_translation.syntax.argument.item": "アイテム",
+    "command_translation.syntax.argument.maxCount": "最大数",
+    "command_translation.syntax.argument.begin": "始点",
+    "command_translation.syntax.argument.end": "終点",
+    "command_translation.syntax.argument.destination": "配置先",
+    "command_translation.syntax.argument.filter": "フィルター",
+    "command_translation.syntax.argument.targetDimension": "ターゲット次元",
+    "command_translation.syntax.argument.sourceDimension": "ソース次元",
+    "command_translation.syntax.argument.amount": "量",
+    "command_translation.syntax.argument.damageType": "ダメージ種類",
+    "command_translation.syntax.argument.location": "位置",
+    "command_translation.syntax.argument.entity": "エンティティ",
+    "command_translation.syntax.argument.cause": "原因",
+    "command_translation.syntax.argument.targetPos": "ターゲット座標",
+    "command_translation.syntax.argument.path": "パス",
+    "command_translation.syntax.argument.nbt": "NBT",
+    "command_translation.syntax.argument.targetPath": "ターゲットパス",
+    "command_translation.syntax.argument.sourcePos": "ソース座標",
+    "command_translation.syntax.argument.sourcePath": "ソースパス",
+    "command_translation.syntax.argument.source": "ソース",
+    "command_translation.syntax.argument.start": "開始",
+    "command_translation.syntax.argument.index": "インデックス",
+    "command_translation.syntax.argument.existing": "既存",
+    "command_translation.syntax.argument.description": "説明",
+    "command_translation.syntax.argument.gamemode": "ゲームモード",
+    "command_translation.syntax.argument.dialog": "ダイアログ",
+    "command_translation.syntax.argument.effect": "効果",
+    "command_translation.syntax.argument.amplifier": "強度",
+    "command_translation.syntax.argument.hideParticles": "パーティクル非表示",
+    "command_translation.syntax.argument.seconds": "秒数",
+    "command_translation.syntax.argument.enchantment": "エンチャント",
+    "command_translation.syntax.argument.level": "レベル",
+    "command_translation.syntax.argument.axes": "軸",
+    "command_translation.syntax.argument.anchor": "アンカー",
+    "command_translation.syntax.argument.pos": "座標",
+    "command_translation.syntax.argument.biome": "バイオーム",
+    "command_translation.syntax.argument.block": "ブロック",
+    "command_translation.syntax.argument.dimension": "次元",
+    "command_translation.syntax.argument.entities": "エンティティ",
+    "command_translation.syntax.argument.predicate": "述語",
+    "command_translation.syntax.argument.targetObjective": "ターゲット目標",
+    "command_translation.syntax.argument.sourceObjective": "ソース目標",
+    "command_translation.syntax.argument.range": "範囲",
+    "command_translation.syntax.argument.heightmap": "高さマップ",
+    "command_translation.syntax.argument.rot": "回転",
+    "command_translation.syntax.argument.objective": "目標",
+    "command_translation.syntax.argument.slots": "スロット",
+    "command_translation.syntax.argument.item_predicate": "アイテム",
+    "command_translation.syntax.argument.from": "始点",
+    "command_translation.syntax.argument.to": "終点",
+    "command_translation.syntax.argument.arguments": "引数",
+    "command_translation.syntax.argument.count": "数",
+    "command_translation.syntax.argument.command": "コマンド",
+    "command_translation.syntax.argument.slot": "スロット",
+    "command_translation.syntax.argument.modifier": "修飾子",
+    "command_translation.syntax.argument.sourceSlot": "ソーススロット",
+    "command_translation.syntax.argument.poi": "関心地点",
+    "command_translation.syntax.argument.structure": "構造物",
+    "command_translation.syntax.argument.players": "プレイヤー",
+    "command_translation.syntax.argument.loot_table": "ルートテーブル",
+    "command_translation.syntax.argument.tool": "ツール",
+    "command_translation.syntax.argument.action": "アクション",
+    "command_translation.syntax.argument.message": "メッセージ",
+    "command_translation.syntax.argument.delta": "デルタ",
+    "command_translation.syntax.argument.speed": "速度",
+    "command_translation.syntax.argument.viewers": "閲覧者",
+    "command_translation.syntax.argument.feature": "フィーチャー",
+    "command_translation.syntax.argument.pool": "プール",
+    "command_translation.syntax.argument.max_depth": "最大深度",
+    "command_translation.syntax.argument.position": "位置",
+    "command_translation.syntax.argument.template": "テンプレート",
+    "command_translation.syntax.argument.rotation": "回転",
+    "command_translation.syntax.argument.mirror": "ミラー",
+    "command_translation.syntax.argument.integrity": "完全性",
+    "command_translation.syntax.argument.seed": "シード",
+    "command_translation.syntax.argument.sound": "サウンド",
+    "command_translation.syntax.argument.volume": "音量",
+    "command_translation.syntax.argument.pitch": "ピッチ",
+    "command_translation.syntax.argument.minVolume": "最小音量",
+    "command_translation.syntax.argument.allowCommands": "コマンド許可",
+    "command_translation.syntax.argument.port": "ポート",
+    "command_translation.syntax.argument.includeWorldSeed": "ワールドシードを含む",
+    "command_translation.syntax.argument.includeSequenceId": "シーケンスIDを含む",
+    "command_translation.syntax.argument.sequence": "シーケンス",
+    "command_translation.syntax.argument.recipe": "レシピ",
+    "command_translation.syntax.argument.vehicle": "乗り物",
+    "command_translation.syntax.argument.facingEntity": "向くエンティティ",
+    "command_translation.syntax.argument.facingAnchor": "向くアンカー",
+    "command_translation.syntax.argument.facingLocation": "向く座標",
+    "command_translation.syntax.argument.function": "関数",
+    "command_translation.syntax.argument.time": "時間",
+    "command_translation.syntax.argument.criteria": "基準",
+    "command_translation.syntax.argument.displayName": "表示名",
+    "command_translation.syntax.argument.score": "スコア",
+    "command_translation.syntax.argument.operation": "演算",
+    "command_translation.syntax.argument.contents": "内容",
+    "command_translation.syntax.argument.style": "スタイル",
+    "command_translation.syntax.argument.minutes": "分",
+    "command_translation.syntax.argument.angle": "角度",
+    "command_translation.syntax.argument.player": "プレイヤー",
+    "command_translation.syntax.argument.center": "中心",
+    "command_translation.syntax.argument.spreadDistance": "最小間隔",
+    "command_translation.syntax.argument.maxRange": "最大範囲",
+    "command_translation.syntax.argument.respectTeams": "チームを考慮",
+    "command_translation.syntax.argument.maxHeight": "最大高さ",
+    "command_translation.syntax.argument.team": "チーム",
+    "command_translation.syntax.argument.members": "メンバー",
+    "command_translation.syntax.argument.allowed": "許可",
+    "command_translation.syntax.argument.prefix": "接頭辞",
+    "command_translation.syntax.argument.suffix": "接尾辞",
+    "command_translation.syntax.argument.radius": "半径",
+    "command_translation.syntax.argument.width": "幅",
+    "command_translation.syntax.argument.height": "高さ",
+    "command_translation.syntax.argument.depth": "奥行き",
+    "command_translation.syntax.argument.tests": "テスト",
+    "command_translation.syntax.argument.var": "変数",
+    "command_translation.syntax.argument.numberOfTimes": "繰り返し回数",
+    "command_translation.syntax.argument.untilFailed": "失敗まで",
+    "command_translation.syntax.argument.rotationSteps": "回転ステップ",
+    "command_translation.syntax.argument.testsPerRow": "1行あたりのテスト数",
+    "command_translation.syntax.argument.onlyRequiredTests": "必須のみ",
+    "command_translation.syntax.argument.rate": "レート",
+    "command_translation.syntax.argument.clock": "クロック",
+    "command_translation.syntax.argument.timeline": "タイムライン",
+    "command_translation.syntax.argument.timemarker": "タイムマーカー",
+    "command_translation.syntax.argument.title": "タイトル",
+    "command_translation.syntax.argument.fadeIn": "フェードイン",
+    "command_translation.syntax.argument.stay": "表示時間",
+    "command_translation.syntax.argument.fadeOut": "フェードアウト",
+    "command_translation.syntax.argument.hostname": "ホスト名",
+    "command_translation.syntax.argument.waypoint": "ウェイポイント",
+    "command_translation.syntax.argument.color": "色",
+    "command_translation.syntax.argument.duration": "持続時間",
+    "command_translation.syntax.argument.distance": "距離",
+    "command_translation.syntax.argument.damagePerBlock": "ブロックあたりのダメージ",
+    "command_translation.syntax.argument.give.targets": "対象プレイヤー"
+  },
+  "sources": {
+    "command_translation.syntax.argument.targets": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fadvancement",
+        "revision": 3816103
+      },
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.syntax.argument.advancement": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fadvancement",
+        "revision": 3816103
+      },
+      {
+        "url": "https://minecraft.wiki/w/Argument%20types",
+        "revision": 3825973
+      }
+    ],
+    "command_translation.syntax.argument.criterion": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fadvancement",
+        "revision": 3816103
+      }
+    ],
+    "command_translation.syntax.argument.target": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fattribute",
+        "revision": 3766700
+      },
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.syntax.argument.attribute": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fattribute",
+        "revision": 3766700
+      }
+    ],
+    "command_translation.syntax.argument.scale": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fattribute",
+        "revision": 3766700
+      }
+    ],
+    "command_translation.syntax.argument.value": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fattribute",
+        "revision": 3766700
+      }
+    ],
+    "command_translation.syntax.argument.uuid": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fattribute",
+        "revision": 3766700
+      }
+    ],
+    "command_translation.syntax.argument.name": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fattribute",
+        "revision": 3766700
+      }
+    ],
+    "command_translation.syntax.argument.id": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fattribute",
+        "revision": 3766700
+      }
+    ],
+    "command_translation.syntax.argument.reason": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fban",
+        "revision": 3563909
+      }
+    ],
+    "command_translation.syntax.argument.max": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fbossbar",
+        "revision": 3834896
+      }
+    ],
+    "command_translation.syntax.argument.visible": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fbossbar",
+        "revision": 3834896
+      }
+    ],
+    "command_translation.syntax.argument.item": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fclear",
+        "revision": 3774572
+      }
+    ],
+    "command_translation.syntax.argument.maxCount": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fclear",
+        "revision": 3774572
+      }
+    ],
+    "command_translation.syntax.argument.begin": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fclone",
+        "revision": 3826017
+      }
+    ],
+    "command_translation.syntax.argument.end": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fclone",
+        "revision": 3826017
+      }
+    ],
+    "command_translation.syntax.argument.destination": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fclone",
+        "revision": 3826017
+      }
+    ],
+    "command_translation.syntax.argument.filter": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fclone",
+        "revision": 3826017
+      }
+    ],
+    "command_translation.syntax.argument.targetDimension": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fclone",
+        "revision": 3826017
+      }
+    ],
+    "command_translation.syntax.argument.sourceDimension": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fclone",
+        "revision": 3826017
+      }
+    ],
+    "command_translation.syntax.argument.amount": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdamage",
+        "revision": 3785896
+      }
+    ],
+    "command_translation.syntax.argument.damageType": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdamage",
+        "revision": 3785896
+      }
+    ],
+    "command_translation.syntax.argument.location": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdamage",
+        "revision": 3785896
+      }
+    ],
+    "command_translation.syntax.argument.entity": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdamage",
+        "revision": 3785896
+      }
+    ],
+    "command_translation.syntax.argument.cause": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdamage",
+        "revision": 3785896
+      }
+    ],
+    "command_translation.syntax.argument.targetPos": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdata",
+        "revision": 3826018
+      }
+    ],
+    "command_translation.syntax.argument.path": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdata",
+        "revision": 3826018
+      },
+      {
+        "url": "https://minecraft.wiki/w/Argument%20types",
+        "revision": 3825973
+      }
+    ],
+    "command_translation.syntax.argument.nbt": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdata",
+        "revision": 3826018
+      },
+      {
+        "url": "https://minecraft.wiki/w/Argument%20types",
+        "revision": 3825973
+      }
+    ],
+    "command_translation.syntax.argument.targetPath": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdata",
+        "revision": 3826018
+      },
+      {
+        "url": "https://minecraft.wiki/w/Argument%20types",
+        "revision": 3825973
+      }
+    ],
+    "command_translation.syntax.argument.sourcePos": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdata",
+        "revision": 3826018
+      }
+    ],
+    "command_translation.syntax.argument.sourcePath": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdata",
+        "revision": 3826018
+      },
+      {
+        "url": "https://minecraft.wiki/w/Argument%20types",
+        "revision": 3825973
+      }
+    ],
+    "command_translation.syntax.argument.source": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdata",
+        "revision": 3826018
+      },
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.syntax.argument.start": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdata",
+        "revision": 3826018
+      }
+    ],
+    "command_translation.syntax.argument.index": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdata",
+        "revision": 3826018
+      }
+    ],
+    "command_translation.syntax.argument.existing": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdatapack",
+        "revision": 3826020
+      }
+    ],
+    "command_translation.syntax.argument.description": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdatapack",
+        "revision": 3826020
+      }
+    ],
+    "command_translation.syntax.argument.gamemode": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdefaultgamemode",
+        "revision": 3693009
+      }
+    ],
+    "command_translation.syntax.argument.dialog": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdialog",
+        "revision": 3826023
+      },
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.syntax.argument.effect": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Feffect",
+        "revision": 3721357
+      }
+    ],
+    "command_translation.syntax.argument.amplifier": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Feffect",
+        "revision": 3721357
+      }
+    ],
+    "command_translation.syntax.argument.hideParticles": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Feffect",
+        "revision": 3721357
+      }
+    ],
+    "command_translation.syntax.argument.seconds": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Feffect",
+        "revision": 3721357
+      }
+    ],
+    "command_translation.syntax.argument.enchantment": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fenchant",
+        "revision": 3846696
+      }
+    ],
+    "command_translation.syntax.argument.level": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fenchant",
+        "revision": 3846696
+      }
+    ],
+    "command_translation.syntax.argument.axes": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.syntax.argument.anchor": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.syntax.argument.pos": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.syntax.argument.biome": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.syntax.argument.block": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.syntax.argument.dimension": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.syntax.argument.entities": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      },
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.syntax.argument.predicate": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.syntax.argument.targetObjective": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.syntax.argument.sourceObjective": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.syntax.argument.range": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.syntax.argument.heightmap": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.syntax.argument.rot": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.syntax.argument.objective": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.syntax.argument.slots": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.syntax.argument.item_predicate": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.syntax.argument.from": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ffill",
+        "revision": 3383435
+      }
+    ],
+    "command_translation.syntax.argument.to": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ffill",
+        "revision": 3383435
+      }
+    ],
+    "command_translation.syntax.argument.arguments": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ffunction",
+        "revision": 3581313
+      }
+    ],
+    "command_translation.syntax.argument.count": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fgive",
+        "revision": 3838890
+      }
+    ],
+    "command_translation.syntax.argument.command": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fhelp",
+        "revision": 3581329
+      }
+    ],
+    "command_translation.syntax.argument.slot": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fitem",
+        "revision": 3780270
+      }
+    ],
+    "command_translation.syntax.argument.modifier": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fitem",
+        "revision": 3780270
+      }
+    ],
+    "command_translation.syntax.argument.sourceSlot": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fitem",
+        "revision": 3780270
+      }
+    ],
+    "command_translation.syntax.argument.poi": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Flocate",
+        "revision": 3784532
+      }
+    ],
+    "command_translation.syntax.argument.structure": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Flocate",
+        "revision": 3784532
+      }
+    ],
+    "command_translation.syntax.argument.players": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Floot",
+        "revision": 3831864
+      },
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.syntax.argument.loot_table": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Floot",
+        "revision": 3831864
+      }
+    ],
+    "command_translation.syntax.argument.tool": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Floot",
+        "revision": 3831864
+      }
+    ],
+    "command_translation.syntax.argument.action": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fme",
+        "revision": 3826029
+      }
+    ],
+    "command_translation.syntax.argument.message": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fmsg",
+        "revision": 3826030
+      }
+    ],
+    "command_translation.syntax.argument.delta": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fparticle",
+        "revision": 3846970
+      }
+    ],
+    "command_translation.syntax.argument.speed": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fparticle",
+        "revision": 3846970
+      }
+    ],
+    "command_translation.syntax.argument.viewers": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fparticle",
+        "revision": 3846970
+      }
+    ],
+    "command_translation.syntax.argument.feature": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplace",
+        "revision": 3780327
+      }
+    ],
+    "command_translation.syntax.argument.pool": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplace",
+        "revision": 3780327
+      }
+    ],
+    "command_translation.syntax.argument.max_depth": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplace",
+        "revision": 3780327
+      }
+    ],
+    "command_translation.syntax.argument.position": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplace",
+        "revision": 3780327
+      }
+    ],
+    "command_translation.syntax.argument.template": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplace",
+        "revision": 3780327
+      }
+    ],
+    "command_translation.syntax.argument.rotation": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplace",
+        "revision": 3780327
+      }
+    ],
+    "command_translation.syntax.argument.mirror": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplace",
+        "revision": 3780327
+      }
+    ],
+    "command_translation.syntax.argument.integrity": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplace",
+        "revision": 3780327
+      }
+    ],
+    "command_translation.syntax.argument.seed": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplace",
+        "revision": 3780327
+      }
+    ],
+    "command_translation.syntax.argument.sound": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplaysound",
+        "revision": 3844881
+      }
+    ],
+    "command_translation.syntax.argument.volume": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplaysound",
+        "revision": 3844881
+      }
+    ],
+    "command_translation.syntax.argument.pitch": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplaysound",
+        "revision": 3844881
+      }
+    ],
+    "command_translation.syntax.argument.minVolume": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplaysound",
+        "revision": 3844881
+      }
+    ],
+    "command_translation.syntax.argument.allowCommands": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fpublish",
+        "revision": 3777390
+      }
+    ],
+    "command_translation.syntax.argument.port": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fpublish",
+        "revision": 3777390
+      }
+    ],
+    "command_translation.syntax.argument.includeWorldSeed": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Frandom",
+        "revision": 3688870
+      }
+    ],
+    "command_translation.syntax.argument.includeSequenceId": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Frandom",
+        "revision": 3688870
+      }
+    ],
+    "command_translation.syntax.argument.sequence": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Frandom",
+        "revision": 3688870
+      }
+    ],
+    "command_translation.syntax.argument.recipe": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Frecipe",
+        "revision": 3835353
+      }
+    ],
+    "command_translation.syntax.argument.vehicle": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fride",
+        "revision": 3838417
+      }
+    ],
+    "command_translation.syntax.argument.facingEntity": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Frotate",
+        "revision": 3826032
+      }
+    ],
+    "command_translation.syntax.argument.facingAnchor": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Frotate",
+        "revision": 3826032
+      }
+    ],
+    "command_translation.syntax.argument.facingLocation": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Frotate",
+        "revision": 3826032
+      }
+    ],
+    "command_translation.syntax.argument.function": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fschedule",
+        "revision": 3743439
+      }
+    ],
+    "command_translation.syntax.argument.time": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fschedule",
+        "revision": 3743439
+      }
+    ],
+    "command_translation.syntax.argument.criteria": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      },
+      {
+        "url": "https://minecraft.wiki/w/Argument%20types",
+        "revision": 3825973
+      }
+    ],
+    "command_translation.syntax.argument.displayName": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      },
+      {
+        "url": "https://minecraft.wiki/w/Argument%20types",
+        "revision": 3825973
+      }
+    ],
+    "command_translation.syntax.argument.score": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      },
+      {
+        "url": "https://minecraft.wiki/w/Argument%20types",
+        "revision": 3825973
+      }
+    ],
+    "command_translation.syntax.argument.operation": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      }
+    ],
+    "command_translation.syntax.argument.contents": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      },
+      {
+        "url": "https://minecraft.wiki/w/Argument%20types",
+        "revision": 3825973
+      }
+    ],
+    "command_translation.syntax.argument.style": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      },
+      {
+        "url": "https://minecraft.wiki/w/Argument%20types",
+        "revision": 3825973
+      }
+    ],
+    "command_translation.syntax.argument.minutes": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fsetidletimeout",
+        "revision": 3678699
+      }
+    ],
+    "command_translation.syntax.argument.angle": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fsetworldspawn",
+        "revision": 3627438
+      }
+    ],
+    "command_translation.syntax.argument.player": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fspectate",
+        "revision": 3826038
+      }
+    ],
+    "command_translation.syntax.argument.center": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fspreadplayers",
+        "revision": 3826040
+      }
+    ],
+    "command_translation.syntax.argument.spreadDistance": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fspreadplayers",
+        "revision": 3826040
+      }
+    ],
+    "command_translation.syntax.argument.maxRange": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fspreadplayers",
+        "revision": 3826040
+      }
+    ],
+    "command_translation.syntax.argument.respectTeams": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fspreadplayers",
+        "revision": 3826040
+      }
+    ],
+    "command_translation.syntax.argument.maxHeight": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fspreadplayers",
+        "revision": 3826040
+      }
+    ],
+    "command_translation.syntax.argument.team": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.syntax.argument.members": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.syntax.argument.allowed": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.syntax.argument.prefix": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.syntax.argument.suffix": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.syntax.argument.radius": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftest",
+        "revision": 3724366
+      }
+    ],
+    "command_translation.syntax.argument.width": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftest",
+        "revision": 3724366
+      }
+    ],
+    "command_translation.syntax.argument.height": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftest",
+        "revision": 3724366
+      }
+    ],
+    "command_translation.syntax.argument.depth": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftest",
+        "revision": 3724366
+      }
+    ],
+    "command_translation.syntax.argument.tests": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftest",
+        "revision": 3724366
+      }
+    ],
+    "command_translation.syntax.argument.var": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftest",
+        "revision": 3724366
+      }
+    ],
+    "command_translation.syntax.argument.numberOfTimes": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftest",
+        "revision": 3724366
+      }
+    ],
+    "command_translation.syntax.argument.untilFailed": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftest",
+        "revision": 3724366
+      }
+    ],
+    "command_translation.syntax.argument.rotationSteps": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftest",
+        "revision": 3724366
+      }
+    ],
+    "command_translation.syntax.argument.testsPerRow": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftest",
+        "revision": 3724366
+      }
+    ],
+    "command_translation.syntax.argument.onlyRequiredTests": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftest",
+        "revision": 3724366
+      }
+    ],
+    "command_translation.syntax.argument.rate": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftick",
+        "revision": 3778223
+      }
+    ],
+    "command_translation.syntax.argument.clock": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftime",
+        "revision": 3813552
+      },
+      {
+        "url": "https://minecraft.wiki/w/World_clock",
+        "revision": 3840761
+      },
+      {
+        "url": "https://minecraft.wiki/w/Timeline",
+        "revision": 3595196
+      }
+    ],
+    "command_translation.syntax.argument.timeline": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftime",
+        "revision": 3813552
+      },
+      {
+        "url": "https://minecraft.wiki/w/World_clock",
+        "revision": 3840761
+      },
+      {
+        "url": "https://minecraft.wiki/w/Timeline",
+        "revision": 3595196
+      }
+    ],
+    "command_translation.syntax.argument.timemarker": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftime",
+        "revision": 3813552
+      },
+      {
+        "url": "https://minecraft.wiki/w/World_clock",
+        "revision": 3840761
+      },
+      {
+        "url": "https://minecraft.wiki/w/Timeline",
+        "revision": 3595196
+      }
+    ],
+    "command_translation.syntax.argument.title": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftitle",
+        "revision": 3662199
+      }
+    ],
+    "command_translation.syntax.argument.fadeIn": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftitle",
+        "revision": 3662199
+      }
+    ],
+    "command_translation.syntax.argument.stay": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftitle",
+        "revision": 3662199
+      }
+    ],
+    "command_translation.syntax.argument.fadeOut": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftitle",
+        "revision": 3662199
+      }
+    ],
+    "command_translation.syntax.argument.hostname": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftransfer",
+        "revision": 3693930
+      }
+    ],
+    "command_translation.syntax.argument.waypoint": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fwaypoint",
+        "revision": 3724964
+      }
+    ],
+    "command_translation.syntax.argument.color": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fwaypoint",
+        "revision": 3724964
+      }
+    ],
+    "command_translation.syntax.argument.duration": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fweather",
+        "revision": 3751988
+      }
+    ],
+    "command_translation.syntax.argument.distance": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fworldborder",
+        "revision": 3834928
+      }
+    ],
+    "command_translation.syntax.argument.damagePerBlock": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fworldborder",
+        "revision": 3834928
+      }
+    ],
+    "command_translation.syntax.argument.give.targets": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fgive",
+        "revision": 3838890
+      }
+    ]
+  }
+}

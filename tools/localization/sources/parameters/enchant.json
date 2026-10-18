@@ -1,0 +1,106 @@
+{
+  "en_us": {
+    "command_translation.help.argument.enchant.targets": "The entities holding the item to enchant; the enchantment is added to the item in the target's main hand.",
+    "command_translation.help.argument.enchant.enchantment": "The enchantment to apply.",
+    "command_translation.help.argument.enchant.level": "The enchantment level; defaults to 1 and must not exceed the enchantment's maximum."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.enchant.targets": "手持待附魔物品的实体；魔咒会加到目标主手中的物品上。",
+    "command_translation.help.argument.enchant.enchantment": "要施加的魔咒。",
+    "command_translation.help.argument.enchant.level": "魔咒等级；省略时为 1，且不得超过该魔咒的最高等级。"
+  },
+  "sources": {
+    "command_translation.help.argument.enchant.targets": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fenchant",
+        "revision": 3846696
+      },
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.argument.enchant.enchantment": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fenchant",
+        "revision": 3846696
+      }
+    ],
+    "command_translation.help.argument.enchant.level": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fenchant",
+        "revision": 3846696
+      }
+    ]
+  },
+  "bindings": {
+    "enchant.targets": "command_translation.help.argument.enchant.targets",
+    "enchant.targets.enchantment": "command_translation.help.argument.enchant.enchantment",
+    "enchant.targets.enchantment.level": "command_translation.help.argument.enchant.level"
+  },
+  "de_de": {
+    "command_translation.help.argument.enchant.targets": "Die Entitäten, die den Gegenstand halten; die Verzauberung wird auf den Gegenstand in ihrer Haupthand angewendet.",
+    "command_translation.help.argument.enchant.enchantment": "Die anzuwendende Verzauberung.",
+    "command_translation.help.argument.enchant.level": "Die Verzauberungsstufe; Standard 1, darf das Maximum der Verzauberung nicht überschreiten."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.enchant.targets": "エンチャントするアイテムを持つエンティティ。エンチャントは対象のメインハンドのアイテムに付与される。",
+    "command_translation.help.argument.enchant.enchantment": "付与するエンチャント。",
+    "command_translation.help.argument.enchant.level": "エンチャントのレベル。既定は 1 で、そのエンチャントの最大レベルを超えてはならない。"
+  },
+  "syntax": [
+    {
+      "path": "enchant",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "enchant.targets",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "enchant.targets.enchantment",
+      "type": "argument",
+      "parser": "minecraft:resource",
+      "properties": {
+        "registry": "minecraft:enchantment"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "enchant.targets.enchantment.level",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

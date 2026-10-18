@@ -1,0 +1,108 @@
+{
+  "sources": {
+    "command_translation.tag.worldgen.structure.c.hidden_from_displayers": [
+      {
+        "artifact": "net.neoforged:neoforge:21.1.234",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.1.2.84",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:2.12.0+c3656daa19",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.6.2+4f11f7994c",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.7.1+1f023a9e9e",
+        "resource": "assets/*/lang/*.json"
+      }
+    ],
+    "command_translation.tag.worldgen.structure.c.hidden_from_locator_selection": [
+      {
+        "artifact": "net.neoforged:neoforge:21.1.234",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.1.2.84",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:2.12.0+c3656daa19",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.6.2+4f11f7994c",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.7.1+1f023a9e9e",
+        "resource": "assets/*/lang/*.json"
+      }
+    ]
+  },
+  "en_us": {
+    "command_translation.tag.worldgen.structure.c.hidden_from_displayers": "Hidden From Displayers",
+    "command_translation.tag.worldgen.structure.c.hidden_from_locator_selection": "Hidden From Locator Selection"
+  },
+  "de_de": {
+    "command_translation.tag.worldgen.structure.c.hidden_from_displayers": "Vor Anzeigern verborgen",
+    "command_translation.tag.worldgen.structure.c.hidden_from_locator_selection": "Versteckt von Locator-Auswahl"
+  },
+  "it_it": {
+    "command_translation.tag.worldgen.structure.c.hidden_from_displayers": "Nascosto nei visualizzatori",
+    "command_translation.tag.worldgen.structure.c.hidden_from_locator_selection": "Nascosto nei selettori di locazione"
+  },
+  "ja_jp": {
+    "command_translation.tag.worldgen.structure.c.hidden_from_displayers": "表示されない",
+    "command_translation.tag.worldgen.structure.c.hidden_from_locator_selection": "選択不可"
+  },
+  "ko_kr": {
+    "command_translation.tag.worldgen.structure.c.hidden_from_displayers": "디스플레이에서 숨겨짐",
+    "command_translation.tag.worldgen.structure.c.hidden_from_locator_selection": "로케이터 선택으로부터 보이지 않음"
+  },
+  "ms_my": {
+    "command_translation.tag.worldgen.structure.c.hidden_from_displayers": "Tersembunyi Daripada Pempamer",
+    "command_translation.tag.worldgen.structure.c.hidden_from_locator_selection": "Tersembunyi Daripada Pemilihan Pencari"
+  },
+  "pl_pl": {
+    "command_translation.tag.worldgen.structure.c.hidden_from_displayers": "Ukryta przed mapą świata",
+    "command_translation.tag.worldgen.structure.c.hidden_from_locator_selection": "Ukryte przed narzędziami do wyszukiwania biomów"
+  },
+  "ru_ru": {
+    "command_translation.tag.worldgen.structure.c.hidden_from_displayers": "Скрыто с дисплея",
+    "command_translation.tag.worldgen.structure.c.hidden_from_locator_selection": "Скрыто с выбора локатора"
+  },
+  "zh_cn": {
+    "command_translation.tag.worldgen.structure.c.hidden_from_displayers": "对显示器隐藏",
+    "command_translation.tag.worldgen.structure.c.hidden_from_locator_selection": "对定位选择隐藏"
+  },
+  "zh_tw": {
+    "command_translation.tag.worldgen.structure.c.hidden_from_displayers": "對顯示器隱藏",
+    "command_translation.tag.worldgen.structure.c.hidden_from_locator_selection": "對定位選擇隱藏"
+  },
+  "zlm_arab": {
+    "command_translation.tag.worldgen.structure.c.hidden_from_displayers": "ترسمبوپي درڤد ڤمڤامير",
+    "command_translation.tag.worldgen.structure.c.hidden_from_locator_selection": "ترسمبوپي درڤد ڤميليهن ڤنچاري"
+  },
+  "fr_fr": {
+    "command_translation.tag.worldgen.structure.c.hidden_from_displayers": "Caché des afficheurs",
+    "command_translation.tag.worldgen.structure.c.hidden_from_locator_selection": "Caché de la sélection du localisateur"
+  },
+  "uk_ua": {
+    "command_translation.tag.worldgen.structure.c.hidden_from_displayers": "Сховані від демонстраторів",
+    "command_translation.tag.worldgen.structure.c.hidden_from_locator_selection": "Сховані від вибору локатора"
+  }
+}

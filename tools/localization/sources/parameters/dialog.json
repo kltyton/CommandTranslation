@@ -1,0 +1,176 @@
+{
+  "en_us": {
+    "command_translation.help.argument.dialog.clear": "Closes and removes any dialog currently shown on the targets' screen.",
+    "command_translation.help.argument.dialog.clear.targets": "The players whose dialog is closed.",
+    "command_translation.help.argument.dialog.show": "Opens a dialog screen for the targets.",
+    "command_translation.help.argument.dialog.show.targets": "The players the dialog is shown to.",
+    "command_translation.help.argument.dialog.show.targets.dialog": "The dialog to open: an existing dialog id or an inline SNBT dialog definition.",
+    "command_translation.help.value.dialog.show.targets.dialog.minecraft:custom_options": "Opens the custom-options menu, listing the dialogs in the pause-menu tag, normally added by data packs.",
+    "command_translation.help.value.dialog.show.targets.dialog.minecraft:quick_actions": "Opens the quick-actions menu, listing the dialogs in the quick-actions tag; its contents depend on that tag.",
+    "command_translation.help.value.dialog.show.targets.dialog.minecraft:server_links": "Opens the server-links menu, showing links configured by the server such as a website or support page."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.dialog.clear": "关闭并从目标屏幕上移除当前显示的对话框。",
+    "command_translation.help.argument.dialog.clear.targets": "要关闭对话框的玩家。",
+    "command_translation.help.argument.dialog.show": "为目标准备打开一个对话框。",
+    "command_translation.help.argument.dialog.show.targets": "要显示对话框的玩家。",
+    "command_translation.help.argument.dialog.show.targets.dialog": "要打开的对话框：已有 ID，或 SNBT 内联定义。",
+    "command_translation.help.value.dialog.show.targets.dialog.minecraft:custom_options": "打开“自定义选项”菜单，列出暂停菜单标签中的对话框，通常由数据包添加。",
+    "command_translation.help.value.dialog.show.targets.dialog.minecraft:quick_actions": "打开“快捷操作”菜单，列出快捷操作标签中的对话框，内容由该标签决定。",
+    "command_translation.help.value.dialog.show.targets.dialog.minecraft:server_links": "打开“服务器链接”菜单，显示服务器提供的网站、支持页面等链接。"
+  },
+  "sources": {
+    "command_translation.help.argument.dialog.clear": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdialog",
+        "revision": 3826023
+      }
+    ],
+    "command_translation.help.argument.dialog.clear.targets": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdialog",
+        "revision": 3826023
+      }
+    ],
+    "command_translation.help.argument.dialog.show": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdialog",
+        "revision": 3826023
+      }
+    ],
+    "command_translation.help.argument.dialog.show.targets": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdialog",
+        "revision": 3826023
+      }
+    ],
+    "command_translation.help.argument.dialog.show.targets.dialog": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdialog",
+        "revision": 3826023
+      },
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.value.dialog.show.targets.dialog.minecraft:custom_options": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      },
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.value.dialog.show.targets.dialog.minecraft:quick_actions": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      },
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.value.dialog.show.targets.dialog.minecraft:server_links": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      },
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ]
+  },
+  "bindings": {
+    "dialog.clear": "command_translation.help.argument.dialog.clear",
+    "dialog.clear.targets": "command_translation.help.argument.dialog.clear.targets",
+    "dialog.show": "command_translation.help.argument.dialog.show",
+    "dialog.show.targets": "command_translation.help.argument.dialog.show.targets",
+    "dialog.show.targets.dialog": "command_translation.help.argument.dialog.show.targets.dialog"
+  },
+  "de_de": {
+    "command_translation.help.argument.dialog.clear": "Schließt und entfernt jeden Dialog, der derzeit auf dem Bildschirm der Ziele angezeigt wird.",
+    "command_translation.help.argument.dialog.clear.targets": "Die Spieler, deren Dialog geschlossen wird.",
+    "command_translation.help.argument.dialog.show": "Öffnet einen Dialogbildschirm für die Ziele.",
+    "command_translation.help.argument.dialog.show.targets": "Die Spieler, denen der Dialog gezeigt wird.",
+    "command_translation.help.argument.dialog.show.targets.dialog": "Der zu öffnende Dialog: eine vorhandene Dialog-ID oder eine Inline-Dialogdefinition in SNBT.",
+    "command_translation.help.value.dialog.show.targets.dialog.minecraft:custom_options": "Öffnet das Menü „Benutzerdefinierte Optionen“, das die Dialoge im Pausenmenü-Tag auflistet, die normalerweise von Datenpaketen stammen.",
+    "command_translation.help.value.dialog.show.targets.dialog.minecraft:quick_actions": "Öffnet das Menü „Schnellaktionen“, das die Dialoge im Schnellaktionen-Tag auflistet; der Inhalt hängt von diesem Tag ab.",
+    "command_translation.help.value.dialog.show.targets.dialog.minecraft:server_links": "Öffnet das Menü „Serverlinks“, das vom Server konfigurierte Links wie eine Website oder Supportseite zeigt."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.dialog.clear": "対象の画面に現在表示されているダイアログを閉じて取り除く。",
+    "command_translation.help.argument.dialog.clear.targets": "ダイアログを閉じるプレイヤー。",
+    "command_translation.help.argument.dialog.show": "対象に対してダイアログ画面を開く。",
+    "command_translation.help.argument.dialog.show.targets": "ダイアログを表示するプレイヤー。",
+    "command_translation.help.argument.dialog.show.targets.dialog": "開くダイアログ: 既存のダイアログ id、または SNBT のインラインダイアログ定義。",
+    "command_translation.help.value.dialog.show.targets.dialog.minecraft:custom_options": "「カスタムオプション」メニューを開く。ポーズメニューのタグ内のダイアログを一覧表示し、通常はデータパックが追加する。",
+    "command_translation.help.value.dialog.show.targets.dialog.minecraft:quick_actions": "「クイックアクション」メニューを開く。クイックアクションのタグ内のダイアログを一覧表示し、内容はそのタグ次第。",
+    "command_translation.help.value.dialog.show.targets.dialog.minecraft:server_links": "「サーバーリンク」メニューを開く。サーバーが設定したウェブサイトやサポートページなどのリンクを表示する。"
+  },
+  "syntax": [
+    {
+      "path": "dialog",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "dialog.clear",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "dialog.clear.targets",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "players",
+        "amount": "multiple"
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "dialog.show",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "dialog.show.targets",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "players",
+        "amount": "multiple"
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "dialog.show.targets.dialog",
+      "type": "argument",
+      "parser": "minecraft:dialog",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

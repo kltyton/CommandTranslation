@@ -1,0 +1,48 @@
+{
+  "en_us": {
+    "command_translation.help.argument.tell.targets": "The players who receive the private message.",
+    "command_translation.help.argument.tell.message": "The private message text."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.tell.targets": "接收私信的玩家。",
+    "command_translation.help.argument.tell.message": "私信文本。"
+  },
+  "sources": {
+    "command_translation.help.argument.tell.targets": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fmsg",
+        "revision": 3826030
+      }
+    ],
+    "command_translation.help.argument.tell.message": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fmsg",
+        "revision": 3826030
+      }
+    ]
+  },
+  "bindings": {
+    "tell.targets": "command_translation.help.argument.tell.targets",
+    "tell.message": "command_translation.help.argument.tell.message"
+  },
+  "de_de": {
+    "command_translation.help.argument.tell.targets": "Die Spieler, die die private Nachricht erhalten.",
+    "command_translation.help.argument.tell.message": "Der Text der privaten Nachricht."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.tell.targets": "プライベートメッセージを受け取るプレイヤー。",
+    "command_translation.help.argument.tell.message": "プライベートメッセージの本文。"
+  },
+  "syntax": [
+    {
+      "path": "tell",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

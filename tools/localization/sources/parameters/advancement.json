@@ -1,0 +1,504 @@
+{
+  "en_us": {
+    "command_translation.help.argument.advancement.grant": "Grants the chosen advancement(s) to the targets, announced as if earned normally.",
+    "command_translation.help.argument.advancement.revoke": "Removes the chosen advancement(s) from the targets; revoked criteria can be earned again.",
+    "command_translation.help.argument.advancement.targets": "The players who gain or lose advancements; only players can hold them.",
+    "command_translation.help.argument.advancement.everything": "Targets all loaded advancements at once.",
+    "command_translation.help.argument.advancement.from": "Targets the given advancement together with all advancements descending from it.",
+    "command_translation.help.argument.advancement.until": "Targets the given advancement plus all of its ancestors up to the root.",
+    "command_translation.help.argument.advancement.through": "Targets the given advancement, all its ancestors up to the root, and all its descendants.",
+    "command_translation.help.argument.advancement.only": "Targets only the given advancement; with a criterion, only that one criterion.",
+    "command_translation.help.argument.advancement.advancement": "The advancement to grant or revoke.",
+    "command_translation.help.argument.advancement.criterion": "One criterion inside the advancement; only that criterion is granted or revoked, not the whole advancement."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.advancement.grant": "把所选进度给予目标，并像正常达成一样弹出公告。",
+    "command_translation.help.argument.advancement.revoke": "从目标移除所选进度，被移除的准则可以重新达成。",
+    "command_translation.help.argument.advancement.targets": "要给予或移除进度的玩家；只有玩家能拥有进度。",
+    "command_translation.help.argument.advancement.everything": "一次选中所有已加载的进度。",
+    "command_translation.help.argument.advancement.from": "选中给定进度及其所有下游进度（子、孙……）。",
+    "command_translation.help.argument.advancement.until": "选中给定进度及其全部祖先，即它本身连同到根的各级父级。",
+    "command_translation.help.argument.advancement.through": "选中给定进度、它到根的全部祖先，以及它的所有后代。",
+    "command_translation.help.argument.advancement.only": "只选中给定进度；若再给出准则，则只作用于该准则。",
+    "command_translation.help.argument.advancement.advancement": "要给予或移除的进度。",
+    "command_translation.help.argument.advancement.criterion": "进度内的某个准则；只给予或移除该准则，而不是整个进度。"
+  },
+  "sources": {
+    "command_translation.help.argument.advancement.grant": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fadvancement",
+        "revision": 3816103
+      }
+    ],
+    "command_translation.help.argument.advancement.revoke": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fadvancement",
+        "revision": 3816103
+      }
+    ],
+    "command_translation.help.argument.advancement.targets": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fadvancement",
+        "revision": 3816103
+      },
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.argument.advancement.everything": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fadvancement",
+        "revision": 3816103
+      }
+    ],
+    "command_translation.help.argument.advancement.from": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fadvancement",
+        "revision": 3816103
+      }
+    ],
+    "command_translation.help.argument.advancement.until": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fadvancement",
+        "revision": 3816103
+      }
+    ],
+    "command_translation.help.argument.advancement.through": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fadvancement",
+        "revision": 3816103
+      }
+    ],
+    "command_translation.help.argument.advancement.only": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fadvancement",
+        "revision": 3816103
+      }
+    ],
+    "command_translation.help.argument.advancement.advancement": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fadvancement",
+        "revision": 3816103
+      },
+      {
+        "url": "https://minecraft.wiki/w/Argument%20types",
+        "revision": 3825973
+      }
+    ],
+    "command_translation.help.argument.advancement.criterion": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fadvancement",
+        "revision": 3816103
+      }
+    ]
+  },
+  "bindings": {
+    "advancement.grant": "command_translation.help.argument.advancement.grant",
+    "advancement.grant.targets": "command_translation.help.argument.advancement.targets",
+    "advancement.grant.targets.everything": "command_translation.help.argument.advancement.everything",
+    "advancement.grant.targets.from": "command_translation.help.argument.advancement.from",
+    "advancement.grant.targets.from.advancement": "command_translation.help.argument.advancement.advancement",
+    "advancement.grant.targets.only": "command_translation.help.argument.advancement.only",
+    "advancement.grant.targets.only.advancement": "command_translation.help.argument.advancement.advancement",
+    "advancement.grant.targets.only.advancement.criterion": "command_translation.help.argument.advancement.criterion",
+    "advancement.grant.targets.through": "command_translation.help.argument.advancement.through",
+    "advancement.grant.targets.through.advancement": "command_translation.help.argument.advancement.advancement",
+    "advancement.grant.targets.until": "command_translation.help.argument.advancement.until",
+    "advancement.grant.targets.until.advancement": "command_translation.help.argument.advancement.advancement",
+    "advancement.revoke": "command_translation.help.argument.advancement.revoke",
+    "advancement.revoke.targets": "command_translation.help.argument.advancement.targets",
+    "advancement.revoke.targets.everything": "command_translation.help.argument.advancement.everything",
+    "advancement.revoke.targets.from": "command_translation.help.argument.advancement.from",
+    "advancement.revoke.targets.from.advancement": "command_translation.help.argument.advancement.advancement",
+    "advancement.revoke.targets.only": "command_translation.help.argument.advancement.only",
+    "advancement.revoke.targets.only.advancement": "command_translation.help.argument.advancement.advancement",
+    "advancement.revoke.targets.only.advancement.criterion": "command_translation.help.argument.advancement.criterion",
+    "advancement.revoke.targets.through": "command_translation.help.argument.advancement.through",
+    "advancement.revoke.targets.through.advancement": "command_translation.help.argument.advancement.advancement",
+    "advancement.revoke.targets.until": "command_translation.help.argument.advancement.until",
+    "advancement.revoke.targets.until.advancement": "command_translation.help.argument.advancement.advancement"
+  },
+  "de_de": {
+    "command_translation.help.argument.advancement.grant": "Vergibt den gewählten Fortschritt an die Ziele und meldet ihn wie normal erhalten.",
+    "command_translation.help.argument.advancement.revoke": "Entfernt den gewählten Fortschritt von den Zielen; entfernte Kriterien können erneut erreicht werden.",
+    "command_translation.help.argument.advancement.targets": "Die Spieler, die Fortschritte erhalten oder verlieren; nur Spieler können sie besitzen.",
+    "command_translation.help.argument.advancement.everything": "Wählt alle geladenen Fortschritte auf einmal aus.",
+    "command_translation.help.argument.advancement.from": "Wählt den angegebenen Fortschritt samt aller daraus hervorgehenden Fortschritte.",
+    "command_translation.help.argument.advancement.until": "Wählt den angegebenen Fortschritt samt aller seiner Vorfahren bis zur Wurzel.",
+    "command_translation.help.argument.advancement.through": "Wählt den angegebenen Fortschritt, alle Vorfahren bis zur Wurzel und alle Nachfahren.",
+    "command_translation.help.argument.advancement.only": "Wählt nur den angegebenen Fortschritt; mit einem Kriterium nur dieses eine.",
+    "command_translation.help.argument.advancement.advancement": "Der zu vergebende oder zu entfernende Fortschritt.",
+    "command_translation.help.argument.advancement.criterion": "Ein Kriterium im Fortschritt; nur dieses wird vergeben oder entfernt, nicht der ganze Fortschritt."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.advancement.grant": "選んだ進捗を対象に付与し、通常どおり達成したように通知する。",
+    "command_translation.help.argument.advancement.revoke": "対象から選んだ進捗を剥奪する。剥奪された条件は再び達成できる。",
+    "command_translation.help.argument.advancement.targets": "進捗を付与・剥奪するプレイヤー。進捗を持てるのはプレイヤーだけ。",
+    "command_translation.help.argument.advancement.everything": "読み込み済みのすべての進捗を一度に対象にする。",
+    "command_translation.help.argument.advancement.from": "指定した進捗と、そこから派生するすべての進捗を対象にする。",
+    "command_translation.help.argument.advancement.until": "指定した進捗と、根までのすべての祖先を対象にする。",
+    "command_translation.help.argument.advancement.through": "指定した進捗、根までのすべての祖先、およびすべての子孫を対象にする。",
+    "command_translation.help.argument.advancement.only": "指定した進捗だけを対象にする。条件を付けるとその条件だけを対象にする。",
+    "command_translation.help.argument.advancement.advancement": "付与または剥奪する進捗。",
+    "command_translation.help.argument.advancement.criterion": "進捗内の 1 つの条件。指定するとその条件だけを付与／剥奪し、進捗全体は扱わない。"
+  },
+  "syntax": [
+    {
+      "path": "advancement",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "advancement.grant",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "advancement.grant.targets",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "players",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "advancement.grant.targets.everything",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "advancement.grant.targets.from",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "advancement.grant.targets.from.advancement",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "advancement.grant.targets.only",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "advancement.grant.targets.only.advancement",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "advancement.grant.targets.only.advancement.criterion",
+      "type": "argument",
+      "parser": "brigadier:string",
+      "properties": {
+        "type": "greedy"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "advancement.grant.targets.through",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "advancement.grant.targets.through.advancement",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "advancement.grant.targets.until",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "advancement.grant.targets.until.advancement",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "advancement.revoke",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "advancement.revoke.targets",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "players",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "advancement.revoke.targets.everything",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "advancement.revoke.targets.from",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "advancement.revoke.targets.from.advancement",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "advancement.revoke.targets.only",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "advancement.revoke.targets.only.advancement",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "advancement.revoke.targets.only.advancement.criterion",
+      "type": "argument",
+      "parser": "brigadier:string",
+      "properties": {
+        "type": "greedy"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "advancement.revoke.targets.through",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "advancement.revoke.targets.through.advancement",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "advancement.revoke.targets.until",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "advancement.revoke.targets.until.advancement",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "advancement.grant.targets.from.advancement",
+      "type": "argument",
+      "parser": "minecraft:resource_key",
+      "properties": {
+        "registry": "minecraft:advancement"
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "advancement.grant.targets.only.advancement",
+      "type": "argument",
+      "parser": "minecraft:resource_key",
+      "properties": {
+        "registry": "minecraft:advancement"
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "advancement.grant.targets.through.advancement",
+      "type": "argument",
+      "parser": "minecraft:resource_key",
+      "properties": {
+        "registry": "minecraft:advancement"
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "advancement.grant.targets.until.advancement",
+      "type": "argument",
+      "parser": "minecraft:resource_key",
+      "properties": {
+        "registry": "minecraft:advancement"
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "advancement.revoke.targets.from.advancement",
+      "type": "argument",
+      "parser": "minecraft:resource_key",
+      "properties": {
+        "registry": "minecraft:advancement"
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "advancement.revoke.targets.only.advancement",
+      "type": "argument",
+      "parser": "minecraft:resource_key",
+      "properties": {
+        "registry": "minecraft:advancement"
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "advancement.revoke.targets.through.advancement",
+      "type": "argument",
+      "parser": "minecraft:resource_key",
+      "properties": {
+        "registry": "minecraft:advancement"
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "advancement.revoke.targets.until.advancement",
+      "type": "argument",
+      "parser": "minecraft:resource_key",
+      "properties": {
+        "registry": "minecraft:advancement"
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

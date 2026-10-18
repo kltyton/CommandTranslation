@@ -1,0 +1,66 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:banner_patterns": "The banner patterns applied to a banner or shield.",
+    "command_translation.help.component.minecraft:banner_patterns.field.color": "The dye color of this pattern.",
+    "command_translation.help.component.minecraft:banner_patterns.field.pattern": "The banner pattern to apply."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:banner_patterns": "应用于旗帜或盾牌的图案列表。",
+    "command_translation.help.component.minecraft:banner_patterns.field.color": "该图案部分的染料颜色。",
+    "command_translation.help.component.minecraft:banner_patterns.field.pattern": "要应用的旗帜图案。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:banner_patterns": "Die auf Banner oder Schild aufgebrachten Muster.",
+    "command_translation.help.component.minecraft:banner_patterns.field.color": "Die Farbstofffarbe dieses Musters.",
+    "command_translation.help.component.minecraft:banner_patterns.field.pattern": "Das aufzubringende Bannermuster."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:banner_patterns": "旗や盾に適用される模様の一覧。",
+    "command_translation.help.component.minecraft:banner_patterns.field.color": "この模様の染料の色。",
+    "command_translation.help.component.minecraft:banner_patterns.field.pattern": "適用する旗の模様。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:banner_patterns": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:banner_patterns.field.color": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:banner_patterns.field.pattern": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

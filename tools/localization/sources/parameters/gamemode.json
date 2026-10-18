@@ -1,0 +1,118 @@
+{
+  "en_us": {
+    "command_translation.help.argument.gamemode.gamemode": "The new game mode.",
+    "command_translation.help.argument.gamemode.target": "The players whose game mode changes; if omitted, defaults to the command's executor.",
+    "command_translation.help.value.gamemode.gamemode.survival": "Survival mode: normal health, hunger and resource gathering.",
+    "command_translation.help.value.gamemode.gamemode.creative": "Creative: fly and build using an unlimited supply of most blocks and items; ordinary survival damage and hunger are disabled.",
+    "command_translation.help.value.gamemode.gamemode.adventure": "Adventure: survival-like play with restricted building; blocks can only be broken or placed using items whose adventure permissions allow that block.",
+    "command_translation.help.value.gamemode.gamemode.spectator": "Spectator: fly through blocks to observe without changing the world through normal interaction."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.gamemode.gamemode": "新的游戏模式。",
+    "command_translation.help.argument.gamemode.target": "要更改游戏模式的玩家；省略时为命令执行者。",
+    "command_translation.help.value.gamemode.gamemode.survival": "生存模式：正常的生命、饥饿与采集玩法。",
+    "command_translation.help.value.gamemode.gamemode.creative": "创造模式：可飞行并无限使用大多数方块和物品建造，不受普通生存伤害与饥饿限制。",
+    "command_translation.help.value.gamemode.gamemode.adventure": "冒险模式：类似生存但建造受限，只有带相应冒险权限数据的物品才能破坏或放置获准的方块。",
+    "command_translation.help.value.gamemode.gamemode.spectator": "旁观模式：可穿过方块飞行观察，不能通过通常交互改变世界。"
+  },
+  "sources": {
+    "command_translation.help.argument.gamemode.gamemode": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fgamemode",
+        "revision": 3725108
+      }
+    ],
+    "command_translation.help.argument.gamemode.target": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fgamemode",
+        "revision": 3725108
+      },
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.value.gamemode.gamemode.survival": [
+      {
+        "url": "https://minecraft.wiki/w/Game_mode",
+        "revision": 3809835
+      }
+    ],
+    "command_translation.help.value.gamemode.gamemode.creative": [
+      {
+        "url": "https://minecraft.wiki/w/Game_mode",
+        "revision": 3809835
+      }
+    ],
+    "command_translation.help.value.gamemode.gamemode.adventure": [
+      {
+        "url": "https://minecraft.wiki/w/Game_mode",
+        "revision": 3809835
+      }
+    ],
+    "command_translation.help.value.gamemode.gamemode.spectator": [
+      {
+        "url": "https://minecraft.wiki/w/Game_mode",
+        "revision": 3809835
+      }
+    ]
+  },
+  "bindings": {
+    "gamemode.gamemode": "command_translation.help.argument.gamemode.gamemode",
+    "gamemode.gamemode.target": "command_translation.help.argument.gamemode.target"
+  },
+  "de_de": {
+    "command_translation.help.argument.gamemode.gamemode": "Der neue Spielmodus.",
+    "command_translation.help.argument.gamemode.target": "Die Spieler, deren Spielmodus geändert wird; ohne Angabe der ausführende Spieler.",
+    "command_translation.help.value.gamemode.gamemode.survival": "Überlebensmodus: normale Gesundheit, Hunger und Ressourcensammlung.",
+    "command_translation.help.value.gamemode.gamemode.creative": "Kreativmodus: Fliegen und unbegrenztes Bauen mit den meisten Blöcken und Gegenständen; gewöhnlicher Überlebensschaden und Hunger entfallen.",
+    "command_translation.help.value.gamemode.gamemode.adventure": "Abenteuermodus: ähnlich wie Überleben, aber Bauen ist eingeschränkt; Blöcke lassen sich nur mit Gegenständen abbauen oder setzen, deren Abenteuerberechtigungen dies erlauben.",
+    "command_translation.help.value.gamemode.gamemode.spectator": "Zuschauermodus: durch Blöcke fliegen, um zu beobachten, ohne die Welt durch normale Interaktion zu verändern."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.gamemode.gamemode": "新しいゲームモード。",
+    "command_translation.help.argument.gamemode.target": "ゲームモードを変更するプレイヤー。省略時は実行者。",
+    "command_translation.help.value.gamemode.gamemode.survival": "サバイバル：通常の体力・空腹・資源採取。",
+    "command_translation.help.value.gamemode.gamemode.creative": "クリエイティブ: 飛行し、多くのブロックやアイテムを無制限に使って建築できる。通常のサバイバルのダメージや空腹の制限はない。",
+    "command_translation.help.value.gamemode.gamemode.adventure": "アドベンチャー: サバイバルに近いが建築に制限がある。対応する許可データのあるアイテムでのみ、許可されたブロックを破壊・設置できる。",
+    "command_translation.help.value.gamemode.gamemode.spectator": "スペクテイター: ブロックを通り抜けて飛行し観察できる。通常の操作では世界を変えられない。"
+  },
+  "syntax": [
+    {
+      "path": "gamemode",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamemode.gamemode",
+      "type": "argument",
+      "parser": "minecraft:gamemode",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "gamemode.gamemode.target",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "players",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "en_us": {
+    "command_translation.help.argument.title.targets": "The players who see the screen text.",
+    "command_translation.help.argument.title.title": "Shows the given text as the large centre title.",
+    "command_translation.help.argument.title.text": "The text to display, as a text component.",
+    "command_translation.help.argument.title.subtitle": "The smaller subtitle shown just below the title; it appears with the next or current title.",
+    "command_translation.help.argument.title.actionbar": "Shows the text on the action bar just above the hotbar instead of as a title.",
+    "command_translation.help.argument.title.times": "Sets how long the title fades in, stays and fades out.",
+    "command_translation.help.argument.title.fadeIn": "Fade-in time before the title is fully shown.",
+    "command_translation.help.argument.title.stay": "How long the title stays fully visible.",
+    "command_translation.help.argument.title.fadeOut": "Fade-out time after the visible period.",
+    "command_translation.help.argument.title.clear": "Removes the screen title and subtitle currently shown to the targets; it does not clear the action bar.",
+    "command_translation.help.argument.title.reset": "Clears the current title and subtitle and restores the fade times to their defaults."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.title.targets": "能看到屏幕文字的玩家。",
+    "command_translation.help.argument.title.title": "把给定文字作为屏幕中央的大标题显示。",
+    "command_translation.help.argument.title.text": "要显示的文本，写成文本组件。",
+    "command_translation.help.argument.title.subtitle": "显示在主标题下方的小副标题，随下一个或当前标题一起显示。",
+    "command_translation.help.argument.title.actionbar": "把文字显示在快捷栏上方的动作栏，而非作为标题。",
+    "command_translation.help.argument.title.times": "设置标题的淡入、停留与淡出时长。",
+    "command_translation.help.argument.title.fadeIn": "标题完全显示前的淡入时长。",
+    "command_translation.help.argument.title.stay": "标题完全可见的停留时长。",
+    "command_translation.help.argument.title.fadeOut": "可见阶段之后的淡出时长。",
+    "command_translation.help.argument.title.clear": "移除当前显示给目标的屏幕标题与副标题，不清除动作栏。",
+    "command_translation.help.argument.title.reset": "清除当前标题与副标题，并把淡入、停留与淡出时长恢复默认。"
+  },
+  "sources": {
+    "command_translation.help.argument.title.targets": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftitle",
+        "revision": 3662199
+      }
+    ],
+    "command_translation.help.argument.title.title": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftitle",
+        "revision": 3662199
+      }
+    ],
+    "command_translation.help.argument.title.text": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftitle",
+        "revision": 3662199
+      }
+    ],
+    "command_translation.help.argument.title.subtitle": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftitle",
+        "revision": 3662199
+      }
+    ],
+    "command_translation.help.argument.title.actionbar": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftitle",
+        "revision": 3662199
+      }
+    ],
+    "command_translation.help.argument.title.times": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftitle",
+        "revision": 3662199
+      }
+    ],
+    "command_translation.help.argument.title.fadeIn": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftitle",
+        "revision": 3662199
+      }
+    ],
+    "command_translation.help.argument.title.stay": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftitle",
+        "revision": 3662199
+      }
+    ],
+    "command_translation.help.argument.title.fadeOut": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftitle",
+        "revision": 3662199
+      }
+    ],
+    "command_translation.help.argument.title.clear": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftitle",
+        "revision": 3662199
+      }
+    ],
+    "command_translation.help.argument.title.reset": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftitle",
+        "revision": 3662199
+      }
+    ]
+  },
+  "bindings": {
+    "title.targets": "command_translation.help.argument.title.targets",
+    "title.targets.actionbar": "command_translation.help.argument.title.actionbar",
+    "title.targets.actionbar.title": "command_translation.help.argument.title.text",
+    "title.targets.clear": "command_translation.help.argument.title.clear",
+    "title.targets.reset": "command_translation.help.argument.title.reset",
+    "title.targets.subtitle": "command_translation.help.argument.title.subtitle",
+    "title.targets.subtitle.title": "command_translation.help.argument.title.text",
+    "title.targets.times": "command_translation.help.argument.title.times",
+    "title.targets.times.fadeIn": "command_translation.help.argument.title.fadeIn",
+    "title.targets.times.fadeIn.stay": "command_translation.help.argument.title.stay",
+    "title.targets.times.fadeIn.stay.fadeOut": "command_translation.help.argument.title.fadeOut",
+    "title.targets.title": "command_translation.help.argument.title.title",
+    "title.targets.title.title": "command_translation.help.argument.title.text"
+  },
+  "de_de": {
+    "command_translation.help.argument.title.targets": "Die Spieler, die den Bildschirmtext sehen.",
+    "command_translation.help.argument.title.title": "Zeigt den angegebenen Text als großen mittigen Titel.",
+    "command_translation.help.argument.title.text": "Der anzuzeigende Text als Textkomponente.",
+    "command_translation.help.argument.title.subtitle": "Der kleinere Untertitel direkt unter dem Titel; er erscheint mit dem nächsten oder aktuellen Titel.",
+    "command_translation.help.argument.title.actionbar": "Zeigt den Text in der Aktionsleiste über der Schnellleiste statt als Titel.",
+    "command_translation.help.argument.title.times": "Setzt Einblende-, Anzeige- und Ausblenddauer des Titels.",
+    "command_translation.help.argument.title.fadeIn": "Einblendzeit, bevor der Titel voll sichtbar ist.",
+    "command_translation.help.argument.title.stay": "Wie lange der Titel voll sichtbar bleibt.",
+    "command_translation.help.argument.title.fadeOut": "Ausblendzeit nach der sichtbaren Phase.",
+    "command_translation.help.argument.title.clear": "Entfernt den aktuell angezeigten Titel samt Untertitel; die Aktionsleiste bleibt.",
+    "command_translation.help.argument.title.reset": "Löscht aktuellen Titel und Untertitel und setzt die Zeiten auf die Standardwerte zurück."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.title.targets": "画面テキストを見るプレイヤー。",
+    "command_translation.help.argument.title.title": "指定したテキストを中央の大きなタイトルとして表示する。",
+    "command_translation.help.argument.title.text": "表示するテキスト。テキストコンポーネントで書く。",
+    "command_translation.help.argument.title.subtitle": "タイトルのすぐ下に出す小さなサブタイトル。次の、または現在のタイトルと一緒に表示される。",
+    "command_translation.help.argument.title.actionbar": "ホットバー上のアクションバーにテキストを表示する（タイトルではなく）。",
+    "command_translation.help.argument.title.times": "タイトルのフェードイン・滞在・フェードアウト時間を設定する。",
+    "command_translation.help.argument.title.fadeIn": "タイトルが完全に表示されるまでのフェードイン時間。",
+    "command_translation.help.argument.title.stay": "タイトルが完全に見えている時間。",
+    "command_translation.help.argument.title.fadeOut": "表示期間後のフェードアウト時間。",
+    "command_translation.help.argument.title.clear": "現在表示中のタイトルとサブタイトルを消す。アクションバーは消さない。",
+    "command_translation.help.argument.title.reset": "現在のタイトルとサブタイトルを消し、フェード時間を既定値に戻す。"
+  },
+  "syntax": [
+    {
+      "path": "title",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "title.targets",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "players",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "title.targets.actionbar",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "title.targets.actionbar.title",
+      "type": "argument",
+      "parser": "minecraft:component",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "title.targets.clear",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "title.targets.reset",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "title.targets.subtitle",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "title.targets.subtitle.title",
+      "type": "argument",
+      "parser": "minecraft:component",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "title.targets.times",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "title.targets.times.fadeIn",
+      "type": "argument",
+      "parser": "minecraft:time",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "title.targets.times.fadeIn.stay",
+      "type": "argument",
+      "parser": "minecraft:time",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "title.targets.times.fadeIn.stay.fadeOut",
+      "type": "argument",
+      "parser": "minecraft:time",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "title.targets.title",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "title.targets.title.title",
+      "type": "argument",
+      "parser": "minecraft:component",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

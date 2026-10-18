@@ -1,0 +1,30 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:map_id": "The map data number linking this item to shared map contents and decorations."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:map_id": "将该物品链接到共享地图内容与标记的地图数据编号。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:map_id": "Die Kartendatennummer, die dieses Item mit gemeinsamen Karteninhalten und Markierungen verknüpft."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:map_id": "このアイテムを共有の地図内容と装飾に結び付ける地図データ番号。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:map_id": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

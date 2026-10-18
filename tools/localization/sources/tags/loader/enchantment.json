@@ -1,0 +1,293 @@
+{
+  "sources": {
+    "command_translation.tag.enchantment.c.entity_auxiliary_movement_enhancements": [
+      {
+        "artifact": "net.neoforged:neoforge:21.1.234",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.1.2.84",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:2.12.0+c3656daa19",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.6.2+4f11f7994c",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.7.1+1f023a9e9e",
+        "resource": "assets/*/lang/*.json"
+      }
+    ],
+    "command_translation.tag.enchantment.c.entity_defense_enhancements": [
+      {
+        "artifact": "net.neoforged:neoforge:21.1.234",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.1.2.84",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:2.12.0+c3656daa19",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.6.2+4f11f7994c",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.7.1+1f023a9e9e",
+        "resource": "assets/*/lang/*.json"
+      }
+    ],
+    "command_translation.tag.enchantment.c.entity_speed_enhancements": [
+      {
+        "artifact": "net.neoforged:neoforge:21.1.234",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.1.2.84",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:2.12.0+c3656daa19",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.6.2+4f11f7994c",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.7.1+1f023a9e9e",
+        "resource": "assets/*/lang/*.json"
+      }
+    ],
+    "command_translation.tag.enchantment.c.increase_block_drops": [
+      {
+        "artifact": "net.neoforged:neoforge:21.1.234",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.1.2.84",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:2.12.0+c3656daa19",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.6.2+4f11f7994c",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.7.1+1f023a9e9e",
+        "resource": "assets/*/lang/*.json"
+      }
+    ],
+    "command_translation.tag.enchantment.c.increase_entity_drops": [
+      {
+        "artifact": "net.neoforged:neoforge:21.1.234",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.1.2.84",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:2.12.0+c3656daa19",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.6.2+4f11f7994c",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.7.1+1f023a9e9e",
+        "resource": "assets/*/lang/*.json"
+      }
+    ],
+    "command_translation.tag.enchantment.c.weapon_damage_enhancements": [
+      {
+        "artifact": "net.neoforged:neoforge:21.1.234",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.1.2.84",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:2.12.0+c3656daa19",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.6.2+4f11f7994c",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.7.1+1f023a9e9e",
+        "resource": "assets/*/lang/*.json"
+      }
+    ],
+    "command_translation.tag.enchantment.c.hidden_from_recipe_viewers": [
+      {
+        "artifact": "net.neoforged:neoforge:26.1.2.84",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.6.2+4f11f7994c",
+        "resource": "assets/*/lang/*.json"
+      },
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.7.1+1f023a9e9e",
+        "resource": "assets/*/lang/*.json"
+      }
+    ]
+  },
+  "en_us": {
+    "command_translation.tag.enchantment.c.entity_auxiliary_movement_enhancements": "Entity Auxiliary Movement Enhancements",
+    "command_translation.tag.enchantment.c.entity_defense_enhancements": "Entity Defense Enhancements",
+    "command_translation.tag.enchantment.c.entity_speed_enhancements": "Entity Speed Enhancements",
+    "command_translation.tag.enchantment.c.increase_block_drops": "Increases Block Drops",
+    "command_translation.tag.enchantment.c.increase_entity_drops": "Increases Entity Drops",
+    "command_translation.tag.enchantment.c.weapon_damage_enhancements": "Weapon Damage Enhancements",
+    "command_translation.tag.enchantment.c.hidden_from_recipe_viewers": "Hidden From Recipe Viewers"
+  },
+  "de_de": {
+    "command_translation.tag.enchantment.c.entity_auxiliary_movement_enhancements": "Verzauberung zur Entitätshilfebewegungen",
+    "command_translation.tag.enchantment.c.entity_defense_enhancements": "Verzauberung zur Entitätsverteidigung",
+    "command_translation.tag.enchantment.c.entity_speed_enhancements": "Verzauberung zur Entitätsgeschwindigkeit",
+    "command_translation.tag.enchantment.c.increase_block_drops": "Erhöht die Blockdrops",
+    "command_translation.tag.enchantment.c.increase_entity_drops": "Erhöht die Entitätsdrops",
+    "command_translation.tag.enchantment.c.weapon_damage_enhancements": "Waffenschaden-Verzauberungen"
+  },
+  "it_it": {
+    "command_translation.tag.enchantment.c.entity_auxiliary_movement_enhancements": "Miglioramenti ai movimenti ausiliari delle entità",
+    "command_translation.tag.enchantment.c.entity_defense_enhancements": "Miglioramenti alla difesa delle entità",
+    "command_translation.tag.enchantment.c.entity_speed_enhancements": "Miglioramenti alla velocità delle entità",
+    "command_translation.tag.enchantment.c.increase_block_drops": "Aumenta i drop dei blocchi",
+    "command_translation.tag.enchantment.c.increase_entity_drops": "Aumenta i drop delle entità",
+    "command_translation.tag.enchantment.c.weapon_damage_enhancements": "Miglioramenti al danno dalle armi",
+    "command_translation.tag.enchantment.c.hidden_from_recipe_viewers": "Nascosto nelle anteprime di ricette"
+  },
+  "ja_jp": {
+    "command_translation.tag.enchantment.c.entity_auxiliary_movement_enhancements": "エンティティの移動強化",
+    "command_translation.tag.enchantment.c.entity_defense_enhancements": "エンティティの防御強化",
+    "command_translation.tag.enchantment.c.entity_speed_enhancements": "エンティティの速度向上",
+    "command_translation.tag.enchantment.c.increase_block_drops": "ブロックのドロップ追加",
+    "command_translation.tag.enchantment.c.increase_entity_drops": "エンティティのドロップ追加",
+    "command_translation.tag.enchantment.c.weapon_damage_enhancements": "武器のダメージ強化"
+  },
+  "ko_kr": {
+    "command_translation.tag.enchantment.c.entity_auxiliary_movement_enhancements": "엔티티 부수적 움직임 향상",
+    "command_translation.tag.enchantment.c.entity_defense_enhancements": "엔티티 방어력 증가",
+    "command_translation.tag.enchantment.c.entity_speed_enhancements": "엔티티 속도 가속화",
+    "command_translation.tag.enchantment.c.increase_block_drops": "드롭되는 블럭 증가",
+    "command_translation.tag.enchantment.c.increase_entity_drops": "엔티티가 떨어트리는 아이템 증가",
+    "command_translation.tag.enchantment.c.weapon_damage_enhancements": "무기 대미지 증가"
+  },
+  "ms_my": {
+    "command_translation.tag.enchantment.c.entity_auxiliary_movement_enhancements": "Sihir Pergerakan Bantuan Entiti",
+    "command_translation.tag.enchantment.c.entity_defense_enhancements": "Sihir Perlindungan Entiti",
+    "command_translation.tag.enchantment.c.entity_speed_enhancements": "Sihir Kelajuan Entiti",
+    "command_translation.tag.enchantment.c.increase_block_drops": "Meningkatkan Lepasan Blok",
+    "command_translation.tag.enchantment.c.increase_entity_drops": "Meningkatkan Lepasan Entiti",
+    "command_translation.tag.enchantment.c.weapon_damage_enhancements": "Sihir Kecederaan Senjata"
+  },
+  "pl_pl": {
+    "command_translation.tag.enchantment.c.entity_auxiliary_movement_enhancements": "Uwydatnienia przemieszczania się",
+    "command_translation.tag.enchantment.c.entity_defense_enhancements": "Uwydatnienia obrony",
+    "command_translation.tag.enchantment.c.entity_speed_enhancements": "Uwydatnienia prędkości",
+    "command_translation.tag.enchantment.c.increase_block_drops": "Zwiększa wydobycie z bloków",
+    "command_translation.tag.enchantment.c.increase_entity_drops": "Zwiększa zysk z zabicia bytów",
+    "command_translation.tag.enchantment.c.weapon_damage_enhancements": "Uwydatnienia obrażeń wyrządzonych przez broń"
+  },
+  "pt_br": {
+    "command_translation.tag.enchantment.c.entity_auxiliary_movement_enhancements": "Melhorias do Movimento Auxiliar de Entidade",
+    "command_translation.tag.enchantment.c.entity_defense_enhancements": "Encantamentos de defesa da entidade",
+    "command_translation.tag.enchantment.c.entity_speed_enhancements": "Encantamentos de velocidade da entidade",
+    "command_translation.tag.enchantment.c.increase_block_drops": "Aumentar a taxa de blocos",
+    "command_translation.tag.enchantment.c.increase_entity_drops": "Aumentar a taxa de itens de entidades",
+    "command_translation.tag.enchantment.c.weapon_damage_enhancements": "Encantamentos de dano da arma"
+  },
+  "ru_ru": {
+    "command_translation.tag.enchantment.c.entity_auxiliary_movement_enhancements": "Дополнительные улучшения движения сущностей",
+    "command_translation.tag.enchantment.c.entity_defense_enhancements": "Улучшения защиты сущностей",
+    "command_translation.tag.enchantment.c.entity_speed_enhancements": "Улучшения скорости сущностей",
+    "command_translation.tag.enchantment.c.increase_block_drops": "Увеличение добычи блоков",
+    "command_translation.tag.enchantment.c.increase_entity_drops": "Увеличение добычи с сущностей",
+    "command_translation.tag.enchantment.c.weapon_damage_enhancements": "Улучшения урона оружия"
+  },
+  "zh_cn": {
+    "command_translation.tag.enchantment.c.entity_auxiliary_movement_enhancements": "实体辅助运动增强",
+    "command_translation.tag.enchantment.c.entity_defense_enhancements": "实体防御增强",
+    "command_translation.tag.enchantment.c.entity_speed_enhancements": "实体速度增强",
+    "command_translation.tag.enchantment.c.increase_block_drops": "增加方块掉落",
+    "command_translation.tag.enchantment.c.increase_entity_drops": "增加实体掉落",
+    "command_translation.tag.enchantment.c.weapon_damage_enhancements": "武器伤害增强"
+  },
+  "zh_tw": {
+    "command_translation.tag.enchantment.c.entity_auxiliary_movement_enhancements": "實體輔助運動增強",
+    "command_translation.tag.enchantment.c.entity_defense_enhancements": "實體防禦增強",
+    "command_translation.tag.enchantment.c.entity_speed_enhancements": "實體速度增強",
+    "command_translation.tag.enchantment.c.increase_block_drops": "增加方塊掉落",
+    "command_translation.tag.enchantment.c.increase_entity_drops": "增加實體掉落",
+    "command_translation.tag.enchantment.c.weapon_damage_enhancements": "武器傷害增強"
+  },
+  "zlm_arab": {
+    "command_translation.tag.enchantment.c.entity_auxiliary_movement_enhancements": "سيحير ڤرݢرقن بنتوان اينتيتي",
+    "command_translation.tag.enchantment.c.entity_defense_enhancements": "سيحير ڤرليندوڠن اينتيتي",
+    "command_translation.tag.enchantment.c.entity_speed_enhancements": "سيحير کلاجوان اينتيتي",
+    "command_translation.tag.enchantment.c.increase_block_drops": "منيڠکتکن لڤسن بلوک",
+    "command_translation.tag.enchantment.c.increase_entity_drops": "منيڠکتکن لڤسن اينتيتي",
+    "command_translation.tag.enchantment.c.weapon_damage_enhancements": "سيحير کچدراءن سنجات"
+  },
+  "fr_fr": {
+    "command_translation.tag.enchantment.c.entity_auxiliary_movement_enhancements": "Améliorations auxiliaires de mouvement des entités",
+    "command_translation.tag.enchantment.c.entity_defense_enhancements": "Améliorations de défense des entités",
+    "command_translation.tag.enchantment.c.entity_speed_enhancements": "Améliorations de vitesse des entités",
+    "command_translation.tag.enchantment.c.increase_block_drops": "Augmente le butin des blocs",
+    "command_translation.tag.enchantment.c.increase_entity_drops": "Augmente le butin des entités",
+    "command_translation.tag.enchantment.c.weapon_damage_enhancements": "Améliorations des dégâts des armes"
+  },
+  "uk_ua": {
+    "command_translation.tag.enchantment.c.entity_auxiliary_movement_enhancements": "Зачарування поліпшення руху сутности",
+    "command_translation.tag.enchantment.c.entity_defense_enhancements": "Зачарування захисту сутности",
+    "command_translation.tag.enchantment.c.entity_speed_enhancements": "Зачарування швидкости сутности",
+    "command_translation.tag.enchantment.c.hidden_from_recipe_viewers": "Сховані від переглядачів рецептів",
+    "command_translation.tag.enchantment.c.increase_block_drops": "Збільшує випадання блоків",
+    "command_translation.tag.enchantment.c.increase_entity_drops": "Збільшує випадання сутностей",
+    "command_translation.tag.enchantment.c.weapon_damage_enhancements": "Зачарування шкоди зброї"
+  }
+}

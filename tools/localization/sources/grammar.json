@@ -1,0 +1,33 @@
+{
+  "description": "Version-pinned copies of vanilla data-generator command reports, used to maintain documentation coverage.",
+  "sources": [
+    {
+      "version": "1.20.1",
+      "repository": "https://github.com/misode/mcmeta",
+      "tag": "1.20.1-summary",
+      "revision": "15f05b54846b0cc5adebe63b245c7045ba105709",
+      "url": "https://raw.githubusercontent.com/misode/mcmeta/15f05b54846b0cc5adebe63b245c7045ba105709/commands/data.json"
+    },
+    {
+      "version": "1.21.1",
+      "repository": "https://github.com/misode/mcmeta",
+      "tag": "1.21.1-summary",
+      "revision": "7cffbcdad5fa36f22acef6bd4b869ecad4ca3fd9",
+      "url": "https://raw.githubusercontent.com/misode/mcmeta/7cffbcdad5fa36f22acef6bd4b869ecad4ca3fd9/commands/data.json"
+    },
+    {
+      "version": "26.1.2",
+      "repository": "https://github.com/misode/mcmeta",
+      "tag": "26.1.2-summary",
+      "revision": "805b8ac25af336a444125f325c33b768af0c8bb3",
+      "url": "https://raw.githubusercontent.com/misode/mcmeta/805b8ac25af336a444125f325c33b768af0c8bb3/commands/data.json"
+    },
+    {
+      "version": "26.2",
+      "repository": "https://github.com/misode/mcmeta",
+      "tag": "26.2-summary",
+      "revision": "711a353b47d84e6cb592a1b72f682e5f44759284",
+      "url": "https://raw.githubusercontent.com/misode/mcmeta/711a353b47d84e6cb592a1b72f682e5f44759284/commands/data.json"
+    }
+  ]
+}

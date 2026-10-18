@@ -1,0 +1,30 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:wolf/sound_variant": "The wolf’s sound variant."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:wolf/sound_variant": "狼的声音变种，与外观分开设置。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:wolf/sound_variant": "Die Lautvariante des Wolfs."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:wolf/sound_variant": "オオカミの鳴き声のバリエーション。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:wolf/sound_variant": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ]
+  }
+}

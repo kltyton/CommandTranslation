@@ -1,0 +1,30 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:lock": "An item predicate that must be met to open this container."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:lock": "打开该容器所需的物品判定条件。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:lock": "Ein Gegenstandsprädikat, das zum Öffnen dieses Behälters erfüllt sein muss."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:lock": "このコンテナを開くために満たす必要があるアイテム条件。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:lock": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

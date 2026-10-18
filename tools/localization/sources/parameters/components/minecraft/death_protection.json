@@ -1,0 +1,204 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:death_protection": "Prevents the holder's death by restoring one health point.",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects": "The consume effects applied when this item prevents death.",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.type": "The kind of consume effect.",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.type.value.minecraft:apply_effects": "Applies the listed effects to the holder.",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.type.value.minecraft:remove_effects": "Removes the listed effects from the holder.",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.type.value.minecraft:clear_all_effects": "Clears all effects from the holder.",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.type.value.minecraft:teleport_randomly": "Teleports the holder to a random nearby location.",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.type.value.minecraft:play_sound": "Plays a sound.",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.effects": "The status effects to add or remove.",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.effects.id": "The ID of the effect.",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.effects.amplifier": "The effect amplifier, with level I being 0.",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.effects.duration": "The effect duration in ticks.",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.effects.ambient": "Whether the effect is less intrusive on screen like a beacon effect.",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.effects.show_particles": "Whether the effect produces particles.",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.effects.show_icon": "Whether an icon is shown for the effect.",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.probability": "The chance for these effects to be applied.",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.sound": "The sound event to play.",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.diameter": "The diameter within which the holder is teleported."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:death_protection": "通过恢复一点生命值使持有者免于死亡。",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects": "物品阻止死亡时施加的消耗效果。",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.type": "消耗效果的种类。",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.type.value.minecraft:apply_effects": "向持有者施加所列效果。",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.type.value.minecraft:remove_effects": "从持有者移除所列效果。",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.type.value.minecraft:clear_all_effects": "清除持有者的所有效果。",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.type.value.minecraft:teleport_randomly": "将持有者随机传送到附近位置。",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.type.value.minecraft:play_sound": "播放声音。",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.effects": "要添加或移除的状态效果。",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.effects.id": "效果的 ID。",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.effects.amplifier": "效果等级，I 级为 0。",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.effects.duration": "效果持续时间（刻）。",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.effects.ambient": "该效果是否如信标效果那样在屏幕上较不显眼。",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.effects.show_particles": "该效果是否产生粒子。",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.effects.show_icon": "是否为该效果显示图标。",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.probability": "施加这些效果的概率。",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.sound": "要播放的声音事件。",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.diameter": "持有者被传送的范围直径。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:death_protection": "Verhindert den Tod des Trägers durch Wiederherstellen eines Lebenspunkts.",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects": "Die Verzehreffekte, die angewendet werden, wenn dieses Item den Tod verhindert.",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.type": "Die Art des Verzehreffekts.",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.type.value.minecraft:apply_effects": "Wendet die aufgeführten Effekte auf den Träger an.",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.type.value.minecraft:remove_effects": "Entfernt die aufgeführten Effekte vom Träger.",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.type.value.minecraft:clear_all_effects": "Entfernt alle Effekte des Trägers.",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.type.value.minecraft:teleport_randomly": "Teleportiert den Träger an einen zufälligen Ort in der Nähe.",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.type.value.minecraft:play_sound": "Spielt ein Geräusch ab.",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.effects": "Die hinzuzufügenden oder zu entfernenden Statuseffekte.",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.effects.id": "Die ID des Effekts.",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.effects.amplifier": "Der Effektverstärker, wobei Stufe I den Wert 0 hat.",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.effects.duration": "Die Wirkungsdauer in Ticks.",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.effects.ambient": "Ob der Effekt wie ein Leuchtfeuereffekt auf dem Bildschirm weniger aufdringlich ist.",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.effects.show_particles": "Ob der Effekt Partikel erzeugt.",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.effects.show_icon": "Ob ein Symbol für den Effekt angezeigt wird.",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.probability": "Die Wahrscheinlichkeit, dass diese Effekte angewendet werden.",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.sound": "Das abzuspielende Geräuschereignis.",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.diameter": "Der Durchmesser, innerhalb dessen der Träger teleportiert wird."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:death_protection": "体力を1回復して所持者の死を防ぐ。",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects": "このアイテムが死亡を防いだときに適用される消費効果。",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.type": "消費効果の種類。",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.type.value.minecraft:apply_effects": "一覧の効果を所持者に付与する。",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.type.value.minecraft:remove_effects": "一覧の効果を所持者から解除する。",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.type.value.minecraft:clear_all_effects": "所持者の全効果を解除する。",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.type.value.minecraft:teleport_randomly": "所持者を付近のランダムな位置へテレポートする。",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.type.value.minecraft:play_sound": "サウンドを再生する。",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.effects": "追加または解除する状態効果。",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.effects.id": "効果のID。",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.effects.amplifier": "効果の強度。レベルIが0。",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.effects.duration": "効果の持続時間（ティック）。",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.effects.ambient": "ビーコン効果のように画面上で控えめに表示されるか。",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.effects.show_particles": "この効果がパーティクルを出すか。",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.effects.show_icon": "この効果のアイコンを表示するか。",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.probability": "これらの効果が付与される確率。",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.sound": "再生するサウンドイベント。",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.diameter": "所持者がテレポートする範囲の直径。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:death_protection": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:death_protection.field.death_effects": [
+      {
+        "url": "https://minecraft.wiki/w/Template%3ANbt%20inherit%2Fconsume%20effect%2Ftemplate",
+        "revision": 2857184
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.type": [
+      {
+        "url": "https://minecraft.wiki/w/Template%3ANbt%20inherit%2Fconsume%20effect%2Ftemplate",
+        "revision": 2857184
+      }
+    ],
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.type.value.minecraft:apply_effects": [
+      {
+        "url": "https://minecraft.wiki/w/Template%3ANbt%20inherit%2Fconsume%20effect%2Ftemplate",
+        "revision": 2857184
+      }
+    ],
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.type.value.minecraft:remove_effects": [
+      {
+        "url": "https://minecraft.wiki/w/Template%3ANbt%20inherit%2Fconsume%20effect%2Ftemplate",
+        "revision": 2857184
+      }
+    ],
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.type.value.minecraft:clear_all_effects": [
+      {
+        "url": "https://minecraft.wiki/w/Template%3ANbt%20inherit%2Fconsume%20effect%2Ftemplate",
+        "revision": 2857184
+      }
+    ],
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.type.value.minecraft:teleport_randomly": [
+      {
+        "url": "https://minecraft.wiki/w/Template%3ANbt%20inherit%2Fconsume%20effect%2Ftemplate",
+        "revision": 2857184
+      }
+    ],
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.type.value.minecraft:play_sound": [
+      {
+        "url": "https://minecraft.wiki/w/Template%3ANbt%20inherit%2Fconsume%20effect%2Ftemplate",
+        "revision": 2857184
+      }
+    ],
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.effects": [
+      {
+        "url": "https://minecraft.wiki/w/Template%3ANbt%20inherit%2Fconsume%20effect%2Ftemplate",
+        "revision": 2857184
+      }
+    ],
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.effects.id": [
+      {
+        "url": "https://minecraft.wiki/w/Template%3ANbt%20inherit%2Fconsume%20effect%2Ftemplate",
+        "revision": 2857184
+      }
+    ],
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.effects.amplifier": [
+      {
+        "url": "https://minecraft.wiki/w/Template%3ANbt%20inherit%2Fconsume%20effect%2Ftemplate",
+        "revision": 2857184
+      }
+    ],
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.effects.duration": [
+      {
+        "url": "https://minecraft.wiki/w/Template%3ANbt%20inherit%2Fconsume%20effect%2Ftemplate",
+        "revision": 2857184
+      }
+    ],
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.effects.ambient": [
+      {
+        "url": "https://minecraft.wiki/w/Template%3ANbt%20inherit%2Fconsume%20effect%2Ftemplate",
+        "revision": 2857184
+      }
+    ],
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.effects.show_particles": [
+      {
+        "url": "https://minecraft.wiki/w/Template%3ANbt%20inherit%2Fconsume%20effect%2Ftemplate",
+        "revision": 2857184
+      }
+    ],
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.effects.show_icon": [
+      {
+        "url": "https://minecraft.wiki/w/Template%3ANbt%20inherit%2Fconsume%20effect%2Ftemplate",
+        "revision": 2857184
+      }
+    ],
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.probability": [
+      {
+        "url": "https://minecraft.wiki/w/Template%3ANbt%20inherit%2Fconsume%20effect%2Ftemplate",
+        "revision": 2857184
+      }
+    ],
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.sound": [
+      {
+        "url": "https://minecraft.wiki/w/Template%3ANbt%20inherit%2Fconsume%20effect%2Ftemplate",
+        "revision": 2857184
+      }
+    ],
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.diameter": [
+      {
+        "url": "https://minecraft.wiki/w/Template%3ANbt%20inherit%2Fconsume%20effect%2Ftemplate",
+        "revision": 2857184
+      }
+    ]
+  }
+}

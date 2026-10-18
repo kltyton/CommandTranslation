@@ -1,0 +1,4341 @@
+{
+  "nativeSources": [
+    {
+      "version": "1.20.1",
+      "source": "Minecraft 1.20.1 client data/minecraft/tags"
+    },
+    {
+      "version": "1.21.1",
+      "source": "Minecraft 1.21.1 client data/minecraft/tags"
+    },
+    {
+      "version": "26.1.2",
+      "source": "Minecraft 26.1.2 client data/minecraft/tags"
+    },
+    {
+      "version": "26.2",
+      "source": "Minecraft 26.2 client data/minecraft/tags"
+    }
+  ],
+  "registries": {
+    "banner_pattern": {
+      "minecraft:no_item_required": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:pattern_item/creeper": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:pattern_item/flower": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:pattern_item/globe": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:pattern_item/mojang": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:pattern_item/piglin": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:pattern_item/skull": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:pattern_item/flow": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:pattern_item/guster": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:pattern_item/bordure_indented": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:pattern_item/field_masoned": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    "block": {
+      "minecraft:acacia_logs": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:all_hanging_signs": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:all_signs": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:ancient_city_replaceable": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:animals_spawnable_on": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:anvil": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:axolotls_spawnable_on": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:azalea_grows_on": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:azalea_root_replaceable": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:bamboo_blocks": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:bamboo_plantable_on": [
+        "1.20.1",
+        "1.21.1"
+      ],
+      "minecraft:banners": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:base_stone_nether": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:base_stone_overworld": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:beacon_base_blocks": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:beds": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:bee_growables": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:beehives": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:big_dripleaf_placeable": [
+        "1.20.1",
+        "1.21.1"
+      ],
+      "minecraft:birch_logs": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:buttons": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:campfires": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:candle_cakes": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:candles": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:cauldrons": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:cave_vines": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:ceiling_hanging_signs": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:cherry_logs": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:climbable": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:coal_ores": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:combination_step_sound_blocks": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:completes_find_tree_tutorial": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:convertable_to_mud": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:copper_ores": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:coral_blocks": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:coral_plants": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:corals": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:crimson_stems": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:crops": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:crystal_sound_blocks": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:dampens_vibrations": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:dark_oak_logs": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:dead_bush_may_place_on": [
+        "1.20.1",
+        "1.21.1"
+      ],
+      "minecraft:deepslate_ore_replaceables": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:diamond_ores": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:dirt": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:doors": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:dragon_immune": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:dragon_transparent": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:dripstone_replaceable_blocks": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:emerald_ores": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:enchantment_power_provider": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:enchantment_power_transmitter": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:enderman_holdable": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:fall_damage_resetting": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:features_cannot_replace": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:fence_gates": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:fences": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:fire": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:flower_pots": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:flowers": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:foxes_spawnable_on": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:frog_prefer_jump_to": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:frogs_spawnable_on": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:geode_invalid_blocks": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:goats_spawnable_on": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:gold_ores": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:guarded_by_piglins": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:hoglin_repellents": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:ice": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:impermeable": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:infiniburn_end": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:infiniburn_nether": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:infiniburn_overworld": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:inside_step_sound_blocks": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:invalid_spawn_inside": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:iron_ores": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:jungle_logs": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:lapis_ores": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:lava_pool_stone_cannot_replace": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:leaves": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:logs": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:logs_that_burn": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:lush_ground_replaceable": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:maintains_farmland": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:mangrove_logs": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:mangrove_logs_can_grow_through": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:mangrove_roots_can_grow_through": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:mineable/axe": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:mineable/hoe": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:mineable/pickaxe": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:mineable/shovel": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:mooshrooms_spawnable_on": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:moss_replaceable": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:mushroom_grow_block": [
+        "1.20.1",
+        "1.21.1"
+      ],
+      "minecraft:needs_diamond_tool": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:needs_iron_tool": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:needs_stone_tool": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:nether_carver_replaceables": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:nylium": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:oak_logs": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:occludes_vibration_signals": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:overworld_carver_replaceables": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:overworld_natural_logs": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:parrots_spawnable_on": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:piglin_repellents": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:planks": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:polar_bears_spawnable_on_alternate": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:portals": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:pressure_plates": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:prevent_mob_spawning_inside": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:rabbits_spawnable_on": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:rails": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:redstone_ores": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:replaceable": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:replaceable_by_trees": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:sand": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:saplings": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:sculk_replaceable": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:sculk_replaceable_world_gen": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:shulker_boxes": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:signs": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:slabs": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:small_dripleaf_placeable": [
+        "1.20.1",
+        "1.21.1"
+      ],
+      "minecraft:small_flowers": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:smelts_to_glass": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:snaps_goat_horn": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:sniffer_diggable_block": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:sniffer_egg_hatch_boost": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:snow": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:snow_layer_can_survive_on": [
+        "1.20.1",
+        "1.21.1"
+      ],
+      "minecraft:snow_layer_cannot_survive_on": [
+        "1.20.1",
+        "1.21.1"
+      ],
+      "minecraft:soul_fire_base_blocks": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:soul_speed_blocks": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:spruce_logs": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:stairs": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:standing_signs": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:stone_bricks": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:stone_buttons": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:stone_ore_replaceables": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:stone_pressure_plates": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:strider_warm_blocks": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:sword_efficient": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:tall_flowers": [
+        "1.20.1",
+        "1.21.1"
+      ],
+      "minecraft:terracotta": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:trail_ruins_replaceable": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:trapdoors": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:underwater_bonemeals": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:unstable_bottom_center": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:valid_spawn": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:vibration_resonators": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:wall_corals": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:wall_hanging_signs": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:wall_post_override": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:wall_signs": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:walls": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:warped_stems": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:wart_blocks": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:wither_immune": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:wither_summon_base_blocks": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:wolves_spawnable_on": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:wooden_buttons": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:wooden_doors": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:wooden_fences": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:wooden_pressure_plates": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:wooden_slabs": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:wooden_stairs": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:wooden_trapdoors": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:wool": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:wool_carpets": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:air": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:armadillo_spawnable_on": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:badlands_terracotta": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:blocks_wind_charge_explosions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:camel_sand_step_sound_blocks": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:concrete_powder": [
+        "1.21.1",
+        "26.1.2"
+      ],
+      "minecraft:does_not_block_hoppers": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:incorrect_for_diamond_tool": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:incorrect_for_gold_tool": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:incorrect_for_iron_tool": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:incorrect_for_netherite_tool": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:incorrect_for_stone_tool": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:incorrect_for_wooden_tool": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:mob_interactable_doors": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:bars": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:bats_spawnable_on": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:bee_attractive": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:beneath_bamboo_podzol_replaceable": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:beneath_tree_podzol_replaceable": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:camels_spawnable_on": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:can_glide_through": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:cannot_replace_below_tree_trunk": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:cannot_support_kelp": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:cannot_support_seagrass": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:cannot_support_snow_layer": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:chains": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:copper": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:copper_chests": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:copper_golem_statues": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:edible_for_sheep": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:enables_bubble_column_drag_down": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:enables_bubble_column_push_up": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:forest_rock_can_place_on": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:grass_blocks": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:grows_crops": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:happy_ghast_avoids": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:huge_brown_mushroom_can_place_on": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:huge_red_mushroom_can_place_on": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:ice_spike_replaceable": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:incorrect_for_copper_tool": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:lanterns": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:lightning_rods": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:moss_blocks": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:mud": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:overrides_mushroom_light_requirement": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:pale_oak_logs": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:prevents_nearby_leaf_decay": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:replaceable_by_mushrooms": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:substrate_overworld": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:support_override_cactus_flower": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:support_override_snow_layer": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:supports_azalea": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:supports_bamboo": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:supports_big_dripleaf": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:supports_cactus": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:supports_chorus_flower": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:supports_chorus_plant": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:supports_cocoa": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:supports_crimson_fungus": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:supports_crimson_roots": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:supports_crops": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:supports_dry_vegetation": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:supports_frogspawn": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:supports_hanging_mangrove_propagule": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:supports_lily_pad": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:supports_mangrove_propagule": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:supports_melon_stem": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:supports_melon_stem_fruit": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:supports_nether_sprouts": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:supports_nether_wart": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:supports_pumpkin_stem": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:supports_pumpkin_stem_fruit": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:supports_small_dripleaf": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:supports_stem_crops": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:supports_stem_fruit": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:supports_sugar_cane": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:supports_sugar_cane_adjacently": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:supports_vegetation": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:supports_warped_fungus": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:supports_warped_roots": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:supports_wither_rose": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:sword_instantly_mines": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:triggers_ambient_desert_dry_vegetation_block_sounds": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:triggers_ambient_desert_sand_block_sounds": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:triggers_ambient_dried_ghast_block_sounds": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:wooden_shelves": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:causes_continuous_geyser_eruptions": [
+        "26.2"
+      ],
+      "minecraft:causes_periodic_geyser_eruptions": [
+        "26.2"
+      ],
+      "minecraft:concrete": [
+        "26.2"
+      ],
+      "minecraft:concrete_powders": [
+        "26.2"
+      ],
+      "minecraft:default_immune_to": [
+        "26.2"
+      ],
+      "minecraft:fox_immune_to": [
+        "26.2"
+      ],
+      "minecraft:glazed_terracotta": [
+        "26.2"
+      ],
+      "minecraft:polar_bear_immune_to": [
+        "26.2"
+      ],
+      "minecraft:shears_extreme_breaking_speed": [
+        "26.2"
+      ],
+      "minecraft:shears_major_breaking_speed": [
+        "26.2"
+      ],
+      "minecraft:shears_minor_breaking_speed": [
+        "26.2"
+      ],
+      "minecraft:snow_golem_immune_to": [
+        "26.2"
+      ],
+      "minecraft:speleothems": [
+        "26.2"
+      ],
+      "minecraft:stray_immune_to": [
+        "26.2"
+      ],
+      "minecraft:sulfur_spike_replaceable_blocks": [
+        "26.2"
+      ],
+      "minecraft:suppresses_bounce": [
+        "26.2"
+      ],
+      "minecraft:wither_immune_to": [
+        "26.2"
+      ],
+      "minecraft:wither_skeleton_immune_to": [
+        "26.2"
+      ]
+    },
+    "cat_variant": {
+      "minecraft:default_spawns": [
+        "1.20.1",
+        "1.21.1"
+      ],
+      "minecraft:full_moon_spawns": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    "damage_type": {
+      "minecraft:always_hurts_ender_dragons": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:always_most_significant_fall": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:always_triggers_silverfish": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:avoids_guardian_thorns": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:burns_armor_stands": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:bypasses_armor": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:bypasses_effects": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:bypasses_enchantments": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:bypasses_invulnerability": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:bypasses_resistance": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:bypasses_shield": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:damages_helmet": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:ignites_armor_stands": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:is_drowning": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:is_explosion": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:is_fall": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:is_fire": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:is_freezing": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:is_lightning": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:is_projectile": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:no_anger": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:no_impact": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:witch_resistant_to": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:wither_immune_to": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:always_kills_armor_stands": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:burn_from_stepping": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:bypasses_wolf_armor": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:can_break_armor_stand": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:is_player_attack": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:no_knockback": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:panic_causes": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:panic_environmental_causes": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:mace_smash": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:sulfur_cube_with_block_immune_to": [
+        "26.2"
+      ]
+    },
+    "entity_type": {
+      "minecraft:arrows": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:axolotl_always_hostiles": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:axolotl_hunt_targets": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:beehive_inhabitors": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:dismounts_underwater": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:fall_damage_immune": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:freeze_hurts_extra_types": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:freeze_immune_entity_types": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:frog_food": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:impact_projectiles": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:powder_snow_walkable_mobs": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:raiders": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:skeletons": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:aquatic": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:arthropod": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:can_breathe_under_water": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:can_turn_in_boats": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:deflects_projectiles": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:ignores_poison_and_regen": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:illager": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:illager_friends": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:immune_to_infested": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:immune_to_oozing": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:inverted_healing_and_harm": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:no_anger_from_wind_charge": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:non_controlling_rider": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:not_scary_for_pufferfish": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:redirectable_projectile": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:sensitive_to_bane_of_arthropods": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:sensitive_to_impaling": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:sensitive_to_smite": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:undead": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:wither_friends": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:zombies": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:accepts_iron_golem_gift": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:boat": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:burn_in_daylight": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:can_equip_harness": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:can_equip_saddle": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:can_float_while_ridden": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:can_wear_horse_armor": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:can_wear_nautilus_armor": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:candidate_for_iron_golem_gift": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:cannot_be_age_locked": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:cannot_be_pushed_onto_boats": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:followable_friendly_mobs": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:nautilus_hostiles": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:not_affected_by_geysers": [
+        "26.2"
+      ]
+    },
+    "fluid": {
+      "minecraft:lava": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:water": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:bubble_column_can_occupy": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:supports_frogspawn": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:supports_lily_pad": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:supports_sugar_cane_adjacently": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    "game_event": {
+      "minecraft:allay_can_listen": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:ignore_vibrations_sneaking": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:shrieker_can_listen": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:vibrations": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:warden_can_listen": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    "instrument": {
+      "minecraft:goat_horns": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:regular_goat_horns": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:screaming_goat_horns": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    "item": {
+      "minecraft:acacia_logs": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:anvil": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:arrows": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:axes": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:axolotl_tempt_items": [
+        "1.20.1"
+      ],
+      "minecraft:bamboo_blocks": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:banners": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:beacon_payment_items": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:beds": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:birch_logs": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:boats": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:bookshelf_books": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:breaks_decorated_pots": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:buttons": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:candles": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:cherry_logs": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:chest_boats": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:cluster_max_harvestables": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:coal_ores": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:coals": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:compasses": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:completes_find_tree_tutorial": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:copper_ores": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:creeper_drop_music_discs": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:creeper_igniters": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:crimson_stems": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:dampens_vibrations": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:dark_oak_logs": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:decorated_pot_ingredients": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:decorated_pot_sherds": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:diamond_ores": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:dirt": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:doors": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:emerald_ores": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:fence_gates": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:fences": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:fishes": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:flowers": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:fox_food": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:freeze_immune_wearables": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:gold_ores": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:hanging_signs": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:hoes": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:ignored_by_piglin_babies": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:iron_ores": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:jungle_logs": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:lapis_ores": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:leaves": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:lectern_books": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:logs": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:logs_that_burn": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:mangrove_logs": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:music_discs": [
+        "1.20.1"
+      ],
+      "minecraft:non_flammable_wood": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:noteblock_top_instruments": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:oak_logs": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:pickaxes": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:piglin_food": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:piglin_loved": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:piglin_repellents": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:planks": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:rails": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:redstone_ores": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:sand": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:saplings": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:shovels": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:signs": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:slabs": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:small_flowers": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:smelts_to_glass": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:sniffer_food": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:soul_fire_base_blocks": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:spruce_logs": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:stairs": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:stone_bricks": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:stone_buttons": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:stone_crafting_materials": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:stone_tool_materials": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:swords": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:tall_flowers": [
+        "1.20.1",
+        "1.21.1"
+      ],
+      "minecraft:terracotta": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:tools": [
+        "1.20.1"
+      ],
+      "minecraft:trapdoors": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:trim_materials": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:trim_templates": [
+        "1.20.1",
+        "1.21.1"
+      ],
+      "minecraft:trimmable_armor": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:villager_plantable_seeds": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:walls": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:warped_stems": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:wart_blocks": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:wooden_buttons": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:wooden_doors": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:wooden_fences": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:wooden_pressure_plates": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:wooden_slabs": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:wooden_stairs": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:wooden_trapdoors": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:wool": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:wool_carpets": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:armadillo_food": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:axolotl_food": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:bee_food": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:camel_food": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:cat_food": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:chest_armor": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:chicken_food": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:cow_food": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:dyeable": [
+        "1.21.1"
+      ],
+      "minecraft:enchantable/armor": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:enchantable/bow": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:enchantable/chest_armor": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:enchantable/crossbow": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:enchantable/durability": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:enchantable/equippable": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:enchantable/fire_aspect": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:enchantable/fishing": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:enchantable/foot_armor": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:enchantable/head_armor": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:enchantable/leg_armor": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:enchantable/mace": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:enchantable/mining": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:enchantable/mining_loot": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:enchantable/sharp_weapon": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:enchantable/sword": [
+        "1.21.1"
+      ],
+      "minecraft:enchantable/trident": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:enchantable/vanishing": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:enchantable/weapon": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:foot_armor": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:frog_food": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:goat_food": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:head_armor": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:hoglin_food": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:horse_food": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:horse_tempt_items": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:leg_armor": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:llama_food": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:llama_tempt_items": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:meat": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:ocelot_food": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:panda_food": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:parrot_food": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:parrot_poisonous_food": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:pig_food": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:rabbit_food": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:sheep_food": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:skulls": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:strider_food": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:strider_tempt_items": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:turtle_food": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:wolf_food": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:bars": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:book_cloning_target": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:brewing_fuel": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:bundles": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:camel_husk_food": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:cat_collar_dyes": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:cauldron_can_remove_dye": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:chains": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:copper": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:copper_chests": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:copper_golem_statues": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:copper_tool_materials": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:diamond_tool_materials": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:drowned_preferred_weapons": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:duplicates_allays": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:dyes": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:eggs": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:enchantable/lunge": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:enchantable/melee_weapon": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:enchantable/sweeping": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:furnace_minecart_fuel": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:gaze_disguise_equipment": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:gold_tool_materials": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:grass_blocks": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:happy_ghast_food": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:happy_ghast_tempt_items": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:harnesses": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:iron_tool_materials": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:lanterns": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:lightning_rods": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:loom_dyes": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:loom_patterns": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:map_invisibility_equipment": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:metal_nuggets": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:moss_blocks": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:mud": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:nautilus_bucket_food": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:nautilus_food": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:nautilus_taming_items": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:netherite_tool_materials": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:pale_oak_logs": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:panda_eats_from_ground": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:piglin_preferred_weapons": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:piglin_safe_armor": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:pillager_preferred_weapons": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:repairs_chain_armor": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:repairs_copper_armor": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:repairs_diamond_armor": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:repairs_gold_armor": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:repairs_iron_armor": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:repairs_leather_armor": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:repairs_netherite_armor": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:repairs_turtle_helmet": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:repairs_wolf_armor": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:shearable_from_copper_golem": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:shulker_boxes": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:skeleton_preferred_weapons": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:spears": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:villager_picks_up": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:wither_skeleton_disliked_weapons": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:wolf_collar_dyes": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:wooden_shelves": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:wooden_tool_materials": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:zombie_horse_food": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:concrete": [
+        "26.2"
+      ],
+      "minecraft:concrete_powders": [
+        "26.2"
+      ],
+      "minecraft:glazed_terracotta": [
+        "26.2"
+      ],
+      "minecraft:sulfur_cube_archetype/bouncy": [
+        "26.2"
+      ],
+      "minecraft:sulfur_cube_archetype/explosive": [
+        "26.2"
+      ],
+      "minecraft:sulfur_cube_archetype/fast_flat": [
+        "26.2"
+      ],
+      "minecraft:sulfur_cube_archetype/fast_sliding": [
+        "26.2"
+      ],
+      "minecraft:sulfur_cube_archetype/high_resistance": [
+        "26.2"
+      ],
+      "minecraft:sulfur_cube_archetype/hot": [
+        "26.2"
+      ],
+      "minecraft:sulfur_cube_archetype/light": [
+        "26.2"
+      ],
+      "minecraft:sulfur_cube_archetype/regular": [
+        "26.2"
+      ],
+      "minecraft:sulfur_cube_archetype/slow_bouncy": [
+        "26.2"
+      ],
+      "minecraft:sulfur_cube_archetype/slow_flat": [
+        "26.2"
+      ],
+      "minecraft:sulfur_cube_archetype/slow_sliding": [
+        "26.2"
+      ],
+      "minecraft:sulfur_cube_archetype/sticky": [
+        "26.2"
+      ],
+      "minecraft:sulfur_cube_food": [
+        "26.2"
+      ],
+      "minecraft:sulfur_cube_swallowable": [
+        "26.2"
+      ]
+    },
+    "painting_variant": {
+      "minecraft:placeable": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    "point_of_interest_type": {
+      "minecraft:acquirable_job_site": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:bee_home": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:village": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    "worldgen/biome": {
+      "minecraft:allows_surface_slime_spawns": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:allows_tropical_fish_spawns_at_any_height": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:has_closer_water_fog": [
+        "1.20.1",
+        "1.21.1"
+      ],
+      "minecraft:has_structure/ancient_city": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:has_structure/bastion_remnant": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:has_structure/buried_treasure": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:has_structure/desert_pyramid": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:has_structure/end_city": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:has_structure/igloo": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:has_structure/jungle_temple": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:has_structure/mineshaft": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:has_structure/mineshaft_mesa": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:has_structure/nether_fortress": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:has_structure/nether_fossil": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:has_structure/ocean_monument": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:has_structure/ocean_ruin_cold": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:has_structure/ocean_ruin_warm": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:has_structure/pillager_outpost": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:has_structure/ruined_portal_desert": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:has_structure/ruined_portal_jungle": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:has_structure/ruined_portal_mountain": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:has_structure/ruined_portal_nether": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:has_structure/ruined_portal_ocean": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:has_structure/ruined_portal_standard": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:has_structure/ruined_portal_swamp": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:has_structure/shipwreck": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:has_structure/shipwreck_beached": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:has_structure/stronghold": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:has_structure/swamp_hut": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:has_structure/trail_ruins": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:has_structure/village_desert": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:has_structure/village_plains": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:has_structure/village_savanna": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:has_structure/village_snowy": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:has_structure/village_taiga": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:has_structure/woodland_mansion": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:increased_fire_burnout": [
+        "1.20.1",
+        "1.21.1"
+      ],
+      "minecraft:is_badlands": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:is_beach": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:is_deep_ocean": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:is_end": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:is_forest": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:is_hill": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:is_jungle": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:is_mountain": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:is_nether": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:is_ocean": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:is_overworld": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:is_river": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:is_savanna": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:is_taiga": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:mineshaft_blocking": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:more_frequent_drowned_spawns": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:plays_underwater_music": [
+        "1.20.1",
+        "1.21.1"
+      ],
+      "minecraft:polar_bears_spawn_on_alternate_blocks": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:produces_corals_from_bonemeal": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:reduce_water_ambient_spawns": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:required_ocean_monument_surrounding": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:snow_golem_melts": [
+        "1.20.1",
+        "1.21.1"
+      ],
+      "minecraft:spawns_cold_variant_frogs": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:spawns_gold_rabbits": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:spawns_snow_foxes": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:spawns_warm_variant_frogs": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:spawns_white_rabbits": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:stronghold_biased_to": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:water_on_map_outlines": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:without_patrol_spawns": [
+        "1.20.1",
+        "1.21.1"
+      ],
+      "minecraft:without_wandering_trader_spawns": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:without_zombie_sieges": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:has_structure/trial_chambers": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:spawns_cold_variant_farm_animals": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:spawns_coral_variant_zombie_nautilus": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:spawns_warm_variant_farm_animals": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    "worldgen/flat_level_generator_preset": {
+      "minecraft:visible": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    "worldgen/structure": {
+      "minecraft:cats_spawn_as_black": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:cats_spawn_in": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:dolphin_located": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:eye_of_ender_located": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:mineshaft": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:ocean_ruin": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:on_ocean_explorer_maps": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:on_treasure_maps": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:on_woodland_explorer_maps": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:ruined_portal": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:shipwreck": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:village": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:on_trial_chambers_maps": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:on_desert_village_maps": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:on_jungle_explorer_maps": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:on_plains_village_maps": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:on_savanna_village_maps": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:on_snowy_village_maps": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:on_swamp_explorer_maps": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:on_taiga_village_maps": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    "worldgen/world_preset": {
+      "minecraft:extended": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:normal": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    "enchantment": {
+      "minecraft:curse": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:double_trade_price": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:exclusive_set/armor": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:exclusive_set/boots": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:exclusive_set/bow": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:exclusive_set/crossbow": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:exclusive_set/damage": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:exclusive_set/mining": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:exclusive_set/riptide": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:in_enchanting_table": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:non_treasure": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:on_mob_spawn_equipment": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:on_random_loot": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:on_traded_equipment": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:prevents_bee_spawns_when_mining": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:prevents_decorated_pot_shattering": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:prevents_ice_melting": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:prevents_infested_spawns": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:smelts_loot": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:tooltip_order": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:tradeable": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:treasure": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    "dialog": {
+      "minecraft:pause_screen_additions": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:quick_actions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    "potion": {
+      "minecraft:tradeable": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    "timeline": {
+      "minecraft:in_end": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:in_nether": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:in_overworld": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:universal": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    "villager_trade": {
+      "minecraft:armorer/level_1": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:armorer/level_2": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:armorer/level_3": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:armorer/level_4": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:armorer/level_5": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:butcher/level_1": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:butcher/level_2": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:butcher/level_3": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:butcher/level_4": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:butcher/level_5": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:cartographer/level_1": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:cartographer/level_2": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:cartographer/level_3": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:cartographer/level_4": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:cartographer/level_5": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:cleric/level_1": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:cleric/level_2": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:cleric/level_3": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:cleric/level_4": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:cleric/level_5": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:common_smith/level_1": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:common_smith/level_2": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:common_smith/level_3": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:common_smith/level_4": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:common_smith/level_5": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:farmer/level_1": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:farmer/level_2": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:farmer/level_3": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:farmer/level_4": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:farmer/level_5": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:fisherman/level_1": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:fisherman/level_2": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:fisherman/level_3": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:fisherman/level_4": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:fisherman/level_5": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:fletcher/level_1": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:fletcher/level_2": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:fletcher/level_3": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:fletcher/level_4": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:fletcher/level_5": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:leatherworker/level_1": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:leatherworker/level_2": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:leatherworker/level_3": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:leatherworker/level_4": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:leatherworker/level_5": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:librarian/level_1": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:librarian/level_2": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:librarian/level_3": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:librarian/level_4": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:librarian/level_5": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:mason/level_1": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:mason/level_2": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:mason/level_3": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:mason/level_4": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:mason/level_5": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:shepherd/level_1": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:shepherd/level_2": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:shepherd/level_3": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:shepherd/level_4": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:shepherd/level_5": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:toolsmith/level_1": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:toolsmith/level_2": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:toolsmith/level_3": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:toolsmith/level_4": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:toolsmith/level_5": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:wandering_trader/buying": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:wandering_trader/common": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:wandering_trader/uncommon": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:weaponsmith/level_1": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:weaponsmith/level_2": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:weaponsmith/level_3": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:weaponsmith/level_4": [
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:weaponsmith/level_5": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    "worldgen/configured_feature": {
+      "minecraft:can_spawn_from_bone_meal": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    "function": {
+      "minecraft:load": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "minecraft:tick": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "registry": "block",
+      "title": "Block tag (Java Edition)",
+      "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+      "revision": 3843013
+    },
+    {
+      "registry": "item",
+      "title": "Item tag (Java Edition)",
+      "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+      "revision": 3840085
+    },
+    {
+      "registry": "fluid",
+      "title": "Fluid tag (Java Edition)",
+      "url": "https://minecraft.wiki/w/Fluid%20tag%20(Java%20Edition)",
+      "revision": 3840743
+    },
+    {
+      "registry": "entity_type",
+      "title": "Entity type tag (Java Edition)",
+      "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+      "revision": 3842605
+    },
+    {
+      "registry": "game_event",
+      "title": "Game event tag (Java Edition)",
+      "url": "https://minecraft.wiki/w/Game%20event%20tag%20(Java%20Edition)",
+      "revision": 3839224
+    },
+    {
+      "registry": "worldgen/biome",
+      "title": "Biome tag (Java Edition)",
+      "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+      "revision": 3842876
+    },
+    {
+      "registry": "worldgen/flat_level_generator_preset",
+      "title": "Flat level generator preset tag (Java Edition)",
+      "url": "https://minecraft.wiki/w/Flat%20level%20generator%20preset%20tag%20(Java%20Edition)",
+      "revision": 3839219
+    },
+    {
+      "registry": "worldgen/world_preset",
+      "title": "World preset tag (Java Edition)",
+      "url": "https://minecraft.wiki/w/World%20preset%20tag%20(Java%20Edition)",
+      "revision": 3839233
+    },
+    {
+      "registry": "worldgen/structure",
+      "title": "Structure tag (Java Edition)",
+      "url": "https://minecraft.wiki/w/Structure%20tag%20(Java%20Edition)",
+      "revision": 3839230
+    },
+    {
+      "registry": "point_of_interest_type",
+      "title": "Point of interest type tag (Java Edition)",
+      "url": "https://minecraft.wiki/w/Point%20of%20interest%20type%20tag%20(Java%20Edition)",
+      "revision": 3839228
+    },
+    {
+      "registry": "painting_variant",
+      "title": "Painting variant tag (Java Edition)",
+      "url": "https://minecraft.wiki/w/Painting%20variant%20tag%20(Java%20Edition)",
+      "revision": 3839227
+    },
+    {
+      "registry": "banner_pattern",
+      "title": "Banner pattern tag (Java Edition)",
+      "url": "https://minecraft.wiki/w/Banner%20pattern%20tag%20(Java%20Edition)",
+      "revision": 3839209
+    },
+    {
+      "registry": "instrument",
+      "title": "Instrument tag (Java Edition)",
+      "url": "https://minecraft.wiki/w/Instrument%20tag%20(Java%20Edition)",
+      "revision": 3839225
+    },
+    {
+      "registry": "enchantment",
+      "title": "Enchantment tag (Java Edition)",
+      "url": "https://minecraft.wiki/w/Enchantment%20tag%20(Java%20Edition)",
+      "revision": 3839189
+    },
+    {
+      "registry": "dialog",
+      "title": "Dialog tag (Java Edition)",
+      "url": "https://minecraft.wiki/w/Dialog%20tag%20(Java%20Edition)",
+      "revision": 3839216
+    },
+    {
+      "registry": "timeline",
+      "title": "Timeline tag (Java Edition)",
+      "url": "https://minecraft.wiki/w/Timeline%20tag%20(Java%20Edition)",
+      "revision": 3839231
+    },
+    {
+      "registry": "potion",
+      "title": "Potion tag (Java Edition)",
+      "url": "https://minecraft.wiki/w/Potion%20tag%20(Java%20Edition)",
+      "revision": 3839229
+    },
+    {
+      "registry": "villager_trade",
+      "title": "Villager trade tag (Java Edition)",
+      "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+      "revision": 3843024
+    },
+    {
+      "registry": "worldgen/configured_feature",
+      "title": "Feature tag (Java Edition)",
+      "url": "https://minecraft.wiki/w/Feature%20tag%20(Java%20Edition)",
+      "revision": 3839218
+    },
+    {
+      "registry": "damage_type",
+      "title": "Damage type tag (Java Edition)",
+      "url": "https://minecraft.wiki/w/Damage%20type%20tag%20(Java%20Edition)",
+      "revision": 3840072
+    },
+    {
+      "registry": "cat_variant",
+      "title": "Cat variant tag (Java Edition)",
+      "url": "https://minecraft.wiki/w/Cat%20variant%20tag%20(Java%20Edition)",
+      "revision": 3839214
+    },
+    {
+      "registry": "function",
+      "title": "Function tag (Java Edition)",
+      "url": "https://minecraft.wiki/w/Function%20tag%20(Java%20Edition)",
+      "revision": 3839222
+    }
+  ]
+}

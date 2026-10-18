@@ -1,0 +1,262 @@
+{
+  "en_us": {
+    "command_translation.help.argument.teleport.targets": "The entities to teleport; defaults to the executor.",
+    "command_translation.help.argument.teleport.destination": "The single entity whose position and rotation the targets take.",
+    "command_translation.help.argument.teleport.location": "The coordinates to teleport the targets to.",
+    "command_translation.help.argument.teleport.rotation": "The rotation the targets have after teleporting, as yaw then pitch in degrees.",
+    "command_translation.help.argument.teleport.facing": "Makes the targets face a coordinate or another entity instead of an exact rotation.",
+    "command_translation.help.argument.teleport.facingLocation": "The coordinates the targets should look toward.",
+    "command_translation.help.argument.teleport.facingEntity": "The single entity the targets should look toward.",
+    "command_translation.help.argument.teleport.facingAnchor": "Which point of the other entity to look at, eyes or feet.",
+    "command_translation.help.argument.teleport.entity": "Makes the targets face another entity, named in the next argument."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.teleport.targets": "要传送的实体；默认为执行者。",
+    "command_translation.help.argument.teleport.destination": "目标传送到的单个实体，目标采用其位置与朝向。",
+    "command_translation.help.argument.teleport.location": "要把目标传送到的坐标。",
+    "command_translation.help.argument.teleport.rotation": "传送后目标的朝向，先 yaw 后 pitch，单位为度。",
+    "command_translation.help.argument.teleport.facing": "让目标传送后朝向坐标或另一实体，而非精确朝向。",
+    "command_translation.help.argument.teleport.facingLocation": "目标要看向的坐标。",
+    "command_translation.help.argument.teleport.facingEntity": "目标要看向的单个实体。",
+    "command_translation.help.argument.teleport.facingAnchor": "看向对方实体的部位，eyes（眼睛）或 feet（脚部）。",
+    "command_translation.help.argument.teleport.entity": "让目标朝向下一参数指定的另一实体。"
+  },
+  "sources": {
+    "command_translation.help.argument.teleport.targets": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteleport",
+        "revision": 3846861
+      }
+    ],
+    "command_translation.help.argument.teleport.destination": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteleport",
+        "revision": 3846861
+      }
+    ],
+    "command_translation.help.argument.teleport.location": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteleport",
+        "revision": 3846861
+      }
+    ],
+    "command_translation.help.argument.teleport.rotation": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteleport",
+        "revision": 3846861
+      }
+    ],
+    "command_translation.help.argument.teleport.facing": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteleport",
+        "revision": 3846861
+      }
+    ],
+    "command_translation.help.argument.teleport.facingLocation": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteleport",
+        "revision": 3846861
+      }
+    ],
+    "command_translation.help.argument.teleport.facingEntity": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteleport",
+        "revision": 3846861
+      }
+    ],
+    "command_translation.help.argument.teleport.facingAnchor": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteleport",
+        "revision": 3846861
+      }
+    ],
+    "command_translation.help.argument.teleport.entity": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteleport",
+        "revision": 3846861
+      }
+    ]
+  },
+  "bindings": {
+    "teleport.destination": "command_translation.help.argument.teleport.destination",
+    "teleport.location": "command_translation.help.argument.teleport.location",
+    "teleport.targets": "command_translation.help.argument.teleport.targets",
+    "teleport.targets.destination": "command_translation.help.argument.teleport.destination",
+    "teleport.targets.location": "command_translation.help.argument.teleport.location",
+    "teleport.targets.location.facing": "command_translation.help.argument.teleport.facing",
+    "teleport.targets.location.facing.entity": "command_translation.help.argument.teleport.entity",
+    "teleport.targets.location.facing.entity.facingEntity": "command_translation.help.argument.teleport.facingEntity",
+    "teleport.targets.location.facing.entity.facingEntity.facingAnchor": "command_translation.help.argument.teleport.facingAnchor",
+    "teleport.targets.location.facing.facingLocation": "command_translation.help.argument.teleport.facingLocation",
+    "teleport.targets.location.rotation": "command_translation.help.argument.teleport.rotation"
+  },
+  "de_de": {
+    "command_translation.help.argument.teleport.targets": "Die zu teleportierenden Wesen; Standard ist der Ausführende.",
+    "command_translation.help.argument.teleport.destination": "Das einzelne Wesen, dessen Position und Blickrichtung die Ziele übernehmen.",
+    "command_translation.help.argument.teleport.location": "Die Koordinaten, zu denen die Ziele teleportiert werden.",
+    "command_translation.help.argument.teleport.rotation": "Die Blickrichtung der Ziele nach dem Teleport, als yaw dann pitch in Grad.",
+    "command_translation.help.argument.teleport.facing": "Lässt die Ziele auf eine Koordinate oder ein anderes Wesen blicken statt auf eine genaue Richtung.",
+    "command_translation.help.argument.teleport.facingLocation": "Die Koordinaten, zu denen die Ziele schauen sollen.",
+    "command_translation.help.argument.teleport.facingEntity": "Das einzelne Wesen, zu dem die Ziele schauen sollen.",
+    "command_translation.help.argument.teleport.facingAnchor": "Welcher Punkt des anderen Wesens angeblickt wird: eyes oder feet.",
+    "command_translation.help.argument.teleport.entity": "Lässt die Ziele zu einem anderen Wesen blicken, das das nächste Argument nennt."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.teleport.targets": "テレポートするエンティティ。既定は実行者。",
+    "command_translation.help.argument.teleport.destination": "対象がその位置と向きを引き継ぐ単一のエンティティ。",
+    "command_translation.help.argument.teleport.location": "対象をテレポートさせる座標。",
+    "command_translation.help.argument.teleport.rotation": "テレポート後の対象の向き。yaw の次に pitch を度で指定する。",
+    "command_translation.help.argument.teleport.facing": "正確な向きではなく、座標または別のエンティティの方を向かせる。",
+    "command_translation.help.argument.teleport.facingLocation": "対象が見る座標。",
+    "command_translation.help.argument.teleport.facingEntity": "対象が見る単一のエンティティ。",
+    "command_translation.help.argument.teleport.facingAnchor": "相手エンティティのどこを見るか。eyes（目）または feet（足）。",
+    "command_translation.help.argument.teleport.entity": "対象を次の引数で指定する別のエンティティの方を向かせる。"
+  },
+  "syntax": [
+    {
+      "path": "teleport",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "teleport.destination",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "single"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "teleport.location",
+      "type": "argument",
+      "parser": "minecraft:vec3",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "teleport.targets",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "teleport.targets.destination",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "single"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "teleport.targets.location",
+      "type": "argument",
+      "parser": "minecraft:vec3",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "teleport.targets.location.facing",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "teleport.targets.location.facing.entity",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "teleport.targets.location.facing.entity.facingEntity",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "single"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "teleport.targets.location.facing.entity.facingEntity.facingAnchor",
+      "type": "argument",
+      "parser": "minecraft:entity_anchor",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "teleport.targets.location.facing.facingLocation",
+      "type": "argument",
+      "parser": "minecraft:vec3",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "teleport.targets.location.rotation",
+      "type": "argument",
+      "parser": "minecraft:rotation",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

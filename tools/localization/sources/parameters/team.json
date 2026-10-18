@@ -1,0 +1,1028 @@
+{
+  "en_us": {
+    "command_translation.help.argument.team.add": "Creates a new, empty team; the display name defaults to the team name.",
+    "command_translation.help.argument.team.empty": "Removes every member from a team, keeping the team itself.",
+    "command_translation.help.argument.team.join": "Adds one or more entities to a team.",
+    "command_translation.help.argument.team.leave": "Removes one or more entities from their team.",
+    "command_translation.help.argument.team.list": "Lists teams, or the members of one team when a name is given.",
+    "command_translation.help.argument.team.modify": "Changes one option of an existing team.",
+    "command_translation.help.argument.team.remove": "Deletes a team; its members are left without a team.",
+    "command_translation.help.argument.team.add.name": "The new team's name, a single word with no spaces.",
+    "command_translation.help.argument.team.team": "An existing team name to look up, join, empty, modify or remove.",
+    "command_translation.help.argument.team.displayName": "The team's display name, used where the team itself is named, not next to member names.",
+    "command_translation.help.argument.team.members": "The entities that join or leave the team; in join, omitting it makes the executor join.",
+    "command_translation.help.argument.team.collisionRule": "How the team's entities collide with and push other entities.",
+    "command_translation.help.argument.team.color": "The team colour, applied to member names and the glowing outline.",
+    "command_translation.help.argument.team.color.value": "The team colour as a named colour such as red or blue.",
+    "command_translation.help.argument.team.color.reset": "Clears the team colour so member names use the default colour.",
+    "command_translation.help.argument.team.nametagVisibility": "Who can see the name tags above the team's members.",
+    "command_translation.help.argument.team.deathMessageVisibility": "Who can see the death messages of the team's members.",
+    "command_translation.help.argument.team.option.displayName": "Sets the team's display name.",
+    "command_translation.help.argument.team.friendlyFire": "Whether members can damage each other.",
+    "command_translation.help.argument.team.friendlyFire.allowed": "true allows teammates to damage one another, false prevents it.",
+    "command_translation.help.argument.team.seeFriendlyInvisibles": "Whether members can see teammates under the invisibility effect.",
+    "command_translation.help.argument.team.seeFriendlyInvisibles.allowed": "true makes invisible teammates translucent to their team, false keeps them hidden.",
+    "command_translation.help.argument.team.prefix": "The text component shown before each member's name.",
+    "command_translation.help.argument.team.suffix": "The text component shown after each member's name.",
+    "command_translation.help.value.team.collisionRule.always": "Normal collision; the default.",
+    "command_translation.help.value.team.collisionRule.never": "No entity can push this team's entities.",
+    "command_translation.help.value.team.collisionRule.pushOtherTeams": "The team's entities can only be pushed by same-team entities; other teams cannot push them.",
+    "command_translation.help.value.team.collisionRule.pushOwnTeam": "The team's entities cannot be pushed by same-team entities, but other teams still can.",
+    "command_translation.help.value.team.visibility.always": "Visible to everyone.",
+    "command_translation.help.value.team.visibility.hideForOtherTeams": "Hidden from other teams, shown to teammates.",
+    "command_translation.help.value.team.visibility.hideForOwnTeam": "Hidden from teammates, shown to other teams.",
+    "command_translation.help.value.team.visibility.never": "Hidden from everyone.",
+    "command_translation.help.value.team.color.black": "Makes the team colour black.",
+    "command_translation.help.value.team.color.dark_blue": "Makes the team colour dark blue.",
+    "command_translation.help.value.team.color.dark_green": "Makes the team colour dark green.",
+    "command_translation.help.value.team.color.dark_aqua": "Makes the team colour dark aqua.",
+    "command_translation.help.value.team.color.dark_red": "Makes the team colour dark red.",
+    "command_translation.help.value.team.color.dark_purple": "Makes the team colour dark purple.",
+    "command_translation.help.value.team.color.gold": "Makes the team colour gold.",
+    "command_translation.help.value.team.color.gray": "Makes the team colour gray.",
+    "command_translation.help.value.team.color.dark_gray": "Makes the team colour dark gray.",
+    "command_translation.help.value.team.color.blue": "Makes the team colour blue.",
+    "command_translation.help.value.team.color.green": "Makes the team colour green.",
+    "command_translation.help.value.team.color.aqua": "Makes the team colour aqua.",
+    "command_translation.help.value.team.color.red": "Makes the team colour red.",
+    "command_translation.help.value.team.color.light_purple": "Makes the team colour light purple.",
+    "command_translation.help.value.team.color.yellow": "Makes the team colour yellow.",
+    "command_translation.help.value.team.color.white": "Makes the team colour white; the default.",
+    "command_translation.help.value.team.color.reset": "Clears the team colour back to default."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.team.add": "创建一个新的空队伍，显示名默认同队名。",
+    "command_translation.help.argument.team.empty": "清空队伍的全部成员，保留队伍本身。",
+    "command_translation.help.argument.team.join": "将一个或多个实体加入队伍。",
+    "command_translation.help.argument.team.leave": "将一个或多个实体移出队伍。",
+    "command_translation.help.argument.team.list": "列出所有队伍，给出队名时列出其成员。",
+    "command_translation.help.argument.team.modify": "修改已有队伍的一项设置。",
+    "command_translation.help.argument.team.remove": "删除队伍，其成员不再属于任何队伍。",
+    "command_translation.help.argument.team.add.name": "新队伍的名称，不含空格的单个词。",
+    "command_translation.help.argument.team.team": "要查询、加入、清空、修改或删除的已有队伍名。",
+    "command_translation.help.argument.team.displayName": "队伍的显示名，用于显示队伍本身，不显示在成员名旁。",
+    "command_translation.help.argument.team.members": "要加入或离开队伍的实体；join 中省略则由执行者加入。",
+    "command_translation.help.argument.team.collisionRule": "本队实体与其他实体的碰撞与推动方式。",
+    "command_translation.help.argument.team.color": "队伍颜色，应用于成员名字与发光描边。",
+    "command_translation.help.argument.team.color.value": "队伍颜色，用 red、blue 等颜色名指定。",
+    "command_translation.help.argument.team.color.reset": "清除队伍颜色，成员名字恢复默认颜色。",
+    "command_translation.help.argument.team.nametagVisibility": "谁能看到队伍成员头顶的名称标签。",
+    "command_translation.help.argument.team.deathMessageVisibility": "谁能看到队伍成员的死亡消息。",
+    "command_translation.help.argument.team.option.displayName": "设置队伍的显示名。",
+    "command_translation.help.argument.team.friendlyFire": "成员之间能否互相造成伤害。",
+    "command_translation.help.argument.team.friendlyFire.allowed": "true 允许队友互相伤害，false 禁止。",
+    "command_translation.help.argument.team.seeFriendlyInvisibles": "成员能否看见处于隐身效果的队友。",
+    "command_translation.help.argument.team.seeFriendlyInvisibles.allowed": "true 时隐身队友对本队呈半透明，false 时完全不可见。",
+    "command_translation.help.argument.team.prefix": "成员名字前显示的文本组件。",
+    "command_translation.help.argument.team.suffix": "成员名字后显示的文本组件。",
+    "command_translation.help.value.team.collisionRule.always": "正常碰撞；默认。",
+    "command_translation.help.value.team.collisionRule.never": "任何实体都无法推动本队实体。",
+    "command_translation.help.value.team.collisionRule.pushOtherTeams": "本队实体只能被本队实体推动，其他队伍无法推动。",
+    "command_translation.help.value.team.collisionRule.pushOwnTeam": "本队实体不会被本队实体推动，但仍可被其他队伍推动。",
+    "command_translation.help.value.team.visibility.always": "所有人都可见。",
+    "command_translation.help.value.team.visibility.hideForOtherTeams": "对其他队伍隐藏，对队友可见。",
+    "command_translation.help.value.team.visibility.hideForOwnTeam": "对队友隐藏，对其他队伍可见。",
+    "command_translation.help.value.team.visibility.never": "对所有人都隐藏。",
+    "command_translation.help.value.team.color.black": "把队伍颜色设为黑色。",
+    "command_translation.help.value.team.color.dark_blue": "把队伍颜色设为深蓝色。",
+    "command_translation.help.value.team.color.dark_green": "把队伍颜色设为深绿色。",
+    "command_translation.help.value.team.color.dark_aqua": "把队伍颜色设为深青色。",
+    "command_translation.help.value.team.color.dark_red": "把队伍颜色设为深红色。",
+    "command_translation.help.value.team.color.dark_purple": "把队伍颜色设为深紫色。",
+    "command_translation.help.value.team.color.gold": "把队伍颜色设为金色。",
+    "command_translation.help.value.team.color.gray": "把队伍颜色设为灰色。",
+    "command_translation.help.value.team.color.dark_gray": "把队伍颜色设为深灰色。",
+    "command_translation.help.value.team.color.blue": "把队伍颜色设为蓝色。",
+    "command_translation.help.value.team.color.green": "把队伍颜色设为绿色。",
+    "command_translation.help.value.team.color.aqua": "把队伍颜色设为青色。",
+    "command_translation.help.value.team.color.red": "把队伍颜色设为红色。",
+    "command_translation.help.value.team.color.light_purple": "把队伍颜色设为浅紫色。",
+    "command_translation.help.value.team.color.yellow": "把队伍颜色设为黄色。",
+    "command_translation.help.value.team.color.white": "把队伍颜色设为白色；默认。",
+    "command_translation.help.value.team.color.reset": "把队伍颜色清回默认。"
+  },
+  "sources": {
+    "command_translation.help.argument.team.add": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.argument.team.empty": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.argument.team.join": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.argument.team.leave": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.argument.team.list": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.argument.team.modify": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.argument.team.remove": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.argument.team.add.name": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.argument.team.team": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.argument.team.displayName": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.argument.team.members": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.argument.team.collisionRule": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.argument.team.color": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.argument.team.color.value": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.argument.team.color.reset": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.argument.team.nametagVisibility": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.argument.team.deathMessageVisibility": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.argument.team.option.displayName": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.argument.team.friendlyFire": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.argument.team.friendlyFire.allowed": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.argument.team.seeFriendlyInvisibles": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.argument.team.seeFriendlyInvisibles.allowed": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.argument.team.prefix": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.argument.team.suffix": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.value.team.collisionRule.always": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.value.team.collisionRule.never": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.value.team.collisionRule.pushOtherTeams": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.value.team.collisionRule.pushOwnTeam": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.value.team.visibility.always": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.value.team.visibility.hideForOtherTeams": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.value.team.visibility.hideForOwnTeam": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.value.team.visibility.never": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.value.team.color.black": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.value.team.color.dark_blue": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.value.team.color.dark_green": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.value.team.color.dark_aqua": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.value.team.color.dark_red": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.value.team.color.dark_purple": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.value.team.color.gold": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.value.team.color.gray": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.value.team.color.dark_gray": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.value.team.color.blue": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.value.team.color.green": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.value.team.color.aqua": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.value.team.color.red": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.value.team.color.light_purple": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.value.team.color.yellow": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.value.team.color.white": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ],
+    "command_translation.help.value.team.color.reset": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteam",
+        "revision": 3789537
+      }
+    ]
+  },
+  "bindings": {
+    "team.add": "command_translation.help.argument.team.add",
+    "team.add.team": "command_translation.help.argument.team.add.name",
+    "team.add.team.displayName": "command_translation.help.argument.team.displayName",
+    "team.empty": "command_translation.help.argument.team.empty",
+    "team.empty.team": "command_translation.help.argument.team.team",
+    "team.join": "command_translation.help.argument.team.join",
+    "team.join.team": "command_translation.help.argument.team.team",
+    "team.join.team.members": "command_translation.help.argument.team.members",
+    "team.leave": "command_translation.help.argument.team.leave",
+    "team.leave.members": "command_translation.help.argument.team.members",
+    "team.list": "command_translation.help.argument.team.list",
+    "team.list.team": "command_translation.help.argument.team.team",
+    "team.modify": "command_translation.help.argument.team.modify",
+    "team.modify.team": "command_translation.help.argument.team.team",
+    "team.modify.team.collisionRule": "command_translation.help.argument.team.collisionRule",
+    "team.modify.team.collisionRule.always": "command_translation.help.value.team.collisionRule.always",
+    "team.modify.team.collisionRule.never": "command_translation.help.value.team.collisionRule.never",
+    "team.modify.team.collisionRule.pushOtherTeams": "command_translation.help.value.team.collisionRule.pushOtherTeams",
+    "team.modify.team.collisionRule.pushOwnTeam": "command_translation.help.value.team.collisionRule.pushOwnTeam",
+    "team.modify.team.color": "command_translation.help.argument.team.color",
+    "team.modify.team.color.value": "command_translation.help.argument.team.color.value",
+    "team.modify.team.color.reset": "command_translation.help.argument.team.color.reset",
+    "team.modify.team.deathMessageVisibility": "command_translation.help.argument.team.deathMessageVisibility",
+    "team.modify.team.deathMessageVisibility.always": "command_translation.help.value.team.visibility.always",
+    "team.modify.team.deathMessageVisibility.hideForOtherTeams": "command_translation.help.value.team.visibility.hideForOtherTeams",
+    "team.modify.team.deathMessageVisibility.hideForOwnTeam": "command_translation.help.value.team.visibility.hideForOwnTeam",
+    "team.modify.team.deathMessageVisibility.never": "command_translation.help.value.team.visibility.never",
+    "team.modify.team.displayName": "command_translation.help.argument.team.option.displayName",
+    "team.modify.team.displayName.displayName": "command_translation.help.argument.team.displayName",
+    "team.modify.team.friendlyFire": "command_translation.help.argument.team.friendlyFire",
+    "team.modify.team.friendlyFire.allowed": "command_translation.help.argument.team.friendlyFire.allowed",
+    "team.modify.team.nametagVisibility": "command_translation.help.argument.team.nametagVisibility",
+    "team.modify.team.nametagVisibility.always": "command_translation.help.value.team.visibility.always",
+    "team.modify.team.nametagVisibility.hideForOtherTeams": "command_translation.help.value.team.visibility.hideForOtherTeams",
+    "team.modify.team.nametagVisibility.hideForOwnTeam": "command_translation.help.value.team.visibility.hideForOwnTeam",
+    "team.modify.team.nametagVisibility.never": "command_translation.help.value.team.visibility.never",
+    "team.modify.team.prefix": "command_translation.help.argument.team.prefix",
+    "team.modify.team.prefix.prefix": "command_translation.help.argument.team.prefix",
+    "team.modify.team.seeFriendlyInvisibles": "command_translation.help.argument.team.seeFriendlyInvisibles",
+    "team.modify.team.seeFriendlyInvisibles.allowed": "command_translation.help.argument.team.seeFriendlyInvisibles.allowed",
+    "team.modify.team.suffix": "command_translation.help.argument.team.suffix",
+    "team.modify.team.suffix.suffix": "command_translation.help.argument.team.suffix",
+    "team.remove": "command_translation.help.argument.team.remove",
+    "team.remove.team": "command_translation.help.argument.team.team"
+  },
+  "de_de": {
+    "command_translation.help.argument.team.add": "Erstellt ein neues, leeres Team; der Anzeigename ist standardmäßig der Teamname.",
+    "command_translation.help.argument.team.empty": "Entfernt alle Mitglieder aus einem Team, das Team selbst bleibt.",
+    "command_translation.help.argument.team.join": "Fügt ein oder mehrere Wesen einem Team hinzu.",
+    "command_translation.help.argument.team.leave": "Entfernt ein oder mehrere Wesen aus ihrem Team.",
+    "command_translation.help.argument.team.list": "Listet Teams auf, oder bei Angabe eines Namens dessen Mitglieder.",
+    "command_translation.help.argument.team.modify": "Ändert eine Option eines bestehenden Teams.",
+    "command_translation.help.argument.team.remove": "Löscht ein Team; seine Mitglieder gehören danach keinem Team an.",
+    "command_translation.help.argument.team.add.name": "Der Name des neuen Teams, ein einzelnes Wort ohne Leerzeichen.",
+    "command_translation.help.argument.team.team": "Ein bestehender Teamname zum Nachschlagen, Beitreten, Leeren, Ändern oder Löschen.",
+    "command_translation.help.argument.team.displayName": "Der Anzeigename des Teams; er erscheint dort, wo das Team genannt wird, nicht neben Mitgliedsnamen.",
+    "command_translation.help.argument.team.members": "Die Wesen, die beitreten oder austreten; ohne Angabe tritt bei join der Ausführende bei.",
+    "command_translation.help.argument.team.collisionRule": "Wie die Wesen des Teams mit anderen kollidieren und sie schieben.",
+    "command_translation.help.argument.team.color": "Die Teamfarbe für Mitgliedsnamen und die Umrandung des Leuchteffekts.",
+    "command_translation.help.argument.team.color.value": "Die Teamfarbe als benannter Farbwert wie red oder blue.",
+    "command_translation.help.argument.team.color.reset": "Löscht die Teamfarbe, sodass Mitgliedsnamen die Standardfarbe nutzen.",
+    "command_translation.help.argument.team.nametagVisibility": "Wer die Namensschilder über den Mitgliedern sehen kann.",
+    "command_translation.help.argument.team.deathMessageVisibility": "Wer die Todesmeldungen der Mitglieder sehen kann.",
+    "command_translation.help.argument.team.option.displayName": "Setzt den Anzeigenamen des Teams.",
+    "command_translation.help.argument.team.friendlyFire": "Ob Mitglieder einander Schaden zufügen können.",
+    "command_translation.help.argument.team.friendlyFire.allowed": "true erlaubt Schaden unter Teammitgliedern, false verhindert ihn.",
+    "command_translation.help.argument.team.seeFriendlyInvisibles": "Ob Mitglieder unsichtbare Teammitglieder sehen können.",
+    "command_translation.help.argument.team.seeFriendlyInvisibles.allowed": "true: unsichtbare Teammitglieder erscheinen durchscheinend, false: sie bleiben verborgen.",
+    "command_translation.help.argument.team.prefix": "Die Textkomponente vor jedem Mitgliedsnamen.",
+    "command_translation.help.argument.team.suffix": "Die Textkomponente nach jedem Mitgliedsnamen.",
+    "command_translation.help.value.team.collisionRule.always": "Normale Kollision; Standard.",
+    "command_translation.help.value.team.collisionRule.never": "Kein Wesen kann die Wesen dieses Teams schieben.",
+    "command_translation.help.value.team.collisionRule.pushOtherTeams": "Die Wesen können nur von eigenen Teamkameraden geschoben werden; andere Teams nicht.",
+    "command_translation.help.value.team.collisionRule.pushOwnTeam": "Die Wesen können nicht von eigenen Teamkameraden geschoben werden, von anderen Teams aber schon.",
+    "command_translation.help.value.team.visibility.always": "Für alle sichtbar.",
+    "command_translation.help.value.team.visibility.hideForOtherTeams": "Für andere Teams verborgen, für Teammitglieder sichtbar.",
+    "command_translation.help.value.team.visibility.hideForOwnTeam": "Für Teammitglieder verborgen, für andere Teams sichtbar.",
+    "command_translation.help.value.team.visibility.never": "Für alle verborgen.",
+    "command_translation.help.value.team.color.black": "Macht die Teamfarbe schwarz.",
+    "command_translation.help.value.team.color.dark_blue": "Macht die Teamfarbe dunkelblau.",
+    "command_translation.help.value.team.color.dark_green": "Macht die Teamfarbe dunkelgrün.",
+    "command_translation.help.value.team.color.dark_aqua": "Macht die Teamfarbe dunkeltürkis.",
+    "command_translation.help.value.team.color.dark_red": "Macht die Teamfarbe dunkelrot.",
+    "command_translation.help.value.team.color.dark_purple": "Macht die Teamfarbe dunkelviolett.",
+    "command_translation.help.value.team.color.gold": "Macht die Teamfarbe gold.",
+    "command_translation.help.value.team.color.gray": "Macht die Teamfarbe grau.",
+    "command_translation.help.value.team.color.dark_gray": "Macht die Teamfarbe dunkelgrau.",
+    "command_translation.help.value.team.color.blue": "Macht die Teamfarbe blau.",
+    "command_translation.help.value.team.color.green": "Macht die Teamfarbe grün.",
+    "command_translation.help.value.team.color.aqua": "Macht die Teamfarbe türkis.",
+    "command_translation.help.value.team.color.red": "Macht die Teamfarbe rot.",
+    "command_translation.help.value.team.color.light_purple": "Macht die Teamfarbe hellviolett.",
+    "command_translation.help.value.team.color.yellow": "Macht die Teamfarbe gelb.",
+    "command_translation.help.value.team.color.white": "Macht die Teamfarbe weiß; der Standard.",
+    "command_translation.help.value.team.color.reset": "Setzt die Teamfarbe auf den Standard zurück."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.team.add": "新しい空のチームを作成する。表示名は既定でチーム名。",
+    "command_translation.help.argument.team.empty": "チームから全メンバーを外すが、チーム自体は残す。",
+    "command_translation.help.argument.team.join": "1 体以上のエンティティをチームに参加させる。",
+    "command_translation.help.argument.team.leave": "1 体以上のエンティティをチームから抜けさせる。",
+    "command_translation.help.argument.team.list": "チーム一覧を表示する。名前を指定するとそのメンバーを表示する。",
+    "command_translation.help.argument.team.modify": "既存チームの項目を 1 つ変更する。",
+    "command_translation.help.argument.team.remove": "チームを削除する。メンバーはどのチームにも属さなくなる。",
+    "command_translation.help.argument.team.add.name": "新しいチームの名前。空白を含まない単一の語。",
+    "command_translation.help.argument.team.team": "参照・参加・空化・変更・削除する既存のチーム名。",
+    "command_translation.help.argument.team.displayName": "チームの表示名。チーム自体を表示する場所で使われ、メンバー名の横には出ない。",
+    "command_translation.help.argument.team.members": "参加または脱退させるエンティティ。join で省略すると実行者が参加する。",
+    "command_translation.help.argument.team.collisionRule": "チームのエンティティが他のエンティティと衝突・押し合う方法。",
+    "command_translation.help.argument.team.color": "メンバー名と発光効果の縁取りに使うチームの色。",
+    "command_translation.help.argument.team.color.value": "red や blue などの色名で指定するチームの色。",
+    "command_translation.help.argument.team.color.reset": "チームの色を消し、メンバー名を既定の色に戻す。",
+    "command_translation.help.argument.team.nametagVisibility": "チームのメンバーの頭上ネームタグを誰が見られるか。",
+    "command_translation.help.argument.team.deathMessageVisibility": "チームのメンバーの死亡メッセージを誰が見られるか。",
+    "command_translation.help.argument.team.option.displayName": "チームの表示名を設定する。",
+    "command_translation.help.argument.team.friendlyFire": "メンバー同士がダメージを与え合えるか。",
+    "command_translation.help.argument.team.friendlyFire.allowed": "true は味方同士のダメージを許可し、false は禁止する。",
+    "command_translation.help.argument.team.seeFriendlyInvisibles": "メンバーが透明化状態の仲間を見られるか。",
+    "command_translation.help.argument.team.seeFriendlyInvisibles.allowed": "true：透明な仲間が半透明で見える。false：完全に見えない。",
+    "command_translation.help.argument.team.prefix": "各メンバー名の前に表示するテキストコンポーネント。",
+    "command_translation.help.argument.team.suffix": "各メンバー名の後に表示するテキストコンポーネント。",
+    "command_translation.help.value.team.collisionRule.always": "通常の衝突。既定。",
+    "command_translation.help.value.team.collisionRule.never": "このチームのエンティティは誰にも押されない。",
+    "command_translation.help.value.team.collisionRule.pushOtherTeams": "このチームのエンティティは同じチームにしか押されず、他のチームには押されない。",
+    "command_translation.help.value.team.collisionRule.pushOwnTeam": "このチームのエンティティは同じチームには押されないが、他のチームには押され得る。",
+    "command_translation.help.value.team.visibility.always": "全員に見える。",
+    "command_translation.help.value.team.visibility.hideForOtherTeams": "他のチームには見えず、同じチームには見える。",
+    "command_translation.help.value.team.visibility.hideForOwnTeam": "同じチームには見えず、他のチームには見える。",
+    "command_translation.help.value.team.visibility.never": "全員に見えない。",
+    "command_translation.help.value.team.color.black": "チームの色を黒にする。",
+    "command_translation.help.value.team.color.dark_blue": "チームの色を濃い青にする。",
+    "command_translation.help.value.team.color.dark_green": "チームの色を濃い緑にする。",
+    "command_translation.help.value.team.color.dark_aqua": "チームの色を濃い青緑にする。",
+    "command_translation.help.value.team.color.dark_red": "チームの色を濃い赤にする。",
+    "command_translation.help.value.team.color.dark_purple": "チームの色を濃い紫にする。",
+    "command_translation.help.value.team.color.gold": "チームの色を金色にする。",
+    "command_translation.help.value.team.color.gray": "チームの色を灰色にする。",
+    "command_translation.help.value.team.color.dark_gray": "チームの色を濃い灰色にする。",
+    "command_translation.help.value.team.color.blue": "チームの色を青にする。",
+    "command_translation.help.value.team.color.green": "チームの色を緑にする。",
+    "command_translation.help.value.team.color.aqua": "チームの色を青緑にする。",
+    "command_translation.help.value.team.color.red": "チームの色を赤にする。",
+    "command_translation.help.value.team.color.light_purple": "チームの色を明るい紫にする。",
+    "command_translation.help.value.team.color.yellow": "チームの色を黄色にする。",
+    "command_translation.help.value.team.color.white": "チームの色を白にする。既定。",
+    "command_translation.help.value.team.color.reset": "チームの色を既定に戻す。"
+  },
+  "syntax": [
+    {
+      "path": "team",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "team.add",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "team.add.team",
+      "type": "argument",
+      "parser": "brigadier:string",
+      "properties": {
+        "type": "word"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "team.add.team.displayName",
+      "type": "argument",
+      "parser": "minecraft:component",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "team.empty",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "team.empty.team",
+      "type": "argument",
+      "parser": "minecraft:team",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "team.join",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "team.join.team",
+      "type": "argument",
+      "parser": "minecraft:team",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "team.join.team.members",
+      "type": "argument",
+      "parser": "minecraft:score_holder",
+      "properties": {
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "team.leave",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "team.leave.members",
+      "type": "argument",
+      "parser": "minecraft:score_holder",
+      "properties": {
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "team.list",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "team.list.team",
+      "type": "argument",
+      "parser": "minecraft:team",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "team.modify",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "team.modify.team",
+      "type": "argument",
+      "parser": "minecraft:team",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "team.modify.team.collisionRule",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "team.modify.team.collisionRule.always",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "team.modify.team.collisionRule.never",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "team.modify.team.collisionRule.pushOtherTeams",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "team.modify.team.collisionRule.pushOwnTeam",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "team.modify.team.color",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "team.modify.team.color.value",
+      "type": "argument",
+      "parser": "minecraft:color",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2"
+      ]
+    },
+    {
+      "path": "team.modify.team.deathMessageVisibility",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "team.modify.team.deathMessageVisibility.always",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "team.modify.team.deathMessageVisibility.hideForOtherTeams",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "team.modify.team.deathMessageVisibility.hideForOwnTeam",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "team.modify.team.deathMessageVisibility.never",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "team.modify.team.displayName",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "team.modify.team.displayName.displayName",
+      "type": "argument",
+      "parser": "minecraft:component",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "team.modify.team.friendlyFire",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "team.modify.team.friendlyFire.allowed",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "team.modify.team.nametagVisibility",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "team.modify.team.nametagVisibility.always",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "team.modify.team.nametagVisibility.hideForOtherTeams",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "team.modify.team.nametagVisibility.hideForOwnTeam",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "team.modify.team.nametagVisibility.never",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "team.modify.team.prefix",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "team.modify.team.prefix.prefix",
+      "type": "argument",
+      "parser": "minecraft:component",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "team.modify.team.seeFriendlyInvisibles",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "team.modify.team.seeFriendlyInvisibles.allowed",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "team.modify.team.suffix",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "team.modify.team.suffix.suffix",
+      "type": "argument",
+      "parser": "minecraft:component",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "team.remove",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "team.remove.team",
+      "type": "argument",
+      "parser": "minecraft:team",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "team.modify.team.color.reset",
+      "type": "literal",
+      "versions": [
+        "26.2"
+      ]
+    },
+    {
+      "path": "team.modify.team.color.value",
+      "type": "argument",
+      "parser": "minecraft:team_color",
+      "versions": [
+        "26.2"
+      ]
+    }
+  ]
+}

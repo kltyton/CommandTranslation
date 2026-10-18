@@ -1,0 +1,110 @@
+{
+  "en_us": {
+    "command_translation.help.argument.xp.add": "Adds experience to the targets; a negative amount removes experience.",
+    "command_translation.help.argument.xp.set": "Sets the targets' experience to the given value.",
+    "command_translation.help.argument.xp.query": "Reports one player's experience level or points; the selector must pick a single player.",
+    "command_translation.help.argument.xp.targets": "The players to affect.",
+    "command_translation.help.argument.xp.amount": "The integer amount of experience; in set mode it must be at least 0.",
+    "command_translation.help.argument.xp.levels": "Counts the amount as experience levels rather than points.",
+    "command_translation.help.argument.xp.points": "Counts the amount as raw experience points; the default."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.xp.add": "为目标增加经验；负数表示扣除。",
+    "command_translation.help.argument.xp.set": "把目标的经验设为给定值。",
+    "command_translation.help.argument.xp.query": "输出单个玩家的经验等级或经验点；选择器必须只选出一人。",
+    "command_translation.help.argument.xp.targets": "要作用的玩家。",
+    "command_translation.help.argument.xp.amount": "经验的整数量；set 模式下必须不小于 0。",
+    "command_translation.help.argument.xp.levels": "把数量按经验等级而非经验点计算。",
+    "command_translation.help.argument.xp.points": "把数量按原始经验点计算；默认选项。"
+  },
+  "sources": {
+    "command_translation.help.argument.xp.add": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fxp",
+        "revision": 3567326
+      }
+    ],
+    "command_translation.help.argument.xp.set": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fxp",
+        "revision": 3567326
+      }
+    ],
+    "command_translation.help.argument.xp.query": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fxp",
+        "revision": 3567326
+      }
+    ],
+    "command_translation.help.argument.xp.targets": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fxp",
+        "revision": 3567326
+      }
+    ],
+    "command_translation.help.argument.xp.amount": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fxp",
+        "revision": 3567326
+      }
+    ],
+    "command_translation.help.argument.xp.levels": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fxp",
+        "revision": 3567326
+      }
+    ],
+    "command_translation.help.argument.xp.points": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fxp",
+        "revision": 3567326
+      }
+    ]
+  },
+  "bindings": {
+    "xp.add": "command_translation.help.argument.xp.add",
+    "xp.add.targets": "command_translation.help.argument.xp.targets",
+    "xp.add.targets.amount": "command_translation.help.argument.xp.amount",
+    "xp.add.targets.amount.levels": "command_translation.help.argument.xp.levels",
+    "xp.add.targets.amount.points": "command_translation.help.argument.xp.points",
+    "xp.query": "command_translation.help.argument.xp.query",
+    "xp.query.targets": "command_translation.help.argument.xp.targets",
+    "xp.query.targets.levels": "command_translation.help.argument.xp.levels",
+    "xp.query.targets.points": "command_translation.help.argument.xp.points",
+    "xp.set": "command_translation.help.argument.xp.set",
+    "xp.set.targets": "command_translation.help.argument.xp.targets",
+    "xp.set.targets.amount": "command_translation.help.argument.xp.amount",
+    "xp.set.targets.amount.levels": "command_translation.help.argument.xp.levels",
+    "xp.set.targets.amount.points": "command_translation.help.argument.xp.points"
+  },
+  "de_de": {
+    "command_translation.help.argument.xp.add": "Fügt den Zielen Erfahrung hinzu; ein negativer Wert entfernt Erfahrung.",
+    "command_translation.help.argument.xp.set": "Setzt die Erfahrung der Ziele auf den angegebenen Wert.",
+    "command_translation.help.argument.xp.query": "Gibt Erfahrungsstufe oder -punkte eines Spielers aus; die Auswahl muss genau einen Spieler treffen.",
+    "command_translation.help.argument.xp.targets": "Die betroffenen Spieler.",
+    "command_translation.help.argument.xp.amount": "Die ganze Erfahrungsmenge; im set-Modus mindestens 0.",
+    "command_translation.help.argument.xp.levels": "Zählt die Menge als Erfahrungsstufen statt als Punkte.",
+    "command_translation.help.argument.xp.points": "Zählt die Menge als rohe Erfahrungspunkte; der Standard."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.xp.add": "対象に経験値を追加する。負の値で減らせる。",
+    "command_translation.help.argument.xp.set": "対象の経験値を指定した値に設定する。",
+    "command_translation.help.argument.xp.query": "1 人のプレイヤーの経験値レベルまたはポイントを出力する。セレクターは必ず 1 人だけ選ぶ。",
+    "command_translation.help.argument.xp.targets": "対象のプレイヤー。",
+    "command_translation.help.argument.xp.amount": "経験値の整数。set モードでは 0 以上。",
+    "command_translation.help.argument.xp.levels": "量をポイントではなく経験値レベルとして数える。",
+    "command_translation.help.argument.xp.points": "量をそのままの経験値ポイントとして数える。既定。"
+  },
+  "syntax": [
+    {
+      "path": "xp",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

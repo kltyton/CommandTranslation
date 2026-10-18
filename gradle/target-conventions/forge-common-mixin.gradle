@@ -1,0 +1,10 @@
+afterEvaluate {
+    def commonCompile = project(':common').tasks.named('compileJava', JavaCompile)
+    def targetCompile = tasks.named('compileJava', JavaCompile).get()
+    def providers = targetCompile.options.compilerArgumentProviders.findAll { arguments ->
+        arguments.asArguments().any { argument -> argument.startsWith('-AoutRefMapFile=') }
+    }
+    targetCompile.options.compilerArgumentProviders.removeAll(providers)
+    commonCompile.configure { options.compilerArgumentProviders.addAll(providers) }
+    tasks.named('jar').configure { dependsOn commonCompile }
+}

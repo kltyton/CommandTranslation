@@ -1,0 +1,26 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:use_remainder": "Replaces the item with a remainder item after its stack count decreases from use."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:use_remainder": "物品使用后堆叠数量减少时，将其替换为剩余物品。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:use_remainder": "Ersetzt das Item durch ein Restitem, wenn sich seine Stapelanzahl durch Benutzung verringert."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:use_remainder": "使用でスタック数が減ったとき、そのアイテムを残り物アイテムに置き換える。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:use_remainder": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

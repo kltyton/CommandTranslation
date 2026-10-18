@@ -1,0 +1,102 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:pot_decorations": "Decorations on the four sides of a decorated pot.",
+    "command_translation.help.component.minecraft:pot_decorations.field.left": "The item stack on the left face.",
+    "command_translation.help.component.minecraft:pot_decorations.field.back": "The item stack on the back face.",
+    "command_translation.help.component.minecraft:pot_decorations.field.right": "The item stack on the right face.",
+    "command_translation.help.component.minecraft:pot_decorations.field.front": "The item stack on the front face."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:pot_decorations": "饰纹陶罐四面的装饰。",
+    "command_translation.help.component.minecraft:pot_decorations.field.left": "左侧面的物品堆叠。",
+    "command_translation.help.component.minecraft:pot_decorations.field.back": "背面的物品堆叠。",
+    "command_translation.help.component.minecraft:pot_decorations.field.right": "右侧面的物品堆叠。",
+    "command_translation.help.component.minecraft:pot_decorations.field.front": "正面的物品堆叠。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:pot_decorations": "Die Verzierungen auf den vier Seiten eines verzierten Krugs.",
+    "command_translation.help.component.minecraft:pot_decorations.field.left": "Der Itemstapel auf der linken Seite.",
+    "command_translation.help.component.minecraft:pot_decorations.field.back": "Der Itemstapel auf der Rückseite.",
+    "command_translation.help.component.minecraft:pot_decorations.field.right": "Der Itemstapel auf der rechten Seite.",
+    "command_translation.help.component.minecraft:pot_decorations.field.front": "Der Itemstapel auf der Vorderseite."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:pot_decorations": "飾り壺の四面に使う装飾。",
+    "command_translation.help.component.minecraft:pot_decorations.field.left": "左面のアイテムスタック。",
+    "command_translation.help.component.minecraft:pot_decorations.field.back": "背面のアイテムスタック。",
+    "command_translation.help.component.minecraft:pot_decorations.field.right": "右面のアイテムスタック。",
+    "command_translation.help.component.minecraft:pot_decorations.field.front": "正面のアイテムスタック。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:pot_decorations": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:pot_decorations.field.left": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:pot_decorations.field.back": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:pot_decorations.field.right": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:pot_decorations.field.front": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

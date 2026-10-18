@@ -1,0 +1,40 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:damage_resistant": "Protects the dropped item from the specified damage types.",
+    "command_translation.help.component.minecraft:damage_resistant.field.types": "A damage type tag prefixed with #."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:damage_resistant": "使掉落物免受指定类型的伤害。",
+    "command_translation.help.component.minecraft:damage_resistant.field.types": "以 # 开头的伤害类型标签。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:damage_resistant": "Schützt das gedroppte Item vor den angegebenen Schadensarten.",
+    "command_translation.help.component.minecraft:damage_resistant.field.types": "Ein Schadenstyp-Tag mit vorangestelltem #."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:damage_resistant": "ドロップしたアイテムを指定のダメージ種別から保護する。",
+    "command_translation.help.component.minecraft:damage_resistant.field.types": "#を先頭に付けたダメージ種別タグ。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:damage_resistant": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:damage_resistant.field.types": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

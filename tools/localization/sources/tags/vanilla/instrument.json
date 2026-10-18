@@ -1,0 +1,42 @@
+{
+  "en_us": {
+    "command_translation.tag.instrument.minecraft.goat_horns": "Goat horns shown in the creative inventory",
+    "command_translation.tag.instrument.minecraft.regular_goat_horns": "Goat horns from regular goats",
+    "command_translation.tag.instrument.minecraft.screaming_goat_horns": "Goat horns from screaming goats"
+  },
+  "zh_cn": {
+    "command_translation.tag.instrument.minecraft.goat_horns": "创造模式物品栏中的山羊角",
+    "command_translation.tag.instrument.minecraft.regular_goat_horns": "普通山羊掉落的山羊角",
+    "command_translation.tag.instrument.minecraft.screaming_goat_horns": "尖叫山羊掉落的山羊角"
+  },
+  "de_de": {
+    "command_translation.tag.instrument.minecraft.goat_horns": "Ziegenhörner im Kreativinventar",
+    "command_translation.tag.instrument.minecraft.regular_goat_horns": "Ziegenhörner normaler Ziegen",
+    "command_translation.tag.instrument.minecraft.screaming_goat_horns": "Ziegenhörner schreiender Ziegen"
+  },
+  "ja_jp": {
+    "command_translation.tag.instrument.minecraft.goat_horns": "クリエイティブ内のヤギの角",
+    "command_translation.tag.instrument.minecraft.regular_goat_horns": "通常のヤギが落とす角",
+    "command_translation.tag.instrument.minecraft.screaming_goat_horns": "叫ぶヤギが落とす角"
+  },
+  "sources": {
+    "command_translation.tag.instrument.minecraft.goat_horns": [
+      {
+        "url": "https://minecraft.wiki/w/Instrument%20tag%20(Java%20Edition)",
+        "revision": 3839225
+      }
+    ],
+    "command_translation.tag.instrument.minecraft.regular_goat_horns": [
+      {
+        "url": "https://minecraft.wiki/w/Instrument%20tag%20(Java%20Edition)",
+        "revision": 3839225
+      }
+    ],
+    "command_translation.tag.instrument.minecraft.screaming_goat_horns": [
+      {
+        "url": "https://minecraft.wiki/w/Instrument%20tag%20(Java%20Edition)",
+        "revision": 3839225
+      }
+    ]
+  }
+}

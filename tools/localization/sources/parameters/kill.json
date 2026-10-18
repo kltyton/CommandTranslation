@@ -1,0 +1,56 @@
+{
+  "en_us": {
+    "command_translation.help.argument.kill.targets": "The entities to kill; defaults to the command's executor. The kill is direct, ignoring armour, Protection and Resistance, and totems of undying do not trigger, but loot is still dropped."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.kill.targets": "要杀死的实体；省略时为命令执行者。杀死是无视盔甲、保护与抗性的直接死亡，不死图腾不会触发，但仍会掉落战利品。"
+  },
+  "sources": {
+    "command_translation.help.argument.kill.targets": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fkill",
+        "revision": 3836644
+      },
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ]
+  },
+  "bindings": {
+    "kill.targets": "command_translation.help.argument.kill.targets"
+  },
+  "de_de": {
+    "command_translation.help.argument.kill.targets": "Die zu tötenden Entitäten; ohne Angabe der ausführende Spieler. Der Kill ist direkt und ignoriert Rüstung, Schutz und Resistenz, Totems der Unsterblichkeit lösen nicht aus, Beute fällt weiterhin."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.kill.targets": "殺すエンティティ。省略時は実行者。直接的な処理で、防具・ダメージ軽減・耐性を無視し、不死のトーテムも発動しないが、ドロップは行われる。"
+  },
+  "syntax": [
+    {
+      "path": "kill",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "kill.targets",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:enchantment_glint_override": "Overrides whether the item shows the enchantment glint."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:enchantment_glint_override": "覆盖物品是否显示附魔光效。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:enchantment_glint_override": "Überschreibt, ob das Item den Verzauberungsschimmer zeigt."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:enchantment_glint_override": "アイテムのエンチャントの光沢表示を上書きする。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:enchantment_glint_override": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "en_us": {
+    "command_translation.help.argument.defaultgamemode.gamemode": "The game mode new players get when joining. With force-gamemode on a server, or in a LAN world, all online players are switched too."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.defaultgamemode.gamemode": "新玩家加入时使用的游戏模式；服务器开启 force-gamemode 或局域网世界中，现有玩家也会一并切换。"
+  },
+  "sources": {
+    "command_translation.help.argument.defaultgamemode.gamemode": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdefaultgamemode",
+        "revision": 3693009
+      }
+    ]
+  },
+  "bindings": {
+    "defaultgamemode.gamemode": "command_translation.help.argument.defaultgamemode.gamemode"
+  },
+  "de_de": {
+    "command_translation.help.argument.defaultgamemode.gamemode": "Der Spielmodus, den neue Spieler beim Beitritt erhalten. Bei force-gamemode auf einem Server oder in einer LAN-Welt werden auch alle Online-Spieler umgestellt."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.defaultgamemode.gamemode": "参加する新規プレイヤーのゲームモード。サーバーで force-gamemode の場合、または LAN ワールドでは、オンラインの全プレイヤーも切り替わる。"
+  },
+  "syntax": [
+    {
+      "path": "defaultgamemode",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "defaultgamemode.gamemode",
+      "type": "argument",
+      "parser": "minecraft:gamemode",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "en_us": {
+    "command_translation.help.argument.pardon-ip.target": "The IP address to remove from the ban list."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.pardon-ip.target": "要从封禁列表中移除的 IP 地址。"
+  },
+  "sources": {
+    "command_translation.help.argument.pardon-ip.target": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fpardon",
+        "revision": 3662195
+      }
+    ]
+  },
+  "bindings": {
+    "pardon-ip.target": "command_translation.help.argument.pardon-ip.target"
+  },
+  "de_de": {
+    "command_translation.help.argument.pardon-ip.target": "Die aus der Bannliste zu entfernende IP-Adresse."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.pardon-ip.target": "BAN リストから削除する IP アドレス。"
+  },
+  "syntax": [
+    {
+      "path": "pardon-ip",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "pardon-ip.target",
+      "type": "argument",
+      "parser": "brigadier:string",
+      "properties": {
+        "type": "word"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

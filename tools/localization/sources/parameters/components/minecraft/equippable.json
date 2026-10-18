@@ -1,0 +1,152 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:equippable": "Lets the item be equipped in the specified slot.",
+    "command_translation.help.component.minecraft:equippable.field.slot": "The equipment slot the item can be placed in.",
+    "command_translation.help.component.minecraft:equippable.field.equip_sound": "The sound event played when the item is equipped.",
+    "command_translation.help.component.minecraft:equippable.field.asset_id": "The equipment model used while the item is worn.",
+    "command_translation.help.component.minecraft:equippable.field.allowed_entities": "The entities allowed to equip this item.",
+    "command_translation.help.component.minecraft:equippable.field.dispensable": "Whether a dispenser can equip this item.",
+    "command_translation.help.component.minecraft:equippable.field.swappable": "Whether right-clicking can equip this item.",
+    "command_translation.help.component.minecraft:equippable.field.damage_on_hurt": "Whether the item is damaged when its wearer is hurt.",
+    "command_translation.help.component.minecraft:equippable.field.equip_on_interact": "Whether using the item on a mob equips it.",
+    "command_translation.help.component.minecraft:equippable.field.camera_overlay": "The overlay texture used while the item is equipped."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:equippable": "使物品可装备到指定槽位。",
+    "command_translation.help.component.minecraft:equippable.field.slot": "物品可放入的装备槽位。",
+    "command_translation.help.component.minecraft:equippable.field.equip_sound": "装备该物品时播放的声音事件。",
+    "command_translation.help.component.minecraft:equippable.field.asset_id": "穿戴时使用的装备模型。",
+    "command_translation.help.component.minecraft:equippable.field.allowed_entities": "允许装备该物品的实体。",
+    "command_translation.help.component.minecraft:equippable.field.dispensable": "发射器能否将该物品装备到实体上。",
+    "command_translation.help.component.minecraft:equippable.field.swappable": "右键能否将该物品装备上。",
+    "command_translation.help.component.minecraft:equippable.field.damage_on_hurt": "穿戴者受伤时物品是否损耗耐久。",
+    "command_translation.help.component.minecraft:equippable.field.equip_on_interact": "对生物使用物品时能否为其装备。",
+    "command_translation.help.component.minecraft:equippable.field.camera_overlay": "装备时使用的屏幕叠加纹理。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:equippable": "Ermöglicht das Ausrüsten des Items im angegebenen Slot.",
+    "command_translation.help.component.minecraft:equippable.field.slot": "Der Ausrüstungsslot, in den das Item gelegt werden kann.",
+    "command_translation.help.component.minecraft:equippable.field.equip_sound": "Das Geräuschereignis beim Ausrüsten des Items.",
+    "command_translation.help.component.minecraft:equippable.field.asset_id": "Das Ausrüstungsmodell, das beim Tragen verwendet wird.",
+    "command_translation.help.component.minecraft:equippable.field.allowed_entities": "Die Entitäten, die dieses Item ausrüsten dürfen.",
+    "command_translation.help.component.minecraft:equippable.field.dispensable": "Ob ein Werfer dieses Item ausrüsten kann.",
+    "command_translation.help.component.minecraft:equippable.field.swappable": "Ob das Item per Rechtsklick ausgerüstet werden kann.",
+    "command_translation.help.component.minecraft:equippable.field.damage_on_hurt": "Ob das Item Schaden nimmt, wenn der Träger verletzt wird.",
+    "command_translation.help.component.minecraft:equippable.field.equip_on_interact": "Ob Benutzung an einem Mob das Item ausrüstet.",
+    "command_translation.help.component.minecraft:equippable.field.camera_overlay": "Die Overlay-Textur während des Tragens."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:equippable": "指定したスロットにアイテムを装備できるようにする。",
+    "command_translation.help.component.minecraft:equippable.field.slot": "アイテムを入れられる装備スロット。",
+    "command_translation.help.component.minecraft:equippable.field.equip_sound": "アイテム装備時に再生されるサウンドイベント。",
+    "command_translation.help.component.minecraft:equippable.field.asset_id": "装着時に使う装備モデル。",
+    "command_translation.help.component.minecraft:equippable.field.allowed_entities": "このアイテムを装備できるエンティティ。",
+    "command_translation.help.component.minecraft:equippable.field.dispensable": "ディスペンサーで装備できるか。",
+    "command_translation.help.component.minecraft:equippable.field.swappable": "右クリックで装備できるか。",
+    "command_translation.help.component.minecraft:equippable.field.damage_on_hurt": "装着者が負傷したときに耐久が減るか。",
+    "command_translation.help.component.minecraft:equippable.field.equip_on_interact": "Mobに使用して装備できるか。",
+    "command_translation.help.component.minecraft:equippable.field.camera_overlay": "装備中に使う画面オーバーレイのテクスチャ。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:equippable": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:equippable.field.slot": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:equippable.field.equip_sound": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:equippable.field.asset_id": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:equippable.field.allowed_entities": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:equippable.field.dispensable": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:equippable.field.swappable": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:equippable.field.damage_on_hurt": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:equippable.field.equip_on_interact": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:equippable.field.camera_overlay": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:provides_banner_patterns": "Lets this item be placed in a loom's pattern slot to provide the listed banner patterns."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:provides_banner_patterns": "使该物品可放入织布机的图案槽，提供所列的旗帜图案。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:provides_banner_patterns": "Ermöglicht, dieses Item in den Musterslot eines Webstuhls zu legen und die aufgeführten Bannermuster bereitzustellen."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:provides_banner_patterns": "このアイテムを機織りの模様スロットに入れ、指定した旗の模様を提供できるようにする。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:provides_banner_patterns": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

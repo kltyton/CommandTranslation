@@ -1,0 +1,26 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:tooltip_style": "The resource location of custom sprites used for this item's tooltip background and frame."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:tooltip_style": "用于该物品提示背景与边框的自定义精灵图的资源位置。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:tooltip_style": "Der Ressourcenpfad der benutzerdefinierten Sprites für Tooltip-Hintergrund und -Rahmen dieses Items."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:tooltip_style": "このアイテムのツールチップ背景と枠に使うカスタムスプライトのリソース位置。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:tooltip_style": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "en_us": {
+    "command_translation.help.argument.fetchprofile.entity": "Fetches the profile of an online entity.",
+    "command_translation.help.argument.fetchprofile.entity.entity": "The single online entity whose profile is fetched; it must have a profile.",
+    "command_translation.help.argument.fetchprofile.id": "Fetches a player profile by UUID; the player need not be online.",
+    "command_translation.help.argument.fetchprofile.id.id": "The player's UUID.",
+    "command_translation.help.argument.fetchprofile.name": "Fetches a player profile by name; the player need not be online, and a copyable profile component is printed on success.",
+    "command_translation.help.argument.fetchprofile.name.name": "The player name to fetch, case-insensitive."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.fetchprofile.entity": "获取某个在线实体的档案。",
+    "command_translation.help.argument.fetchprofile.entity.entity": "要获取档案的单个在线实体，必须拥有档案。",
+    "command_translation.help.argument.fetchprofile.id": "按 UUID 获取玩家档案，玩家无需在线。",
+    "command_translation.help.argument.fetchprofile.id.id": "玩家的 UUID。",
+    "command_translation.help.argument.fetchprofile.name": "按名字获取玩家档案，玩家无需在线；成功后会输出可复制的档案组件。",
+    "command_translation.help.argument.fetchprofile.name.name": "要获取的玩家名，不区分大小写。"
+  },
+  "sources": {
+    "command_translation.help.argument.fetchprofile.entity": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ffetchprofile",
+        "revision": 3494617
+      }
+    ],
+    "command_translation.help.argument.fetchprofile.entity.entity": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ffetchprofile",
+        "revision": 3494617
+      }
+    ],
+    "command_translation.help.argument.fetchprofile.id": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ffetchprofile",
+        "revision": 3494617
+      }
+    ],
+    "command_translation.help.argument.fetchprofile.id.id": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ffetchprofile",
+        "revision": 3494617
+      }
+    ],
+    "command_translation.help.argument.fetchprofile.name": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ffetchprofile",
+        "revision": 3494617
+      }
+    ],
+    "command_translation.help.argument.fetchprofile.name.name": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ffetchprofile",
+        "revision": 3494617
+      }
+    ]
+  },
+  "bindings": {
+    "fetchprofile.entity": "command_translation.help.argument.fetchprofile.entity",
+    "fetchprofile.entity.entity": "command_translation.help.argument.fetchprofile.entity.entity",
+    "fetchprofile.id": "command_translation.help.argument.fetchprofile.id",
+    "fetchprofile.id.id": "command_translation.help.argument.fetchprofile.id.id",
+    "fetchprofile.name": "command_translation.help.argument.fetchprofile.name",
+    "fetchprofile.name.name": "command_translation.help.argument.fetchprofile.name.name"
+  },
+  "de_de": {
+    "command_translation.help.argument.fetchprofile.entity": "Ruft das Profil einer Online-Entität ab.",
+    "command_translation.help.argument.fetchprofile.entity.entity": "Die einzelne Online-Entität, deren Profil abgerufen wird; sie muss ein Profil besitzen.",
+    "command_translation.help.argument.fetchprofile.id": "Ruft ein Spielerprofil per UUID ab; der Spieler muss nicht online sein.",
+    "command_translation.help.argument.fetchprofile.id.id": "Die UUID des Spielers.",
+    "command_translation.help.argument.fetchprofile.name": "Ruft ein Spielerprofil per Namen ab; der Spieler muss nicht online sein, bei Erfolg wird eine kopierbare Profilkomponente ausgegeben.",
+    "command_translation.help.argument.fetchprofile.name.name": "Der abzurufende Spielername, Groß-/Kleinschreibung egal."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.fetchprofile.entity": "オンラインのエンティティのプロフィールを取得する。",
+    "command_translation.help.argument.fetchprofile.entity.entity": "プロフィールを取得する単一のオンラインエンティティ。プロフィールを持つ必要がある。",
+    "command_translation.help.argument.fetchprofile.id": "UUID でプレイヤープロフィールを取得する。プレイヤーはオンラインでなくてよい。",
+    "command_translation.help.argument.fetchprofile.id.id": "プレイヤーの UUID。",
+    "command_translation.help.argument.fetchprofile.name": "名前でプレイヤープロフィールを取得する。プレイヤーはオンラインでなくてよく、成功するとコピー可能なプロフィールコンポーネントを出力する。",
+    "command_translation.help.argument.fetchprofile.name.name": "取得するプレイヤー名。大文字小文字は区別しない。"
+  },
+  "syntax": [
+    {
+      "path": "fetchprofile",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "fetchprofile.entity",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "fetchprofile.entity.entity",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "single"
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "fetchprofile.id",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "fetchprofile.id.id",
+      "type": "argument",
+      "parser": "minecraft:uuid",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "fetchprofile.name",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "fetchprofile.name.name",
+      "type": "argument",
+      "parser": "brigadier:string",
+      "properties": {
+        "type": "greedy"
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

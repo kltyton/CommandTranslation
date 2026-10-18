@@ -1,0 +1,102 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:stored_enchantments": "A map of inactive enchantments and their levels, shown in the item's tooltip.",
+    "command_translation.help.component.minecraft:stored_enchantments.field.*": "The level of this enchantment.",
+    "command_translation.help.component.minecraft:stored_enchantments.field.show_in_tooltip": "Whether this component’s details appear in the item tooltip.",
+    "command_translation.help.component.minecraft:stored_enchantments.field.levels": "Enchantments and their levels.",
+    "command_translation.help.component.minecraft:stored_enchantments.field.levels.*": "The level of this enchantment."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:stored_enchantments": "未生效附魔及其等级的映射，会显示在物品提示中。",
+    "command_translation.help.component.minecraft:stored_enchantments.field.*": "此附魔的等级。",
+    "command_translation.help.component.minecraft:stored_enchantments.field.show_in_tooltip": "是否在物品提示中显示该组件的信息。",
+    "command_translation.help.component.minecraft:stored_enchantments.field.levels": "附魔及其等级。",
+    "command_translation.help.component.minecraft:stored_enchantments.field.levels.*": "此附魔的等级。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:stored_enchantments": "Eine Zuordnung inaktiver Verzauberungen und ihrer Stufen, die im Tooltip angezeigt wird.",
+    "command_translation.help.component.minecraft:stored_enchantments.field.*": "Die Stufe dieser Verzauberung.",
+    "command_translation.help.component.minecraft:stored_enchantments.field.show_in_tooltip": "Ob die Informationen dieser Komponente im Item-Tooltip erscheinen.",
+    "command_translation.help.component.minecraft:stored_enchantments.field.levels": "Verzauberungen und ihre Stufen.",
+    "command_translation.help.component.minecraft:stored_enchantments.field.levels.*": "Die Stufe dieser Verzauberung."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:stored_enchantments": "未適用のエンチャントとそのレベルの対応。アイテムのツールチップに表示される。",
+    "command_translation.help.component.minecraft:stored_enchantments.field.*": "このエンチャントのレベル。",
+    "command_translation.help.component.minecraft:stored_enchantments.field.show_in_tooltip": "このコンポーネントの情報をアイテムのツールチップに表示するか。",
+    "command_translation.help.component.minecraft:stored_enchantments.field.levels": "エンチャントとそのレベル。",
+    "command_translation.help.component.minecraft:stored_enchantments.field.levels.*": "このエンチャントのレベル。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:stored_enchantments": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:stored_enchantments.field.*": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:stored_enchantments.field.show_in_tooltip": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:stored_enchantments.field.levels": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:stored_enchantments.field.levels.*": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:fireworks": "The flight and explosion data of this firework rocket.",
+    "command_translation.help.component.minecraft:fireworks.field.flight_duration": "The flight duration and gunpowder count of the rocket.",
+    "command_translation.help.component.minecraft:fireworks.field.explosions": "The explosion effects caused by the rocket.",
+    "command_translation.help.component.minecraft:fireworks.field.explosions.shape": "The shape of the explosion.",
+    "command_translation.help.component.minecraft:fireworks.field.explosions.colors": "The initial particle colors of the explosion.",
+    "command_translation.help.component.minecraft:fireworks.field.explosions.fade_colors": "The fading particle colors of the explosion.",
+    "command_translation.help.component.minecraft:fireworks.field.explosions.has_trail": "Whether the explosion has a trail effect.",
+    "command_translation.help.component.minecraft:fireworks.field.explosions.has_twinkle": "Whether the explosion has a twinkle effect."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:fireworks": "该烟花火箭的飞行与爆炸数据。",
+    "command_translation.help.component.minecraft:fireworks.field.flight_duration": "火箭的飞行时长与所用火药数量。",
+    "command_translation.help.component.minecraft:fireworks.field.explosions": "火箭产生的爆炸效果列表。",
+    "command_translation.help.component.minecraft:fireworks.field.explosions.shape": "爆炸的形状。",
+    "command_translation.help.component.minecraft:fireworks.field.explosions.colors": "爆炸初始粒子的颜色。",
+    "command_translation.help.component.minecraft:fireworks.field.explosions.fade_colors": "爆炸粒子淡出时的颜色。",
+    "command_translation.help.component.minecraft:fireworks.field.explosions.has_trail": "爆炸是否带有拖尾效果。",
+    "command_translation.help.component.minecraft:fireworks.field.explosions.has_twinkle": "爆炸是否带有闪烁效果。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:fireworks": "Die Flug- und Explosionsdaten dieser Feuerwerksrakete.",
+    "command_translation.help.component.minecraft:fireworks.field.flight_duration": "Die Flugdauer und der Schwarzpulververbrauch der Rakete.",
+    "command_translation.help.component.minecraft:fireworks.field.explosions": "Die von der Rakete verursachten Explosionseffekte.",
+    "command_translation.help.component.minecraft:fireworks.field.explosions.shape": "Die Form der Explosion.",
+    "command_translation.help.component.minecraft:fireworks.field.explosions.colors": "Die Anfangspartikelfarben der Explosion.",
+    "command_translation.help.component.minecraft:fireworks.field.explosions.fade_colors": "Die ausblendenden Partikelfarben der Explosion.",
+    "command_translation.help.component.minecraft:fireworks.field.explosions.has_trail": "Ob die Explosion einen Schweifeffekt hat.",
+    "command_translation.help.component.minecraft:fireworks.field.explosions.has_twinkle": "Ob die Explosion einen Funkeeffekt hat."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:fireworks": "この花火ロケットの飛翔と爆発のデータ。",
+    "command_translation.help.component.minecraft:fireworks.field.flight_duration": "ロケットの飛翔時間と使用した火薬の数。",
+    "command_translation.help.component.minecraft:fireworks.field.explosions": "ロケットが起こす爆発効果の一覧。",
+    "command_translation.help.component.minecraft:fireworks.field.explosions.shape": "爆発の形状。",
+    "command_translation.help.component.minecraft:fireworks.field.explosions.colors": "爆発の初期パーティクルの色。",
+    "command_translation.help.component.minecraft:fireworks.field.explosions.fade_colors": "爆発パーティクルが消えるときの色。",
+    "command_translation.help.component.minecraft:fireworks.field.explosions.has_trail": "爆発に尾を引く効果があるか。",
+    "command_translation.help.component.minecraft:fireworks.field.explosions.has_twinkle": "爆発にきらめき効果があるか。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:fireworks": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:fireworks.field.flight_duration": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:fireworks.field.explosions": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:fireworks.field.explosions.shape": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:fireworks.field.explosions.colors": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:fireworks.field.explosions.fade_colors": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:fireworks.field.explosions.has_trail": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:fireworks.field.explosions.has_twinkle": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

@@ -1,0 +1,435 @@
+{
+  "en_us": {
+    "command_translation.help.argument.place.feature": "Places a configured world-generation feature at a position.",
+    "command_translation.help.argument.place.feature.feature": "The configured feature to place.",
+    "command_translation.help.argument.place.pos": "The block position where placement starts.",
+    "command_translation.help.argument.place.jigsaw": "Assembles structures from a jigsaw template pool, like village pieces.",
+    "command_translation.help.argument.place.pool": "The template pool to start generating from.",
+    "command_translation.help.argument.place.target": "The jigsaw block's target name used to connect pieces.",
+    "command_translation.help.argument.place.max_depth": "How many jigsaw connection steps generation may follow; a larger value allows a more extended structure.",
+    "command_translation.help.argument.place.structure": "Places a full configured structure at a position.",
+    "command_translation.help.argument.place.structure.structure": "The structure to place.",
+    "command_translation.help.argument.place.template": "Places a saved structure template file at a position.",
+    "command_translation.help.argument.place.template.template": "The saved structure template to place; this selects a template, not a configured world-generation structure.",
+    "command_translation.help.argument.place.rotation": "Rotates the template around its placement point: none, clockwise_90, counterclockwise_90 or 180.",
+    "command_translation.help.argument.place.mirror": "Mirrors the placed template: none, left_right or front_back.",
+    "command_translation.help.argument.place.integrity": "How complete the placed template is; below full, blocks are randomly omitted.",
+    "command_translation.help.argument.place.seed": "The seed used for the random degradation when integrity is below full.",
+    "command_translation.help.argument.place.strict": "Places blocks exactly as specified without triggering neighboring block updates or recalculating block shapes."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.place.feature": "在指定位置放置一个已配置的世界生成地物。",
+    "command_translation.help.argument.place.feature.feature": "要放置的已配置地物。",
+    "command_translation.help.argument.place.pos": "开始放置的方块坐标。",
+    "command_translation.help.argument.place.jigsaw": "依据拼图模板池拼装结构，比如村庄的各部分。",
+    "command_translation.help.argument.place.pool": "开始生成的模板池。",
+    "command_translation.help.argument.place.target": "用于连接各拼图块的拼图方块目标名称。",
+    "command_translation.help.argument.place.max_depth": "拼图生成最多沿连接展开多少层，数值越大结构可展开得越远。",
+    "command_translation.help.argument.place.structure": "在指定位置放置一个完整的已配置结构。",
+    "command_translation.help.argument.place.structure.structure": "要放置的结构。",
+    "command_translation.help.argument.place.template": "在指定位置放置一个已保存的结构模板文件。",
+    "command_translation.help.argument.place.template.template": "要放置的已保存结构模板；这里选择的是模板，而非世界生成的整结构。",
+    "command_translation.help.argument.place.rotation": "围绕放置点旋转模板：不旋转、顺时针 90 度、逆时针 90 度或 180 度。",
+    "command_translation.help.argument.place.mirror": "镜像所放置的模板：不镜像、左右镜像或前后镜像。",
+    "command_translation.help.argument.place.integrity": "所放置模板的完整程度；低于满值时方块会随机缺失。",
+    "command_translation.help.argument.place.seed": "完整度低于满值时，用于随机残缺的种子。",
+    "command_translation.help.argument.place.strict": "按指定状态直接放置方块，不触发邻近方块更新，也不重新计算方块形状。"
+  },
+  "sources": {
+    "command_translation.help.argument.place.feature": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplace",
+        "revision": 3780327
+      }
+    ],
+    "command_translation.help.argument.place.feature.feature": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplace",
+        "revision": 3780327
+      }
+    ],
+    "command_translation.help.argument.place.pos": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplace",
+        "revision": 3780327
+      }
+    ],
+    "command_translation.help.argument.place.jigsaw": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplace",
+        "revision": 3780327
+      }
+    ],
+    "command_translation.help.argument.place.pool": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplace",
+        "revision": 3780327
+      }
+    ],
+    "command_translation.help.argument.place.target": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplace",
+        "revision": 3780327
+      }
+    ],
+    "command_translation.help.argument.place.max_depth": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplace",
+        "revision": 3780327
+      }
+    ],
+    "command_translation.help.argument.place.structure": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplace",
+        "revision": 3780327
+      }
+    ],
+    "command_translation.help.argument.place.structure.structure": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplace",
+        "revision": 3780327
+      }
+    ],
+    "command_translation.help.argument.place.template": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplace",
+        "revision": 3780327
+      }
+    ],
+    "command_translation.help.argument.place.template.template": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplace",
+        "revision": 3780327
+      }
+    ],
+    "command_translation.help.argument.place.rotation": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplace",
+        "revision": 3780327
+      }
+    ],
+    "command_translation.help.argument.place.mirror": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplace",
+        "revision": 3780327
+      }
+    ],
+    "command_translation.help.argument.place.integrity": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplace",
+        "revision": 3780327
+      }
+    ],
+    "command_translation.help.argument.place.seed": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplace",
+        "revision": 3780327
+      }
+    ],
+    "command_translation.help.argument.place.strict": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplace",
+        "revision": 3780327
+      }
+    ]
+  },
+  "bindings": {
+    "place.feature": "command_translation.help.argument.place.feature",
+    "place.feature.feature": "command_translation.help.argument.place.feature.feature",
+    "place.feature.feature.pos": "command_translation.help.argument.place.pos",
+    "place.jigsaw": "command_translation.help.argument.place.jigsaw",
+    "place.jigsaw.pool": "command_translation.help.argument.place.pool",
+    "place.jigsaw.pool.target": "command_translation.help.argument.place.target",
+    "place.jigsaw.pool.target.max_depth": "command_translation.help.argument.place.max_depth",
+    "place.jigsaw.pool.target.max_depth.position": "command_translation.help.argument.place.pos",
+    "place.structure": "command_translation.help.argument.place.structure",
+    "place.structure.structure": "command_translation.help.argument.place.structure.structure",
+    "place.structure.structure.pos": "command_translation.help.argument.place.pos",
+    "place.template": "command_translation.help.argument.place.template",
+    "place.template.template": "command_translation.help.argument.place.template.template",
+    "place.template.template.pos": "command_translation.help.argument.place.pos",
+    "place.template.template.pos.rotation": "command_translation.help.argument.place.rotation",
+    "place.template.template.pos.rotation.mirror": "command_translation.help.argument.place.mirror",
+    "place.template.template.pos.rotation.mirror.integrity": "command_translation.help.argument.place.integrity",
+    "place.template.template.pos.rotation.mirror.integrity.seed": "command_translation.help.argument.place.seed",
+    "place.template.template.pos.rotation.mirror.integrity.seed.strict": "command_translation.help.argument.place.strict"
+  },
+  "de_de": {
+    "command_translation.help.argument.place.feature": "Platziert ein konfiguriertes Weltgenerierungs-Feature an einer Position.",
+    "command_translation.help.argument.place.feature.feature": "Das zu platzierende konfigurierte Feature.",
+    "command_translation.help.argument.place.pos": "Die Blockposition, an der das Platzieren beginnt.",
+    "command_translation.help.argument.place.jigsaw": "Setzt Bauwerke aus einem Jigsaw-Vorlagenpool zusammen, wie Dorfteile.",
+    "command_translation.help.argument.place.pool": "Der Vorlagenpool, von dem aus die Generierung startet.",
+    "command_translation.help.argument.place.target": "Der Zielname des Jigsaw-Blocks, der zum Verbinden der Teile dient.",
+    "command_translation.help.argument.place.max_depth": "Wie viele Jigsaw-Verbindungsschritte die Generierung verfolgen darf; ein größerer Wert erlaubt ein ausgedehnteres Bauwerk.",
+    "command_translation.help.argument.place.structure": "Platziert ein vollständiges konfiguriertes Bauwerk an einer Position.",
+    "command_translation.help.argument.place.structure.structure": "Das zu platzierende Bauwerk.",
+    "command_translation.help.argument.place.template": "Platziert eine gespeicherte Strukturvorlagendatei an einer Position.",
+    "command_translation.help.argument.place.template.template": "Die zu platzierende gespeicherte Strukturvorlage; dies wählt eine Vorlage, kein konfiguriertes Weltgenerierungs-Bauwerk.",
+    "command_translation.help.argument.place.rotation": "Dreht die Vorlage um ihren Platzierungspunkt: none, clockwise_90, counterclockwise_90 oder 180.",
+    "command_translation.help.argument.place.mirror": "Spiegelt die platzierte Vorlage: none, left_right oder front_back.",
+    "command_translation.help.argument.place.integrity": "Wie vollständig die platzierte Vorlage ist; unter dem vollen Wert werden Blöcke zufällig weggelassen.",
+    "command_translation.help.argument.place.seed": "Der Seed für die zufällige Ausdünnung, wenn die Vollständigkeit unter dem vollen Wert liegt.",
+    "command_translation.help.argument.place.strict": "Platziert Blöcke genau wie angegeben, ohne benachbarte Blockupdates auszulösen oder Blockformen neu zu berechnen."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.place.feature": "設定済みのワールド生成フィーチャーをある位置に配置する。",
+    "command_translation.help.argument.place.feature.feature": "配置する設定済みフィーチャー。",
+    "command_translation.help.argument.place.pos": "配置を開始するブロック位置。",
+    "command_translation.help.argument.place.jigsaw": "ジグソーテンプレートプールから構造物を組み立てる。村のパーツのようなもの。",
+    "command_translation.help.argument.place.pool": "生成の起点となるテンプレートプール。",
+    "command_translation.help.argument.place.target": "パーツ同士をつなぐために使うジグソーブロックのターゲット名。",
+    "command_translation.help.argument.place.max_depth": "生成がたどれるジグソー接続の段数。値が大きいほど構造物をより広く展開できる。",
+    "command_translation.help.argument.place.structure": "完全な設定済み構造物をある位置に配置する。",
+    "command_translation.help.argument.place.structure.structure": "配置する構造物。",
+    "command_translation.help.argument.place.template": "保存済みの構造物テンプレートファイルをある位置に配置する。",
+    "command_translation.help.argument.place.template.template": "配置する保存済み構造物テンプレート。これは設定済みのワールド生成構造物ではなく、テンプレートを選ぶ。",
+    "command_translation.help.argument.place.rotation": "テンプレートを配置点を中心に回転させる: none、clockwise_90、counterclockwise_90、180。",
+    "command_translation.help.argument.place.mirror": "配置するテンプレートを鏡映する: none、left_right、front_back。",
+    "command_translation.help.argument.place.integrity": "配置するテンプレートの完全さ。最大未満ではブロックがランダムに省略される。",
+    "command_translation.help.argument.place.seed": "完全さが最大未満のときのランダムな欠落に使うシード。",
+    "command_translation.help.argument.place.strict": "指定どおりにブロックを設置し、隣接ブロックの更新やブロック形状の再計算を行わない。"
+  },
+  "syntax": [
+    {
+      "path": "place",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "place.feature",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "place.feature.feature",
+      "type": "argument",
+      "parser": "minecraft:resource_key",
+      "properties": {
+        "registry": "minecraft:worldgen/configured_feature"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "place.feature.feature.pos",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "place.jigsaw",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "place.jigsaw.pool",
+      "type": "argument",
+      "parser": "minecraft:resource_key",
+      "properties": {
+        "registry": "minecraft:worldgen/template_pool"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "place.jigsaw.pool.target",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "place.jigsaw.pool.target.max_depth",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "max": 7,
+        "min": 1
+      },
+      "versions": [
+        "1.20.1"
+      ]
+    },
+    {
+      "path": "place.jigsaw.pool.target.max_depth.position",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "place.structure",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "place.structure.structure",
+      "type": "argument",
+      "parser": "minecraft:resource_key",
+      "properties": {
+        "registry": "minecraft:worldgen/structure"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "place.structure.structure.pos",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "place.template",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "place.template.template",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "place.template.template.pos",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "place.template.template.pos.rotation",
+      "type": "argument",
+      "parser": "minecraft:template_rotation",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "place.template.template.pos.rotation.mirror",
+      "type": "argument",
+      "parser": "minecraft:template_mirror",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "place.template.template.pos.rotation.mirror.integrity",
+      "type": "argument",
+      "parser": "brigadier:float",
+      "properties": {
+        "max": 1,
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "place.template.template.pos.rotation.mirror.integrity.seed",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "place.jigsaw.pool.target.max_depth",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "max": 20,
+        "min": 1
+      },
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "place.template.template.pos.rotation.mirror.integrity.seed.strict",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

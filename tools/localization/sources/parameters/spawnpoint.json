@@ -1,0 +1,114 @@
+{
+  "en_us": {
+    "command_translation.help.argument.spawnpoint.targets": "The players whose personal spawn point is set.",
+    "command_translation.help.argument.spawnpoint.pos": "The new respawn block position.",
+    "command_translation.help.argument.spawnpoint.angle": "The horizontal facing (yaw) a player has when respawning here.",
+    "command_translation.help.argument.spawnpoint.rotation": "The full respawn facing as yaw then pitch in degrees."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.spawnpoint.targets": "要设置个人出生点的玩家。",
+    "command_translation.help.argument.spawnpoint.pos": "新的重生点方块坐标。",
+    "command_translation.help.argument.spawnpoint.angle": "玩家在此重生时的水平朝向 yaw。",
+    "command_translation.help.argument.spawnpoint.rotation": "完整的重生朝向，先 yaw 后 pitch，单位为度。"
+  },
+  "sources": {
+    "command_translation.help.argument.spawnpoint.targets": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fspawnpoint",
+        "revision": 3826036
+      }
+    ],
+    "command_translation.help.argument.spawnpoint.pos": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fspawnpoint",
+        "revision": 3826036
+      }
+    ],
+    "command_translation.help.argument.spawnpoint.angle": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fspawnpoint",
+        "revision": 3826036
+      }
+    ],
+    "command_translation.help.argument.spawnpoint.rotation": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fspawnpoint",
+        "revision": 3826036
+      }
+    ]
+  },
+  "bindings": {
+    "spawnpoint.targets": "command_translation.help.argument.spawnpoint.targets",
+    "spawnpoint.targets.pos": "command_translation.help.argument.spawnpoint.pos",
+    "spawnpoint.targets.pos.angle": "command_translation.help.argument.spawnpoint.angle",
+    "spawnpoint.targets.pos.rotation": "command_translation.help.argument.spawnpoint.rotation"
+  },
+  "de_de": {
+    "command_translation.help.argument.spawnpoint.targets": "Die Spieler, deren persönlicher Spawnpunkt gesetzt wird.",
+    "command_translation.help.argument.spawnpoint.pos": "Die neue Wiederbelebungsposition als Blockkoordinaten.",
+    "command_translation.help.argument.spawnpoint.angle": "Der yaw beim Wiedererscheinen hier.",
+    "command_translation.help.argument.spawnpoint.rotation": "Die vollständige Wiedererscheinungs-Blickrichtung als yaw dann pitch in Grad."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.spawnpoint.targets": "個人スポーンを設定するプレイヤー。",
+    "command_translation.help.argument.spawnpoint.pos": "新しいリスポーン地点のブロック座標。",
+    "command_translation.help.argument.spawnpoint.angle": "ここでリスポーンするときの水平な向き（yaw）。",
+    "command_translation.help.argument.spawnpoint.rotation": "リスポーン時の向き全体。yaw の次に pitch を度で指定する。"
+  },
+  "syntax": [
+    {
+      "path": "spawnpoint",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "spawnpoint.targets",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "players",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "spawnpoint.targets.pos",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "spawnpoint.targets.pos.angle",
+      "type": "argument",
+      "parser": "minecraft:angle",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "spawnpoint.targets.pos.rotation",
+      "type": "argument",
+      "parser": "minecraft:rotation",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

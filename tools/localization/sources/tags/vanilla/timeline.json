@@ -1,0 +1,52 @@
+{
+  "en_us": {
+    "command_translation.tag.timeline.minecraft.in_end": "Timelines for the End dimension",
+    "command_translation.tag.timeline.minecraft.in_nether": "Timelines for the Nether dimension",
+    "command_translation.tag.timeline.minecraft.in_overworld": "Timelines for the Overworld dimension",
+    "command_translation.tag.timeline.minecraft.universal": "Timelines valid in every dimension"
+  },
+  "zh_cn": {
+    "command_translation.tag.timeline.minecraft.in_end": "末地维度的时间线",
+    "command_translation.tag.timeline.minecraft.in_nether": "下界维度的时间线",
+    "command_translation.tag.timeline.minecraft.in_overworld": "主世界维度的时间线",
+    "command_translation.tag.timeline.minecraft.universal": "适用于所有维度的时间线"
+  },
+  "de_de": {
+    "command_translation.tag.timeline.minecraft.in_end": "Zeitlinien für das Ende",
+    "command_translation.tag.timeline.minecraft.in_nether": "Zeitlinien für den Nether",
+    "command_translation.tag.timeline.minecraft.in_overworld": "Zeitlinien für die Oberwelt",
+    "command_translation.tag.timeline.minecraft.universal": "Zeitlinien für alle Dimensionen"
+  },
+  "ja_jp": {
+    "command_translation.tag.timeline.minecraft.in_end": "エンド次元のタイムライン",
+    "command_translation.tag.timeline.minecraft.in_nether": "ネザー次元のタイムライン",
+    "command_translation.tag.timeline.minecraft.in_overworld": "オーバーワールド次元のタイムライン",
+    "command_translation.tag.timeline.minecraft.universal": "全次元で有効なタイムライン"
+  },
+  "sources": {
+    "command_translation.tag.timeline.minecraft.in_end": [
+      {
+        "url": "https://minecraft.wiki/w/Timeline%20tag%20(Java%20Edition)",
+        "revision": 3839231
+      }
+    ],
+    "command_translation.tag.timeline.minecraft.in_nether": [
+      {
+        "url": "https://minecraft.wiki/w/Timeline%20tag%20(Java%20Edition)",
+        "revision": 3839231
+      }
+    ],
+    "command_translation.tag.timeline.minecraft.in_overworld": [
+      {
+        "url": "https://minecraft.wiki/w/Timeline%20tag%20(Java%20Edition)",
+        "revision": 3839231
+      }
+    ],
+    "command_translation.tag.timeline.minecraft.universal": [
+      {
+        "url": "https://minecraft.wiki/w/Timeline%20tag%20(Java%20Edition)",
+        "revision": 3839231
+      }
+    ]
+  }
+}

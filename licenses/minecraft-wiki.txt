@@ -1,0 +1,14 @@
+Minecraft Wiki documentation
+
+Copyright: Minecraft Wiki contributors.
+License: Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported.
+https://creativecommons.org/licenses/by-nc-sa/3.0/
+
+The command_translation.help.* entries and vanilla command_translation.tag.*
+entries are excerpts, concise summaries and translations of Minecraft Wiki
+command and tag articles. They have been
+shortened and translated. Their page URLs and exact revision identifiers are
+listed in assets/command_translation/documentation/sources.json in this JAR.
+The article history links identify the contributing authors.
+
+Other code and translation entries retain their separately stated licenses.

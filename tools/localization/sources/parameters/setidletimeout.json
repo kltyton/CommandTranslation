@@ -1,0 +1,51 @@
+{
+  "en_us": {
+    "command_translation.help.argument.setidletimeout.minutes": "How many minutes a player may be idle before being kicked; 0 disables the timeout."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.setidletimeout.minutes": "玩家空闲多少分钟后被踢出；填 0 关闭该超时。"
+  },
+  "sources": {
+    "command_translation.help.argument.setidletimeout.minutes": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fsetidletimeout",
+        "revision": 3678699
+      }
+    ]
+  },
+  "bindings": {
+    "setidletimeout.minutes": "command_translation.help.argument.setidletimeout.minutes"
+  },
+  "de_de": {
+    "command_translation.help.argument.setidletimeout.minutes": "Wie viele Minuten ein Spieler untätig sein darf, bevor er geworfen wird; 0 deaktiviert die Zeitbegrenzung."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.setidletimeout.minutes": "プレイヤーが放置してからキックされるまでの分数。0 で無効になる。"
+  },
+  "syntax": [
+    {
+      "path": "setidletimeout",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "setidletimeout.minutes",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "en_us": {
+    "command_translation.help.argument.spectate.target": "The single entity to watch; the viewer must already be in Spectator mode.",
+    "command_translation.help.argument.spectate.target.player": "The single player who views the target; defaults to the executor."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.spectate.target": "要观看的单个实体；观看者须已处于旁观模式。",
+    "command_translation.help.argument.spectate.target.player": "进行观看的玩家，默认为执行者。"
+  },
+  "sources": {
+    "command_translation.help.argument.spectate.target": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fspectate",
+        "revision": 3826038
+      }
+    ],
+    "command_translation.help.argument.spectate.target.player": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fspectate",
+        "revision": 3826038
+      }
+    ]
+  },
+  "bindings": {
+    "spectate.target": "command_translation.help.argument.spectate.target",
+    "spectate.target.player": "command_translation.help.argument.spectate.target.player"
+  },
+  "de_de": {
+    "command_translation.help.argument.spectate.target": "Das einzelne Wesen, das beobachtet wird; der Beobachter muss bereits im Zuschauermodus sein.",
+    "command_translation.help.argument.spectate.target.player": "Der einzelne Spieler, der das Ziel beobachtet; Standard ist der Ausführende."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.spectate.target": "観戦する単一のエンティティ。観戦者はスペクテイターモードである必要がある。",
+    "command_translation.help.argument.spectate.target.player": "対象を観察するプレイヤー。既定は実行者。"
+  },
+  "syntax": [
+    {
+      "path": "spectate",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "spectate.target",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "single"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "spectate.target.player",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "players",
+        "amount": "single"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

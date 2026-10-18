@@ -1,0 +1,66 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:mooshroom/variant": "The mooshroom’s appearance variant.",
+    "command_translation.help.component.minecraft:mooshroom/variant.value.red": "Red mooshroom.",
+    "command_translation.help.component.minecraft:mooshroom/variant.value.brown": "Brown mooshroom."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:mooshroom/variant": "哞菇的外观变种。",
+    "command_translation.help.component.minecraft:mooshroom/variant.value.red": "红色哞菇。",
+    "command_translation.help.component.minecraft:mooshroom/variant.value.brown": "棕色哞菇。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:mooshroom/variant": "Die Erscheinungsvariante des Mooshrooms.",
+    "command_translation.help.component.minecraft:mooshroom/variant.value.red": "Rotes Mooshroom.",
+    "command_translation.help.component.minecraft:mooshroom/variant.value.brown": "Braunes Mooshroom."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:mooshroom/variant": "ムーシュルームの見た目のバリエーション。",
+    "command_translation.help.component.minecraft:mooshroom/variant.value.red": "赤色のムーシュルーム。",
+    "command_translation.help.component.minecraft:mooshroom/variant.value.brown": "茶色のムーシュルーム。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:mooshroom/variant": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:mooshroom/variant.value.red": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:mooshroom/variant.value.brown": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ]
+  }
+}

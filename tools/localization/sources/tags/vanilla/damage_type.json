@@ -1,0 +1,352 @@
+{
+  "en_us": {
+    "command_translation.tag.damage_type.minecraft.always_hurts_ender_dragons": "Always damages Ender Dragons even without a player",
+    "command_translation.tag.damage_type.minecraft.always_most_significant_fall": "Used to show the correct fall death message",
+    "command_translation.tag.damage_type.minecraft.always_triggers_silverfish": "Always alerts nearby hidden silverfish",
+    "command_translation.tag.damage_type.minecraft.avoids_guardian_thorns": "Does not trigger guardian Thorns damage",
+    "command_translation.tag.damage_type.minecraft.burns_armor_stands": "Burns armor stands",
+    "command_translation.tag.damage_type.minecraft.bypasses_armor": "Ignores armor damage reduction",
+    "command_translation.tag.damage_type.minecraft.bypasses_effects": "Ignores Resistance and enchantment reduction",
+    "command_translation.tag.damage_type.minecraft.bypasses_enchantments": "Ignores enchantment damage reduction",
+    "command_translation.tag.damage_type.minecraft.bypasses_invulnerability": "Bypasses creative and spectator immunity",
+    "command_translation.tag.damage_type.minecraft.bypasses_resistance": "Ignores the Resistance effect",
+    "command_translation.tag.damage_type.minecraft.bypasses_shield": "Not blocked by shields",
+    "command_translation.tag.damage_type.minecraft.damages_helmet": "Damages helmets by the dealt damage",
+    "command_translation.tag.damage_type.minecraft.ignites_armor_stands": "Ignites armor stands for 5 seconds",
+    "command_translation.tag.damage_type.minecraft.is_drowning": "Drowning damage",
+    "command_translation.tag.damage_type.minecraft.is_explosion": "Reduced by Blast Protection",
+    "command_translation.tag.damage_type.minecraft.is_fall": "Reduced by Feather Falling",
+    "command_translation.tag.damage_type.minecraft.is_fire": "Fire-type damage",
+    "command_translation.tag.damage_type.minecraft.is_freezing": "Freezing damage",
+    "command_translation.tag.damage_type.minecraft.is_lightning": "Lightning damage; makes turtles drop bowls",
+    "command_translation.tag.damage_type.minecraft.is_projectile": "Reduced by Projectile Protection",
+    "command_translation.tag.damage_type.minecraft.no_anger": "Prevents entities from getting angered",
+    "command_translation.tag.damage_type.minecraft.no_impact": "Prevents hurt marking and velocity sync",
+    "command_translation.tag.damage_type.minecraft.witch_resistant_to": "Witches take 85% less damage",
+    "command_translation.tag.damage_type.minecraft.wither_immune_to": "The Wither is immune to these",
+    "command_translation.tag.damage_type.minecraft.always_kills_armor_stands": "Destroys armor stands in one hit",
+    "command_translation.tag.damage_type.minecraft.burn_from_stepping": "Ignored by the Frost Walker enchantment",
+    "command_translation.tag.damage_type.minecraft.bypasses_wolf_armor": "Not absorbed by wolf armor",
+    "command_translation.tag.damage_type.minecraft.can_break_armor_stand": "Destroys armor stands in two hits",
+    "command_translation.tag.damage_type.minecraft.is_player_attack": "Player attack damage types",
+    "command_translation.tag.damage_type.minecraft.no_knockback": "Damage causes no knockback",
+    "command_translation.tag.damage_type.minecraft.panic_causes": "Damage types that cause panic",
+    "command_translation.tag.damage_type.minecraft.panic_environmental_causes": "Environmental damage that causes panic",
+    "command_translation.tag.damage_type.minecraft.mace_smash": "Mace smash damage",
+    "command_translation.tag.damage_type.minecraft.sulfur_cube_with_block_immune_to": "No real damage to sulfur cubes holding a block"
+  },
+  "zh_cn": {
+    "command_translation.tag.damage_type.minecraft.always_hurts_ender_dragons": "即使非玩家攻击也伤害末影龙",
+    "command_translation.tag.damage_type.minecraft.always_most_significant_fall": "用于显示正确的坠落死亡消息",
+    "command_translation.tag.damage_type.minecraft.always_triggers_silverfish": "始终惊动附近隐藏的蠹虫",
+    "command_translation.tag.damage_type.minecraft.avoids_guardian_thorns": "不触发守卫者的荆棘反伤",
+    "command_translation.tag.damage_type.minecraft.burns_armor_stands": "使盔甲架燃烧",
+    "command_translation.tag.damage_type.minecraft.bypasses_armor": "无视盔甲减伤",
+    "command_translation.tag.damage_type.minecraft.bypasses_effects": "无视抗性提升与附魔减伤",
+    "command_translation.tag.damage_type.minecraft.bypasses_enchantments": "无视附魔伤害减免",
+    "command_translation.tag.damage_type.minecraft.bypasses_invulnerability": "无视创造与旁观者等无敌状态",
+    "command_translation.tag.damage_type.minecraft.bypasses_resistance": "无视抗性提升效果",
+    "command_translation.tag.damage_type.minecraft.bypasses_shield": "不被盾牌格挡",
+    "command_translation.tag.damage_type.minecraft.damages_helmet": "对头盔造成耐久损耗",
+    "command_translation.tag.damage_type.minecraft.ignites_armor_stands": "点燃盔甲架5秒",
+    "command_translation.tag.damage_type.minecraft.is_drowning": "溺水伤害",
+    "command_translation.tag.damage_type.minecraft.is_explosion": "受爆炸保护附魔减免的爆炸伤害",
+    "command_translation.tag.damage_type.minecraft.is_fall": "受摔落保护附魔减免的摔落伤害",
+    "command_translation.tag.damage_type.minecraft.is_fire": "火焰类伤害",
+    "command_translation.tag.damage_type.minecraft.is_freezing": "冰冻类伤害",
+    "command_translation.tag.damage_type.minecraft.is_lightning": "闪电类伤害",
+    "command_translation.tag.damage_type.minecraft.is_projectile": "受弹射物保护附魔减免的弹射物伤害",
+    "command_translation.tag.damage_type.minecraft.no_anger": "不使实体记住攻击者",
+    "command_translation.tag.damage_type.minecraft.no_impact": "不标记受击，不同步击退速度",
+    "command_translation.tag.damage_type.minecraft.witch_resistant_to": "女巫对此类伤害减免85%",
+    "command_translation.tag.damage_type.minecraft.wither_immune_to": "凋灵免疫该类伤害",
+    "command_translation.tag.damage_type.minecraft.always_kills_armor_stands": "一击摧毁盔甲架",
+    "command_translation.tag.damage_type.minecraft.burn_from_stepping": "霜行者附魔免疫此类伤害",
+    "command_translation.tag.damage_type.minecraft.bypasses_wolf_armor": "不被狼铠吸收",
+    "command_translation.tag.damage_type.minecraft.can_break_armor_stand": "两次击中摧毁盔甲架",
+    "command_translation.tag.damage_type.minecraft.is_player_attack": "玩家攻击类伤害",
+    "command_translation.tag.damage_type.minecraft.no_knockback": "伤害不产生击退",
+    "command_translation.tag.damage_type.minecraft.panic_causes": "引发恐慌的伤害",
+    "command_translation.tag.damage_type.minecraft.panic_environmental_causes": "引发恐慌的环境伤害",
+    "command_translation.tag.damage_type.minecraft.mace_smash": "重锤猛击伤害",
+    "command_translation.tag.damage_type.minecraft.sulfur_cube_with_block_immune_to": "持方块硫磺方块免疫的伤害"
+  },
+  "de_de": {
+    "command_translation.tag.damage_type.minecraft.always_hurts_ender_dragons": "Schadet Enderdrachen auch ohne Spieler",
+    "command_translation.tag.damage_type.minecraft.always_most_significant_fall": "Für die korrekte Sturz-Todesmeldung",
+    "command_translation.tag.damage_type.minecraft.always_triggers_silverfish": "Alarmiert stets versteckte Silberfische",
+    "command_translation.tag.damage_type.minecraft.avoids_guardian_thorns": "Löst keinen Wächter-Dornenschaden aus",
+    "command_translation.tag.damage_type.minecraft.burns_armor_stands": "Setzt Rüstungsständer in Brand",
+    "command_translation.tag.damage_type.minecraft.bypasses_armor": "Ignoriert Rüstungsreduktion",
+    "command_translation.tag.damage_type.minecraft.bypasses_effects": "Ignoriert Resistenz und Verzauberungsschutz",
+    "command_translation.tag.damage_type.minecraft.bypasses_enchantments": "Ignoriert Verzauberungsschutz",
+    "command_translation.tag.damage_type.minecraft.bypasses_invulnerability": "Umgeht Kreativ- und Zuschauer-Unverwundbarkeit",
+    "command_translation.tag.damage_type.minecraft.bypasses_resistance": "Ignoriert den Resistenz-Effekt",
+    "command_translation.tag.damage_type.minecraft.bypasses_shield": "Wird nicht von Schilden blockiert",
+    "command_translation.tag.damage_type.minecraft.damages_helmet": "Beschädigt Helme entsprechend dem Schaden",
+    "command_translation.tag.damage_type.minecraft.ignites_armor_stands": "Setzt Rüstungsständer 5 Sekunden in Brand",
+    "command_translation.tag.damage_type.minecraft.is_drowning": "Ertrinkungsschaden",
+    "command_translation.tag.damage_type.minecraft.is_explosion": "Wird durch Explosionsschutz reduziert",
+    "command_translation.tag.damage_type.minecraft.is_fall": "Wird durch Federfall reduziert",
+    "command_translation.tag.damage_type.minecraft.is_fire": "Feuerschaden",
+    "command_translation.tag.damage_type.minecraft.is_freezing": "Erfrierungsschaden",
+    "command_translation.tag.damage_type.minecraft.is_lightning": "Blitzschaden",
+    "command_translation.tag.damage_type.minecraft.is_projectile": "Wird durch Schusssicherung reduziert",
+    "command_translation.tag.damage_type.minecraft.no_anger": "Verhindert Wut bei Kreaturen",
+    "command_translation.tag.damage_type.minecraft.no_impact": "Verhindert Treffermarkierung und Geschwindigkeitssync",
+    "command_translation.tag.damage_type.minecraft.witch_resistant_to": "Hexen erleiden 85% weniger Schaden",
+    "command_translation.tag.damage_type.minecraft.wither_immune_to": "Der Wither ist dagegen immun",
+    "command_translation.tag.damage_type.minecraft.always_kills_armor_stands": "Zerstört Rüstungsständer mit einem Treffer",
+    "command_translation.tag.damage_type.minecraft.burn_from_stepping": "Wird von Eisläufer ignoriert",
+    "command_translation.tag.damage_type.minecraft.bypasses_wolf_armor": "Wird nicht von Wolfsrüstung absorbiert",
+    "command_translation.tag.damage_type.minecraft.can_break_armor_stand": "Zerstört Rüstungsständer mit zwei Treffern",
+    "command_translation.tag.damage_type.minecraft.is_player_attack": "Schaden durch Spielerangriffe",
+    "command_translation.tag.damage_type.minecraft.no_knockback": "Schaden verursacht keinen Rückstoß",
+    "command_translation.tag.damage_type.minecraft.panic_causes": "Schaden, der Panik auslöst",
+    "command_translation.tag.damage_type.minecraft.panic_environmental_causes": "Umweltschaden, der Panik auslöst",
+    "command_translation.tag.damage_type.minecraft.mace_smash": "Streitkolben-Schmetterschaden",
+    "command_translation.tag.damage_type.minecraft.sulfur_cube_with_block_immune_to": "Kein echter Schaden für Schwefelwürfel mit Block"
+  },
+  "ja_jp": {
+    "command_translation.tag.damage_type.minecraft.always_hurts_ender_dragons": "プレイヤー以外でもエンダードラゴンにダメージ",
+    "command_translation.tag.damage_type.minecraft.always_most_significant_fall": "落下死の正しい死因表示用",
+    "command_translation.tag.damage_type.minecraft.always_triggers_silverfish": "隠れたシルバーフィッシュを必ず呼び出す",
+    "command_translation.tag.damage_type.minecraft.avoids_guardian_thorns": "ガーディアンの棘ダメージを発生させない",
+    "command_translation.tag.damage_type.minecraft.burns_armor_stands": "アーマースタンドを燃やす",
+    "command_translation.tag.damage_type.minecraft.bypasses_armor": "防具による軽減を無視",
+    "command_translation.tag.damage_type.minecraft.bypasses_effects": "耐性とエンチャントの軽減を無視",
+    "command_translation.tag.damage_type.minecraft.bypasses_enchantments": "エンチャントの軽減を無視",
+    "command_translation.tag.damage_type.minecraft.bypasses_invulnerability": "クリエイティブ等の無敵を無視",
+    "command_translation.tag.damage_type.minecraft.bypasses_resistance": "耐性効果を無視",
+    "command_translation.tag.damage_type.minecraft.bypasses_shield": "盾で防げない",
+    "command_translation.tag.damage_type.minecraft.damages_helmet": "ヘルメットの耐久を消耗させる",
+    "command_translation.tag.damage_type.minecraft.ignites_armor_stands": "アーマースタンドを5秒間燃やす",
+    "command_translation.tag.damage_type.minecraft.is_drowning": "溺水ダメージ",
+    "command_translation.tag.damage_type.minecraft.is_explosion": "爆発耐性で軽減される爆発",
+    "command_translation.tag.damage_type.minecraft.is_fall": "落下耐性で軽減される落下",
+    "command_translation.tag.damage_type.minecraft.is_fire": "炎タイプのダメージ",
+    "command_translation.tag.damage_type.minecraft.is_freezing": "凍結タイプのダメージ",
+    "command_translation.tag.damage_type.minecraft.is_lightning": "雷タイプのダメージ",
+    "command_translation.tag.damage_type.minecraft.is_projectile": "発射物耐性で軽減される発射物",
+    "command_translation.tag.damage_type.minecraft.no_anger": "エンティティを怒らせない",
+    "command_translation.tag.damage_type.minecraft.no_impact": "被弾マークと速度同期を行わない",
+    "command_translation.tag.damage_type.minecraft.witch_resistant_to": "ウィッチの被ダメージを85%軽減",
+    "command_translation.tag.damage_type.minecraft.wither_immune_to": "ウィザーが免疫を持つダメージ",
+    "command_translation.tag.damage_type.minecraft.always_kills_armor_stands": "一撃でアーマースタンドを壊す",
+    "command_translation.tag.damage_type.minecraft.burn_from_stepping": "氷渡りのエンチャントが無視する",
+    "command_translation.tag.damage_type.minecraft.bypasses_wolf_armor": "ウルフアーマーで吸収されない",
+    "command_translation.tag.damage_type.minecraft.can_break_armor_stand": "二撃でアーマースタンドを壊す",
+    "command_translation.tag.damage_type.minecraft.is_player_attack": "プレイヤーの攻撃によるダメージ",
+    "command_translation.tag.damage_type.minecraft.no_knockback": "ダメージでノックバックしない",
+    "command_translation.tag.damage_type.minecraft.panic_causes": "パニックを引き起こすダメージ",
+    "command_translation.tag.damage_type.minecraft.panic_environmental_causes": "パニックを引き起こす環境ダメージ",
+    "command_translation.tag.damage_type.minecraft.mace_smash": "メイスのスマッシュ攻撃のダメージ",
+    "command_translation.tag.damage_type.minecraft.sulfur_cube_with_block_immune_to": "ブロックを持つ硫黄キューブが無効化する"
+  },
+  "sources": {
+    "command_translation.tag.damage_type.minecraft.always_hurts_ender_dragons": [
+      {
+        "url": "https://minecraft.wiki/w/Damage%20type%20tag%20(Java%20Edition)",
+        "revision": 3840072
+      }
+    ],
+    "command_translation.tag.damage_type.minecraft.always_most_significant_fall": [
+      {
+        "url": "https://minecraft.wiki/w/Damage%20type%20tag%20(Java%20Edition)",
+        "revision": 3840072
+      }
+    ],
+    "command_translation.tag.damage_type.minecraft.always_triggers_silverfish": [
+      {
+        "url": "https://minecraft.wiki/w/Damage%20type%20tag%20(Java%20Edition)",
+        "revision": 3840072
+      }
+    ],
+    "command_translation.tag.damage_type.minecraft.avoids_guardian_thorns": [
+      {
+        "url": "https://minecraft.wiki/w/Damage%20type%20tag%20(Java%20Edition)",
+        "revision": 3840072
+      }
+    ],
+    "command_translation.tag.damage_type.minecraft.burns_armor_stands": [
+      {
+        "url": "https://minecraft.wiki/w/Damage%20type%20tag%20(Java%20Edition)",
+        "revision": 3840072
+      }
+    ],
+    "command_translation.tag.damage_type.minecraft.bypasses_armor": [
+      {
+        "url": "https://minecraft.wiki/w/Damage%20type%20tag%20(Java%20Edition)",
+        "revision": 3840072
+      }
+    ],
+    "command_translation.tag.damage_type.minecraft.bypasses_effects": [
+      {
+        "url": "https://minecraft.wiki/w/Damage%20type%20tag%20(Java%20Edition)",
+        "revision": 3840072
+      }
+    ],
+    "command_translation.tag.damage_type.minecraft.bypasses_enchantments": [
+      {
+        "url": "https://minecraft.wiki/w/Damage%20type%20tag%20(Java%20Edition)",
+        "revision": 3840072
+      }
+    ],
+    "command_translation.tag.damage_type.minecraft.bypasses_invulnerability": [
+      {
+        "url": "https://minecraft.wiki/w/Damage%20type%20tag%20(Java%20Edition)",
+        "revision": 3840072
+      }
+    ],
+    "command_translation.tag.damage_type.minecraft.bypasses_resistance": [
+      {
+        "url": "https://minecraft.wiki/w/Damage%20type%20tag%20(Java%20Edition)",
+        "revision": 3840072
+      }
+    ],
+    "command_translation.tag.damage_type.minecraft.bypasses_shield": [
+      {
+        "url": "https://minecraft.wiki/w/Damage%20type%20tag%20(Java%20Edition)",
+        "revision": 3840072
+      }
+    ],
+    "command_translation.tag.damage_type.minecraft.damages_helmet": [
+      {
+        "url": "https://minecraft.wiki/w/Damage%20type%20tag%20(Java%20Edition)",
+        "revision": 3840072
+      }
+    ],
+    "command_translation.tag.damage_type.minecraft.ignites_armor_stands": [
+      {
+        "url": "https://minecraft.wiki/w/Damage%20type%20tag%20(Java%20Edition)",
+        "revision": 3840072
+      }
+    ],
+    "command_translation.tag.damage_type.minecraft.is_drowning": [
+      {
+        "url": "https://minecraft.wiki/w/Damage%20type%20tag%20(Java%20Edition)",
+        "revision": 3840072
+      }
+    ],
+    "command_translation.tag.damage_type.minecraft.is_explosion": [
+      {
+        "url": "https://minecraft.wiki/w/Damage%20type%20tag%20(Java%20Edition)",
+        "revision": 3840072
+      }
+    ],
+    "command_translation.tag.damage_type.minecraft.is_fall": [
+      {
+        "url": "https://minecraft.wiki/w/Damage%20type%20tag%20(Java%20Edition)",
+        "revision": 3840072
+      }
+    ],
+    "command_translation.tag.damage_type.minecraft.is_fire": [
+      {
+        "url": "https://minecraft.wiki/w/Damage%20type%20tag%20(Java%20Edition)",
+        "revision": 3840072
+      }
+    ],
+    "command_translation.tag.damage_type.minecraft.is_freezing": [
+      {
+        "url": "https://minecraft.wiki/w/Damage%20type%20tag%20(Java%20Edition)",
+        "revision": 3840072
+      }
+    ],
+    "command_translation.tag.damage_type.minecraft.is_lightning": [
+      {
+        "url": "https://minecraft.wiki/w/Damage%20type%20tag%20(Java%20Edition)",
+        "revision": 3840072
+      }
+    ],
+    "command_translation.tag.damage_type.minecraft.is_projectile": [
+      {
+        "url": "https://minecraft.wiki/w/Damage%20type%20tag%20(Java%20Edition)",
+        "revision": 3840072
+      }
+    ],
+    "command_translation.tag.damage_type.minecraft.no_anger": [
+      {
+        "url": "https://minecraft.wiki/w/Damage%20type%20tag%20(Java%20Edition)",
+        "revision": 3840072
+      }
+    ],
+    "command_translation.tag.damage_type.minecraft.no_impact": [
+      {
+        "url": "https://minecraft.wiki/w/Damage%20type%20tag%20(Java%20Edition)",
+        "revision": 3840072
+      }
+    ],
+    "command_translation.tag.damage_type.minecraft.witch_resistant_to": [
+      {
+        "url": "https://minecraft.wiki/w/Damage%20type%20tag%20(Java%20Edition)",
+        "revision": 3840072
+      }
+    ],
+    "command_translation.tag.damage_type.minecraft.wither_immune_to": [
+      {
+        "url": "https://minecraft.wiki/w/Damage%20type%20tag%20(Java%20Edition)",
+        "revision": 3840072
+      }
+    ],
+    "command_translation.tag.damage_type.minecraft.always_kills_armor_stands": [
+      {
+        "url": "https://minecraft.wiki/w/Damage%20type%20tag%20(Java%20Edition)",
+        "revision": 3840072
+      }
+    ],
+    "command_translation.tag.damage_type.minecraft.burn_from_stepping": [
+      {
+        "url": "https://minecraft.wiki/w/Damage%20type%20tag%20(Java%20Edition)",
+        "revision": 3840072
+      }
+    ],
+    "command_translation.tag.damage_type.minecraft.bypasses_wolf_armor": [
+      {
+        "url": "https://minecraft.wiki/w/Damage%20type%20tag%20(Java%20Edition)",
+        "revision": 3840072
+      }
+    ],
+    "command_translation.tag.damage_type.minecraft.can_break_armor_stand": [
+      {
+        "url": "https://minecraft.wiki/w/Damage%20type%20tag%20(Java%20Edition)",
+        "revision": 3840072
+      }
+    ],
+    "command_translation.tag.damage_type.minecraft.is_player_attack": [
+      {
+        "url": "https://minecraft.wiki/w/Damage%20type%20tag%20(Java%20Edition)",
+        "revision": 3840072
+      }
+    ],
+    "command_translation.tag.damage_type.minecraft.no_knockback": [
+      {
+        "url": "https://minecraft.wiki/w/Damage%20type%20tag%20(Java%20Edition)",
+        "revision": 3840072
+      }
+    ],
+    "command_translation.tag.damage_type.minecraft.panic_causes": [
+      {
+        "url": "https://minecraft.wiki/w/Damage%20type%20tag%20(Java%20Edition)",
+        "revision": 3840072
+      }
+    ],
+    "command_translation.tag.damage_type.minecraft.panic_environmental_causes": [
+      {
+        "url": "https://minecraft.wiki/w/Damage%20type%20tag%20(Java%20Edition)",
+        "revision": 3840072
+      }
+    ],
+    "command_translation.tag.damage_type.minecraft.mace_smash": [
+      {
+        "url": "https://minecraft.wiki/w/Damage%20type%20tag%20(Java%20Edition)",
+        "revision": 3840072
+      }
+    ],
+    "command_translation.tag.damage_type.minecraft.sulfur_cube_with_block_immune_to": [
+      {
+        "url": "https://minecraft.wiki/w/Damage%20type%20tag%20(Java%20Edition)",
+        "revision": 3840072
+      }
+    ]
+  }
+}

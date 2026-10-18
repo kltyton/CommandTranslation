@@ -1,0 +1,30 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:jukebox_playable": "The jukebox song played when this item is inserted into a jukebox."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:jukebox_playable": "该物品放入唱片机时播放的曲目。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:jukebox_playable": "Der Plattenspieler-Song, der beim Einlegen dieses Items abgespielt wird."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:jukebox_playable": "このアイテムをジュークボックスに入れたときに再生される曲。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:jukebox_playable": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

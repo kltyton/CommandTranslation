@@ -1,0 +1,282 @@
+{
+  "en_us": {
+    "command_translation.help.particle.minecraft:block.field.block_state": "Block state used by the particle, given in full or as a block resource location.",
+    "command_translation.help.particle.minecraft:block_crumble.field.block_state": "Block state used by the particle, given in full or as a block resource location.",
+    "command_translation.help.particle.minecraft:block_marker.field.block_state": "Block state used by the particle, given in full or as a block resource location.",
+    "command_translation.help.particle.minecraft:dragon_breath.field.power": "Optional velocity scaling applied after randomness; defaults to 1.0.",
+    "command_translation.help.particle.minecraft:dust.field.color": "Color of the dust particle: red, green and blue floats, or a packed RGB integer.",
+    "command_translation.help.particle.minecraft:dust.field.scale": "Size scale multiplier of the particle, which also multiplies its lifetime.",
+    "command_translation.help.particle.minecraft:dust_color_transition.field.from_color": "Start color of the dust color transition as red, green and blue floats.",
+    "command_translation.help.particle.minecraft:dust_color_transition.field.to_color": "End color of the dust color transition as red, green and blue floats.",
+    "command_translation.help.particle.minecraft:dust_color_transition.field.scale": "Size scale multiplier of the particle, which also multiplies its lifetime.",
+    "command_translation.help.particle.minecraft:dust_pillar.field.block_state": "Block state used by the particle, given in full or as a block resource location.",
+    "command_translation.help.particle.minecraft:effect.field.color": "Optional color of the effect particle: red, green and blue floats, or a packed RGB integer.",
+    "command_translation.help.particle.minecraft:effect.field.power": "Optional velocity scaling applied after randomness; defaults to 1.0.",
+    "command_translation.help.particle.minecraft:entity_effect.field.color": "Color of the entity-effect particle: red, green, blue and alpha floats, or a packed ARGB integer.",
+    "command_translation.help.particle.minecraft:falling_dust.field.block_state": "Block state used by the particle, given in full or as a block resource location.",
+    "command_translation.help.particle.minecraft:flash.field.color": "Color of the flash particle: red, green, blue and alpha floats, or a packed ARGB integer.",
+    "command_translation.help.particle.minecraft:instant_effect.field.color": "Optional color of the effect particle: red, green and blue floats, or a packed RGB integer.",
+    "command_translation.help.particle.minecraft:instant_effect.field.power": "Optional velocity scaling applied after randomness; defaults to 1.0.",
+    "command_translation.help.particle.minecraft:item.field.item": "Item used by the particle, given as an item stack or an item resource location.",
+    "command_translation.help.particle.minecraft:sculk_charge.field.roll": "Angle the particle is displayed at, in radians.",
+    "command_translation.help.particle.minecraft:shriek.field.delay": "Delay in ticks before the particle appears.",
+    "command_translation.help.particle.minecraft:trail.field.color": "Color of the trail particle as an RGB integer.",
+    "command_translation.help.particle.minecraft:trail.field.duration": "Ticks the trail particle takes to travel to its target.",
+    "command_translation.help.particle.minecraft:trail.field.target": "Coordinates the trail particles travel to.",
+    "command_translation.help.particle.minecraft:vibration.field.arrival_in_ticks": "Number of ticks the vibration takes to arrive.",
+    "command_translation.help.particle.minecraft:vibration.field.destination": "Destination the vibration travels to.",
+    "command_translation.help.particle.minecraft:vibration.field.destination.pos": "Block position the vibration travels to.",
+    "command_translation.help.particle.minecraft:vibration.field.destination.type": "Type of the vibration destination; must be block."
+  },
+  "zh_cn": {
+    "command_translation.help.particle.minecraft:block.field.block_state": "粒子所用的方块状态，可写完整状态或方块资源位置。",
+    "command_translation.help.particle.minecraft:block_crumble.field.block_state": "粒子所用的方块状态，可写完整状态或方块资源位置。",
+    "command_translation.help.particle.minecraft:block_marker.field.block_state": "粒子所用的方块状态，可写完整状态或方块资源位置。",
+    "command_translation.help.particle.minecraft:dragon_breath.field.power": "随机之后应用于速度的可选缩放，默认 1.0。",
+    "command_translation.help.particle.minecraft:dust.field.color": "尘埃粒子的颜色：红、绿、蓝三个浮点数，或打包的 RGB 整数。",
+    "command_translation.help.particle.minecraft:dust.field.scale": "粒子的大小缩放系数，同时会乘到寿命上。",
+    "command_translation.help.particle.minecraft:dust_color_transition.field.from_color": "尘埃渐变粒子的起始颜色，由红、绿、蓝三个浮点数表示。",
+    "command_translation.help.particle.minecraft:dust_color_transition.field.to_color": "尘埃渐变粒子的结束颜色，由红、绿、蓝三个浮点数表示。",
+    "command_translation.help.particle.minecraft:dust_color_transition.field.scale": "粒子的大小缩放系数，同时会乘到寿命上。",
+    "command_translation.help.particle.minecraft:dust_pillar.field.block_state": "粒子所用的方块状态，可写完整状态或方块资源位置。",
+    "command_translation.help.particle.minecraft:effect.field.color": "效果粒子的可选颜色：红、绿、蓝三个浮点数，或打包的 RGB 整数。",
+    "command_translation.help.particle.minecraft:effect.field.power": "随机之后应用于速度的可选缩放，默认 1.0。",
+    "command_translation.help.particle.minecraft:entity_effect.field.color": "实体状态效果粒子的颜色：红、绿、蓝、透明四个浮点数，或打包的 ARGB 整数。",
+    "command_translation.help.particle.minecraft:falling_dust.field.block_state": "粒子所用的方块状态，可写完整状态或方块资源位置。",
+    "command_translation.help.particle.minecraft:flash.field.color": "闪光粒子的颜色：红、绿、蓝、透明四个浮点数，或打包的 ARGB 整数。",
+    "command_translation.help.particle.minecraft:instant_effect.field.color": "效果粒子的可选颜色：红、绿、蓝三个浮点数，或打包的 RGB 整数。",
+    "command_translation.help.particle.minecraft:instant_effect.field.power": "随机之后应用于速度的可选缩放，默认 1.0。",
+    "command_translation.help.particle.minecraft:item.field.item": "粒子使用的物品，可写物品堆叠或物品资源位置。",
+    "command_translation.help.particle.minecraft:sculk_charge.field.roll": "粒子显示的角度，单位为弧度。",
+    "command_translation.help.particle.minecraft:shriek.field.delay": "粒子出现前的延迟刻数。",
+    "command_translation.help.particle.minecraft:trail.field.color": "拖尾粒子的颜色，为 RGB 整数。",
+    "command_translation.help.particle.minecraft:trail.field.duration": "拖尾粒子到达目标所需的刻数。",
+    "command_translation.help.particle.minecraft:trail.field.target": "拖尾粒子将要前往的坐标。",
+    "command_translation.help.particle.minecraft:vibration.field.arrival_in_ticks": "振动到达目的地所需的刻数。",
+    "command_translation.help.particle.minecraft:vibration.field.destination": "振动前往的目的地。",
+    "command_translation.help.particle.minecraft:vibration.field.destination.pos": "振动前往的方块位置。",
+    "command_translation.help.particle.minecraft:vibration.field.destination.type": "振动目的地的类型；必须为 block。"
+  },
+  "de_de": {
+    "command_translation.help.particle.minecraft:block.field.block_state": "Vom Partikel verwendeter Blockzustand, vollständig oder als Block-Ressourcenpfad.",
+    "command_translation.help.particle.minecraft:block_crumble.field.block_state": "Vom Partikel verwendeter Blockzustand, vollständig oder als Block-Ressourcenpfad.",
+    "command_translation.help.particle.minecraft:block_marker.field.block_state": "Vom Partikel verwendeter Blockzustand, vollständig oder als Block-Ressourcenpfad.",
+    "command_translation.help.particle.minecraft:dragon_breath.field.power": "Optionale Geschwindigkeitsskalierung nach der Zufälligkeit; Standard 1.0.",
+    "command_translation.help.particle.minecraft:dust.field.color": "Farbe des Staubpartikels: Rot-, Grün- und Blaufloats oder ein gepackter RGB-Integer.",
+    "command_translation.help.particle.minecraft:dust.field.scale": "Größen-Skalierungsfaktor des Partikels, der auch die Lebensdauer multipliziert.",
+    "command_translation.help.particle.minecraft:dust_color_transition.field.from_color": "Startfarbe des Farbübergangs als Rot-, Grün- und Blaufloats.",
+    "command_translation.help.particle.minecraft:dust_color_transition.field.to_color": "Endfarbe des Farbübergangs als Rot-, Grün- und Blaufloats.",
+    "command_translation.help.particle.minecraft:dust_color_transition.field.scale": "Größen-Skalierungsfaktor des Partikels, der auch die Lebensdauer multipliziert.",
+    "command_translation.help.particle.minecraft:dust_pillar.field.block_state": "Vom Partikel verwendeter Blockzustand, vollständig oder als Block-Ressourcenpfad.",
+    "command_translation.help.particle.minecraft:effect.field.color": "Optionale Farbe des Effektpartikels: Rot-, Grün- und Blaufloats oder ein gepackter RGB-Integer.",
+    "command_translation.help.particle.minecraft:effect.field.power": "Optionale Geschwindigkeitsskalierung nach der Zufälligkeit; Standard 1.0.",
+    "command_translation.help.particle.minecraft:entity_effect.field.color": "Farbe des Effektpartikels: Rot-, Grün-, Blau- und Alphafloats oder ein gepackter ARGB-Integer.",
+    "command_translation.help.particle.minecraft:falling_dust.field.block_state": "Vom Partikel verwendeter Blockzustand, vollständig oder als Block-Ressourcenpfad.",
+    "command_translation.help.particle.minecraft:flash.field.color": "Farbe des Blitzpartikels: Rot-, Grün-, Blau- und Alphafloats oder ein gepackter ARGB-Integer.",
+    "command_translation.help.particle.minecraft:instant_effect.field.color": "Optionale Farbe des Effektpartikels: Rot-, Grün- und Blaufloats oder ein gepackter RGB-Integer.",
+    "command_translation.help.particle.minecraft:instant_effect.field.power": "Optionale Geschwindigkeitsskalierung nach der Zufälligkeit; Standard 1.0.",
+    "command_translation.help.particle.minecraft:item.field.item": "Vom Partikel verwendeter Gegenstand, als Gegenstandsstapel oder Ressourcenpfad.",
+    "command_translation.help.particle.minecraft:sculk_charge.field.roll": "Winkel, in dem das Partikel dargestellt wird, im Bogenmaß.",
+    "command_translation.help.particle.minecraft:shriek.field.delay": "Verzögerung in Ticks, bevor das Partikel erscheint.",
+    "command_translation.help.particle.minecraft:trail.field.color": "Farbe des Schweifpartikels als RGB-Integer.",
+    "command_translation.help.particle.minecraft:trail.field.duration": "Ticks, die das Schweifpartikel bis zum Ziel benötigt.",
+    "command_translation.help.particle.minecraft:trail.field.target": "Koordinaten, zu denen die Schweifpartikel wandern.",
+    "command_translation.help.particle.minecraft:vibration.field.arrival_in_ticks": "Ticks, die die Schwingung bis zum Ziel benötigt.",
+    "command_translation.help.particle.minecraft:vibration.field.destination": "Ziel, zu dem die Schwingung wandert.",
+    "command_translation.help.particle.minecraft:vibration.field.destination.pos": "Blockposition, zu der die Schwingung wandert.",
+    "command_translation.help.particle.minecraft:vibration.field.destination.type": "Typ des Schwingungsziels; muss block sein."
+  },
+  "ja_jp": {
+    "command_translation.help.particle.minecraft:block.field.block_state": "パーティクルが使うブロック状態。完全な状態またはブロックのリソース位置で指定する。",
+    "command_translation.help.particle.minecraft:block_crumble.field.block_state": "パーティクルが使うブロック状態。完全な状態またはブロックのリソース位置で指定する。",
+    "command_translation.help.particle.minecraft:block_marker.field.block_state": "パーティクルが使うブロック状態。完全な状態またはブロックのリソース位置で指定する。",
+    "command_translation.help.particle.minecraft:dragon_breath.field.power": "ランダム処理後に速度へ掛ける任意の倍率。既定は 1.0。",
+    "command_translation.help.particle.minecraft:dust.field.color": "粉塵パーティクルの色。赤・緑・青の float、またはパックされた RGB 整数。",
+    "command_translation.help.particle.minecraft:dust.field.scale": "パーティクルの大きさ倍率。寿命にも掛けられる。",
+    "command_translation.help.particle.minecraft:dust_color_transition.field.from_color": "色変化粉塵パーティクルの開始色。赤・緑・青の float。",
+    "command_translation.help.particle.minecraft:dust_color_transition.field.to_color": "色変化粉塵パーティクルの終了色。赤・緑・青の float。",
+    "command_translation.help.particle.minecraft:dust_color_transition.field.scale": "パーティクルの大きさ倍率。寿命にも掛けられる。",
+    "command_translation.help.particle.minecraft:dust_pillar.field.block_state": "パーティクルが使うブロック状態。完全な状態またはブロックのリソース位置で指定する。",
+    "command_translation.help.particle.minecraft:effect.field.color": "エフェクトパーティクルの任意の色。赤・緑・青の float、またはパックされた RGB 整数。",
+    "command_translation.help.particle.minecraft:effect.field.power": "ランダム処理後に速度へ掛ける任意の倍率。既定は 1.0。",
+    "command_translation.help.particle.minecraft:entity_effect.field.color": "エフェクトパーティクルの色。赤・緑・青・アルファの float、またはパックされた ARGB 整数。",
+    "command_translation.help.particle.minecraft:falling_dust.field.block_state": "パーティクルが使うブロック状態。完全な状態またはブロックのリソース位置で指定する。",
+    "command_translation.help.particle.minecraft:flash.field.color": "フラッシュパーティクルの色。赤・緑・青・アルファの float、またはパックされた ARGB 整数。",
+    "command_translation.help.particle.minecraft:instant_effect.field.color": "エフェクトパーティクルの任意の色。赤・緑・青の float、またはパックされた RGB 整数。",
+    "command_translation.help.particle.minecraft:instant_effect.field.power": "ランダム処理後に速度へ掛ける任意の倍率。既定は 1.0。",
+    "command_translation.help.particle.minecraft:item.field.item": "パーティクルが使うアイテム。アイテムスタックまたはリソース位置で指定する。",
+    "command_translation.help.particle.minecraft:sculk_charge.field.roll": "パーティクルを表示する角度。単位はラジアン。",
+    "command_translation.help.particle.minecraft:shriek.field.delay": "パーティクルが現れるまでの遅延ティック。",
+    "command_translation.help.particle.minecraft:trail.field.color": "トレイルパーティクルの色。RGB 整数。",
+    "command_translation.help.particle.minecraft:trail.field.duration": "トレイルパーティクルが目標に届くまでのティック数。",
+    "command_translation.help.particle.minecraft:trail.field.target": "トレイルパーティクルが向かう座標。",
+    "command_translation.help.particle.minecraft:vibration.field.arrival_in_ticks": "振動が目的地に届くまでのティック数。",
+    "command_translation.help.particle.minecraft:vibration.field.destination": "振動が向かう目的地。",
+    "command_translation.help.particle.minecraft:vibration.field.destination.pos": "振動が向かうブロック位置。",
+    "command_translation.help.particle.minecraft:vibration.field.destination.type": "振動の目的地の種類。block でなければならない。"
+  },
+  "sources": {
+    "command_translation.help.particle.minecraft:block.field.block_state": [
+      {
+        "url": "https://minecraft.wiki/w/Particle%20format",
+        "revision": 3698603
+      }
+    ],
+    "command_translation.help.particle.minecraft:block_crumble.field.block_state": [
+      {
+        "url": "https://minecraft.wiki/w/Particle%20format",
+        "revision": 3698603
+      }
+    ],
+    "command_translation.help.particle.minecraft:block_marker.field.block_state": [
+      {
+        "url": "https://minecraft.wiki/w/Particle%20format",
+        "revision": 3698603
+      }
+    ],
+    "command_translation.help.particle.minecraft:dragon_breath.field.power": [
+      {
+        "url": "https://minecraft.wiki/w/Particle%20format",
+        "revision": 3698603
+      }
+    ],
+    "command_translation.help.particle.minecraft:dust.field.color": [
+      {
+        "url": "https://minecraft.wiki/w/Particle%20format",
+        "revision": 3698603
+      }
+    ],
+    "command_translation.help.particle.minecraft:dust.field.scale": [
+      {
+        "url": "https://minecraft.wiki/w/Particle%20format",
+        "revision": 3698603
+      }
+    ],
+    "command_translation.help.particle.minecraft:dust_color_transition.field.from_color": [
+      {
+        "url": "https://minecraft.wiki/w/Particle%20format",
+        "revision": 3698603
+      }
+    ],
+    "command_translation.help.particle.minecraft:dust_color_transition.field.to_color": [
+      {
+        "url": "https://minecraft.wiki/w/Particle%20format",
+        "revision": 3698603
+      }
+    ],
+    "command_translation.help.particle.minecraft:dust_color_transition.field.scale": [
+      {
+        "url": "https://minecraft.wiki/w/Particle%20format",
+        "revision": 3698603
+      }
+    ],
+    "command_translation.help.particle.minecraft:dust_pillar.field.block_state": [
+      {
+        "url": "https://minecraft.wiki/w/Particle%20format",
+        "revision": 3698603
+      }
+    ],
+    "command_translation.help.particle.minecraft:effect.field.color": [
+      {
+        "url": "https://minecraft.wiki/w/Particle%20format",
+        "revision": 3698603
+      }
+    ],
+    "command_translation.help.particle.minecraft:effect.field.power": [
+      {
+        "url": "https://minecraft.wiki/w/Particle%20format",
+        "revision": 3698603
+      }
+    ],
+    "command_translation.help.particle.minecraft:entity_effect.field.color": [
+      {
+        "url": "https://minecraft.wiki/w/Particle%20format",
+        "revision": 3698603
+      }
+    ],
+    "command_translation.help.particle.minecraft:falling_dust.field.block_state": [
+      {
+        "url": "https://minecraft.wiki/w/Particle%20format",
+        "revision": 3698603
+      }
+    ],
+    "command_translation.help.particle.minecraft:flash.field.color": [
+      {
+        "url": "https://minecraft.wiki/w/Particle%20format",
+        "revision": 3698603
+      }
+    ],
+    "command_translation.help.particle.minecraft:instant_effect.field.color": [
+      {
+        "url": "https://minecraft.wiki/w/Particle%20format",
+        "revision": 3698603
+      }
+    ],
+    "command_translation.help.particle.minecraft:instant_effect.field.power": [
+      {
+        "url": "https://minecraft.wiki/w/Particle%20format",
+        "revision": 3698603
+      }
+    ],
+    "command_translation.help.particle.minecraft:item.field.item": [
+      {
+        "url": "https://minecraft.wiki/w/Particle%20format",
+        "revision": 3698603
+      }
+    ],
+    "command_translation.help.particle.minecraft:sculk_charge.field.roll": [
+      {
+        "url": "https://minecraft.wiki/w/Particle%20format",
+        "revision": 3698603
+      }
+    ],
+    "command_translation.help.particle.minecraft:shriek.field.delay": [
+      {
+        "url": "https://minecraft.wiki/w/Particle%20format",
+        "revision": 3698603
+      }
+    ],
+    "command_translation.help.particle.minecraft:trail.field.color": [
+      {
+        "url": "https://minecraft.wiki/w/Particle%20format",
+        "revision": 3698603
+      }
+    ],
+    "command_translation.help.particle.minecraft:trail.field.duration": [
+      {
+        "url": "https://minecraft.wiki/w/Particle%20format",
+        "revision": 3698603
+      }
+    ],
+    "command_translation.help.particle.minecraft:trail.field.target": [
+      {
+        "url": "https://minecraft.wiki/w/Particle%20format",
+        "revision": 3698603
+      }
+    ],
+    "command_translation.help.particle.minecraft:vibration.field.arrival_in_ticks": [
+      {
+        "url": "https://minecraft.wiki/w/Particle%20format",
+        "revision": 3698603
+      }
+    ],
+    "command_translation.help.particle.minecraft:vibration.field.destination": [
+      {
+        "url": "https://minecraft.wiki/w/Particle%20format",
+        "revision": 3698603
+      }
+    ],
+    "command_translation.help.particle.minecraft:vibration.field.destination.pos": [
+      {
+        "url": "https://minecraft.wiki/w/Particle%20format",
+        "revision": 3698603
+      }
+    ],
+    "command_translation.help.particle.minecraft:vibration.field.destination.type": [
+      {
+        "url": "https://minecraft.wiki/w/Particle%20format",
+        "revision": 3698603
+      }
+    ]
+  }
+}

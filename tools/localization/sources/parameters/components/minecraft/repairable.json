@@ -1,0 +1,40 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:repairable": "Allows this damageable item to be repaired in an anvil with the specified items.",
+    "command_translation.help.component.minecraft:repairable.field.items": "The item, list of items, or #item tag that can repair this item."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:repairable": "使该可损坏物品能用指定物品在铁砧中修复。",
+    "command_translation.help.component.minecraft:repairable.field.items": "可用于修复该物品的物品、物品列表或 #物品标签。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:repairable": "Ermöglicht, dieses beschädigbare Item mit den angegebenen Items an einem Amboss zu reparieren.",
+    "command_translation.help.component.minecraft:repairable.field.items": "Das Item, die Itemliste oder das #Item-Tag, mit dem dieses Item repariert werden kann."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:repairable": "この耐久消耗するアイテムを、指定したアイテムを使って金床で修復できるようにする。",
+    "command_translation.help.component.minecraft:repairable.field.items": "このアイテムを修復できるアイテム、アイテムのリスト、または#アイテムタグ。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:repairable": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:repairable.field.items": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

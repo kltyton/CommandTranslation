@@ -1,0 +1,66 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:dyed_color": "The RGB tint color applied to a dyed item.",
+    "command_translation.help.component.minecraft:dyed_color.field.show_in_tooltip": "Whether this component’s details appear in the item tooltip.",
+    "command_translation.help.component.minecraft:dyed_color.field.rgb": "The item’s RGB dye color."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:dyed_color": "施加于染色物品的 RGB 着色。",
+    "command_translation.help.component.minecraft:dyed_color.field.show_in_tooltip": "是否在物品提示中显示该组件的信息。",
+    "command_translation.help.component.minecraft:dyed_color.field.rgb": "物品的 RGB 染色颜色。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:dyed_color": "Die RGB-Tönungsfarbe eines gefärbten Items.",
+    "command_translation.help.component.minecraft:dyed_color.field.show_in_tooltip": "Ob die Informationen dieser Komponente im Item-Tooltip erscheinen.",
+    "command_translation.help.component.minecraft:dyed_color.field.rgb": "Die RGB-Färbung des Items."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:dyed_color": "染色されたアイテムに適用されるRGBの色。",
+    "command_translation.help.component.minecraft:dyed_color.field.show_in_tooltip": "このコンポーネントの情報をアイテムのツールチップに表示するか。",
+    "command_translation.help.component.minecraft:dyed_color.field.rgb": "アイテムのRGB染色値。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:dyed_color": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:dyed_color.field.show_in_tooltip": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:dyed_color.field.rgb": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

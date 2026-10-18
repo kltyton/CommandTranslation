@@ -1,0 +1,74 @@
+{
+  "en_us": {
+    "command_translation.help.argument.tellraw.targets": "The players who receive the message.",
+    "command_translation.help.argument.tellraw.message": "The message to send, as a text component supporting colours plus click and hover events."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.tellraw.targets": "接收消息的玩家。",
+    "command_translation.help.argument.tellraw.message": "要发送的消息，写成支持颜色与点击、悬停事件的文本组件。"
+  },
+  "sources": {
+    "command_translation.help.argument.tellraw.targets": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftellraw",
+        "revision": 3778231
+      }
+    ],
+    "command_translation.help.argument.tellraw.message": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftellraw",
+        "revision": 3778231
+      }
+    ]
+  },
+  "bindings": {
+    "tellraw.targets": "command_translation.help.argument.tellraw.targets",
+    "tellraw.targets.message": "command_translation.help.argument.tellraw.message"
+  },
+  "de_de": {
+    "command_translation.help.argument.tellraw.targets": "Die Spieler, die die Nachricht erhalten.",
+    "command_translation.help.argument.tellraw.message": "Die Nachricht als Textkomponente mit Farben sowie Klick- und Hover-Ereignissen."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.tellraw.targets": "メッセージを受け取るプレイヤー。",
+    "command_translation.help.argument.tellraw.message": "送るメッセージ。色やクリック、ホバーイベントに対応するテキストコンポーネントで書く。"
+  },
+  "syntax": [
+    {
+      "path": "tellraw",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "tellraw.targets",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "players",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "tellraw.targets.message",
+      "type": "argument",
+      "parser": "minecraft:component",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

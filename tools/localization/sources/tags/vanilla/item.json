@@ -1,0 +1,2370 @@
+{
+  "en_us": {
+    "command_translation.tag.item.minecraft.acacia_logs": "Acacia log and wood items.",
+    "command_translation.tag.item.minecraft.anvil": "Anvil block items.",
+    "command_translation.tag.item.minecraft.arrows": "Items that bows and crossbows can shoot.",
+    "command_translation.tag.item.minecraft.axes": "Axe items.",
+    "command_translation.tag.item.minecraft.axolotl_tempt_items": "Items that tempt axolotls.",
+    "command_translation.tag.item.minecraft.bamboo_blocks": "Bamboo block items.",
+    "command_translation.tag.item.minecraft.banners": "Banner items.",
+    "command_translation.tag.item.minecraft.beacon_payment_items": "Payment items accepted when choosing beacon effects",
+    "command_translation.tag.item.minecraft.beds": "Bed items.",
+    "command_translation.tag.item.minecraft.birch_logs": "Birch log and wood items.",
+    "command_translation.tag.item.minecraft.boats": "Boat items.",
+    "command_translation.tag.item.minecraft.bookshelf_books": "Books placeable on chiseled bookshelves.",
+    "command_translation.tag.item.minecraft.breaks_decorated_pots": "Items that break decorated pots.",
+    "command_translation.tag.item.minecraft.buttons": "Button block items.",
+    "command_translation.tag.item.minecraft.candles": "Candle items placeable on cakes.",
+    "command_translation.tag.item.minecraft.cherry_logs": "Cherry log and wood items.",
+    "command_translation.tag.item.minecraft.chest_boats": "Boat items with a chest.",
+    "command_translation.tag.item.minecraft.cluster_max_harvestables": "Items that make amethyst clusters drop four shards.",
+    "command_translation.tag.item.minecraft.coal_ores": "Coal ore block items.",
+    "command_translation.tag.item.minecraft.coals": "Coal and charcoal items.",
+    "command_translation.tag.item.minecraft.compasses": "Compass items.",
+    "command_translation.tag.item.minecraft.completes_find_tree_tutorial": "Items that progress the find-tree tutorial.",
+    "command_translation.tag.item.minecraft.copper_ores": "Copper ore block items.",
+    "command_translation.tag.item.minecraft.creeper_drop_music_discs": "Music discs dropped by creepers killed by skeletons.",
+    "command_translation.tag.item.minecraft.creeper_igniters": "Items that can ignite creepers.",
+    "command_translation.tag.item.minecraft.crimson_stems": "Crimson stem and hyphae items.",
+    "command_translation.tag.item.minecraft.dampens_vibrations": "Items that do not trigger vibrations when thrown.",
+    "command_translation.tag.item.minecraft.dark_oak_logs": "Dark oak log and wood items.",
+    "command_translation.tag.item.minecraft.decorated_pot_ingredients": "Items usable as decorated pot ingredients.",
+    "command_translation.tag.item.minecraft.decorated_pot_sherds": "Pottery sherd items.",
+    "command_translation.tag.item.minecraft.diamond_ores": "Diamond ore block items.",
+    "command_translation.tag.item.minecraft.dirt": "Dirt block items.",
+    "command_translation.tag.item.minecraft.doors": "Door block items.",
+    "command_translation.tag.item.minecraft.emerald_ores": "Emerald ore block items.",
+    "command_translation.tag.item.minecraft.fence_gates": "Fence gate block items.",
+    "command_translation.tag.item.minecraft.fences": "Fence block items.",
+    "command_translation.tag.item.minecraft.fishes": "Fish items used for dolphins and fishing.",
+    "command_translation.tag.item.minecraft.flowers": "Flower items.",
+    "command_translation.tag.item.minecraft.fox_food": "Items that feed and tempt foxes.",
+    "command_translation.tag.item.minecraft.freeze_immune_wearables": "Wearables that protect against freezing",
+    "command_translation.tag.item.minecraft.gold_ores": "Gold ore block items.",
+    "command_translation.tag.item.minecraft.hanging_signs": "Hanging sign block items.",
+    "command_translation.tag.item.minecraft.hoes": "Hoe items.",
+    "command_translation.tag.item.minecraft.ignored_by_piglin_babies": "Items baby piglins ignore.",
+    "command_translation.tag.item.minecraft.iron_ores": "Iron ore block items.",
+    "command_translation.tag.item.minecraft.jungle_logs": "Jungle log and wood items.",
+    "command_translation.tag.item.minecraft.lapis_ores": "Lapis ore block items.",
+    "command_translation.tag.item.minecraft.leaves": "Leaf block items.",
+    "command_translation.tag.item.minecraft.lectern_books": "Books placeable on lecterns.",
+    "command_translation.tag.item.minecraft.logs": "Log and stem items.",
+    "command_translation.tag.item.minecraft.logs_that_burn": "Log and stem items usable as fuel.",
+    "command_translation.tag.item.minecraft.mangrove_logs": "Mangrove log and wood items.",
+    "command_translation.tag.item.minecraft.music_discs": "Music discs",
+    "command_translation.tag.item.minecraft.non_flammable_wood": "Non-flammable wood items.",
+    "command_translation.tag.item.minecraft.noteblock_top_instruments": "Can be placed on a note block without playing a note",
+    "command_translation.tag.item.minecraft.oak_logs": "Oak log and wood items.",
+    "command_translation.tag.item.minecraft.pickaxes": "Pickaxe items.",
+    "command_translation.tag.item.minecraft.piglin_food": "Items piglins eat and pick up.",
+    "command_translation.tag.item.minecraft.piglin_loved": "Items piglins love, such as gold.",
+    "command_translation.tag.item.minecraft.piglin_repellents": "Items piglins avoid picking up.",
+    "command_translation.tag.item.minecraft.planks": "Wooden plank items.",
+    "command_translation.tag.item.minecraft.rails": "Rail block items.",
+    "command_translation.tag.item.minecraft.redstone_ores": "Redstone ore block items.",
+    "command_translation.tag.item.minecraft.sand": "Sand block items.",
+    "command_translation.tag.item.minecraft.saplings": "Sapling items.",
+    "command_translation.tag.item.minecraft.shovels": "Shovel items.",
+    "command_translation.tag.item.minecraft.signs": "Sign block items.",
+    "command_translation.tag.item.minecraft.slabs": "Slab block items.",
+    "command_translation.tag.item.minecraft.small_flowers": "Small flower items.",
+    "command_translation.tag.item.minecraft.smelts_to_glass": "Items that smelt into glass.",
+    "command_translation.tag.item.minecraft.sniffer_food": "Items that feed and tempt sniffers.",
+    "command_translation.tag.item.minecraft.soul_fire_base_blocks": "Blocks that support soul fire.",
+    "command_translation.tag.item.minecraft.spruce_logs": "Spruce log and wood items.",
+    "command_translation.tag.item.minecraft.stairs": "Stair block items.",
+    "command_translation.tag.item.minecraft.stone_bricks": "Stone brick items.",
+    "command_translation.tag.item.minecraft.stone_buttons": "Stone button block items.",
+    "command_translation.tag.item.minecraft.stone_crafting_materials": "Stone used to craft furnaces and brewing stands.",
+    "command_translation.tag.item.minecraft.stone_tool_materials": "Stone used to craft and repair stone tools.",
+    "command_translation.tag.item.minecraft.swords": "Sword items.",
+    "command_translation.tag.item.minecraft.tall_flowers": "Tall flower items.",
+    "command_translation.tag.item.minecraft.terracotta": "Terracotta block items.",
+    "command_translation.tag.item.minecraft.tools": "Tool items.",
+    "command_translation.tag.item.minecraft.trapdoors": "Trapdoor block items.",
+    "command_translation.tag.item.minecraft.trim_materials": "Materials used for armor trims.",
+    "command_translation.tag.item.minecraft.trim_templates": "Armor trim smithing template items.",
+    "command_translation.tag.item.minecraft.trimmable_armor": "Armor items that support trims.",
+    "command_translation.tag.item.minecraft.villager_plantable_seeds": "Seeds villagers plant.",
+    "command_translation.tag.item.minecraft.walls": "Wall block items.",
+    "command_translation.tag.item.minecraft.warped_stems": "Warped stem and hyphae items.",
+    "command_translation.tag.item.minecraft.wart_blocks": "Nether wart block items.",
+    "command_translation.tag.item.minecraft.wooden_buttons": "Wooden button block items.",
+    "command_translation.tag.item.minecraft.wooden_doors": "Wooden door block items.",
+    "command_translation.tag.item.minecraft.wooden_fences": "Wooden fence block items.",
+    "command_translation.tag.item.minecraft.wooden_pressure_plates": "Wooden pressure plate block items.",
+    "command_translation.tag.item.minecraft.wooden_slabs": "Wooden slab items, usable as fuel.",
+    "command_translation.tag.item.minecraft.wooden_stairs": "Wooden stair block items.",
+    "command_translation.tag.item.minecraft.wooden_trapdoors": "Wooden trapdoor block items.",
+    "command_translation.tag.item.minecraft.wool": "Wool block items.",
+    "command_translation.tag.item.minecraft.wool_carpets": "Wool carpet block items.",
+    "command_translation.tag.item.minecraft.armadillo_food": "Items that tempt and feed armadillos.",
+    "command_translation.tag.item.minecraft.axolotl_food": "Items that feed and tempt axolotls.",
+    "command_translation.tag.item.minecraft.bee_food": "Items that tempt and feed bees.",
+    "command_translation.tag.item.minecraft.camel_food": "Items that tempt and feed camels.",
+    "command_translation.tag.item.minecraft.cat_food": "Fish that feed and tame cats.",
+    "command_translation.tag.item.minecraft.chest_armor": "Chestplate armor items.",
+    "command_translation.tag.item.minecraft.chicken_food": "Seeds that tempt and feed chickens.",
+    "command_translation.tag.item.minecraft.cow_food": "Items that tempt and feed cows and mooshrooms.",
+    "command_translation.tag.item.minecraft.dyeable": "Items dyeable by crafting with dye.",
+    "command_translation.tag.item.minecraft.enchantable.armor": "Armor enchantable by armor enchantments.",
+    "command_translation.tag.item.minecraft.enchantable.bow": "Bows enchantable by bow enchantments.",
+    "command_translation.tag.item.minecraft.enchantable.chest_armor": "Chestplates enchantable by chest armor enchantments.",
+    "command_translation.tag.item.minecraft.enchantable.crossbow": "Crossbows enchantable by crossbow enchantments.",
+    "command_translation.tag.item.minecraft.enchantable.durability": "Items enchantable by durability enchantments.",
+    "command_translation.tag.item.minecraft.enchantable.equippable": "Equippable items affected by Curse of Binding.",
+    "command_translation.tag.item.minecraft.enchantable.fire_aspect": "Weapons enchantable by Fire Aspect.",
+    "command_translation.tag.item.minecraft.enchantable.fishing": "Items enchantable by fishing enchantments.",
+    "command_translation.tag.item.minecraft.enchantable.foot_armor": "Boots enchantable by foot armor enchantments.",
+    "command_translation.tag.item.minecraft.enchantable.head_armor": "Helmets enchantable by head armor enchantments.",
+    "command_translation.tag.item.minecraft.enchantable.leg_armor": "Leggings enchantable by leg armor enchantments.",
+    "command_translation.tag.item.minecraft.enchantable.mace": "Mace enchantable by mace enchantments.",
+    "command_translation.tag.item.minecraft.enchantable.mining": "Tools enchantable by mining enchantments.",
+    "command_translation.tag.item.minecraft.enchantable.mining_loot": "Tools enchantable by mining loot enchantments.",
+    "command_translation.tag.item.minecraft.enchantable.sharp_weapon": "Weapons enchantable by Sharpness.",
+    "command_translation.tag.item.minecraft.enchantable.sword": "Swords enchantable by Sweeping Edge.",
+    "command_translation.tag.item.minecraft.enchantable.trident": "Tridents enchantable by trident enchantments.",
+    "command_translation.tag.item.minecraft.enchantable.vanishing": "Items enchantable by Curse of Vanishing.",
+    "command_translation.tag.item.minecraft.enchantable.weapon": "Weapons enchantable by weapon enchantments.",
+    "command_translation.tag.item.minecraft.foot_armor": "Boots armor items.",
+    "command_translation.tag.item.minecraft.frog_food": "Items that tempt and feed frogs and tadpoles.",
+    "command_translation.tag.item.minecraft.goat_food": "Items that feed and tempt goats.",
+    "command_translation.tag.item.minecraft.head_armor": "Helmet armor items.",
+    "command_translation.tag.item.minecraft.hoglin_food": "Items that feed hoglins.",
+    "command_translation.tag.item.minecraft.horse_food": "Items used on horses, donkeys and mules.",
+    "command_translation.tag.item.minecraft.horse_tempt_items": "Items that tempt horses.",
+    "command_translation.tag.item.minecraft.leg_armor": "Leggings armor items.",
+    "command_translation.tag.item.minecraft.llama_food": "Items that feed llamas and trader llamas.",
+    "command_translation.tag.item.minecraft.llama_tempt_items": "Items that tempt llamas.",
+    "command_translation.tag.item.minecraft.meat": "Meat items.",
+    "command_translation.tag.item.minecraft.ocelot_food": "Fish that feed and gain ocelot trust.",
+    "command_translation.tag.item.minecraft.panda_food": "Items that tempt and feed pandas.",
+    "command_translation.tag.item.minecraft.parrot_food": "Seeds that feed and tame parrots.",
+    "command_translation.tag.item.minecraft.parrot_poisonous_food": "Items that poison parrots when fed.",
+    "command_translation.tag.item.minecraft.pig_food": "Items that tempt and feed pigs.",
+    "command_translation.tag.item.minecraft.rabbit_food": "Items that tempt and feed rabbits.",
+    "command_translation.tag.item.minecraft.sheep_food": "Items that tempt and feed sheep.",
+    "command_translation.tag.item.minecraft.skulls": "Head and skull items.",
+    "command_translation.tag.item.minecraft.strider_food": "Items that feed and tempt striders.",
+    "command_translation.tag.item.minecraft.strider_tempt_items": "Items that tempt striders.",
+    "command_translation.tag.item.minecraft.turtle_food": "Items that tempt and feed turtles.",
+    "command_translation.tag.item.minecraft.wolf_food": "Items that feed tamed wolves.",
+    "command_translation.tag.item.minecraft.bars": "Metal bar block items.",
+    "command_translation.tag.item.minecraft.book_cloning_target": "Books usable in the book cloning recipe.",
+    "command_translation.tag.item.minecraft.brewing_fuel": "Items usable as brewing stand fuel.",
+    "command_translation.tag.item.minecraft.bundles": "Bundle items, dyeable by crafting.",
+    "command_translation.tag.item.minecraft.camel_husk_food": "Items that tempt and feed camel husks.",
+    "command_translation.tag.item.minecraft.cat_collar_dyes": "Dyes that recolor cat collars.",
+    "command_translation.tag.item.minecraft.cauldron_can_remove_dye": "Dyed items whose dye a cauldron can remove.",
+    "command_translation.tag.item.minecraft.chains": "Chain block items.",
+    "command_translation.tag.item.minecraft.copper": "Copper block items.",
+    "command_translation.tag.item.minecraft.copper_chests": "Copper chest block items.",
+    "command_translation.tag.item.minecraft.copper_golem_statues": "Copper golem statue items.",
+    "command_translation.tag.item.minecraft.copper_tool_materials": "Items that repair copper tools in an anvil.",
+    "command_translation.tag.item.minecraft.diamond_tool_materials": "Items that repair diamond tools in an anvil.",
+    "command_translation.tag.item.minecraft.drowned_preferred_weapons": "Weapons drowned prefer to hold.",
+    "command_translation.tag.item.minecraft.duplicates_allays": "Items that duplicate allays.",
+    "command_translation.tag.item.minecraft.dyes": "Dye items.",
+    "command_translation.tag.item.minecraft.eggs": "Egg items.",
+    "command_translation.tag.item.minecraft.enchantable.lunge": "Spears enchantable by lunge enchantments.",
+    "command_translation.tag.item.minecraft.enchantable.melee_weapon": "Melee weapons enchantable by melee enchantments.",
+    "command_translation.tag.item.minecraft.enchantable.sweeping": "Weapons enchantable by Sweeping Edge.",
+    "command_translation.tag.item.minecraft.furnace_minecart_fuel": "Items usable as minecart with furnace fuel.",
+    "command_translation.tag.item.minecraft.gaze_disguise_equipment": "Worn items that stop endermen becoming angry.",
+    "command_translation.tag.item.minecraft.gold_tool_materials": "Items that repair golden tools in an anvil.",
+    "command_translation.tag.item.minecraft.grass_blocks": "Grass-type block items.",
+    "command_translation.tag.item.minecraft.happy_ghast_food": "Items that tempt and feed happy ghasts.",
+    "command_translation.tag.item.minecraft.happy_ghast_tempt_items": "Items that tempt adult happy ghasts.",
+    "command_translation.tag.item.minecraft.harnesses": "Harness items worn by happy ghasts.",
+    "command_translation.tag.item.minecraft.iron_tool_materials": "Items that repair iron tools in an anvil.",
+    "command_translation.tag.item.minecraft.lanterns": "Lantern block items.",
+    "command_translation.tag.item.minecraft.lightning_rods": "Lightning rod block items.",
+    "command_translation.tag.item.minecraft.loom_dyes": "Dyes usable in the loom.",
+    "command_translation.tag.item.minecraft.loom_patterns": "Banner patterns usable in the loom.",
+    "command_translation.tag.item.minecraft.map_invisibility_equipment": "Worn items that hide player markers on maps.",
+    "command_translation.tag.item.minecraft.metal_nuggets": "Metal nugget items.",
+    "command_translation.tag.item.minecraft.moss_blocks": "Moss block items.",
+    "command_translation.tag.item.minecraft.mud": "Mud block items.",
+    "command_translation.tag.item.minecraft.nautilus_bucket_food": "Bucket foods that leave a water bucket when fed to nautilus.",
+    "command_translation.tag.item.minecraft.nautilus_food": "Items that tempt and feed nautilus.",
+    "command_translation.tag.item.minecraft.nautilus_taming_items": "Items that tame nautilus.",
+    "command_translation.tag.item.minecraft.netherite_tool_materials": "Items that repair netherite tools in an anvil.",
+    "command_translation.tag.item.minecraft.pale_oak_logs": "Pale oak log and wood items.",
+    "command_translation.tag.item.minecraft.panda_eats_from_ground": "Items pandas pick up from the ground.",
+    "command_translation.tag.item.minecraft.piglin_preferred_weapons": "Weapons piglins prefer to hold.",
+    "command_translation.tag.item.minecraft.piglin_safe_armor": "Counts as gold armor for piglin neutrality",
+    "command_translation.tag.item.minecraft.pillager_preferred_weapons": "Weapons pillagers prefer to hold.",
+    "command_translation.tag.item.minecraft.repairs_chain_armor": "Items that repair chain armor in an anvil.",
+    "command_translation.tag.item.minecraft.repairs_copper_armor": "Items that repair copper armor in an anvil.",
+    "command_translation.tag.item.minecraft.repairs_diamond_armor": "Items that repair diamond armor in an anvil.",
+    "command_translation.tag.item.minecraft.repairs_gold_armor": "Items that repair gold armor in an anvil.",
+    "command_translation.tag.item.minecraft.repairs_iron_armor": "Items that repair iron armor in an anvil.",
+    "command_translation.tag.item.minecraft.repairs_leather_armor": "Items that repair leather armor in an anvil.",
+    "command_translation.tag.item.minecraft.repairs_netherite_armor": "Items that repair netherite armor in an anvil.",
+    "command_translation.tag.item.minecraft.repairs_turtle_helmet": "Items that repair turtle helmets in an anvil.",
+    "command_translation.tag.item.minecraft.repairs_wolf_armor": "Items that repair wolf armor in an anvil or on a wolf.",
+    "command_translation.tag.item.minecraft.shearable_from_copper_golem": "Items obtainable by shearing a copper golem.",
+    "command_translation.tag.item.minecraft.shulker_boxes": "Shulker box items, dyeable by crafting.",
+    "command_translation.tag.item.minecraft.skeleton_preferred_weapons": "Weapons skeletons prefer to hold.",
+    "command_translation.tag.item.minecraft.spears": "Spear items.",
+    "command_translation.tag.item.minecraft.villager_picks_up": "Items villagers pick up.",
+    "command_translation.tag.item.minecraft.wither_skeleton_disliked_weapons": "Weapons wither skeletons avoid holding.",
+    "command_translation.tag.item.minecraft.wolf_collar_dyes": "Dyes that recolor wolf collars.",
+    "command_translation.tag.item.minecraft.wooden_shelves": "Wooden shelf block items.",
+    "command_translation.tag.item.minecraft.wooden_tool_materials": "Planks used to repair wooden tools and shields.",
+    "command_translation.tag.item.minecraft.zombie_horse_food": "Items that feed and tempt zombie horses.",
+    "command_translation.tag.item.minecraft.concrete": "Concrete block items.",
+    "command_translation.tag.item.minecraft.concrete_powders": "Concrete powder block items.",
+    "command_translation.tag.item.minecraft.glazed_terracotta": "Glazed terracotta block items.",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.bouncy": "Makes a sulfur cube bouncy",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.explosive": "Makes a sulfur cube ignitable and explosive",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.fast_flat": "Makes a sulfur cube move fast with little bounce",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.fast_sliding": "Makes a sulfur cube slide quickly with little bounce",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.high_resistance": "Makes a sulfur cube slow with high ground friction",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.hot": "Makes a sulfur cube damage entities on contact",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.light": "Makes a sulfur cube light and bouncy",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.regular": "Gives a sulfur cube balanced motion and bounce",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.slow_bouncy": "Makes a sulfur cube slow and bouncy",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.slow_flat": "Makes a sulfur cube slow with little bounce",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.slow_sliding": "Makes a sulfur cube slide slowly with little bounce",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.sticky": "Makes a sulfur cube stick with high ground friction",
+    "command_translation.tag.item.minecraft.sulfur_cube_food": "Items that tempt and feed sulfur cubes.",
+    "command_translation.tag.item.minecraft.sulfur_cube_swallowable": "Items sulfur cubes can swallow."
+  },
+  "zh_cn": {
+    "command_translation.tag.item.minecraft.acacia_logs": "金合欢原木与木头",
+    "command_translation.tag.item.minecraft.anvil": "铁砧方块物品",
+    "command_translation.tag.item.minecraft.arrows": "弓与弩可射出的物品",
+    "command_translation.tag.item.minecraft.axes": "斧类物品",
+    "command_translation.tag.item.minecraft.axolotl_tempt_items": "可引诱美西螈的物品",
+    "command_translation.tag.item.minecraft.bamboo_blocks": "竹块物品",
+    "command_translation.tag.item.minecraft.banners": "旗帜物品",
+    "command_translation.tag.item.minecraft.beacon_payment_items": "信标选择效果时接受的支付物品",
+    "command_translation.tag.item.minecraft.beds": "床物品",
+    "command_translation.tag.item.minecraft.birch_logs": "白桦原木与木头",
+    "command_translation.tag.item.minecraft.boats": "船物品",
+    "command_translation.tag.item.minecraft.bookshelf_books": "可放在雕纹书架上的书",
+    "command_translation.tag.item.minecraft.breaks_decorated_pots": "可击碎饰纹陶罐的物品",
+    "command_translation.tag.item.minecraft.buttons": "按钮方块物品",
+    "command_translation.tag.item.minecraft.candles": "可插在蛋糕上的蜡烛",
+    "command_translation.tag.item.minecraft.cherry_logs": "樱花原木与木头",
+    "command_translation.tag.item.minecraft.chest_boats": "带箱子的船物品",
+    "command_translation.tag.item.minecraft.cluster_max_harvestables": "使紫水晶簇掉落四个碎片的物品",
+    "command_translation.tag.item.minecraft.coal_ores": "煤矿石方块物品",
+    "command_translation.tag.item.minecraft.coals": "煤炭与木炭物品",
+    "command_translation.tag.item.minecraft.compasses": "指南针物品",
+    "command_translation.tag.item.minecraft.completes_find_tree_tutorial": "推进寻找树木教程的物品",
+    "command_translation.tag.item.minecraft.copper_ores": "铜矿石方块物品",
+    "command_translation.tag.item.minecraft.creeper_drop_music_discs": "被骷髅击杀的苦力怕掉落的唱片",
+    "command_translation.tag.item.minecraft.creeper_igniters": "可点燃苦力怕的物品",
+    "command_translation.tag.item.minecraft.crimson_stems": "绯红菌柄与菌核物品",
+    "command_translation.tag.item.minecraft.dampens_vibrations": "投掷时不触发振动的物品",
+    "command_translation.tag.item.minecraft.dark_oak_logs": "深色橡木原木与木头",
+    "command_translation.tag.item.minecraft.decorated_pot_ingredients": "可作饰纹陶罐原料的物品",
+    "command_translation.tag.item.minecraft.decorated_pot_sherds": "陶片物品",
+    "command_translation.tag.item.minecraft.diamond_ores": "钻石矿石方块物品",
+    "command_translation.tag.item.minecraft.dirt": "泥土方块物品",
+    "command_translation.tag.item.minecraft.doors": "门方块物品",
+    "command_translation.tag.item.minecraft.emerald_ores": "绿宝石矿石方块物品",
+    "command_translation.tag.item.minecraft.fence_gates": "栅栏门方块物品",
+    "command_translation.tag.item.minecraft.fences": "栅栏方块物品",
+    "command_translation.tag.item.minecraft.fishes": "用于海豚与钓鱼的鱼类物品",
+    "command_translation.tag.item.minecraft.flowers": "花物品",
+    "command_translation.tag.item.minecraft.fox_food": "可喂养与引诱狐狸的物品",
+    "command_translation.tag.item.minecraft.freeze_immune_wearables": "穿戴后可防止冰冻的装备",
+    "command_translation.tag.item.minecraft.gold_ores": "金矿石方块物品",
+    "command_translation.tag.item.minecraft.hanging_signs": "悬挂式告示牌方块物品",
+    "command_translation.tag.item.minecraft.hoes": "锄类物品",
+    "command_translation.tag.item.minecraft.ignored_by_piglin_babies": "猪灵幼崽忽略的物品",
+    "command_translation.tag.item.minecraft.iron_ores": "铁矿石方块物品",
+    "command_translation.tag.item.minecraft.jungle_logs": "丛林原木与木头",
+    "command_translation.tag.item.minecraft.lapis_ores": "青金石矿石方块物品",
+    "command_translation.tag.item.minecraft.leaves": "树叶方块物品",
+    "command_translation.tag.item.minecraft.lectern_books": "可放在讲台上的书",
+    "command_translation.tag.item.minecraft.logs": "原木与菌柄物品",
+    "command_translation.tag.item.minecraft.logs_that_burn": "可作燃料的原木与菌柄物品",
+    "command_translation.tag.item.minecraft.mangrove_logs": "红树原木与木头",
+    "command_translation.tag.item.minecraft.music_discs": "唱片",
+    "command_translation.tag.item.minecraft.non_flammable_wood": "不可燃木质物品",
+    "command_translation.tag.item.minecraft.noteblock_top_instruments": "右击音符盒时可直接放置，不触发音符",
+    "command_translation.tag.item.minecraft.oak_logs": "橡木原木与木头",
+    "command_translation.tag.item.minecraft.pickaxes": "镐类物品",
+    "command_translation.tag.item.minecraft.piglin_food": "猪灵食用与拾取的物品",
+    "command_translation.tag.item.minecraft.piglin_loved": "猪灵钟爱的物品（如金）",
+    "command_translation.tag.item.minecraft.piglin_repellents": "猪灵不愿拾取的物品",
+    "command_translation.tag.item.minecraft.planks": "木板物品",
+    "command_translation.tag.item.minecraft.rails": "铁轨方块物品",
+    "command_translation.tag.item.minecraft.redstone_ores": "红石矿石方块物品",
+    "command_translation.tag.item.minecraft.sand": "沙子方块物品",
+    "command_translation.tag.item.minecraft.saplings": "树苗物品",
+    "command_translation.tag.item.minecraft.shovels": "锹类物品",
+    "command_translation.tag.item.minecraft.signs": "告示牌方块物品",
+    "command_translation.tag.item.minecraft.slabs": "台阶方块物品",
+    "command_translation.tag.item.minecraft.small_flowers": "小型花物品",
+    "command_translation.tag.item.minecraft.smelts_to_glass": "可烧炼成玻璃的物品",
+    "command_translation.tag.item.minecraft.sniffer_food": "可喂养与引诱嗅探兽的物品",
+    "command_translation.tag.item.minecraft.soul_fire_base_blocks": "可支撑灵魂火的方块",
+    "command_translation.tag.item.minecraft.spruce_logs": "云杉原木与木头",
+    "command_translation.tag.item.minecraft.stairs": "楼梯方块物品",
+    "command_translation.tag.item.minecraft.stone_bricks": "石砖物品",
+    "command_translation.tag.item.minecraft.stone_buttons": "石质按钮方块物品",
+    "command_translation.tag.item.minecraft.stone_crafting_materials": "用于合成熔炉与酿造台的石头",
+    "command_translation.tag.item.minecraft.stone_tool_materials": "用于合成与修复石质工具的石头",
+    "command_translation.tag.item.minecraft.swords": "剑类物品",
+    "command_translation.tag.item.minecraft.tall_flowers": "大型花物品",
+    "command_translation.tag.item.minecraft.terracotta": "陶瓦方块物品",
+    "command_translation.tag.item.minecraft.tools": "工具类物品",
+    "command_translation.tag.item.minecraft.trapdoors": "活板门方块物品",
+    "command_translation.tag.item.minecraft.trim_materials": "用于盔甲纹饰的材料",
+    "command_translation.tag.item.minecraft.trim_templates": "盔甲纹饰锻造模板物品",
+    "command_translation.tag.item.minecraft.trimmable_armor": "可应用纹饰的盔甲物品",
+    "command_translation.tag.item.minecraft.villager_plantable_seeds": "村民种植的种子",
+    "command_translation.tag.item.minecraft.walls": "墙方块物品",
+    "command_translation.tag.item.minecraft.warped_stems": "诡异菌柄与菌核物品",
+    "command_translation.tag.item.minecraft.wart_blocks": "下界疣块物品",
+    "command_translation.tag.item.minecraft.wooden_buttons": "木质按钮方块物品",
+    "command_translation.tag.item.minecraft.wooden_doors": "木质门方块物品",
+    "command_translation.tag.item.minecraft.wooden_fences": "木质栅栏方块物品",
+    "command_translation.tag.item.minecraft.wooden_pressure_plates": "木质压力板方块物品",
+    "command_translation.tag.item.minecraft.wooden_slabs": "木质台阶物品，可作燃料",
+    "command_translation.tag.item.minecraft.wooden_stairs": "木质楼梯方块物品",
+    "command_translation.tag.item.minecraft.wooden_trapdoors": "木质活板门方块物品",
+    "command_translation.tag.item.minecraft.wool": "羊毛方块物品",
+    "command_translation.tag.item.minecraft.wool_carpets": "羊毛地毯方块物品",
+    "command_translation.tag.item.minecraft.armadillo_food": "可引诱与喂食犰狳的物品",
+    "command_translation.tag.item.minecraft.axolotl_food": "可喂养与引诱美西螈的物品",
+    "command_translation.tag.item.minecraft.bee_food": "可引诱与喂食蜜蜂的物品",
+    "command_translation.tag.item.minecraft.camel_food": "可引诱与喂食骆驼的物品",
+    "command_translation.tag.item.minecraft.cat_food": "可喂食与驯服猫的鱼",
+    "command_translation.tag.item.minecraft.chest_armor": "胸甲类盔甲物品",
+    "command_translation.tag.item.minecraft.chicken_food": "可引诱与喂食鸡的种子",
+    "command_translation.tag.item.minecraft.cow_food": "可引诱与喂食牛与哞菇的物品",
+    "command_translation.tag.item.minecraft.dyeable": "可与染料合成染色的物品",
+    "command_translation.tag.item.minecraft.enchantable.armor": "可附魔盔甲类魔咒的盔甲",
+    "command_translation.tag.item.minecraft.enchantable.bow": "可附魔弓类魔咒的弓",
+    "command_translation.tag.item.minecraft.enchantable.chest_armor": "可附魔胸甲魔咒的胸甲",
+    "command_translation.tag.item.minecraft.enchantable.crossbow": "可附魔弩类魔咒的弩",
+    "command_translation.tag.item.minecraft.enchantable.durability": "可附魔耐久类魔咒的物品",
+    "command_translation.tag.item.minecraft.enchantable.equippable": "受绑定诅咒影响的可装备物品",
+    "command_translation.tag.item.minecraft.enchantable.fire_aspect": "可附魔火焰附加的武器",
+    "command_translation.tag.item.minecraft.enchantable.fishing": "可附魔钓鱼类魔咒的物品",
+    "command_translation.tag.item.minecraft.enchantable.foot_armor": "可附魔靴子魔咒的靴子",
+    "command_translation.tag.item.minecraft.enchantable.head_armor": "可附魔头盔魔咒的头盔",
+    "command_translation.tag.item.minecraft.enchantable.leg_armor": "可附魔护腿魔咒的护腿",
+    "command_translation.tag.item.minecraft.enchantable.mace": "可附魔重锤魔咒的重锤",
+    "command_translation.tag.item.minecraft.enchantable.mining": "可附魔挖掘类魔咒的工具",
+    "command_translation.tag.item.minecraft.enchantable.mining_loot": "可附魔挖掘掉落类魔咒的工具",
+    "command_translation.tag.item.minecraft.enchantable.sharp_weapon": "可附魔锋利类魔咒的武器",
+    "command_translation.tag.item.minecraft.enchantable.sword": "可附魔横扫之刃的剑",
+    "command_translation.tag.item.minecraft.enchantable.trident": "可附魔三叉戟类魔咒的三叉戟",
+    "command_translation.tag.item.minecraft.enchantable.vanishing": "可附魔消失诅咒的物品",
+    "command_translation.tag.item.minecraft.enchantable.weapon": "可附魔武器类魔咒的武器",
+    "command_translation.tag.item.minecraft.foot_armor": "靴子类盔甲物品",
+    "command_translation.tag.item.minecraft.frog_food": "可引诱与喂食青蛙与蝌蚪的物品",
+    "command_translation.tag.item.minecraft.goat_food": "可喂养与引诱山羊的物品",
+    "command_translation.tag.item.minecraft.head_armor": "头盔类盔甲物品",
+    "command_translation.tag.item.minecraft.hoglin_food": "可喂食疣猪兽的物品",
+    "command_translation.tag.item.minecraft.horse_food": "用于马、驴与骡的物品",
+    "command_translation.tag.item.minecraft.horse_tempt_items": "可引诱马的物品",
+    "command_translation.tag.item.minecraft.leg_armor": "护腿类盔甲物品",
+    "command_translation.tag.item.minecraft.llama_food": "可喂食羊驼与商队羊驼的物品",
+    "command_translation.tag.item.minecraft.llama_tempt_items": "可引诱羊驼的物品",
+    "command_translation.tag.item.minecraft.meat": "肉类物品",
+    "command_translation.tag.item.minecraft.ocelot_food": "可喂食并获得豹猫信任的鱼",
+    "command_translation.tag.item.minecraft.panda_food": "可引诱与喂食熊猫的物品",
+    "command_translation.tag.item.minecraft.parrot_food": "可喂食与驯服鹦鹉的种子",
+    "command_translation.tag.item.minecraft.parrot_poisonous_food": "喂食鹦鹉会使其中毒的物品",
+    "command_translation.tag.item.minecraft.pig_food": "可引诱与喂食猪的物品",
+    "command_translation.tag.item.minecraft.rabbit_food": "可引诱与喂食兔子的物品",
+    "command_translation.tag.item.minecraft.sheep_food": "可引诱与喂食绵羊的物品",
+    "command_translation.tag.item.minecraft.skulls": "头颅与头骨物品",
+    "command_translation.tag.item.minecraft.strider_food": "可喂养与引诱炽足兽的物品",
+    "command_translation.tag.item.minecraft.strider_tempt_items": "可引诱炽足兽的物品",
+    "command_translation.tag.item.minecraft.turtle_food": "可引诱与喂食海龟的物品",
+    "command_translation.tag.item.minecraft.wolf_food": "可喂食已驯服狼的物品",
+    "command_translation.tag.item.minecraft.bars": "金属栏杆方块物品",
+    "command_translation.tag.item.minecraft.book_cloning_target": "可用于成书复制配方的书",
+    "command_translation.tag.item.minecraft.brewing_fuel": "可用作酿造台燃料的物品",
+    "command_translation.tag.item.minecraft.bundles": "束口袋物品，可合成染色",
+    "command_translation.tag.item.minecraft.camel_husk_food": "可引诱与喂食骆驼尸壳的物品",
+    "command_translation.tag.item.minecraft.cat_collar_dyes": "可改变猫项圈颜色的染料",
+    "command_translation.tag.item.minecraft.cauldron_can_remove_dye": "可在炼药锅中洗去染色的物品",
+    "command_translation.tag.item.minecraft.chains": "锁链方块物品",
+    "command_translation.tag.item.minecraft.copper": "铜块类物品",
+    "command_translation.tag.item.minecraft.copper_chests": "铜箱方块物品",
+    "command_translation.tag.item.minecraft.copper_golem_statues": "铜傀儡雕像物品",
+    "command_translation.tag.item.minecraft.copper_tool_materials": "可在铁砧修复铜制工具的物品",
+    "command_translation.tag.item.minecraft.diamond_tool_materials": "可在铁砧修复钻石工具的物品",
+    "command_translation.tag.item.minecraft.drowned_preferred_weapons": "溺尸偏好的武器",
+    "command_translation.tag.item.minecraft.duplicates_allays": "可复制悦灵的物品",
+    "command_translation.tag.item.minecraft.dyes": "染料物品",
+    "command_translation.tag.item.minecraft.eggs": "鸡蛋类物品",
+    "command_translation.tag.item.minecraft.enchantable.lunge": "可附魔突刺魔咒的长矛",
+    "command_translation.tag.item.minecraft.enchantable.melee_weapon": "可附魔近战类魔咒的近战武器",
+    "command_translation.tag.item.minecraft.enchantable.sweeping": "可附魔横扫之刃的武器",
+    "command_translation.tag.item.minecraft.furnace_minecart_fuel": "可用作熔炉矿车燃料的物品",
+    "command_translation.tag.item.minecraft.gaze_disguise_equipment": "穿戴后直视末影人不会激怒它",
+    "command_translation.tag.item.minecraft.gold_tool_materials": "可在铁砧修复金制工具的物品",
+    "command_translation.tag.item.minecraft.grass_blocks": "草方块类物品",
+    "command_translation.tag.item.minecraft.happy_ghast_food": "可引诱与喂食快乐恶魂的物品",
+    "command_translation.tag.item.minecraft.happy_ghast_tempt_items": "可引诱成年快乐恶魂的物品",
+    "command_translation.tag.item.minecraft.harnesses": "快乐恶魂佩戴的挽具物品",
+    "command_translation.tag.item.minecraft.iron_tool_materials": "可在铁砧修复铁制工具的物品",
+    "command_translation.tag.item.minecraft.lanterns": "灯笼方块物品",
+    "command_translation.tag.item.minecraft.lightning_rods": "避雷针方块物品",
+    "command_translation.tag.item.minecraft.loom_dyes": "可在织布机使用的染料",
+    "command_translation.tag.item.minecraft.loom_patterns": "可在织布机使用的旗帜图案",
+    "command_translation.tag.item.minecraft.map_invisibility_equipment": "穿戴后在地图上隐藏玩家标记的物品",
+    "command_translation.tag.item.minecraft.metal_nuggets": "金属粒物品",
+    "command_translation.tag.item.minecraft.moss_blocks": "苔藓块物品",
+    "command_translation.tag.item.minecraft.mud": "泥方块物品",
+    "command_translation.tag.item.minecraft.nautilus_bucket_food": "喂食鹦鹉螺后返还水桶的桶装食物",
+    "command_translation.tag.item.minecraft.nautilus_food": "可引诱与喂食鹦鹉螺的物品",
+    "command_translation.tag.item.minecraft.nautilus_taming_items": "可驯服鹦鹉螺的物品",
+    "command_translation.tag.item.minecraft.netherite_tool_materials": "可在铁砧修复下界合金工具的物品",
+    "command_translation.tag.item.minecraft.pale_oak_logs": "苍白橡木原木与木头",
+    "command_translation.tag.item.minecraft.panda_eats_from_ground": "熊猫会从地上捡起的物品",
+    "command_translation.tag.item.minecraft.piglin_preferred_weapons": "猪灵偏好的武器",
+    "command_translation.tag.item.minecraft.piglin_safe_armor": "可避免因未穿金甲而激怒猪灵的装备",
+    "command_translation.tag.item.minecraft.pillager_preferred_weapons": "掠夺者偏好的武器",
+    "command_translation.tag.item.minecraft.repairs_chain_armor": "可在铁砧修复锁链盔甲的物品",
+    "command_translation.tag.item.minecraft.repairs_copper_armor": "可在铁砧修复铜制盔甲的物品",
+    "command_translation.tag.item.minecraft.repairs_diamond_armor": "可在铁砧修复钻石盔甲的物品",
+    "command_translation.tag.item.minecraft.repairs_gold_armor": "可在铁砧修复黄金盔甲的物品",
+    "command_translation.tag.item.minecraft.repairs_iron_armor": "可在铁砧修复铁制盔甲的物品",
+    "command_translation.tag.item.minecraft.repairs_leather_armor": "可在铁砧修复皮革盔甲的物品",
+    "command_translation.tag.item.minecraft.repairs_netherite_armor": "可在铁砧修复下界合金盔甲的物品",
+    "command_translation.tag.item.minecraft.repairs_turtle_helmet": "可在铁砧修复海龟壳的物品",
+    "command_translation.tag.item.minecraft.repairs_wolf_armor": "可在铁砧或狼身上修复狼铠的物品",
+    "command_translation.tag.item.minecraft.shearable_from_copper_golem": "可通过剪铜傀儡获得的物品",
+    "command_translation.tag.item.minecraft.shulker_boxes": "潜影盒物品，可合成染色",
+    "command_translation.tag.item.minecraft.skeleton_preferred_weapons": "骷髅偏好的武器",
+    "command_translation.tag.item.minecraft.spears": "长矛类物品",
+    "command_translation.tag.item.minecraft.villager_picks_up": "村民会拾取的物品",
+    "command_translation.tag.item.minecraft.wither_skeleton_disliked_weapons": "凋灵骷髅不愿持有的武器",
+    "command_translation.tag.item.minecraft.wolf_collar_dyes": "可改变狼项圈颜色的染料",
+    "command_translation.tag.item.minecraft.wooden_shelves": "木质架子方块物品",
+    "command_translation.tag.item.minecraft.wooden_tool_materials": "用于修复木质工具与盾牌的木板",
+    "command_translation.tag.item.minecraft.zombie_horse_food": "可喂养与引诱僵尸马的物品",
+    "command_translation.tag.item.minecraft.concrete": "混凝土方块物品",
+    "command_translation.tag.item.minecraft.concrete_powders": "混凝土粉末方块物品",
+    "command_translation.tag.item.minecraft.glazed_terracotta": "带釉陶瓦方块物品",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.bouncy": "使硫磺方块更易弹跳",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.explosive": "使硫磺方块可被点燃引爆",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.fast_flat": "使硫磺方块移动快、弹跳低",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.fast_sliding": "使硫磺方块快速滑行、不易弹跳",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.high_resistance": "使硫磺方块移动慢、地面摩擦大",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.hot": "使硫磺方块接触生物时造成伤害",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.light": "使硫磺方块轻盈、易弹跳",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.regular": "使硫磺方块具有中等移动速度与弹性",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.slow_bouncy": "使硫磺方块移动慢、易弹跳",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.slow_flat": "使硫磺方块移动慢、弹跳低",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.slow_sliding": "使硫磺方块缓慢滑行、不易弹跳",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.sticky": "使硫磺方块黏着、地面摩擦极大",
+    "command_translation.tag.item.minecraft.sulfur_cube_food": "可引诱与喂食硫磺方块的物品",
+    "command_translation.tag.item.minecraft.sulfur_cube_swallowable": "硫磺方块可吞下的物品"
+  },
+  "de_de": {
+    "command_translation.tag.item.minecraft.acacia_logs": "Akazien-Stämme und -Hölzer",
+    "command_translation.tag.item.minecraft.anvil": "Amboss-Blöcke",
+    "command_translation.tag.item.minecraft.arrows": "Von Bogen und Armbrust verschießbare Items",
+    "command_translation.tag.item.minecraft.axes": "Äxte",
+    "command_translation.tag.item.minecraft.axolotl_tempt_items": "Items, die Axolotl anlocken",
+    "command_translation.tag.item.minecraft.bamboo_blocks": "Bambusblöcke",
+    "command_translation.tag.item.minecraft.banners": "Banner",
+    "command_translation.tag.item.minecraft.beacon_payment_items": "Zahlungsmittel für die Effektauswahl am Leuchtfeuer",
+    "command_translation.tag.item.minecraft.beds": "Betten",
+    "command_translation.tag.item.minecraft.birch_logs": "Birken-Stämme und -Hölzer",
+    "command_translation.tag.item.minecraft.boats": "Boote",
+    "command_translation.tag.item.minecraft.bookshelf_books": "Bücher für gemeißelte Bücherregale",
+    "command_translation.tag.item.minecraft.breaks_decorated_pots": "Items, die verzierte Töpfe zerstören",
+    "command_translation.tag.item.minecraft.buttons": "Knöpfe",
+    "command_translation.tag.item.minecraft.candles": "Kerzen für Kuchen",
+    "command_translation.tag.item.minecraft.cherry_logs": "Kirsch-Stämme und -Hölzer",
+    "command_translation.tag.item.minecraft.chest_boats": "Boote mit Truhe",
+    "command_translation.tag.item.minecraft.cluster_max_harvestables": "Items für vier Amethystsplitter aus Clustern",
+    "command_translation.tag.item.minecraft.coal_ores": "Steinkohle-Erze",
+    "command_translation.tag.item.minecraft.coals": "Kohle und Holzkohle",
+    "command_translation.tag.item.minecraft.compasses": "Kompanse",
+    "command_translation.tag.item.minecraft.completes_find_tree_tutorial": "Items für den Baum-finden-Tutorialschritt",
+    "command_translation.tag.item.minecraft.copper_ores": "Kupfererze",
+    "command_translation.tag.item.minecraft.creeper_drop_music_discs": "Schallplatten von Skelett-getöteten Creepern",
+    "command_translation.tag.item.minecraft.creeper_igniters": "Items, die Creeper entzünden können",
+    "command_translation.tag.item.minecraft.crimson_stems": "Karmesin-Stämme und -Hyphen",
+    "command_translation.tag.item.minecraft.dampens_vibrations": "Geworfene Items ohne Schwingungen",
+    "command_translation.tag.item.minecraft.dark_oak_logs": "Schwarzeichen-Stämme und -Hölzer",
+    "command_translation.tag.item.minecraft.decorated_pot_ingredients": "Zutaten für verzierte Töpfe",
+    "command_translation.tag.item.minecraft.decorated_pot_sherds": "Tonscherben",
+    "command_translation.tag.item.minecraft.diamond_ores": "Diamanterze",
+    "command_translation.tag.item.minecraft.dirt": "Erdblöcke",
+    "command_translation.tag.item.minecraft.doors": "Türen",
+    "command_translation.tag.item.minecraft.emerald_ores": "Smaragderze",
+    "command_translation.tag.item.minecraft.fence_gates": "Zauntore",
+    "command_translation.tag.item.minecraft.fences": "Zäune",
+    "command_translation.tag.item.minecraft.fishes": "Fisch-Items für Delfine und Fischerei",
+    "command_translation.tag.item.minecraft.flowers": "Blumen",
+    "command_translation.tag.item.minecraft.fox_food": "Items zum Füttern und Anlocken von Füchsen",
+    "command_translation.tag.item.minecraft.freeze_immune_wearables": "Tragbare Ausrüstung, die vor Erfrieren schützt",
+    "command_translation.tag.item.minecraft.gold_ores": "Golderze",
+    "command_translation.tag.item.minecraft.hanging_signs": "Hängeschilder",
+    "command_translation.tag.item.minecraft.hoes": "Hacken",
+    "command_translation.tag.item.minecraft.ignored_by_piglin_babies": "Items, die Piglin-Babys ignorieren",
+    "command_translation.tag.item.minecraft.iron_ores": "Eisenerze",
+    "command_translation.tag.item.minecraft.jungle_logs": "Tropen-Stämme und -Hölzer",
+    "command_translation.tag.item.minecraft.lapis_ores": "Lapislazuli-Erze",
+    "command_translation.tag.item.minecraft.leaves": "Laubblöcke",
+    "command_translation.tag.item.minecraft.lectern_books": "Bücher für Lesepulte",
+    "command_translation.tag.item.minecraft.logs": "Stämme",
+    "command_translation.tag.item.minecraft.logs_that_burn": "Brennbare Stämme",
+    "command_translation.tag.item.minecraft.mangrove_logs": "Mangroven-Stämme und -Hölzer",
+    "command_translation.tag.item.minecraft.music_discs": "Schallplatten",
+    "command_translation.tag.item.minecraft.non_flammable_wood": "Nicht brennbares Holz",
+    "command_translation.tag.item.minecraft.noteblock_top_instruments": "Kann ohne Notenton auf einem Notenblock platziert werden",
+    "command_translation.tag.item.minecraft.oak_logs": "Eichen-Stämme und -Hölzer",
+    "command_translation.tag.item.minecraft.pickaxes": "Spitzhacken",
+    "command_translation.tag.item.minecraft.piglin_food": "Items, die Piglins fressen",
+    "command_translation.tag.item.minecraft.piglin_loved": "Von Piglins geliebte Items",
+    "command_translation.tag.item.minecraft.piglin_repellents": "Items, die Piglins meiden",
+    "command_translation.tag.item.minecraft.planks": "Holzbretter",
+    "command_translation.tag.item.minecraft.rails": "Schienen",
+    "command_translation.tag.item.minecraft.redstone_ores": "Redstone-Erze",
+    "command_translation.tag.item.minecraft.sand": "Sandblöcke",
+    "command_translation.tag.item.minecraft.saplings": "Setzlinge",
+    "command_translation.tag.item.minecraft.shovels": "Schaufeln",
+    "command_translation.tag.item.minecraft.signs": "Schilder",
+    "command_translation.tag.item.minecraft.slabs": "Stufen",
+    "command_translation.tag.item.minecraft.small_flowers": "Kleine Blumen",
+    "command_translation.tag.item.minecraft.smelts_to_glass": "Items, die zu Glas schmelzen",
+    "command_translation.tag.item.minecraft.sniffer_food": "Items für Schnüffler",
+    "command_translation.tag.item.minecraft.soul_fire_base_blocks": "Blöcke für Seelenfeuer",
+    "command_translation.tag.item.minecraft.spruce_logs": "Fichten-Stämme und -Hölzer",
+    "command_translation.tag.item.minecraft.stairs": "Treppen",
+    "command_translation.tag.item.minecraft.stone_bricks": "Steinziegel",
+    "command_translation.tag.item.minecraft.stone_buttons": "Steinknöpfe",
+    "command_translation.tag.item.minecraft.stone_crafting_materials": "Stein für Öfen und Braustände",
+    "command_translation.tag.item.minecraft.stone_tool_materials": "Stein für Steinwerkzeuge",
+    "command_translation.tag.item.minecraft.swords": "Schwerter",
+    "command_translation.tag.item.minecraft.tall_flowers": "Hohe Blumen",
+    "command_translation.tag.item.minecraft.terracotta": "Terrakotta",
+    "command_translation.tag.item.minecraft.tools": "Werkzeuge",
+    "command_translation.tag.item.minecraft.trapdoors": "Falltüren",
+    "command_translation.tag.item.minecraft.trim_materials": "Materialien für Rüstungsverzierungen",
+    "command_translation.tag.item.minecraft.trim_templates": "Schmiedevorlagen für Rüstungsverzierungen",
+    "command_translation.tag.item.minecraft.trimmable_armor": "Verzierbare Rüstungen",
+    "command_translation.tag.item.minecraft.villager_plantable_seeds": "Von Dorfbewohnern gepflanzte Samen",
+    "command_translation.tag.item.minecraft.walls": "Mauern",
+    "command_translation.tag.item.minecraft.warped_stems": "Wirr-Stämme und -Hyphen",
+    "command_translation.tag.item.minecraft.wart_blocks": "Warzenblöcke",
+    "command_translation.tag.item.minecraft.wooden_buttons": "Holzknöpfe",
+    "command_translation.tag.item.minecraft.wooden_doors": "Holztüren",
+    "command_translation.tag.item.minecraft.wooden_fences": "Holzzäune",
+    "command_translation.tag.item.minecraft.wooden_pressure_plates": "Holzdruckplatten",
+    "command_translation.tag.item.minecraft.wooden_slabs": "Holzstufen, als Brennstoff nutzbar",
+    "command_translation.tag.item.minecraft.wooden_stairs": "Holztreppen",
+    "command_translation.tag.item.minecraft.wooden_trapdoors": "Holzfalltüren",
+    "command_translation.tag.item.minecraft.wool": "Wollblöcke",
+    "command_translation.tag.item.minecraft.wool_carpets": "Wollteppiche",
+    "command_translation.tag.item.minecraft.armadillo_food": "Items für Gürteltiere",
+    "command_translation.tag.item.minecraft.axolotl_food": "Items für Axolotl",
+    "command_translation.tag.item.minecraft.bee_food": "Items für Bienen",
+    "command_translation.tag.item.minecraft.camel_food": "Items für Kamele",
+    "command_translation.tag.item.minecraft.cat_food": "Fisch für Katzen",
+    "command_translation.tag.item.minecraft.chest_armor": "Brustpanzer-Rüstungen",
+    "command_translation.tag.item.minecraft.chicken_food": "Samen für Hühner",
+    "command_translation.tag.item.minecraft.cow_food": "Items für Kühe und Mooshrooms",
+    "command_translation.tag.item.minecraft.dyeable": "Mit Farbstoff färbbare Items",
+    "command_translation.tag.item.minecraft.enchantable.armor": "Mit Rüstungsverzauberungen verzauberbare Rüstung",
+    "command_translation.tag.item.minecraft.enchantable.bow": "Mit Bogenverzauberungen verzauberbare Bögen",
+    "command_translation.tag.item.minecraft.enchantable.chest_armor": "Verzauberbare Brustpanzer",
+    "command_translation.tag.item.minecraft.enchantable.crossbow": "Verzauberbare Armbrüste",
+    "command_translation.tag.item.minecraft.enchantable.durability": "Mit Haltbarkeits-Verzauberungen verzauberbar",
+    "command_translation.tag.item.minecraft.enchantable.equippable": "Von Fluch der Bindung betroffene Items",
+    "command_translation.tag.item.minecraft.enchantable.fire_aspect": "Mit Feueraspekt verzauberbare Waffen",
+    "command_translation.tag.item.minecraft.enchantable.fishing": "Mit Angel-Verzauberungen verzauberbar",
+    "command_translation.tag.item.minecraft.enchantable.foot_armor": "Verzauberbare Stiefel",
+    "command_translation.tag.item.minecraft.enchantable.head_armor": "Verzauberbare Helme",
+    "command_translation.tag.item.minecraft.enchantable.leg_armor": "Verzauberbare Beinschienen",
+    "command_translation.tag.item.minecraft.enchantable.mace": "Verzauberbare Streitkolben",
+    "command_translation.tag.item.minecraft.enchantable.mining": "Mit Abbau-Verzauberungen verzauberbar",
+    "command_translation.tag.item.minecraft.enchantable.mining_loot": "Mit Abbau-Beute-Verzauberungen verzauberbar",
+    "command_translation.tag.item.minecraft.enchantable.sharp_weapon": "Mit Schärfe verzauberbare Waffen",
+    "command_translation.tag.item.minecraft.enchantable.sword": "Mit Schwung verzauberbare Schwerter",
+    "command_translation.tag.item.minecraft.enchantable.trident": "Verzauberbare Dreizacke",
+    "command_translation.tag.item.minecraft.enchantable.vanishing": "Mit Fluch des Verschwindens verzauberbar",
+    "command_translation.tag.item.minecraft.enchantable.weapon": "Mit Waffen-Verzauberungen verzauberbar",
+    "command_translation.tag.item.minecraft.foot_armor": "Stiefel-Rüstungen",
+    "command_translation.tag.item.minecraft.frog_food": "Items für Frösche und Kaulquappen",
+    "command_translation.tag.item.minecraft.goat_food": "Items für Ziegen",
+    "command_translation.tag.item.minecraft.head_armor": "Helm-Rüstungen",
+    "command_translation.tag.item.minecraft.hoglin_food": "Items für Hoglins",
+    "command_translation.tag.item.minecraft.horse_food": "Items für Pferde, Esel und Maultiere",
+    "command_translation.tag.item.minecraft.horse_tempt_items": "Items, die Pferde anlocken",
+    "command_translation.tag.item.minecraft.leg_armor": "Beinschienen-Rüstungen",
+    "command_translation.tag.item.minecraft.llama_food": "Items für Lamas und Händlerlamas",
+    "command_translation.tag.item.minecraft.llama_tempt_items": "Items, die Lamas anlocken",
+    "command_translation.tag.item.minecraft.meat": "Fleisch",
+    "command_translation.tag.item.minecraft.ocelot_food": "Fisch für Ozelots",
+    "command_translation.tag.item.minecraft.panda_food": "Items für Pandas",
+    "command_translation.tag.item.minecraft.parrot_food": "Samen für Papageien",
+    "command_translation.tag.item.minecraft.parrot_poisonous_food": "Für Papageien giftige Items",
+    "command_translation.tag.item.minecraft.pig_food": "Items für Schweine",
+    "command_translation.tag.item.minecraft.rabbit_food": "Items für Kaninchen",
+    "command_translation.tag.item.minecraft.sheep_food": "Items für Schafe",
+    "command_translation.tag.item.minecraft.skulls": "Köpfe und Schädel",
+    "command_translation.tag.item.minecraft.strider_food": "Items für Schreiter",
+    "command_translation.tag.item.minecraft.strider_tempt_items": "Items, die Schreiter anlocken",
+    "command_translation.tag.item.minecraft.turtle_food": "Items für Schildkröten",
+    "command_translation.tag.item.minecraft.wolf_food": "Items für gezähmte Wölfe",
+    "command_translation.tag.item.minecraft.bars": "Gitterstäbe",
+    "command_translation.tag.item.minecraft.book_cloning_target": "Bücher für das Buchkopie-Rezept",
+    "command_translation.tag.item.minecraft.brewing_fuel": "Brennstoff für Braustände",
+    "command_translation.tag.item.minecraft.bundles": "Bündel, färbbar",
+    "command_translation.tag.item.minecraft.camel_husk_food": "Items für Kamelhusks",
+    "command_translation.tag.item.minecraft.cat_collar_dyes": "Farbstoffe für Katzenhalsbänder",
+    "command_translation.tag.item.minecraft.cauldron_can_remove_dye": "Items, deren Färbung der Kessel entfernt",
+    "command_translation.tag.item.minecraft.chains": "Ketten",
+    "command_translation.tag.item.minecraft.copper": "Kupferblöcke",
+    "command_translation.tag.item.minecraft.copper_chests": "Kupfertruhen",
+    "command_translation.tag.item.minecraft.copper_golem_statues": "Kupfergolem-Statuen",
+    "command_translation.tag.item.minecraft.copper_tool_materials": "Items zum Reparieren von Kupferwerkzeugen",
+    "command_translation.tag.item.minecraft.diamond_tool_materials": "Items zum Reparieren von Diamantwerkzeugen",
+    "command_translation.tag.item.minecraft.drowned_preferred_weapons": "Von Ertrunkenen bevorzugte Waffen",
+    "command_translation.tag.item.minecraft.duplicates_allays": "Items, die Allays duplizieren",
+    "command_translation.tag.item.minecraft.dyes": "Farbstoffe",
+    "command_translation.tag.item.minecraft.eggs": "Eier",
+    "command_translation.tag.item.minecraft.enchantable.lunge": "Verzauberbare Speere (Stoß)",
+    "command_translation.tag.item.minecraft.enchantable.melee_weapon": "Verzauberbare Nahkampfwaffen",
+    "command_translation.tag.item.minecraft.enchantable.sweeping": "Mit Schwung verzauberbare Waffen",
+    "command_translation.tag.item.minecraft.furnace_minecart_fuel": "Brennstoff für Ofenloren",
+    "command_translation.tag.item.minecraft.gaze_disguise_equipment": "Getragene Items, die Endermen nicht verärgern",
+    "command_translation.tag.item.minecraft.gold_tool_materials": "Items zum Reparieren von Goldwerkzeugen",
+    "command_translation.tag.item.minecraft.grass_blocks": "Grasblöcke",
+    "command_translation.tag.item.minecraft.happy_ghast_food": "Items für fröhliche Ghasts",
+    "command_translation.tag.item.minecraft.happy_ghast_tempt_items": "Items für erwachsene fröhliche Ghasts",
+    "command_translation.tag.item.minecraft.harnesses": "Geschirre für fröhliche Ghasts",
+    "command_translation.tag.item.minecraft.iron_tool_materials": "Items zum Reparieren von Eisenwerkzeugen",
+    "command_translation.tag.item.minecraft.lanterns": "Laternen",
+    "command_translation.tag.item.minecraft.lightning_rods": "Blitzableiter",
+    "command_translation.tag.item.minecraft.loom_dyes": "Farbstoffe für Webstühle",
+    "command_translation.tag.item.minecraft.loom_patterns": "Bannermuster für Webstühle",
+    "command_translation.tag.item.minecraft.map_invisibility_equipment": "Getragene Items, die Kartenmarker verbergen",
+    "command_translation.tag.item.minecraft.metal_nuggets": "Metallklumpen",
+    "command_translation.tag.item.minecraft.moss_blocks": "Moosblöcke",
+    "command_translation.tag.item.minecraft.mud": "Schlammblöcke",
+    "command_translation.tag.item.minecraft.nautilus_bucket_food": "Eimer-Nahrung, die Wassereimer hinterlässt",
+    "command_translation.tag.item.minecraft.nautilus_food": "Items für Nautilusse",
+    "command_translation.tag.item.minecraft.nautilus_taming_items": "Items zum Zähmen von Nautilussen",
+    "command_translation.tag.item.minecraft.netherite_tool_materials": "Items zum Reparieren von Netheritwerkzeugen",
+    "command_translation.tag.item.minecraft.pale_oak_logs": "Blasseichen-Stämme und -Hölzer",
+    "command_translation.tag.item.minecraft.panda_eats_from_ground": "Items, die Pandas vom Boden aufnehmen",
+    "command_translation.tag.item.minecraft.piglin_preferred_weapons": "Von Piglins bevorzugte Waffen",
+    "command_translation.tag.item.minecraft.piglin_safe_armor": "Zählt für neutrale Piglins als Goldrüstung",
+    "command_translation.tag.item.minecraft.pillager_preferred_weapons": "Von Plünderern bevorzugte Waffen",
+    "command_translation.tag.item.minecraft.repairs_chain_armor": "Items zum Reparieren von Kettenrüstung",
+    "command_translation.tag.item.minecraft.repairs_copper_armor": "Items zum Reparieren von Kupferrüstung",
+    "command_translation.tag.item.minecraft.repairs_diamond_armor": "Items zum Reparieren von Diamantrüstung",
+    "command_translation.tag.item.minecraft.repairs_gold_armor": "Items zum Reparieren von Goldrüstung",
+    "command_translation.tag.item.minecraft.repairs_iron_armor": "Items zum Reparieren von Eisenrüstung",
+    "command_translation.tag.item.minecraft.repairs_leather_armor": "Items zum Reparieren von Lederrüstung",
+    "command_translation.tag.item.minecraft.repairs_netherite_armor": "Items zum Reparieren von Netheritrüstung",
+    "command_translation.tag.item.minecraft.repairs_turtle_helmet": "Items zum Reparieren von Schildkrötenpanzern",
+    "command_translation.tag.item.minecraft.repairs_wolf_armor": "Items zum Reparieren von Wolfsrüstung",
+    "command_translation.tag.item.minecraft.shearable_from_copper_golem": "Durch Scheren eines Kupfergolems erhalten",
+    "command_translation.tag.item.minecraft.shulker_boxes": "Shulkerboxen, färbbar",
+    "command_translation.tag.item.minecraft.skeleton_preferred_weapons": "Von Skeletten bevorzugte Waffen",
+    "command_translation.tag.item.minecraft.spears": "Speere",
+    "command_translation.tag.item.minecraft.villager_picks_up": "Von Dorfbewohnern aufgenommene Items",
+    "command_translation.tag.item.minecraft.wither_skeleton_disliked_weapons": "Von Witherskeletten gemiedene Waffen",
+    "command_translation.tag.item.minecraft.wolf_collar_dyes": "Farbstoffe für Wolfshalsbänder",
+    "command_translation.tag.item.minecraft.wooden_shelves": "Holzregale",
+    "command_translation.tag.item.minecraft.wooden_tool_materials": "Bretter zum Reparieren von Holzwerkzeugen",
+    "command_translation.tag.item.minecraft.zombie_horse_food": "Items für Zombiepferde",
+    "command_translation.tag.item.minecraft.concrete": "Betonblöcke",
+    "command_translation.tag.item.minecraft.concrete_powders": "Betonpulver",
+    "command_translation.tag.item.minecraft.glazed_terracotta": "Glasierte Terrakotta",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.bouncy": "Macht einen Schwefelwürfel elastisch",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.explosive": "Macht einen Schwefelwürfel entzündbar und explosiv",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.fast_flat": "Macht einen Schwefelwürfel schnell und wenig springend",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.fast_sliding": "Lässt einen Schwefelwürfel schnell und kaum springend gleiten",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.high_resistance": "Macht einen Schwefelwürfel langsam mit hoher Bodenreibung",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.hot": "Lässt einen Schwefelwürfel bei Berührung Schaden verursachen",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.light": "Macht einen Schwefelwürfel leicht und elastisch",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.regular": "Gibt einem Schwefelwürfel mittlere Bewegung und Sprungkraft",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.slow_bouncy": "Macht einen Schwefelwürfel langsam und elastisch",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.slow_flat": "Macht einen Schwefelwürfel langsam und wenig springend",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.slow_sliding": "Lässt einen Schwefelwürfel langsam und kaum springend gleiten",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.sticky": "Macht einen Schwefelwürfel klebrig mit hoher Bodenreibung",
+    "command_translation.tag.item.minecraft.sulfur_cube_food": "Items für Schwefelwürfel",
+    "command_translation.tag.item.minecraft.sulfur_cube_swallowable": "Von Schwefelwürfeln verschluckbare Items"
+  },
+  "ja_jp": {
+    "command_translation.tag.item.minecraft.acacia_logs": "アカシアの原木と木材",
+    "command_translation.tag.item.minecraft.anvil": "金床ブロック",
+    "command_translation.tag.item.minecraft.arrows": "弓とクロスボウで放てるアイテム",
+    "command_translation.tag.item.minecraft.axes": "斧",
+    "command_translation.tag.item.minecraft.axolotl_tempt_items": "ウーパールーパーを誘引するアイテム",
+    "command_translation.tag.item.minecraft.bamboo_blocks": "竹ブロック",
+    "command_translation.tag.item.minecraft.banners": "旗",
+    "command_translation.tag.item.minecraft.beacon_payment_items": "ビーコンの効果選択で支払えるアイテム",
+    "command_translation.tag.item.minecraft.beds": "ベッド",
+    "command_translation.tag.item.minecraft.birch_logs": "シラカバの原木と木材",
+    "command_translation.tag.item.minecraft.boats": "ボート",
+    "command_translation.tag.item.minecraft.bookshelf_books": "模様入り本棚に置ける本",
+    "command_translation.tag.item.minecraft.breaks_decorated_pots": "飾り壺を壊すアイテム",
+    "command_translation.tag.item.minecraft.buttons": "ボタン",
+    "command_translation.tag.item.minecraft.candles": "ケーキに立てられるろうそく",
+    "command_translation.tag.item.minecraft.cherry_logs": "サクラの原木と木材",
+    "command_translation.tag.item.minecraft.chest_boats": "チェスト付きのボート",
+    "command_translation.tag.item.minecraft.cluster_max_harvestables": "アメジストの塊から欠片を4個得るアイテム",
+    "command_translation.tag.item.minecraft.coal_ores": "石炭鉱石",
+    "command_translation.tag.item.minecraft.coals": "石炭と木炭",
+    "command_translation.tag.item.minecraft.compasses": "コンパス",
+    "command_translation.tag.item.minecraft.completes_find_tree_tutorial": "木を探すチュートリアルを進めるアイテム",
+    "command_translation.tag.item.minecraft.copper_ores": "銅鉱石",
+    "command_translation.tag.item.minecraft.creeper_drop_music_discs": "スケルトンに倒されたクリーパーが落とすレコード",
+    "command_translation.tag.item.minecraft.creeper_igniters": "クリーパーに火をつけられるアイテム",
+    "command_translation.tag.item.minecraft.crimson_stems": "真紅の幹と菌糸",
+    "command_translation.tag.item.minecraft.dampens_vibrations": "投げても振動を起こさないアイテム",
+    "command_translation.tag.item.minecraft.dark_oak_logs": "ダークオークの原木と木材",
+    "command_translation.tag.item.minecraft.decorated_pot_ingredients": "飾り壺の材料になるアイテム",
+    "command_translation.tag.item.minecraft.decorated_pot_sherds": "陶器の破片",
+    "command_translation.tag.item.minecraft.diamond_ores": "ダイヤモンド鉱石",
+    "command_translation.tag.item.minecraft.dirt": "土ブロック",
+    "command_translation.tag.item.minecraft.doors": "ドア",
+    "command_translation.tag.item.minecraft.emerald_ores": "エメラルド鉱石",
+    "command_translation.tag.item.minecraft.fence_gates": "フェンスゲート",
+    "command_translation.tag.item.minecraft.fences": "フェンス",
+    "command_translation.tag.item.minecraft.fishes": "イルカと釣りに使う魚アイテム",
+    "command_translation.tag.item.minecraft.flowers": "花",
+    "command_translation.tag.item.minecraft.fox_food": "キツネを餌付け・誘引するアイテム",
+    "command_translation.tag.item.minecraft.freeze_immune_wearables": "着用すると凍結を防ぐ装備",
+    "command_translation.tag.item.minecraft.gold_ores": "金鉱石",
+    "command_translation.tag.item.minecraft.hanging_signs": "吊り看板",
+    "command_translation.tag.item.minecraft.hoes": "クワ",
+    "command_translation.tag.item.minecraft.ignored_by_piglin_babies": "ピグリンの子供が無視するアイテム",
+    "command_translation.tag.item.minecraft.iron_ores": "鉄鉱石",
+    "command_translation.tag.item.minecraft.jungle_logs": "ジャングルの原木と木材",
+    "command_translation.tag.item.minecraft.lapis_ores": "ラピスラズリ鉱石",
+    "command_translation.tag.item.minecraft.leaves": "葉ブロック",
+    "command_translation.tag.item.minecraft.lectern_books": "書見台に置ける本",
+    "command_translation.tag.item.minecraft.logs": "原木と幹",
+    "command_translation.tag.item.minecraft.logs_that_burn": "燃料になる原木と幹",
+    "command_translation.tag.item.minecraft.mangrove_logs": "マングローブの原木と木材",
+    "command_translation.tag.item.minecraft.music_discs": "レコード",
+    "command_translation.tag.item.minecraft.non_flammable_wood": "不燃性の木材",
+    "command_translation.tag.item.minecraft.noteblock_top_instruments": "音符を鳴らさず音符ブロックの上に設置できる",
+    "command_translation.tag.item.minecraft.oak_logs": "オークの原木と木材",
+    "command_translation.tag.item.minecraft.pickaxes": "ツルハシ",
+    "command_translation.tag.item.minecraft.piglin_food": "ピグリンが食べて拾うアイテム",
+    "command_translation.tag.item.minecraft.piglin_loved": "ピグリンが好むアイテム（金など）",
+    "command_translation.tag.item.minecraft.piglin_repellents": "ピグリンが拾わないアイテム",
+    "command_translation.tag.item.minecraft.planks": "板材",
+    "command_translation.tag.item.minecraft.rails": "レール",
+    "command_translation.tag.item.minecraft.redstone_ores": "レッドストーン鉱石",
+    "command_translation.tag.item.minecraft.sand": "砂ブロック",
+    "command_translation.tag.item.minecraft.saplings": "苗木",
+    "command_translation.tag.item.minecraft.shovels": "シャベル",
+    "command_translation.tag.item.minecraft.signs": "看板",
+    "command_translation.tag.item.minecraft.slabs": "ハーフブロック",
+    "command_translation.tag.item.minecraft.small_flowers": "小さな花",
+    "command_translation.tag.item.minecraft.smelts_to_glass": "ガラスに精錬できるアイテム",
+    "command_translation.tag.item.minecraft.sniffer_food": "スニッファーを餌付け・誘引するアイテム",
+    "command_translation.tag.item.minecraft.soul_fire_base_blocks": "ソウルファイアを支えるブロック",
+    "command_translation.tag.item.minecraft.spruce_logs": "トウヒの原木と木材",
+    "command_translation.tag.item.minecraft.stairs": "階段",
+    "command_translation.tag.item.minecraft.stone_bricks": "石レンガ",
+    "command_translation.tag.item.minecraft.stone_buttons": "石のボタン",
+    "command_translation.tag.item.minecraft.stone_crafting_materials": "かまどと醸造台の材料になる石",
+    "command_translation.tag.item.minecraft.stone_tool_materials": "石の道具の材料と修理に使う石",
+    "command_translation.tag.item.minecraft.swords": "剣",
+    "command_translation.tag.item.minecraft.tall_flowers": "背の高い花",
+    "command_translation.tag.item.minecraft.terracotta": "テラコッタ",
+    "command_translation.tag.item.minecraft.tools": "道具",
+    "command_translation.tag.item.minecraft.trapdoors": "トラップドア",
+    "command_translation.tag.item.minecraft.trim_materials": "装飾（アーマートリム）の材料",
+    "command_translation.tag.item.minecraft.trim_templates": "装飾の鍛冶型",
+    "command_translation.tag.item.minecraft.trimmable_armor": "装飾を付けられる防具",
+    "command_translation.tag.item.minecraft.villager_plantable_seeds": "村人が植える種",
+    "command_translation.tag.item.minecraft.walls": "塀",
+    "command_translation.tag.item.minecraft.warped_stems": "歪んだ幹と菌糸",
+    "command_translation.tag.item.minecraft.wart_blocks": "ウォートブロック",
+    "command_translation.tag.item.minecraft.wooden_buttons": "木のボタン",
+    "command_translation.tag.item.minecraft.wooden_doors": "木のドア",
+    "command_translation.tag.item.minecraft.wooden_fences": "木のフェンス",
+    "command_translation.tag.item.minecraft.wooden_pressure_plates": "木の感圧板",
+    "command_translation.tag.item.minecraft.wooden_slabs": "木のハーフブロック、燃料にもなる",
+    "command_translation.tag.item.minecraft.wooden_stairs": "木の階段",
+    "command_translation.tag.item.minecraft.wooden_trapdoors": "木のトラップドア",
+    "command_translation.tag.item.minecraft.wool": "羊毛ブロック",
+    "command_translation.tag.item.minecraft.wool_carpets": "カーペット",
+    "command_translation.tag.item.minecraft.armadillo_food": "アルマジロを誘引・給餌するアイテム",
+    "command_translation.tag.item.minecraft.axolotl_food": "ウーパールーパーを餌付け・誘引するアイテム",
+    "command_translation.tag.item.minecraft.bee_food": "ミツバチを誘引・給餌するアイテム",
+    "command_translation.tag.item.minecraft.camel_food": "ラクダを誘引・給餌するアイテム",
+    "command_translation.tag.item.minecraft.cat_food": "ネコを餌付け・手なずける魚",
+    "command_translation.tag.item.minecraft.chest_armor": "チェストプレート系防具",
+    "command_translation.tag.item.minecraft.chicken_food": "ニワトリを誘引・給餌する種",
+    "command_translation.tag.item.minecraft.cow_food": "ウシとムーシュルームを誘引・給餌するアイテム",
+    "command_translation.tag.item.minecraft.dyeable": "染料で染色できるアイテム",
+    "command_translation.tag.item.minecraft.enchantable.armor": "防具用エンチャントを付与できる防具",
+    "command_translation.tag.item.minecraft.enchantable.bow": "弓用エンチャントを付与できる弓",
+    "command_translation.tag.item.minecraft.enchantable.chest_armor": "チェストプレート用エンチャントの対象",
+    "command_translation.tag.item.minecraft.enchantable.crossbow": "クロスボウ用エンチャントの対象",
+    "command_translation.tag.item.minecraft.enchantable.durability": "耐久系エンチャントの対象アイテム",
+    "command_translation.tag.item.minecraft.enchantable.equippable": "束縛の呪いの対象となる装備品",
+    "command_translation.tag.item.minecraft.enchantable.fire_aspect": "火属性付与の対象武器",
+    "command_translation.tag.item.minecraft.enchantable.fishing": "釣り用エンチャントの対象アイテム",
+    "command_translation.tag.item.minecraft.enchantable.foot_armor": "ブーツ用エンチャントの対象",
+    "command_translation.tag.item.minecraft.enchantable.head_armor": "ヘルメット用エンチャントの対象",
+    "command_translation.tag.item.minecraft.enchantable.leg_armor": "レギンス用エンチャントの対象",
+    "command_translation.tag.item.minecraft.enchantable.mace": "メイス用エンチャントの対象",
+    "command_translation.tag.item.minecraft.enchantable.mining": "採掘系エンチャントの対象",
+    "command_translation.tag.item.minecraft.enchantable.mining_loot": "採掘ドロップ系エンチャントの対象",
+    "command_translation.tag.item.minecraft.enchantable.sharp_weapon": "鋭さ系エンチャントの対象武器",
+    "command_translation.tag.item.minecraft.enchantable.sword": "なぎ払いの対象となる剣",
+    "command_translation.tag.item.minecraft.enchantable.trident": "トライデント用エンチャントの対象",
+    "command_translation.tag.item.minecraft.enchantable.vanishing": "消滅の呪いの対象アイテム",
+    "command_translation.tag.item.minecraft.enchantable.weapon": "武器用エンチャントの対象",
+    "command_translation.tag.item.minecraft.foot_armor": "ブーツ系防具",
+    "command_translation.tag.item.minecraft.frog_food": "カエルとオタマジャクシを餌付け・誘引するアイテム",
+    "command_translation.tag.item.minecraft.goat_food": "ヤギを餌付け・誘引するアイテム",
+    "command_translation.tag.item.minecraft.head_armor": "ヘルメット系防具",
+    "command_translation.tag.item.minecraft.hoglin_food": "ホグリンに給餌するアイテム",
+    "command_translation.tag.item.minecraft.horse_food": "ウマ・ロバ・ラバに使うアイテム",
+    "command_translation.tag.item.minecraft.horse_tempt_items": "ウマを誘引するアイテム",
+    "command_translation.tag.item.minecraft.leg_armor": "レギンス系防具",
+    "command_translation.tag.item.minecraft.llama_food": "ラマと商人のラマに給餌するアイテム",
+    "command_translation.tag.item.minecraft.llama_tempt_items": "ラマを誘引するアイテム",
+    "command_translation.tag.item.minecraft.meat": "肉",
+    "command_translation.tag.item.minecraft.ocelot_food": "オセロットの信頼を得る魚",
+    "command_translation.tag.item.minecraft.panda_food": "パンダを誘引・給餌するアイテム",
+    "command_translation.tag.item.minecraft.parrot_food": "オウムを餌付け・手なずける種",
+    "command_translation.tag.item.minecraft.parrot_poisonous_food": "オウムに与えると毒になるアイテム",
+    "command_translation.tag.item.minecraft.pig_food": "ブタを誘引・給餌するアイテム",
+    "command_translation.tag.item.minecraft.rabbit_food": "ウサギを誘引・給餌するアイテム",
+    "command_translation.tag.item.minecraft.sheep_food": "ヒツジを誘引・給餌するアイテム",
+    "command_translation.tag.item.minecraft.skulls": "頭部と頭蓋骨のアイテム",
+    "command_translation.tag.item.minecraft.strider_food": "ストライダーを餌付け・誘引するアイテム",
+    "command_translation.tag.item.minecraft.strider_tempt_items": "ストライダーを誘引するアイテム",
+    "command_translation.tag.item.minecraft.turtle_food": "カメを誘引・給餌するアイテム",
+    "command_translation.tag.item.minecraft.wolf_food": "手なずけたオオカミに給餌するアイテム",
+    "command_translation.tag.item.minecraft.bars": "金属の柵ブロック",
+    "command_translation.tag.item.minecraft.book_cloning_target": "本の複製レシピに使える本",
+    "command_translation.tag.item.minecraft.brewing_fuel": "醸造台の燃料になるアイテム",
+    "command_translation.tag.item.minecraft.bundles": "バンドル、染色可能",
+    "command_translation.tag.item.minecraft.camel_husk_food": "ラクダハスクを誘引・給餌するアイテム",
+    "command_translation.tag.item.minecraft.cat_collar_dyes": "ネコの首輪を染める染料",
+    "command_translation.tag.item.minecraft.cauldron_can_remove_dye": "大釜で染色を落とせるアイテム",
+    "command_translation.tag.item.minecraft.chains": "鎖ブロック",
+    "command_translation.tag.item.minecraft.copper": "銅ブロック類",
+    "command_translation.tag.item.minecraft.copper_chests": "銅のチェスト",
+    "command_translation.tag.item.minecraft.copper_golem_statues": "銅のゴーレム像",
+    "command_translation.tag.item.minecraft.copper_tool_materials": "金床で銅の道具を修理する素材",
+    "command_translation.tag.item.minecraft.diamond_tool_materials": "金床でダイヤの道具を修理する素材",
+    "command_translation.tag.item.minecraft.drowned_preferred_weapons": "ドラウンドが好む武器",
+    "command_translation.tag.item.minecraft.duplicates_allays": "アレイを複製するアイテム",
+    "command_translation.tag.item.minecraft.dyes": "染料",
+    "command_translation.tag.item.minecraft.eggs": "卵アイテム",
+    "command_translation.tag.item.minecraft.enchantable.lunge": "突進系エンチャントの対象の槍",
+    "command_translation.tag.item.minecraft.enchantable.melee_weapon": "近接武器用エンチャントの対象",
+    "command_translation.tag.item.minecraft.enchantable.sweeping": "なぎ払いの対象武器",
+    "command_translation.tag.item.minecraft.furnace_minecart_fuel": "かまど付きトロッコの燃料",
+    "command_translation.tag.item.minecraft.gaze_disguise_equipment": "エンダーマンを怒らせない装備",
+    "command_translation.tag.item.minecraft.gold_tool_materials": "金床で金の道具を修理する素材",
+    "command_translation.tag.item.minecraft.grass_blocks": "草ブロック類",
+    "command_translation.tag.item.minecraft.happy_ghast_food": "ハッピーガストを誘引・給餌するアイテム",
+    "command_translation.tag.item.minecraft.happy_ghast_tempt_items": "大人のハッピーガストを誘引するアイテム",
+    "command_translation.tag.item.minecraft.harnesses": "ハッピーガスト用のハーネス",
+    "command_translation.tag.item.minecraft.iron_tool_materials": "金床で鉄の道具を修理する素材",
+    "command_translation.tag.item.minecraft.lanterns": "ランタン",
+    "command_translation.tag.item.minecraft.lightning_rods": "避雷針",
+    "command_translation.tag.item.minecraft.loom_dyes": "機織り機で使える染料",
+    "command_translation.tag.item.minecraft.loom_patterns": "機織り機で使える旗の模様",
+    "command_translation.tag.item.minecraft.map_invisibility_equipment": "地図上のプレイヤーマーカーを隠す装備",
+    "command_translation.tag.item.minecraft.metal_nuggets": "金属の塊（ナゲット）",
+    "command_translation.tag.item.minecraft.moss_blocks": "苔ブロック",
+    "command_translation.tag.item.minecraft.mud": "泥ブロック",
+    "command_translation.tag.item.minecraft.nautilus_bucket_food": "給餌後に水入りバケツを残すバケツ入り餌",
+    "command_translation.tag.item.minecraft.nautilus_food": "ノーチラスを誘引・給餌するアイテム",
+    "command_translation.tag.item.minecraft.nautilus_taming_items": "ノーチラスを手なずけるアイテム",
+    "command_translation.tag.item.minecraft.netherite_tool_materials": "金床でネザライトの道具を修理する素材",
+    "command_translation.tag.item.minecraft.pale_oak_logs": "ペイルオークの原木と木材",
+    "command_translation.tag.item.minecraft.panda_eats_from_ground": "パンダが地面から拾うアイテム",
+    "command_translation.tag.item.minecraft.piglin_preferred_weapons": "ピグリンが好む武器",
+    "command_translation.tag.item.minecraft.piglin_safe_armor": "金の防具としてピグリンの敵対を防ぐ装備",
+    "command_translation.tag.item.minecraft.pillager_preferred_weapons": "ピリジャーが好む武器",
+    "command_translation.tag.item.minecraft.repairs_chain_armor": "金床でチェイン防具を修理する素材",
+    "command_translation.tag.item.minecraft.repairs_copper_armor": "金床で銅の防具を修理する素材",
+    "command_translation.tag.item.minecraft.repairs_diamond_armor": "金床でダイヤの防具を修理する素材",
+    "command_translation.tag.item.minecraft.repairs_gold_armor": "金床で金の防具を修理する素材",
+    "command_translation.tag.item.minecraft.repairs_iron_armor": "金床で鉄の防具を修理する素材",
+    "command_translation.tag.item.minecraft.repairs_leather_armor": "金床で革の防具を修理する素材",
+    "command_translation.tag.item.minecraft.repairs_netherite_armor": "金床でネザライトの防具を修理する素材",
+    "command_translation.tag.item.minecraft.repairs_turtle_helmet": "金床でカメの甲羅を修理する素材",
+    "command_translation.tag.item.minecraft.repairs_wolf_armor": "金床やオオカミで狼の鎧を修理する素材",
+    "command_translation.tag.item.minecraft.shearable_from_copper_golem": "銅のゴーレムを刈って得られるアイテム",
+    "command_translation.tag.item.minecraft.shulker_boxes": "シュルカーボックス、染色可能",
+    "command_translation.tag.item.minecraft.skeleton_preferred_weapons": "スケルトンが好む武器",
+    "command_translation.tag.item.minecraft.spears": "槍",
+    "command_translation.tag.item.minecraft.villager_picks_up": "村人が拾うアイテム",
+    "command_translation.tag.item.minecraft.wither_skeleton_disliked_weapons": "ウィザースケルトンが避ける武器",
+    "command_translation.tag.item.minecraft.wolf_collar_dyes": "オオカミの首輪を染める染料",
+    "command_translation.tag.item.minecraft.wooden_shelves": "木の棚ブロック",
+    "command_translation.tag.item.minecraft.wooden_tool_materials": "木の道具と盾を修理する板材",
+    "command_translation.tag.item.minecraft.zombie_horse_food": "ゾンビホースを餌付け・誘引するアイテム",
+    "command_translation.tag.item.minecraft.concrete": "コンクリートブロック",
+    "command_translation.tag.item.minecraft.concrete_powders": "コンクリートパウダー",
+    "command_translation.tag.item.minecraft.glazed_terracotta": "彩釉テラコッタ",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.bouncy": "硫黄キューブをよく弾ませる",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.explosive": "硫黄キューブを着火・爆発できるようにする",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.fast_flat": "硫黄キューブを速く動き、低く弾むようにする",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.fast_sliding": "硫黄キューブを速く滑り、弾みにくくする",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.high_resistance": "硫黄キューブを遅く、地面の摩擦が大きくする",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.hot": "硫黄キューブが接触時にダメージを与えるようにする",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.light": "硫黄キューブを軽く弾みやすくする",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.regular": "硫黄キューブの速度と弾みを標準的にする",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.slow_bouncy": "硫黄キューブを遅く弾みやすくする",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.slow_flat": "硫黄キューブを遅く、低く弾むようにする",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.slow_sliding": "硫黄キューブを遅く滑り、弾みにくくする",
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.sticky": "硫黄キューブを粘着性にし、地面の摩擦を大きくする",
+    "command_translation.tag.item.minecraft.sulfur_cube_food": "硫黄キューブを誘引・給餌するアイテム",
+    "command_translation.tag.item.minecraft.sulfur_cube_swallowable": "硫黄キューブが飲み込めるアイテム"
+  },
+  "sources": {
+    "command_translation.tag.item.minecraft.acacia_logs": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.anvil": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.arrows": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.axes": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.axolotl_tempt_items": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.bamboo_blocks": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.banners": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.beacon_payment_items": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.beds": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.birch_logs": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.boats": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.bookshelf_books": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.breaks_decorated_pots": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.buttons": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.candles": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.cherry_logs": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.chest_boats": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.cluster_max_harvestables": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.coal_ores": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.coals": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.compasses": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.completes_find_tree_tutorial": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.copper_ores": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.creeper_drop_music_discs": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.creeper_igniters": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.crimson_stems": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.dampens_vibrations": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.dark_oak_logs": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.decorated_pot_ingredients": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.decorated_pot_sherds": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.diamond_ores": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.dirt": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.doors": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.emerald_ores": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.fence_gates": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.fences": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.fishes": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.flowers": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.fox_food": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.freeze_immune_wearables": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.gold_ores": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.hanging_signs": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.hoes": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.ignored_by_piglin_babies": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.iron_ores": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.jungle_logs": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.lapis_ores": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.leaves": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.lectern_books": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.logs": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.logs_that_burn": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.mangrove_logs": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.music_discs": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.non_flammable_wood": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.noteblock_top_instruments": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.oak_logs": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.pickaxes": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.piglin_food": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.piglin_loved": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.piglin_repellents": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.planks": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.rails": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.redstone_ores": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.sand": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.saplings": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.shovels": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.signs": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.slabs": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.small_flowers": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.smelts_to_glass": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.sniffer_food": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.soul_fire_base_blocks": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.spruce_logs": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.stairs": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.stone_bricks": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.stone_buttons": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.stone_crafting_materials": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.stone_tool_materials": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.swords": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.tall_flowers": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.terracotta": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.tools": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.trapdoors": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.trim_materials": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.trim_templates": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.trimmable_armor": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.villager_plantable_seeds": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.walls": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.warped_stems": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.wart_blocks": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.wooden_buttons": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.wooden_doors": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.wooden_fences": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.wooden_pressure_plates": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.wooden_slabs": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.wooden_stairs": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.wooden_trapdoors": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.wool": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.wool_carpets": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.armadillo_food": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.axolotl_food": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.bee_food": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.camel_food": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.cat_food": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.chest_armor": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.chicken_food": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.cow_food": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.dyeable": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.enchantable.armor": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.enchantable.bow": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.enchantable.chest_armor": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.enchantable.crossbow": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.enchantable.durability": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.enchantable.equippable": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.enchantable.fire_aspect": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.enchantable.fishing": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.enchantable.foot_armor": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.enchantable.head_armor": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.enchantable.leg_armor": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.enchantable.mace": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.enchantable.mining": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.enchantable.mining_loot": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.enchantable.sharp_weapon": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.enchantable.sword": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.enchantable.trident": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.enchantable.vanishing": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.enchantable.weapon": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.foot_armor": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.frog_food": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.goat_food": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.head_armor": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.hoglin_food": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.horse_food": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.horse_tempt_items": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.leg_armor": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.llama_food": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.llama_tempt_items": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.meat": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.ocelot_food": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.panda_food": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.parrot_food": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.parrot_poisonous_food": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.pig_food": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.rabbit_food": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.sheep_food": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.skulls": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.strider_food": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.strider_tempt_items": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.turtle_food": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.wolf_food": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.bars": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.book_cloning_target": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.brewing_fuel": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.bundles": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.camel_husk_food": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.cat_collar_dyes": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.cauldron_can_remove_dye": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.chains": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.copper": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.copper_chests": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.copper_golem_statues": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.copper_tool_materials": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.diamond_tool_materials": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.drowned_preferred_weapons": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.duplicates_allays": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.dyes": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.eggs": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.enchantable.lunge": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.enchantable.melee_weapon": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.enchantable.sweeping": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.furnace_minecart_fuel": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.gaze_disguise_equipment": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.gold_tool_materials": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.grass_blocks": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.happy_ghast_food": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.happy_ghast_tempt_items": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.harnesses": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.iron_tool_materials": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.lanterns": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.lightning_rods": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.loom_dyes": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.loom_patterns": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.map_invisibility_equipment": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.metal_nuggets": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.moss_blocks": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.mud": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.nautilus_bucket_food": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.nautilus_food": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.nautilus_taming_items": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.netherite_tool_materials": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.pale_oak_logs": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.panda_eats_from_ground": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.piglin_preferred_weapons": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.piglin_safe_armor": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.pillager_preferred_weapons": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.repairs_chain_armor": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.repairs_copper_armor": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.repairs_diamond_armor": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.repairs_gold_armor": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.repairs_iron_armor": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.repairs_leather_armor": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.repairs_netherite_armor": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.repairs_turtle_helmet": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.repairs_wolf_armor": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.shearable_from_copper_golem": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.shulker_boxes": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.skeleton_preferred_weapons": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.spears": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.villager_picks_up": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.wither_skeleton_disliked_weapons": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.wolf_collar_dyes": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.wooden_shelves": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.wooden_tool_materials": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.zombie_horse_food": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.concrete": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.concrete_powders": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.glazed_terracotta": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.bouncy": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      },
+      {
+        "url": "https://minecraft.wiki/w/Sulfur_Cube",
+        "revision": 3848592
+      }
+    ],
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.explosive": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      },
+      {
+        "url": "https://minecraft.wiki/w/Sulfur_Cube",
+        "revision": 3848592
+      }
+    ],
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.fast_flat": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      },
+      {
+        "url": "https://minecraft.wiki/w/Sulfur_Cube",
+        "revision": 3848592
+      }
+    ],
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.fast_sliding": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      },
+      {
+        "url": "https://minecraft.wiki/w/Sulfur_Cube",
+        "revision": 3848592
+      }
+    ],
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.high_resistance": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      },
+      {
+        "url": "https://minecraft.wiki/w/Sulfur_Cube",
+        "revision": 3848592
+      }
+    ],
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.hot": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      },
+      {
+        "url": "https://minecraft.wiki/w/Sulfur_Cube",
+        "revision": 3848592
+      }
+    ],
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.light": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      },
+      {
+        "url": "https://minecraft.wiki/w/Sulfur_Cube",
+        "revision": 3848592
+      }
+    ],
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.regular": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      },
+      {
+        "url": "https://minecraft.wiki/w/Sulfur_Cube",
+        "revision": 3848592
+      }
+    ],
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.slow_bouncy": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      },
+      {
+        "url": "https://minecraft.wiki/w/Sulfur_Cube",
+        "revision": 3848592
+      }
+    ],
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.slow_flat": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      },
+      {
+        "url": "https://minecraft.wiki/w/Sulfur_Cube",
+        "revision": 3848592
+      }
+    ],
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.slow_sliding": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      },
+      {
+        "url": "https://minecraft.wiki/w/Sulfur_Cube",
+        "revision": 3848592
+      }
+    ],
+    "command_translation.tag.item.minecraft.sulfur_cube_archetype.sticky": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      },
+      {
+        "url": "https://minecraft.wiki/w/Sulfur_Cube",
+        "revision": 3848592
+      }
+    ],
+    "command_translation.tag.item.minecraft.sulfur_cube_food": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ],
+    "command_translation.tag.item.minecraft.sulfur_cube_swallowable": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20tag%20(Java%20Edition)",
+        "revision": 3840085
+      }
+    ]
+  }
+}

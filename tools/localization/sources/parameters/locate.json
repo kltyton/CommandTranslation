@@ -1,0 +1,164 @@
+{
+  "en_us": {
+    "command_translation.help.argument.locate.biome": "Finds the nearest occurrence of a biome and prints its coordinates to the executor's chat.",
+    "command_translation.help.argument.locate.biome.biome": "The biome or #-prefixed biome tag to search for.",
+    "command_translation.help.argument.locate.poi": "Finds the nearest point of interest, such as a villager job-site block, within a 256-block radius.",
+    "command_translation.help.argument.locate.poi.poi": "The point-of-interest type or #-prefixed tag to search for.",
+    "command_translation.help.argument.locate.structure": "Finds the nearest generated structure and prints its coordinates; it is not always the truly closest one.",
+    "command_translation.help.argument.locate.structure.structure": "The structure or #-prefixed structure tag to search for."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.locate.biome": "查找最近的指定生物群系，并把坐标输出到执行者的聊天中。",
+    "command_translation.help.argument.locate.biome.biome": "要查找的生物群系或生物群系标签。",
+    "command_translation.help.argument.locate.poi": "在 256 格半径内查找最近的兴趣点，例如村民的工作站点方块。",
+    "command_translation.help.argument.locate.poi.poi": "要查找的兴趣点类型或标签。",
+    "command_translation.help.argument.locate.structure": "查找最近的已生成结构并输出坐标；它并不总是真正最近的那个。",
+    "command_translation.help.argument.locate.structure.structure": "要查找的结构或结构标签。"
+  },
+  "sources": {
+    "command_translation.help.argument.locate.biome": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Flocate",
+        "revision": 3784532
+      }
+    ],
+    "command_translation.help.argument.locate.biome.biome": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Flocate",
+        "revision": 3784532
+      }
+    ],
+    "command_translation.help.argument.locate.poi": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Flocate",
+        "revision": 3784532
+      }
+    ],
+    "command_translation.help.argument.locate.poi.poi": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Flocate",
+        "revision": 3784532
+      }
+    ],
+    "command_translation.help.argument.locate.structure": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Flocate",
+        "revision": 3784532
+      }
+    ],
+    "command_translation.help.argument.locate.structure.structure": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Flocate",
+        "revision": 3784532
+      }
+    ]
+  },
+  "bindings": {
+    "locate.biome": "command_translation.help.argument.locate.biome",
+    "locate.biome.biome": "command_translation.help.argument.locate.biome.biome",
+    "locate.poi": "command_translation.help.argument.locate.poi",
+    "locate.poi.poi": "command_translation.help.argument.locate.poi.poi",
+    "locate.structure": "command_translation.help.argument.locate.structure",
+    "locate.structure.structure": "command_translation.help.argument.locate.structure.structure"
+  },
+  "de_de": {
+    "command_translation.help.argument.locate.biome": "Findet das nächstgelegene Vorkommen eines Bioms und gibt dessen Koordinaten im Chat des Ausführenden aus.",
+    "command_translation.help.argument.locate.biome.biome": "Das zu suchende Biom oder Biom-Tag (# als Präfix).",
+    "command_translation.help.argument.locate.poi": "Findet den nächstgelegenen Point of Interest, z. B. einen Arbeitsblock eines Dorfbewohners, in einem Radius von 256 Blöcken.",
+    "command_translation.help.argument.locate.poi.poi": "Die zu suchende Point-of-Interest-Art oder das Tag (# als Präfix).",
+    "command_translation.help.argument.locate.structure": "Findet die nächstgelegene generierte Struktur und gibt die Koordinaten aus; es ist nicht immer die wirklich nächste.",
+    "command_translation.help.argument.locate.structure.structure": "Die zu suchende Struktur oder das Struktur-Tag (# als Präfix)."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.locate.biome": "最寄りのバイオームを探し、その座標を実行者のチャットに表示する。",
+    "command_translation.help.argument.locate.biome.biome": "探すバイオームまたはバイオームタグ（# 付き）。",
+    "command_translation.help.argument.locate.poi": "半径 256 ブロック以内で最寄りの関心地点（例：村人の職業ブロック）を探す。",
+    "command_translation.help.argument.locate.poi.poi": "探す関心地点タイプまたはタグ（# 付き）。",
+    "command_translation.help.argument.locate.structure": "最寄りの生成済み構造物を探して座標を表示する。本当に最も近いとは限らない。",
+    "command_translation.help.argument.locate.structure.structure": "探す構造物または構造物タグ（# 付き）。"
+  },
+  "syntax": [
+    {
+      "path": "locate",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "locate.biome",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "locate.biome.biome",
+      "type": "argument",
+      "parser": "minecraft:resource_or_tag",
+      "properties": {
+        "registry": "minecraft:worldgen/biome"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "locate.poi",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "locate.poi.poi",
+      "type": "argument",
+      "parser": "minecraft:resource_or_tag",
+      "properties": {
+        "registry": "minecraft:point_of_interest_type"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "locate.structure",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "locate.structure.structure",
+      "type": "argument",
+      "parser": "minecraft:resource_or_tag_key",
+      "properties": {
+        "registry": "minecraft:worldgen/structure"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

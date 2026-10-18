@@ -1,0 +1,96 @@
+{
+  "en_us": {
+    "command_translation.help.argument.publish.allowCommands": "Whether players who join the LAN world are allowed to use commands; defaults to false.",
+    "command_translation.help.argument.publish.gamemode": "The game mode players who join the LAN world get.",
+    "command_translation.help.argument.publish.port": "The port to host on; if omitted or 0, one is chosen automatically."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.publish.allowCommands": "加入该局域网世界的玩家是否允许使用命令；默认为 false。",
+    "command_translation.help.argument.publish.gamemode": "加入该局域网世界的玩家使用的游戏模式。",
+    "command_translation.help.argument.publish.port": "承载世界的端口；省略或填 0 时自动分配。"
+  },
+  "sources": {
+    "command_translation.help.argument.publish.allowCommands": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fpublish",
+        "revision": 3777390
+      }
+    ],
+    "command_translation.help.argument.publish.gamemode": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fpublish",
+        "revision": 3777390
+      }
+    ],
+    "command_translation.help.argument.publish.port": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fpublish",
+        "revision": 3777390
+      }
+    ]
+  },
+  "bindings": {
+    "publish.allowCommands": "command_translation.help.argument.publish.allowCommands",
+    "publish.allowCommands.gamemode": "command_translation.help.argument.publish.gamemode",
+    "publish.allowCommands.gamemode.port": "command_translation.help.argument.publish.port"
+  },
+  "de_de": {
+    "command_translation.help.argument.publish.allowCommands": "Ob Spieler, die der LAN-Welt beitreten, Befehle nutzen dürfen; Standard false.",
+    "command_translation.help.argument.publish.gamemode": "Der Spielmodus, den beitretende Spieler erhalten.",
+    "command_translation.help.argument.publish.port": "Der Port zum Hosten; ohne Angabe oder bei 0 wird einer automatisch gewählt."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.publish.allowCommands": "LAN ワールドに参加するプレイヤーがコマンドを使えるか。既定は false。",
+    "command_translation.help.argument.publish.gamemode": "参加するプレイヤーのゲームモード。",
+    "command_translation.help.argument.publish.port": "ホストするポート。省略（または 0）時は自動で選ばれる。"
+  },
+  "syntax": [
+    {
+      "path": "publish",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "publish.allowCommands",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "publish.allowCommands.gamemode",
+      "type": "argument",
+      "parser": "minecraft:gamemode",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "publish.allowCommands.gamemode.port",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "max": 65535,
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

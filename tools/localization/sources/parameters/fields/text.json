@@ -1,0 +1,542 @@
+{
+  "en_us": {
+    "command_translation.help.text.field.type": "Optional content type of the component: text, translatable, score, selector, keybind, nbt or object.",
+    "command_translation.help.text.field.text": "Plain text to display directly.",
+    "command_translation.help.text.field.translate": "Translation identifier shown as text in the player's selected language.",
+    "command_translation.help.text.field.fallback": "Text used when the translate key has no matching translation.",
+    "command_translation.help.text.field.with": "List of text components substituted into the translate text's %s placeholders.",
+    "command_translation.help.text.field.extra": "Additional child components shown after this one, inheriting its style.",
+    "command_translation.help.text.field.color": "Color name or #RRGGBB hex code used to render this text.",
+    "command_translation.help.text.field.font": "Resource location of the font used to render this text.",
+    "command_translation.help.text.field.bold": "Whether the text is rendered in bold.",
+    "command_translation.help.text.field.italic": "Whether the text is rendered in italics.",
+    "command_translation.help.text.field.underlined": "Whether the text is underlined.",
+    "command_translation.help.text.field.strikethrough": "Whether the text is drawn with a strikethrough line.",
+    "command_translation.help.text.field.obfuscated": "Whether the characters are scrambled each frame.",
+    "command_translation.help.text.field.shadow_color": "Color and opacity of the text's drop shadow.",
+    "command_translation.help.text.field.insertion": "Text inserted into the chat input when the component is shift-clicked.",
+    "command_translation.help.text.field.click_event": "Defines what happens when the component is clicked.",
+    "command_translation.help.text.field.click_event.action": "The click action to perform, such as open_url, run_command or copy_to_clipboard.",
+    "command_translation.help.text.field.click_event.url": "URL opened by the open_url click action.",
+    "command_translation.help.text.field.click_event.path": "File path opened by the open_file click action.",
+    "command_translation.help.text.field.click_event.command": "Command run or suggested by the run_command or suggest_command click action.",
+    "command_translation.help.text.field.click_event.page": "Page the change_page click action switches to.",
+    "command_translation.help.text.field.click_event.value": "Text copied to the clipboard by the copy_to_clipboard click action.",
+    "command_translation.help.text.field.click_event.dialog": "Dialog opened by the show_dialog click action.",
+    "command_translation.help.text.field.click_event.id": "Identifier of the custom click action event.",
+    "command_translation.help.text.field.click_event.payload": "Optional payload of the custom click action event.",
+    "command_translation.help.text.field.clickEvent": "The action performed when the component is clicked.",
+    "command_translation.help.text.field.clickEvent.action": "The type of click action, such as open_url or run_command.",
+    "command_translation.help.text.field.clickEvent.value": "The value used by the click action, such as the command or URL.",
+    "command_translation.help.text.field.hover_event": "Defines the tooltip shown when the component is hovered over.",
+    "command_translation.help.text.field.hover_event.action": "The hover action to perform: show_text, show_item or show_entity.",
+    "command_translation.help.text.field.hover_event.value": "Text component shown by the show_text hover action.",
+    "command_translation.help.text.field.hover_event.id": "Identifier used by hover: an item id for show_item or an entity type for show_entity.",
+    "command_translation.help.text.field.hover_event.count": "Stack size shown by the show_item hover action.",
+    "command_translation.help.text.field.hover_event.components": "Data components shown by the show_item hover action.",
+    "command_translation.help.text.field.hover_event.name": "Name text component shown by the show_entity hover action.",
+    "command_translation.help.text.field.hover_event.uuid": "UUID shown by the show_entity hover action.",
+    "command_translation.help.text.field.hover_event.contents": "Value shown by the hover action; its form depends on the action.",
+    "command_translation.help.text.field.hoverEvent": "The tooltip shown when the component is hovered over.",
+    "command_translation.help.text.field.hoverEvent.action": "The type of hover action, such as show_text or show_item.",
+    "command_translation.help.text.field.hoverEvent.contents": "The value shown by the hover action.",
+    "command_translation.help.text.field.selector": "Entity selector whose matching entity names are displayed.",
+    "command_translation.help.text.field.separator": "Component placed between names or values when several are displayed.",
+    "command_translation.help.text.field.keybind": "Keybind identifier displayed as the key currently bound to that action.",
+    "command_translation.help.text.field.score": "Displays a scoreboard value.",
+    "command_translation.help.text.field.score.name": "Score holder whose score is displayed, or \"*\" for the reader's own.",
+    "command_translation.help.text.field.score.objective": "Name of the objective the score is read from.",
+    "command_translation.help.text.field.nbt": "NBT path whose value is displayed from an entity, block entity or storage.",
+    "command_translation.help.text.field.block": "Coordinates of the block entity used as the NBT source.",
+    "command_translation.help.text.field.entity": "Target selector of the entity used as the NBT source.",
+    "command_translation.help.text.field.storage": "Resource location of the command storage used as the NBT source.",
+    "command_translation.help.text.field.source": "Which NBT source to read: block, entity or storage.",
+    "command_translation.help.text.field.interpret": "Whether the resolved NBT value is parsed as a text component instead of SNBT.",
+    "command_translation.help.text.field.plain": "Whether resolved NBT is displayed without SNBT syntax coloring."
+  },
+  "zh_cn": {
+    "command_translation.help.text.field.type": "组件可选的内容类型：text、translatable、score、selector、keybind、nbt 或 object。",
+    "command_translation.help.text.field.text": "直接显示的纯文本。",
+    "command_translation.help.text.field.translate": "翻译标识符，按玩家所选语言显示为对应文本。",
+    "command_translation.help.text.field.fallback": "当 translate 键没有对应翻译时使用的文本。",
+    "command_translation.help.text.field.with": "填入 translate 文本中 %s 占位符的文本组件列表。",
+    "command_translation.help.text.field.extra": "追加在本组件之后、继承其样式的子组件列表。",
+    "command_translation.help.text.field.color": "渲染该文本所用的颜色名称或 #RRGGBB 十六进制代码。",
+    "command_translation.help.text.field.font": "渲染该文本所用字体的资源位置。",
+    "command_translation.help.text.field.bold": "文本是否以粗体渲染。",
+    "command_translation.help.text.field.italic": "文本是否以斜体渲染。",
+    "command_translation.help.text.field.underlined": "文本是否带下划线。",
+    "command_translation.help.text.field.strikethrough": "文本是否带删除线。",
+    "command_translation.help.text.field.obfuscated": "字符是否每帧随机打乱。",
+    "command_translation.help.text.field.shadow_color": "文本阴影的颜色与不透明度。",
+    "command_translation.help.text.field.insertion": "按住 Shift 点击该组件时插入聊天输入框的文本。",
+    "command_translation.help.text.field.click_event": "定义点击该组件时发生的事件。",
+    "command_translation.help.text.field.click_event.action": "点击动作类型，如 open_url、run_command 或 copy_to_clipboard。",
+    "command_translation.help.text.field.click_event.url": "open_url 点击动作打开的网址。",
+    "command_translation.help.text.field.click_event.path": "open_file 点击动作打开的文件路径。",
+    "command_translation.help.text.field.click_event.command": "run_command 或 suggest_command 点击动作运行或建议的命令。",
+    "command_translation.help.text.field.click_event.page": "change_page 点击动作切换到的页码。",
+    "command_translation.help.text.field.click_event.value": "copy_to_clipboard 点击动作复制到剪贴板的文本。",
+    "command_translation.help.text.field.click_event.dialog": "show_dialog 点击动作打开的对话框。",
+    "command_translation.help.text.field.click_event.id": "自定义点击动作事件的标识符。",
+    "command_translation.help.text.field.click_event.payload": "自定义点击动作事件的可选负载。",
+    "command_translation.help.text.field.clickEvent": "点击该组件时执行的动作。",
+    "command_translation.help.text.field.clickEvent.action": "点击动作类型，如 open_url 或 run_command。",
+    "command_translation.help.text.field.clickEvent.value": "点击动作使用的值，如命令或网址。",
+    "command_translation.help.text.field.hover_event": "定义鼠标悬停在该组件上时显示的提示框。",
+    "command_translation.help.text.field.hover_event.action": "悬停动作：show_text、show_item 或 show_entity。",
+    "command_translation.help.text.field.hover_event.value": "show_text 悬停动作显示的文本组件。",
+    "command_translation.help.text.field.hover_event.id": "悬停使用的标识符：show_item 为物品 ID，show_entity 为实体类型。",
+    "command_translation.help.text.field.hover_event.count": "show_item 悬停动作显示的堆叠数量。",
+    "command_translation.help.text.field.hover_event.components": "show_item 悬停动作显示的数据组件。",
+    "command_translation.help.text.field.hover_event.name": "show_entity 悬停动作显示的名称文本组件。",
+    "command_translation.help.text.field.hover_event.uuid": "show_entity 悬停动作显示的 UUID。",
+    "command_translation.help.text.field.hover_event.contents": "悬停动作所显示的值，其形式取决于动作。",
+    "command_translation.help.text.field.hoverEvent": "鼠标悬停在该组件上时显示的提示框。",
+    "command_translation.help.text.field.hoverEvent.action": "悬停动作类型，如 show_text 或 show_item。",
+    "command_translation.help.text.field.hoverEvent.contents": "悬停动作所显示的值。",
+    "command_translation.help.text.field.selector": "实体选择器，显示其匹配到的实体名称。",
+    "command_translation.help.text.field.separator": "显示多个名称或数值时用于分隔的组件。",
+    "command_translation.help.text.field.keybind": "按键绑定标识符，显示该操作当前绑定的按键。",
+    "command_translation.help.text.field.score": "显示一个计分板数值。",
+    "command_translation.help.text.field.score.name": "要显示分数的记分项持有者，\"*\" 表示阅读者本人。",
+    "command_translation.help.text.field.score.objective": "读取分数所用目标的名称。",
+    "command_translation.help.text.field.nbt": "从实体、方块实体或存储中读取并显示的 NBT 路径。",
+    "command_translation.help.text.field.block": "作为 NBT 来源的方块实体的坐标。",
+    "command_translation.help.text.field.entity": "作为 NBT 来源的实体的目标选择器。",
+    "command_translation.help.text.field.storage": "作为 NBT 来源的命令存储的资源位置。",
+    "command_translation.help.text.field.source": "要读取的 NBT 来源：block、entity 或 storage。",
+    "command_translation.help.text.field.interpret": "是否把解析后的 NBT 值当作文本组件而非 SNBT 显示。",
+    "command_translation.help.text.field.plain": "是否以不带 SNBT 语法着色的形式显示解析后的 NBT。"
+  },
+  "de_de": {
+    "command_translation.help.text.field.type": "Optionaler Inhaltstyp der Komponente: text, translatable, score, selector, keybind, nbt oder object.",
+    "command_translation.help.text.field.text": "Direkt anzuzeigender Klartext.",
+    "command_translation.help.text.field.translate": "Übersetzungsschlüssel, angezeigt in der gewählten Sprache des Spielers.",
+    "command_translation.help.text.field.fallback": "Text, der verwendet wird, wenn der translate-Schlüssel keine Übersetzung hat.",
+    "command_translation.help.text.field.with": "Liste von Textkomponenten, die die %s-Platzhalter des translate-Textes füllen.",
+    "command_translation.help.text.field.extra": "Zusätzliche Kindkomponenten nach dieser, die ihren Stil erben.",
+    "command_translation.help.text.field.color": "Farbname oder #RRGGBB-Hexcode, in dem der Text dargestellt wird.",
+    "command_translation.help.text.field.font": "Ressourcenpfad der Schriftart, mit der der Text dargestellt wird.",
+    "command_translation.help.text.field.bold": "Ob der Text fett dargestellt wird.",
+    "command_translation.help.text.field.italic": "Ob der Text kursiv dargestellt wird.",
+    "command_translation.help.text.field.underlined": "Ob der Text unterstrichen wird.",
+    "command_translation.help.text.field.strikethrough": "Ob der Text durchgestrichen wird.",
+    "command_translation.help.text.field.obfuscated": "Ob die Zeichen in jedem Frame zufällig verschleiert werden.",
+    "command_translation.help.text.field.shadow_color": "Farbe und Deckkraft des Textschattens.",
+    "command_translation.help.text.field.insertion": "Text, der beim Umschalt-Klick in die Chat-Eingabe eingefügt wird.",
+    "command_translation.help.text.field.click_event": "Legt fest, was beim Anklicken der Komponente geschieht.",
+    "command_translation.help.text.field.click_event.action": "Die Klickaktion, z. B. open_url, run_command oder copy_to_clipboard.",
+    "command_translation.help.text.field.click_event.url": "Von der open_url-Klickaktion geöffnete URL.",
+    "command_translation.help.text.field.click_event.path": "Von der open_file-Klickaktion geöffneter Dateipfad.",
+    "command_translation.help.text.field.click_event.command": "Von der run_command- oder suggest_command-Klickaktion ausgeführter oder vorgeschlagener Befehl.",
+    "command_translation.help.text.field.click_event.page": "Seite, zu der die change_page-Klickaktion wechselt.",
+    "command_translation.help.text.field.click_event.value": "Von der copy_to_clipboard-Klickaktion in die Zwischenablage kopierter Text.",
+    "command_translation.help.text.field.click_event.dialog": "Von der show_dialog-Klickaktion geöffneter Dialog.",
+    "command_translation.help.text.field.click_event.id": "Kennung des custom-Klickereignisses.",
+    "command_translation.help.text.field.click_event.payload": "Optionale Nutzlast des custom-Klickereignisses.",
+    "command_translation.help.text.field.clickEvent": "Die Aktion, die beim Anklicken der Komponente ausgeführt wird.",
+    "command_translation.help.text.field.clickEvent.action": "Der Typ der Klickaktion, z. B. open_url oder run_command.",
+    "command_translation.help.text.field.clickEvent.value": "Der von der Klickaktion verwendete Wert, z. B. der Befehl oder die URL.",
+    "command_translation.help.text.field.hover_event": "Legt den Tooltip fest, der beim Überfahren der Komponente erscheint.",
+    "command_translation.help.text.field.hover_event.action": "Die Hover-Aktion: show_text, show_item oder show_entity.",
+    "command_translation.help.text.field.hover_event.value": "Von der show_text-Hover-Aktion angezeigte Textkomponente.",
+    "command_translation.help.text.field.hover_event.id": "Von der Hover-Aktion genutzte Kennung: Gegenstands-ID bei show_item, Entity-Typ bei show_entity.",
+    "command_translation.help.text.field.hover_event.count": "Von der show_item-Hover-Aktion angezeigte Stapelgröße.",
+    "command_translation.help.text.field.hover_event.components": "Von der show_item-Hover-Aktion angezeigte Datenkomponenten.",
+    "command_translation.help.text.field.hover_event.name": "Von der show_entity-Hover-Aktion angezeigte Namens-Textkomponente.",
+    "command_translation.help.text.field.hover_event.uuid": "Von der show_entity-Hover-Aktion angezeigte UUID.",
+    "command_translation.help.text.field.hover_event.contents": "Der von der Hover-Aktion angezeigte Wert; seine Form hängt von der Aktion ab.",
+    "command_translation.help.text.field.hoverEvent": "Der Tooltip, der beim Überfahren der Komponente erscheint.",
+    "command_translation.help.text.field.hoverEvent.action": "Der Typ der Hover-Aktion, z. B. show_text oder show_item.",
+    "command_translation.help.text.field.hoverEvent.contents": "Der von der Hover-Aktion angezeigte Wert.",
+    "command_translation.help.text.field.selector": "Zielselektor, dessen gefundene Entity-Namen angezeigt werden.",
+    "command_translation.help.text.field.separator": "Komponente zwischen mehreren angezeigten Namen oder Werten.",
+    "command_translation.help.text.field.keybind": "Tastenbelegungs-Kennung, angezeigt als die aktuell zugewiesene Taste.",
+    "command_translation.help.text.field.score": "Zeigt einen Scoreboard-Wert an.",
+    "command_translation.help.text.field.score.name": "Punktestand-Inhaber, dessen Punktzahl angezeigt wird, oder \"*\" für den Leser selbst.",
+    "command_translation.help.text.field.score.objective": "Name des Ziels, aus dem die Punktzahl gelesen wird.",
+    "command_translation.help.text.field.nbt": "NBT-Pfad, dessen Wert aus Entity, Blockentity oder Storage angezeigt wird.",
+    "command_translation.help.text.field.block": "Koordinaten der Blockentity, die als NBT-Quelle dient.",
+    "command_translation.help.text.field.entity": "Zielselektor der Entity, die als NBT-Quelle dient.",
+    "command_translation.help.text.field.storage": "Ressourcenpfad des Befehlsspeichers, der als NBT-Quelle dient.",
+    "command_translation.help.text.field.source": "Welche NBT-Quelle gelesen wird: block, entity oder storage.",
+    "command_translation.help.text.field.interpret": "Ob der aufgelöste NBT-Wert als Textkomponente statt als SNBT gedeutet wird.",
+    "command_translation.help.text.field.plain": "Ob aufgelöstes NBT ohne SNBT-Syntaxfärbung angezeigt wird."
+  },
+  "ja_jp": {
+    "command_translation.help.text.field.type": "コンポーネントの任意の内容タイプ: text、translatable、score、selector、keybind、nbt、object。",
+    "command_translation.help.text.field.text": "そのまま表示されるプレーンテキスト。",
+    "command_translation.help.text.field.translate": "プレイヤーが選択した言語で表示される翻訳識別子。",
+    "command_translation.help.text.field.fallback": "translate キーに対応する翻訳がない場合に使うテキスト。",
+    "command_translation.help.text.field.with": "translate テキストの %s スロットに差し込むテキストコンポーネントのリスト。",
+    "command_translation.help.text.field.extra": "この後に続き、スタイルを継承する子コンポーネントのリスト。",
+    "command_translation.help.text.field.color": "このテキストの描画に使う色名または #RRGGBB の16進コード。",
+    "command_translation.help.text.field.font": "このテキストの描画に使うフォントのリソース位置。",
+    "command_translation.help.text.field.bold": "テキストを太字で描画するか。",
+    "command_translation.help.text.field.italic": "テキストを斜体で描画するか。",
+    "command_translation.help.text.field.underlined": "テキストに下線を付けるか。",
+    "command_translation.help.text.field.strikethrough": "テキストに取り消し線を付けるか。",
+    "command_translation.help.text.field.obfuscated": "文字を毎フレーム入れ替えて難読化するか。",
+    "command_translation.help.text.field.shadow_color": "テキストの影の色と不透明度。",
+    "command_translation.help.text.field.insertion": "Shift クリック時にチャット入力欄へ挿入されるテキスト。",
+    "command_translation.help.text.field.click_event": "コンポーネントをクリックしたときの動作を定義する。",
+    "command_translation.help.text.field.click_event.action": "クリック動作の種類（open_url、run_command、copy_to_clipboard など）。",
+    "command_translation.help.text.field.click_event.url": "open_url クリック動作が開く URL。",
+    "command_translation.help.text.field.click_event.path": "open_file クリック動作が開くファイルパス。",
+    "command_translation.help.text.field.click_event.command": "run_command または suggest_command クリック動作が実行・提案するコマンド。",
+    "command_translation.help.text.field.click_event.page": "change_page クリック動作が切り替えるページ。",
+    "command_translation.help.text.field.click_event.value": "copy_to_clipboard クリック動作がクリップボードにコピーするテキスト。",
+    "command_translation.help.text.field.click_event.dialog": "show_dialog クリック動作が開くダイアログ。",
+    "command_translation.help.text.field.click_event.id": "custom クリック動作イベントの識別子。",
+    "command_translation.help.text.field.click_event.payload": "custom クリック動作イベントの任意のペイロード。",
+    "command_translation.help.text.field.clickEvent": "コンポーネントをクリックしたときに実行される動作。",
+    "command_translation.help.text.field.clickEvent.action": "クリック動作の種類（open_url、run_command など）。",
+    "command_translation.help.text.field.clickEvent.value": "クリック動作が使う値（コマンドや URL など）。",
+    "command_translation.help.text.field.hover_event": "コンポーネントにカーソルを合わせたときのツールチップを定義する。",
+    "command_translation.help.text.field.hover_event.action": "ホバー動作: show_text、show_item、show_entity。",
+    "command_translation.help.text.field.hover_event.value": "show_text ホバー動作が表示するテキストコンポーネント。",
+    "command_translation.help.text.field.hover_event.id": "ホバー動作が使う識別子。show_item ではアイテム ID、show_entity ではエンティティタイプ。",
+    "command_translation.help.text.field.hover_event.count": "show_item ホバー動作が表示するスタック数。",
+    "command_translation.help.text.field.hover_event.components": "show_item ホバー動作が表示するデータコンポーネント。",
+    "command_translation.help.text.field.hover_event.name": "show_entity ホバー動作が表示する名前のテキストコンポーネント。",
+    "command_translation.help.text.field.hover_event.uuid": "show_entity ホバー動作が表示する UUID。",
+    "command_translation.help.text.field.hover_event.contents": "ホバー動作が表示する値。その形式は動作によって異なる。",
+    "command_translation.help.text.field.hoverEvent": "カーソルを合わせたときに表示されるツールチップ。",
+    "command_translation.help.text.field.hoverEvent.action": "ホバー動作の種類（show_text、show_item など）。",
+    "command_translation.help.text.field.hoverEvent.contents": "ホバー動作が表示する値。",
+    "command_translation.help.text.field.selector": "一致したエンティティ名を表示するエンティティセレクター。",
+    "command_translation.help.text.field.separator": "複数の名前や値を表示するときに挟むコンポーネント。",
+    "command_translation.help.text.field.keybind": "その操作に現在割り当てられたキーを表示するキーバインド識別子。",
+    "command_translation.help.text.field.score": "スコアボードの値を表示する。",
+    "command_translation.help.text.field.score.name": "点数を表示するスコア保持者。\"*\" は閲覧者自身。",
+    "command_translation.help.text.field.score.objective": "点数を読み取る目標の名前。",
+    "command_translation.help.text.field.nbt": "エンティティ、ブロックエンティティ、ストレージから値を表示する NBT パス。",
+    "command_translation.help.text.field.block": "NBT の取得元となるブロックエンティティの座標。",
+    "command_translation.help.text.field.entity": "NBT の取得元となるエンティティのターゲットセレクター。",
+    "command_translation.help.text.field.storage": "NBT の取得元となるコマンドストレージのリソース位置。",
+    "command_translation.help.text.field.source": "読み取る NBT の取得元: block、entity、storage。",
+    "command_translation.help.text.field.interpret": "解決した NBT 値を SNBT ではなくテキストコンポーネントとして解釈するか。",
+    "command_translation.help.text.field.plain": "解決した NBT を SNBT の構文色なしで表示するか。"
+  },
+  "sources": {
+    "command_translation.help.text.field.type": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.text": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.translate": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.fallback": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.with": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.extra": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.color": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.font": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.bold": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.italic": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.underlined": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.strikethrough": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.obfuscated": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.shadow_color": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.insertion": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.click_event": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.click_event.action": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.click_event.url": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.click_event.path": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.click_event.command": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.click_event.page": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.click_event.value": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.click_event.dialog": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.click_event.id": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.click_event.payload": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.clickEvent": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.clickEvent.action": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.clickEvent.value": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.hover_event": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.hover_event.action": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.hover_event.value": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.hover_event.id": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.hover_event.count": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.hover_event.components": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.hover_event.name": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.hover_event.uuid": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.hover_event.contents": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.hoverEvent": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.hoverEvent.action": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.hoverEvent.contents": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.selector": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.separator": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.keybind": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.score": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.score.name": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.score.objective": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.nbt": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.block": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.entity": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.storage": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.source": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.interpret": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.plain": [
+      {
+        "url": "https://minecraft.wiki/w/Text%20component%20format",
+        "revision": 3749600
+      }
+    ]
+  }
+}

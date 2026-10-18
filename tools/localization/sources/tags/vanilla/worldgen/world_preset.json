@@ -1,0 +1,32 @@
+{
+  "en_us": {
+    "command_translation.tag.worldgen.world_preset.minecraft.normal": "World presets available during world creation",
+    "command_translation.tag.worldgen.world_preset.minecraft.extended": "World presets available when holding Alt"
+  },
+  "zh_cn": {
+    "command_translation.tag.worldgen.world_preset.minecraft.normal": "创建世界时可选的世界预设",
+    "command_translation.tag.worldgen.world_preset.minecraft.extended": "按住Alt时可选的世界预设"
+  },
+  "de_de": {
+    "command_translation.tag.worldgen.world_preset.minecraft.normal": "Weltvorlagen bei der Welterstellung",
+    "command_translation.tag.worldgen.world_preset.minecraft.extended": "Weltvorlagen beim Halten von Alt"
+  },
+  "ja_jp": {
+    "command_translation.tag.worldgen.world_preset.minecraft.normal": "ワールド作成時に選べるプリセット",
+    "command_translation.tag.worldgen.world_preset.minecraft.extended": "Altキーで表示されるプリセット"
+  },
+  "sources": {
+    "command_translation.tag.worldgen.world_preset.minecraft.normal": [
+      {
+        "url": "https://minecraft.wiki/w/World%20preset%20tag%20(Java%20Edition)",
+        "revision": 3839233
+      }
+    ],
+    "command_translation.tag.worldgen.world_preset.minecraft.extended": [
+      {
+        "url": "https://minecraft.wiki/w/World%20preset%20tag%20(Java%20Edition)",
+        "revision": 3839233
+      }
+    ]
+  }
+}

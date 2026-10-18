@@ -1,0 +1,30 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:block_state": "Block state properties forced onto the block when it is placed."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:block_state": "放置该方块时强制设置的方块状态属性。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:block_state": "Blockzustands-Eigenschaften, die beim Platzieren erzwungen werden."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:block_state": "設置時にブロックへ強制適用されるブロック状態のプロパティ。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:block_state": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

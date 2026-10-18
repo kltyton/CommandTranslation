@@ -1,0 +1,1425 @@
+{
+  "en_us": {
+    "command_translation.help.argument.clone.begin": "One corner block position of the source region being copied from.",
+    "command_translation.help.argument.clone.end": "The opposite corner block position of the source region.",
+    "command_translation.help.argument.clone.destination": "The lowest x, y and z corner of the destination region; the source region keeps its size and orientation.",
+    "command_translation.help.argument.clone.from": "Reads the source region from a specified dimension instead of the execution dimension.",
+    "command_translation.help.argument.clone.sourceDimension": "The dimension to read the source region from.",
+    "command_translation.help.argument.clone.to": "Writes the copied region into a specified dimension instead of the execution dimension.",
+    "command_translation.help.argument.clone.targetDimension": "The dimension to write the copied region to.",
+    "command_translation.help.argument.clone.filter": "A block predicate selecting which blocks may be copied.",
+    "command_translation.help.argument.clone.filtered": "Copies only the source blocks that match the filter.",
+    "command_translation.help.argument.clone.masked": "Copies only non-air source blocks; air blocks leave the destination untouched.",
+    "command_translation.help.argument.clone.replace": "Copies and replaces the entire destination region (the default).",
+    "command_translation.help.argument.clone.force": "Forces the copy even when the source and destination regions overlap.",
+    "command_translation.help.argument.clone.move": "After copying, replaces the copied source blocks with air.",
+    "command_translation.help.argument.clone.normal": "Neither forces overlap nor moves the source (the default).",
+    "command_translation.help.argument.clone.strict": "Places blocks exactly as specified without triggering neighboring block updates or recalculating block shapes."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.clone.begin": "复制来源区域的一个角的方块坐标。",
+    "command_translation.help.argument.clone.end": "来源区域相对的另一个角坐标。",
+    "command_translation.help.argument.clone.destination": "复制结果区域 x、y、z 最小的角；来源区域的大小和朝向保持不变。",
+    "command_translation.help.argument.clone.from": "改为从指定维度读取来源区域。",
+    "command_translation.help.argument.clone.sourceDimension": "读取来源区域的维度。",
+    "command_translation.help.argument.clone.to": "改为把复制结果写入指定维度。",
+    "command_translation.help.argument.clone.targetDimension": "写入复制结果的维度。",
+    "command_translation.help.argument.clone.filter": "限定哪些方块可被复制。",
+    "command_translation.help.argument.clone.filtered": "只复制来源区域中匹配过滤器的方块。",
+    "command_translation.help.argument.clone.masked": "只复制非空气方块，空气方块不改变目标位置。",
+    "command_translation.help.argument.clone.replace": "复制并替换整个目标区域（默认）。",
+    "command_translation.help.argument.clone.force": "即使来源与目标区域重叠也强制执行复制。",
+    "command_translation.help.argument.clone.move": "复制完成后，把来源中被复制的方块替换为空气。",
+    "command_translation.help.argument.clone.normal": "既不强制重叠也不移动来源（默认）。",
+    "command_translation.help.argument.clone.strict": "按指定状态直接放置方块，不触发邻近方块更新，也不重新计算方块形状。"
+  },
+  "sources": {
+    "command_translation.help.argument.clone.begin": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fclone",
+        "revision": 3826017
+      }
+    ],
+    "command_translation.help.argument.clone.end": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fclone",
+        "revision": 3826017
+      }
+    ],
+    "command_translation.help.argument.clone.destination": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fclone",
+        "revision": 3826017
+      }
+    ],
+    "command_translation.help.argument.clone.from": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fclone",
+        "revision": 3826017
+      }
+    ],
+    "command_translation.help.argument.clone.sourceDimension": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fclone",
+        "revision": 3826017
+      }
+    ],
+    "command_translation.help.argument.clone.to": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fclone",
+        "revision": 3826017
+      }
+    ],
+    "command_translation.help.argument.clone.targetDimension": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fclone",
+        "revision": 3826017
+      }
+    ],
+    "command_translation.help.argument.clone.filter": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fclone",
+        "revision": 3826017
+      }
+    ],
+    "command_translation.help.argument.clone.filtered": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fclone",
+        "revision": 3826017
+      }
+    ],
+    "command_translation.help.argument.clone.masked": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fclone",
+        "revision": 3826017
+      }
+    ],
+    "command_translation.help.argument.clone.replace": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fclone",
+        "revision": 3826017
+      }
+    ],
+    "command_translation.help.argument.clone.force": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fclone",
+        "revision": 3826017
+      }
+    ],
+    "command_translation.help.argument.clone.move": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fclone",
+        "revision": 3826017
+      }
+    ],
+    "command_translation.help.argument.clone.normal": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fclone",
+        "revision": 3826017
+      }
+    ],
+    "command_translation.help.argument.clone.strict": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fclone",
+        "revision": 3826017
+      }
+    ]
+  },
+  "bindings": {
+    "clone.begin": "command_translation.help.argument.clone.begin",
+    "clone.begin.end": "command_translation.help.argument.clone.end",
+    "clone.begin.end.destination": "command_translation.help.argument.clone.destination",
+    "clone.begin.end.destination.filtered": "command_translation.help.argument.clone.filtered",
+    "clone.begin.end.destination.filtered.filter": "command_translation.help.argument.clone.filter",
+    "clone.begin.end.destination.filtered.filter.force": "command_translation.help.argument.clone.force",
+    "clone.begin.end.destination.filtered.filter.move": "command_translation.help.argument.clone.move",
+    "clone.begin.end.destination.filtered.filter.normal": "command_translation.help.argument.clone.normal",
+    "clone.begin.end.destination.masked": "command_translation.help.argument.clone.masked",
+    "clone.begin.end.destination.masked.force": "command_translation.help.argument.clone.force",
+    "clone.begin.end.destination.masked.move": "command_translation.help.argument.clone.move",
+    "clone.begin.end.destination.masked.normal": "command_translation.help.argument.clone.normal",
+    "clone.begin.end.destination.replace": "command_translation.help.argument.clone.replace",
+    "clone.begin.end.destination.replace.force": "command_translation.help.argument.clone.force",
+    "clone.begin.end.destination.replace.move": "command_translation.help.argument.clone.move",
+    "clone.begin.end.destination.replace.normal": "command_translation.help.argument.clone.normal",
+    "clone.begin.end.destination.strict": "command_translation.help.argument.clone.strict",
+    "clone.begin.end.destination.strict.filtered": "command_translation.help.argument.clone.filtered",
+    "clone.begin.end.destination.strict.filtered.filter": "command_translation.help.argument.clone.filter",
+    "clone.begin.end.destination.strict.filtered.filter.force": "command_translation.help.argument.clone.force",
+    "clone.begin.end.destination.strict.filtered.filter.move": "command_translation.help.argument.clone.move",
+    "clone.begin.end.destination.strict.filtered.filter.normal": "command_translation.help.argument.clone.normal",
+    "clone.begin.end.destination.strict.masked": "command_translation.help.argument.clone.masked",
+    "clone.begin.end.destination.strict.masked.force": "command_translation.help.argument.clone.force",
+    "clone.begin.end.destination.strict.masked.move": "command_translation.help.argument.clone.move",
+    "clone.begin.end.destination.strict.masked.normal": "command_translation.help.argument.clone.normal",
+    "clone.begin.end.destination.strict.replace": "command_translation.help.argument.clone.replace",
+    "clone.begin.end.destination.strict.replace.force": "command_translation.help.argument.clone.force",
+    "clone.begin.end.destination.strict.replace.move": "command_translation.help.argument.clone.move",
+    "clone.begin.end.destination.strict.replace.normal": "command_translation.help.argument.clone.normal",
+    "clone.begin.end.to": "command_translation.help.argument.clone.to",
+    "clone.begin.end.to.targetDimension": "command_translation.help.argument.clone.targetDimension",
+    "clone.begin.end.to.targetDimension.destination": "command_translation.help.argument.clone.destination",
+    "clone.begin.end.to.targetDimension.destination.filtered": "command_translation.help.argument.clone.filtered",
+    "clone.begin.end.to.targetDimension.destination.filtered.filter": "command_translation.help.argument.clone.filter",
+    "clone.begin.end.to.targetDimension.destination.filtered.filter.force": "command_translation.help.argument.clone.force",
+    "clone.begin.end.to.targetDimension.destination.filtered.filter.move": "command_translation.help.argument.clone.move",
+    "clone.begin.end.to.targetDimension.destination.filtered.filter.normal": "command_translation.help.argument.clone.normal",
+    "clone.begin.end.to.targetDimension.destination.masked": "command_translation.help.argument.clone.masked",
+    "clone.begin.end.to.targetDimension.destination.masked.force": "command_translation.help.argument.clone.force",
+    "clone.begin.end.to.targetDimension.destination.masked.move": "command_translation.help.argument.clone.move",
+    "clone.begin.end.to.targetDimension.destination.masked.normal": "command_translation.help.argument.clone.normal",
+    "clone.begin.end.to.targetDimension.destination.replace": "command_translation.help.argument.clone.replace",
+    "clone.begin.end.to.targetDimension.destination.replace.force": "command_translation.help.argument.clone.force",
+    "clone.begin.end.to.targetDimension.destination.replace.move": "command_translation.help.argument.clone.move",
+    "clone.begin.end.to.targetDimension.destination.replace.normal": "command_translation.help.argument.clone.normal",
+    "clone.begin.end.to.targetDimension.destination.strict": "command_translation.help.argument.clone.strict",
+    "clone.begin.end.to.targetDimension.destination.strict.filtered": "command_translation.help.argument.clone.filtered",
+    "clone.begin.end.to.targetDimension.destination.strict.filtered.filter": "command_translation.help.argument.clone.filter",
+    "clone.begin.end.to.targetDimension.destination.strict.filtered.filter.force": "command_translation.help.argument.clone.force",
+    "clone.begin.end.to.targetDimension.destination.strict.filtered.filter.move": "command_translation.help.argument.clone.move",
+    "clone.begin.end.to.targetDimension.destination.strict.filtered.filter.normal": "command_translation.help.argument.clone.normal",
+    "clone.begin.end.to.targetDimension.destination.strict.masked": "command_translation.help.argument.clone.masked",
+    "clone.begin.end.to.targetDimension.destination.strict.masked.force": "command_translation.help.argument.clone.force",
+    "clone.begin.end.to.targetDimension.destination.strict.masked.move": "command_translation.help.argument.clone.move",
+    "clone.begin.end.to.targetDimension.destination.strict.masked.normal": "command_translation.help.argument.clone.normal",
+    "clone.begin.end.to.targetDimension.destination.strict.replace": "command_translation.help.argument.clone.replace",
+    "clone.begin.end.to.targetDimension.destination.strict.replace.force": "command_translation.help.argument.clone.force",
+    "clone.begin.end.to.targetDimension.destination.strict.replace.move": "command_translation.help.argument.clone.move",
+    "clone.begin.end.to.targetDimension.destination.strict.replace.normal": "command_translation.help.argument.clone.normal",
+    "clone.from": "command_translation.help.argument.clone.from",
+    "clone.from.sourceDimension": "command_translation.help.argument.clone.sourceDimension",
+    "clone.from.sourceDimension.begin": "command_translation.help.argument.clone.begin",
+    "clone.from.sourceDimension.begin.end": "command_translation.help.argument.clone.end",
+    "clone.from.sourceDimension.begin.end.destination": "command_translation.help.argument.clone.destination",
+    "clone.from.sourceDimension.begin.end.destination.filtered": "command_translation.help.argument.clone.filtered",
+    "clone.from.sourceDimension.begin.end.destination.filtered.filter": "command_translation.help.argument.clone.filter",
+    "clone.from.sourceDimension.begin.end.destination.filtered.filter.force": "command_translation.help.argument.clone.force",
+    "clone.from.sourceDimension.begin.end.destination.filtered.filter.move": "command_translation.help.argument.clone.move",
+    "clone.from.sourceDimension.begin.end.destination.filtered.filter.normal": "command_translation.help.argument.clone.normal",
+    "clone.from.sourceDimension.begin.end.destination.masked": "command_translation.help.argument.clone.masked",
+    "clone.from.sourceDimension.begin.end.destination.masked.force": "command_translation.help.argument.clone.force",
+    "clone.from.sourceDimension.begin.end.destination.masked.move": "command_translation.help.argument.clone.move",
+    "clone.from.sourceDimension.begin.end.destination.masked.normal": "command_translation.help.argument.clone.normal",
+    "clone.from.sourceDimension.begin.end.destination.replace": "command_translation.help.argument.clone.replace",
+    "clone.from.sourceDimension.begin.end.destination.replace.force": "command_translation.help.argument.clone.force",
+    "clone.from.sourceDimension.begin.end.destination.replace.move": "command_translation.help.argument.clone.move",
+    "clone.from.sourceDimension.begin.end.destination.replace.normal": "command_translation.help.argument.clone.normal",
+    "clone.from.sourceDimension.begin.end.destination.strict": "command_translation.help.argument.clone.strict",
+    "clone.from.sourceDimension.begin.end.destination.strict.filtered": "command_translation.help.argument.clone.filtered",
+    "clone.from.sourceDimension.begin.end.destination.strict.filtered.filter": "command_translation.help.argument.clone.filter",
+    "clone.from.sourceDimension.begin.end.destination.strict.filtered.filter.force": "command_translation.help.argument.clone.force",
+    "clone.from.sourceDimension.begin.end.destination.strict.filtered.filter.move": "command_translation.help.argument.clone.move",
+    "clone.from.sourceDimension.begin.end.destination.strict.filtered.filter.normal": "command_translation.help.argument.clone.normal",
+    "clone.from.sourceDimension.begin.end.destination.strict.masked": "command_translation.help.argument.clone.masked",
+    "clone.from.sourceDimension.begin.end.destination.strict.masked.force": "command_translation.help.argument.clone.force",
+    "clone.from.sourceDimension.begin.end.destination.strict.masked.move": "command_translation.help.argument.clone.move",
+    "clone.from.sourceDimension.begin.end.destination.strict.masked.normal": "command_translation.help.argument.clone.normal",
+    "clone.from.sourceDimension.begin.end.destination.strict.replace": "command_translation.help.argument.clone.replace",
+    "clone.from.sourceDimension.begin.end.destination.strict.replace.force": "command_translation.help.argument.clone.force",
+    "clone.from.sourceDimension.begin.end.destination.strict.replace.move": "command_translation.help.argument.clone.move",
+    "clone.from.sourceDimension.begin.end.destination.strict.replace.normal": "command_translation.help.argument.clone.normal",
+    "clone.from.sourceDimension.begin.end.to": "command_translation.help.argument.clone.to",
+    "clone.from.sourceDimension.begin.end.to.targetDimension": "command_translation.help.argument.clone.targetDimension",
+    "clone.from.sourceDimension.begin.end.to.targetDimension.destination": "command_translation.help.argument.clone.destination",
+    "clone.from.sourceDimension.begin.end.to.targetDimension.destination.filtered": "command_translation.help.argument.clone.filtered",
+    "clone.from.sourceDimension.begin.end.to.targetDimension.destination.filtered.filter": "command_translation.help.argument.clone.filter",
+    "clone.from.sourceDimension.begin.end.to.targetDimension.destination.filtered.filter.force": "command_translation.help.argument.clone.force",
+    "clone.from.sourceDimension.begin.end.to.targetDimension.destination.filtered.filter.move": "command_translation.help.argument.clone.move",
+    "clone.from.sourceDimension.begin.end.to.targetDimension.destination.filtered.filter.normal": "command_translation.help.argument.clone.normal",
+    "clone.from.sourceDimension.begin.end.to.targetDimension.destination.masked": "command_translation.help.argument.clone.masked",
+    "clone.from.sourceDimension.begin.end.to.targetDimension.destination.masked.force": "command_translation.help.argument.clone.force",
+    "clone.from.sourceDimension.begin.end.to.targetDimension.destination.masked.move": "command_translation.help.argument.clone.move",
+    "clone.from.sourceDimension.begin.end.to.targetDimension.destination.masked.normal": "command_translation.help.argument.clone.normal",
+    "clone.from.sourceDimension.begin.end.to.targetDimension.destination.replace": "command_translation.help.argument.clone.replace",
+    "clone.from.sourceDimension.begin.end.to.targetDimension.destination.replace.force": "command_translation.help.argument.clone.force",
+    "clone.from.sourceDimension.begin.end.to.targetDimension.destination.replace.move": "command_translation.help.argument.clone.move",
+    "clone.from.sourceDimension.begin.end.to.targetDimension.destination.replace.normal": "command_translation.help.argument.clone.normal",
+    "clone.from.sourceDimension.begin.end.to.targetDimension.destination.strict": "command_translation.help.argument.clone.strict",
+    "clone.from.sourceDimension.begin.end.to.targetDimension.destination.strict.filtered": "command_translation.help.argument.clone.filtered",
+    "clone.from.sourceDimension.begin.end.to.targetDimension.destination.strict.filtered.filter": "command_translation.help.argument.clone.filter",
+    "clone.from.sourceDimension.begin.end.to.targetDimension.destination.strict.filtered.filter.force": "command_translation.help.argument.clone.force",
+    "clone.from.sourceDimension.begin.end.to.targetDimension.destination.strict.filtered.filter.move": "command_translation.help.argument.clone.move",
+    "clone.from.sourceDimension.begin.end.to.targetDimension.destination.strict.filtered.filter.normal": "command_translation.help.argument.clone.normal",
+    "clone.from.sourceDimension.begin.end.to.targetDimension.destination.strict.masked": "command_translation.help.argument.clone.masked",
+    "clone.from.sourceDimension.begin.end.to.targetDimension.destination.strict.masked.force": "command_translation.help.argument.clone.force",
+    "clone.from.sourceDimension.begin.end.to.targetDimension.destination.strict.masked.move": "command_translation.help.argument.clone.move",
+    "clone.from.sourceDimension.begin.end.to.targetDimension.destination.strict.masked.normal": "command_translation.help.argument.clone.normal",
+    "clone.from.sourceDimension.begin.end.to.targetDimension.destination.strict.replace": "command_translation.help.argument.clone.replace",
+    "clone.from.sourceDimension.begin.end.to.targetDimension.destination.strict.replace.force": "command_translation.help.argument.clone.force",
+    "clone.from.sourceDimension.begin.end.to.targetDimension.destination.strict.replace.move": "command_translation.help.argument.clone.move",
+    "clone.from.sourceDimension.begin.end.to.targetDimension.destination.strict.replace.normal": "command_translation.help.argument.clone.normal"
+  },
+  "de_de": {
+    "command_translation.help.argument.clone.begin": "Eine Eck-Blockposition des Quellbereichs, aus dem kopiert wird.",
+    "command_translation.help.argument.clone.end": "Die gegenüberliegende Eck-Blockposition des Quellbereichs.",
+    "command_translation.help.argument.clone.destination": "Die Ecke des Zielbereichs mit dem kleinsten x, y und z; der Quellbereich behält Größe und Ausrichtung.",
+    "command_translation.help.argument.clone.from": "Liest den Quellbereich aus einer angegebenen Dimension statt aus der Ausführungsdimension.",
+    "command_translation.help.argument.clone.sourceDimension": "Die Dimension, aus der der Quellbereich gelesen wird.",
+    "command_translation.help.argument.clone.to": "Schreibt den kopierten Bereich in eine angegebene Dimension statt in die Ausführungsdimension.",
+    "command_translation.help.argument.clone.targetDimension": "Die Dimension, in die der kopierte Bereich geschrieben wird.",
+    "command_translation.help.argument.clone.filter": "Ein Blockprädikat, das auswählt, welche Blöcke kopiert werden dürfen.",
+    "command_translation.help.argument.clone.filtered": "Kopiert nur die Quellblöcke, die zum Filter passen.",
+    "command_translation.help.argument.clone.masked": "Kopiert nur Nicht-Luft-Blöcke; Luftblöcke lassen das Ziel unberührt.",
+    "command_translation.help.argument.clone.replace": "Kopiert und ersetzt den gesamten Zielbereich (die Standardeinstellung).",
+    "command_translation.help.argument.clone.force": "Erzwingt das Kopieren auch bei überlappendem Quell- und Zielbereich.",
+    "command_translation.help.argument.clone.move": "Ersetzt nach dem Kopieren die kopierten Quellblöcke durch Luft.",
+    "command_translation.help.argument.clone.normal": "Erzwingt weder Überlappung noch verschiebt es die Quelle (die Standardeinstellung).",
+    "command_translation.help.argument.clone.strict": "Platziert Blöcke genau wie angegeben, ohne benachbarte Blockupdates auszulösen oder Blockformen neu zu berechnen."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.clone.begin": "コピー元のソース領域の一角のブロック位置。",
+    "command_translation.help.argument.clone.end": "ソース領域の反対側の角のブロック位置。",
+    "command_translation.help.argument.clone.destination": "コピー先領域で x、y、z が最小の角。ソース領域は大きさと向きを保つ。",
+    "command_translation.help.argument.clone.from": "実行ディメンションではなく、指定したディメンションからソース領域を読み取る。",
+    "command_translation.help.argument.clone.sourceDimension": "ソース領域を読み取るディメンション。",
+    "command_translation.help.argument.clone.to": "コピーした領域を実行ディメンションではなく、指定したディメンションに書き込む。",
+    "command_translation.help.argument.clone.targetDimension": "コピーした領域を書き込むディメンション。",
+    "command_translation.help.argument.clone.filter": "コピーしてよいブロックを選ぶブロック述語。",
+    "command_translation.help.argument.clone.filtered": "ソース領域内でフィルターに一致するブロックだけをコピーする。",
+    "command_translation.help.argument.clone.masked": "ソースの非空気ブロックだけをコピーする。空気ブロックはコピー先に触れない。",
+    "command_translation.help.argument.clone.replace": "コピー先領域全体をコピーして置き換える（既定）。",
+    "command_translation.help.argument.clone.force": "ソース領域とコピー先領域が重なっていてもコピーを強制する。",
+    "command_translation.help.argument.clone.move": "コピー後、コピーしたソースブロックを空気に置き換える。",
+    "command_translation.help.argument.clone.normal": "重なりを強制せず、ソースも移動しない（既定）。",
+    "command_translation.help.argument.clone.strict": "指定どおりにブロックを設置し、隣接ブロックの更新やブロック形状の再計算を行わない。"
+  },
+  "syntax": [
+    {
+      "path": "clone",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.destination",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.destination.filtered",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.destination.filtered.filter",
+      "type": "argument",
+      "parser": "minecraft:block_predicate",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.destination.filtered.filter.force",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.destination.filtered.filter.move",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.destination.filtered.filter.normal",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.destination.masked",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.destination.masked.force",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.destination.masked.move",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.destination.masked.normal",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.destination.replace",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.destination.replace.force",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.destination.replace.move",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.destination.replace.normal",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.to",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.to.targetDimension",
+      "type": "argument",
+      "parser": "minecraft:dimension",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.to.targetDimension.destination",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.to.targetDimension.destination.filtered",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.to.targetDimension.destination.filtered.filter",
+      "type": "argument",
+      "parser": "minecraft:block_predicate",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.to.targetDimension.destination.filtered.filter.force",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.to.targetDimension.destination.filtered.filter.move",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.to.targetDimension.destination.filtered.filter.normal",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.to.targetDimension.destination.masked",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.to.targetDimension.destination.masked.force",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.to.targetDimension.destination.masked.move",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.to.targetDimension.destination.masked.normal",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.to.targetDimension.destination.replace",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.to.targetDimension.destination.replace.force",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.to.targetDimension.destination.replace.move",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.to.targetDimension.destination.replace.normal",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension",
+      "type": "argument",
+      "parser": "minecraft:dimension",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.destination",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.destination.filtered",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.destination.filtered.filter",
+      "type": "argument",
+      "parser": "minecraft:block_predicate",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.destination.filtered.filter.force",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.destination.filtered.filter.move",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.destination.filtered.filter.normal",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.destination.masked",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.destination.masked.force",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.destination.masked.move",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.destination.masked.normal",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.destination.replace",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.destination.replace.force",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.destination.replace.move",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.destination.replace.normal",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.to",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.to.targetDimension",
+      "type": "argument",
+      "parser": "minecraft:dimension",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.to.targetDimension.destination",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.to.targetDimension.destination.filtered",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.to.targetDimension.destination.filtered.filter",
+      "type": "argument",
+      "parser": "minecraft:block_predicate",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.to.targetDimension.destination.filtered.filter.force",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.to.targetDimension.destination.filtered.filter.move",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.to.targetDimension.destination.filtered.filter.normal",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.to.targetDimension.destination.masked",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.to.targetDimension.destination.masked.force",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.to.targetDimension.destination.masked.move",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.to.targetDimension.destination.masked.normal",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.to.targetDimension.destination.replace",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.to.targetDimension.destination.replace.force",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.to.targetDimension.destination.replace.move",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.to.targetDimension.destination.replace.normal",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.destination.strict",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.destination.strict.filtered",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.destination.strict.filtered.filter",
+      "type": "argument",
+      "parser": "minecraft:block_predicate",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.destination.strict.filtered.filter.force",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.destination.strict.filtered.filter.move",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.destination.strict.filtered.filter.normal",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.destination.strict.masked",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.destination.strict.masked.force",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.destination.strict.masked.move",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.destination.strict.masked.normal",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.destination.strict.replace",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.destination.strict.replace.force",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.destination.strict.replace.move",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.destination.strict.replace.normal",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.to.targetDimension.destination.strict",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.to.targetDimension.destination.strict.filtered",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.to.targetDimension.destination.strict.filtered.filter",
+      "type": "argument",
+      "parser": "minecraft:block_predicate",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.to.targetDimension.destination.strict.filtered.filter.force",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.to.targetDimension.destination.strict.filtered.filter.move",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.to.targetDimension.destination.strict.filtered.filter.normal",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.to.targetDimension.destination.strict.masked",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.to.targetDimension.destination.strict.masked.force",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.to.targetDimension.destination.strict.masked.move",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.to.targetDimension.destination.strict.masked.normal",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.to.targetDimension.destination.strict.replace",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.to.targetDimension.destination.strict.replace.force",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.to.targetDimension.destination.strict.replace.move",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.begin.end.to.targetDimension.destination.strict.replace.normal",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.destination.strict",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.destination.strict.filtered",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.destination.strict.filtered.filter",
+      "type": "argument",
+      "parser": "minecraft:block_predicate",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.destination.strict.filtered.filter.force",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.destination.strict.filtered.filter.move",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.destination.strict.filtered.filter.normal",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.destination.strict.masked",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.destination.strict.masked.force",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.destination.strict.masked.move",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.destination.strict.masked.normal",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.destination.strict.replace",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.destination.strict.replace.force",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.destination.strict.replace.move",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.destination.strict.replace.normal",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.to.targetDimension.destination.strict",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.to.targetDimension.destination.strict.filtered",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.to.targetDimension.destination.strict.filtered.filter",
+      "type": "argument",
+      "parser": "minecraft:block_predicate",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.to.targetDimension.destination.strict.filtered.filter.force",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.to.targetDimension.destination.strict.filtered.filter.move",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.to.targetDimension.destination.strict.filtered.filter.normal",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.to.targetDimension.destination.strict.masked",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.to.targetDimension.destination.strict.masked.force",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.to.targetDimension.destination.strict.masked.move",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.to.targetDimension.destination.strict.masked.normal",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.to.targetDimension.destination.strict.replace",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.to.targetDimension.destination.strict.replace.force",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.to.targetDimension.destination.strict.replace.move",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "clone.from.sourceDimension.begin.end.to.targetDimension.destination.strict.replace.normal",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

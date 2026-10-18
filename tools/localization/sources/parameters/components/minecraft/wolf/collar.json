@@ -1,0 +1,318 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:wolf/collar": "The tamed wolf’s collar color.",
+    "command_translation.help.component.minecraft:wolf/collar.value.white": "White collar.",
+    "command_translation.help.component.minecraft:wolf/collar.value.orange": "Orange collar.",
+    "command_translation.help.component.minecraft:wolf/collar.value.magenta": "Magenta collar.",
+    "command_translation.help.component.minecraft:wolf/collar.value.light_blue": "Light blue collar.",
+    "command_translation.help.component.minecraft:wolf/collar.value.yellow": "Yellow collar.",
+    "command_translation.help.component.minecraft:wolf/collar.value.lime": "Lime collar.",
+    "command_translation.help.component.minecraft:wolf/collar.value.pink": "Pink collar.",
+    "command_translation.help.component.minecraft:wolf/collar.value.gray": "Gray collar.",
+    "command_translation.help.component.minecraft:wolf/collar.value.light_gray": "Light gray collar.",
+    "command_translation.help.component.minecraft:wolf/collar.value.cyan": "Cyan collar.",
+    "command_translation.help.component.minecraft:wolf/collar.value.purple": "Purple collar.",
+    "command_translation.help.component.minecraft:wolf/collar.value.blue": "Blue collar.",
+    "command_translation.help.component.minecraft:wolf/collar.value.brown": "Brown collar.",
+    "command_translation.help.component.minecraft:wolf/collar.value.green": "Green collar.",
+    "command_translation.help.component.minecraft:wolf/collar.value.red": "Red collar.",
+    "command_translation.help.component.minecraft:wolf/collar.value.black": "Black collar."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:wolf/collar": "驯服后狼的项圈颜色。",
+    "command_translation.help.component.minecraft:wolf/collar.value.white": "项圈为白色。",
+    "command_translation.help.component.minecraft:wolf/collar.value.orange": "项圈为橙色。",
+    "command_translation.help.component.minecraft:wolf/collar.value.magenta": "项圈为品红色。",
+    "command_translation.help.component.minecraft:wolf/collar.value.light_blue": "项圈为淡蓝色。",
+    "command_translation.help.component.minecraft:wolf/collar.value.yellow": "项圈为黄色。",
+    "command_translation.help.component.minecraft:wolf/collar.value.lime": "项圈为黄绿色。",
+    "command_translation.help.component.minecraft:wolf/collar.value.pink": "项圈为粉红色。",
+    "command_translation.help.component.minecraft:wolf/collar.value.gray": "项圈为灰色。",
+    "command_translation.help.component.minecraft:wolf/collar.value.light_gray": "项圈为淡灰色。",
+    "command_translation.help.component.minecraft:wolf/collar.value.cyan": "项圈为青色。",
+    "command_translation.help.component.minecraft:wolf/collar.value.purple": "项圈为紫色。",
+    "command_translation.help.component.minecraft:wolf/collar.value.blue": "项圈为蓝色。",
+    "command_translation.help.component.minecraft:wolf/collar.value.brown": "项圈为棕色。",
+    "command_translation.help.component.minecraft:wolf/collar.value.green": "项圈为绿色。",
+    "command_translation.help.component.minecraft:wolf/collar.value.red": "项圈为红色。",
+    "command_translation.help.component.minecraft:wolf/collar.value.black": "项圈为黑色。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:wolf/collar": "Die Halsbandfarbe des gezähmten Wolfs.",
+    "command_translation.help.component.minecraft:wolf/collar.value.white": "Halsbandfarbe: Weiß.",
+    "command_translation.help.component.minecraft:wolf/collar.value.orange": "Halsbandfarbe: Orange.",
+    "command_translation.help.component.minecraft:wolf/collar.value.magenta": "Halsbandfarbe: Magenta.",
+    "command_translation.help.component.minecraft:wolf/collar.value.light_blue": "Halsbandfarbe: Hellblau.",
+    "command_translation.help.component.minecraft:wolf/collar.value.yellow": "Halsbandfarbe: Gelb.",
+    "command_translation.help.component.minecraft:wolf/collar.value.lime": "Halsbandfarbe: Hellgrün.",
+    "command_translation.help.component.minecraft:wolf/collar.value.pink": "Halsbandfarbe: Rosa.",
+    "command_translation.help.component.minecraft:wolf/collar.value.gray": "Halsbandfarbe: Grau.",
+    "command_translation.help.component.minecraft:wolf/collar.value.light_gray": "Halsbandfarbe: Hellgrau.",
+    "command_translation.help.component.minecraft:wolf/collar.value.cyan": "Halsbandfarbe: Türkis.",
+    "command_translation.help.component.minecraft:wolf/collar.value.purple": "Halsbandfarbe: Violett.",
+    "command_translation.help.component.minecraft:wolf/collar.value.blue": "Halsbandfarbe: Blau.",
+    "command_translation.help.component.minecraft:wolf/collar.value.brown": "Halsbandfarbe: Braun.",
+    "command_translation.help.component.minecraft:wolf/collar.value.green": "Halsbandfarbe: Grün.",
+    "command_translation.help.component.minecraft:wolf/collar.value.red": "Halsbandfarbe: Rot.",
+    "command_translation.help.component.minecraft:wolf/collar.value.black": "Halsbandfarbe: Schwarz."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:wolf/collar": "手なずけたオオカミの首輪の色。",
+    "command_translation.help.component.minecraft:wolf/collar.value.white": "首輪の色：白色。",
+    "command_translation.help.component.minecraft:wolf/collar.value.orange": "首輪の色：橙色。",
+    "command_translation.help.component.minecraft:wolf/collar.value.magenta": "首輪の色：赤紫色。",
+    "command_translation.help.component.minecraft:wolf/collar.value.light_blue": "首輪の色：空色。",
+    "command_translation.help.component.minecraft:wolf/collar.value.yellow": "首輪の色：黄色。",
+    "command_translation.help.component.minecraft:wolf/collar.value.lime": "首輪の色：黄緑色。",
+    "command_translation.help.component.minecraft:wolf/collar.value.pink": "首輪の色：桃色。",
+    "command_translation.help.component.minecraft:wolf/collar.value.gray": "首輪の色：灰色。",
+    "command_translation.help.component.minecraft:wolf/collar.value.light_gray": "首輪の色：薄灰色。",
+    "command_translation.help.component.minecraft:wolf/collar.value.cyan": "首輪の色：青緑色。",
+    "command_translation.help.component.minecraft:wolf/collar.value.purple": "首輪の色：紫色。",
+    "command_translation.help.component.minecraft:wolf/collar.value.blue": "首輪の色：青色。",
+    "command_translation.help.component.minecraft:wolf/collar.value.brown": "首輪の色：茶色。",
+    "command_translation.help.component.minecraft:wolf/collar.value.green": "首輪の色：緑色。",
+    "command_translation.help.component.minecraft:wolf/collar.value.red": "首輪の色：赤色。",
+    "command_translation.help.component.minecraft:wolf/collar.value.black": "首輪の色：黒色。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:wolf/collar": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:wolf/collar.value.white": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:wolf/collar.value.orange": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:wolf/collar.value.magenta": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:wolf/collar.value.light_blue": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:wolf/collar.value.yellow": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:wolf/collar.value.lime": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:wolf/collar.value.pink": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:wolf/collar.value.gray": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:wolf/collar.value.light_gray": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:wolf/collar.value.cyan": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:wolf/collar.value.purple": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:wolf/collar.value.blue": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:wolf/collar.value.brown": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:wolf/collar.value.green": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:wolf/collar.value.red": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:wolf/collar.value.black": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ]
+  }
+}

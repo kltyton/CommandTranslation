@@ -1,0 +1,148 @@
+{
+  "sources": [
+    {
+      "locale": "en_us",
+      "title": "Difficulty",
+      "revision": 3840034,
+      "url": "https://minecraft.wiki/w/Difficulty"
+    },
+    {
+      "locale": "en_us",
+      "title": "Chunk format",
+      "revision": 3820728,
+      "url": "https://minecraft.wiki/w/Chunk%20format"
+    },
+    {
+      "locale": "en_us",
+      "title": "Particles",
+      "revision": 3828586,
+      "url": "https://minecraft.wiki/w/Particles"
+    },
+    {
+      "locale": "en_us",
+      "title": "Player.dat format",
+      "revision": 3750016,
+      "url": "https://minecraft.wiki/w/Player.dat%20format"
+    },
+    {
+      "locale": "en_us",
+      "title": "Entity format",
+      "revision": 3778757,
+      "url": "https://minecraft.wiki/w/Entity%20format"
+    },
+    {
+      "locale": "en_us",
+      "title": "Game mode",
+      "revision": 3809835,
+      "url": "https://minecraft.wiki/w/Game%20mode"
+    },
+    {
+      "locale": "en_us",
+      "title": "Block states",
+      "revision": 3842780,
+      "url": "https://minecraft.wiki/w/Block%20states"
+    },
+    {
+      "locale": "en_us",
+      "title": "Block entity format",
+      "revision": 3836474,
+      "url": "https://minecraft.wiki/w/Block%20entity%20format"
+    },
+    {
+      "locale": "en_us",
+      "title": "Item format/Before 1.20.5",
+      "revision": 3573309,
+      "url": "https://minecraft.wiki/w/Item%20format%2FBefore%201.20.5"
+    },
+    {
+      "locale": "en_us",
+      "title": "Game rule",
+      "revision": 3785210,
+      "url": "https://minecraft.wiki/w/Game%20rule"
+    },
+    {
+      "locale": "en_us",
+      "title": "Target selectors",
+      "revision": 3717617,
+      "url": "https://minecraft.wiki/w/Target%20selectors"
+    },
+    {
+      "locale": "en_us",
+      "title": "Argument types",
+      "revision": 3825973,
+      "url": "https://minecraft.wiki/w/Argument%20types"
+    },
+    {
+      "locale": "en_us",
+      "title": "Text component format",
+      "revision": 3749600,
+      "url": "https://minecraft.wiki/w/Text%20component%20format"
+    },
+    {
+      "locale": "en_us",
+      "title": "Slot",
+      "revision": 3826218,
+      "url": "https://minecraft.wiki/w/Slot"
+    },
+    {
+      "locale": "en_us",
+      "title": "Heightmap",
+      "revision": 3806795,
+      "url": "https://minecraft.wiki/w/Heightmap"
+    },
+    {
+      "locale": "en_us",
+      "title": "Data component format",
+      "revision": 3840908,
+      "url": "https://minecraft.wiki/w/Data%20component%20format"
+    },
+    {
+      "locale": "en_us",
+      "title": "Particle format",
+      "revision": 3698603,
+      "url": "https://minecraft.wiki/w/Particle%20format"
+    },
+    {
+      "locale": "en_us",
+      "title": "Java Edition 1.21.5",
+      "revision": 3802500,
+      "url": "https://minecraft.wiki/w/Java%20Edition%201.21.5"
+    },
+    {
+      "locale": "en_us",
+      "title": "Template:Nbt inherit/consume effect/template",
+      "revision": 2857184,
+      "url": "https://minecraft.wiki/w/Template%3ANbt%20inherit%2Fconsume%20effect%2Ftemplate"
+    },
+    {
+      "locale": "en_us",
+      "title": "Locator Bar",
+      "revision": 3776618,
+      "url": "https://minecraft.wiki/w/Locator%20Bar"
+    },
+    {
+      "locale": "en_us",
+      "title": "Dialog",
+      "revision": 3753247,
+      "url": "https://minecraft.wiki/w/Dialog"
+    },
+    {
+      "locale": "en_us",
+      "title": "Timeline",
+      "revision": 3595196,
+      "url": "https://minecraft.wiki/w/Timeline"
+    },
+    {
+      "locale": "en_us",
+      "title": "World clock",
+      "revision": 3840761,
+      "url": "https://minecraft.wiki/w/World%20clock"
+    },
+    {
+      "locale": "en_us",
+      "title": "Template:Nbt inherit/potion contents/template",
+      "revision": 3620339,
+      "url": "https://minecraft.wiki/w/Template%3ANbt%20inherit%2Fpotion%20contents%2Ftemplate"
+    }
+  ]
+}

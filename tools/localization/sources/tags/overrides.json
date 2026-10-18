@@ -1,0 +1,730 @@
+{
+  "en_us": {
+    "command_translation.tag.worldgen.biome.c.is_modified": "Legacy tag without a defined current purpose",
+    "command_translation.tag.item.forge.stained_glass": "Stained glass",
+    "command_translation.tag.item.forge.stained_glass_panes": "Stained glass panes",
+    "command_translation.tag.item.c.bars": "Metal bars",
+    "command_translation.tag.item.c.bars.copper": "Copper bars",
+    "command_translation.tag.item.c.bars.iron": "Iron bars",
+    "command_translation.tag.item.c.froglights": "Froglights",
+    "command_translation.tag.item.c.natural_logs": "Natural, unstripped logs and stems",
+    "command_translation.tag.item.c.natural_logs.nether": "Natural, unstripped Nether logs and stems",
+    "command_translation.tag.item.c.natural_logs.overworld": "Natural, unstripped Overworld logs",
+    "command_translation.tag.item.c.natural_woods": "Unstripped wood or hyphae with bark on all sides",
+    "command_translation.tag.item.c.glass_blocks.tinted": "Tinted glass",
+    "command_translation.tag.item.c.glass_blocks.cheap": "Silica glass",
+    "command_translation.tag.block.forge.stained_glass": "Stained glass",
+    "command_translation.tag.block.forge.stained_glass_panes": "Stained glass panes",
+    "command_translation.tag.block.c.bars": "Metal bars",
+    "command_translation.tag.block.c.bars.copper": "Copper bars",
+    "command_translation.tag.block.c.bars.iron": "Iron bars",
+    "command_translation.tag.block.c.froglights": "Froglights",
+    "command_translation.tag.block.c.natural_logs": "Natural, unstripped logs and stems",
+    "command_translation.tag.block.c.natural_logs.nether": "Natural, unstripped Nether logs and stems",
+    "command_translation.tag.block.c.natural_logs.overworld": "Natural, unstripped Overworld logs",
+    "command_translation.tag.block.c.natural_woods": "Unstripped wood or hyphae with bark on all sides",
+    "command_translation.tag.block.c.glass_blocks.tinted": "Tinted glass",
+    "command_translation.tag.block.c.glass_blocks.cheap": "Silica glass",
+    "command_translation.tag.item.c.tools.trident": "Tridents",
+    "command_translation.tag.item.c.foods.dough": "Dough",
+    "command_translation.tag.item.c.loom_patterns": "Loom banner patterns",
+    "command_translation.tag.item.neoforge.enchanting_fuels": "Materials consumed by enchanting, such as lapis lazuli",
+    "command_translation.tag.item.forge.heads": "Mob heads and skulls",
+    "command_translation.tag.item.c.armors.horse": "Horse armor",
+    "command_translation.tag.item.c.armors.humanoid": "Armor for humanoids",
+    "command_translation.tag.item.c.armors.nautilus": "Nautilus armor",
+    "command_translation.tag.item.c.armors.wolf": "Wolf armor",
+    "command_translation.tag.item.c.nuggets.copper": "Copper nuggets",
+    "command_translation.tag.item.c.buckets.entity_dry": "Entity buckets without water",
+    "command_translation.tag.item.c.spears": "Throwable weapons, such as tridents",
+    "command_translation.tag.item.c.swords": "Swords",
+    "command_translation.tag.item.c.shovels": "Shovels",
+    "command_translation.tag.item.c.pickaxes": "Pickaxes",
+    "command_translation.tag.item.c.hoes": "Hoes",
+    "command_translation.tag.item.c.axes": "Axes",
+    "command_translation.tag.item.forge.armors.leggings": "Leg armor",
+    "command_translation.tag.item.forge.armors.helmets": "Head armor",
+    "command_translation.tag.item.forge.armors.chestplates": "Chest armor",
+    "command_translation.tag.item.forge.armors.boots": "Foot armor",
+    "command_translation.tag.entity_type.c.item_frames": "Item frames",
+    "command_translation.tag.block.neoforge.enderman_place_on_blacklist": "Endermen cannot place blocks on these blocks",
+    "command_translation.tag.block.neoforge.villager_farmlands": "Farmer villagers plant crops on these blocks",
+    "command_translation.tag.block.neoforge.needs_wood_tool": "Wooden-tool mining tier",
+    "command_translation.tag.block.neoforge.needs_gold_tool": "Golden-tool mining tier",
+    "command_translation.tag.block.neoforge.needs_netherite_tool": "Netherite-tool mining tier",
+    "command_translation.tag.item.neoforge.piglin_usable_crossbows": "Crossbows usable by piglins",
+    "command_translation.tag.item.neoforge.pillager_usable_crossbows": "Crossbows usable by pillagers",
+    "command_translation.tag.item.neoforge.skeleton_usable_bows": "Bows usable by skeletons",
+    "command_translation.tag.damage_type.neoforge.is_environment": "Environmental damage",
+    "command_translation.tag.damage_type.neoforge.is_magic": "Magic damage",
+    "command_translation.tag.damage_type.neoforge.is_physical": "Physical damage",
+    "command_translation.tag.damage_type.neoforge.is_poison": "Poison damage",
+    "command_translation.tag.damage_type.neoforge.is_technical": "Command and other non-gameplay damage",
+    "command_translation.tag.damage_type.neoforge.is_wither": "Wither damage",
+    "command_translation.tag.damage_type.neoforge.no_flinch": "Damage that causes no red hurt flash",
+    "command_translation.tag.enchantment.c.hidden_from_recipe_viewers": "Hidden from recipe viewers",
+    "command_translation.tag.potion.c.hidden_from_recipe_viewers": "Hidden from recipe viewers",
+    "command_translation.tag.enchantment.c.weapon_damage_enhancement": "Enchantments that increase weapon damage",
+    "command_translation.tag.enchantment.c.looting": "Enchantments that improve entity drops",
+    "command_translation.tag.enchantment.c.fortune": "Enchantments that improve block drops",
+    "command_translation.tag.enchantment.c.entity_movement_enhancement": "Enchantments that improve movement",
+    "command_translation.tag.enchantment.c.entity_defense_enhancement": "Enchantments that improve defense",
+    "command_translation.tag.world_clock.neoforge.ignores.pause_command": "World clocks that cannot be paused with time commands",
+    "command_translation.tag.world_clock.neoforge.ignores.advance_time_rule": "Keeps advancing when the advance-time game rule is disabled"
+  },
+  "zh_cn": {
+    "command_translation.tag.worldgen.biome.c.is_modified": "历史保留标签，官方未定义现行用途",
+    "command_translation.tag.item.forge.stained_glass": "染色玻璃",
+    "command_translation.tag.item.forge.stained_glass_panes": "染色玻璃板",
+    "command_translation.tag.item.c.bars": "金属栏杆",
+    "command_translation.tag.item.c.bars.copper": "铜栏杆",
+    "command_translation.tag.item.c.bars.iron": "铁栏杆",
+    "command_translation.tag.item.c.froglights": "蛙明灯",
+    "command_translation.tag.item.c.natural_logs": "未去皮的天然原木与菌柄",
+    "command_translation.tag.item.c.natural_logs.nether": "下界未去皮的天然原木与菌柄",
+    "command_translation.tag.item.c.natural_logs.overworld": "主世界未去皮的天然原木",
+    "command_translation.tag.item.c.natural_woods": "未去皮的六面树皮木材与菌核",
+    "command_translation.tag.item.c.glass_blocks.tinted": "遮光玻璃",
+    "command_translation.tag.item.c.glass_blocks.cheap": "硅质玻璃",
+    "command_translation.tag.block.forge.stained_glass": "染色玻璃",
+    "command_translation.tag.block.forge.stained_glass_panes": "染色玻璃板",
+    "command_translation.tag.block.c.bars": "金属栏杆",
+    "command_translation.tag.block.c.bars.copper": "铜栏杆",
+    "command_translation.tag.block.c.bars.iron": "铁栏杆",
+    "command_translation.tag.block.c.froglights": "蛙明灯",
+    "command_translation.tag.block.c.natural_logs": "未去皮的天然原木与菌柄",
+    "command_translation.tag.block.c.natural_logs.nether": "下界未去皮的天然原木与菌柄",
+    "command_translation.tag.block.c.natural_logs.overworld": "主世界未去皮的天然原木",
+    "command_translation.tag.block.c.natural_woods": "未去皮的六面树皮木材与菌核",
+    "command_translation.tag.block.c.glass_blocks.tinted": "遮光玻璃",
+    "command_translation.tag.block.c.glass_blocks.cheap": "硅质玻璃",
+    "command_translation.tag.item.c.tools.trident": "三叉戟",
+    "command_translation.tag.item.c.foods.dough": "面团",
+    "command_translation.tag.item.c.loom_patterns": "织布机用旗帜图案",
+    "command_translation.tag.item.neoforge.enchanting_fuels": "附魔消耗的材料，如青金石",
+    "command_translation.tag.item.forge.heads": "生物头颅",
+    "command_translation.tag.item.c.armors.horse": "马铠",
+    "command_translation.tag.item.c.armors.humanoid": "人形生物护甲",
+    "command_translation.tag.item.c.armors.nautilus": "鹦鹉螺护甲",
+    "command_translation.tag.item.c.armors.wolf": "狼铠",
+    "command_translation.tag.item.c.nuggets.copper": "铜粒",
+    "command_translation.tag.item.c.buckets.entity_dry": "不装水的生物桶",
+    "command_translation.tag.item.c.spears": "三叉戟等投掷武器",
+    "command_translation.tag.item.c.swords": "剑",
+    "command_translation.tag.item.c.shovels": "锹",
+    "command_translation.tag.item.c.pickaxes": "镐",
+    "command_translation.tag.item.c.hoes": "锄",
+    "command_translation.tag.item.c.axes": "斧",
+    "command_translation.tag.item.forge.armors.leggings": "腿部护甲",
+    "command_translation.tag.item.forge.armors.helmets": "头部护甲",
+    "command_translation.tag.item.forge.armors.chestplates": "胸部护甲",
+    "command_translation.tag.item.forge.armors.boots": "足部护甲",
+    "command_translation.tag.entity_type.c.item_frames": "物品展示框",
+    "command_translation.tag.block.neoforge.enderman_place_on_blacklist": "末影人不能在这些方块上放置方块",
+    "command_translation.tag.block.neoforge.villager_farmlands": "农民村民可在其上种植作物",
+    "command_translation.tag.block.neoforge.needs_wood_tool": "木质工具挖掘等级",
+    "command_translation.tag.block.neoforge.needs_gold_tool": "金质工具挖掘等级",
+    "command_translation.tag.block.neoforge.needs_netherite_tool": "下界合金工具挖掘等级",
+    "command_translation.tag.item.neoforge.piglin_usable_crossbows": "猪灵可使用的弩",
+    "command_translation.tag.item.neoforge.pillager_usable_crossbows": "掠夺者可使用的弩",
+    "command_translation.tag.item.neoforge.skeleton_usable_bows": "骷髅可使用的弓",
+    "command_translation.tag.damage_type.neoforge.is_environment": "环境伤害",
+    "command_translation.tag.damage_type.neoforge.is_magic": "魔法伤害",
+    "command_translation.tag.damage_type.neoforge.is_physical": "物理伤害",
+    "command_translation.tag.damage_type.neoforge.is_poison": "中毒伤害",
+    "command_translation.tag.damage_type.neoforge.is_technical": "指令等非正常游玩来源的伤害",
+    "command_translation.tag.damage_type.neoforge.is_wither": "凋零伤害",
+    "command_translation.tag.damage_type.neoforge.no_flinch": "受伤时不出现红色闪烁",
+    "command_translation.tag.enchantment.c.hidden_from_recipe_viewers": "不在配方查看器中显示",
+    "command_translation.tag.potion.c.hidden_from_recipe_viewers": "不在配方查看器中显示",
+    "command_translation.tag.enchantment.c.weapon_damage_enhancement": "提高武器伤害的附魔",
+    "command_translation.tag.enchantment.c.looting": "增加生物掉落的附魔",
+    "command_translation.tag.enchantment.c.fortune": "增加方块掉落的附魔",
+    "command_translation.tag.enchantment.c.entity_movement_enhancement": "改善移动能力的附魔",
+    "command_translation.tag.enchantment.c.entity_defense_enhancement": "增强防御的附魔",
+    "command_translation.tag.world_clock.neoforge.ignores.pause_command": "不能用时间指令暂停的世界时钟",
+    "command_translation.tag.world_clock.neoforge.ignores.advance_time_rule": "关闭推进时间规则后仍继续运行的世界时钟"
+  },
+  "de_de": {
+    "command_translation.tag.worldgen.biome.c.is_modified": "Altes Tag ohne festgelegten heutigen Zweck",
+    "command_translation.tag.item.forge.stained_glass": "Gefärbtes Glas",
+    "command_translation.tag.item.forge.stained_glass_panes": "Gefärbte Glasscheiben",
+    "command_translation.tag.item.c.bars": "Metallgitter",
+    "command_translation.tag.item.c.bars.copper": "Kupfergitter",
+    "command_translation.tag.item.c.bars.iron": "Eisengitter",
+    "command_translation.tag.item.c.froglights": "Froschlichter",
+    "command_translation.tag.item.c.natural_logs": "Natürliche, nicht entrindete Stämme",
+    "command_translation.tag.item.c.natural_logs.nether": "Natürliche, nicht entrindete Nether-Stämme",
+    "command_translation.tag.item.c.natural_logs.overworld": "Natürliche, nicht entrindete Oberwelt-Stämme",
+    "command_translation.tag.item.c.natural_woods": "Nicht entrindetes Holz mit Rinde auf allen Seiten",
+    "command_translation.tag.item.c.glass_blocks.tinted": "Getöntes Glas",
+    "command_translation.tag.item.c.glass_blocks.cheap": "Silikatglas",
+    "command_translation.tag.block.forge.stained_glass": "Gefärbtes Glas",
+    "command_translation.tag.block.forge.stained_glass_panes": "Gefärbte Glasscheiben",
+    "command_translation.tag.block.c.bars": "Metallgitter",
+    "command_translation.tag.block.c.bars.copper": "Kupfergitter",
+    "command_translation.tag.block.c.bars.iron": "Eisengitter",
+    "command_translation.tag.block.c.froglights": "Froschlichter",
+    "command_translation.tag.block.c.natural_logs": "Natürliche, nicht entrindete Stämme",
+    "command_translation.tag.block.c.natural_logs.nether": "Natürliche, nicht entrindete Nether-Stämme",
+    "command_translation.tag.block.c.natural_logs.overworld": "Natürliche, nicht entrindete Oberwelt-Stämme",
+    "command_translation.tag.block.c.natural_woods": "Nicht entrindetes Holz mit Rinde auf allen Seiten",
+    "command_translation.tag.block.c.glass_blocks.tinted": "Getöntes Glas",
+    "command_translation.tag.block.c.glass_blocks.cheap": "Silikatglas",
+    "command_translation.tag.item.c.tools.trident": "Dreizacke",
+    "command_translation.tag.item.c.foods.dough": "Teig",
+    "command_translation.tag.item.c.loom_patterns": "Bannervorlagen für den Webstuhl",
+    "command_translation.tag.item.neoforge.enchanting_fuels": "Beim Verzaubern verbrauchte Materialien, etwa Lapislazuli",
+    "command_translation.tag.item.forge.heads": "Köpfe und Schädel",
+    "command_translation.tag.item.c.armors.horse": "Pferderüstungen",
+    "command_translation.tag.item.c.armors.humanoid": "Rüstungen für Humanoide",
+    "command_translation.tag.item.c.armors.nautilus": "Nautilusrüstungen",
+    "command_translation.tag.item.c.armors.wolf": "Wolfsrüstungen",
+    "command_translation.tag.item.c.nuggets.copper": "Kupferklumpen",
+    "command_translation.tag.item.c.buckets.entity_dry": "Kreatureneimer ohne Wasser",
+    "command_translation.tag.item.c.spears": "Wurfwaffen wie Dreizacke",
+    "command_translation.tag.item.c.swords": "Schwerter",
+    "command_translation.tag.item.c.shovels": "Schaufeln",
+    "command_translation.tag.item.c.pickaxes": "Spitzhacken",
+    "command_translation.tag.item.c.hoes": "Hacken",
+    "command_translation.tag.item.c.axes": "Äxte",
+    "command_translation.tag.item.forge.armors.leggings": "Beinrüstung",
+    "command_translation.tag.item.forge.armors.helmets": "Kopfrüstung",
+    "command_translation.tag.item.forge.armors.chestplates": "Brustrüstung",
+    "command_translation.tag.item.forge.armors.boots": "Fußrüstung",
+    "command_translation.tag.entity_type.c.item_frames": "Rahmen",
+    "command_translation.tag.block.neoforge.enderman_place_on_blacklist": "Hierauf können Endermen keine Blöcke platzieren",
+    "command_translation.tag.block.neoforge.villager_farmlands": "Hierauf pflanzen Bauern Feldfrüchte",
+    "command_translation.tag.block.neoforge.needs_wood_tool": "Abbaustufe Holz",
+    "command_translation.tag.block.neoforge.needs_gold_tool": "Abbaustufe Gold",
+    "command_translation.tag.block.neoforge.needs_netherite_tool": "Abbaustufe Netherit",
+    "command_translation.tag.item.neoforge.piglin_usable_crossbows": "Von Piglins nutzbare Armbrüste",
+    "command_translation.tag.item.neoforge.pillager_usable_crossbows": "Von Plünderern nutzbare Armbrüste",
+    "command_translation.tag.item.neoforge.skeleton_usable_bows": "Von Skeletten nutzbare Bögen",
+    "command_translation.tag.damage_type.neoforge.is_environment": "Umweltschaden",
+    "command_translation.tag.damage_type.neoforge.is_magic": "Magieschaden",
+    "command_translation.tag.damage_type.neoforge.is_physical": "Physischer Schaden",
+    "command_translation.tag.damage_type.neoforge.is_poison": "Giftschaden",
+    "command_translation.tag.damage_type.neoforge.is_technical": "Schaden durch Befehle und andere technische Quellen",
+    "command_translation.tag.damage_type.neoforge.is_wither": "Wither-Schaden",
+    "command_translation.tag.damage_type.neoforge.no_flinch": "Schaden ohne rotes Verletzungsblinken",
+    "command_translation.tag.enchantment.c.hidden_from_recipe_viewers": "In Rezeptanzeigern ausgeblendet",
+    "command_translation.tag.potion.c.hidden_from_recipe_viewers": "In Rezeptanzeigern ausgeblendet",
+    "command_translation.tag.enchantment.c.weapon_damage_enhancement": "Verzauberungen für höheren Waffenschaden",
+    "command_translation.tag.enchantment.c.looting": "Verzauberungen für bessere Kreaturbeute",
+    "command_translation.tag.enchantment.c.fortune": "Verzauberungen für bessere Blockbeute",
+    "command_translation.tag.enchantment.c.entity_movement_enhancement": "Verzauberungen für bessere Bewegung",
+    "command_translation.tag.enchantment.c.entity_defense_enhancement": "Verzauberungen für bessere Verteidigung",
+    "command_translation.tag.world_clock.neoforge.ignores.pause_command": "Weltuhren, die Zeitbefehle nicht anhalten können",
+    "command_translation.tag.world_clock.neoforge.ignores.advance_time_rule": "Läuft trotz deaktivierter Zeitfortschrittsregel weiter"
+  },
+  "ja_jp": {
+    "command_translation.tag.worldgen.biome.c.is_modified": "現在の用途が定義されていない旧式のタグ",
+    "command_translation.tag.item.forge.stained_glass": "色付きガラス",
+    "command_translation.tag.item.forge.stained_glass_panes": "色付きガラス板",
+    "command_translation.tag.item.c.bars": "金属の格子",
+    "command_translation.tag.item.c.bars.copper": "銅の格子",
+    "command_translation.tag.item.c.bars.iron": "鉄格子",
+    "command_translation.tag.item.c.froglights": "フロッグライト",
+    "command_translation.tag.item.c.natural_logs": "樹皮を剥いでいない天然の原木・幹",
+    "command_translation.tag.item.c.natural_logs.nether": "樹皮を剥いでいないネザーの天然の原木・幹",
+    "command_translation.tag.item.c.natural_logs.overworld": "樹皮を剥いでいないオーバーワールドの天然原木",
+    "command_translation.tag.item.c.natural_woods": "全ての面に樹皮がある木・菌糸",
+    "command_translation.tag.item.c.glass_blocks.tinted": "遮光ガラス",
+    "command_translation.tag.item.c.glass_blocks.cheap": "ケイ酸塩ガラス",
+    "command_translation.tag.block.forge.stained_glass": "色付きガラス",
+    "command_translation.tag.block.forge.stained_glass_panes": "色付きガラス板",
+    "command_translation.tag.block.c.bars": "金属の格子",
+    "command_translation.tag.block.c.bars.copper": "銅の格子",
+    "command_translation.tag.block.c.bars.iron": "鉄格子",
+    "command_translation.tag.block.c.froglights": "フロッグライト",
+    "command_translation.tag.block.c.natural_logs": "樹皮を剥いでいない天然の原木・幹",
+    "command_translation.tag.block.c.natural_logs.nether": "樹皮を剥いでいないネザーの天然の原木・幹",
+    "command_translation.tag.block.c.natural_logs.overworld": "樹皮を剥いでいないオーバーワールドの天然原木",
+    "command_translation.tag.block.c.natural_woods": "全ての面に樹皮がある木・菌糸",
+    "command_translation.tag.block.c.glass_blocks.tinted": "遮光ガラス",
+    "command_translation.tag.block.c.glass_blocks.cheap": "ケイ酸塩ガラス",
+    "command_translation.tag.item.c.tools.trident": "トライデント",
+    "command_translation.tag.item.c.foods.dough": "生地",
+    "command_translation.tag.item.c.loom_patterns": "機織り機の旗の模様",
+    "command_translation.tag.item.neoforge.enchanting_fuels": "ラピスラズリなどエンチャントで消費する素材",
+    "command_translation.tag.item.forge.heads": "Mobの頭・頭蓋骨",
+    "command_translation.tag.item.c.armors.horse": "馬鎧",
+    "command_translation.tag.item.c.armors.humanoid": "人型のMob用の防具",
+    "command_translation.tag.item.c.armors.nautilus": "オウムガイの鎧",
+    "command_translation.tag.item.c.armors.wolf": "オオカミの鎧",
+    "command_translation.tag.item.c.nuggets.copper": "銅塊",
+    "command_translation.tag.item.c.buckets.entity_dry": "水の入っていないMob入りバケツ",
+    "command_translation.tag.item.c.spears": "トライデントなどの投擲武器",
+    "command_translation.tag.item.c.swords": "剣",
+    "command_translation.tag.item.c.shovels": "シャベル",
+    "command_translation.tag.item.c.pickaxes": "ツルハシ",
+    "command_translation.tag.item.c.hoes": "クワ",
+    "command_translation.tag.item.c.axes": "斧",
+    "command_translation.tag.item.forge.armors.leggings": "脚の防具",
+    "command_translation.tag.item.forge.armors.helmets": "頭の防具",
+    "command_translation.tag.item.forge.armors.chestplates": "胴体の防具",
+    "command_translation.tag.item.forge.armors.boots": "足の防具",
+    "command_translation.tag.entity_type.c.item_frames": "額縁",
+    "command_translation.tag.block.neoforge.enderman_place_on_blacklist": "エンダーマンが上にブロックを置けない",
+    "command_translation.tag.block.neoforge.villager_farmlands": "農民の村人が上に作物を植える",
+    "command_translation.tag.block.neoforge.needs_wood_tool": "木の道具の採掘レベル",
+    "command_translation.tag.block.neoforge.needs_gold_tool": "金の道具の採掘レベル",
+    "command_translation.tag.block.neoforge.needs_netherite_tool": "ネザライトの道具の採掘レベル",
+    "command_translation.tag.item.neoforge.piglin_usable_crossbows": "ピグリンが使えるクロスボウ",
+    "command_translation.tag.item.neoforge.pillager_usable_crossbows": "ピリジャーが使えるクロスボウ",
+    "command_translation.tag.item.neoforge.skeleton_usable_bows": "スケルトンが使える弓",
+    "command_translation.tag.damage_type.neoforge.is_environment": "環境ダメージ",
+    "command_translation.tag.damage_type.neoforge.is_magic": "魔法ダメージ",
+    "command_translation.tag.damage_type.neoforge.is_physical": "物理ダメージ",
+    "command_translation.tag.damage_type.neoforge.is_poison": "毒ダメージ",
+    "command_translation.tag.damage_type.neoforge.is_technical": "コマンドなど通常のゲームプレイ以外のダメージ",
+    "command_translation.tag.damage_type.neoforge.is_wither": "ウィザーダメージ",
+    "command_translation.tag.damage_type.neoforge.no_flinch": "受傷時に赤く点滅しないダメージ",
+    "command_translation.tag.enchantment.c.hidden_from_recipe_viewers": "レシピビューアーに表示しない",
+    "command_translation.tag.potion.c.hidden_from_recipe_viewers": "レシピビューアーに表示しない",
+    "command_translation.tag.enchantment.c.weapon_damage_enhancement": "武器のダメージを増やすエンチャント",
+    "command_translation.tag.enchantment.c.looting": "Mobのドロップを増やすエンチャント",
+    "command_translation.tag.enchantment.c.fortune": "ブロックのドロップを増やすエンチャント",
+    "command_translation.tag.enchantment.c.entity_movement_enhancement": "移動能力を向上させるエンチャント",
+    "command_translation.tag.enchantment.c.entity_defense_enhancement": "防御力を高めるエンチャント",
+    "command_translation.tag.world_clock.neoforge.ignores.pause_command": "時間コマンドで一時停止できないワールド時計",
+    "command_translation.tag.world_clock.neoforge.ignores.advance_time_rule": "時間進行のゲームルールが無効でも進み続けるワールド時計"
+  },
+  "sources": {
+    "command_translation.tag.worldgen.biome.c.is_modified": [
+      {
+        "artifact": "net.neoforged:neoforge:21.1.234",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.item.forge.stained_glass": [
+      {
+        "artifact": "net.minecraftforge:forge:1.20.1-47.3.0",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.item.forge.stained_glass_panes": [
+      {
+        "artifact": "net.minecraftforge:forge:1.20.1-47.3.0",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.item.c.bars": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.item.c.bars.copper": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.item.c.bars.iron": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.item.c.froglights": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.item.c.natural_logs": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.item.c.natural_logs.nether": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.item.c.natural_logs.overworld": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.item.c.natural_woods": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.item.c.glass_blocks.tinted": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.item.c.glass_blocks.cheap": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.block.forge.stained_glass": [
+      {
+        "artifact": "net.minecraftforge:forge:1.20.1-47.3.0",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.block.forge.stained_glass_panes": [
+      {
+        "artifact": "net.minecraftforge:forge:1.20.1-47.3.0",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.block.c.bars": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.block.c.bars.copper": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.block.c.bars.iron": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.block.c.froglights": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.block.c.natural_logs": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.block.c.natural_logs.nether": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.block.c.natural_logs.overworld": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.block.c.natural_woods": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.block.c.glass_blocks.tinted": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.block.c.glass_blocks.cheap": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.item.c.tools.trident": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.item.c.foods.dough": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.item.c.loom_patterns": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.item.neoforge.enchanting_fuels": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.item.forge.heads": [
+      {
+        "artifact": "net.minecraftforge:forge:1.20.1-47.3.0",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.item.c.armors.horse": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.item.c.armors.humanoid": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.item.c.armors.nautilus": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.item.c.armors.wolf": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.item.c.nuggets.copper": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.item.c.buckets.entity_dry": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.item.c.spears": [
+      {
+        "artifact": "net.fabricmc.fabric-api:fabric-convention-tags-v1:1.5.6+1802ada577",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.item.c.swords": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.item.c.shovels": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.item.c.pickaxes": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.item.c.hoes": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.item.c.axes": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.item.forge.armors.leggings": [
+      {
+        "artifact": "net.minecraftforge:forge:1.20.1-47.3.0",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.item.forge.armors.helmets": [
+      {
+        "artifact": "net.minecraftforge:forge:1.20.1-47.3.0",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.item.forge.armors.chestplates": [
+      {
+        "artifact": "net.minecraftforge:forge:1.20.1-47.3.0",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.item.forge.armors.boots": [
+      {
+        "artifact": "net.minecraftforge:forge:1.20.1-47.3.0",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.entity_type.c.item_frames": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.block.neoforge.enderman_place_on_blacklist": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.block.neoforge.villager_farmlands": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.block.neoforge.needs_wood_tool": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.block.neoforge.needs_gold_tool": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.block.neoforge.needs_netherite_tool": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.item.neoforge.piglin_usable_crossbows": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.item.neoforge.pillager_usable_crossbows": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.item.neoforge.skeleton_usable_bows": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.damage_type.neoforge.is_environment": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.damage_type.neoforge.is_magic": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.damage_type.neoforge.is_physical": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.damage_type.neoforge.is_poison": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.damage_type.neoforge.is_technical": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.damage_type.neoforge.is_wither": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.damage_type.neoforge.no_flinch": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.enchantment.c.hidden_from_recipe_viewers": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.potion.c.hidden_from_recipe_viewers": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.enchantment.c.weapon_damage_enhancement": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.enchantment.c.looting": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.enchantment.c.fortune": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.enchantment.c.entity_movement_enhancement": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.enchantment.c.entity_defense_enhancement": [
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "tag declarations and bundled data/*/tags resources"
+      }
+    ],
+    "command_translation.tag.world_clock.neoforge.ignores.pause_command": [
+      {
+        "artifact": "net.neoforged:neoforge:26.1.2.84",
+        "file": "net/neoforged/neoforge/common/Tags.java#WorldClocks"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "net/neoforged/neoforge/common/Tags.java#WorldClocks"
+      }
+    ],
+    "command_translation.tag.world_clock.neoforge.ignores.advance_time_rule": [
+      {
+        "artifact": "net.neoforged:neoforge:26.1.2.84",
+        "file": "net/neoforged/neoforge/common/Tags.java#WorldClocks"
+      },
+      {
+        "artifact": "net.neoforged:neoforge:26.2.0.88",
+        "file": "net/neoforged/neoforge/common/Tags.java#WorldClocks"
+      }
+    ]
+  }
+}

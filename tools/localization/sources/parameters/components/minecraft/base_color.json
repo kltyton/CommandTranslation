@@ -1,0 +1,30 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:base_color": "The base dye color of the banner carried on a shield."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:base_color": "盾牌上所带旗帜的底色。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:base_color": "Die Grundfarbstofffarbe des auf einem Schild getragenen Banners."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:base_color": "盾に付けた旗の下地の色。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:base_color": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

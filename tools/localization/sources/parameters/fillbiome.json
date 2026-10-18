@@ -1,0 +1,141 @@
+{
+  "en_us": {
+    "command_translation.help.argument.fillbiome.from": "One corner block position of the region whose biome is changed; biomes are stored in 4x4x4 cells, so the resulting edge is not perfectly straight.",
+    "command_translation.help.argument.fillbiome.to": "The opposite corner block position, completing the region to fill.",
+    "command_translation.help.argument.fillbiome.biome": "The biome to fill the area with; a biome tag is not accepted here.",
+    "command_translation.help.argument.fillbiome.replace": "Restricts the change to biomes matching the filter.",
+    "command_translation.help.argument.fillbiome.filter": "A biome or a #-prefixed biome tag selecting which existing biomes may be replaced."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.fillbiome.from": "要更改生物群系区域的一个角坐标，与 to 一起构成范围；群系按 4×4×4 单元存储，边界并不笔直。",
+    "command_translation.help.argument.fillbiome.to": "与之相对的另一个角坐标。",
+    "command_translation.help.argument.fillbiome.biome": "要写入该区域的生物群系；此处不接受生物群系标签。",
+    "command_translation.help.argument.fillbiome.replace": "只替换与过滤器匹配的群系。",
+    "command_translation.help.argument.fillbiome.filter": "限定哪些现有群系可被替换，可填群系或群系标签。"
+  },
+  "sources": {
+    "command_translation.help.argument.fillbiome.from": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ffillbiome",
+        "revision": 3789040
+      }
+    ],
+    "command_translation.help.argument.fillbiome.to": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ffillbiome",
+        "revision": 3789040
+      }
+    ],
+    "command_translation.help.argument.fillbiome.biome": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ffillbiome",
+        "revision": 3789040
+      }
+    ],
+    "command_translation.help.argument.fillbiome.replace": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ffillbiome",
+        "revision": 3789040
+      }
+    ],
+    "command_translation.help.argument.fillbiome.filter": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ffillbiome",
+        "revision": 3789040
+      }
+    ]
+  },
+  "bindings": {
+    "fillbiome.from": "command_translation.help.argument.fillbiome.from",
+    "fillbiome.from.to": "command_translation.help.argument.fillbiome.to",
+    "fillbiome.from.to.biome": "command_translation.help.argument.fillbiome.biome",
+    "fillbiome.from.to.biome.replace": "command_translation.help.argument.fillbiome.replace",
+    "fillbiome.from.to.biome.replace.filter": "command_translation.help.argument.fillbiome.filter"
+  },
+  "de_de": {
+    "command_translation.help.argument.fillbiome.from": "Eine Eck-Blockposition des Gebiets, dessen Biom geändert wird; Biome liegen in 4x4x4-Zellen, daher ist die Kante nicht ganz gerade.",
+    "command_translation.help.argument.fillbiome.to": "Die gegenüberliegende Eck-Blockposition, die das Gebiet vervollständigt.",
+    "command_translation.help.argument.fillbiome.biome": "Das Biom, mit dem das Gebiet gefüllt wird; ein Biom-Tag wird hier nicht akzeptiert.",
+    "command_translation.help.argument.fillbiome.replace": "Beschränkt die Änderung auf Biome, die dem Filter entsprechen.",
+    "command_translation.help.argument.fillbiome.filter": "Ein Biom oder ein Biom-Tag (# als Präfix), das wählt, welche vorhandenen Biome ersetzt werden dürfen."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.fillbiome.from": "バイオームを変更する領域の一角のブロック座標。バイオームは 4×4×4 のセル単位で保存されるため、境界は完全な直線にはならない。",
+    "command_translation.help.argument.fillbiome.to": "反対側の角のブロック座標。領域を確定する。",
+    "command_translation.help.argument.fillbiome.biome": "領域を埋めるバイオーム。ここではバイオームタグは使えない。",
+    "command_translation.help.argument.fillbiome.replace": "領域内のすべてではなく、フィルターに一致するバイオームだけを変更する。",
+    "command_translation.help.argument.fillbiome.filter": "置換対象となる既存バイオームを選ぶバイオームまたはタグ（# 付き）。"
+  },
+  "syntax": [
+    {
+      "path": "fillbiome",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "fillbiome.from",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "fillbiome.from.to",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "fillbiome.from.to.biome",
+      "type": "argument",
+      "parser": "minecraft:resource",
+      "properties": {
+        "registry": "minecraft:worldgen/biome"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "fillbiome.from.to.biome.replace",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "fillbiome.from.to.biome.replace.filter",
+      "type": "argument",
+      "parser": "minecraft:resource_or_tag",
+      "properties": {
+        "registry": "minecraft:worldgen/biome"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

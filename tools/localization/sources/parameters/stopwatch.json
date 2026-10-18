@@ -1,0 +1,170 @@
+{
+  "en_us": {
+    "command_translation.help.argument.stopwatch.create": "Creates and immediately starts a stopwatch with the given id, measuring real time.",
+    "command_translation.help.argument.stopwatch.remove": "Removes the stopwatch with the given id.",
+    "command_translation.help.argument.stopwatch.restart": "Resets the stopwatch to zero and starts it again.",
+    "command_translation.help.argument.stopwatch.query": "Reports the elapsed real time in seconds, plus an integer result scaled by scale.",
+    "command_translation.help.argument.stopwatch.id": "The resource location naming the stopwatch to operate on.",
+    "command_translation.help.argument.stopwatch.scale": "Multiplies the returned time, e.g. 20 turns seconds into game ticks; the chat display is unaffected."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.stopwatch.create": "用给定 id 创建并立即开始计时，测量真实时间。",
+    "command_translation.help.argument.stopwatch.remove": "删除具有给定 id 的计时器。",
+    "command_translation.help.argument.stopwatch.restart": "把计时器归零并重新开始。",
+    "command_translation.help.argument.stopwatch.query": "查询已计的真实秒数，并返回按 scale 换算的整数结果。",
+    "command_translation.help.argument.stopwatch.id": "要操作的计时器的资源位置 id。",
+    "command_translation.help.argument.stopwatch.scale": "返回值乘以该数值，如 20 把秒换成游戏刻；不影响聊天显示。"
+  },
+  "sources": {
+    "command_translation.help.argument.stopwatch.create": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fstopwatch",
+        "revision": 3757377
+      }
+    ],
+    "command_translation.help.argument.stopwatch.remove": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fstopwatch",
+        "revision": 3757377
+      }
+    ],
+    "command_translation.help.argument.stopwatch.restart": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fstopwatch",
+        "revision": 3757377
+      }
+    ],
+    "command_translation.help.argument.stopwatch.query": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fstopwatch",
+        "revision": 3757377
+      }
+    ],
+    "command_translation.help.argument.stopwatch.id": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fstopwatch",
+        "revision": 3757377
+      }
+    ],
+    "command_translation.help.argument.stopwatch.scale": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fstopwatch",
+        "revision": 3757377
+      }
+    ]
+  },
+  "bindings": {
+    "stopwatch.create": "command_translation.help.argument.stopwatch.create",
+    "stopwatch.create.id": "command_translation.help.argument.stopwatch.id",
+    "stopwatch.query": "command_translation.help.argument.stopwatch.query",
+    "stopwatch.query.id": "command_translation.help.argument.stopwatch.id",
+    "stopwatch.query.id.scale": "command_translation.help.argument.stopwatch.scale",
+    "stopwatch.remove": "command_translation.help.argument.stopwatch.remove",
+    "stopwatch.remove.id": "command_translation.help.argument.stopwatch.id",
+    "stopwatch.restart": "command_translation.help.argument.stopwatch.restart",
+    "stopwatch.restart.id": "command_translation.help.argument.stopwatch.id"
+  },
+  "de_de": {
+    "command_translation.help.argument.stopwatch.create": "Erstellt eine Stoppuhr mit der angegebenen id und startet sie sofort; sie misst die reale Zeit.",
+    "command_translation.help.argument.stopwatch.remove": "Entfernt die Stoppuhr mit der angegebenen id.",
+    "command_translation.help.argument.stopwatch.restart": "Setzt die Stoppuhr auf null und startet sie erneut.",
+    "command_translation.help.argument.stopwatch.query": "Meldet die verstrichene Echtzeit in Sekunden sowie ein mit scale multipliziertes ganzzahliges Ergebnis.",
+    "command_translation.help.argument.stopwatch.id": "Der Ressourcenort, der die Stoppuhr benennt.",
+    "command_translation.help.argument.stopwatch.scale": "Multipliziert die zurückgegebene Zeit, z. B. 20 macht aus Sekunden Spielticks; die Anzeige im Chat bleibt gleich."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.stopwatch.create": "指定した id のストップウォッチを作成し、すぐ開始する。実時間を測る。",
+    "command_translation.help.argument.stopwatch.remove": "指定した id のストップウォッチを削除する。",
+    "command_translation.help.argument.stopwatch.restart": "ストップウォッチを 0 に戻して再び開始する。",
+    "command_translation.help.argument.stopwatch.query": "経過した実時間を秒で表示し、scale を掛けた整数結果も返す。",
+    "command_translation.help.argument.stopwatch.id": "操作するストップウォッチのリソース位置。",
+    "command_translation.help.argument.stopwatch.scale": "返す時間に掛ける数値。例：20 で秒をゲームティックに換算。チャット表示は変わらない。"
+  },
+  "syntax": [
+    {
+      "path": "stopwatch",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "stopwatch.create",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "stopwatch.create.id",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "stopwatch.query",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "stopwatch.query.id",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "stopwatch.query.id.scale",
+      "type": "argument",
+      "parser": "brigadier:double",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "stopwatch.remove",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "stopwatch.remove.id",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "stopwatch.restart",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "stopwatch.restart.id",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

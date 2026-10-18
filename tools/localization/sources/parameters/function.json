@@ -1,0 +1,295 @@
+{
+  "en_us": {
+    "command_translation.help.argument.function.name": "The function or function tag to run: a resource location runs one function, a #-prefixed value runs every function in that tag, in the caller's execution context.",
+    "command_translation.help.argument.function.name.arguments": "Macro arguments given inline as one SNBT compound whose values replace the function's $(...) placeholders.",
+    "command_translation.help.argument.function.name.with": "Runs the function with arguments read from a separate NBT source (block, entity, or storage) instead of an inline compound.",
+    "command_translation.help.argument.function.name.with.block": "Reads the macro arguments from a block entity's NBT at a position.",
+    "command_translation.help.argument.function.name.with.block.sourcePos": "Block position of that block entity, as x y z.",
+    "command_translation.help.argument.function.name.with.block.sourcePos.path": "NBT path that must resolve to exactly one compound tag used as the arguments.",
+    "command_translation.help.argument.function.name.with.entity": "Reads the macro arguments from an entity's NBT.",
+    "command_translation.help.argument.function.name.with.entity.source": "The single entity supplying the arguments: a player name, target selector, or UUID.",
+    "command_translation.help.argument.function.name.with.entity.source.path": "NBT path that must resolve to exactly one compound tag used as the arguments.",
+    "command_translation.help.argument.function.name.with.storage": "Reads the macro arguments from a command NBT storage.",
+    "command_translation.help.argument.function.name.with.storage.source": "Resource location id of the storage to read arguments from; it need not be registered.",
+    "command_translation.help.argument.function.name.with.storage.source.path": "NBT path that must resolve to exactly one compound tag used as the arguments."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.function.name": "要运行的函数或函数标签：资源位置运行单个函数，以 # 开头则运行该标签内所有函数，并沿用调用者的执行上下文。",
+    "command_translation.help.argument.function.name.arguments": "以内联的一个 SNBT 复合标签给出的宏参数，其值会替换函数中的 $(...) 占位符。",
+    "command_translation.help.argument.function.name.with": "用从单独 NBT 来源（block、entity 或 storage）读取的参数运行函数，而非内联复合标签。",
+    "command_translation.help.argument.function.name.with.block": "从指定位置的方块实体 NBT 读取宏参数。",
+    "command_translation.help.argument.function.name.with.block.sourcePos": "该方块实体的位置，x y z。",
+    "command_translation.help.argument.function.name.with.block.sourcePos.path": "必须唯一解析到一个复合标签的 NBT 路径，该标签用作参数。",
+    "command_translation.help.argument.function.name.with.entity": "从某个实体的 NBT 读取宏参数。",
+    "command_translation.help.argument.function.name.with.entity.source": "提供参数的单个实体：玩家名、目标选择器或 UUID。",
+    "command_translation.help.argument.function.name.with.entity.source.path": "必须唯一解析到一个复合标签的 NBT 路径，该标签用作参数。",
+    "command_translation.help.argument.function.name.with.storage": "从命令 NBT 存储读取宏参数。",
+    "command_translation.help.argument.function.name.with.storage.source": "读取参数的存储的资源位置 id，无需注册。",
+    "command_translation.help.argument.function.name.with.storage.source.path": "必须唯一解析到一个复合标签的 NBT 路径，该标签用作参数。"
+  },
+  "sources": {
+    "command_translation.help.argument.function.name": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ffunction",
+        "revision": 3581313
+      }
+    ],
+    "command_translation.help.argument.function.name.arguments": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ffunction",
+        "revision": 3581313
+      }
+    ],
+    "command_translation.help.argument.function.name.with": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ffunction",
+        "revision": 3581313
+      }
+    ],
+    "command_translation.help.argument.function.name.with.block": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ffunction",
+        "revision": 3581313
+      }
+    ],
+    "command_translation.help.argument.function.name.with.block.sourcePos": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ffunction",
+        "revision": 3581313
+      }
+    ],
+    "command_translation.help.argument.function.name.with.block.sourcePos.path": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ffunction",
+        "revision": 3581313
+      },
+      {
+        "url": "https://minecraft.wiki/w/Argument%20types",
+        "revision": 3825973
+      }
+    ],
+    "command_translation.help.argument.function.name.with.entity": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ffunction",
+        "revision": 3581313
+      }
+    ],
+    "command_translation.help.argument.function.name.with.entity.source": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ffunction",
+        "revision": 3581313
+      },
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.argument.function.name.with.entity.source.path": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ffunction",
+        "revision": 3581313
+      },
+      {
+        "url": "https://minecraft.wiki/w/Argument%20types",
+        "revision": 3825973
+      }
+    ],
+    "command_translation.help.argument.function.name.with.storage": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ffunction",
+        "revision": 3581313
+      }
+    ],
+    "command_translation.help.argument.function.name.with.storage.source": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ffunction",
+        "revision": 3581313
+      }
+    ],
+    "command_translation.help.argument.function.name.with.storage.source.path": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ffunction",
+        "revision": 3581313
+      },
+      {
+        "url": "https://minecraft.wiki/w/Argument%20types",
+        "revision": 3825973
+      }
+    ]
+  },
+  "bindings": {
+    "function.name": "command_translation.help.argument.function.name",
+    "function.name.arguments": "command_translation.help.argument.function.name.arguments",
+    "function.name.with": "command_translation.help.argument.function.name.with",
+    "function.name.with.block": "command_translation.help.argument.function.name.with.block",
+    "function.name.with.block.sourcePos": "command_translation.help.argument.function.name.with.block.sourcePos",
+    "function.name.with.block.sourcePos.path": "command_translation.help.argument.function.name.with.block.sourcePos.path",
+    "function.name.with.entity": "command_translation.help.argument.function.name.with.entity",
+    "function.name.with.entity.source": "command_translation.help.argument.function.name.with.entity.source",
+    "function.name.with.entity.source.path": "command_translation.help.argument.function.name.with.entity.source.path",
+    "function.name.with.storage": "command_translation.help.argument.function.name.with.storage",
+    "function.name.with.storage.source": "command_translation.help.argument.function.name.with.storage.source",
+    "function.name.with.storage.source.path": "command_translation.help.argument.function.name.with.storage.source.path"
+  },
+  "de_de": {
+    "command_translation.help.argument.function.name": "Die auszuführende Funktion oder das Funktions-Tag: eine Ressourcenposition führt eine Funktion aus, ein #-Wert jede Funktion in diesem Tag, im Kontext des Aufrufers.",
+    "command_translation.help.argument.function.name.arguments": "Inline als ein SNBT-Compound angegebene Makro-Argumente, deren Werte die $(...)-Platzhalter der Funktion ersetzen.",
+    "command_translation.help.argument.function.name.with": "Führt die Funktion mit Argumenten aus, die aus einer separaten NBT-Quelle (block, entity oder storage) statt aus einem Inline-Compound gelesen werden.",
+    "command_translation.help.argument.function.name.with.block": "Liest die Makro-Argumente aus dem NBT eines Block-Entities an einer Position.",
+    "command_translation.help.argument.function.name.with.block.sourcePos": "Blockposition dieses Block-Entities, als x y z.",
+    "command_translation.help.argument.function.name.with.block.sourcePos.path": "NBT-Pfad, der sich auf genau ein als Argumente dienendes Compound-Tag auflösen muss.",
+    "command_translation.help.argument.function.name.with.entity": "Liest die Makro-Argumente aus dem NBT einer Entität.",
+    "command_translation.help.argument.function.name.with.entity.source": "Die einzelne Entität, die die Argumente liefert: ein Spielername, Zielselektor oder eine UUID.",
+    "command_translation.help.argument.function.name.with.entity.source.path": "NBT-Pfad, der sich auf genau ein als Argumente dienendes Compound-Tag auflösen muss.",
+    "command_translation.help.argument.function.name.with.storage": "Liest die Makro-Argumente aus einem Befehls-NBT-Speicher.",
+    "command_translation.help.argument.function.name.with.storage.source": "Ressourcenpositions-ID des Speichers, aus dem Argumente gelesen werden; er muss nicht registriert sein.",
+    "command_translation.help.argument.function.name.with.storage.source.path": "NBT-Pfad, der sich auf genau ein als Argumente dienendes Compound-Tag auflösen muss."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.function.name": "実行する関数または関数タグ。資源位置なら 1 関数を、# で始まる値ならそのタグ内の全関数を、呼び出し元の実行コンテキストで実行する。",
+    "command_translation.help.argument.function.name.arguments": "インラインで 1 つの SNBT 複合タグとして与えるマクロ引数で、その値が関数の $(...) プレースホルダーを置き換える。",
+    "command_translation.help.argument.function.name.with": "インラインの複合タグの代わりに、別の NBT ソース（block、entity、storage）から読み取った引数で関数を実行する。",
+    "command_translation.help.argument.function.name.with.block": "指定した位置のブロックエンティティの NBT からマクロ引数を読み取る。",
+    "command_translation.help.argument.function.name.with.block.sourcePos": "そのブロックエンティティのブロック位置。x y z。",
+    "command_translation.help.argument.function.name.with.block.sourcePos.path": "引数として使う複合タグに必ず 1 つだけ解決される NBT パス。",
+    "command_translation.help.argument.function.name.with.entity": "エンティティの NBT からマクロ引数を読み取る。",
+    "command_translation.help.argument.function.name.with.entity.source": "引数を提供する単一のエンティティ：プレイヤー名、ターゲットセレクター、または UUID。",
+    "command_translation.help.argument.function.name.with.entity.source.path": "引数として使う複合タグに必ず 1 つだけ解決される NBT パス。",
+    "command_translation.help.argument.function.name.with.storage": "コマンド NBT ストレージからマクロ引数を読み取る。",
+    "command_translation.help.argument.function.name.with.storage.source": "引数を読み取るストレージの資源位置 ID。登録は不要。",
+    "command_translation.help.argument.function.name.with.storage.source.path": "引数として使う複合タグに必ず 1 つだけ解決される NBT パス。"
+  },
+  "syntax": [
+    {
+      "path": "function",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "function.name",
+      "type": "argument",
+      "parser": "minecraft:function",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "function.name.arguments",
+      "type": "argument",
+      "parser": "minecraft:nbt_compound_tag",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "function.name.with",
+      "type": "literal",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "function.name.with.block",
+      "type": "literal",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "function.name.with.block.sourcePos",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "function.name.with.block.sourcePos.path",
+      "type": "argument",
+      "parser": "minecraft:nbt_path",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "function.name.with.entity",
+      "type": "literal",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "function.name.with.entity.source",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "single"
+      },
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "function.name.with.entity.source.path",
+      "type": "argument",
+      "parser": "minecraft:nbt_path",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "function.name.with.storage",
+      "type": "literal",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "function.name.with.storage.source",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "function.name.with.storage.source.path",
+      "type": "argument",
+      "parser": "minecraft:nbt_path",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

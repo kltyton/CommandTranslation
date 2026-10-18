@@ -1,0 +1,30 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:rarity": "Sets the item's rarity, which determines the default color of its name."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:rarity": "设置物品的稀有度，决定其名称的默认颜色。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:rarity": "Legt die Seltenheit des Items fest, die die Standardfarbe seines Namens bestimmt."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:rarity": "アイテムの希少度を設定し、名前の既定の色を決める。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:rarity": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

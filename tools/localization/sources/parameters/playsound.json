@@ -1,0 +1,1142 @@
+{
+  "en_us": {
+    "command_translation.help.argument.playsound.sound": "The sound event defined in sounds.json; one event may pick one of several sound files at random.",
+    "command_translation.help.argument.playsound.targets": "The players who should hear the sound.",
+    "command_translation.help.argument.playsound.pos": "The position the sound comes from.",
+    "command_translation.help.argument.playsound.volume": "Sound volume, default 1; below 1 makes it quieter, above 1 mainly extends its audible radius rather than making it louder.",
+    "command_translation.help.argument.playsound.pitch": "Pitch and speed multiplier, default 1; below 0.5 is treated as 0.5, and above 1 raises the pitch and shortens the sound.",
+    "command_translation.help.argument.playsound.minVolume": "Volume for targets outside the normal audible sphere; defaults to 0, meaning they hear nothing.",
+    "command_translation.help.value.playsound.source.ambient": "Ambient source channel: environmental background sounds.",
+    "command_translation.help.value.playsound.source.block": "Block source channel: breaking and placing sounds.",
+    "command_translation.help.value.playsound.source.hostile": "Hostile source channel: hostile mob sounds.",
+    "command_translation.help.value.playsound.source.master": "Master source channel (the default).",
+    "command_translation.help.value.playsound.source.music": "Music source channel.",
+    "command_translation.help.value.playsound.source.neutral": "Neutral source channel: passive mob sounds.",
+    "command_translation.help.value.playsound.source.player": "Player source channel.",
+    "command_translation.help.value.playsound.source.record": "Record source channel: jukebox playback.",
+    "command_translation.help.value.playsound.source.voice": "Voice source channel.",
+    "command_translation.help.value.playsound.source.weather": "Weather source channel.",
+    "command_translation.help.value.playsound.source.ui": "UI source channel."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.playsound.sound": "定义在 sounds.json 中的声音事件；一个事件可能随机选取多个声音文件之一。",
+    "command_translation.help.argument.playsound.targets": "要听到声音的玩家。",
+    "command_translation.help.argument.playsound.pos": "声音来源的坐标。",
+    "command_translation.help.argument.playsound.volume": "声音音量，默认 1；小于 1 会减小音量，大于 1 主要扩大可听半径而非提高响度。",
+    "command_translation.help.argument.playsound.pitch": "音调与速度的倍率，默认 1；小于 0.5 按 0.5 处理，大于 1 会提高音调并缩短声音。",
+    "command_translation.help.argument.playsound.minVolume": "处于正常可听范围之外的目标听到的音量；默认为 0，即听不到。",
+    "command_translation.help.value.playsound.source.ambient": "环境声道：环境背景音。",
+    "command_translation.help.value.playsound.source.block": "方块声道：破坏与放置音效。",
+    "command_translation.help.value.playsound.source.hostile": "敌对声道：敌对生物音效。",
+    "command_translation.help.value.playsound.source.master": "主声道（默认）。",
+    "command_translation.help.value.playsound.source.music": "音乐声道。",
+    "command_translation.help.value.playsound.source.neutral": "中立声道：被动生物音效。",
+    "command_translation.help.value.playsound.source.player": "玩家声道。",
+    "command_translation.help.value.playsound.source.record": "唱片声道：唱片机播放。",
+    "command_translation.help.value.playsound.source.voice": "语音声道。",
+    "command_translation.help.value.playsound.source.weather": "天气声道。",
+    "command_translation.help.value.playsound.source.ui": "界面声道。"
+  },
+  "sources": {
+    "command_translation.help.argument.playsound.sound": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplaysound",
+        "revision": 3844881
+      }
+    ],
+    "command_translation.help.argument.playsound.targets": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplaysound",
+        "revision": 3844881
+      }
+    ],
+    "command_translation.help.argument.playsound.pos": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplaysound",
+        "revision": 3844881
+      }
+    ],
+    "command_translation.help.argument.playsound.volume": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplaysound",
+        "revision": 3844881
+      }
+    ],
+    "command_translation.help.argument.playsound.pitch": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplaysound",
+        "revision": 3844881
+      }
+    ],
+    "command_translation.help.argument.playsound.minVolume": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplaysound",
+        "revision": 3844881
+      }
+    ],
+    "command_translation.help.value.playsound.source.ambient": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplaysound",
+        "revision": 3844881
+      }
+    ],
+    "command_translation.help.value.playsound.source.block": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplaysound",
+        "revision": 3844881
+      }
+    ],
+    "command_translation.help.value.playsound.source.hostile": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplaysound",
+        "revision": 3844881
+      }
+    ],
+    "command_translation.help.value.playsound.source.master": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplaysound",
+        "revision": 3844881
+      }
+    ],
+    "command_translation.help.value.playsound.source.music": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplaysound",
+        "revision": 3844881
+      }
+    ],
+    "command_translation.help.value.playsound.source.neutral": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplaysound",
+        "revision": 3844881
+      }
+    ],
+    "command_translation.help.value.playsound.source.player": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplaysound",
+        "revision": 3844881
+      }
+    ],
+    "command_translation.help.value.playsound.source.record": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplaysound",
+        "revision": 3844881
+      }
+    ],
+    "command_translation.help.value.playsound.source.voice": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplaysound",
+        "revision": 3844881
+      }
+    ],
+    "command_translation.help.value.playsound.source.weather": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplaysound",
+        "revision": 3844881
+      }
+    ],
+    "command_translation.help.value.playsound.source.ui": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplaysound",
+        "revision": 3844881
+      }
+    ]
+  },
+  "bindings": {
+    "playsound.sound": "command_translation.help.argument.playsound.sound",
+    "playsound.sound.ambient": "command_translation.help.value.playsound.source.ambient",
+    "playsound.sound.ambient.targets": "command_translation.help.argument.playsound.targets",
+    "playsound.sound.ambient.targets.pos": "command_translation.help.argument.playsound.pos",
+    "playsound.sound.ambient.targets.pos.volume": "command_translation.help.argument.playsound.volume",
+    "playsound.sound.ambient.targets.pos.volume.pitch": "command_translation.help.argument.playsound.pitch",
+    "playsound.sound.ambient.targets.pos.volume.pitch.minVolume": "command_translation.help.argument.playsound.minVolume",
+    "playsound.sound.block": "command_translation.help.value.playsound.source.block",
+    "playsound.sound.block.targets": "command_translation.help.argument.playsound.targets",
+    "playsound.sound.block.targets.pos": "command_translation.help.argument.playsound.pos",
+    "playsound.sound.block.targets.pos.volume": "command_translation.help.argument.playsound.volume",
+    "playsound.sound.block.targets.pos.volume.pitch": "command_translation.help.argument.playsound.pitch",
+    "playsound.sound.block.targets.pos.volume.pitch.minVolume": "command_translation.help.argument.playsound.minVolume",
+    "playsound.sound.hostile": "command_translation.help.value.playsound.source.hostile",
+    "playsound.sound.hostile.targets": "command_translation.help.argument.playsound.targets",
+    "playsound.sound.hostile.targets.pos": "command_translation.help.argument.playsound.pos",
+    "playsound.sound.hostile.targets.pos.volume": "command_translation.help.argument.playsound.volume",
+    "playsound.sound.hostile.targets.pos.volume.pitch": "command_translation.help.argument.playsound.pitch",
+    "playsound.sound.hostile.targets.pos.volume.pitch.minVolume": "command_translation.help.argument.playsound.minVolume",
+    "playsound.sound.master": "command_translation.help.value.playsound.source.master",
+    "playsound.sound.master.targets": "command_translation.help.argument.playsound.targets",
+    "playsound.sound.master.targets.pos": "command_translation.help.argument.playsound.pos",
+    "playsound.sound.master.targets.pos.volume": "command_translation.help.argument.playsound.volume",
+    "playsound.sound.master.targets.pos.volume.pitch": "command_translation.help.argument.playsound.pitch",
+    "playsound.sound.master.targets.pos.volume.pitch.minVolume": "command_translation.help.argument.playsound.minVolume",
+    "playsound.sound.music": "command_translation.help.value.playsound.source.music",
+    "playsound.sound.music.targets": "command_translation.help.argument.playsound.targets",
+    "playsound.sound.music.targets.pos": "command_translation.help.argument.playsound.pos",
+    "playsound.sound.music.targets.pos.volume": "command_translation.help.argument.playsound.volume",
+    "playsound.sound.music.targets.pos.volume.pitch": "command_translation.help.argument.playsound.pitch",
+    "playsound.sound.music.targets.pos.volume.pitch.minVolume": "command_translation.help.argument.playsound.minVolume",
+    "playsound.sound.neutral": "command_translation.help.value.playsound.source.neutral",
+    "playsound.sound.neutral.targets": "command_translation.help.argument.playsound.targets",
+    "playsound.sound.neutral.targets.pos": "command_translation.help.argument.playsound.pos",
+    "playsound.sound.neutral.targets.pos.volume": "command_translation.help.argument.playsound.volume",
+    "playsound.sound.neutral.targets.pos.volume.pitch": "command_translation.help.argument.playsound.pitch",
+    "playsound.sound.neutral.targets.pos.volume.pitch.minVolume": "command_translation.help.argument.playsound.minVolume",
+    "playsound.sound.player": "command_translation.help.value.playsound.source.player",
+    "playsound.sound.player.targets": "command_translation.help.argument.playsound.targets",
+    "playsound.sound.player.targets.pos": "command_translation.help.argument.playsound.pos",
+    "playsound.sound.player.targets.pos.volume": "command_translation.help.argument.playsound.volume",
+    "playsound.sound.player.targets.pos.volume.pitch": "command_translation.help.argument.playsound.pitch",
+    "playsound.sound.player.targets.pos.volume.pitch.minVolume": "command_translation.help.argument.playsound.minVolume",
+    "playsound.sound.record": "command_translation.help.value.playsound.source.record",
+    "playsound.sound.record.targets": "command_translation.help.argument.playsound.targets",
+    "playsound.sound.record.targets.pos": "command_translation.help.argument.playsound.pos",
+    "playsound.sound.record.targets.pos.volume": "command_translation.help.argument.playsound.volume",
+    "playsound.sound.record.targets.pos.volume.pitch": "command_translation.help.argument.playsound.pitch",
+    "playsound.sound.record.targets.pos.volume.pitch.minVolume": "command_translation.help.argument.playsound.minVolume",
+    "playsound.sound.ui": "command_translation.help.value.playsound.source.ui",
+    "playsound.sound.ui.targets": "command_translation.help.argument.playsound.targets",
+    "playsound.sound.ui.targets.pos": "command_translation.help.argument.playsound.pos",
+    "playsound.sound.ui.targets.pos.volume": "command_translation.help.argument.playsound.volume",
+    "playsound.sound.ui.targets.pos.volume.pitch": "command_translation.help.argument.playsound.pitch",
+    "playsound.sound.ui.targets.pos.volume.pitch.minVolume": "command_translation.help.argument.playsound.minVolume",
+    "playsound.sound.voice": "command_translation.help.value.playsound.source.voice",
+    "playsound.sound.voice.targets": "command_translation.help.argument.playsound.targets",
+    "playsound.sound.voice.targets.pos": "command_translation.help.argument.playsound.pos",
+    "playsound.sound.voice.targets.pos.volume": "command_translation.help.argument.playsound.volume",
+    "playsound.sound.voice.targets.pos.volume.pitch": "command_translation.help.argument.playsound.pitch",
+    "playsound.sound.voice.targets.pos.volume.pitch.minVolume": "command_translation.help.argument.playsound.minVolume",
+    "playsound.sound.weather": "command_translation.help.value.playsound.source.weather",
+    "playsound.sound.weather.targets": "command_translation.help.argument.playsound.targets",
+    "playsound.sound.weather.targets.pos": "command_translation.help.argument.playsound.pos",
+    "playsound.sound.weather.targets.pos.volume": "command_translation.help.argument.playsound.volume",
+    "playsound.sound.weather.targets.pos.volume.pitch": "command_translation.help.argument.playsound.pitch",
+    "playsound.sound.weather.targets.pos.volume.pitch.minVolume": "command_translation.help.argument.playsound.minVolume"
+  },
+  "de_de": {
+    "command_translation.help.argument.playsound.sound": "Das in sounds.json definierte Sound-Event; ein Event kann zufällig eine von mehreren Sounddateien wählen.",
+    "command_translation.help.argument.playsound.targets": "Die Spieler, die den Ton hören sollen.",
+    "command_translation.help.argument.playsound.pos": "Die Position, von der der Sound kommt.",
+    "command_translation.help.argument.playsound.volume": "Lautstärke, Standard 1; unter 1 wird der Ton leiser, über 1 vergrößert sich vor allem der Hörbereich statt der Lautstärke.",
+    "command_translation.help.argument.playsound.pitch": "Tonhöhen- und Geschwindigkeitsmultiplikator, Standard 1; unter 0,5 wird als 0,5 behandelt, über 1 erhöht die Tonhöhe und verkürzt den Sound.",
+    "command_translation.help.argument.playsound.minVolume": "Lautstärke für Ziele außerhalb der normalen Hörkugel; Standard 0, d. h. sie hören nichts.",
+    "command_translation.help.value.playsound.source.ambient": "Ambient-Kanal: Umgebungsgeräusche.",
+    "command_translation.help.value.playsound.source.block": "Block-Kanal: Abbau- und Setzgeräusche.",
+    "command_translation.help.value.playsound.source.hostile": "Feindlicher Kanal: Geräusche feindlicher Mobs.",
+    "command_translation.help.value.playsound.source.master": "Master-Kanal (Standard).",
+    "command_translation.help.value.playsound.source.music": "Musik-Kanal.",
+    "command_translation.help.value.playsound.source.neutral": "Neutraler Kanal: Geräusche passiver Mobs.",
+    "command_translation.help.value.playsound.source.player": "Spieler-Kanal.",
+    "command_translation.help.value.playsound.source.record": "Platten-Kanal: Jukebox-Wiedergabe.",
+    "command_translation.help.value.playsound.source.voice": "Stimm-Kanal.",
+    "command_translation.help.value.playsound.source.weather": "Wetter-Kanal.",
+    "command_translation.help.value.playsound.source.ui": "UI-Kanal."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.playsound.sound": "sounds.json で定義されたサウンドイベント。1 つのイベントは複数のサウンドファイルからランダムに 1 つ選ぶことがある。",
+    "command_translation.help.argument.playsound.targets": "音を聞かせるプレイヤー。",
+    "command_translation.help.argument.playsound.pos": "音の発生位置。",
+    "command_translation.help.argument.playsound.volume": "音量。既定値は 1。1 未満では小さくなり、1 を超えると音量ではなく聞こえる範囲が広がる。",
+    "command_translation.help.argument.playsound.pitch": "ピッチと速度の倍率。既定は 1。0.5 未満は 0.5 として扱われ、1 より大きいとピッチが上がり音が短くなる。",
+    "command_translation.help.argument.playsound.minVolume": "通常の可聴球の外にいる対象への音量。既定は 0 で、その場合は聞こえない。",
+    "command_translation.help.value.playsound.source.ambient": "環境チャンネル：環境の背景音。",
+    "command_translation.help.value.playsound.source.block": "ブロックチャンネル：破壊・設置の音。",
+    "command_translation.help.value.playsound.source.hostile": "敵対チャンネル：敵対モブの音。",
+    "command_translation.help.value.playsound.source.master": "マスターチャンネル（既定）。",
+    "command_translation.help.value.playsound.source.music": "音楽チャンネル。",
+    "command_translation.help.value.playsound.source.neutral": "中立チャンネル：受動モブの音。",
+    "command_translation.help.value.playsound.source.player": "プレイヤーチャンネル。",
+    "command_translation.help.value.playsound.source.record": "レコードチャンネル：ジュークボックスの再生。",
+    "command_translation.help.value.playsound.source.voice": "ボイスチャンネル。",
+    "command_translation.help.value.playsound.source.weather": "天候チャンネル。",
+    "command_translation.help.value.playsound.source.ui": "UI チャンネル。"
+  },
+  "syntax": [
+    {
+      "path": "playsound",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.ambient",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.ambient.targets",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "players",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.ambient.targets.pos",
+      "type": "argument",
+      "parser": "minecraft:vec3",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.ambient.targets.pos.volume",
+      "type": "argument",
+      "parser": "brigadier:float",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.ambient.targets.pos.volume.pitch",
+      "type": "argument",
+      "parser": "brigadier:float",
+      "properties": {
+        "max": 2,
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.ambient.targets.pos.volume.pitch.minVolume",
+      "type": "argument",
+      "parser": "brigadier:float",
+      "properties": {
+        "max": 1,
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.block",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.block.targets",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "players",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.block.targets.pos",
+      "type": "argument",
+      "parser": "minecraft:vec3",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.block.targets.pos.volume",
+      "type": "argument",
+      "parser": "brigadier:float",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.block.targets.pos.volume.pitch",
+      "type": "argument",
+      "parser": "brigadier:float",
+      "properties": {
+        "max": 2,
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.block.targets.pos.volume.pitch.minVolume",
+      "type": "argument",
+      "parser": "brigadier:float",
+      "properties": {
+        "max": 1,
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.hostile",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.hostile.targets",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "players",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.hostile.targets.pos",
+      "type": "argument",
+      "parser": "minecraft:vec3",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.hostile.targets.pos.volume",
+      "type": "argument",
+      "parser": "brigadier:float",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.hostile.targets.pos.volume.pitch",
+      "type": "argument",
+      "parser": "brigadier:float",
+      "properties": {
+        "max": 2,
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.hostile.targets.pos.volume.pitch.minVolume",
+      "type": "argument",
+      "parser": "brigadier:float",
+      "properties": {
+        "max": 1,
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.master",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.master.targets",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "players",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.master.targets.pos",
+      "type": "argument",
+      "parser": "minecraft:vec3",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.master.targets.pos.volume",
+      "type": "argument",
+      "parser": "brigadier:float",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.master.targets.pos.volume.pitch",
+      "type": "argument",
+      "parser": "brigadier:float",
+      "properties": {
+        "max": 2,
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.master.targets.pos.volume.pitch.minVolume",
+      "type": "argument",
+      "parser": "brigadier:float",
+      "properties": {
+        "max": 1,
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.music",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.music.targets",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "players",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.music.targets.pos",
+      "type": "argument",
+      "parser": "minecraft:vec3",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.music.targets.pos.volume",
+      "type": "argument",
+      "parser": "brigadier:float",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.music.targets.pos.volume.pitch",
+      "type": "argument",
+      "parser": "brigadier:float",
+      "properties": {
+        "max": 2,
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.music.targets.pos.volume.pitch.minVolume",
+      "type": "argument",
+      "parser": "brigadier:float",
+      "properties": {
+        "max": 1,
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.neutral",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.neutral.targets",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "players",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.neutral.targets.pos",
+      "type": "argument",
+      "parser": "minecraft:vec3",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.neutral.targets.pos.volume",
+      "type": "argument",
+      "parser": "brigadier:float",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.neutral.targets.pos.volume.pitch",
+      "type": "argument",
+      "parser": "brigadier:float",
+      "properties": {
+        "max": 2,
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.neutral.targets.pos.volume.pitch.minVolume",
+      "type": "argument",
+      "parser": "brigadier:float",
+      "properties": {
+        "max": 1,
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.player",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.player.targets",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "players",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.player.targets.pos",
+      "type": "argument",
+      "parser": "minecraft:vec3",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.player.targets.pos.volume",
+      "type": "argument",
+      "parser": "brigadier:float",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.player.targets.pos.volume.pitch",
+      "type": "argument",
+      "parser": "brigadier:float",
+      "properties": {
+        "max": 2,
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.player.targets.pos.volume.pitch.minVolume",
+      "type": "argument",
+      "parser": "brigadier:float",
+      "properties": {
+        "max": 1,
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.record",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.record.targets",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "players",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.record.targets.pos",
+      "type": "argument",
+      "parser": "minecraft:vec3",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.record.targets.pos.volume",
+      "type": "argument",
+      "parser": "brigadier:float",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.record.targets.pos.volume.pitch",
+      "type": "argument",
+      "parser": "brigadier:float",
+      "properties": {
+        "max": 2,
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.record.targets.pos.volume.pitch.minVolume",
+      "type": "argument",
+      "parser": "brigadier:float",
+      "properties": {
+        "max": 1,
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.voice",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.voice.targets",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "players",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.voice.targets.pos",
+      "type": "argument",
+      "parser": "minecraft:vec3",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.voice.targets.pos.volume",
+      "type": "argument",
+      "parser": "brigadier:float",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.voice.targets.pos.volume.pitch",
+      "type": "argument",
+      "parser": "brigadier:float",
+      "properties": {
+        "max": 2,
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.voice.targets.pos.volume.pitch.minVolume",
+      "type": "argument",
+      "parser": "brigadier:float",
+      "properties": {
+        "max": 1,
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.weather",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.weather.targets",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "players",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.weather.targets.pos",
+      "type": "argument",
+      "parser": "minecraft:vec3",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.weather.targets.pos.volume",
+      "type": "argument",
+      "parser": "brigadier:float",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.weather.targets.pos.volume.pitch",
+      "type": "argument",
+      "parser": "brigadier:float",
+      "properties": {
+        "max": 2,
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.weather.targets.pos.volume.pitch.minVolume",
+      "type": "argument",
+      "parser": "brigadier:float",
+      "properties": {
+        "max": 1,
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.ui",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.ui.targets",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "players",
+        "amount": "multiple"
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.ui.targets.pos",
+      "type": "argument",
+      "parser": "minecraft:vec3",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.ui.targets.pos.volume",
+      "type": "argument",
+      "parser": "brigadier:float",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.ui.targets.pos.volume.pitch",
+      "type": "argument",
+      "parser": "brigadier:float",
+      "properties": {
+        "max": 2,
+        "min": 0
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "playsound.sound.ui.targets.pos.volume.pitch.minVolume",
+      "type": "argument",
+      "parser": "brigadier:float",
+      "properties": {
+        "max": 1,
+        "min": 0
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

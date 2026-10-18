@@ -1,0 +1,260 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:consumable": "Makes the item consumable on use.",
+    "command_translation.help.component.minecraft:consumable.field.consume_seconds": "The time in seconds needed to consume the item.",
+    "command_translation.help.component.minecraft:consumable.field.animation": "The animation played while consuming the item.",
+    "command_translation.help.component.minecraft:consumable.field.sound": "The sound event played during and after consumption.",
+    "command_translation.help.component.minecraft:consumable.field.has_consume_particles": "Whether particles appear while consuming the item.",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects": "The effects that occur when this item is consumed.",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.type": "The kind of consume effect.",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.type.value.minecraft:apply_effects": "Applies the listed effects to the consumer.",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.type.value.minecraft:remove_effects": "Removes the listed effects from the consumer.",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.type.value.minecraft:clear_all_effects": "Clears all effects from the consumer.",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.type.value.minecraft:teleport_randomly": "Teleports the consumer to a random nearby location.",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.type.value.minecraft:play_sound": "Plays a sound.",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.effects": "The status effects to add or remove.",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.effects.id": "The ID of the effect.",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.effects.amplifier": "The effect amplifier, with level I being 0.",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.effects.duration": "The effect duration in ticks.",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.effects.ambient": "Whether the effect is less intrusive on screen like a beacon effect.",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.effects.show_particles": "Whether the effect produces particles.",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.effects.show_icon": "Whether an icon is shown for the effect.",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.probability": "The chance for these effects to be applied.",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.sound": "The sound event to play.",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.diameter": "The diameter within which the consumer is teleported."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:consumable": "使物品可在使用时被消耗。",
+    "command_translation.help.component.minecraft:consumable.field.consume_seconds": "消耗该物品所需的秒数。",
+    "command_translation.help.component.minecraft:consumable.field.animation": "消耗物品时播放的动画。",
+    "command_translation.help.component.minecraft:consumable.field.sound": "消耗过程中及完成时播放的声音事件。",
+    "command_translation.help.component.minecraft:consumable.field.has_consume_particles": "消耗物品时是否产生粒子。",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects": "消耗该物品时产生的效果。",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.type": "消耗效果的种类。",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.type.value.minecraft:apply_effects": "向使用者施加所列效果。",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.type.value.minecraft:remove_effects": "从使用者移除所列效果。",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.type.value.minecraft:clear_all_effects": "清除使用者的所有效果。",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.type.value.minecraft:teleport_randomly": "将使用者随机传送到附近位置。",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.type.value.minecraft:play_sound": "播放声音。",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.effects": "要添加或移除的状态效果。",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.effects.id": "效果的 ID。",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.effects.amplifier": "效果等级，I 级为 0。",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.effects.duration": "效果持续时间（刻）。",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.effects.ambient": "该效果是否如信标效果那样在屏幕上较不显眼。",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.effects.show_particles": "该效果是否产生粒子。",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.effects.show_icon": "是否为该效果显示图标。",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.probability": "施加这些效果的概率。",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.sound": "要播放的声音事件。",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.diameter": "使用者被传送的范围直径。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:consumable": "Macht das Item bei Benutzung verzehrbar.",
+    "command_translation.help.component.minecraft:consumable.field.consume_seconds": "Die Zeit in Sekunden, die zum Verzehren benötigt wird.",
+    "command_translation.help.component.minecraft:consumable.field.animation": "Die beim Verzehren abgespielte Animation.",
+    "command_translation.help.component.minecraft:consumable.field.sound": "Das Geräuschereignis während und nach dem Verzehr.",
+    "command_translation.help.component.minecraft:consumable.field.has_consume_particles": "Ob beim Verzehren Partikel erscheinen.",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects": "Die beim Verzehr dieses Items auftretenden Effekte.",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.type": "Die Art des Verzehreffekts.",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.type.value.minecraft:apply_effects": "Wendet die aufgeführten Effekte auf den Verbraucher an.",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.type.value.minecraft:remove_effects": "Entfernt die aufgeführten Effekte vom Verbraucher.",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.type.value.minecraft:clear_all_effects": "Entfernt alle Effekte des Verbrauchers.",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.type.value.minecraft:teleport_randomly": "Teleportiert den Verbraucher an einen zufälligen Ort in der Nähe.",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.type.value.minecraft:play_sound": "Spielt ein Geräusch ab.",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.effects": "Die hinzuzufügenden oder zu entfernenden Statuseffekte.",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.effects.id": "Die ID des Effekts.",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.effects.amplifier": "Der Effektverstärker, wobei Stufe I den Wert 0 hat.",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.effects.duration": "Die Wirkungsdauer in Ticks.",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.effects.ambient": "Ob der Effekt wie ein Leuchtfeuereffekt auf dem Bildschirm weniger aufdringlich ist.",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.effects.show_particles": "Ob der Effekt Partikel erzeugt.",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.effects.show_icon": "Ob ein Symbol für den Effekt angezeigt wird.",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.probability": "Die Wahrscheinlichkeit, dass diese Effekte angewendet werden.",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.sound": "Das abzuspielende Geräuschereignis.",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.diameter": "Der Durchmesser, innerhalb dessen der Verbraucher teleportiert wird."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:consumable": "アイテムを使用時に消費できるようにする。",
+    "command_translation.help.component.minecraft:consumable.field.consume_seconds": "アイテムを消費するのに必要な秒数。",
+    "command_translation.help.component.minecraft:consumable.field.animation": "消費中に再生されるアニメーション。",
+    "command_translation.help.component.minecraft:consumable.field.sound": "消費中と完了時に再生されるサウンドイベント。",
+    "command_translation.help.component.minecraft:consumable.field.has_consume_particles": "消費中にパーティクルを出すか。",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects": "このアイテムを消費したときに発生する効果。",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.type": "消費効果の種類。",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.type.value.minecraft:apply_effects": "一覧の効果を使用者に付与する。",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.type.value.minecraft:remove_effects": "一覧の効果を使用者から解除する。",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.type.value.minecraft:clear_all_effects": "使用者の全効果を解除する。",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.type.value.minecraft:teleport_randomly": "使用者を付近のランダムな位置へテレポートする。",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.type.value.minecraft:play_sound": "サウンドを再生する。",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.effects": "追加または解除する状態効果。",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.effects.id": "効果のID。",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.effects.amplifier": "効果の強度。レベルIが0。",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.effects.duration": "効果の持続時間（ティック）。",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.effects.ambient": "ビーコン効果のように画面上で控えめに表示されるか。",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.effects.show_particles": "この効果がパーティクルを出すか。",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.effects.show_icon": "この効果のアイコンを表示するか。",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.probability": "これらの効果が付与される確率。",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.sound": "再生するサウンドイベント。",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.diameter": "使用者がテレポートする範囲の直径。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:consumable": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:consumable.field.consume_seconds": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:consumable.field.animation": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:consumable.field.sound": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:consumable.field.has_consume_particles": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects": [
+      {
+        "url": "https://minecraft.wiki/w/Template%3ANbt%20inherit%2Fconsume%20effect%2Ftemplate",
+        "revision": 2857184
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.type": [
+      {
+        "url": "https://minecraft.wiki/w/Template%3ANbt%20inherit%2Fconsume%20effect%2Ftemplate",
+        "revision": 2857184
+      }
+    ],
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.type.value.minecraft:apply_effects": [
+      {
+        "url": "https://minecraft.wiki/w/Template%3ANbt%20inherit%2Fconsume%20effect%2Ftemplate",
+        "revision": 2857184
+      }
+    ],
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.type.value.minecraft:remove_effects": [
+      {
+        "url": "https://minecraft.wiki/w/Template%3ANbt%20inherit%2Fconsume%20effect%2Ftemplate",
+        "revision": 2857184
+      }
+    ],
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.type.value.minecraft:clear_all_effects": [
+      {
+        "url": "https://minecraft.wiki/w/Template%3ANbt%20inherit%2Fconsume%20effect%2Ftemplate",
+        "revision": 2857184
+      }
+    ],
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.type.value.minecraft:teleport_randomly": [
+      {
+        "url": "https://minecraft.wiki/w/Template%3ANbt%20inherit%2Fconsume%20effect%2Ftemplate",
+        "revision": 2857184
+      }
+    ],
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.type.value.minecraft:play_sound": [
+      {
+        "url": "https://minecraft.wiki/w/Template%3ANbt%20inherit%2Fconsume%20effect%2Ftemplate",
+        "revision": 2857184
+      }
+    ],
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.effects": [
+      {
+        "url": "https://minecraft.wiki/w/Template%3ANbt%20inherit%2Fconsume%20effect%2Ftemplate",
+        "revision": 2857184
+      }
+    ],
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.effects.id": [
+      {
+        "url": "https://minecraft.wiki/w/Template%3ANbt%20inherit%2Fconsume%20effect%2Ftemplate",
+        "revision": 2857184
+      }
+    ],
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.effects.amplifier": [
+      {
+        "url": "https://minecraft.wiki/w/Template%3ANbt%20inherit%2Fconsume%20effect%2Ftemplate",
+        "revision": 2857184
+      }
+    ],
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.effects.duration": [
+      {
+        "url": "https://minecraft.wiki/w/Template%3ANbt%20inherit%2Fconsume%20effect%2Ftemplate",
+        "revision": 2857184
+      }
+    ],
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.effects.ambient": [
+      {
+        "url": "https://minecraft.wiki/w/Template%3ANbt%20inherit%2Fconsume%20effect%2Ftemplate",
+        "revision": 2857184
+      }
+    ],
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.effects.show_particles": [
+      {
+        "url": "https://minecraft.wiki/w/Template%3ANbt%20inherit%2Fconsume%20effect%2Ftemplate",
+        "revision": 2857184
+      }
+    ],
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.effects.show_icon": [
+      {
+        "url": "https://minecraft.wiki/w/Template%3ANbt%20inherit%2Fconsume%20effect%2Ftemplate",
+        "revision": 2857184
+      }
+    ],
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.probability": [
+      {
+        "url": "https://minecraft.wiki/w/Template%3ANbt%20inherit%2Fconsume%20effect%2Ftemplate",
+        "revision": 2857184
+      }
+    ],
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.sound": [
+      {
+        "url": "https://minecraft.wiki/w/Template%3ANbt%20inherit%2Fconsume%20effect%2Ftemplate",
+        "revision": 2857184
+      }
+    ],
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.diameter": [
+      {
+        "url": "https://minecraft.wiki/w/Template%3ANbt%20inherit%2Fconsume%20effect%2Ftemplate",
+        "revision": 2857184
+      }
+    ]
+  }
+}

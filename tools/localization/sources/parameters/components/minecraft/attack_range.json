@@ -1,0 +1,110 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:attack_range": "The attack range and hitbox margin of a weapon.",
+    "command_translation.help.component.minecraft:attack_range.field.min_reach": "The minimum distance from attacker to target for a hit.",
+    "command_translation.help.component.minecraft:attack_range.field.max_reach": "The maximum distance from attacker to target for a hit.",
+    "command_translation.help.component.minecraft:attack_range.field.min_creative_reach": "The minimum reach in Creative mode.",
+    "command_translation.help.component.minecraft:attack_range.field.max_creative_reach": "The maximum reach in Creative mode.",
+    "command_translation.help.component.minecraft:attack_range.field.hitbox_margin": "The margin added to the target's hitbox when testing a hit.",
+    "command_translation.help.component.minecraft:attack_range.field.mob_factor": "The multiplier applied to the reach when a mob uses the weapon."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:attack_range": "决定武器的攻击距离与受击判定范围。",
+    "command_translation.help.component.minecraft:attack_range.field.min_reach": "可命中目标的最小距离。",
+    "command_translation.help.component.minecraft:attack_range.field.max_reach": "可命中目标的最大距离。",
+    "command_translation.help.component.minecraft:attack_range.field.min_creative_reach": "创造模式下可命中的最小距离。",
+    "command_translation.help.component.minecraft:attack_range.field.max_creative_reach": "创造模式下可命中的最大距离。",
+    "command_translation.help.component.minecraft:attack_range.field.hitbox_margin": "判定命中时对目标碰撞箱施加的容差。",
+    "command_translation.help.component.minecraft:attack_range.field.mob_factor": "生物持有时对攻击距离的倍率。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:attack_range": "Angriffsreichweite und Trefferbox-Toleranz einer Waffe.",
+    "command_translation.help.component.minecraft:attack_range.field.min_reach": "Die minimale Entfernung für einen Treffer.",
+    "command_translation.help.component.minecraft:attack_range.field.max_reach": "Die maximale Entfernung für einen Treffer.",
+    "command_translation.help.component.minecraft:attack_range.field.min_creative_reach": "Die minimale Reichweite im Kreativmodus.",
+    "command_translation.help.component.minecraft:attack_range.field.max_creative_reach": "Die maximale Reichweite im Kreativmodus.",
+    "command_translation.help.component.minecraft:attack_range.field.hitbox_margin": "Der Zuschlag zur Trefferbox des Ziels.",
+    "command_translation.help.component.minecraft:attack_range.field.mob_factor": "Der Reichweitenfaktor, wenn ein Mob die Waffe nutzt."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:attack_range": "武器の攻撃間合いと当たり判定の余白。",
+    "command_translation.help.component.minecraft:attack_range.field.min_reach": "攻撃が届く最小距離。",
+    "command_translation.help.component.minecraft:attack_range.field.max_reach": "攻撃が届く最大距離。",
+    "command_translation.help.component.minecraft:attack_range.field.min_creative_reach": "クリエイティブモードでの最小間合い。",
+    "command_translation.help.component.minecraft:attack_range.field.max_creative_reach": "クリエイティブモードでの最大間合い。",
+    "command_translation.help.component.minecraft:attack_range.field.hitbox_margin": "命中判定時に相手の当たり判定に加える余白。",
+    "command_translation.help.component.minecraft:attack_range.field.mob_factor": "Mobが使用したときの間合いの倍率。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:attack_range": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:attack_range.field.min_reach": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:attack_range.field.max_reach": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:attack_range.field.min_creative_reach": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:attack_range.field.max_creative_reach": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:attack_range.field.hitbox_margin": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:attack_range.field.mob_factor": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:pig/sound_variant": "The pig’s sound variant."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:pig/sound_variant": "猪的声音变种，与外观分开设置。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:pig/sound_variant": "Die Lautvariante des Schweins."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:pig/sound_variant": "ブタの鳴き声のバリエーション。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:pig/sound_variant": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ]
+  }
+}

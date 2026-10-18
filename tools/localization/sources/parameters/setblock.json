@@ -1,0 +1,152 @@
+{
+  "en_us": {
+    "command_translation.help.argument.setblock.pos": "The block position to change.",
+    "command_translation.help.argument.setblock.block": "The block to place, with optional states or NBT.",
+    "command_translation.help.argument.setblock.destroy": "Destroys the old block as if mined, dropping items and playing break effects.",
+    "command_translation.help.argument.setblock.keep": "Changes the block only if the position is currently air.",
+    "command_translation.help.argument.setblock.replace": "Replaces the existing block without dropping items; the default.",
+    "command_translation.help.argument.setblock.strict": "Places the block exactly without updating neighbours or recalculating shapes, so states that would normally change are kept."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.setblock.pos": "要更改的方块坐标。",
+    "command_translation.help.argument.setblock.block": "要放置的方块，可带状态或 NBT。",
+    "command_translation.help.argument.setblock.destroy": "像被挖掉一样破坏旧方块，掉落物品并播放破坏效果。",
+    "command_translation.help.argument.setblock.keep": "仅当该位置当前为空气时才更改。",
+    "command_translation.help.argument.setblock.replace": "直接替换已有方块，不掉落物品；默认选项。",
+    "command_translation.help.argument.setblock.strict": "按指定状态直接放置，不更新邻近方块或重算形状，可保留通常会变化的状态。"
+  },
+  "sources": {
+    "command_translation.help.argument.setblock.pos": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fsetblock",
+        "revision": 3826035
+      }
+    ],
+    "command_translation.help.argument.setblock.block": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fsetblock",
+        "revision": 3826035
+      }
+    ],
+    "command_translation.help.argument.setblock.destroy": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fsetblock",
+        "revision": 3826035
+      }
+    ],
+    "command_translation.help.argument.setblock.keep": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fsetblock",
+        "revision": 3826035
+      }
+    ],
+    "command_translation.help.argument.setblock.replace": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fsetblock",
+        "revision": 3826035
+      }
+    ],
+    "command_translation.help.argument.setblock.strict": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fsetblock",
+        "revision": 3826035
+      }
+    ]
+  },
+  "bindings": {
+    "setblock.pos": "command_translation.help.argument.setblock.pos",
+    "setblock.pos.block": "command_translation.help.argument.setblock.block",
+    "setblock.pos.block.destroy": "command_translation.help.argument.setblock.destroy",
+    "setblock.pos.block.keep": "command_translation.help.argument.setblock.keep",
+    "setblock.pos.block.replace": "command_translation.help.argument.setblock.replace",
+    "setblock.pos.block.strict": "command_translation.help.argument.setblock.strict"
+  },
+  "de_de": {
+    "command_translation.help.argument.setblock.pos": "Die zu ändernde Blockposition.",
+    "command_translation.help.argument.setblock.block": "Der zu platzierende Block, optional mit Zuständen oder NBT.",
+    "command_translation.help.argument.setblock.destroy": "Zerstört den alten Block wie beim Abbauen, lässt Gegenstände fallen und spielt Brucheffekte.",
+    "command_translation.help.argument.setblock.keep": "Ändert den Block nur, wenn dort derzeit Luft ist.",
+    "command_translation.help.argument.setblock.replace": "Ersetzt den vorhandenen Block ohne Gegenstände; die Standardeinstellung.",
+    "command_translation.help.argument.setblock.strict": "Platziert den Block exakt, ohne Nachbarupdates oder Neuberechnung der Form, sodass sonst veränderliche Zustände erhalten bleiben."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.setblock.pos": "変更するブロックの位置。",
+    "command_translation.help.argument.setblock.block": "設置するブロック。状態や NBT を任意で付けられる。",
+    "command_translation.help.argument.setblock.destroy": "古いブロックを採掘時のように破壊し、アイテムをドロップして破壊エフェクトを出す。",
+    "command_translation.help.argument.setblock.keep": "その位置が現在空気のときだけ変更する。",
+    "command_translation.help.argument.setblock.replace": "既存のブロックをアイテムをドロップせずに置き換える。既定。",
+    "command_translation.help.argument.setblock.strict": "ブロックをそのまま設置し、隣接更新や形状の再計算を行わない。通常なら変化する状態を保てる。"
+  },
+  "syntax": [
+    {
+      "path": "setblock",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "setblock.pos",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "setblock.pos.block",
+      "type": "argument",
+      "parser": "minecraft:block_state",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "setblock.pos.block.destroy",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "setblock.pos.block.keep",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "setblock.pos.block.replace",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "setblock.pos.block.strict",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

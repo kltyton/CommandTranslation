@@ -1,0 +1,48 @@
+{
+  "en_us": {
+    "command_translation.help.argument.me.action": "Action text broadcast as * <name> <action>; it accepts spaces and target selectors, not a JSON text component."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.me.action": "广播的动作文字，显示为 * <名字> <动作>；可含空格和选择器，不是 JSON 文本组件。"
+  },
+  "sources": {
+    "command_translation.help.argument.me.action": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fme",
+        "revision": 3826029
+      }
+    ]
+  },
+  "bindings": {
+    "me.action": "command_translation.help.argument.me.action"
+  },
+  "de_de": {
+    "command_translation.help.argument.me.action": "Aktionstext, der als * <Name> <Aktion> gesendet wird; Leerzeichen und Zielselektoren sind erlaubt, kein JSON-Text."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.me.action": "* <名前> <動作> の形で全体に送る文章。空白や対象セレクターを使える。JSON テキストではない。"
+  },
+  "syntax": [
+    {
+      "path": "me",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "me.action",
+      "type": "argument",
+      "parser": "minecraft:message",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

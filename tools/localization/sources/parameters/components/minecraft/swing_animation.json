@@ -1,0 +1,54 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:swing_animation": "Modifies the item's swinging animation.",
+    "command_translation.help.component.minecraft:swing_animation.field.type": "The swinging animation type, such as none, whack, or stab.",
+    "command_translation.help.component.minecraft:swing_animation.field.duration": "The animation duration in ticks."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:swing_animation": "修改物品的挥动动画。",
+    "command_translation.help.component.minecraft:swing_animation.field.type": "挥动动画类型，如 none、whack 或 stab。",
+    "command_translation.help.component.minecraft:swing_animation.field.duration": "动画持续时间（刻）。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:swing_animation": "Ändert die Schwunganimation des Items.",
+    "command_translation.help.component.minecraft:swing_animation.field.type": "Der Typ der Schwunganimation, etwa none, whack oder stab.",
+    "command_translation.help.component.minecraft:swing_animation.field.duration": "Die Animationsdauer in Ticks."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:swing_animation": "アイテムの振りアニメーションを変更する。",
+    "command_translation.help.component.minecraft:swing_animation.field.type": "振りアニメーションの種類（none、whack、stabなど）。",
+    "command_translation.help.component.minecraft:swing_animation.field.duration": "アニメーションの持続時間（ティック）。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:swing_animation": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:swing_animation.field.type": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:swing_animation.field.duration": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

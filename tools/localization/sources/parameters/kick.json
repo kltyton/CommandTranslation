@@ -1,0 +1,78 @@
+{
+  "en_us": {
+    "command_translation.help.argument.kick.targets": "The player(s) to disconnect; a world host or a singleplayer player cannot be kicked.",
+    "command_translation.help.argument.kick.reason": "The message shown to the kicked player and written to the server log."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.kick.targets": "要断开连接的玩家；世界主机或单人游戏中的玩家无法被踢出。",
+    "command_translation.help.argument.kick.reason": "向被踢玩家显示并写入服务器日志的消息。"
+  },
+  "sources": {
+    "command_translation.help.argument.kick.targets": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fkick",
+        "revision": 3683114
+      },
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.argument.kick.reason": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fkick",
+        "revision": 3683114
+      }
+    ]
+  },
+  "bindings": {
+    "kick.targets": "command_translation.help.argument.kick.targets",
+    "kick.targets.reason": "command_translation.help.argument.kick.reason"
+  },
+  "de_de": {
+    "command_translation.help.argument.kick.targets": "Die zu trennenden Spieler; der Host einer Welt bzw. der Spieler einer Einzelspielerwelt kann nicht gekickt werden.",
+    "command_translation.help.argument.kick.reason": "Die dem gekickten Spieler angezeigte und ins Server-Log geschriebene Nachricht."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.kick.targets": "切断するプレイヤー。ワールドのホストやシングルプレイのプレイヤーはキックできない。",
+    "command_translation.help.argument.kick.reason": "キックされたプレイヤーに表示され、サーバーログに書き込まれるメッセージ。"
+  },
+  "syntax": [
+    {
+      "path": "kick",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "kick.targets",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "players",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "kick.targets.reason",
+      "type": "argument",
+      "parser": "minecraft:message",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:max_stack_size": "The maximum number of items allowed in one stack, from 1 to 99."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:max_stack_size": "单个堆叠中允许的最大物品数量，范围 1 到 99。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:max_stack_size": "Die maximale Anzahl von Items in einem Stapel, von 1 bis 99."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:max_stack_size": "1スタックに入れられる最大アイテム数（1～99）。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:max_stack_size": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

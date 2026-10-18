@@ -1,0 +1,42 @@
+{
+  "en_us": {
+    "command_translation.help.range.between": "%s to %s",
+    "command_translation.help.range.minimum": "at least %s",
+    "command_translation.help.range.maximum": "at most %s"
+  },
+  "zh_cn": {
+    "command_translation.help.range.between": "%s 到 %s",
+    "command_translation.help.range.minimum": "至少 %s",
+    "command_translation.help.range.maximum": "至多 %s"
+  },
+  "de_de": {
+    "command_translation.help.range.between": "%s bis %s",
+    "command_translation.help.range.minimum": "mindestens %s",
+    "command_translation.help.range.maximum": "höchstens %s"
+  },
+  "ja_jp": {
+    "command_translation.help.range.between": "%s から %s",
+    "command_translation.help.range.minimum": "%s 以上",
+    "command_translation.help.range.maximum": "%s 以下"
+  },
+  "sources": {
+    "command_translation.help.range.between": [
+      {
+        "url": "https://minecraft.wiki/w/Argument%20types",
+        "revision": 3825973
+      }
+    ],
+    "command_translation.help.range.minimum": [
+      {
+        "url": "https://minecraft.wiki/w/Argument%20types",
+        "revision": 3825973
+      }
+    ],
+    "command_translation.help.range.maximum": [
+      {
+        "url": "https://minecraft.wiki/w/Argument%20types",
+        "revision": 3825973
+      }
+    ]
+  }
+}

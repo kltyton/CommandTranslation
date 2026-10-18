@@ -1,0 +1,742 @@
+{
+  "en_us": {
+    "command_translation.tag.villager_trade.minecraft.armorer.level_1": "Armorer level 1 trades",
+    "command_translation.tag.villager_trade.minecraft.armorer.level_2": "Armorer level 2 trades",
+    "command_translation.tag.villager_trade.minecraft.armorer.level_3": "Armorer level 3 trades",
+    "command_translation.tag.villager_trade.minecraft.armorer.level_4": "Armorer level 4 trades",
+    "command_translation.tag.villager_trade.minecraft.armorer.level_5": "Armorer level 5 trades",
+    "command_translation.tag.villager_trade.minecraft.butcher.level_1": "Butcher level 1 trades",
+    "command_translation.tag.villager_trade.minecraft.butcher.level_2": "Butcher level 2 trades",
+    "command_translation.tag.villager_trade.minecraft.butcher.level_3": "Butcher level 3 trades",
+    "command_translation.tag.villager_trade.minecraft.butcher.level_4": "Butcher level 4 trades",
+    "command_translation.tag.villager_trade.minecraft.butcher.level_5": "Butcher level 5 trades",
+    "command_translation.tag.villager_trade.minecraft.cartographer.level_1": "Cartographer level 1 trades",
+    "command_translation.tag.villager_trade.minecraft.cartographer.level_2": "Cartographer level 2 trades",
+    "command_translation.tag.villager_trade.minecraft.cartographer.level_3": "Cartographer level 3 trades",
+    "command_translation.tag.villager_trade.minecraft.cartographer.level_4": "Cartographer level 4 trades",
+    "command_translation.tag.villager_trade.minecraft.cartographer.level_5": "Cartographer level 5 trades",
+    "command_translation.tag.villager_trade.minecraft.cleric.level_1": "Cleric level 1 trades",
+    "command_translation.tag.villager_trade.minecraft.cleric.level_2": "Cleric level 2 trades",
+    "command_translation.tag.villager_trade.minecraft.cleric.level_3": "Cleric level 3 trades",
+    "command_translation.tag.villager_trade.minecraft.cleric.level_4": "Cleric level 4 trades",
+    "command_translation.tag.villager_trade.minecraft.cleric.level_5": "Cleric level 5 trades",
+    "command_translation.tag.villager_trade.minecraft.common_smith.level_1": "Shared smith level 1 trades",
+    "command_translation.tag.villager_trade.minecraft.common_smith.level_2": "Shared smith level 2 trades",
+    "command_translation.tag.villager_trade.minecraft.common_smith.level_3": "Shared smith level 3 trades",
+    "command_translation.tag.villager_trade.minecraft.common_smith.level_4": "Shared smith level 4 trades",
+    "command_translation.tag.villager_trade.minecraft.common_smith.level_5": "Shared smith level 5 trades",
+    "command_translation.tag.villager_trade.minecraft.farmer.level_1": "Farmer level 1 trades",
+    "command_translation.tag.villager_trade.minecraft.farmer.level_2": "Farmer level 2 trades",
+    "command_translation.tag.villager_trade.minecraft.farmer.level_3": "Farmer level 3 trades",
+    "command_translation.tag.villager_trade.minecraft.farmer.level_4": "Farmer level 4 trades",
+    "command_translation.tag.villager_trade.minecraft.farmer.level_5": "Farmer level 5 trades",
+    "command_translation.tag.villager_trade.minecraft.fisherman.level_1": "Fisherman level 1 trades",
+    "command_translation.tag.villager_trade.minecraft.fisherman.level_2": "Fisherman level 2 trades",
+    "command_translation.tag.villager_trade.minecraft.fisherman.level_3": "Fisherman level 3 trades",
+    "command_translation.tag.villager_trade.minecraft.fisherman.level_4": "Fisherman level 4 trades",
+    "command_translation.tag.villager_trade.minecraft.fisherman.level_5": "Fisherman level 5 trades",
+    "command_translation.tag.villager_trade.minecraft.fletcher.level_1": "Fletcher level 1 trades",
+    "command_translation.tag.villager_trade.minecraft.fletcher.level_2": "Fletcher level 2 trades",
+    "command_translation.tag.villager_trade.minecraft.fletcher.level_3": "Fletcher level 3 trades",
+    "command_translation.tag.villager_trade.minecraft.fletcher.level_4": "Fletcher level 4 trades",
+    "command_translation.tag.villager_trade.minecraft.fletcher.level_5": "Fletcher level 5 trades",
+    "command_translation.tag.villager_trade.minecraft.leatherworker.level_1": "Leatherworker level 1 trades",
+    "command_translation.tag.villager_trade.minecraft.leatherworker.level_2": "Leatherworker level 2 trades",
+    "command_translation.tag.villager_trade.minecraft.leatherworker.level_3": "Leatherworker level 3 trades",
+    "command_translation.tag.villager_trade.minecraft.leatherworker.level_4": "Leatherworker level 4 trades",
+    "command_translation.tag.villager_trade.minecraft.leatherworker.level_5": "Leatherworker level 5 trades",
+    "command_translation.tag.villager_trade.minecraft.librarian.level_1": "Librarian level 1 trades",
+    "command_translation.tag.villager_trade.minecraft.librarian.level_2": "Librarian level 2 trades",
+    "command_translation.tag.villager_trade.minecraft.librarian.level_3": "Librarian level 3 trades",
+    "command_translation.tag.villager_trade.minecraft.librarian.level_4": "Librarian level 4 trades",
+    "command_translation.tag.villager_trade.minecraft.librarian.level_5": "Librarian level 5 trades",
+    "command_translation.tag.villager_trade.minecraft.mason.level_1": "Mason level 1 trades",
+    "command_translation.tag.villager_trade.minecraft.mason.level_2": "Mason level 2 trades",
+    "command_translation.tag.villager_trade.minecraft.mason.level_3": "Mason level 3 trades",
+    "command_translation.tag.villager_trade.minecraft.mason.level_4": "Mason level 4 trades",
+    "command_translation.tag.villager_trade.minecraft.mason.level_5": "Mason level 5 trades",
+    "command_translation.tag.villager_trade.minecraft.shepherd.level_1": "Shepherd level 1 trades",
+    "command_translation.tag.villager_trade.minecraft.shepherd.level_2": "Shepherd level 2 trades",
+    "command_translation.tag.villager_trade.minecraft.shepherd.level_3": "Shepherd level 3 trades",
+    "command_translation.tag.villager_trade.minecraft.shepherd.level_4": "Shepherd level 4 trades",
+    "command_translation.tag.villager_trade.minecraft.shepherd.level_5": "Shepherd level 5 trades",
+    "command_translation.tag.villager_trade.minecraft.toolsmith.level_1": "Toolsmith level 1 trades",
+    "command_translation.tag.villager_trade.minecraft.toolsmith.level_2": "Toolsmith level 2 trades",
+    "command_translation.tag.villager_trade.minecraft.toolsmith.level_3": "Toolsmith level 3 trades",
+    "command_translation.tag.villager_trade.minecraft.toolsmith.level_4": "Toolsmith level 4 trades",
+    "command_translation.tag.villager_trade.minecraft.toolsmith.level_5": "Toolsmith level 5 trades",
+    "command_translation.tag.villager_trade.minecraft.wandering_trader.buying": "Wandering trader buying trades",
+    "command_translation.tag.villager_trade.minecraft.wandering_trader.common": "Wandering trader common trades",
+    "command_translation.tag.villager_trade.minecraft.wandering_trader.uncommon": "Wandering trader uncommon trades",
+    "command_translation.tag.villager_trade.minecraft.weaponsmith.level_1": "Weaponsmith level 1 trades",
+    "command_translation.tag.villager_trade.minecraft.weaponsmith.level_2": "Weaponsmith level 2 trades",
+    "command_translation.tag.villager_trade.minecraft.weaponsmith.level_3": "Weaponsmith level 3 trades",
+    "command_translation.tag.villager_trade.minecraft.weaponsmith.level_4": "Weaponsmith level 4 trades",
+    "command_translation.tag.villager_trade.minecraft.weaponsmith.level_5": "Weaponsmith level 5 trades"
+  },
+  "zh_cn": {
+    "command_translation.tag.villager_trade.minecraft.armorer.level_1": "盔甲匠1级交易",
+    "command_translation.tag.villager_trade.minecraft.armorer.level_2": "盔甲匠2级交易",
+    "command_translation.tag.villager_trade.minecraft.armorer.level_3": "盔甲匠3级交易",
+    "command_translation.tag.villager_trade.minecraft.armorer.level_4": "盔甲匠4级交易",
+    "command_translation.tag.villager_trade.minecraft.armorer.level_5": "盔甲匠5级交易",
+    "command_translation.tag.villager_trade.minecraft.butcher.level_1": "屠夫1级交易",
+    "command_translation.tag.villager_trade.minecraft.butcher.level_2": "屠夫2级交易",
+    "command_translation.tag.villager_trade.minecraft.butcher.level_3": "屠夫3级交易",
+    "command_translation.tag.villager_trade.minecraft.butcher.level_4": "屠夫4级交易",
+    "command_translation.tag.villager_trade.minecraft.butcher.level_5": "屠夫5级交易",
+    "command_translation.tag.villager_trade.minecraft.cartographer.level_1": "制图师1级交易",
+    "command_translation.tag.villager_trade.minecraft.cartographer.level_2": "制图师2级交易",
+    "command_translation.tag.villager_trade.minecraft.cartographer.level_3": "制图师3级交易",
+    "command_translation.tag.villager_trade.minecraft.cartographer.level_4": "制图师4级交易",
+    "command_translation.tag.villager_trade.minecraft.cartographer.level_5": "制图师5级交易",
+    "command_translation.tag.villager_trade.minecraft.cleric.level_1": "牧师1级交易",
+    "command_translation.tag.villager_trade.minecraft.cleric.level_2": "牧师2级交易",
+    "command_translation.tag.villager_trade.minecraft.cleric.level_3": "牧师3级交易",
+    "command_translation.tag.villager_trade.minecraft.cleric.level_4": "牧师4级交易",
+    "command_translation.tag.villager_trade.minecraft.cleric.level_5": "牧师5级交易",
+    "command_translation.tag.villager_trade.minecraft.common_smith.level_1": "通用铁匠1级交易",
+    "command_translation.tag.villager_trade.minecraft.common_smith.level_2": "通用铁匠2级交易",
+    "command_translation.tag.villager_trade.minecraft.common_smith.level_3": "通用铁匠3级交易",
+    "command_translation.tag.villager_trade.minecraft.common_smith.level_4": "通用铁匠4级交易",
+    "command_translation.tag.villager_trade.minecraft.common_smith.level_5": "通用铁匠5级交易",
+    "command_translation.tag.villager_trade.minecraft.farmer.level_1": "农民1级交易",
+    "command_translation.tag.villager_trade.minecraft.farmer.level_2": "农民2级交易",
+    "command_translation.tag.villager_trade.minecraft.farmer.level_3": "农民3级交易",
+    "command_translation.tag.villager_trade.minecraft.farmer.level_4": "农民4级交易",
+    "command_translation.tag.villager_trade.minecraft.farmer.level_5": "农民5级交易",
+    "command_translation.tag.villager_trade.minecraft.fisherman.level_1": "渔夫1级交易",
+    "command_translation.tag.villager_trade.minecraft.fisherman.level_2": "渔夫2级交易",
+    "command_translation.tag.villager_trade.minecraft.fisherman.level_3": "渔夫3级交易",
+    "command_translation.tag.villager_trade.minecraft.fisherman.level_4": "渔夫4级交易",
+    "command_translation.tag.villager_trade.minecraft.fisherman.level_5": "渔夫5级交易",
+    "command_translation.tag.villager_trade.minecraft.fletcher.level_1": "制箭师1级交易",
+    "command_translation.tag.villager_trade.minecraft.fletcher.level_2": "制箭师2级交易",
+    "command_translation.tag.villager_trade.minecraft.fletcher.level_3": "制箭师3级交易",
+    "command_translation.tag.villager_trade.minecraft.fletcher.level_4": "制箭师4级交易",
+    "command_translation.tag.villager_trade.minecraft.fletcher.level_5": "制箭师5级交易",
+    "command_translation.tag.villager_trade.minecraft.leatherworker.level_1": "皮匠1级交易",
+    "command_translation.tag.villager_trade.minecraft.leatherworker.level_2": "皮匠2级交易",
+    "command_translation.tag.villager_trade.minecraft.leatherworker.level_3": "皮匠3级交易",
+    "command_translation.tag.villager_trade.minecraft.leatherworker.level_4": "皮匠4级交易",
+    "command_translation.tag.villager_trade.minecraft.leatherworker.level_5": "皮匠5级交易",
+    "command_translation.tag.villager_trade.minecraft.librarian.level_1": "图书管理员1级交易",
+    "command_translation.tag.villager_trade.minecraft.librarian.level_2": "图书管理员2级交易",
+    "command_translation.tag.villager_trade.minecraft.librarian.level_3": "图书管理员3级交易",
+    "command_translation.tag.villager_trade.minecraft.librarian.level_4": "图书管理员4级交易",
+    "command_translation.tag.villager_trade.minecraft.librarian.level_5": "图书管理员5级交易",
+    "command_translation.tag.villager_trade.minecraft.mason.level_1": "石匠1级交易",
+    "command_translation.tag.villager_trade.minecraft.mason.level_2": "石匠2级交易",
+    "command_translation.tag.villager_trade.minecraft.mason.level_3": "石匠3级交易",
+    "command_translation.tag.villager_trade.minecraft.mason.level_4": "石匠4级交易",
+    "command_translation.tag.villager_trade.minecraft.mason.level_5": "石匠5级交易",
+    "command_translation.tag.villager_trade.minecraft.shepherd.level_1": "牧羊人1级交易",
+    "command_translation.tag.villager_trade.minecraft.shepherd.level_2": "牧羊人2级交易",
+    "command_translation.tag.villager_trade.minecraft.shepherd.level_3": "牧羊人3级交易",
+    "command_translation.tag.villager_trade.minecraft.shepherd.level_4": "牧羊人4级交易",
+    "command_translation.tag.villager_trade.minecraft.shepherd.level_5": "牧羊人5级交易",
+    "command_translation.tag.villager_trade.minecraft.toolsmith.level_1": "工具匠1级交易",
+    "command_translation.tag.villager_trade.minecraft.toolsmith.level_2": "工具匠2级交易",
+    "command_translation.tag.villager_trade.minecraft.toolsmith.level_3": "工具匠3级交易",
+    "command_translation.tag.villager_trade.minecraft.toolsmith.level_4": "工具匠4级交易",
+    "command_translation.tag.villager_trade.minecraft.toolsmith.level_5": "工具匠5级交易",
+    "command_translation.tag.villager_trade.minecraft.wandering_trader.buying": "流浪商人收购交易",
+    "command_translation.tag.villager_trade.minecraft.wandering_trader.common": "流浪商人普通交易",
+    "command_translation.tag.villager_trade.minecraft.wandering_trader.uncommon": "流浪商人稀有交易",
+    "command_translation.tag.villager_trade.minecraft.weaponsmith.level_1": "武器匠1级交易",
+    "command_translation.tag.villager_trade.minecraft.weaponsmith.level_2": "武器匠2级交易",
+    "command_translation.tag.villager_trade.minecraft.weaponsmith.level_3": "武器匠3级交易",
+    "command_translation.tag.villager_trade.minecraft.weaponsmith.level_4": "武器匠4级交易",
+    "command_translation.tag.villager_trade.minecraft.weaponsmith.level_5": "武器匠5级交易"
+  },
+  "de_de": {
+    "command_translation.tag.villager_trade.minecraft.armorer.level_1": "Rüstungsschmied Stufe 1",
+    "command_translation.tag.villager_trade.minecraft.armorer.level_2": "Rüstungsschmied Stufe 2",
+    "command_translation.tag.villager_trade.minecraft.armorer.level_3": "Rüstungsschmied Stufe 3",
+    "command_translation.tag.villager_trade.minecraft.armorer.level_4": "Rüstungsschmied Stufe 4",
+    "command_translation.tag.villager_trade.minecraft.armorer.level_5": "Rüstungsschmied Stufe 5",
+    "command_translation.tag.villager_trade.minecraft.butcher.level_1": "Metzger Stufe 1",
+    "command_translation.tag.villager_trade.minecraft.butcher.level_2": "Metzger Stufe 2",
+    "command_translation.tag.villager_trade.minecraft.butcher.level_3": "Metzger Stufe 3",
+    "command_translation.tag.villager_trade.minecraft.butcher.level_4": "Metzger Stufe 4",
+    "command_translation.tag.villager_trade.minecraft.butcher.level_5": "Metzger Stufe 5",
+    "command_translation.tag.villager_trade.minecraft.cartographer.level_1": "Kartograf Stufe 1",
+    "command_translation.tag.villager_trade.minecraft.cartographer.level_2": "Kartograf Stufe 2",
+    "command_translation.tag.villager_trade.minecraft.cartographer.level_3": "Kartograf Stufe 3",
+    "command_translation.tag.villager_trade.minecraft.cartographer.level_4": "Kartograf Stufe 4",
+    "command_translation.tag.villager_trade.minecraft.cartographer.level_5": "Kartograf Stufe 5",
+    "command_translation.tag.villager_trade.minecraft.cleric.level_1": "Kleriker Stufe 1",
+    "command_translation.tag.villager_trade.minecraft.cleric.level_2": "Kleriker Stufe 2",
+    "command_translation.tag.villager_trade.minecraft.cleric.level_3": "Kleriker Stufe 3",
+    "command_translation.tag.villager_trade.minecraft.cleric.level_4": "Kleriker Stufe 4",
+    "command_translation.tag.villager_trade.minecraft.cleric.level_5": "Kleriker Stufe 5",
+    "command_translation.tag.villager_trade.minecraft.common_smith.level_1": "Gemeinsamer Schmied Stufe 1",
+    "command_translation.tag.villager_trade.minecraft.common_smith.level_2": "Gemeinsamer Schmied Stufe 2",
+    "command_translation.tag.villager_trade.minecraft.common_smith.level_3": "Gemeinsamer Schmied Stufe 3",
+    "command_translation.tag.villager_trade.minecraft.common_smith.level_4": "Gemeinsamer Schmied Stufe 4",
+    "command_translation.tag.villager_trade.minecraft.common_smith.level_5": "Gemeinsamer Schmied Stufe 5",
+    "command_translation.tag.villager_trade.minecraft.farmer.level_1": "Bauer Stufe 1",
+    "command_translation.tag.villager_trade.minecraft.farmer.level_2": "Bauer Stufe 2",
+    "command_translation.tag.villager_trade.minecraft.farmer.level_3": "Bauer Stufe 3",
+    "command_translation.tag.villager_trade.minecraft.farmer.level_4": "Bauer Stufe 4",
+    "command_translation.tag.villager_trade.minecraft.farmer.level_5": "Bauer Stufe 5",
+    "command_translation.tag.villager_trade.minecraft.fisherman.level_1": "Fischer Stufe 1",
+    "command_translation.tag.villager_trade.minecraft.fisherman.level_2": "Fischer Stufe 2",
+    "command_translation.tag.villager_trade.minecraft.fisherman.level_3": "Fischer Stufe 3",
+    "command_translation.tag.villager_trade.minecraft.fisherman.level_4": "Fischer Stufe 4",
+    "command_translation.tag.villager_trade.minecraft.fisherman.level_5": "Fischer Stufe 5",
+    "command_translation.tag.villager_trade.minecraft.fletcher.level_1": "Pfeilmacher Stufe 1",
+    "command_translation.tag.villager_trade.minecraft.fletcher.level_2": "Pfeilmacher Stufe 2",
+    "command_translation.tag.villager_trade.minecraft.fletcher.level_3": "Pfeilmacher Stufe 3",
+    "command_translation.tag.villager_trade.minecraft.fletcher.level_4": "Pfeilmacher Stufe 4",
+    "command_translation.tag.villager_trade.minecraft.fletcher.level_5": "Pfeilmacher Stufe 5",
+    "command_translation.tag.villager_trade.minecraft.leatherworker.level_1": "Lederer Stufe 1",
+    "command_translation.tag.villager_trade.minecraft.leatherworker.level_2": "Lederer Stufe 2",
+    "command_translation.tag.villager_trade.minecraft.leatherworker.level_3": "Lederer Stufe 3",
+    "command_translation.tag.villager_trade.minecraft.leatherworker.level_4": "Lederer Stufe 4",
+    "command_translation.tag.villager_trade.minecraft.leatherworker.level_5": "Lederer Stufe 5",
+    "command_translation.tag.villager_trade.minecraft.librarian.level_1": "Bibliothekar Stufe 1",
+    "command_translation.tag.villager_trade.minecraft.librarian.level_2": "Bibliothekar Stufe 2",
+    "command_translation.tag.villager_trade.minecraft.librarian.level_3": "Bibliothekar Stufe 3",
+    "command_translation.tag.villager_trade.minecraft.librarian.level_4": "Bibliothekar Stufe 4",
+    "command_translation.tag.villager_trade.minecraft.librarian.level_5": "Bibliothekar Stufe 5",
+    "command_translation.tag.villager_trade.minecraft.mason.level_1": "Steinmetz Stufe 1",
+    "command_translation.tag.villager_trade.minecraft.mason.level_2": "Steinmetz Stufe 2",
+    "command_translation.tag.villager_trade.minecraft.mason.level_3": "Steinmetz Stufe 3",
+    "command_translation.tag.villager_trade.minecraft.mason.level_4": "Steinmetz Stufe 4",
+    "command_translation.tag.villager_trade.minecraft.mason.level_5": "Steinmetz Stufe 5",
+    "command_translation.tag.villager_trade.minecraft.shepherd.level_1": "Hirte Stufe 1",
+    "command_translation.tag.villager_trade.minecraft.shepherd.level_2": "Hirte Stufe 2",
+    "command_translation.tag.villager_trade.minecraft.shepherd.level_3": "Hirte Stufe 3",
+    "command_translation.tag.villager_trade.minecraft.shepherd.level_4": "Hirte Stufe 4",
+    "command_translation.tag.villager_trade.minecraft.shepherd.level_5": "Hirte Stufe 5",
+    "command_translation.tag.villager_trade.minecraft.toolsmith.level_1": "Werkzeugschmied Stufe 1",
+    "command_translation.tag.villager_trade.minecraft.toolsmith.level_2": "Werkzeugschmied Stufe 2",
+    "command_translation.tag.villager_trade.minecraft.toolsmith.level_3": "Werkzeugschmied Stufe 3",
+    "command_translation.tag.villager_trade.minecraft.toolsmith.level_4": "Werkzeugschmied Stufe 4",
+    "command_translation.tag.villager_trade.minecraft.toolsmith.level_5": "Werkzeugschmied Stufe 5",
+    "command_translation.tag.villager_trade.minecraft.wandering_trader.buying": "Wanderhändler Ankauf",
+    "command_translation.tag.villager_trade.minecraft.wandering_trader.common": "Wanderhändler häufige Angebote",
+    "command_translation.tag.villager_trade.minecraft.wandering_trader.uncommon": "Wanderhändler seltene Angebote",
+    "command_translation.tag.villager_trade.minecraft.weaponsmith.level_1": "Waffenschmied Stufe 1",
+    "command_translation.tag.villager_trade.minecraft.weaponsmith.level_2": "Waffenschmied Stufe 2",
+    "command_translation.tag.villager_trade.minecraft.weaponsmith.level_3": "Waffenschmied Stufe 3",
+    "command_translation.tag.villager_trade.minecraft.weaponsmith.level_4": "Waffenschmied Stufe 4",
+    "command_translation.tag.villager_trade.minecraft.weaponsmith.level_5": "Waffenschmied Stufe 5"
+  },
+  "ja_jp": {
+    "command_translation.tag.villager_trade.minecraft.armorer.level_1": "防具鍛冶 Lv1の取引",
+    "command_translation.tag.villager_trade.minecraft.armorer.level_2": "防具鍛冶 Lv2の取引",
+    "command_translation.tag.villager_trade.minecraft.armorer.level_3": "防具鍛冶 Lv3の取引",
+    "command_translation.tag.villager_trade.minecraft.armorer.level_4": "防具鍛冶 Lv4の取引",
+    "command_translation.tag.villager_trade.minecraft.armorer.level_5": "防具鍛冶 Lv5の取引",
+    "command_translation.tag.villager_trade.minecraft.butcher.level_1": "肉屋 Lv1の取引",
+    "command_translation.tag.villager_trade.minecraft.butcher.level_2": "肉屋 Lv2の取引",
+    "command_translation.tag.villager_trade.minecraft.butcher.level_3": "肉屋 Lv3の取引",
+    "command_translation.tag.villager_trade.minecraft.butcher.level_4": "肉屋 Lv4の取引",
+    "command_translation.tag.villager_trade.minecraft.butcher.level_5": "肉屋 Lv5の取引",
+    "command_translation.tag.villager_trade.minecraft.cartographer.level_1": "製図家 Lv1の取引",
+    "command_translation.tag.villager_trade.minecraft.cartographer.level_2": "製図家 Lv2の取引",
+    "command_translation.tag.villager_trade.minecraft.cartographer.level_3": "製図家 Lv3の取引",
+    "command_translation.tag.villager_trade.minecraft.cartographer.level_4": "製図家 Lv4の取引",
+    "command_translation.tag.villager_trade.minecraft.cartographer.level_5": "製図家 Lv5の取引",
+    "command_translation.tag.villager_trade.minecraft.cleric.level_1": "聖職者 Lv1の取引",
+    "command_translation.tag.villager_trade.minecraft.cleric.level_2": "聖職者 Lv2の取引",
+    "command_translation.tag.villager_trade.minecraft.cleric.level_3": "聖職者 Lv3の取引",
+    "command_translation.tag.villager_trade.minecraft.cleric.level_4": "聖職者 Lv4の取引",
+    "command_translation.tag.villager_trade.minecraft.cleric.level_5": "聖職者 Lv5の取引",
+    "command_translation.tag.villager_trade.minecraft.common_smith.level_1": "共通鍛冶 Lv1の取引",
+    "command_translation.tag.villager_trade.minecraft.common_smith.level_2": "共通鍛冶 Lv2の取引",
+    "command_translation.tag.villager_trade.minecraft.common_smith.level_3": "共通鍛冶 Lv3の取引",
+    "command_translation.tag.villager_trade.minecraft.common_smith.level_4": "共通鍛冶 Lv4の取引",
+    "command_translation.tag.villager_trade.minecraft.common_smith.level_5": "共通鍛冶 Lv5の取引",
+    "command_translation.tag.villager_trade.minecraft.farmer.level_1": "農民 Lv1の取引",
+    "command_translation.tag.villager_trade.minecraft.farmer.level_2": "農民 Lv2の取引",
+    "command_translation.tag.villager_trade.minecraft.farmer.level_3": "農民 Lv3の取引",
+    "command_translation.tag.villager_trade.minecraft.farmer.level_4": "農民 Lv4の取引",
+    "command_translation.tag.villager_trade.minecraft.farmer.level_5": "農民 Lv5の取引",
+    "command_translation.tag.villager_trade.minecraft.fisherman.level_1": "釣り人 Lv1の取引",
+    "command_translation.tag.villager_trade.minecraft.fisherman.level_2": "釣り人 Lv2の取引",
+    "command_translation.tag.villager_trade.minecraft.fisherman.level_3": "釣り人 Lv3の取引",
+    "command_translation.tag.villager_trade.minecraft.fisherman.level_4": "釣り人 Lv4の取引",
+    "command_translation.tag.villager_trade.minecraft.fisherman.level_5": "釣り人 Lv5の取引",
+    "command_translation.tag.villager_trade.minecraft.fletcher.level_1": "矢師 Lv1の取引",
+    "command_translation.tag.villager_trade.minecraft.fletcher.level_2": "矢師 Lv2の取引",
+    "command_translation.tag.villager_trade.minecraft.fletcher.level_3": "矢師 Lv3の取引",
+    "command_translation.tag.villager_trade.minecraft.fletcher.level_4": "矢師 Lv4の取引",
+    "command_translation.tag.villager_trade.minecraft.fletcher.level_5": "矢師 Lv5の取引",
+    "command_translation.tag.villager_trade.minecraft.leatherworker.level_1": "革職人 Lv1の取引",
+    "command_translation.tag.villager_trade.minecraft.leatherworker.level_2": "革職人 Lv2の取引",
+    "command_translation.tag.villager_trade.minecraft.leatherworker.level_3": "革職人 Lv3の取引",
+    "command_translation.tag.villager_trade.minecraft.leatherworker.level_4": "革職人 Lv4の取引",
+    "command_translation.tag.villager_trade.minecraft.leatherworker.level_5": "革職人 Lv5の取引",
+    "command_translation.tag.villager_trade.minecraft.librarian.level_1": "司書 Lv1の取引",
+    "command_translation.tag.villager_trade.minecraft.librarian.level_2": "司書 Lv2の取引",
+    "command_translation.tag.villager_trade.minecraft.librarian.level_3": "司書 Lv3の取引",
+    "command_translation.tag.villager_trade.minecraft.librarian.level_4": "司書 Lv4の取引",
+    "command_translation.tag.villager_trade.minecraft.librarian.level_5": "司書 Lv5の取引",
+    "command_translation.tag.villager_trade.minecraft.mason.level_1": "石工 Lv1の取引",
+    "command_translation.tag.villager_trade.minecraft.mason.level_2": "石工 Lv2の取引",
+    "command_translation.tag.villager_trade.minecraft.mason.level_3": "石工 Lv3の取引",
+    "command_translation.tag.villager_trade.minecraft.mason.level_4": "石工 Lv4の取引",
+    "command_translation.tag.villager_trade.minecraft.mason.level_5": "石工 Lv5の取引",
+    "command_translation.tag.villager_trade.minecraft.shepherd.level_1": "羊飼い Lv1の取引",
+    "command_translation.tag.villager_trade.minecraft.shepherd.level_2": "羊飼い Lv2の取引",
+    "command_translation.tag.villager_trade.minecraft.shepherd.level_3": "羊飼い Lv3の取引",
+    "command_translation.tag.villager_trade.minecraft.shepherd.level_4": "羊飼い Lv4の取引",
+    "command_translation.tag.villager_trade.minecraft.shepherd.level_5": "羊飼い Lv5の取引",
+    "command_translation.tag.villager_trade.minecraft.toolsmith.level_1": "道具鍛冶 Lv1の取引",
+    "command_translation.tag.villager_trade.minecraft.toolsmith.level_2": "道具鍛冶 Lv2の取引",
+    "command_translation.tag.villager_trade.minecraft.toolsmith.level_3": "道具鍛冶 Lv3の取引",
+    "command_translation.tag.villager_trade.minecraft.toolsmith.level_4": "道具鍛冶 Lv4の取引",
+    "command_translation.tag.villager_trade.minecraft.toolsmith.level_5": "道具鍛冶 Lv5の取引",
+    "command_translation.tag.villager_trade.minecraft.wandering_trader.buying": "行商人の買取取引",
+    "command_translation.tag.villager_trade.minecraft.wandering_trader.common": "行商人の通常取引",
+    "command_translation.tag.villager_trade.minecraft.wandering_trader.uncommon": "行商人の珍しい取引",
+    "command_translation.tag.villager_trade.minecraft.weaponsmith.level_1": "武器鍛冶 Lv1の取引",
+    "command_translation.tag.villager_trade.minecraft.weaponsmith.level_2": "武器鍛冶 Lv2の取引",
+    "command_translation.tag.villager_trade.minecraft.weaponsmith.level_3": "武器鍛冶 Lv3の取引",
+    "command_translation.tag.villager_trade.minecraft.weaponsmith.level_4": "武器鍛冶 Lv4の取引",
+    "command_translation.tag.villager_trade.minecraft.weaponsmith.level_5": "武器鍛冶 Lv5の取引"
+  },
+  "sources": {
+    "command_translation.tag.villager_trade.minecraft.armorer.level_1": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.armorer.level_2": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.armorer.level_3": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.armorer.level_4": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.armorer.level_5": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.butcher.level_1": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.butcher.level_2": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.butcher.level_3": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.butcher.level_4": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.butcher.level_5": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.cartographer.level_1": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.cartographer.level_2": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.cartographer.level_3": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.cartographer.level_4": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.cartographer.level_5": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.cleric.level_1": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.cleric.level_2": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.cleric.level_3": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.cleric.level_4": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.cleric.level_5": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.common_smith.level_1": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.common_smith.level_2": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.common_smith.level_3": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.common_smith.level_4": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.common_smith.level_5": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.farmer.level_1": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.farmer.level_2": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.farmer.level_3": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.farmer.level_4": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.farmer.level_5": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.fisherman.level_1": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.fisherman.level_2": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.fisherman.level_3": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.fisherman.level_4": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.fisherman.level_5": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.fletcher.level_1": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.fletcher.level_2": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.fletcher.level_3": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.fletcher.level_4": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.fletcher.level_5": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.leatherworker.level_1": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.leatherworker.level_2": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.leatherworker.level_3": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.leatherworker.level_4": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.leatherworker.level_5": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.librarian.level_1": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.librarian.level_2": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.librarian.level_3": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.librarian.level_4": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.librarian.level_5": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.mason.level_1": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.mason.level_2": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.mason.level_3": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.mason.level_4": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.mason.level_5": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.shepherd.level_1": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.shepherd.level_2": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.shepherd.level_3": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.shepherd.level_4": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.shepherd.level_5": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.toolsmith.level_1": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.toolsmith.level_2": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.toolsmith.level_3": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.toolsmith.level_4": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.toolsmith.level_5": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.wandering_trader.buying": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.wandering_trader.common": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.wandering_trader.uncommon": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.weaponsmith.level_1": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.weaponsmith.level_2": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.weaponsmith.level_3": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.weaponsmith.level_4": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ],
+    "command_translation.tag.villager_trade.minecraft.weaponsmith.level_5": [
+      {
+        "url": "https://minecraft.wiki/w/Villager%20trade%20tag%20(Java%20Edition)",
+        "revision": 3843024
+      }
+    ]
+  }
+}

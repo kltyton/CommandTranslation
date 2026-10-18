@@ -1,0 +1,332 @@
+{
+  "en_us": {
+    "command_translation.help.selector.field.name": "Exact entity name; prefix ! excludes that name.",
+    "command_translation.help.selector.field.distance": "Distance range from the reference position to the target’s feet.",
+    "command_translation.help.selector.field.level": "The allowed player experience-level range.",
+    "command_translation.help.selector.field.x": "The reference X coordinate used for selection.",
+    "command_translation.help.selector.field.y": "The reference Y coordinate used for selection.",
+    "command_translation.help.selector.field.z": "The reference Z coordinate used for selection.",
+    "command_translation.help.selector.field.dx": "Signed X offset from the reference point to the opposite selection-box corner.",
+    "command_translation.help.selector.field.dy": "Signed Y offset from the reference point to the opposite selection-box corner.",
+    "command_translation.help.selector.field.dz": "Signed Z offset from the reference point to the opposite selection-box corner.",
+    "command_translation.help.selector.field.x_rotation": "Pitch range in degrees: -90 straight up, 0 at the horizon, +90 straight down.",
+    "command_translation.help.selector.field.y_rotation": "Yaw range in degrees: -180 north, -90 east, 0 south, +90 west, +180 north again.",
+    "command_translation.help.selector.field.limit": "The maximum number of targets selected.",
+    "command_translation.help.selector.field.sort": "Order in which targets beyond the limit are chosen.",
+    "command_translation.help.selector.field.sort.value.nearest": "Sort by increasing distance; default for @p.",
+    "command_translation.help.selector.field.sort.value.furthest": "Sort by decreasing distance.",
+    "command_translation.help.selector.field.sort.value.random": "Sort randomly; default for @r.",
+    "command_translation.help.selector.field.sort.value.arbitrary": "Uses no distance or random sorting.",
+    "command_translation.help.selector.field.gamemode": "Include only players in the given game mode; prefix ! to exclude those players.",
+    "command_translation.help.selector.field.gamemode.value.survival": "Survival mode.",
+    "command_translation.help.selector.field.gamemode.value.creative": "Creative mode.",
+    "command_translation.help.selector.field.gamemode.value.adventure": "Adventure mode.",
+    "command_translation.help.selector.field.gamemode.value.spectator": "Spectator mode.",
+    "command_translation.help.selector.field.team": "Scoreboard team name; team= and team=! select only targets that are in, or not in, any team.",
+    "command_translation.help.selector.field.type": "Filters by entity type or type tag; ! excludes matching targets.",
+    "command_translation.help.selector.field.tag": "Filters by scoreboard tag; ! excludes the tag.",
+    "command_translation.help.selector.field.nbt": "Matches the specified entity NBT; ! excludes matching entities.",
+    "command_translation.help.selector.field.scores": "Scoreboard score filter; every listed objective must match.",
+    "command_translation.help.selector.field.scores.*": "The score range required for this objective.",
+    "command_translation.help.selector.field.advancements": "Advancement filter for players; every listed entry must match.",
+    "command_translation.help.selector.field.advancements.*": "Whether this advancement must be complete.",
+    "command_translation.help.selector.field.advancements.*.*": "Whether this advancement criterion must be complete.",
+    "command_translation.help.selector.field.predicate": "Resource location of a predicate the target must match; prefix ! to exclude and may be repeated."
+  },
+  "zh_cn": {
+    "command_translation.help.selector.field.name": "按实体名称筛选，! 表示排除该名称。",
+    "command_translation.help.selector.field.distance": "目标脚部到参考位置的距离范围。",
+    "command_translation.help.selector.field.level": "允许选择的玩家经验等级范围。",
+    "command_translation.help.selector.field.x": "选择器参考位置的 X 坐标。",
+    "command_translation.help.selector.field.y": "选择器参考位置的 Y 坐标。",
+    "command_translation.help.selector.field.z": "选择器参考位置的 Z 坐标。",
+    "command_translation.help.selector.field.dx": "选区另一角相对参考位置的 X 方向偏移。",
+    "command_translation.help.selector.field.dy": "选区另一角相对参考位置的 Y 方向偏移。",
+    "command_translation.help.selector.field.dz": "选区另一角相对参考位置的 Z 方向偏移。",
+    "command_translation.help.selector.field.x_rotation": "俯仰角范围（度）：-90 正上，0 水平，+90 正下。",
+    "command_translation.help.selector.field.y_rotation": "偏航角范围（度）：-180 北，-90 东，0 南，+90 西，+180 又回到北。",
+    "command_translation.help.selector.field.limit": "最多选择多少个目标。",
+    "command_translation.help.selector.field.sort": "超过数量上限时挑选目标的排序方式。",
+    "command_translation.help.selector.field.sort.value.nearest": "按距离递增排序；@p 的默认值。",
+    "command_translation.help.selector.field.sort.value.furthest": "按距离递减排序。",
+    "command_translation.help.selector.field.sort.value.random": "随机排序；@r 的默认值。",
+    "command_translation.help.selector.field.sort.value.arbitrary": "不按距离或随机顺序排序。",
+    "command_translation.help.selector.field.gamemode": "仅包含处于该游戏模式的玩家；前缀 ! 表示排除这些玩家。",
+    "command_translation.help.selector.field.gamemode.value.survival": "生存模式。",
+    "command_translation.help.selector.field.gamemode.value.creative": "创造模式。",
+    "command_translation.help.selector.field.gamemode.value.adventure": "冒险模式。",
+    "command_translation.help.selector.field.gamemode.value.spectator": "旁观模式。",
+    "command_translation.help.selector.field.team": "记分板队伍名称；team= 与 team=! 只选中属于／不属于任何队伍的目标。",
+    "command_translation.help.selector.field.type": "按实体类型或类型标签筛选，! 表示排除。",
+    "command_translation.help.selector.field.tag": "按记分板标签筛选，! 表示排除该标签。",
+    "command_translation.help.selector.field.nbt": "按实体 NBT 数据筛选，! 表示排除匹配的实体。",
+    "command_translation.help.selector.field.scores": "记分板分数过滤器；列出的每个目标都必须匹配。",
+    "command_translation.help.selector.field.scores.*": "该记分项目要求的分数范围。",
+    "command_translation.help.selector.field.advancements": "玩家的进度过滤器；列出的每项都必须匹配。",
+    "command_translation.help.selector.field.advancements.*": "是否要求完成该进度。",
+    "command_translation.help.selector.field.advancements.*.*": "是否要求完成该进度条件。",
+    "command_translation.help.selector.field.predicate": "目标必须匹配的谓词资源位置；前缀 ! 表示排除，且可重复。"
+  },
+  "de_de": {
+    "command_translation.help.selector.field.name": "Filtert nach dem genauen Entitätsnamen; ! schließt ihn aus.",
+    "command_translation.help.selector.field.distance": "Abstandsbereich von der Referenzposition zu den Füßen des Ziels.",
+    "command_translation.help.selector.field.level": "Der erlaubte Erfahrungsstufenbereich der Spieler.",
+    "command_translation.help.selector.field.x": "Die X-Koordinate des Auswahl-Bezugspunkts.",
+    "command_translation.help.selector.field.y": "Die Y-Koordinate des Auswahl-Bezugspunkts.",
+    "command_translation.help.selector.field.z": "Die Z-Koordinate des Auswahl-Bezugspunkts.",
+    "command_translation.help.selector.field.dx": "Vorzeichenbehafteter X-Versatz zur gegenüberliegenden Auswahlecke.",
+    "command_translation.help.selector.field.dy": "Vorzeichenbehafteter Y-Versatz zur gegenüberliegenden Auswahlecke.",
+    "command_translation.help.selector.field.dz": "Vorzeichenbehafteter Z-Versatz zur gegenüberliegenden Auswahlecke.",
+    "command_translation.help.selector.field.x_rotation": "Pitch-Bereich in Grad: -90 gerade nach oben, 0 am Horizont, +90 gerade nach unten.",
+    "command_translation.help.selector.field.y_rotation": "Yaw-Bereich in Grad: -180 Norden, -90 Osten, 0 Süden, +90 Westen, +180 wieder Norden.",
+    "command_translation.help.selector.field.limit": "Die maximale Anzahl ausgewählter Ziele.",
+    "command_translation.help.selector.field.sort": "Reihenfolge, in der Ziele über das Limit hinaus gewählt werden.",
+    "command_translation.help.selector.field.sort.value.nearest": "Nach steigender Entfernung sortieren; Standard für @p.",
+    "command_translation.help.selector.field.sort.value.furthest": "Nach fallender Entfernung sortieren.",
+    "command_translation.help.selector.field.sort.value.random": "Zufällig sortieren; Standard für @r.",
+    "command_translation.help.selector.field.sort.value.arbitrary": "Keine Entfernungs- oder Zufallssortierung.",
+    "command_translation.help.selector.field.gamemode": "Nur Spieler im angegebenen Spielmodus; ! davor schließt diese Spieler aus.",
+    "command_translation.help.selector.field.gamemode.value.survival": "Überlebensmodus.",
+    "command_translation.help.selector.field.gamemode.value.creative": "Kreativmodus.",
+    "command_translation.help.selector.field.gamemode.value.adventure": "Abenteuermodus.",
+    "command_translation.help.selector.field.gamemode.value.spectator": "Zuschauermodus.",
+    "command_translation.help.selector.field.team": "Name des Scoreboard-Teams; team= und team=! wählen nur Ziele, die in einem bzw. in keinem Team sind.",
+    "command_translation.help.selector.field.type": "Filtert nach Entitätstyp oder Typ-Tag; ! schließt Treffer aus.",
+    "command_translation.help.selector.field.tag": "Filtert nach einem Punktetafel-Tag; ! schließt ihn aus.",
+    "command_translation.help.selector.field.nbt": "Prüft die angegebenen Entitäts-NBT-Daten; ! schließt Treffer aus.",
+    "command_translation.help.selector.field.scores": "Scoreboard-Wertfilter; jedes aufgeführte Ziel muss passen.",
+    "command_translation.help.selector.field.scores.*": "Der erforderliche Punktebereich dieses Ziels.",
+    "command_translation.help.selector.field.advancements": "Fortschrittsfilter für Spieler; jeder aufgeführte Eintrag muss passen.",
+    "command_translation.help.selector.field.advancements.*": "Ob dieser Fortschritt abgeschlossen sein muss.",
+    "command_translation.help.selector.field.advancements.*.*": "Ob dieses Fortschrittskriterium erfüllt sein muss.",
+    "command_translation.help.selector.field.predicate": "Ressourcenort eines Prädikats, das das Ziel erfüllen muss; ! davor schließt aus und Wiederholung ist erlaubt."
+  },
+  "ja_jp": {
+    "command_translation.help.selector.field.name": "エンティティ名で絞り込む。! はその名前を除外する。",
+    "command_translation.help.selector.field.distance": "基準位置から対象の足元までの距離の範囲。",
+    "command_translation.help.selector.field.level": "対象にするプレイヤーの経験値レベルの範囲。",
+    "command_translation.help.selector.field.x": "選択の基準位置のX座標。",
+    "command_translation.help.selector.field.y": "選択の基準位置のY座標。",
+    "command_translation.help.selector.field.z": "選択の基準位置のZ座標。",
+    "command_translation.help.selector.field.dx": "基準位置から選択範囲の反対側の角までのX方向の差。",
+    "command_translation.help.selector.field.dy": "基準位置から選択範囲の反対側の角までのY方向の差。",
+    "command_translation.help.selector.field.dz": "基準位置から選択範囲の反対側の角までのZ方向の差。",
+    "command_translation.help.selector.field.x_rotation": "ピッチ角の範囲（度）。-90 が真上、0 が水平、+90 が真下。",
+    "command_translation.help.selector.field.y_rotation": "ヨー角の範囲（度）。-180 北、-90 東、0 南、+90 西、+180 で再び北。",
+    "command_translation.help.selector.field.limit": "選択する対象の最大数。",
+    "command_translation.help.selector.field.sort": "上限を超えた対象を選ぶ並び順。",
+    "command_translation.help.selector.field.sort.value.nearest": "距離の昇順で並べる。@p の既定。",
+    "command_translation.help.selector.field.sort.value.furthest": "距離の降順で並べる。",
+    "command_translation.help.selector.field.sort.value.random": "ランダムに並べる。@r の既定。",
+    "command_translation.help.selector.field.sort.value.arbitrary": "距離順やランダム順には並べ替えない。",
+    "command_translation.help.selector.field.gamemode": "指定したゲームモードのプレイヤーのみを含める。先頭の ! で除外。",
+    "command_translation.help.selector.field.gamemode.value.survival": "サバイバルモード。",
+    "command_translation.help.selector.field.gamemode.value.creative": "クリエイティブモード。",
+    "command_translation.help.selector.field.gamemode.value.adventure": "アドベンチャーモード。",
+    "command_translation.help.selector.field.gamemode.value.spectator": "スペクテイターモード。",
+    "command_translation.help.selector.field.team": "スコアボードのチーム名。team= と team=! は、いずれかのチームに所属する／しない対象のみを選ぶ。",
+    "command_translation.help.selector.field.type": "エンティティの種類または種類タグで絞り込む。! は一致する対象を除外する。",
+    "command_translation.help.selector.field.tag": "スコアボードタグで絞り込む。! はそのタグを除外する。",
+    "command_translation.help.selector.field.nbt": "エンティティのNBTデータで絞り込む。! は一致する対象を除外する。",
+    "command_translation.help.selector.field.scores": "スコアボード値のフィルター。列挙した各目標がすべて一致する必要がある。",
+    "command_translation.help.selector.field.scores.*": "このスコア項目で要求する得点の範囲。",
+    "command_translation.help.selector.field.advancements": "プレイヤーの進捗フィルター。列挙した各項目がすべて一致する必要がある。",
+    "command_translation.help.selector.field.advancements.*": "この進捗の達成を要求するか。",
+    "command_translation.help.selector.field.advancements.*.*": "この進捗条件の達成を要求するか。",
+    "command_translation.help.selector.field.predicate": "対象が一致すべき述語のリソース位置。先頭の ! で除外、重複可。"
+  },
+  "sources": {
+    "command_translation.help.selector.field.name": [
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.selector.field.distance": [
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.selector.field.level": [
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.selector.field.x": [
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.selector.field.y": [
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.selector.field.z": [
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.selector.field.dx": [
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.selector.field.dy": [
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.selector.field.dz": [
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.selector.field.x_rotation": [
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.selector.field.y_rotation": [
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.selector.field.limit": [
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.selector.field.sort": [
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.selector.field.sort.value.nearest": [
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.selector.field.sort.value.furthest": [
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.selector.field.sort.value.random": [
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.selector.field.sort.value.arbitrary": [
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.selector.field.gamemode": [
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.selector.field.gamemode.value.survival": [
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.selector.field.gamemode.value.creative": [
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.selector.field.gamemode.value.adventure": [
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.selector.field.gamemode.value.spectator": [
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.selector.field.team": [
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.selector.field.type": [
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.selector.field.tag": [
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.selector.field.nbt": [
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.selector.field.scores": [
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.selector.field.scores.*": [
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.selector.field.advancements": [
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.selector.field.advancements.*": [
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.selector.field.advancements.*.*": [
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.selector.field.predicate": [
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ]
+  }
+}

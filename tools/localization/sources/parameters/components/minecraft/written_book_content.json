@@ -1,0 +1,192 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:written_book_content": "The contents and metadata of this written book.",
+    "command_translation.help.component.minecraft:written_book_content.field.pages": "The list of pages in the book.",
+    "command_translation.help.component.minecraft:written_book_content.field.pages.raw": "The text component content of a page.",
+    "command_translation.help.component.minecraft:written_book_content.field.pages.filtered": "The filtered text of a page, shown only to players with chat filter enabled.",
+    "command_translation.help.component.minecraft:written_book_content.field.title": "The book title, which overrides the base item name.",
+    "command_translation.help.component.minecraft:written_book_content.field.title.raw": "The plain text title, up to 32 characters.",
+    "command_translation.help.component.minecraft:written_book_content.field.title.filtered": "The filtered title, shown only to players with chat filter enabled.",
+    "command_translation.help.component.minecraft:written_book_content.field.author": "The author of the book, shown in the item tooltip.",
+    "command_translation.help.component.minecraft:written_book_content.field.generation": "The number of times the book has been copied, from 0 to 3.",
+    "command_translation.help.component.minecraft:written_book_content.field.resolved": "Whether the text components have already been resolved by the server."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:written_book_content": "该成书的内容与元数据。",
+    "command_translation.help.component.minecraft:written_book_content.field.pages": "书中的页面列表。",
+    "command_translation.help.component.minecraft:written_book_content.field.pages.raw": "某页的文本组件内容。",
+    "command_translation.help.component.minecraft:written_book_content.field.pages.filtered": "某页经过滤的文本，仅对启用聊天过滤的玩家显示。",
+    "command_translation.help.component.minecraft:written_book_content.field.title": "书名，会覆盖基础物品名称。",
+    "command_translation.help.component.minecraft:written_book_content.field.title.raw": "纯文本书名，最多 32 个字符。",
+    "command_translation.help.component.minecraft:written_book_content.field.title.filtered": "经过滤的书名，仅对启用聊天过滤的玩家显示。",
+    "command_translation.help.component.minecraft:written_book_content.field.author": "书的作者，显示在物品提示中。",
+    "command_translation.help.component.minecraft:written_book_content.field.generation": "书的复制次数，范围 0 到 3。",
+    "command_translation.help.component.minecraft:written_book_content.field.resolved": "文本组件是否已由服务器解析。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:written_book_content": "Der Inhalt und die Metadaten dieses geschriebenen Buchs.",
+    "command_translation.help.component.minecraft:written_book_content.field.pages": "Die Liste der Seiten im Buch.",
+    "command_translation.help.component.minecraft:written_book_content.field.pages.raw": "Der Textkomponenten-Inhalt einer Seite.",
+    "command_translation.help.component.minecraft:written_book_content.field.pages.filtered": "Der gefilterte Text einer Seite, nur für Spieler mit aktiviertem Chatfilter.",
+    "command_translation.help.component.minecraft:written_book_content.field.title": "Der Buchtitel, der den Basis-Itemnamen überschreibt.",
+    "command_translation.help.component.minecraft:written_book_content.field.title.raw": "Der reine Texttitel, bis zu 32 Zeichen.",
+    "command_translation.help.component.minecraft:written_book_content.field.title.filtered": "Der gefilterte Titel, nur für Spieler mit aktiviertem Chatfilter.",
+    "command_translation.help.component.minecraft:written_book_content.field.author": "Der Autor des Buchs, im Item-Tooltip angezeigt.",
+    "command_translation.help.component.minecraft:written_book_content.field.generation": "Die Anzahl der Kopiervorgänge, von 0 bis 3.",
+    "command_translation.help.component.minecraft:written_book_content.field.resolved": "Ob die Textkomponenten bereits vom Server aufgelöst wurden."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:written_book_content": "この記入済みの本の内容とメタデータ。",
+    "command_translation.help.component.minecraft:written_book_content.field.pages": "本のページのリスト。",
+    "command_translation.help.component.minecraft:written_book_content.field.pages.raw": "ページのテキストコンポーネント内容。",
+    "command_translation.help.component.minecraft:written_book_content.field.pages.filtered": "ページのフィルター済みテキスト。チャットフィルター有効時のみ表示。",
+    "command_translation.help.component.minecraft:written_book_content.field.title": "本のタイトル。ベースのアイテム名を上書きする。",
+    "command_translation.help.component.minecraft:written_book_content.field.title.raw": "プレーンテキストのタイトル。最大32文字。",
+    "command_translation.help.component.minecraft:written_book_content.field.title.filtered": "フィルター済みタイトル。チャットフィルター有効時のみ表示。",
+    "command_translation.help.component.minecraft:written_book_content.field.author": "本の著者。アイテムのツールチップに表示される。",
+    "command_translation.help.component.minecraft:written_book_content.field.generation": "本が複製された回数（0～3）。",
+    "command_translation.help.component.minecraft:written_book_content.field.resolved": "テキストコンポーネントがサーバーで解決済みか。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:written_book_content": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:written_book_content.field.pages": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:written_book_content.field.pages.raw": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:written_book_content.field.pages.filtered": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:written_book_content.field.title": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:written_book_content.field.title.raw": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:written_book_content.field.title.filtered": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:written_book_content.field.author": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:written_book_content.field.generation": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:written_book_content.field.resolved": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

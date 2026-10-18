@@ -1,0 +1,48 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:block_entity_data": "Block entity data written when this block item is placed.",
+    "command_translation.help.component.minecraft:block_entity_data.field.id": "The block entity type that receives this data."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:block_entity_data": "放置该方块物品时写入的方块实体数据。",
+    "command_translation.help.component.minecraft:block_entity_data.field.id": "接收该数据的方块实体类型。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:block_entity_data": "Blockentitäts-Daten, die beim Platzieren dieses Blockitems gesetzt werden.",
+    "command_translation.help.component.minecraft:block_entity_data.field.id": "Der Blockentitätstyp, der diese Daten erhält."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:block_entity_data": "このブロックアイテムを設置したときに書き込まれるブロックエンティティのデータ。",
+    "command_translation.help.component.minecraft:block_entity_data.field.id": "このデータを受け取るブロックエンティティの種類。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:block_entity_data": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:block_entity_data.field.id": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:frog/variant": "The frog’s appearance variant.",
+    "command_translation.help.component.minecraft:frog/variant.value.minecraft:cold": "Cold-climate variant.",
+    "command_translation.help.component.minecraft:frog/variant.value.minecraft:warm": "Warm-climate variant.",
+    "command_translation.help.component.minecraft:frog/variant.value.minecraft:temperate": "Temperate-climate variant."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:frog/variant": "青蛙的外观变种。",
+    "command_translation.help.component.minecraft:frog/variant.value.minecraft:cold": "寒冷型外观。",
+    "command_translation.help.component.minecraft:frog/variant.value.minecraft:warm": "温暖型外观。",
+    "command_translation.help.component.minecraft:frog/variant.value.minecraft:temperate": "温带型外观。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:frog/variant": "Die Erscheinungsvariante des Frosches.",
+    "command_translation.help.component.minecraft:frog/variant.value.minecraft:cold": "Variante für kaltes Klima.",
+    "command_translation.help.component.minecraft:frog/variant.value.minecraft:warm": "Variante für warmes Klima.",
+    "command_translation.help.component.minecraft:frog/variant.value.minecraft:temperate": "Variante für gemäßigtes Klima."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:frog/variant": "カエルの見た目のバリエーション。",
+    "command_translation.help.component.minecraft:frog/variant.value.minecraft:cold": "寒冷地の見た目。",
+    "command_translation.help.component.minecraft:frog/variant.value.minecraft:warm": "温暖地の見た目。",
+    "command_translation.help.component.minecraft:frog/variant.value.minecraft:temperate": "温帯の見た目。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:frog/variant": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:frog/variant.value.minecraft:cold": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:frog/variant.value.minecraft:warm": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:frog/variant.value.minecraft:temperate": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ]
+  }
+}

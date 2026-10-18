@@ -1,0 +1,243 @@
+{
+  "en_us": {
+    "command_translation.help.argument.damage.target": "The single entity to damage; the selector must resolve to exactly one entity.",
+    "command_translation.help.argument.damage.amount": "The amount of damage to apply; each point is half a heart, and the actual damage taken is still modified by armour, enchantments and effects.",
+    "command_translation.help.argument.damage.damageType": "The damage type; it decides the death message and how the damage interacts with resistances.",
+    "command_translation.help.argument.damage.at": "Gives a fixed world position as the damage source, for damage not dealt by an entity.",
+    "command_translation.help.argument.damage.at.location": "The coordinates the damage originates from.",
+    "command_translation.help.argument.damage.by": "Names the entity that directly dealt the damage.",
+    "command_translation.help.argument.damage.by.entity": "The single entity that directly dealt the damage.",
+    "command_translation.help.argument.damage.from": "Names the entity that ultimately caused the damage even when a projectile dealt it.",
+    "command_translation.help.argument.damage.by.entity.from.cause": "The attributing entity (owner) of the damaging entity, such as a projectile's shooter."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.damage.target": "要受到伤害的单个实体；选择器必须只解析出一个实体。",
+    "command_translation.help.argument.damage.amount": "要施加的伤害量；每 1 点相当于半颗心，实际伤害仍受盔甲、附魔与效果影响。",
+    "command_translation.help.argument.damage.damageType": "伤害类型，决定死亡消息以及伤害与抗性的交互。",
+    "command_translation.help.argument.damage.at": "为并非由实体造成的伤害指定固定世界坐标作为来源。",
+    "command_translation.help.argument.damage.at.location": "伤害来源的坐标。",
+    "command_translation.help.argument.damage.by": "指定直接造成伤害的实体。",
+    "command_translation.help.argument.damage.by.entity": "直接造成伤害的那个实体。",
+    "command_translation.help.argument.damage.from": "指定伤害的最终归因来源，即使实际由弹射物造成。",
+    "command_translation.help.argument.damage.by.entity.from.cause": "造成伤害实体的归属者，例如弹射物的发射者。"
+  },
+  "sources": {
+    "command_translation.help.argument.damage.target": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdamage",
+        "revision": 3785896
+      },
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.argument.damage.amount": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdamage",
+        "revision": 3785896
+      }
+    ],
+    "command_translation.help.argument.damage.damageType": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdamage",
+        "revision": 3785896
+      }
+    ],
+    "command_translation.help.argument.damage.at": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdamage",
+        "revision": 3785896
+      }
+    ],
+    "command_translation.help.argument.damage.at.location": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdamage",
+        "revision": 3785896
+      }
+    ],
+    "command_translation.help.argument.damage.by": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdamage",
+        "revision": 3785896
+      }
+    ],
+    "command_translation.help.argument.damage.by.entity": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdamage",
+        "revision": 3785896
+      }
+    ],
+    "command_translation.help.argument.damage.from": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdamage",
+        "revision": 3785896
+      }
+    ],
+    "command_translation.help.argument.damage.by.entity.from.cause": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdamage",
+        "revision": 3785896
+      }
+    ]
+  },
+  "bindings": {
+    "damage.target": "command_translation.help.argument.damage.target",
+    "damage.target.amount": "command_translation.help.argument.damage.amount",
+    "damage.target.amount.damageType": "command_translation.help.argument.damage.damageType",
+    "damage.target.amount.damageType.at": "command_translation.help.argument.damage.at",
+    "damage.target.amount.damageType.at.location": "command_translation.help.argument.damage.at.location",
+    "damage.target.amount.damageType.by": "command_translation.help.argument.damage.by",
+    "damage.target.amount.damageType.by.entity": "command_translation.help.argument.damage.by.entity",
+    "damage.target.amount.damageType.by.entity.from": "command_translation.help.argument.damage.from",
+    "damage.target.amount.damageType.by.entity.from.cause": "command_translation.help.argument.damage.by.entity.from.cause"
+  },
+  "de_de": {
+    "command_translation.help.argument.damage.target": "Die einzelne zu schädigende Entität; der Selektor muss sich auf genau eine Entität auflösen.",
+    "command_translation.help.argument.damage.amount": "Die zuzufügende Schadensmenge; ein Punkt ist ein halbes Herz, der tatsächliche Schaden wird weiterhin von Rüstung, Verzauberungen und Effekten beeinflusst.",
+    "command_translation.help.argument.damage.damageType": "Der Schadenstyp; er bestimmt die Todesnachricht und das Zusammenspiel mit Resistenzen.",
+    "command_translation.help.argument.damage.at": "Gibt eine feste Weltposition als Schadensquelle an, wenn kein Wesen den Schaden verursacht hat.",
+    "command_translation.help.argument.damage.at.location": "Die Koordinaten, von denen der Schaden ausgeht.",
+    "command_translation.help.argument.damage.by": "Nennt die Entität, die den Schaden direkt verursacht hat.",
+    "command_translation.help.argument.damage.by.entity": "Die einzelne Entität, die den Schaden direkt verursacht hat.",
+    "command_translation.help.argument.damage.from": "Nennt die Entität, die den Schaden letztlich verursacht hat, auch wenn ein Projektil ihn zugefügt hat.",
+    "command_translation.help.argument.damage.by.entity.from.cause": "Die zuzuordnende Entität (Besitzer) der schädigenden Entität, etwa der Schütze eines Projektils."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.damage.target": "ダメージを与える単一のエンティティ。セレクターはちょうど 1 体に解決される必要がある。",
+    "command_translation.help.argument.damage.amount": "与えるダメージ量。1 ポイントはハート半分で、実際に受けるダメージは防具・エンチャント・効果の影響を受ける。",
+    "command_translation.help.argument.damage.damageType": "ダメージの種類。死亡メッセージや耐性との相互作用を決める。",
+    "command_translation.help.argument.damage.at": "エンティティが起こしたのではないダメージに、固定のワールド座標を発生源として与える。",
+    "command_translation.help.argument.damage.at.location": "ダメージの発生源となる座標。",
+    "command_translation.help.argument.damage.by": "ダメージを直接与えたエンティティを指定する。",
+    "command_translation.help.argument.damage.by.entity": "ダメージを直接与えた単一のエンティティ。",
+    "command_translation.help.argument.damage.from": "飛び道具が与えた場合でも、ダメージの最終的な原因となったエンティティを指定する。",
+    "command_translation.help.argument.damage.by.entity.from.cause": "ダメージを与えたエンティティの帰属エンティティ。例：飛び道具の発射者。"
+  },
+  "syntax": [
+    {
+      "path": "damage",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "damage.target",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "single"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "damage.target.amount",
+      "type": "argument",
+      "parser": "brigadier:float",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "damage.target.amount.damageType",
+      "type": "argument",
+      "parser": "minecraft:resource",
+      "properties": {
+        "registry": "minecraft:damage_type"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "damage.target.amount.damageType.at",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "damage.target.amount.damageType.at.location",
+      "type": "argument",
+      "parser": "minecraft:vec3",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "damage.target.amount.damageType.by",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "damage.target.amount.damageType.by.entity",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "single"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "damage.target.amount.damageType.by.entity.from",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "damage.target.amount.damageType.by.entity.from.cause",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "single"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "en_us": {
+    "command_translation.help.argument.waypoint.list": "Lists the tracked waypoints currently transmitted by entities.",
+    "command_translation.help.argument.waypoint.modify": "Changes the appearance of the waypoint transmitted by an entity.",
+    "command_translation.help.argument.waypoint.waypoint": "The single entity whose transmitted waypoint is modified; it must be a waypoint transmitter.",
+    "command_translation.help.argument.waypoint.color": "Changes the waypoint colour to a named colour, overriding the default.",
+    "command_translation.help.argument.waypoint.color.value": "A named colour such as red or blue; use hex for a hexadecimal code.",
+    "command_translation.help.argument.waypoint.hex": "Uses an explicit hexadecimal colour code instead of a named colour.",
+    "command_translation.help.argument.waypoint.hex.color": "A colour written as three or six hexadecimal digits such as FF0000.",
+    "command_translation.help.argument.waypoint.color.reset": "Removes the custom colour so the waypoint uses the default.",
+    "command_translation.help.argument.waypoint.style": "Sets or resets the waypoint's icon style.",
+    "command_translation.help.argument.waypoint.style.reset": "Returns the waypoint style to the default minecraft:default.",
+    "command_translation.help.argument.waypoint.style.set": "Applies the given waypoint style.",
+    "command_translation.help.argument.waypoint.style.set.style": "A resource location of a waypoint style from a resource pack."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.waypoint.list": "列出实体当前传送的、已被追踪的路标。",
+    "command_translation.help.argument.waypoint.modify": "修改某实体所传送路标的外观。",
+    "command_translation.help.argument.waypoint.waypoint": "要修改所传送路标的实体，必须是路标传送者。",
+    "command_translation.help.argument.waypoint.color": "把路标颜色改为命名颜色，覆盖默认颜色。",
+    "command_translation.help.argument.waypoint.color.value": "red、blue 等颜色名；十六进制颜色码请用 hex 选项。",
+    "command_translation.help.argument.waypoint.hex": "使用十六进制颜色代码，而非命名颜色。",
+    "command_translation.help.argument.waypoint.hex.color": "写成三或六位十六进制数字的颜色，如 FF0000。",
+    "command_translation.help.argument.waypoint.color.reset": "移除自定义颜色，让路标使用默认颜色。",
+    "command_translation.help.argument.waypoint.style": "设置或重置路标的图标样式。",
+    "command_translation.help.argument.waypoint.style.reset": "把路标样式恢复为默认的 minecraft:default。",
+    "command_translation.help.argument.waypoint.style.set": "应用给定的路标样式。",
+    "command_translation.help.argument.waypoint.style.set.style": "资源包中某个路标样式的资源位置。"
+  },
+  "sources": {
+    "command_translation.help.argument.waypoint.list": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fwaypoint",
+        "revision": 3724964
+      }
+    ],
+    "command_translation.help.argument.waypoint.modify": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fwaypoint",
+        "revision": 3724964
+      }
+    ],
+    "command_translation.help.argument.waypoint.waypoint": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fwaypoint",
+        "revision": 3724964
+      }
+    ],
+    "command_translation.help.argument.waypoint.color": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fwaypoint",
+        "revision": 3724964
+      }
+    ],
+    "command_translation.help.argument.waypoint.color.value": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fwaypoint",
+        "revision": 3724964
+      }
+    ],
+    "command_translation.help.argument.waypoint.hex": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fwaypoint",
+        "revision": 3724964
+      }
+    ],
+    "command_translation.help.argument.waypoint.hex.color": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fwaypoint",
+        "revision": 3724964
+      }
+    ],
+    "command_translation.help.argument.waypoint.color.reset": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fwaypoint",
+        "revision": 3724964
+      }
+    ],
+    "command_translation.help.argument.waypoint.style": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fwaypoint",
+        "revision": 3724964
+      }
+    ],
+    "command_translation.help.argument.waypoint.style.reset": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fwaypoint",
+        "revision": 3724964
+      }
+    ],
+    "command_translation.help.argument.waypoint.style.set": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fwaypoint",
+        "revision": 3724964
+      }
+    ],
+    "command_translation.help.argument.waypoint.style.set.style": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fwaypoint",
+        "revision": 3724964
+      }
+    ]
+  },
+  "bindings": {
+    "waypoint.list": "command_translation.help.argument.waypoint.list",
+    "waypoint.modify": "command_translation.help.argument.waypoint.modify",
+    "waypoint.modify.waypoint": "command_translation.help.argument.waypoint.waypoint",
+    "waypoint.modify.waypoint.color": "command_translation.help.argument.waypoint.color",
+    "waypoint.modify.waypoint.color.color": "command_translation.help.argument.waypoint.color.value",
+    "waypoint.modify.waypoint.color.hex": "command_translation.help.argument.waypoint.hex",
+    "waypoint.modify.waypoint.color.hex.color": "command_translation.help.argument.waypoint.hex.color",
+    "waypoint.modify.waypoint.color.reset": "command_translation.help.argument.waypoint.color.reset",
+    "waypoint.modify.waypoint.style": "command_translation.help.argument.waypoint.style",
+    "waypoint.modify.waypoint.style.reset": "command_translation.help.argument.waypoint.style.reset",
+    "waypoint.modify.waypoint.style.set": "command_translation.help.argument.waypoint.style.set",
+    "waypoint.modify.waypoint.style.set.style": "command_translation.help.argument.waypoint.style.set.style"
+  },
+  "de_de": {
+    "command_translation.help.argument.waypoint.list": "Listet die derzeit von Wesen übertragenen, erfassten Wegpunkte auf.",
+    "command_translation.help.argument.waypoint.modify": "Ändert das Aussehen des von einem Wesen übertragenen Wegpunkts.",
+    "command_translation.help.argument.waypoint.waypoint": "Das einzelne Wesen, dessen übertragener Wegpunkt geändert wird; es muss ein Wegpunkt-Sender sein.",
+    "command_translation.help.argument.waypoint.color": "Ändert die Wegpunktfarbe auf einen Farbnamen und überschreibt die Standardfarbe.",
+    "command_translation.help.argument.waypoint.color.value": "Ein Farbname wie red oder blue; für Hex-Codes die Option hex nutzen.",
+    "command_translation.help.argument.waypoint.hex": "Verwendet einen expliziten Hex-Farbcode statt eines Farbnamens.",
+    "command_translation.help.argument.waypoint.hex.color": "Eine Farbe als drei oder sechs Hexadezimalstellen, z. B. FF0000.",
+    "command_translation.help.argument.waypoint.color.reset": "Entfernt die eigene Farbe, sodass der Wegpunkt die Standardfarbe nutzt.",
+    "command_translation.help.argument.waypoint.style": "Setzt den Symbolstil des Wegpunkts oder setzt ihn zurück.",
+    "command_translation.help.argument.waypoint.style.reset": "Setzt den Wegpunktstil auf den Standard minecraft:default zurück.",
+    "command_translation.help.argument.waypoint.style.set": "Wendet den angegebenen Wegpunktstil an.",
+    "command_translation.help.argument.waypoint.style.set.style": "Ein Ressourcenort eines Wegpunktstils aus einem Ressourcenpaket."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.waypoint.list": "エンティティが現在伝送している追跡中のウェイポイントを一覧表示する。",
+    "command_translation.help.argument.waypoint.modify": "あるエンティティが伝送しているウェイポイントの見た目を変更する。",
+    "command_translation.help.argument.waypoint.waypoint": "伝送中のウェイポイントを変更する単一のエンティティ。ウェイポイント伝送者である必要がある。",
+    "command_translation.help.argument.waypoint.color": "ウェイポイントの色を色名で変更し、既定の色を上書きする。",
+    "command_translation.help.argument.waypoint.color.value": "red や blue などの色名。16 進コードには hex オプションを使う。",
+    "command_translation.help.argument.waypoint.hex": "色名ではなく明示的な 16 進カラーコードを使う。",
+    "command_translation.help.argument.waypoint.hex.color": "3 桁または 6 桁の 16 進数で表す色（例：FF0000）。",
+    "command_translation.help.argument.waypoint.color.reset": "設定した色を消し、ウェイポイントを既定の色に戻す。",
+    "command_translation.help.argument.waypoint.style": "ウェイポイントのアイコンスタイルを設定またはリセットする。",
+    "command_translation.help.argument.waypoint.style.reset": "ウェイポイントスタイルを既定の minecraft:default に戻す。",
+    "command_translation.help.argument.waypoint.style.set": "指定したウェイポイントスタイルを適用する。",
+    "command_translation.help.argument.waypoint.style.set.style": "リソースパックにあるウェイポイントスタイルのリソース位置。"
+  },
+  "syntax": [
+    {
+      "path": "waypoint",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "waypoint.list",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "waypoint.modify",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "waypoint.modify.waypoint",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "single"
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "waypoint.modify.waypoint.color",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "waypoint.modify.waypoint.color.color",
+      "type": "argument",
+      "parser": "minecraft:color",
+      "versions": [
+        "26.1.2"
+      ]
+    },
+    {
+      "path": "waypoint.modify.waypoint.color.hex",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "waypoint.modify.waypoint.color.hex.color",
+      "type": "argument",
+      "parser": "minecraft:hex_color",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "waypoint.modify.waypoint.color.reset",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "waypoint.modify.waypoint.style",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "waypoint.modify.waypoint.style.reset",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "waypoint.modify.waypoint.style.set",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "waypoint.modify.waypoint.style.set.style",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "waypoint.modify.waypoint.color.color",
+      "type": "argument",
+      "parser": "minecraft:team_color",
+      "versions": [
+        "26.2"
+      ]
+    }
+  ]
+}

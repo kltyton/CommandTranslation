@@ -1,0 +1,130 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:potion_contents": "The base potion, custom mob effects, and custom color contained in this item.",
+    "command_translation.help.component.minecraft:potion_contents.field.potion": "The ID of the potion type.",
+    "command_translation.help.component.minecraft:potion_contents.field.custom_color": "The overriding color of the potion texture and area effect cloud particles.",
+    "command_translation.help.component.minecraft:potion_contents.field.custom_name": "Translation suffix used to name the potion item.",
+    "command_translation.help.component.minecraft:potion_contents.field.custom_effects": "The additional mob effects this item applies.",
+    "command_translation.help.component.minecraft:potion_contents.field.custom_effects.id": "The ID of the effect.",
+    "command_translation.help.component.minecraft:potion_contents.field.custom_effects.amplifier": "The effect amplifier, with level I being 0.",
+    "command_translation.help.component.minecraft:potion_contents.field.custom_effects.duration": "The effect duration in ticks.",
+    "command_translation.help.component.minecraft:potion_contents.field.custom_effects.ambient": "Whether the effect is less intrusive on screen like a beacon effect.",
+    "command_translation.help.component.minecraft:potion_contents.field.custom_effects.show_particles": "Whether the effect produces particles.",
+    "command_translation.help.component.minecraft:potion_contents.field.custom_effects.show_icon": "Whether an icon is shown for the effect."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:potion_contents": "该物品所含的基础药水、自定义生物效果与自定义颜色。",
+    "command_translation.help.component.minecraft:potion_contents.field.potion": "药水类型的 ID。",
+    "command_translation.help.component.minecraft:potion_contents.field.custom_color": "覆盖药水纹理及区域效果云粒子颜色的颜色。",
+    "command_translation.help.component.minecraft:potion_contents.field.custom_name": "药水名称的翻译键后缀。",
+    "command_translation.help.component.minecraft:potion_contents.field.custom_effects": "该物品附加应用的生物效果。",
+    "command_translation.help.component.minecraft:potion_contents.field.custom_effects.id": "效果的 ID。",
+    "command_translation.help.component.minecraft:potion_contents.field.custom_effects.amplifier": "效果等级，I 级为 0。",
+    "command_translation.help.component.minecraft:potion_contents.field.custom_effects.duration": "效果持续时间（刻）。",
+    "command_translation.help.component.minecraft:potion_contents.field.custom_effects.ambient": "该效果是否如信标效果那样在屏幕上较不显眼。",
+    "command_translation.help.component.minecraft:potion_contents.field.custom_effects.show_particles": "该效果是否产生粒子。",
+    "command_translation.help.component.minecraft:potion_contents.field.custom_effects.show_icon": "是否为该效果显示图标。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:potion_contents": "Der Basistrank, benutzerdefinierte Mob-Effekte und die benutzerdefinierte Farbe dieses Items.",
+    "command_translation.help.component.minecraft:potion_contents.field.potion": "Die ID des Tranktys.",
+    "command_translation.help.component.minecraft:potion_contents.field.custom_color": "Die überschreibende Farbe der Tranktextur und der Partikel der Bereichswolke.",
+    "command_translation.help.component.minecraft:potion_contents.field.custom_name": "Übersetzungssuffix für den Namen des Trank-Items.",
+    "command_translation.help.component.minecraft:potion_contents.field.custom_effects": "Die zusätzlichen Mob-Effekte, die dieses Item anwendet.",
+    "command_translation.help.component.minecraft:potion_contents.field.custom_effects.id": "Die ID des Effekts.",
+    "command_translation.help.component.minecraft:potion_contents.field.custom_effects.amplifier": "Der Effektverstärker, wobei Stufe I den Wert 0 hat.",
+    "command_translation.help.component.minecraft:potion_contents.field.custom_effects.duration": "Die Wirkungsdauer in Ticks.",
+    "command_translation.help.component.minecraft:potion_contents.field.custom_effects.ambient": "Ob der Effekt wie ein Leuchtfeuereffekt auf dem Bildschirm weniger aufdringlich ist.",
+    "command_translation.help.component.minecraft:potion_contents.field.custom_effects.show_particles": "Ob der Effekt Partikel erzeugt.",
+    "command_translation.help.component.minecraft:potion_contents.field.custom_effects.show_icon": "Ob ein Symbol für den Effekt angezeigt wird."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:potion_contents": "このアイテムに含まれるベースのポーション、独自のMob効果、独自の色。",
+    "command_translation.help.component.minecraft:potion_contents.field.potion": "ポーションの種類のID。",
+    "command_translation.help.component.minecraft:potion_contents.field.custom_color": "ポーションのテクスチャとエリア効果雲のパーティクルを上書きする色。",
+    "command_translation.help.component.minecraft:potion_contents.field.custom_name": "ポーション名の翻訳キーに付ける接尾辞。",
+    "command_translation.help.component.minecraft:potion_contents.field.custom_effects": "このアイテムが追加で適用するMob効果。",
+    "command_translation.help.component.minecraft:potion_contents.field.custom_effects.id": "効果のID。",
+    "command_translation.help.component.minecraft:potion_contents.field.custom_effects.amplifier": "効果の強度。レベルIが0。",
+    "command_translation.help.component.minecraft:potion_contents.field.custom_effects.duration": "効果の持続時間（ティック）。",
+    "command_translation.help.component.minecraft:potion_contents.field.custom_effects.ambient": "ビーコン効果のように画面上で控えめに表示されるか。",
+    "command_translation.help.component.minecraft:potion_contents.field.custom_effects.show_particles": "この効果がパーティクルを出すか。",
+    "command_translation.help.component.minecraft:potion_contents.field.custom_effects.show_icon": "この効果のアイコンを表示するか。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:potion_contents": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:potion_contents.field.potion": [
+      {
+        "url": "https://minecraft.wiki/w/Template%3ANbt%20inherit%2Fpotion%20contents%2Ftemplate",
+        "revision": 3620339
+      }
+    ],
+    "command_translation.help.component.minecraft:potion_contents.field.custom_color": [
+      {
+        "url": "https://minecraft.wiki/w/Template%3ANbt%20inherit%2Fpotion%20contents%2Ftemplate",
+        "revision": 3620339
+      }
+    ],
+    "command_translation.help.component.minecraft:potion_contents.field.custom_name": [
+      {
+        "url": "https://minecraft.wiki/w/Template%3ANbt%20inherit%2Fpotion%20contents%2Ftemplate",
+        "revision": 3620339
+      }
+    ],
+    "command_translation.help.component.minecraft:potion_contents.field.custom_effects": [
+      {
+        "url": "https://minecraft.wiki/w/Template%3ANbt%20inherit%2Fpotion%20contents%2Ftemplate",
+        "revision": 3620339
+      }
+    ],
+    "command_translation.help.component.minecraft:potion_contents.field.custom_effects.id": [
+      {
+        "url": "https://minecraft.wiki/w/Template%3ANbt%20inherit%2Fpotion%20contents%2Ftemplate",
+        "revision": 3620339
+      }
+    ],
+    "command_translation.help.component.minecraft:potion_contents.field.custom_effects.amplifier": [
+      {
+        "url": "https://minecraft.wiki/w/Template%3ANbt%20inherit%2Fpotion%20contents%2Ftemplate",
+        "revision": 3620339
+      }
+    ],
+    "command_translation.help.component.minecraft:potion_contents.field.custom_effects.duration": [
+      {
+        "url": "https://minecraft.wiki/w/Template%3ANbt%20inherit%2Fpotion%20contents%2Ftemplate",
+        "revision": 3620339
+      }
+    ],
+    "command_translation.help.component.minecraft:potion_contents.field.custom_effects.ambient": [
+      {
+        "url": "https://minecraft.wiki/w/Template%3ANbt%20inherit%2Fpotion%20contents%2Ftemplate",
+        "revision": 3620339
+      }
+    ],
+    "command_translation.help.component.minecraft:potion_contents.field.custom_effects.show_particles": [
+      {
+        "url": "https://minecraft.wiki/w/Template%3ANbt%20inherit%2Fpotion%20contents%2Ftemplate",
+        "revision": 3620339
+      }
+    ],
+    "command_translation.help.component.minecraft:potion_contents.field.custom_effects.show_icon": [
+      {
+        "url": "https://minecraft.wiki/w/Template%3ANbt%20inherit%2Fpotion%20contents%2Ftemplate",
+        "revision": 3620339
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+NBT Autocomplete
+Copyright (C) 2023-2026, Damian Mazur ("mt1006") and Contributors
+License: LGPL-3.0-only
+
+Distributed unchanged as a nested dependency.
+Source: https://github.com/mt1006/mc-nbtac-mod
+Project: https://modrinth.com/mod/nbt-autocomplete
+
+This program is free software. You can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License, version 3 only.
+It is provided without any warranty, including merchantability or fitness
+for a particular purpose.
+
+License texts: https://www.gnu.org/licenses/gpl-3.0.html
+https://www.gnu.org/licenses/lgpl-3.0.html
+
+The upstream license additionally permits omitting the full GPL/LGPL
+texts when its copyright and license notice is retained.

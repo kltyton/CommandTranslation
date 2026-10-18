@@ -1,0 +1,357 @@
+{
+  "en_us": {
+    "command_translation.help.argument.datapack.disable": "Disables an already enabled data pack; a built-in pack enabled when the world was created cannot be disabled this way.",
+    "command_translation.help.argument.datapack.enable": "Enables a data pack, optionally choosing where it sits in the load order.",
+    "command_translation.help.argument.datapack.list": "Lists data packs; with no option all packs are listed.",
+    "command_translation.help.argument.datapack.create": "Creates a new empty directory data pack for the current world.",
+    "command_translation.help.argument.datapack.name": "The name of the data pack, matching its folder or zip name.",
+    "command_translation.help.argument.datapack.existing": "The name of an already enabled data pack, used as the anchor for ordering.",
+    "command_translation.help.argument.datapack.after": "Loads this pack just after the given pack, i.e. at higher priority.",
+    "command_translation.help.argument.datapack.before": "Loads this pack just before the given pack, i.e. at lower priority.",
+    "command_translation.help.argument.datapack.first": "Loads this pack before all others (lowest priority).",
+    "command_translation.help.argument.datapack.last": "Loads this pack after all others (highest priority).",
+    "command_translation.help.argument.datapack.available": "Lists only the data packs that are present but not currently enabled.",
+    "command_translation.help.argument.datapack.enabled": "Lists only the currently enabled data packs, in load order.",
+    "command_translation.help.argument.datapack.id": "Name of the new pack directory.",
+    "command_translation.help.argument.datapack.description": "The description written into the new pack's pack.mcmeta."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.datapack.disable": "禁用已启用的数据包；创建世界时启用的内置数据包无法这样禁用。",
+    "command_translation.help.argument.datapack.enable": "启用一个数据包，并可指定它在加载顺序中的位置。",
+    "command_translation.help.argument.datapack.list": "列出数据包；不带选项时列出全部。",
+    "command_translation.help.argument.datapack.create": "为当前世界新建一个空目录数据包。",
+    "command_translation.help.argument.datapack.name": "数据包的名称，需与其文件夹或 zip 名一致。",
+    "command_translation.help.argument.datapack.existing": "已启用的数据包名称，用作排序的参照锚点。",
+    "command_translation.help.argument.datapack.after": "把该数据包紧插在指定数据包之后，即优先级更高。",
+    "command_translation.help.argument.datapack.before": "把该数据包紧插在指定数据包之前，即优先级更低。",
+    "command_translation.help.argument.datapack.first": "让该数据包最先加载（优先级最低）。",
+    "command_translation.help.argument.datapack.last": "让该数据包最后加载（优先级最高）。",
+    "command_translation.help.argument.datapack.available": "只列出已存在但当前未启用的数据包。",
+    "command_translation.help.argument.datapack.enabled": "只按加载顺序列出当前已启用的数据包。",
+    "command_translation.help.argument.datapack.id": "新数据包目录的名称。",
+    "command_translation.help.argument.datapack.description": "写入新数据包 pack.mcmeta 的描述。"
+  },
+  "sources": {
+    "command_translation.help.argument.datapack.disable": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdatapack",
+        "revision": 3826020
+      }
+    ],
+    "command_translation.help.argument.datapack.enable": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdatapack",
+        "revision": 3826020
+      }
+    ],
+    "command_translation.help.argument.datapack.list": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdatapack",
+        "revision": 3826020
+      }
+    ],
+    "command_translation.help.argument.datapack.create": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdatapack",
+        "revision": 3826020
+      }
+    ],
+    "command_translation.help.argument.datapack.name": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdatapack",
+        "revision": 3826020
+      }
+    ],
+    "command_translation.help.argument.datapack.existing": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdatapack",
+        "revision": 3826020
+      }
+    ],
+    "command_translation.help.argument.datapack.after": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdatapack",
+        "revision": 3826020
+      }
+    ],
+    "command_translation.help.argument.datapack.before": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdatapack",
+        "revision": 3826020
+      }
+    ],
+    "command_translation.help.argument.datapack.first": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdatapack",
+        "revision": 3826020
+      }
+    ],
+    "command_translation.help.argument.datapack.last": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdatapack",
+        "revision": 3826020
+      }
+    ],
+    "command_translation.help.argument.datapack.available": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdatapack",
+        "revision": 3826020
+      }
+    ],
+    "command_translation.help.argument.datapack.enabled": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdatapack",
+        "revision": 3826020
+      }
+    ],
+    "command_translation.help.argument.datapack.id": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdatapack",
+        "revision": 3826020
+      }
+    ],
+    "command_translation.help.argument.datapack.description": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdatapack",
+        "revision": 3826020
+      }
+    ]
+  },
+  "bindings": {
+    "datapack.disable": "command_translation.help.argument.datapack.disable",
+    "datapack.disable.name": "command_translation.help.argument.datapack.name",
+    "datapack.enable": "command_translation.help.argument.datapack.enable",
+    "datapack.enable.name": "command_translation.help.argument.datapack.name",
+    "datapack.enable.name.after": "command_translation.help.argument.datapack.after",
+    "datapack.enable.name.after.existing": "command_translation.help.argument.datapack.existing",
+    "datapack.enable.name.before": "command_translation.help.argument.datapack.before",
+    "datapack.enable.name.before.existing": "command_translation.help.argument.datapack.existing",
+    "datapack.enable.name.first": "command_translation.help.argument.datapack.first",
+    "datapack.enable.name.last": "command_translation.help.argument.datapack.last",
+    "datapack.list": "command_translation.help.argument.datapack.list",
+    "datapack.list.available": "command_translation.help.argument.datapack.available",
+    "datapack.list.enabled": "command_translation.help.argument.datapack.enabled",
+    "datapack.create": "command_translation.help.argument.datapack.create",
+    "datapack.create.id": "command_translation.help.argument.datapack.id",
+    "datapack.create.id.description": "command_translation.help.argument.datapack.description"
+  },
+  "de_de": {
+    "command_translation.help.argument.datapack.disable": "Deaktiviert ein bereits aktiviertes Datenpaket; ein beim Erstellen der Welt aktiviertes eingebautes Paket lässt sich so nicht deaktivieren.",
+    "command_translation.help.argument.datapack.enable": "Aktiviert ein Datenpaket, optional mit Angabe seiner Position in der Ladereihenfolge.",
+    "command_translation.help.argument.datapack.list": "Listet Datenpakete; ohne Option werden alle aufgelistet.",
+    "command_translation.help.argument.datapack.create": "Erstellt ein neues leeres Verzeichnis-Datenpaket für die aktuelle Welt.",
+    "command_translation.help.argument.datapack.name": "Der Name des Datenpakets, passend zu seinem Ordner- oder ZIP-Namen.",
+    "command_translation.help.argument.datapack.existing": "Der Name eines bereits aktivierten Datenpakets, das als Anker für die Reihenfolge dient.",
+    "command_translation.help.argument.datapack.after": "Lädt dieses Paket direkt nach dem angegebenen Paket, also mit höherer Priorität.",
+    "command_translation.help.argument.datapack.before": "Lädt dieses Paket direkt vor dem angegebenen Paket, also mit niedrigerer Priorität.",
+    "command_translation.help.argument.datapack.first": "Lädt dieses Paket vor allen anderen (niedrigste Priorität).",
+    "command_translation.help.argument.datapack.last": "Lädt dieses Paket nach allen anderen (höchste Priorität).",
+    "command_translation.help.argument.datapack.available": "Listet nur die vorhandenen, aber derzeit nicht aktivierten Datenpakete.",
+    "command_translation.help.argument.datapack.enabled": "Listet nur die aktuell aktivierten Datenpakete in Ladereihenfolge.",
+    "command_translation.help.argument.datapack.id": "Name des neuen Paketordners.",
+    "command_translation.help.argument.datapack.description": "Die Beschreibung, die in die pack.mcmeta des neuen Pakets geschrieben wird."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.datapack.disable": "すでに有効なデータパックを無効化する。ワールド作成時に有効だった組み込みパックはこの方法では無効にできない。",
+    "command_translation.help.argument.datapack.enable": "データパックを有効化し、必要なら読み込み順での位置を指定する。",
+    "command_translation.help.argument.datapack.list": "データパックを一覧表示する。オプションなしではすべてを表示する。",
+    "command_translation.help.argument.datapack.create": "現在のワールド用に新しい空のディレクトリデータパックを作成する。",
+    "command_translation.help.argument.datapack.name": "データパックの名前。フォルダ名または zip 名と一致させる。",
+    "command_translation.help.argument.datapack.existing": "順序の基準として使う、すでに有効なデータパックの名前。",
+    "command_translation.help.argument.datapack.after": "このパックを指定したパックの直後に読み込む（優先度はより高い）。",
+    "command_translation.help.argument.datapack.before": "このパックを指定したパックの直前に読み込む（優先度はより低い）。",
+    "command_translation.help.argument.datapack.first": "このパックを他のすべてより前に読み込む（優先度は最低）。",
+    "command_translation.help.argument.datapack.last": "このパックを他のすべてより後に読み込む（優先度は最高）。",
+    "command_translation.help.argument.datapack.available": "存在するが現在は未有効のデータパックだけを一覧表示する。",
+    "command_translation.help.argument.datapack.enabled": "現在有効なデータパックだけを読み込み順に一覧表示する。",
+    "command_translation.help.argument.datapack.id": "新しいパックフォルダの名前。",
+    "command_translation.help.argument.datapack.description": "新しいパックの pack.mcmeta に書き込む説明。"
+  },
+  "syntax": [
+    {
+      "path": "datapack",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "datapack.disable",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "datapack.disable.name",
+      "type": "argument",
+      "parser": "brigadier:string",
+      "properties": {
+        "type": "phrase"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "datapack.enable",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "datapack.enable.name",
+      "type": "argument",
+      "parser": "brigadier:string",
+      "properties": {
+        "type": "phrase"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "datapack.enable.name.after",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "datapack.enable.name.after.existing",
+      "type": "argument",
+      "parser": "brigadier:string",
+      "properties": {
+        "type": "phrase"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "datapack.enable.name.before",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "datapack.enable.name.before.existing",
+      "type": "argument",
+      "parser": "brigadier:string",
+      "properties": {
+        "type": "phrase"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "datapack.enable.name.first",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "datapack.enable.name.last",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "datapack.list",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "datapack.list.available",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "datapack.list.enabled",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "datapack.create",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "datapack.create.id",
+      "type": "argument",
+      "parser": "brigadier:string",
+      "properties": {
+        "type": "phrase"
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "datapack.create.id.description",
+      "type": "argument",
+      "parser": "minecraft:component",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

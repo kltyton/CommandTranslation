@@ -1,0 +1,601 @@
+{
+  "en_us": {
+    "command_translation.help.argument.attribute.target": "The entity whose attribute is read or changed; only players, armor stands, and mobs have attributes, and the selector must resolve to one entity.",
+    "command_translation.help.argument.attribute.attribute": "The attribute to read or modify.",
+    "command_translation.help.argument.attribute.target.attribute.base": "Selects the attribute's base value, before any modifiers apply.",
+    "command_translation.help.argument.attribute.target.attribute.base.get": "Reads the attribute base value; an optional scale multiplies the stored result.",
+    "command_translation.help.argument.attribute.scale": "Multiplies the command result and truncates toward zero, without changing the attribute.",
+    "command_translation.help.argument.attribute.target.attribute.base.set": "Overwrites the attribute base value with the given number.",
+    "command_translation.help.argument.attribute.value": "The new base value or modifier amount.",
+    "command_translation.help.argument.attribute.target.attribute.get": "Reads the attribute total value after all modifiers apply; an optional scale multiplies the stored result.",
+    "command_translation.help.argument.attribute.target.attribute.modifier": "Operates on attribute modifiers: add, remove, or read a modifier value.",
+    "command_translation.help.argument.attribute.target.attribute.modifier.add": "Adds a modifier with the given id and value; fails if a modifier with that id already exists on the entity.",
+    "command_translation.help.argument.attribute.uuid": "The unique UUID of the attribute modifier.",
+    "command_translation.help.argument.attribute.name": "The name of the attribute modifier.",
+    "command_translation.help.argument.attribute.target.attribute.modifier.add.uuid.name.value.add": "Operation add: x = x + value.",
+    "command_translation.help.argument.attribute.target.attribute.modifier.add.uuid.name.value.multiply": "Operation multiply: x = x + x*value.",
+    "command_translation.help.argument.attribute.target.attribute.modifier.add.uuid.name.value.multiply_base": "Operation multiply_base: x = x + base*value.",
+    "command_translation.help.argument.attribute.target.attribute.modifier.remove": "Removes the modifier with the given id; fails if no such modifier exists.",
+    "command_translation.help.argument.attribute.target.attribute.modifier.value": "Reads the value of a single modifier attached to the entity.",
+    "command_translation.help.argument.attribute.target.attribute.modifier.value.get": "Reads the chosen modifier value; an optional scale multiplies the stored result.",
+    "command_translation.help.argument.attribute.id": "The unique ID of the attribute modifier.",
+    "command_translation.help.argument.attribute.target.attribute.modifier.add.id.value.add_multiplied_base": "Operation add_multiplied_base: x = x + base*value.",
+    "command_translation.help.argument.attribute.target.attribute.modifier.add.id.value.add_multiplied_total": "Operation add_multiplied_total: x = x + x*value.",
+    "command_translation.help.argument.attribute.target.attribute.modifier.add.id.value.add_value": "Operation add_value: x = x + value.",
+    "command_translation.help.argument.attribute.target.attribute.base.reset": "Restores the base value to this entity type’s default."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.attribute.target": "被读取或修改属性的实体；只有玩家、盔甲架和生物具有属性，且选择器必须解析到单个实体。",
+    "command_translation.help.argument.attribute.attribute": "要读取或修改的属性。",
+    "command_translation.help.argument.attribute.target.attribute.base": "选择属性的基础值（未应用任何修饰符之前的值）。",
+    "command_translation.help.argument.attribute.target.attribute.base.get": "读取属性基础值；可选 scale 会乘以存储的结果。",
+    "command_translation.help.argument.attribute.scale": "指令返回结果的倍率，乘后向零取整，不改变属性本身。",
+    "command_translation.help.argument.attribute.target.attribute.base.set": "用给定数值覆盖属性基础值。",
+    "command_translation.help.argument.attribute.value": "新的属性基础值或修饰符数值。",
+    "command_translation.help.argument.attribute.target.attribute.get": "读取应用全部修饰符后的属性总值；可选 scale 会乘以存储结果。",
+    "command_translation.help.argument.attribute.target.attribute.modifier": "操作属性修饰符：添加、移除或读取某修饰符的数值。",
+    "command_translation.help.argument.attribute.target.attribute.modifier.add": "添加带指定 id 和数值的修饰符；若该实体上已存在同 id 的修饰符则失败。",
+    "command_translation.help.argument.attribute.uuid": "属性修饰符的唯一 UUID。",
+    "command_translation.help.argument.attribute.name": "属性修饰符的名称。",
+    "command_translation.help.argument.attribute.target.attribute.modifier.add.uuid.name.value.add": "操作 add：x = x + value。",
+    "command_translation.help.argument.attribute.target.attribute.modifier.add.uuid.name.value.multiply": "操作 multiply：x = x + x×value。",
+    "command_translation.help.argument.attribute.target.attribute.modifier.add.uuid.name.value.multiply_base": "操作 multiply_base：x = x + base×value。",
+    "command_translation.help.argument.attribute.target.attribute.modifier.remove": "移除实体上指定 id 的修饰符；若不存在则失败。",
+    "command_translation.help.argument.attribute.target.attribute.modifier.value": "读取实体上某单个修饰符的数值。",
+    "command_translation.help.argument.attribute.target.attribute.modifier.value.get": "读取所选修饰符数值；可选 scale 会乘以存储结果。",
+    "command_translation.help.argument.attribute.id": "属性修饰符的唯一 ID。",
+    "command_translation.help.argument.attribute.target.attribute.modifier.add.id.value.add_multiplied_base": "操作 add_multiplied_base：x = x + base×value。",
+    "command_translation.help.argument.attribute.target.attribute.modifier.add.id.value.add_multiplied_total": "操作 add_multiplied_total：x = x + x×value。",
+    "command_translation.help.argument.attribute.target.attribute.modifier.add.id.value.add_value": "操作 add_value：x = x + value。",
+    "command_translation.help.argument.attribute.target.attribute.base.reset": "将基础值恢复为该实体的默认值。"
+  },
+  "sources": {
+    "command_translation.help.argument.attribute.target": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fattribute",
+        "revision": 3766700
+      },
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.argument.attribute.attribute": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fattribute",
+        "revision": 3766700
+      }
+    ],
+    "command_translation.help.argument.attribute.target.attribute.base": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fattribute",
+        "revision": 3766700
+      }
+    ],
+    "command_translation.help.argument.attribute.target.attribute.base.get": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fattribute",
+        "revision": 3766700
+      }
+    ],
+    "command_translation.help.argument.attribute.scale": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fattribute",
+        "revision": 3766700
+      }
+    ],
+    "command_translation.help.argument.attribute.target.attribute.base.set": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fattribute",
+        "revision": 3766700
+      }
+    ],
+    "command_translation.help.argument.attribute.value": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fattribute",
+        "revision": 3766700
+      }
+    ],
+    "command_translation.help.argument.attribute.target.attribute.get": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fattribute",
+        "revision": 3766700
+      }
+    ],
+    "command_translation.help.argument.attribute.target.attribute.modifier": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fattribute",
+        "revision": 3766700
+      }
+    ],
+    "command_translation.help.argument.attribute.target.attribute.modifier.add": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fattribute",
+        "revision": 3766700
+      }
+    ],
+    "command_translation.help.argument.attribute.uuid": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fattribute",
+        "revision": 3766700
+      }
+    ],
+    "command_translation.help.argument.attribute.name": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fattribute",
+        "revision": 3766700
+      }
+    ],
+    "command_translation.help.argument.attribute.target.attribute.modifier.add.uuid.name.value.add": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fattribute",
+        "revision": 3766700
+      }
+    ],
+    "command_translation.help.argument.attribute.target.attribute.modifier.add.uuid.name.value.multiply": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fattribute",
+        "revision": 3766700
+      }
+    ],
+    "command_translation.help.argument.attribute.target.attribute.modifier.add.uuid.name.value.multiply_base": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fattribute",
+        "revision": 3766700
+      }
+    ],
+    "command_translation.help.argument.attribute.target.attribute.modifier.remove": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fattribute",
+        "revision": 3766700
+      }
+    ],
+    "command_translation.help.argument.attribute.target.attribute.modifier.value": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fattribute",
+        "revision": 3766700
+      }
+    ],
+    "command_translation.help.argument.attribute.target.attribute.modifier.value.get": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fattribute",
+        "revision": 3766700
+      }
+    ],
+    "command_translation.help.argument.attribute.id": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fattribute",
+        "revision": 3766700
+      }
+    ],
+    "command_translation.help.argument.attribute.target.attribute.modifier.add.id.value.add_multiplied_base": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fattribute",
+        "revision": 3766700
+      }
+    ],
+    "command_translation.help.argument.attribute.target.attribute.modifier.add.id.value.add_multiplied_total": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fattribute",
+        "revision": 3766700
+      }
+    ],
+    "command_translation.help.argument.attribute.target.attribute.modifier.add.id.value.add_value": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fattribute",
+        "revision": 3766700
+      }
+    ],
+    "command_translation.help.argument.attribute.target.attribute.base.reset": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fattribute",
+        "revision": 3766700
+      }
+    ]
+  },
+  "bindings": {
+    "attribute.target": "command_translation.help.argument.attribute.target",
+    "attribute.target.attribute": "command_translation.help.argument.attribute.attribute",
+    "attribute.target.attribute.base": "command_translation.help.argument.attribute.target.attribute.base",
+    "attribute.target.attribute.base.get": "command_translation.help.argument.attribute.target.attribute.base.get",
+    "attribute.target.attribute.base.get.scale": "command_translation.help.argument.attribute.scale",
+    "attribute.target.attribute.base.set": "command_translation.help.argument.attribute.target.attribute.base.set",
+    "attribute.target.attribute.base.set.value": "command_translation.help.argument.attribute.value",
+    "attribute.target.attribute.get": "command_translation.help.argument.attribute.target.attribute.get",
+    "attribute.target.attribute.get.scale": "command_translation.help.argument.attribute.scale",
+    "attribute.target.attribute.modifier": "command_translation.help.argument.attribute.target.attribute.modifier",
+    "attribute.target.attribute.modifier.add": "command_translation.help.argument.attribute.target.attribute.modifier.add",
+    "attribute.target.attribute.modifier.add.uuid": "command_translation.help.argument.attribute.uuid",
+    "attribute.target.attribute.modifier.add.uuid.name": "command_translation.help.argument.attribute.name",
+    "attribute.target.attribute.modifier.add.uuid.name.value": "command_translation.help.argument.attribute.value",
+    "attribute.target.attribute.modifier.add.uuid.name.value.add": "command_translation.help.argument.attribute.target.attribute.modifier.add.uuid.name.value.add",
+    "attribute.target.attribute.modifier.add.uuid.name.value.multiply": "command_translation.help.argument.attribute.target.attribute.modifier.add.uuid.name.value.multiply",
+    "attribute.target.attribute.modifier.add.uuid.name.value.multiply_base": "command_translation.help.argument.attribute.target.attribute.modifier.add.uuid.name.value.multiply_base",
+    "attribute.target.attribute.modifier.remove": "command_translation.help.argument.attribute.target.attribute.modifier.remove",
+    "attribute.target.attribute.modifier.remove.uuid": "command_translation.help.argument.attribute.uuid",
+    "attribute.target.attribute.modifier.value": "command_translation.help.argument.attribute.target.attribute.modifier.value",
+    "attribute.target.attribute.modifier.value.get": "command_translation.help.argument.attribute.target.attribute.modifier.value.get",
+    "attribute.target.attribute.modifier.value.get.uuid": "command_translation.help.argument.attribute.uuid",
+    "attribute.target.attribute.modifier.value.get.uuid.scale": "command_translation.help.argument.attribute.scale",
+    "attribute.target.attribute.modifier.add.id": "command_translation.help.argument.attribute.id",
+    "attribute.target.attribute.modifier.add.id.value": "command_translation.help.argument.attribute.value",
+    "attribute.target.attribute.modifier.add.id.value.add_multiplied_base": "command_translation.help.argument.attribute.target.attribute.modifier.add.id.value.add_multiplied_base",
+    "attribute.target.attribute.modifier.add.id.value.add_multiplied_total": "command_translation.help.argument.attribute.target.attribute.modifier.add.id.value.add_multiplied_total",
+    "attribute.target.attribute.modifier.add.id.value.add_value": "command_translation.help.argument.attribute.target.attribute.modifier.add.id.value.add_value",
+    "attribute.target.attribute.modifier.remove.id": "command_translation.help.argument.attribute.id",
+    "attribute.target.attribute.modifier.value.get.id": "command_translation.help.argument.attribute.id",
+    "attribute.target.attribute.modifier.value.get.id.scale": "command_translation.help.argument.attribute.scale",
+    "attribute.target.attribute.base.reset": "command_translation.help.argument.attribute.target.attribute.base.reset"
+  },
+  "de_de": {
+    "command_translation.help.argument.attribute.target": "Die Entität, deren Attribut gelesen oder geändert wird; nur Spieler, Rüstungsständer und Kreaturen haben Attribute, und der Selektor muss sich auf eine Entität auflösen.",
+    "command_translation.help.argument.attribute.attribute": "Das zu lesende oder zu ändernde Attribut.",
+    "command_translation.help.argument.attribute.target.attribute.base": "Wählt den Grundwert des Attributs, bevor Modifikatoren angewendet werden.",
+    "command_translation.help.argument.attribute.target.attribute.base.get": "Liest den Grundwert des Attributs; ein optionaler scale multipliziert das gespeicherte Ergebnis.",
+    "command_translation.help.argument.attribute.scale": "Multipliziert das Befehlsergebnis und kürzt Richtung null, ohne das Attribut zu ändern.",
+    "command_translation.help.argument.attribute.target.attribute.base.set": "Überschreibt den Grundwert des Attributs mit der angegebenen Zahl.",
+    "command_translation.help.argument.attribute.value": "Der neue Basiswert oder Modifikatorbetrag.",
+    "command_translation.help.argument.attribute.target.attribute.get": "Liest den Gesamtwert des Attributs nach Anwendung aller Modifikatoren; ein optionaler scale multipliziert das gespeicherte Ergebnis.",
+    "command_translation.help.argument.attribute.target.attribute.modifier": "Bearbeitet Attributmodifikatoren: hinzufügen, entfernen oder einen Modifikatorwert lesen.",
+    "command_translation.help.argument.attribute.target.attribute.modifier.add": "Fügt einen Modifikator mit der angegebenen ID und dem Wert hinzu; schlägt fehl, wenn auf der Entität bereits einer mit dieser ID existiert.",
+    "command_translation.help.argument.attribute.uuid": "Die eindeutige UUID des Attributmodifikators.",
+    "command_translation.help.argument.attribute.name": "Der Name des Attributmodifikators.",
+    "command_translation.help.argument.attribute.target.attribute.modifier.add.uuid.name.value.add": "Operation add: x = x + value.",
+    "command_translation.help.argument.attribute.target.attribute.modifier.add.uuid.name.value.multiply": "Operation multiply: x = x + x*value.",
+    "command_translation.help.argument.attribute.target.attribute.modifier.add.uuid.name.value.multiply_base": "Operation multiply_base: x = x + base*value.",
+    "command_translation.help.argument.attribute.target.attribute.modifier.remove": "Entfernt den Modifikator mit der angegebenen ID; schlägt fehl, wenn keiner existiert.",
+    "command_translation.help.argument.attribute.target.attribute.modifier.value": "Liest den Wert eines einzelnen an der Entität hängenden Modifikators.",
+    "command_translation.help.argument.attribute.target.attribute.modifier.value.get": "Liest den gewählten Modifikatorwert; ein optionaler scale multipliziert das gespeicherte Ergebnis.",
+    "command_translation.help.argument.attribute.id": "Die eindeutige ID des Attributmodifikators.",
+    "command_translation.help.argument.attribute.target.attribute.modifier.add.id.value.add_multiplied_base": "Operation add_multiplied_base: x = x + base*value.",
+    "command_translation.help.argument.attribute.target.attribute.modifier.add.id.value.add_multiplied_total": "Operation add_multiplied_total: x = x + x*value.",
+    "command_translation.help.argument.attribute.target.attribute.modifier.add.id.value.add_value": "Operation add_value: x = x + value.",
+    "command_translation.help.argument.attribute.target.attribute.base.reset": "Setzt den Basiswert auf den Standardwert des Entitätstyps zurück."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.attribute.target": "属性を読み取る、または変更するエンティティ。属性を持つのはプレイヤー、防具立て、モブだけで、セレクターは単一のエンティティに解決される必要がある。",
+    "command_translation.help.argument.attribute.attribute": "読み取りまたは変更する属性。",
+    "command_translation.help.argument.attribute.target.attribute.base": "モディファイアを適用する前の、属性の基本値を選ぶ。",
+    "command_translation.help.argument.attribute.target.attribute.base.get": "属性の基本値を読み取る。任意の scale が保存される値に掛けられる。",
+    "command_translation.help.argument.attribute.scale": "属性自体を変えず、コマンドの戻り値を乗算して小数部を切り捨てる倍率。",
+    "command_translation.help.argument.attribute.target.attribute.base.set": "属性の基本値を指定した数値で上書きする。",
+    "command_translation.help.argument.attribute.value": "新しい属性基本値または修飾子の数値。",
+    "command_translation.help.argument.attribute.target.attribute.get": "すべてのモディファイアを適用した後の属性の合計値を読み取る。任意の scale が保存結果に掛けられる。",
+    "command_translation.help.argument.attribute.target.attribute.modifier": "属性モディファイアを操作する：追加、削除、またはモディファイア値の読み取り。",
+    "command_translation.help.argument.attribute.target.attribute.modifier.add": "指定した ID と値のモディファイアを追加する。同じ ID のものが既にある場合は失敗する。",
+    "command_translation.help.argument.attribute.uuid": "属性修飾子を識別する一意のUUID。",
+    "command_translation.help.argument.attribute.name": "属性修飾子の名前。",
+    "command_translation.help.argument.attribute.target.attribute.modifier.add.uuid.name.value.add": "操作 add：x = x + value。",
+    "command_translation.help.argument.attribute.target.attribute.modifier.add.uuid.name.value.multiply": "操作 multiply：x = x + x*value。",
+    "command_translation.help.argument.attribute.target.attribute.modifier.add.uuid.name.value.multiply_base": "操作 multiply_base：x = x + base*value。",
+    "command_translation.help.argument.attribute.target.attribute.modifier.remove": "指定した ID のモディファイアを削除する。無ければ失敗する。",
+    "command_translation.help.argument.attribute.target.attribute.modifier.value": "エンティティに付いている単一のモディファイアの値を読み取る。",
+    "command_translation.help.argument.attribute.target.attribute.modifier.value.get": "選択したモディファイア値を読み取る。任意の scale が保存結果に掛けられる。",
+    "command_translation.help.argument.attribute.id": "属性修飾子を識別する一意のID。",
+    "command_translation.help.argument.attribute.target.attribute.modifier.add.id.value.add_multiplied_base": "操作 add_multiplied_base：x = x + base*value。",
+    "command_translation.help.argument.attribute.target.attribute.modifier.add.id.value.add_multiplied_total": "操作 add_multiplied_total：x = x + x*value。",
+    "command_translation.help.argument.attribute.target.attribute.modifier.add.id.value.add_value": "操作 add_value：x = x + value。",
+    "command_translation.help.argument.attribute.target.attribute.base.reset": "基本値をそのエンティティの既定値に戻す。"
+  },
+  "syntax": [
+    {
+      "path": "attribute",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "attribute.target",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "single"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "attribute.target.attribute",
+      "type": "argument",
+      "parser": "minecraft:resource",
+      "properties": {
+        "registry": "minecraft:attribute"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "attribute.target.attribute.base",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "attribute.target.attribute.base.get",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "attribute.target.attribute.base.get.scale",
+      "type": "argument",
+      "parser": "brigadier:double",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "attribute.target.attribute.base.set",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "attribute.target.attribute.base.set.value",
+      "type": "argument",
+      "parser": "brigadier:double",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "attribute.target.attribute.get",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "attribute.target.attribute.get.scale",
+      "type": "argument",
+      "parser": "brigadier:double",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "attribute.target.attribute.modifier",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "attribute.target.attribute.modifier.add",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "attribute.target.attribute.modifier.add.uuid",
+      "type": "argument",
+      "parser": "minecraft:uuid",
+      "versions": [
+        "1.20.1"
+      ]
+    },
+    {
+      "path": "attribute.target.attribute.modifier.add.uuid.name",
+      "type": "argument",
+      "parser": "brigadier:string",
+      "properties": {
+        "type": "phrase"
+      },
+      "versions": [
+        "1.20.1"
+      ]
+    },
+    {
+      "path": "attribute.target.attribute.modifier.add.uuid.name.value",
+      "type": "argument",
+      "parser": "brigadier:double",
+      "versions": [
+        "1.20.1"
+      ]
+    },
+    {
+      "path": "attribute.target.attribute.modifier.add.uuid.name.value.add",
+      "type": "literal",
+      "versions": [
+        "1.20.1"
+      ]
+    },
+    {
+      "path": "attribute.target.attribute.modifier.add.uuid.name.value.multiply",
+      "type": "literal",
+      "versions": [
+        "1.20.1"
+      ]
+    },
+    {
+      "path": "attribute.target.attribute.modifier.add.uuid.name.value.multiply_base",
+      "type": "literal",
+      "versions": [
+        "1.20.1"
+      ]
+    },
+    {
+      "path": "attribute.target.attribute.modifier.remove",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "attribute.target.attribute.modifier.remove.uuid",
+      "type": "argument",
+      "parser": "minecraft:uuid",
+      "versions": [
+        "1.20.1"
+      ]
+    },
+    {
+      "path": "attribute.target.attribute.modifier.value",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "attribute.target.attribute.modifier.value.get",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "attribute.target.attribute.modifier.value.get.uuid",
+      "type": "argument",
+      "parser": "minecraft:uuid",
+      "versions": [
+        "1.20.1"
+      ]
+    },
+    {
+      "path": "attribute.target.attribute.modifier.value.get.uuid.scale",
+      "type": "argument",
+      "parser": "brigadier:double",
+      "versions": [
+        "1.20.1"
+      ]
+    },
+    {
+      "path": "attribute.target.attribute.modifier.add.id",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "attribute.target.attribute.modifier.add.id.value",
+      "type": "argument",
+      "parser": "brigadier:double",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "attribute.target.attribute.modifier.add.id.value.add_multiplied_base",
+      "type": "literal",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "attribute.target.attribute.modifier.add.id.value.add_multiplied_total",
+      "type": "literal",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "attribute.target.attribute.modifier.add.id.value.add_value",
+      "type": "literal",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "attribute.target.attribute.modifier.remove.id",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "attribute.target.attribute.modifier.value.get.id",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "attribute.target.attribute.modifier.value.get.id.scale",
+      "type": "argument",
+      "parser": "brigadier:double",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "attribute.target.attribute.base.reset",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

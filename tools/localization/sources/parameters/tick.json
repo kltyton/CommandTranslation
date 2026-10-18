@@ -1,0 +1,258 @@
+{
+  "en_us": {
+    "command_translation.help.argument.tick.freeze": "Pauses server-side ticking, freezing the world; players, ridden entities and things that do not run every tick keep working.",
+    "command_translation.help.argument.tick.unfreeze": "Resumes normal ticking after a freeze.",
+    "command_translation.help.argument.tick.query": "Reports the current ticking status, target tick rate and tick performance.",
+    "command_translation.help.argument.tick.rate": "Sets the target tick rate of the game.",
+    "command_translation.help.argument.tick.rate.rate": "The target tick rate in ticks per second; rates above the default do not make players move faster.",
+    "command_translation.help.argument.tick.sprint": "Runs the game as fast as it can for the given ticks plus one, ignoring the target rate, then restores the previous state.",
+    "command_translation.help.argument.tick.sprint.time": "How many ticks to sprint forward.",
+    "command_translation.help.argument.tick.sprint.stop": "Stops the current sprint and restores the previous ticking state.",
+    "command_translation.help.argument.tick.step": "Only while frozen: unfreezes, advances the given number of ticks, then freezes again.",
+    "command_translation.help.argument.tick.step.time": "How many ticks to step forward.",
+    "command_translation.help.argument.tick.step.stop": "Stops the current stepping and freezes again."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.tick.freeze": "暂停服务器端刻运算：玩家、被骑乘实体和不每刻运行的东西仍可用，世界其余部分停止。",
+    "command_translation.help.argument.tick.unfreeze": "解除冻结，恢复正常刻运算。",
+    "command_translation.help.argument.tick.query": "显示当前刻状态、目标刻速率与刻性能。",
+    "command_translation.help.argument.tick.rate": "设置游戏的目标刻速率。",
+    "command_translation.help.argument.tick.rate.rate": "目标刻速率（每秒刻数）；高于默认值不会让玩家移动更快。",
+    "command_translation.help.argument.tick.sprint": "忽略目标速率，以尽可能快的速度推进给定刻数加一刻，然后恢复此前状态。",
+    "command_translation.help.argument.tick.sprint.time": "向前冲刺的刻数。",
+    "command_translation.help.argument.tick.sprint.stop": "停止当前冲刺并恢复此前刻状态。",
+    "command_translation.help.argument.tick.step": "仅在冻结时有效：解冻、前进给定刻数，然后再次冻结。",
+    "command_translation.help.argument.tick.step.time": "向前步进的刻数。",
+    "command_translation.help.argument.tick.step.stop": "停止当前步进并再次冻结。"
+  },
+  "sources": {
+    "command_translation.help.argument.tick.freeze": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftick",
+        "revision": 3778223
+      }
+    ],
+    "command_translation.help.argument.tick.unfreeze": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftick",
+        "revision": 3778223
+      }
+    ],
+    "command_translation.help.argument.tick.query": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftick",
+        "revision": 3778223
+      }
+    ],
+    "command_translation.help.argument.tick.rate": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftick",
+        "revision": 3778223
+      }
+    ],
+    "command_translation.help.argument.tick.rate.rate": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftick",
+        "revision": 3778223
+      }
+    ],
+    "command_translation.help.argument.tick.sprint": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftick",
+        "revision": 3778223
+      }
+    ],
+    "command_translation.help.argument.tick.sprint.time": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftick",
+        "revision": 3778223
+      }
+    ],
+    "command_translation.help.argument.tick.sprint.stop": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftick",
+        "revision": 3778223
+      }
+    ],
+    "command_translation.help.argument.tick.step": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftick",
+        "revision": 3778223
+      }
+    ],
+    "command_translation.help.argument.tick.step.time": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftick",
+        "revision": 3778223
+      }
+    ],
+    "command_translation.help.argument.tick.step.stop": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftick",
+        "revision": 3778223
+      }
+    ]
+  },
+  "bindings": {
+    "tick.freeze": "command_translation.help.argument.tick.freeze",
+    "tick.query": "command_translation.help.argument.tick.query",
+    "tick.rate": "command_translation.help.argument.tick.rate",
+    "tick.rate.rate": "command_translation.help.argument.tick.rate.rate",
+    "tick.sprint": "command_translation.help.argument.tick.sprint",
+    "tick.sprint.stop": "command_translation.help.argument.tick.sprint.stop",
+    "tick.sprint.time": "command_translation.help.argument.tick.sprint.time",
+    "tick.step": "command_translation.help.argument.tick.step",
+    "tick.step.stop": "command_translation.help.argument.tick.step.stop",
+    "tick.step.time": "command_translation.help.argument.tick.step.time",
+    "tick.unfreeze": "command_translation.help.argument.tick.unfreeze"
+  },
+  "de_de": {
+    "command_translation.help.argument.tick.freeze": "Pausiert das serverseitige Ticken und friert die Welt ein; Spieler, gerittene Wesen und Dinge, die nicht jeden Tick laufen, funktionieren weiter.",
+    "command_translation.help.argument.tick.unfreeze": "Nimmt das Ticken nach einem Einfrieren wieder auf.",
+    "command_translation.help.argument.tick.query": "Meldet Tickstatus, Ziel-Tickrate und Tickleistung.",
+    "command_translation.help.argument.tick.rate": "Setzt die Ziel-Tickrate des Spiels.",
+    "command_translation.help.argument.tick.rate.rate": "Die Ziel-Tickrate in Ticks pro Sekunde; höhere Werte machen Spieler nicht schneller.",
+    "command_translation.help.argument.tick.sprint": "Lässt das Spiel die angegebene Tickzahl plus eins so schnell wie möglich laufen und stellt danach den vorigen Zustand wieder her.",
+    "command_translation.help.argument.tick.sprint.time": "Wie viele Ticks vorwärts gesprintet wird.",
+    "command_translation.help.argument.tick.sprint.stop": "Stoppt den laufenden Sprint und stellt den vorigen Tickstatus wieder her.",
+    "command_translation.help.argument.tick.step": "Nur im eingefrorenen Zustand: auftauen, die angegebene Tickzahl vorrücken, dann wieder einfrieren.",
+    "command_translation.help.argument.tick.step.time": "Wie viele Ticks vorgerückt wird.",
+    "command_translation.help.argument.tick.step.stop": "Stoppt das laufende Schrittfahren und friert wieder ein."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.tick.freeze": "サーバー側のティックを停止して世界を凍結する。プレイヤー、乗っているエンティティ、毎ティック実行されないものは動作し続ける。",
+    "command_translation.help.argument.tick.unfreeze": "凍結後に通常のティックを再開する。",
+    "command_translation.help.argument.tick.query": "現在のティック状態、目標ティックレート、ティック性能を表示する。",
+    "command_translation.help.argument.tick.rate": "ゲームの目標ティックレートを設定する。",
+    "command_translation.help.argument.tick.rate.rate": "目標ティックレート（TPS）。既定より高くてもプレイヤーは速く動かない。",
+    "command_translation.help.argument.tick.sprint": "目標レートを無視して指定ティック数＋1 だけ最速で進め、その後で以前の状態に戻す。",
+    "command_translation.help.argument.tick.sprint.time": "前へスプリントするティック数。",
+    "command_translation.help.argument.tick.sprint.stop": "実行中のスプリントを停止し、以前のティック状態に戻す。",
+    "command_translation.help.argument.tick.step": "凍結中のみ有効。解凍し、指定ティック数だけ進めてから再び凍結する。",
+    "command_translation.help.argument.tick.step.time": "前へステップするティック数。",
+    "command_translation.help.argument.tick.step.stop": "実行中のステップを停止し、再び凍結する。"
+  },
+  "syntax": [
+    {
+      "path": "tick",
+      "type": "literal",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "tick.freeze",
+      "type": "literal",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "tick.query",
+      "type": "literal",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "tick.rate",
+      "type": "literal",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "tick.rate.rate",
+      "type": "argument",
+      "parser": "brigadier:float",
+      "properties": {
+        "max": 10000,
+        "min": 1
+      },
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "tick.sprint",
+      "type": "literal",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "tick.sprint.stop",
+      "type": "literal",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "tick.sprint.time",
+      "type": "argument",
+      "parser": "minecraft:time",
+      "properties": {
+        "min": 1
+      },
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "tick.step",
+      "type": "literal",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "tick.step.stop",
+      "type": "literal",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "tick.step.time",
+      "type": "argument",
+      "parser": "minecraft:time",
+      "properties": {
+        "min": 1
+      },
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "tick.unfreeze",
+      "type": "literal",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

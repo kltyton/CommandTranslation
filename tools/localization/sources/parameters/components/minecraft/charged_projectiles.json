@@ -1,0 +1,30 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:charged_projectiles": "The projectile items loaded into this crossbow."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:charged_projectiles": "装填在弩中的投射物物品。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:charged_projectiles": "Die in diese Armbrust geladenen Geschossgegenstände."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:charged_projectiles": "このクロスボウに装填された発射物アイテム。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:charged_projectiles": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

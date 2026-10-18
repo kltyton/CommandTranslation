@@ -1,0 +1,170 @@
+{
+  "en_us": {
+    "command_translation.help.argument.rotate.target": "The single entity whose facing is changed.",
+    "command_translation.help.argument.rotate.rotation": "The new facing as yaw then pitch in degrees.",
+    "command_translation.help.argument.rotate.facing": "Makes the target face a coordinate or another entity instead of exact angles.",
+    "command_translation.help.argument.rotate.facingLocation": "The coordinates the target should look toward.",
+    "command_translation.help.argument.rotate.facingEntity": "The single entity the target should look toward.",
+    "command_translation.help.argument.rotate.facingAnchor": "Which point of the other entity to look at, eyes or feet.",
+    "command_translation.help.argument.rotate.entity": "Makes the target face another entity, named in the next argument."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.rotate.target": "要改变朝向的单个实体。",
+    "command_translation.help.argument.rotate.rotation": "新朝向，先 yaw 后 pitch，单位为度。",
+    "command_translation.help.argument.rotate.facing": "让目标朝向坐标或另一实体，而非精确角度。",
+    "command_translation.help.argument.rotate.facingLocation": "目标要看向的坐标。",
+    "command_translation.help.argument.rotate.facingEntity": "目标要看向的单个实体。",
+    "command_translation.help.argument.rotate.facingAnchor": "看向对方实体的部位，eyes（眼睛）或 feet（脚部）。",
+    "command_translation.help.argument.rotate.entity": "让目标朝向下一参数指定的另一实体。"
+  },
+  "sources": {
+    "command_translation.help.argument.rotate.target": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Frotate",
+        "revision": 3826032
+      }
+    ],
+    "command_translation.help.argument.rotate.rotation": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Frotate",
+        "revision": 3826032
+      }
+    ],
+    "command_translation.help.argument.rotate.facing": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Frotate",
+        "revision": 3826032
+      }
+    ],
+    "command_translation.help.argument.rotate.facingLocation": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Frotate",
+        "revision": 3826032
+      }
+    ],
+    "command_translation.help.argument.rotate.facingEntity": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Frotate",
+        "revision": 3826032
+      }
+    ],
+    "command_translation.help.argument.rotate.facingAnchor": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Frotate",
+        "revision": 3826032
+      }
+    ],
+    "command_translation.help.argument.rotate.entity": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Frotate",
+        "revision": 3826032
+      }
+    ]
+  },
+  "bindings": {
+    "rotate.target": "command_translation.help.argument.rotate.target",
+    "rotate.target.facing": "command_translation.help.argument.rotate.facing",
+    "rotate.target.facing.entity": "command_translation.help.argument.rotate.entity",
+    "rotate.target.facing.entity.facingEntity": "command_translation.help.argument.rotate.facingEntity",
+    "rotate.target.facing.entity.facingEntity.facingAnchor": "command_translation.help.argument.rotate.facingAnchor",
+    "rotate.target.facing.facingLocation": "command_translation.help.argument.rotate.facingLocation",
+    "rotate.target.rotation": "command_translation.help.argument.rotate.rotation"
+  },
+  "de_de": {
+    "command_translation.help.argument.rotate.target": "Das einzelne Wesen, dessen Blickrichtung geändert wird.",
+    "command_translation.help.argument.rotate.rotation": "Die neue Blickrichtung als yaw dann pitch in Grad.",
+    "command_translation.help.argument.rotate.facing": "Lässt das Ziel auf eine Koordinate oder ein anderes Wesen blicken statt auf genaue Winkel.",
+    "command_translation.help.argument.rotate.facingLocation": "Die Koordinaten, zu denen das Ziel schauen soll.",
+    "command_translation.help.argument.rotate.facingEntity": "Das einzelne Wesen, zu dem das Ziel schauen soll.",
+    "command_translation.help.argument.rotate.facingAnchor": "Welcher Punkt des anderen Wesens angeblickt wird: eyes oder feet.",
+    "command_translation.help.argument.rotate.entity": "Lässt das Ziel zu einem anderen Wesen blicken, das das nächste Argument nennt."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.rotate.target": "向きを変える単一のエンティティ。",
+    "command_translation.help.argument.rotate.rotation": "新しい向き。yaw の次に pitch を度で指定する。",
+    "command_translation.help.argument.rotate.facing": "正確な角度ではなく、座標または別のエンティティの方を向かせる。",
+    "command_translation.help.argument.rotate.facingLocation": "対象が見る座標。",
+    "command_translation.help.argument.rotate.facingEntity": "対象が見る単一のエンティティ。",
+    "command_translation.help.argument.rotate.facingAnchor": "相手エンティティのどこを見るか。eyes（目）または feet（足）。",
+    "command_translation.help.argument.rotate.entity": "対象を次の引数で指定する別のエンティティの方を向かせる。"
+  },
+  "syntax": [
+    {
+      "path": "rotate",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "rotate.target",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "single"
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "rotate.target.facing",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "rotate.target.facing.entity",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "rotate.target.facing.entity.facingEntity",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "single"
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "rotate.target.facing.entity.facingEntity.facingAnchor",
+      "type": "argument",
+      "parser": "minecraft:entity_anchor",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "rotate.target.facing.facingLocation",
+      "type": "argument",
+      "parser": "minecraft:vec3",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "rotate.target.rotation",
+      "type": "argument",
+      "parser": "minecraft:rotation",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "en_us": {
+    "command_translation.tag.point_of_interest_type.minecraft.acquirable_job_site": "Where villagers look for job sites",
+    "command_translation.tag.point_of_interest_type.minecraft.bee_home": "Where bees look for their home",
+    "command_translation.tag.point_of_interest_type.minecraft.village": "Where villagers look for daily routine parts"
+  },
+  "zh_cn": {
+    "command_translation.tag.point_of_interest_type.minecraft.acquirable_job_site": "村民寻找工作站点的位置",
+    "command_translation.tag.point_of_interest_type.minecraft.bee_home": "蜜蜂寻找蜂巢的位置",
+    "command_translation.tag.point_of_interest_type.minecraft.village": "村民进行日常活动的位置"
+  },
+  "de_de": {
+    "command_translation.tag.point_of_interest_type.minecraft.acquirable_job_site": "Wo Dorfbewohner Arbeitsplätze suchen",
+    "command_translation.tag.point_of_interest_type.minecraft.bee_home": "Wo Bienen ihr Zuhause suchen",
+    "command_translation.tag.point_of_interest_type.minecraft.village": "Wo Dorfbewohner ihrer Routine nachgehen"
+  },
+  "ja_jp": {
+    "command_translation.tag.point_of_interest_type.minecraft.acquirable_job_site": "村人が職業ブロックを探す場所",
+    "command_translation.tag.point_of_interest_type.minecraft.bee_home": "ミツバチが巣を探す場所",
+    "command_translation.tag.point_of_interest_type.minecraft.village": "村人が日課を行う場所"
+  },
+  "sources": {
+    "command_translation.tag.point_of_interest_type.minecraft.acquirable_job_site": [
+      {
+        "url": "https://minecraft.wiki/w/Point%20of%20interest%20type%20tag%20(Java%20Edition)",
+        "revision": 3839228
+      }
+    ],
+    "command_translation.tag.point_of_interest_type.minecraft.bee_home": [
+      {
+        "url": "https://minecraft.wiki/w/Point%20of%20interest%20type%20tag%20(Java%20Edition)",
+        "revision": 3839228
+      }
+    ],
+    "command_translation.tag.point_of_interest_type.minecraft.village": [
+      {
+        "url": "https://minecraft.wiki/w/Point%20of%20interest%20type%20tag%20(Java%20Edition)",
+        "revision": 3839228
+      }
+    ]
+  }
+}

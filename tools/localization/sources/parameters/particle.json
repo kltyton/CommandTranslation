@@ -1,0 +1,226 @@
+{
+  "en_us": {
+    "command_translation.help.argument.particle.name": "Particle type and any settings it requires, all before the position.",
+    "command_translation.help.argument.particle.pos": "The centre position where particles are created; defaults to the command execution position.",
+    "command_translation.help.argument.particle.delta": "With count above 0, these control spread around pos using a normal distribution; with count 0, they give the single particle's direction, multiplied by speed.",
+    "command_translation.help.argument.particle.speed": "With count 0, multiplies the delta motion; with count above 0, it is the standard deviation of the particles' extra parameters.",
+    "command_translation.help.argument.particle.count": "The number of particles to create; 0 creates a single particle that moves along delta.",
+    "command_translation.help.argument.particle.force": "Sends the particles to players within 512 blocks and shows them even if the Particles video setting is Minimal.",
+    "command_translation.help.argument.particle.normal": "Sends the particles only to players within 32 blocks (the default); they may be hidden by the Minimal Particles setting.",
+    "command_translation.help.argument.particle.viewers": "Limits which players see the particles instead of everyone in range."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.particle.name": "粒子类型及该类型所需的设置，整体写在位置坐标之前。",
+    "command_translation.help.argument.particle.pos": "生成粒子的中心坐标；省略时使用命令执行位置。",
+    "command_translation.help.argument.particle.delta": "count 大于 0 时控制粒子围绕 pos 的正态分布散布；count 为 0 时表示单个粒子的运动方向，再乘以 speed。",
+    "command_translation.help.argument.particle.speed": "count 为 0 时乘以 delta 的运动；count 大于 0 时是粒子额外参数的标准差。",
+    "command_translation.help.argument.particle.count": "生成的粒子数量；填 0 时生成 1 个沿 delta 运动的粒子。",
+    "command_translation.help.argument.particle.force": "把粒子发送给 512 格内的玩家，且即使视频设置中粒子为“最少”也会显示。",
+    "command_translation.help.argument.particle.normal": "只把粒子发送给 32 格内的玩家（默认），可能在“粒子=最少”时被隐藏。",
+    "command_translation.help.argument.particle.viewers": "限定哪些玩家能看到粒子，而不是范围内所有人。"
+  },
+  "sources": {
+    "command_translation.help.argument.particle.name": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fparticle",
+        "revision": 3846970
+      }
+    ],
+    "command_translation.help.argument.particle.pos": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fparticle",
+        "revision": 3846970
+      }
+    ],
+    "command_translation.help.argument.particle.delta": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fparticle",
+        "revision": 3846970
+      }
+    ],
+    "command_translation.help.argument.particle.speed": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fparticle",
+        "revision": 3846970
+      }
+    ],
+    "command_translation.help.argument.particle.count": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fparticle",
+        "revision": 3846970
+      }
+    ],
+    "command_translation.help.argument.particle.force": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fparticle",
+        "revision": 3846970
+      }
+    ],
+    "command_translation.help.argument.particle.normal": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fparticle",
+        "revision": 3846970
+      }
+    ],
+    "command_translation.help.argument.particle.viewers": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fparticle",
+        "revision": 3846970
+      }
+    ]
+  },
+  "bindings": {
+    "particle.name": "command_translation.help.argument.particle.name",
+    "particle.name.pos": "command_translation.help.argument.particle.pos",
+    "particle.name.pos.delta": "command_translation.help.argument.particle.delta",
+    "particle.name.pos.delta.speed": "command_translation.help.argument.particle.speed",
+    "particle.name.pos.delta.speed.count": "command_translation.help.argument.particle.count",
+    "particle.name.pos.delta.speed.count.force": "command_translation.help.argument.particle.force",
+    "particle.name.pos.delta.speed.count.force.viewers": "command_translation.help.argument.particle.viewers",
+    "particle.name.pos.delta.speed.count.normal": "command_translation.help.argument.particle.normal",
+    "particle.name.pos.delta.speed.count.normal.viewers": "command_translation.help.argument.particle.viewers"
+  },
+  "de_de": {
+    "command_translation.help.argument.particle.name": "Partikeltyp samt nötiger Einstellungen, alles vor der Position.",
+    "command_translation.help.argument.particle.pos": "Die Mittelposition, an der Partikel erzeugt werden; Standard ist die Ausführungsposition.",
+    "command_translation.help.argument.particle.delta": "Bei count über 0 steuern sie die normalverteilte Streuung um pos; bei count 0 geben sie die Richtung des einzelnen Partikels an, multipliziert mit speed.",
+    "command_translation.help.argument.particle.speed": "Bei count 0 multipliziert es die delta-Bewegung; bei count über 0 ist es die Standardabweichung der Zusatzparameter.",
+    "command_translation.help.argument.particle.count": "Die Anzahl der zu erzeugenden Partikel; 0 erzeugt ein einzelnes Partikel, das sich entlang delta bewegt.",
+    "command_translation.help.argument.particle.force": "Sendet die Partikel an Spieler innerhalb von 512 Blöcken und zeigt sie auch, wenn die Videoeinstellung Partikel auf Minimal steht.",
+    "command_translation.help.argument.particle.normal": "Sendet die Partikel nur an Spieler innerhalb von 32 Blöcken (Standard); bei Partikel=Minimal können sie verborgen sein.",
+    "command_translation.help.argument.particle.viewers": "Beschränkt, welche Spieler die Partikel sehen, statt alle in Reichweite."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.particle.name": "粒子の種類と専用パラメーターを、座標より前に指定する。",
+    "command_translation.help.argument.particle.pos": "パーティクルを生成する中心座標。省略時は実行位置。",
+    "command_translation.help.argument.particle.delta": "count が 0 より大きい場合は pos 周辺の正規分布による広がりを指定し、0 の場合は単一粒子の移動方向となり speed を掛ける。",
+    "command_translation.help.argument.particle.speed": "count が 0 のときは delta の動きに掛ける倍率、0 より大きいときはパーティクルの追加パラメータの標準偏差。",
+    "command_translation.help.argument.particle.count": "生成するパーティクルの数。0 のときは delta に沿って動く単一パーティクルを生成する。",
+    "command_translation.help.argument.particle.force": "512 ブロック以内のプレイヤーに送り、「パーティクル」設定が「最小」でも表示する。",
+    "command_translation.help.argument.particle.normal": "32 ブロック以内のプレイヤーにのみ送る（既定）。「パーティクル＝最小」では隠れることがある。",
+    "command_translation.help.argument.particle.viewers": "付近の全員ではなく、パーティクルを見られるプレイヤーを限定する。"
+  },
+  "syntax": [
+    {
+      "path": "particle",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "particle.name",
+      "type": "argument",
+      "parser": "minecraft:particle",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "particle.name.pos",
+      "type": "argument",
+      "parser": "minecraft:vec3",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "particle.name.pos.delta",
+      "type": "argument",
+      "parser": "minecraft:vec3",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "particle.name.pos.delta.speed",
+      "type": "argument",
+      "parser": "brigadier:float",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "particle.name.pos.delta.speed.count",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "particle.name.pos.delta.speed.count.force",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "particle.name.pos.delta.speed.count.force.viewers",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "players",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "particle.name.pos.delta.speed.count.normal",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "particle.name.pos.delta.speed.count.normal.viewers",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "players",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

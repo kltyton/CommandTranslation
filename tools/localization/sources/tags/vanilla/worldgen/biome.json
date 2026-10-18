@@ -1,0 +1,746 @@
+{
+  "en_us": {
+    "command_translation.tag.worldgen.biome.minecraft.allows_surface_slime_spawns": "Allows slimes to spawn on the surface",
+    "command_translation.tag.worldgen.biome.minecraft.allows_tropical_fish_spawns_at_any_height": "Allows tropical fish to spawn at any height",
+    "command_translation.tag.worldgen.biome.minecraft.has_closer_water_fog": "Shorter underwater view distance",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ancient_city": "Biomes where ancient cities can generate",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.bastion_remnant": "Biomes where bastion remnants can generate",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.buried_treasure": "Biomes where buried treasure can generate",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.desert_pyramid": "Biomes where desert pyramids can generate",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.end_city": "Biomes where end cities can generate",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.igloo": "Biomes where igloos can generate",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.jungle_temple": "Biomes where jungle temples can generate",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.mineshaft": "Biomes where mineshafts can generate",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.mineshaft_mesa": "Biomes where mesa mineshafts can generate",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.nether_fortress": "Biomes where nether fortresses can generate",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.nether_fossil": "Biomes where nether fossils can generate",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ocean_monument": "Biomes where ocean monuments can generate",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ocean_ruin_cold": "Biomes where cold ocean ruins can generate",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ocean_ruin_warm": "Biomes where warm ocean ruins can generate",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.pillager_outpost": "Biomes where pillager outposts can generate",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ruined_portal_desert": "Biomes where desert ruined portals can generate",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ruined_portal_jungle": "Biomes where jungle ruined portals can generate",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ruined_portal_mountain": "Biomes where mountain ruined portals can generate",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ruined_portal_nether": "Biomes where nether ruined portals can generate",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ruined_portal_ocean": "Biomes where ocean ruined portals can generate",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ruined_portal_standard": "Biomes where normal ruined portals can generate",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ruined_portal_swamp": "Biomes where swamp ruined portals can generate",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.shipwreck": "Biomes where shipwrecks can generate",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.shipwreck_beached": "Biomes where beached shipwrecks can generate",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.stronghold": "Biomes where strongholds can generate",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.swamp_hut": "Biomes where swamp huts can generate",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.trail_ruins": "Biomes where trail ruins can generate",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.village_desert": "Biomes where desert villages can generate",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.village_plains": "Biomes where plains villages can generate",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.village_savanna": "Biomes where savanna villages can generate",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.village_snowy": "Biomes where snowy villages can generate",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.village_taiga": "Biomes where taiga villages can generate",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.woodland_mansion": "Biomes where woodland mansions can generate",
+    "command_translation.tag.worldgen.biome.minecraft.increased_fire_burnout": "Humid biomes with reduced fire spread",
+    "command_translation.tag.worldgen.biome.minecraft.is_badlands": "Badlands biomes",
+    "command_translation.tag.worldgen.biome.minecraft.is_beach": "Beach biomes",
+    "command_translation.tag.worldgen.biome.minecraft.is_deep_ocean": "Deep ocean biomes",
+    "command_translation.tag.worldgen.biome.minecraft.is_end": "End biomes",
+    "command_translation.tag.worldgen.biome.minecraft.is_forest": "Forest biomes",
+    "command_translation.tag.worldgen.biome.minecraft.is_hill": "Hill biomes",
+    "command_translation.tag.worldgen.biome.minecraft.is_jungle": "Jungle biomes",
+    "command_translation.tag.worldgen.biome.minecraft.is_mountain": "Mountain biomes",
+    "command_translation.tag.worldgen.biome.minecraft.is_nether": "Nether biomes",
+    "command_translation.tag.worldgen.biome.minecraft.is_ocean": "Ocean biomes",
+    "command_translation.tag.worldgen.biome.minecraft.is_overworld": "Overworld biomes",
+    "command_translation.tag.worldgen.biome.minecraft.is_river": "River biomes",
+    "command_translation.tag.worldgen.biome.minecraft.is_savanna": "Savanna biomes",
+    "command_translation.tag.worldgen.biome.minecraft.is_taiga": "Taiga biomes",
+    "command_translation.tag.worldgen.biome.minecraft.mineshaft_blocking": "Blocks mineshaft pieces from generating here",
+    "command_translation.tag.worldgen.biome.minecraft.more_frequent_drowned_spawns": "Drowned spawn more frequently",
+    "command_translation.tag.worldgen.biome.minecraft.plays_underwater_music": "Plays special underwater music",
+    "command_translation.tag.worldgen.biome.minecraft.polar_bears_spawn_on_alternate_blocks": "Polar bears may spawn on alternate blocks",
+    "command_translation.tag.worldgen.biome.minecraft.produces_corals_from_bonemeal": "Bone meal creates corals here",
+    "command_translation.tag.worldgen.biome.minecraft.reduce_water_ambient_spawns": "Fewer ambient water spawns",
+    "command_translation.tag.worldgen.biome.minecraft.required_ocean_monument_surrounding": "Biomes required around an ocean monument",
+    "command_translation.tag.worldgen.biome.minecraft.snow_golem_melts": "Snow golems melt here",
+    "command_translation.tag.worldgen.biome.minecraft.spawns_cold_variant_frogs": "Frogs spawn as the cold variant",
+    "command_translation.tag.worldgen.biome.minecraft.spawns_gold_rabbits": "Rabbits always spawn as the gold variant",
+    "command_translation.tag.worldgen.biome.minecraft.spawns_snow_foxes": "Foxes spawn as the snow variant",
+    "command_translation.tag.worldgen.biome.minecraft.spawns_warm_variant_frogs": "Frogs spawn as the warm variant",
+    "command_translation.tag.worldgen.biome.minecraft.spawns_white_rabbits": "Rabbits mostly spawn white here",
+    "command_translation.tag.worldgen.biome.minecraft.stronghold_biased_to": "Biomes strongholds are biased toward",
+    "command_translation.tag.worldgen.biome.minecraft.water_on_map_outlines": "Appears as water on map outlines",
+    "command_translation.tag.worldgen.biome.minecraft.without_patrol_spawns": "No pillager patrols spawn here",
+    "command_translation.tag.worldgen.biome.minecraft.without_wandering_trader_spawns": "Wandering traders do not spawn here",
+    "command_translation.tag.worldgen.biome.minecraft.without_zombie_sieges": "No zombie sieges occur here",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.trial_chambers": "Biomes where trial chambers can generate",
+    "command_translation.tag.worldgen.biome.minecraft.spawns_cold_variant_farm_animals": "Farm animals spawn as their cold variant",
+    "command_translation.tag.worldgen.biome.minecraft.spawns_coral_variant_zombie_nautilus": "Zombie nautiluses spawn as the coral variant",
+    "command_translation.tag.worldgen.biome.minecraft.spawns_warm_variant_farm_animals": "Farm animals spawn as their warm variant"
+  },
+  "zh_cn": {
+    "command_translation.tag.worldgen.biome.minecraft.allows_surface_slime_spawns": "允许史莱姆在地表生成",
+    "command_translation.tag.worldgen.biome.minecraft.allows_tropical_fish_spawns_at_any_height": "允许热带鱼在任意高度生成",
+    "command_translation.tag.worldgen.biome.minecraft.has_closer_water_fog": "水下视野距离更近",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ancient_city": "可生成远古城市的生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.bastion_remnant": "可生成堡垒遗迹的生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.buried_treasure": "可生成埋藏的宝藏的生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.desert_pyramid": "可生成沙漠神殿的生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.end_city": "可生成末地城的生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.igloo": "可生成雪屋的生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.jungle_temple": "可生成丛林神庙的生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.mineshaft": "可生成废弃矿井的生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.mineshaft_mesa": "可生成恶地废弃矿井的生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.nether_fortress": "可生成下界要塞的生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.nether_fossil": "可生成下界化石的生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ocean_monument": "可生成海底神殿的生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ocean_ruin_cold": "可生成寒冷海底废墟的生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ocean_ruin_warm": "可生成温暖海底废墟的生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.pillager_outpost": "可生成掠夺者前哨站的生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ruined_portal_desert": "可生成沙漠废弃传送门的生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ruined_portal_jungle": "可生成丛林废弃传送门的生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ruined_portal_mountain": "可生成山地废弃传送门的生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ruined_portal_nether": "可生成下界废弃传送门的生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ruined_portal_ocean": "可生成海洋废弃传送门的生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ruined_portal_standard": "可生成普通废弃传送门的生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ruined_portal_swamp": "可生成沼泽废弃传送门的生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.shipwreck": "可生成沉船的生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.shipwreck_beached": "可生成搁浅沉船的生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.stronghold": "可生成要塞的生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.swamp_hut": "可生成沼泽小屋的生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.trail_ruins": "可生成古迹废墟的生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.village_desert": "可生成沙漠村庄的生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.village_plains": "可生成平原村庄的生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.village_savanna": "可生成热带草原村庄的生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.village_snowy": "可生成雪原村庄的生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.village_taiga": "可生成针叶林村庄的生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.woodland_mansion": "可生成林地府邸的生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.increased_fire_burnout": "火焰蔓延概率降低的潮湿群系",
+    "command_translation.tag.worldgen.biome.minecraft.is_badlands": "恶地类生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.is_beach": "沙滩类生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.is_deep_ocean": "深海类生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.is_end": "末地类生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.is_forest": "森林类生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.is_hill": "丘陵类生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.is_jungle": "丛林类生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.is_mountain": "山地类生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.is_nether": "下界类生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.is_ocean": "海洋类生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.is_overworld": "主世界类生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.is_river": "河流生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.is_savanna": "热带草原类生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.is_taiga": "针叶林类生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.mineshaft_blocking": "阻止废弃矿井结构片段在此生成",
+    "command_translation.tag.worldgen.biome.minecraft.more_frequent_drowned_spawns": "溺尸生成更频繁",
+    "command_translation.tag.worldgen.biome.minecraft.plays_underwater_music": "水下播放特殊音乐",
+    "command_translation.tag.worldgen.biome.minecraft.polar_bears_spawn_on_alternate_blocks": "北极熊可在替代方块上生成",
+    "command_translation.tag.worldgen.biome.minecraft.produces_corals_from_bonemeal": "骨粉可在此生成珊瑚",
+    "command_translation.tag.worldgen.biome.minecraft.reduce_water_ambient_spawns": "减少水下环境生物生成",
+    "command_translation.tag.worldgen.biome.minecraft.required_ocean_monument_surrounding": "海底神殿生成所需的周边生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.snow_golem_melts": "雪傀儡在此融化",
+    "command_translation.tag.worldgen.biome.minecraft.spawns_cold_variant_frogs": "青蛙以寒冷变种生成",
+    "command_translation.tag.worldgen.biome.minecraft.spawns_gold_rabbits": "兔子始终以金色变种生成",
+    "command_translation.tag.worldgen.biome.minecraft.spawns_snow_foxes": "狐狸以雪地变种生成",
+    "command_translation.tag.worldgen.biome.minecraft.spawns_warm_variant_frogs": "青蛙以温暖变种生成",
+    "command_translation.tag.worldgen.biome.minecraft.spawns_white_rabbits": "兔子在此大多生成白色变种",
+    "command_translation.tag.worldgen.biome.minecraft.stronghold_biased_to": "要塞生成偏向的生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.water_on_map_outlines": "在地图轮廓中显示为水域",
+    "command_translation.tag.worldgen.biome.minecraft.without_patrol_spawns": "不生成灾厄巡逻队",
+    "command_translation.tag.worldgen.biome.minecraft.without_wandering_trader_spawns": "流浪商人不在此生成",
+    "command_translation.tag.worldgen.biome.minecraft.without_zombie_sieges": "此地不发生僵尸围城",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.trial_chambers": "可生成试炼密室的生物群系",
+    "command_translation.tag.worldgen.biome.minecraft.spawns_cold_variant_farm_animals": "家畜以寒冷变种生成",
+    "command_translation.tag.worldgen.biome.minecraft.spawns_coral_variant_zombie_nautilus": "僵尸鹦鹉螺以珊瑚变种生成",
+    "command_translation.tag.worldgen.biome.minecraft.spawns_warm_variant_farm_animals": "家畜以温暖变种生成"
+  },
+  "de_de": {
+    "command_translation.tag.worldgen.biome.minecraft.allows_surface_slime_spawns": "Erlaubt Schleime an der Oberfläche",
+    "command_translation.tag.worldgen.biome.minecraft.allows_tropical_fish_spawns_at_any_height": "Erlaubt Tropenfische auf jeder Höhe",
+    "command_translation.tag.worldgen.biome.minecraft.has_closer_water_fog": "Geringere Sichtweite unter Wasser",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ancient_city": "Biome, in denen antike Städte entstehen können",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.bastion_remnant": "Biome, in denen Bastionsruinen entstehen können",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.buried_treasure": "Biome, in denen vergrabene Schätze entstehen können",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.desert_pyramid": "Biome, in denen Wüstentempel entstehen können",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.end_city": "Biome, in denen Endstädte entstehen können",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.igloo": "Biome, in denen Iglus entstehen können",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.jungle_temple": "Biome, in denen Dschungeltempel entstehen können",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.mineshaft": "Biome, in denen Minen entstehen können",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.mineshaft_mesa": "Biome, in denen Mesa-Minen entstehen können",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.nether_fortress": "Biome, in denen Netherfestungen entstehen können",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.nether_fossil": "Biome, in denen Netherfossilien entstehen können",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ocean_monument": "Biome, in denen Ozeanmonumente entstehen können",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ocean_ruin_cold": "Biome, in denen kalte Ozeanruinen entstehen können",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ocean_ruin_warm": "Biome, in denen warme Ozeanruinen entstehen können",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.pillager_outpost": "Biome, in denen Plündereraußenposten entstehen können",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ruined_portal_desert": "Biome, in denen Wüstenportale entstehen können",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ruined_portal_jungle": "Biome, in denen Dschungelportale entstehen können",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ruined_portal_mountain": "Biome, in denen Bergportale entstehen können",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ruined_portal_nether": "Biome, in denen Netherportale entstehen können",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ruined_portal_ocean": "Biome, in denen Ozeanportale entstehen können",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ruined_portal_standard": "Biome, in denen normale Portale entstehen können",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ruined_portal_swamp": "Biome, in denen Sumpfportale entstehen können",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.shipwreck": "Biome, in denen Schiffswracks entstehen können",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.shipwreck_beached": "Biome, in denen gestrandete Wracks entstehen können",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.stronghold": "Biome, in denen Festungen entstehen können",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.swamp_hut": "Biome, in denen Sumpfhütten entstehen können",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.trail_ruins": "Biome, in denen Pfadruinen entstehen können",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.village_desert": "Biome, in denen Wüstendörfer entstehen können",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.village_plains": "Biome, in denen Flachlanddörfer entstehen können",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.village_savanna": "Biome, in denen Savannendörfer entstehen können",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.village_snowy": "Biome, in denen Schneedörfer entstehen können",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.village_taiga": "Biome, in denen Taigadörfer entstehen können",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.woodland_mansion": "Biome, in denen Waldanwesen entstehen können",
+    "command_translation.tag.worldgen.biome.minecraft.increased_fire_burnout": "Feuchte Biome mit verringerter Feuerausbreitung",
+    "command_translation.tag.worldgen.biome.minecraft.is_badlands": "Tafelberg-Biome",
+    "command_translation.tag.worldgen.biome.minecraft.is_beach": "Strand-Biome",
+    "command_translation.tag.worldgen.biome.minecraft.is_deep_ocean": "Tiefsee-Biome",
+    "command_translation.tag.worldgen.biome.minecraft.is_end": "End-Biome",
+    "command_translation.tag.worldgen.biome.minecraft.is_forest": "Wald-Biome",
+    "command_translation.tag.worldgen.biome.minecraft.is_hill": "Hügel-Biome",
+    "command_translation.tag.worldgen.biome.minecraft.is_jungle": "Dschungel-Biome",
+    "command_translation.tag.worldgen.biome.minecraft.is_mountain": "Berg-Biome",
+    "command_translation.tag.worldgen.biome.minecraft.is_nether": "Nether-Biome",
+    "command_translation.tag.worldgen.biome.minecraft.is_ocean": "Ozean-Biome",
+    "command_translation.tag.worldgen.biome.minecraft.is_overworld": "Oberwelt-Biome",
+    "command_translation.tag.worldgen.biome.minecraft.is_river": "Fluss-Biome",
+    "command_translation.tag.worldgen.biome.minecraft.is_savanna": "Savannen-Biome",
+    "command_translation.tag.worldgen.biome.minecraft.is_taiga": "Taiga-Biome",
+    "command_translation.tag.worldgen.biome.minecraft.mineshaft_blocking": "Verhindert hier die Erzeugung von Minenschachtteilen",
+    "command_translation.tag.worldgen.biome.minecraft.more_frequent_drowned_spawns": "Ertrunkene erscheinen häufiger",
+    "command_translation.tag.worldgen.biome.minecraft.plays_underwater_music": "Spezielle Unterwassermusik",
+    "command_translation.tag.worldgen.biome.minecraft.polar_bears_spawn_on_alternate_blocks": "Eisbären erscheinen auf anderen Blöcken",
+    "command_translation.tag.worldgen.biome.minecraft.produces_corals_from_bonemeal": "Knochenmehl erzeugt hier Korallen",
+    "command_translation.tag.worldgen.biome.minecraft.reduce_water_ambient_spawns": "Weniger Wasser-Umgebungsspawns",
+    "command_translation.tag.worldgen.biome.minecraft.required_ocean_monument_surrounding": "Benötigte Biome um ein Ozeanmonument",
+    "command_translation.tag.worldgen.biome.minecraft.snow_golem_melts": "Schneegolems schmelzen hier",
+    "command_translation.tag.worldgen.biome.minecraft.spawns_cold_variant_frogs": "Frösche erscheinen als Kältevariante",
+    "command_translation.tag.worldgen.biome.minecraft.spawns_gold_rabbits": "Kaninchen erscheinen als Goldvariante",
+    "command_translation.tag.worldgen.biome.minecraft.spawns_snow_foxes": "Füchse erscheinen als Schneevariante",
+    "command_translation.tag.worldgen.biome.minecraft.spawns_warm_variant_frogs": "Frösche erscheinen als Wärmevariante",
+    "command_translation.tag.worldgen.biome.minecraft.spawns_white_rabbits": "Kaninchen erscheinen hier meist weiß",
+    "command_translation.tag.worldgen.biome.minecraft.stronghold_biased_to": "Biome, zu denen Festungen tendieren",
+    "command_translation.tag.worldgen.biome.minecraft.water_on_map_outlines": "Erscheint als Wasser auf Kartenumrissen",
+    "command_translation.tag.worldgen.biome.minecraft.without_patrol_spawns": "Keine Plündererpatrouillen",
+    "command_translation.tag.worldgen.biome.minecraft.without_wandering_trader_spawns": "Keine Wanderhändler erscheinen hier",
+    "command_translation.tag.worldgen.biome.minecraft.without_zombie_sieges": "Keine Zombiebelagerungen hier",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.trial_chambers": "Biome, in denen Prüfungskammern entstehen können",
+    "command_translation.tag.worldgen.biome.minecraft.spawns_cold_variant_farm_animals": "Nutztiere erscheinen als Kältevariante",
+    "command_translation.tag.worldgen.biome.minecraft.spawns_coral_variant_zombie_nautilus": "Zombie-Nautilus erscheinen als Korallenvariante",
+    "command_translation.tag.worldgen.biome.minecraft.spawns_warm_variant_farm_animals": "Nutztiere erscheinen als Wärmevariante"
+  },
+  "ja_jp": {
+    "command_translation.tag.worldgen.biome.minecraft.allows_surface_slime_spawns": "スライムが地表に出現できる",
+    "command_translation.tag.worldgen.biome.minecraft.allows_tropical_fish_spawns_at_any_height": "熱帯魚がどの高さでも出現できる",
+    "command_translation.tag.worldgen.biome.minecraft.has_closer_water_fog": "水中の視界が近い",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ancient_city": "古代都市が生成できるバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.bastion_remnant": "砦の遺跡が生成できるバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.buried_treasure": "埋もれた宝が生成できるバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.desert_pyramid": "砂漠の神殿が生成できるバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.end_city": "エンドシティが生成できるバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.igloo": "イグルーが生成できるバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.jungle_temple": "ジャングルの寺院が生成できるバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.mineshaft": "廃坑が生成できるバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.mineshaft_mesa": "メサの廃坑が生成できるバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.nether_fortress": "ネザー要塞が生成できるバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.nether_fossil": "ネザーの化石が生成できるバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ocean_monument": "海底神殿が生成できるバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ocean_ruin_cold": "寒冷な海底遺跡が生成できるバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ocean_ruin_warm": "暖かい海底遺跡が生成できるバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.pillager_outpost": "ピリジャーの前哨基地が生成できるバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ruined_portal_desert": "砂漠の荒廃したポータルが生成できるバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ruined_portal_jungle": "ジャングルの荒廃したポータルが生成できるバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ruined_portal_mountain": "山の荒廃したポータルが生成できるバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ruined_portal_nether": "ネザーの荒廃したポータルが生成できるバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ruined_portal_ocean": "海の荒廃したポータルが生成できるバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ruined_portal_standard": "通常の荒廃したポータルが生成できるバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ruined_portal_swamp": "沼地の荒廃したポータルが生成できるバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.shipwreck": "難破船が生成できるバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.shipwreck_beached": "座礁した難破船が生成できるバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.stronghold": "要塞が生成できるバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.swamp_hut": "沼地の小屋が生成できるバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.trail_ruins": "小道の遺跡が生成できるバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.village_desert": "砂漠の村が生成できるバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.village_plains": "平原の村が生成できるバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.village_savanna": "サバンナの村が生成できるバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.village_snowy": "雪原の村が生成できるバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.village_taiga": "タイガの村が生成できるバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.woodland_mansion": "森の洋館が生成できるバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.increased_fire_burnout": "火が燃え広がる確率が低い湿潤なバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.is_badlands": "荒野のバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.is_beach": "海岸のバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.is_deep_ocean": "深海のバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.is_end": "エンドのバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.is_forest": "森林のバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.is_hill": "丘のバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.is_jungle": "ジャングルのバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.is_mountain": "山のバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.is_nether": "ネザーのバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.is_ocean": "海洋のバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.is_overworld": "オーバーワールドのバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.is_river": "川のバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.is_savanna": "サバンナのバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.is_taiga": "タイガのバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.mineshaft_blocking": "廃坑の構造物パーツがここに生成されるのを防ぐ",
+    "command_translation.tag.worldgen.biome.minecraft.more_frequent_drowned_spawns": "ドラウンドがより頻繁に出現",
+    "command_translation.tag.worldgen.biome.minecraft.plays_underwater_music": "水中で特別な音楽を再生",
+    "command_translation.tag.worldgen.biome.minecraft.polar_bears_spawn_on_alternate_blocks": "シロクマが別のブロックに出現",
+    "command_translation.tag.worldgen.biome.minecraft.produces_corals_from_bonemeal": "骨粉でサンゴが生成される",
+    "command_translation.tag.worldgen.biome.minecraft.reduce_water_ambient_spawns": "水中の環境スポーンが減少",
+    "command_translation.tag.worldgen.biome.minecraft.required_ocean_monument_surrounding": "海底神殿の周囲に必要なバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.snow_golem_melts": "スノーゴーレムが溶ける",
+    "command_translation.tag.worldgen.biome.minecraft.spawns_cold_variant_frogs": "カエルが寒冷変種で出現",
+    "command_translation.tag.worldgen.biome.minecraft.spawns_gold_rabbits": "ウサギが必ず金色変種で出現",
+    "command_translation.tag.worldgen.biome.minecraft.spawns_snow_foxes": "キツネが雪変種で出現",
+    "command_translation.tag.worldgen.biome.minecraft.spawns_warm_variant_frogs": "カエルが温暖変種で出現",
+    "command_translation.tag.worldgen.biome.minecraft.spawns_white_rabbits": "ウサギが主に白変種で出現",
+    "command_translation.tag.worldgen.biome.minecraft.stronghold_biased_to": "要塞が偏って生成されるバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.water_on_map_outlines": "地図の輪郭で水として表示",
+    "command_translation.tag.worldgen.biome.minecraft.without_patrol_spawns": "襲撃者パトロールが出現しない",
+    "command_translation.tag.worldgen.biome.minecraft.without_wandering_trader_spawns": "行商人が出現しない",
+    "command_translation.tag.worldgen.biome.minecraft.without_zombie_sieges": "ゾンビの襲撃が発生しない",
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.trial_chambers": "試練の間が生成できるバイオーム",
+    "command_translation.tag.worldgen.biome.minecraft.spawns_cold_variant_farm_animals": "家畜が寒冷変種で出現",
+    "command_translation.tag.worldgen.biome.minecraft.spawns_coral_variant_zombie_nautilus": "ゾンビオウムガイがサンゴ変種で出現",
+    "command_translation.tag.worldgen.biome.minecraft.spawns_warm_variant_farm_animals": "家畜が温暖変種で出現"
+  },
+  "sources": {
+    "command_translation.tag.worldgen.biome.minecraft.allows_surface_slime_spawns": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.allows_tropical_fish_spawns_at_any_height": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.has_closer_water_fog": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ancient_city": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.bastion_remnant": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.buried_treasure": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.desert_pyramid": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.end_city": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.igloo": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.jungle_temple": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.mineshaft": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.mineshaft_mesa": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.nether_fortress": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.nether_fossil": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ocean_monument": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ocean_ruin_cold": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ocean_ruin_warm": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.pillager_outpost": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ruined_portal_desert": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ruined_portal_jungle": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ruined_portal_mountain": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ruined_portal_nether": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ruined_portal_ocean": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ruined_portal_standard": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.ruined_portal_swamp": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.shipwreck": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.shipwreck_beached": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.stronghold": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.swamp_hut": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.trail_ruins": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.village_desert": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.village_plains": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.village_savanna": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.village_snowy": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.village_taiga": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.woodland_mansion": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.increased_fire_burnout": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      },
+      {
+        "url": "https://minecraft.wiki/w/Fire",
+        "revision": 3844055
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.is_badlands": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.is_beach": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.is_deep_ocean": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.is_end": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.is_forest": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.is_hill": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.is_jungle": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.is_mountain": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.is_nether": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.is_ocean": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.is_overworld": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.is_river": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.is_savanna": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.is_taiga": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.mineshaft_blocking": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.more_frequent_drowned_spawns": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.plays_underwater_music": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.polar_bears_spawn_on_alternate_blocks": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.produces_corals_from_bonemeal": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.reduce_water_ambient_spawns": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.required_ocean_monument_surrounding": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.snow_golem_melts": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.spawns_cold_variant_frogs": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.spawns_gold_rabbits": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.spawns_snow_foxes": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.spawns_warm_variant_frogs": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.spawns_white_rabbits": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.stronghold_biased_to": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.water_on_map_outlines": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.without_patrol_spawns": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.without_wandering_trader_spawns": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.without_zombie_sieges": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.has_structure.trial_chambers": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.spawns_cold_variant_farm_animals": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.spawns_coral_variant_zombie_nautilus": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ],
+    "command_translation.tag.worldgen.biome.minecraft.spawns_warm_variant_farm_animals": [
+      {
+        "url": "https://minecraft.wiki/w/Biome%20tag%20(Java%20Edition)",
+        "revision": 3842876
+      }
+    ]
+  }
+}

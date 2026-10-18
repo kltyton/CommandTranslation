@@ -1,0 +1,505 @@
+{
+  "source": {
+    "class": "net.minecraft.core.component.DataComponents",
+    "versions": [
+      "1.21.1",
+      "26.1.2",
+      "26.2"
+    ],
+    "selection": "Registered components with a persistent codec."
+  },
+  "components": {
+    "minecraft:custom_data": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:max_stack_size": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:max_damage": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:damage": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:unbreakable": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:use_effects": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:custom_name": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:minimum_attack_charge": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:damage_type": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:item_name": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:item_model": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:lore": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:rarity": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:enchantments": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:can_place_on": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:can_break": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:attribute_modifiers": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:custom_model_data": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:tooltip_display": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:repair_cost": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:enchantment_glint_override": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:intangible_projectile": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:food": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:consumable": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:use_remainder": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:use_cooldown": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:damage_resistant": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:tool": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:weapon": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:attack_range": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:enchantable": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:equippable": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:repairable": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:glider": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:tooltip_style": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:death_protection": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:blocks_attacks": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:piercing_weapon": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:kinetic_weapon": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:swing_animation": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:stored_enchantments": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:dye": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:dyed_color": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:map_color": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:map_id": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:map_decorations": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:charged_projectiles": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:bundle_contents": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:potion_contents": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:potion_duration_scale": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:suspicious_stew_effects": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:writable_book_content": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:written_book_content": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:trim": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:debug_stick_state": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:entity_data": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:bucket_entity_data": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:block_entity_data": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:instrument": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:provides_trim_material": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:ominous_bottle_amplifier": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:jukebox_playable": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:provides_banner_patterns": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:recipes": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:lodestone_tracker": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:firework_explosion": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:fireworks": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:profile": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:note_block_sound": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:banner_patterns": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:base_color": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:pot_decorations": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:container": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:block_state": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:bees": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:sulfur_cube_content": [
+      "26.2"
+    ],
+    "minecraft:lock": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:container_loot": [
+      "26.2",
+      "1.21.1",
+      "26.1.2"
+    ],
+    "minecraft:break_sound": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:villager/variant": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:wolf/variant": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:wolf/sound_variant": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:wolf/collar": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:fox/variant": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:salmon/size": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:parrot/variant": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:tropical_fish/pattern": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:tropical_fish/base_color": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:tropical_fish/pattern_color": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:mooshroom/variant": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:rabbit/variant": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:pig/variant": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:pig/sound_variant": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:cow/variant": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:cow/sound_variant": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:chicken/variant": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:chicken/sound_variant": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:zombie_nautilus/variant": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:frog/variant": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:horse/variant": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:painting/variant": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:llama/variant": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:axolotl/variant": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:cat/variant": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:cat/sound_variant": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:cat/collar": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:sheep/color": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:shulker/color": [
+      "26.2",
+      "26.1.2"
+    ],
+    "minecraft:hide_additional_tooltip": [
+      "1.21.1"
+    ],
+    "minecraft:hide_tooltip": [
+      "1.21.1"
+    ],
+    "minecraft:fire_resistant": [
+      "1.21.1"
+    ]
+  }
+}

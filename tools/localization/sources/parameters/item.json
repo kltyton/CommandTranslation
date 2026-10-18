@@ -1,0 +1,818 @@
+{
+  "en_us": {
+    "command_translation.help.argument.item.modify": "Applies an item modifier (loot modifier) to the items in one inventory slot; it changes the item id only if the modifier does.",
+    "command_translation.help.argument.item.modify.block": "Target is a container block (chest, furnace, ...) at a block position.",
+    "command_translation.help.argument.item.pos": "Block position of the target container block, as x y z.",
+    "command_translation.help.argument.item.slot": "The single slot to change, written slot_type or slot_type.number; valid slot types depend on whether the target is a block or an entity.",
+    "command_translation.help.argument.item.modifier": "The item modifier to apply: a resource location of a registered item_modifier or an inline SNBT definition; fails if it is not valid.",
+    "command_translation.help.argument.item.modify.entity": "Target is one or more entities' inventories (players or mobs).",
+    "command_translation.help.argument.item.targets": "One or more entities to modify: a player name, target selector, or UUID.",
+    "command_translation.help.argument.item.replace": "Overwrites the items in a slot with a new item, or copies them from another slot.",
+    "command_translation.help.argument.item.replace.block": "Replaces into a container block at the given position.",
+    "command_translation.help.argument.item.replace.block.pos.slot.from": "Option from: copies the item from a source slot instead of naming a new item with with.",
+    "command_translation.help.argument.item.replace.block.pos.slot.from.block": "Source is a container block; its item is copied from the chosen slot.",
+    "command_translation.help.argument.item.sourcePos": "Block position of the source container block to copy from, as x y z.",
+    "command_translation.help.argument.item.sourceSlot": "The single source slot to copy from, written slot_type or slot_type.number.",
+    "command_translation.help.argument.item.replace.block.pos.slot.from.entity": "Source is an entity; its item is copied from the chosen slot.",
+    "command_translation.help.argument.item.source": "The single source entity to copy from: a player name, target selector, or UUID.",
+    "command_translation.help.argument.item.replace.block.pos.slot.with": "Option with: places a newly named item instead of copying from a source slot.",
+    "command_translation.help.argument.item.item": "The item to place, written item_id[data_components] (components optional).",
+    "command_translation.help.argument.item.count": "How many items to place: an integer from 1 to 99 inclusive; defaults to 1. Fails if it exceeds the item's stack limit.",
+    "command_translation.help.argument.item.replace.entity": "Replaces into one or more entities' inventories.",
+    "command_translation.help.argument.item.replace.entity.targets.slot.from": "Copies the item from a source (a block or an entity) into the target entity slot.",
+    "command_translation.help.argument.item.replace.entity.targets.slot.from.block": "Source is a container block; its item is copied from the chosen slot.",
+    "command_translation.help.argument.item.replace.entity.targets.slot.from.entity": "Source is an entity; its item is copied from the chosen slot.",
+    "command_translation.help.argument.item.replace.entity.targets.slot.with": "Option with: places a newly named item into the target slot."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.item.modify": "把物品修饰符（loot modifier）应用到一个物品栏槽位的物品上；只有修饰符本身修改时才改变物品 id。",
+    "command_translation.help.argument.item.modify.block": "目标为某方块位置的容器方块（箱子、熔炉等）。",
+    "command_translation.help.argument.item.pos": "目标容器方块的位置，x y z。",
+    "command_translation.help.argument.item.slot": "要修改的单个槽位，写成 slot_type 或 slot_type.number；有效槽位类型取决于目标是方块还是实体。",
+    "command_translation.help.argument.item.modifier": "要应用的物品修饰符：已注册 item_modifier 的资源位置或内联 SNBT 定义；不是合法修饰符则失败。",
+    "command_translation.help.argument.item.modify.entity": "目标为一个或多个实体的物品栏（玩家或生物）。",
+    "command_translation.help.argument.item.targets": "要修改的一个或多个实体：玩家名、目标选择器或 UUID。",
+    "command_translation.help.argument.item.replace": "用一个新物品覆盖某槽位，或从另一槽位复制物品。",
+    "command_translation.help.argument.item.replace.block": "替换指定位置的容器方块中的物品。",
+    "command_translation.help.argument.item.replace.block.pos.slot.from": "选项 from：从来源槽位复制物品，而不用 with 指定新物品。",
+    "command_translation.help.argument.item.replace.block.pos.slot.from.block": "来源是容器方块；从所选槽位复制其物品。",
+    "command_translation.help.argument.item.sourcePos": "要复制来源的容器方块位置，x y z。",
+    "command_translation.help.argument.item.sourceSlot": "要复制的单个来源槽位，写成 slot_type 或 slot_type.number。",
+    "command_translation.help.argument.item.replace.block.pos.slot.from.entity": "来源是实体；从所选槽位复制其物品。",
+    "command_translation.help.argument.item.source": "复制的单个来源实体：玩家名、目标选择器或 UUID。",
+    "command_translation.help.argument.item.replace.block.pos.slot.with": "选项 with：直接放入新指定的物品，而不是从来源槽位复制。",
+    "command_translation.help.argument.item.item": "要放入的物品，写成 item_id[数据组件]（组件可省略）。",
+    "command_translation.help.argument.item.count": "放入的物品数量：1 到 99 的整数（含端点），省略时为 1；超过该物品堆叠上限则失败。",
+    "command_translation.help.argument.item.replace.entity": "替换一个或多个实体的物品栏。",
+    "command_translation.help.argument.item.replace.entity.targets.slot.from": "从来源（方块或实体）复制物品到目标实体槽位。",
+    "command_translation.help.argument.item.replace.entity.targets.slot.from.block": "来源是容器方块；从所选槽位复制其物品。",
+    "command_translation.help.argument.item.replace.entity.targets.slot.from.entity": "来源是实体；从所选槽位复制其物品。",
+    "command_translation.help.argument.item.replace.entity.targets.slot.with": "选项 with：把新指定的物品放入目标槽位。"
+  },
+  "sources": {
+    "command_translation.help.argument.item.modify": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fitem",
+        "revision": 3780270
+      }
+    ],
+    "command_translation.help.argument.item.modify.block": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fitem",
+        "revision": 3780270
+      }
+    ],
+    "command_translation.help.argument.item.pos": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fitem",
+        "revision": 3780270
+      }
+    ],
+    "command_translation.help.argument.item.slot": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fitem",
+        "revision": 3780270
+      }
+    ],
+    "command_translation.help.argument.item.modifier": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fitem",
+        "revision": 3780270
+      }
+    ],
+    "command_translation.help.argument.item.modify.entity": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fitem",
+        "revision": 3780270
+      }
+    ],
+    "command_translation.help.argument.item.targets": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fitem",
+        "revision": 3780270
+      },
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.argument.item.replace": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fitem",
+        "revision": 3780270
+      }
+    ],
+    "command_translation.help.argument.item.replace.block": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fitem",
+        "revision": 3780270
+      }
+    ],
+    "command_translation.help.argument.item.replace.block.pos.slot.from": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fitem",
+        "revision": 3780270
+      }
+    ],
+    "command_translation.help.argument.item.replace.block.pos.slot.from.block": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fitem",
+        "revision": 3780270
+      }
+    ],
+    "command_translation.help.argument.item.sourcePos": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fitem",
+        "revision": 3780270
+      }
+    ],
+    "command_translation.help.argument.item.sourceSlot": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fitem",
+        "revision": 3780270
+      }
+    ],
+    "command_translation.help.argument.item.replace.block.pos.slot.from.entity": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fitem",
+        "revision": 3780270
+      }
+    ],
+    "command_translation.help.argument.item.source": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fitem",
+        "revision": 3780270
+      },
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.argument.item.replace.block.pos.slot.with": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fitem",
+        "revision": 3780270
+      }
+    ],
+    "command_translation.help.argument.item.item": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fitem",
+        "revision": 3780270
+      }
+    ],
+    "command_translation.help.argument.item.count": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fitem",
+        "revision": 3780270
+      }
+    ],
+    "command_translation.help.argument.item.replace.entity": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fitem",
+        "revision": 3780270
+      }
+    ],
+    "command_translation.help.argument.item.replace.entity.targets.slot.from": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fitem",
+        "revision": 3780270
+      }
+    ],
+    "command_translation.help.argument.item.replace.entity.targets.slot.from.block": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fitem",
+        "revision": 3780270
+      }
+    ],
+    "command_translation.help.argument.item.replace.entity.targets.slot.from.entity": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fitem",
+        "revision": 3780270
+      }
+    ],
+    "command_translation.help.argument.item.replace.entity.targets.slot.with": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fitem",
+        "revision": 3780270
+      }
+    ]
+  },
+  "bindings": {
+    "item.modify": "command_translation.help.argument.item.modify",
+    "item.modify.block": "command_translation.help.argument.item.modify.block",
+    "item.modify.block.pos": "command_translation.help.argument.item.pos",
+    "item.modify.block.pos.slot": "command_translation.help.argument.item.slot",
+    "item.modify.block.pos.slot.modifier": "command_translation.help.argument.item.modifier",
+    "item.modify.entity": "command_translation.help.argument.item.modify.entity",
+    "item.modify.entity.targets": "command_translation.help.argument.item.targets",
+    "item.modify.entity.targets.slot": "command_translation.help.argument.item.slot",
+    "item.modify.entity.targets.slot.modifier": "command_translation.help.argument.item.modifier",
+    "item.replace": "command_translation.help.argument.item.replace",
+    "item.replace.block": "command_translation.help.argument.item.replace.block",
+    "item.replace.block.pos": "command_translation.help.argument.item.pos",
+    "item.replace.block.pos.slot": "command_translation.help.argument.item.slot",
+    "item.replace.block.pos.slot.from": "command_translation.help.argument.item.replace.block.pos.slot.from",
+    "item.replace.block.pos.slot.from.block": "command_translation.help.argument.item.replace.block.pos.slot.from.block",
+    "item.replace.block.pos.slot.from.block.source": "command_translation.help.argument.item.sourcePos",
+    "item.replace.block.pos.slot.from.block.source.sourceSlot": "command_translation.help.argument.item.sourceSlot",
+    "item.replace.block.pos.slot.from.block.source.sourceSlot.modifier": "command_translation.help.argument.item.modifier",
+    "item.replace.block.pos.slot.from.entity": "command_translation.help.argument.item.replace.block.pos.slot.from.entity",
+    "item.replace.block.pos.slot.from.entity.source": "command_translation.help.argument.item.source",
+    "item.replace.block.pos.slot.from.entity.source.sourceSlot": "command_translation.help.argument.item.sourceSlot",
+    "item.replace.block.pos.slot.from.entity.source.sourceSlot.modifier": "command_translation.help.argument.item.modifier",
+    "item.replace.block.pos.slot.with": "command_translation.help.argument.item.replace.block.pos.slot.with",
+    "item.replace.block.pos.slot.with.item": "command_translation.help.argument.item.item",
+    "item.replace.block.pos.slot.with.item.count": "command_translation.help.argument.item.count",
+    "item.replace.entity": "command_translation.help.argument.item.replace.entity",
+    "item.replace.entity.targets": "command_translation.help.argument.item.targets",
+    "item.replace.entity.targets.slot": "command_translation.help.argument.item.slot",
+    "item.replace.entity.targets.slot.from": "command_translation.help.argument.item.replace.entity.targets.slot.from",
+    "item.replace.entity.targets.slot.from.block": "command_translation.help.argument.item.replace.entity.targets.slot.from.block",
+    "item.replace.entity.targets.slot.from.block.source": "command_translation.help.argument.item.sourcePos",
+    "item.replace.entity.targets.slot.from.block.source.sourceSlot": "command_translation.help.argument.item.sourceSlot",
+    "item.replace.entity.targets.slot.from.block.source.sourceSlot.modifier": "command_translation.help.argument.item.modifier",
+    "item.replace.entity.targets.slot.from.entity": "command_translation.help.argument.item.replace.entity.targets.slot.from.entity",
+    "item.replace.entity.targets.slot.from.entity.source": "command_translation.help.argument.item.source",
+    "item.replace.entity.targets.slot.from.entity.source.sourceSlot": "command_translation.help.argument.item.sourceSlot",
+    "item.replace.entity.targets.slot.from.entity.source.sourceSlot.modifier": "command_translation.help.argument.item.modifier",
+    "item.replace.entity.targets.slot.with": "command_translation.help.argument.item.replace.entity.targets.slot.with",
+    "item.replace.entity.targets.slot.with.item": "command_translation.help.argument.item.item",
+    "item.replace.entity.targets.slot.with.item.count": "command_translation.help.argument.item.count"
+  },
+  "de_de": {
+    "command_translation.help.argument.item.modify": "Wendet einen Gegenstandsmodifikator (Loot-Modifikator) auf die Gegenstände in einem Inventarplatz an; die Gegenstands-ID ändert sich nur, wenn der Modifikator dies bewirkt.",
+    "command_translation.help.argument.item.modify.block": "Ziel ist ein Behältnisblock (Truhe, Ofen, ...) an einer Blockposition.",
+    "command_translation.help.argument.item.pos": "Blockposition des Ziel-Behältnisblocks, als x y z.",
+    "command_translation.help.argument.item.slot": "Der einzelne zu ändernde Platz, als slot_type oder slot_type.number; gültige Platztypen hängen davon ab, ob das Ziel ein Block oder eine Entität ist.",
+    "command_translation.help.argument.item.modifier": "Der anzuwendende Gegenstandsmodifikator: eine Ressourcenposition eines registrierten item_modifier oder eine Inline-SNBT-Definition; schlägt bei Ungültigkeit fehl.",
+    "command_translation.help.argument.item.modify.entity": "Ziel sind die Inventare einer oder mehrerer Entitäten (Spieler oder Kreaturen).",
+    "command_translation.help.argument.item.targets": "Eine oder mehrere zu ändernde Entitäten: ein Spielername, Zielselektor oder eine UUID.",
+    "command_translation.help.argument.item.replace": "Überschreibt die Gegenstände in einem Platz mit einem neuen Gegenstand oder kopiert sie aus einem anderen Platz.",
+    "command_translation.help.argument.item.replace.block": "Ersetzt in einem Behältnisblock an der angegebenen Position.",
+    "command_translation.help.argument.item.replace.block.pos.slot.from": "Option from: kopiert den Gegenstand aus einem Quellplatz, statt mit with einen neuen anzugeben.",
+    "command_translation.help.argument.item.replace.block.pos.slot.from.block": "Quelle ist ein Behältnisblock; sein Gegenstand wird aus dem gewählten Platz kopiert.",
+    "command_translation.help.argument.item.sourcePos": "Blockposition des Quell-Behältnisblocks, aus dem kopiert wird, als x y z.",
+    "command_translation.help.argument.item.sourceSlot": "Der einzelne Quellplatz, aus dem kopiert wird, als slot_type oder slot_type.number.",
+    "command_translation.help.argument.item.replace.block.pos.slot.from.entity": "Quelle ist eine Entität; ihr Gegenstand wird aus dem gewählten Platz kopiert.",
+    "command_translation.help.argument.item.source": "Die einzelne Quell-Entität, aus der kopiert wird: ein Spielername, Zielselektor oder eine UUID.",
+    "command_translation.help.argument.item.replace.block.pos.slot.with": "Option with: platziert einen neu angegebenen Gegenstand, statt aus einem Quellplatz zu kopieren.",
+    "command_translation.help.argument.item.item": "Der zu platzierende Gegenstand, als item_id[data_components] (Komponenten optional).",
+    "command_translation.help.argument.item.count": "Wie viele Gegenstände platziert werden: eine Ganzzahl von 1 bis einschließlich 99; Standard 1. Schlägt fehl, wenn das Stapellimit überschritten wird.",
+    "command_translation.help.argument.item.replace.entity": "Ersetzt in den Inventaren einer oder mehrerer Entitäten.",
+    "command_translation.help.argument.item.replace.entity.targets.slot.from": "Kopiert den Gegenstand aus einer Quelle (ein Block oder eine Entität) in den Zielplatz der Entität.",
+    "command_translation.help.argument.item.replace.entity.targets.slot.from.block": "Quelle ist ein Behältnisblock; sein Gegenstand wird aus dem gewählten Platz kopiert.",
+    "command_translation.help.argument.item.replace.entity.targets.slot.from.entity": "Quelle ist eine Entität; ihr Gegenstand wird aus dem gewählten Platz kopiert.",
+    "command_translation.help.argument.item.replace.entity.targets.slot.with": "Option with: platziert einen neu angegebenen Gegenstand in den Zielplatz."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.item.modify": "1 つのインベントリスロットのアイテムにアイテムモディファイア（ルートモディファイア）を適用する。モディファイアが変更しない限りアイテム ID は変わらない。",
+    "command_translation.help.argument.item.modify.block": "対象は、あるブロック位置のコンテナブロック（チェスト、かまどなど）。",
+    "command_translation.help.argument.item.pos": "対象コンテナブロックのブロック位置。x y z。",
+    "command_translation.help.argument.item.slot": "変更する単一のスロット。slot_type または slot_type.number で書く。有効なスロット型は対象がブロックかエンティティかで異なる。",
+    "command_translation.help.argument.item.modifier": "適用するアイテムモディファイア：登録済み item_modifier の資源位置、またはインライン SNBT 定義。無効なら失敗する。",
+    "command_translation.help.argument.item.modify.entity": "対象は 1 つ以上のエンティティ（プレイヤーまたはモブ）のインベントリ。",
+    "command_translation.help.argument.item.targets": "変更する 1 つ以上のエンティティ：プレイヤー名、ターゲットセレクター、または UUID。",
+    "command_translation.help.argument.item.replace": "スロットのアイテムを新しいアイテムで上書きするか、別のスロットからコピーする。",
+    "command_translation.help.argument.item.replace.block": "指定した位置のコンテナブロックに置き換える。",
+    "command_translation.help.argument.item.replace.block.pos.slot.from": "オプション from：with で新しいアイテムを指定する代わりに、ソーススロットからコピーする。",
+    "command_translation.help.argument.item.replace.block.pos.slot.from.block": "ソースはコンテナブロック。選んだスロットからそのアイテムをコピーする。",
+    "command_translation.help.argument.item.sourcePos": "コピー元のコンテナブロックのブロック位置。x y z。",
+    "command_translation.help.argument.item.sourceSlot": "コピー元の単一スロット。slot_type または slot_type.number で書く。",
+    "command_translation.help.argument.item.replace.block.pos.slot.from.entity": "ソースはエンティティ。選んだスロットからそのアイテムをコピーする。",
+    "command_translation.help.argument.item.source": "コピー元の単一エンティティ：プレイヤー名、ターゲットセレクター、または UUID。",
+    "command_translation.help.argument.item.replace.block.pos.slot.with": "オプション with：ソーススロットからコピーする代わりに、新しく指定したアイテムを置く。",
+    "command_translation.help.argument.item.item": "置くアイテム。item_id[data_components] で書く（コンポーネントは省略可）。",
+    "command_translation.help.argument.item.count": "置くアイテムの数：1 から 99 までの整数（両端を含む）。既定は 1。スタック上限を超えると失敗する。",
+    "command_translation.help.argument.item.replace.entity": "1 つ以上のエンティティのインベントリに置き換える。",
+    "command_translation.help.argument.item.replace.entity.targets.slot.from": "ソース（ブロックまたはエンティティ）から、対象エンティティのスロットにアイテムをコピーする。",
+    "command_translation.help.argument.item.replace.entity.targets.slot.from.block": "ソースはコンテナブロック。選んだスロットからそのアイテムをコピーする。",
+    "command_translation.help.argument.item.replace.entity.targets.slot.from.entity": "ソースはエンティティ。選んだスロットからそのアイテムをコピーする。",
+    "command_translation.help.argument.item.replace.entity.targets.slot.with": "オプション with：新しく指定したアイテムを対象スロットに置く。"
+  },
+  "syntax": [
+    {
+      "path": "item",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "item.modify",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "item.modify.block",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "item.modify.block.pos",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "item.modify.block.pos.slot",
+      "type": "argument",
+      "parser": "minecraft:item_slot",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "item.modify.block.pos.slot.modifier",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1"
+      ]
+    },
+    {
+      "path": "item.modify.entity",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "item.modify.entity.targets",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "item.modify.entity.targets.slot",
+      "type": "argument",
+      "parser": "minecraft:item_slot",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "item.modify.entity.targets.slot.modifier",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1"
+      ]
+    },
+    {
+      "path": "item.replace",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "item.replace.block",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "item.replace.block.pos",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "item.replace.block.pos.slot",
+      "type": "argument",
+      "parser": "minecraft:item_slot",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "item.replace.block.pos.slot.from",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "item.replace.block.pos.slot.from.block",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "item.replace.block.pos.slot.from.block.source",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "item.replace.block.pos.slot.from.block.source.sourceSlot",
+      "type": "argument",
+      "parser": "minecraft:item_slot",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "item.replace.block.pos.slot.from.block.source.sourceSlot.modifier",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1"
+      ]
+    },
+    {
+      "path": "item.replace.block.pos.slot.from.entity",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "item.replace.block.pos.slot.from.entity.source",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "single"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "item.replace.block.pos.slot.from.entity.source.sourceSlot",
+      "type": "argument",
+      "parser": "minecraft:item_slot",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "item.replace.block.pos.slot.from.entity.source.sourceSlot.modifier",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1"
+      ]
+    },
+    {
+      "path": "item.replace.block.pos.slot.with",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "item.replace.block.pos.slot.with.item",
+      "type": "argument",
+      "parser": "minecraft:item_stack",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "item.replace.block.pos.slot.with.item.count",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "max": 64,
+        "min": 1
+      },
+      "versions": [
+        "1.20.1"
+      ]
+    },
+    {
+      "path": "item.replace.entity",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "item.replace.entity.targets",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "item.replace.entity.targets.slot",
+      "type": "argument",
+      "parser": "minecraft:item_slot",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "item.replace.entity.targets.slot.from",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "item.replace.entity.targets.slot.from.block",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "item.replace.entity.targets.slot.from.block.source",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "item.replace.entity.targets.slot.from.block.source.sourceSlot",
+      "type": "argument",
+      "parser": "minecraft:item_slot",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "item.replace.entity.targets.slot.from.block.source.sourceSlot.modifier",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1"
+      ]
+    },
+    {
+      "path": "item.replace.entity.targets.slot.from.entity",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "item.replace.entity.targets.slot.from.entity.source",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "single"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "item.replace.entity.targets.slot.from.entity.source.sourceSlot",
+      "type": "argument",
+      "parser": "minecraft:item_slot",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "item.replace.entity.targets.slot.from.entity.source.sourceSlot.modifier",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1"
+      ]
+    },
+    {
+      "path": "item.replace.entity.targets.slot.with",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "item.replace.entity.targets.slot.with.item",
+      "type": "argument",
+      "parser": "minecraft:item_stack",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "item.replace.entity.targets.slot.with.item.count",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "max": 64,
+        "min": 1
+      },
+      "versions": [
+        "1.20.1"
+      ]
+    },
+    {
+      "path": "item.modify.block.pos.slot.modifier",
+      "type": "argument",
+      "parser": "minecraft:loot_modifier",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "item.modify.entity.targets.slot.modifier",
+      "type": "argument",
+      "parser": "minecraft:loot_modifier",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "item.replace.block.pos.slot.from.block.source.sourceSlot.modifier",
+      "type": "argument",
+      "parser": "minecraft:loot_modifier",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "item.replace.block.pos.slot.from.entity.source.sourceSlot.modifier",
+      "type": "argument",
+      "parser": "minecraft:loot_modifier",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "item.replace.block.pos.slot.with.item.count",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "max": 99,
+        "min": 1
+      },
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "item.replace.entity.targets.slot.from.block.source.sourceSlot.modifier",
+      "type": "argument",
+      "parser": "minecraft:loot_modifier",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "item.replace.entity.targets.slot.from.entity.source.sourceSlot.modifier",
+      "type": "argument",
+      "parser": "minecraft:loot_modifier",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "item.replace.entity.targets.slot.with.item.count",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "max": 99,
+        "min": 1
+      },
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

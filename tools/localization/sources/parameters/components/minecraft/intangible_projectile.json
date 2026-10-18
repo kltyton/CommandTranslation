@@ -1,0 +1,30 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:intangible_projectile": "Prevents the fired projectile from being picked up."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:intangible_projectile": "使射出的投射物无法被拾取。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:intangible_projectile": "Verhindert, dass das abgeschossene Geschoss aufgesammelt werden kann."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:intangible_projectile": "発射された発射物を拾えないようにする。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:intangible_projectile": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

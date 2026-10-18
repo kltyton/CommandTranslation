@@ -1,0 +1,48 @@
+{
+  "en_us": {
+    "command_translation.help.argument.deop.targets": "The player profile(s) to de-op; works on offline players too."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.deop.targets": "要撤销管理员身份的玩家档案，可对离线玩家生效。"
+  },
+  "sources": {
+    "command_translation.help.argument.deop.targets": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fdeop",
+        "revision": 3697831
+      }
+    ]
+  },
+  "bindings": {
+    "deop.targets": "command_translation.help.argument.deop.targets"
+  },
+  "de_de": {
+    "command_translation.help.argument.deop.targets": "Das Spielerprofil, dem der Operator-Status entzogen wird; funktioniert auch für offline Spieler."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.deop.targets": "オペレーター権限を剥奪するプレイヤープロフィール。オフラインのプレイヤーにも有効。"
+  },
+  "syntax": [
+    {
+      "path": "deop",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "deop.targets",
+      "type": "argument",
+      "parser": "minecraft:game_profile",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

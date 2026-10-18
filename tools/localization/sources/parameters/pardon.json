@@ -1,0 +1,48 @@
+{
+  "en_us": {
+    "command_translation.help.argument.pardon.targets": "The player profile(s) to remove from the ban list."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.pardon.targets": "要从封禁列表中移除的玩家档案。"
+  },
+  "sources": {
+    "command_translation.help.argument.pardon.targets": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fpardon",
+        "revision": 3662195
+      }
+    ]
+  },
+  "bindings": {
+    "pardon.targets": "command_translation.help.argument.pardon.targets"
+  },
+  "de_de": {
+    "command_translation.help.argument.pardon.targets": "Das Spielerprofil, das aus der Bannliste entfernt wird."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.pardon.targets": "BAN リストから削除するプレイヤープロフィール。"
+  },
+  "syntax": [
+    {
+      "path": "pardon",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "pardon.targets",
+      "type": "argument",
+      "parser": "minecraft:game_profile",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

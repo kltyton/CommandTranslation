@@ -1,0 +1,182 @@
+{
+  "en_us": {
+    "command_translation.help.argument.schedule.clear": "Cancels the pending run of the given function or function tag.",
+    "command_translation.help.argument.schedule.function": "Schedules the given function, or every function in a function tag, to run after a delay.",
+    "command_translation.help.argument.schedule.function.name": "The function or function tag to run.",
+    "command_translation.help.argument.schedule.time": "The delay before the function runs, as a time value or game ticks.",
+    "command_translation.help.argument.schedule.append": "Adds another schedule at a different time instead of replacing the existing one.",
+    "command_translation.help.argument.schedule.replace": "Replaces the function's current schedule time; the default.",
+    "command_translation.help.argument.schedule.clear.function": "The function or function tag whose pending schedule is removed."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.schedule.clear": "取消所给函数或函数标签的待运行计划，使其不再执行。",
+    "command_translation.help.argument.schedule.function": "安排所给函数，或函数标签内的每个函数，在延迟后运行。",
+    "command_translation.help.argument.schedule.function.name": "要运行的函数或函数标签。",
+    "command_translation.help.argument.schedule.time": "函数运行前的延迟，写成时间值或游戏刻。",
+    "command_translation.help.argument.schedule.append": "在不同时间另加一条计划，而不替换已有的。",
+    "command_translation.help.argument.schedule.replace": "替换该函数当前的计划时间；默认选项。",
+    "command_translation.help.argument.schedule.clear.function": "要移除待运行计划的函数或函数标签。"
+  },
+  "sources": {
+    "command_translation.help.argument.schedule.clear": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fschedule",
+        "revision": 3743439
+      }
+    ],
+    "command_translation.help.argument.schedule.function": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fschedule",
+        "revision": 3743439
+      }
+    ],
+    "command_translation.help.argument.schedule.function.name": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fschedule",
+        "revision": 3743439
+      }
+    ],
+    "command_translation.help.argument.schedule.time": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fschedule",
+        "revision": 3743439
+      }
+    ],
+    "command_translation.help.argument.schedule.append": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fschedule",
+        "revision": 3743439
+      }
+    ],
+    "command_translation.help.argument.schedule.replace": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fschedule",
+        "revision": 3743439
+      }
+    ],
+    "command_translation.help.argument.schedule.clear.function": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fschedule",
+        "revision": 3743439
+      }
+    ]
+  },
+  "bindings": {
+    "schedule.clear": "command_translation.help.argument.schedule.clear",
+    "schedule.clear.function": "command_translation.help.argument.schedule.clear.function",
+    "schedule.function": "command_translation.help.argument.schedule.function",
+    "schedule.function.function": "command_translation.help.argument.schedule.function.name",
+    "schedule.function.function.time": "command_translation.help.argument.schedule.time",
+    "schedule.function.function.time.append": "command_translation.help.argument.schedule.append",
+    "schedule.function.function.time.replace": "command_translation.help.argument.schedule.replace"
+  },
+  "de_de": {
+    "command_translation.help.argument.schedule.clear": "Bricht den geplanten Aufruf der angegebenen Funktion oder des Funktions-Tags ab.",
+    "command_translation.help.argument.schedule.function": "Plant die angegebene Funktion, oder jede Funktion eines Funktions-Tags, zur Ausführung nach einer Verzögerung.",
+    "command_translation.help.argument.schedule.function.name": "Die auszuführende Funktion oder das Funktions-Tag.",
+    "command_translation.help.argument.schedule.time": "Die Verzögerung bis zur Ausführung als Zeitwert oder Spielticks.",
+    "command_translation.help.argument.schedule.append": "Fügt einen weiteren Plan zu einer anderen Zeit hinzu, statt den vorhandenen zu ersetzen.",
+    "command_translation.help.argument.schedule.replace": "Ersetzt die aktuelle Planzeit der Funktion; die Standardeinstellung.",
+    "command_translation.help.argument.schedule.clear.function": "Die Funktion oder das Funktions-Tag, dessen Plan entfernt wird."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.schedule.clear": "指定した関数または関数タグの予約を解除する。",
+    "command_translation.help.argument.schedule.function": "指定した関数、または関数タグ内の全関数を遅延後に実行するよう予約する。",
+    "command_translation.help.argument.schedule.function.name": "実行する関数または関数タグ。",
+    "command_translation.help.argument.schedule.time": "実行までの遅延。時間値またはゲームティックで指定する。",
+    "command_translation.help.argument.schedule.append": "既存の予約を置き換えず、別の時刻の予約を追加する。",
+    "command_translation.help.argument.schedule.replace": "その関数の現在の予約時刻を置き換える。既定の動作。",
+    "command_translation.help.argument.schedule.clear.function": "予約を解除する関数または関数タグ。"
+  },
+  "syntax": [
+    {
+      "path": "schedule",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "schedule.clear",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "schedule.clear.function",
+      "type": "argument",
+      "parser": "brigadier:string",
+      "properties": {
+        "type": "greedy"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "schedule.function",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "schedule.function.function",
+      "type": "argument",
+      "parser": "minecraft:function",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "schedule.function.function.time",
+      "type": "argument",
+      "parser": "minecraft:time",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "schedule.function.function.time.append",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "schedule.function.function.time.replace",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

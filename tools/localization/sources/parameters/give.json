@@ -1,0 +1,99 @@
+{
+  "en_us": {
+    "command_translation.help.argument.give.targets": "The players who receive the items.",
+    "command_translation.help.argument.give.item": "The item to give.",
+    "command_translation.help.argument.give.count": "How many items each target player receives."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.give.targets": "接收物品的玩家。",
+    "command_translation.help.argument.give.item": "要给予的物品。",
+    "command_translation.help.argument.give.count": "每位目标玩家获得的物品数量。"
+  },
+  "sources": {
+    "command_translation.help.argument.give.targets": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fgive",
+        "revision": 3838890
+      }
+    ],
+    "command_translation.help.argument.give.item": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fgive",
+        "revision": 3838890
+      }
+    ],
+    "command_translation.help.argument.give.count": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fgive",
+        "revision": 3838890
+      }
+    ]
+  },
+  "bindings": {
+    "give.targets": "command_translation.help.argument.give.targets",
+    "give.targets.item": "command_translation.help.argument.give.item",
+    "give.targets.item.count": "command_translation.help.argument.give.count"
+  },
+  "de_de": {
+    "command_translation.help.argument.give.targets": "Die Spieler, die die Gegenstände erhalten.",
+    "command_translation.help.argument.give.item": "Der zu gebende Gegenstand.",
+    "command_translation.help.argument.give.count": "Wie viele Gegenstände jeder Zielspieler erhält."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.give.targets": "アイテムを受け取るプレイヤー。",
+    "command_translation.help.argument.give.item": "渡すアイテム。",
+    "command_translation.help.argument.give.count": "対象の各プレイヤーが受け取るアイテムの個数。"
+  },
+  "syntax": [
+    {
+      "path": "give",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "give.targets",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "players",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "give.targets.item",
+      "type": "argument",
+      "parser": "minecraft:item_stack",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "give.targets.item.count",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "min": 1
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

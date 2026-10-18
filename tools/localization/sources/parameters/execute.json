@@ -1,0 +1,4579 @@
+{
+  "en_us": {
+    "command_translation.help.argument.execute.align": "Floors the execution position to integer block coordinates, but only along the listed axes.",
+    "command_translation.help.argument.execute.align.axes": "Axes to align: any non-repeating combination of x, y, z in any order; each listed coordinate is rounded down by less than one block.",
+    "command_translation.help.argument.execute.anchored": "Sets the execution anchor, from which local ^ coordinates and facing are measured, to the eyes or feet (default feet).",
+    "command_translation.help.argument.execute.anchored.anchor": "The anchor point to use: eyes or feet.",
+    "command_translation.help.argument.execute.as": "Makes the selected entities the new executor (@s) without changing position, rotation, dimension or anchor; branches once per selected entity.",
+    "command_translation.help.argument.execute.as.targets": "The entities that become the new executor: a player name, target selector, or UUID; selecting several branches.",
+    "command_translation.help.argument.execute.at": "Sets the execution position, rotation and dimension to the selected entity's, but does not change who the executor is (@s stays the same).",
+    "command_translation.help.argument.execute.at.targets": "The entities whose position, rotation and dimension are copied: a player name, target selector, or UUID; selecting several branches.",
+    "command_translation.help.argument.execute.facing": "Sets the execution rotation to look toward a coordinate point or toward an entity's eyes or feet.",
+    "command_translation.help.argument.execute.facing.entity": "Facing option: look toward the chosen entity.",
+    "command_translation.help.argument.execute.facing.entity.targets": "The entity or entities to look toward: a player name, target selector, or UUID; selecting several branches.",
+    "command_translation.help.argument.execute.facing.entity.targets.anchor": "Whether to aim at the target's eyes or feet.",
+    "command_translation.help.argument.execute.facing.pos": "Facing option: coordinates to look toward, as x y z with decimals allowed (tilde and caret notation accepted).",
+    "command_translation.help.argument.execute.if": "Condition: runs the rest only if the following test passes; at the end of the chain it instead reports the test result.",
+    "command_translation.help.argument.execute.if.biome": "Condition: tests the biome at a position.",
+    "command_translation.help.argument.execute.if.biome.pos": "Block position whose biome is tested, as x y z.",
+    "command_translation.help.argument.execute.if.biome.pos.biome": "The biome or biomes to match: a registered worldgen/biome id or a #-prefixed tag.",
+    "command_translation.help.argument.execute.if.block": "Condition: tests a single block against a block id with optional states and data tags.",
+    "command_translation.help.argument.execute.if.block.pos": "Block position to test, as x y z.",
+    "command_translation.help.argument.execute.if.block.pos.block": "The block to match, written block_id[state=value,...]{tag}; # block tags are accepted and states and tags may be omitted.",
+    "command_translation.help.argument.execute.if.blocks": "Condition: tests whether two equally-sized block volumes match; the source volume must be at most 32768 blocks (8 chunk sections).",
+    "command_translation.help.argument.execute.if.blocks.start": "One corner of the source volume, as x y z.",
+    "command_translation.help.argument.execute.if.blocks.start.end": "The opposite corner of the source volume, as x y z; together with start it defines the volume.",
+    "command_translation.help.argument.execute.if.blocks.start.end.destination": "The lower north-west corner of the destination volume, assumed to have the same size as the source.",
+    "command_translation.help.argument.execute.if.blocks.start.end.destination.all": "Match mode all: compares every block, including air.",
+    "command_translation.help.argument.execute.if.blocks.start.end.destination.masked": "Match mode masked: ignores air blocks in the source volume when comparing.",
+    "command_translation.help.argument.execute.if.data": "Condition: tests whether a block entity, entity, or storage has a tag at a given NBT path.",
+    "command_translation.help.argument.execute.if.data.block": "Data target is a block entity.",
+    "command_translation.help.argument.execute.if.data.block.sourcePos": "Block position of the block entity to test, as x y z.",
+    "command_translation.help.argument.execute.if.data.block.sourcePos.path": "NBT path that must resolve to at least one tag.",
+    "command_translation.help.argument.execute.if.data.entity": "Data target is a single entity.",
+    "command_translation.help.argument.execute.if.data.entity.source": "The single entity to test: a player name, target selector, or UUID.",
+    "command_translation.help.argument.execute.if.data.entity.source.path": "NBT path that must resolve to at least one tag.",
+    "command_translation.help.argument.execute.if.data.storage": "Data target is a command storage.",
+    "command_translation.help.argument.execute.if.data.storage.source": "Resource location id of the storage to test.",
+    "command_translation.help.argument.execute.if.data.storage.source.path": "NBT path that must resolve to at least one tag.",
+    "command_translation.help.argument.execute.if.dimension": "Condition: tests the dimension of the execution.",
+    "command_translation.help.argument.execute.if.dimension.dimension": "The dimension id to match, for example minecraft:the_nether.",
+    "command_translation.help.argument.execute.if.entity": "Condition: tests whether any entity matches the selector.",
+    "command_translation.help.argument.execute.if.entity.entities": "The entity or entities to look for: a player name, target selector, or UUID; the result value is the number of matches.",
+    "command_translation.help.argument.execute.if.loaded": "Condition: tests whether the chunk at a position is fully loaded (entity-ticking). Java Edition.",
+    "command_translation.help.argument.execute.if.loaded.pos": "Block position to test, as x y z.",
+    "command_translation.help.argument.execute.if.predicate": "Condition: evaluates a predicate. Java Edition.",
+    "command_translation.help.argument.execute.if.predicate.predicate": "The predicate to evaluate: a registered predicate id or an inline SNBT predicate definition.",
+    "command_translation.help.argument.execute.if.score": "Condition: compares a score with another score or with an inclusive range. Java Edition.",
+    "command_translation.help.argument.execute.if.score.target": "The single score holder whose score is tested: a target selector, player name, or UUID (the * wildcard is not allowed here).",
+    "command_translation.help.argument.execute.if.score.target.targetObjective": "The objective the target score is read from; it must exist.",
+    "command_translation.help.argument.execute.if.score.target.targetObjective.op": "Comparison operator between the two scores: <, <=, =, >= or >.",
+    "command_translation.help.argument.execute.if.score.target.targetObjective.op.source": "The score holder providing the right-hand score: a target selector, player name, or UUID.",
+    "command_translation.help.argument.execute.if.score.target.targetObjective.op.source.sourceObjective": "The objective the source score is read from.",
+    "command_translation.help.argument.execute.if.score.target.targetObjective.matches": "Comparison option matches: tests one score against an inclusive integer range instead of another score.",
+    "command_translation.help.argument.execute.if.score.target.targetObjective.matches.range": "The integer range, for example 5 (exactly 5), ..5 (at most 5), 5.. (at least 5), or 5..10.",
+    "command_translation.help.argument.execute.in": "Changes the execution dimension; relative and local x and z are rescaled by a factor of 8 between the Overworld and the Nether.",
+    "command_translation.help.argument.execute.in.dimension": "The dimension to execute in, for example minecraft:the_end.",
+    "command_translation.help.argument.execute.on": "Changes the executor to an entity with the selected relationship to it.",
+    "command_translation.help.argument.execute.on.attacker": "Relation attacker: the entity that last damaged the current executor within the previous 5 seconds.",
+    "command_translation.help.argument.execute.on.controller": "Relation controller: the entity riding and controlling the current executor.",
+    "command_translation.help.argument.execute.on.leasher": "Relation leasher: the entity leading the current executor with a lead.",
+    "command_translation.help.argument.execute.on.origin": "Relation origin: the entity that caused the current executor to be created, such as an arrow's shooter or a TNT primer.",
+    "command_translation.help.argument.execute.on.owner": "Relation owner: the owner of the current executor if it is a tameable animal.",
+    "command_translation.help.argument.execute.on.passengers": "Relation passengers: all entities directly riding the current executor (this may branch).",
+    "command_translation.help.argument.execute.on.target": "Relation target: the entity the current executor intends to attack.",
+    "command_translation.help.argument.execute.on.vehicle": "Relation vehicle: the entity the current executor is riding.",
+    "command_translation.help.argument.execute.positioned": "Sets the execution position without changing rotation or dimension.",
+    "command_translation.help.argument.execute.positioned.as": "Positioned option: copies the position of the chosen entity.",
+    "command_translation.help.argument.execute.positioned.as.targets": "The entity or entities whose position is copied; selecting several branches.",
+    "command_translation.help.argument.execute.positioned.over": "Positioned option: puts the execution position at the top of a heightmap at the current x and z.",
+    "command_translation.help.argument.execute.positioned.over.heightmap": "The surface used to determine the execution height.",
+    "command_translation.help.argument.execute.positioned.pos": "Positioned option: explicit coordinates x y z (decimals allowed); it also resets the execution anchor to feet.",
+    "command_translation.help.argument.execute.rotated": "Sets the execution rotation, given as yaw and pitch in degrees.",
+    "command_translation.help.argument.execute.rotated.as": "Rotated option: copies the rotation of the chosen entity.",
+    "command_translation.help.argument.execute.rotated.as.targets": "The entity or entities whose rotation is copied; selecting several branches.",
+    "command_translation.help.argument.execute.rotated.rot": "The execution facing direction, as yaw and pitch.",
+    "command_translation.help.argument.execute.run": "Ends the subcommand chain and runs the given command with the modified context; everything after run is the command to execute.",
+    "command_translation.help.argument.execute.store": "Records the final subcommand's output value and writes it to the chosen location after the chain finishes; outputs are integers (rounded down, then scale applies). Java Edition.",
+    "command_translation.help.argument.execute.store.result": "Stores the result value of the final subcommand, that is the command's actual output such as a count.",
+    "command_translation.help.argument.execute.store.block": "Store location block: writes into a block entity's NBT at an NBT path.",
+    "command_translation.help.argument.execute.store.block.targetPos": "Block position of the block entity receiving the value, as x y z.",
+    "command_translation.help.argument.execute.store.block.targetPos.path": "NBT path in the block entity to write the value into.",
+    "command_translation.help.argument.execute.store.type.byte": "Store as a byte tag: an 8-bit integer, -128 to 127; the output is rounded down then multiplied by scale.",
+    "command_translation.help.argument.execute.store.scale": "Multiplier applied to the (rounded) output before storing; a double that defaults to 1 and may be negative.",
+    "command_translation.help.argument.execute.store.type.double": "Store as a double tag: double-precision, written in SNBT with a trailing d (for example 1.0d).",
+    "command_translation.help.argument.execute.store.type.float": "Store as a float tag: single-precision, written in SNBT with a trailing f (for example 1.0f).",
+    "command_translation.help.argument.execute.store.type.int": "Store as an int tag: a 32-bit integer, -2147483648 to 2147483647.",
+    "command_translation.help.argument.execute.store.type.long": "Store as a long tag: a 64-bit integer, written in SNBT with a trailing L.",
+    "command_translation.help.argument.execute.store.type.short": "Store as a short tag: a 16-bit integer, -32768 to 32767.",
+    "command_translation.help.argument.execute.store.bossbar": "Store location bossbar: writes the value into a boss bar's current value or maximum value.",
+    "command_translation.help.argument.execute.store.bossbar.id": "Resource location id of the boss bar.",
+    "command_translation.help.argument.execute.store.bossbar.id.max": "Writes into the boss bar's maximum value.",
+    "command_translation.help.argument.execute.store.bossbar.id.value": "Writes into the boss bar's current value.",
+    "command_translation.help.argument.execute.store.entity": "Store location entity: writes into an entity's NBT; player NBT cannot be modified this way.",
+    "command_translation.help.argument.execute.store.entity.target": "The single entity to write into: a player name, target selector, or UUID.",
+    "command_translation.help.argument.execute.store.entity.target.path": "NBT path in the entity to write the value into.",
+    "command_translation.help.argument.execute.store.score": "Store location score: overwrites a score holder's score in an objective.",
+    "command_translation.help.argument.execute.store.score.targets": "The score holder or holders whose score is overwritten: a target selector, player name, UUID, or * for all tracked holders.",
+    "command_translation.help.argument.execute.store.score.targets.objective": "The objective whose score is overwritten; it must exist.",
+    "command_translation.help.argument.execute.store.storage": "Store location storage: writes into a command storage's NBT; the storage is created if it does not exist.",
+    "command_translation.help.argument.execute.store.storage.target": "Resource location id of the target storage.",
+    "command_translation.help.argument.execute.store.storage.target.path": "NBT path in the storage to write the value into.",
+    "command_translation.help.argument.execute.store.success": "Stores the success value of the final subcommand: usually 1 on success and 0 on failure.",
+    "command_translation.help.argument.execute.summon": "Summons an entity at the execution position and makes it the new executor. Java Edition.",
+    "command_translation.help.argument.execute.summon.entity": "The entity type to summon and use as the executor.",
+    "command_translation.help.argument.execute.unless": "Condition: the negation of if; runs the rest only if the following test fails.",
+    "command_translation.help.argument.execute.if.function": "Condition: runs a function or function tag and continues only if it returns a non-zero value; cannot be placed at the end of the chain. Java Edition.",
+    "command_translation.help.argument.execute.if.function.name": "The function or function tag to run: a resource location or a #-prefixed function tag.",
+    "command_translation.help.argument.execute.if.items": "Condition: tests an inventory slot for a matching item. Java Edition.",
+    "command_translation.help.argument.execute.if.items.block": "Items condition target is a container block.",
+    "command_translation.help.argument.execute.if.items.block.pos": "Block position of the container to test, as x y z.",
+    "command_translation.help.argument.execute.if.items.block.pos.slots": "The slot or slots to test, written slot_type or slot_type.number; several slot types may be listed.",
+    "command_translation.help.argument.execute.if.items.block.pos.slots.item_predicate": "Item or item tag to match, written item_id[tests]; # item and block tags are accepted and tests may be omitted.",
+    "command_translation.help.argument.execute.if.items.entity": "Items condition target is an entity.",
+    "command_translation.help.argument.execute.if.items.entity.entities": "The entity or entities whose slots are tested: a player name, target selector, or UUID.",
+    "command_translation.help.argument.execute.if.items.entity.entities.slots": "The slot or slots to test on each entity, written slot_type or slot_type.number.",
+    "command_translation.help.argument.execute.if.items.entity.entities.slots.item_predicate": "Item or item tag to match, written item_id[tests].",
+    "command_translation.help.argument.execute.if.stopwatch": "Condition: compares a stopwatch's elapsed seconds against a range. Java Edition, from 1.21.11.",
+    "command_translation.help.argument.execute.if.stopwatch.id": "The stopwatch to read, given as a resource location id.",
+    "command_translation.help.argument.execute.if.stopwatch.id.range": "The range of seconds to compare, a float range such as 0.5, ..1.0, or 1.0..",
+    "command_translation.help.value.execute.anchored.anchor.eyes": "eyes: measures local coordinates and facing from the entity's eyes.",
+    "command_translation.help.value.execute.anchored.anchor.feet": "feet: measures from the entity's feet (default).",
+    "command_translation.help.value.execute.facing.entity.targets.anchor.eyes": "eyes: sets the execution rotation to look at the selected target entity's eyes; this chooses the point to look at, not the executor's anchor.",
+    "command_translation.help.value.execute.facing.entity.targets.anchor.feet": "feet: sets the execution rotation to look at the selected target entity's feet.",
+    "command_translation.help.value.execute.positioned.over.heightmap.world_surface": "world_surface: the highest non-air block.",
+    "command_translation.help.value.execute.positioned.over.heightmap.motion_blocking": "motion_blocking: the highest block that blocks motion or holds a fluid, such as leaves or water.",
+    "command_translation.help.value.execute.positioned.over.heightmap.motion_blocking_no_leaves": "motion_blocking_no_leaves: like motion_blocking, but leaves do not count.",
+    "command_translation.help.value.execute.positioned.over.heightmap.ocean_floor": "ocean_floor: the highest block that blocks motion, ignoring fluid above it; finds the solid ocean or lake bed, not the water surface."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.execute.align": "修饰符：把执行位置向下取整到方块整数坐标，但仅作用于所列的轴。",
+    "command_translation.help.argument.execute.align.axes": "要对齐的轴：x、y、z 的任意不重复组合，顺序任意（x、xz、zyx、yz 等）；所列坐标各向下取整不足一格。",
+    "command_translation.help.argument.execute.anchored": "修饰符：把执行锚点（本地 ^ 坐标与朝向的基准点）设为眼睛或脚部；默认为脚部。",
+    "command_translation.help.argument.execute.anchored.anchor": "使用的锚点：eyes（眼睛）或 feet（脚部）。",
+    "command_translation.help.argument.execute.as": "修饰符：让选中的实体成为新的执行者（@s），不改变位置、朝向、维度或锚点；对每个选中实体分叉一次。",
+    "command_translation.help.argument.execute.as.targets": "成为新执行者的实体：玩家名、目标选择器或 UUID；选中多个会分叉。",
+    "command_translation.help.argument.execute.at": "修饰符：把执行位置、朝向和维度设为与选中实体一致，但不改变执行者（@s 不变）。",
+    "command_translation.help.argument.execute.at.targets": "被复制位置、朝向与维度的实体：玩家名、目标选择器或 UUID；选中多个会分叉。",
+    "command_translation.help.argument.execute.facing": "修饰符：把执行朝向设为望向某坐标点，或望向某实体的眼睛/脚部。",
+    "command_translation.help.argument.execute.facing.entity": "facing 选项：朝向所选实体。",
+    "command_translation.help.argument.execute.facing.entity.targets": "要朝向的实体：玩家名、目标选择器或 UUID；选中多个会分叉。",
+    "command_translation.help.argument.execute.facing.entity.targets.anchor": "瞄准目标的 eyes（眼睛）还是 feet（脚部）。",
+    "command_translation.help.argument.execute.facing.pos": "facing 选项：要朝向的坐标 x y z，可用小数（支持 ~ 与 ^ 记法）。",
+    "command_translation.help.argument.execute.if": "条件：仅当后续测试通过时才继续执行；放在链末则改为报告测试结果。",
+    "command_translation.help.argument.execute.if.biome": "条件：检测某位置的生物群系。",
+    "command_translation.help.argument.execute.if.biome.pos": "要检测生物群系的方块位置，x y z。",
+    "command_translation.help.argument.execute.if.biome.pos.biome": "要匹配的生物群系：已注册的 worldgen/biome id，或以 # 开头的标签。",
+    "command_translation.help.argument.execute.if.block": "条件：把单个方块与给定方块 id（含可选状态和数据标签）比对。",
+    "command_translation.help.argument.execute.if.block.pos": "要检测的方块位置，x y z。",
+    "command_translation.help.argument.execute.if.block.pos.block": "要匹配的方块，写成 block_id[状态=值,...]{标签}；接受以 # 开头的方块标签，状态与标签可省略。",
+    "command_translation.help.argument.execute.if.blocks": "条件：检测两个等大小方块区域是否一致；源区域最多 32768 个方块（8 个区块分区）。",
+    "command_translation.help.argument.execute.if.blocks.start": "源区域的其中一个角，x y z。",
+    "command_translation.help.argument.execute.if.blocks.start.end": "源区域的对角，x y z；与 start 一起定义该区域。",
+    "command_translation.help.argument.execute.if.blocks.start.end.destination": "目标区域的西北下角；假定与源区域等大小。",
+    "command_translation.help.argument.execute.if.blocks.start.end.destination.all": "匹配模式 all：比较包括空气在内的所有方块。",
+    "command_translation.help.argument.execute.if.blocks.start.end.destination.masked": "匹配模式 masked：比较时忽略源区域中的空气方块。",
+    "command_translation.help.argument.execute.if.data": "条件：检测方块实体、实体或存储在给定 NBT 路径上是否存在标签。",
+    "command_translation.help.argument.execute.if.data.block": "数据目标是方块实体。",
+    "command_translation.help.argument.execute.if.data.block.sourcePos": "要检测的方块实体的位置，x y z。",
+    "command_translation.help.argument.execute.if.data.block.sourcePos.path": "必须至少解析到一个标签的 NBT 路径。",
+    "command_translation.help.argument.execute.if.data.entity": "数据目标是单个实体。",
+    "command_translation.help.argument.execute.if.data.entity.source": "要检测的单个实体：玩家名、目标选择器或 UUID。",
+    "command_translation.help.argument.execute.if.data.entity.source.path": "必须至少解析到一个标签的 NBT 路径。",
+    "command_translation.help.argument.execute.if.data.storage": "数据目标是命令存储。",
+    "command_translation.help.argument.execute.if.data.storage.source": "要检测的存储的资源位置 id。",
+    "command_translation.help.argument.execute.if.data.storage.source.path": "必须至少解析到一个标签的 NBT 路径。",
+    "command_translation.help.argument.execute.if.dimension": "条件：检测执行所在的维度。",
+    "command_translation.help.argument.execute.if.dimension.dimension": "要匹配的维度 id，例如 minecraft:the_nether。",
+    "command_translation.help.argument.execute.if.entity": "条件：检测是否有实体匹配该选择器。",
+    "command_translation.help.argument.execute.if.entity.entities": "要查找的实体：玩家名、目标选择器或 UUID；结果值为匹配数量。",
+    "command_translation.help.argument.execute.if.loaded": "条件：检测某位置的区块是否完全加载（实体刻）。仅 Java 版。",
+    "command_translation.help.argument.execute.if.loaded.pos": "要检测的方块位置，x y z。",
+    "command_translation.help.argument.execute.if.predicate": "条件：评估一个谓词（predicate）。仅 Java 版。",
+    "command_translation.help.argument.execute.if.predicate.predicate": "要评估的谓词：已注册的 predicate id，或内联 SNBT 谓词定义。",
+    "command_translation.help.argument.execute.if.score": "条件：把一个分数与另一个分数比较，或与一个含端点的范围比较。仅 Java 版。",
+    "command_translation.help.argument.execute.if.score.target": "被检测分数的单个记分持有者：目标选择器、玩家名或 UUID（此处不允许 * 通配）。",
+    "command_translation.help.argument.execute.if.score.target.targetObjective": "读取目标分数的目标，必须已存在。",
+    "command_translation.help.argument.execute.if.score.target.targetObjective.op": "两个分数之间的比较运算符：<、<=、=、>= 或 >。",
+    "command_translation.help.argument.execute.if.score.target.targetObjective.op.source": "提供右侧分数的记分持有者：目标选择器、玩家名或 UUID。",
+    "command_translation.help.argument.execute.if.score.target.targetObjective.op.source.sourceObjective": "读取来源分数的目标。",
+    "command_translation.help.argument.execute.if.score.target.targetObjective.matches": "比较选项 matches：把单个分数与一个含端点的整数范围比较，而不是与另一分数比较。",
+    "command_translation.help.argument.execute.if.score.target.targetObjective.matches.range": "整数范围，例如 5（等于 5）、..5（至多 5）、5..（至少 5）或 5..10。",
+    "command_translation.help.argument.execute.in": "修饰符：切换执行维度；在主世界与下界之间，相对与本地 x、z 按 8 倍换算。",
+    "command_translation.help.argument.execute.in.dimension": "要在其中执行的维度，例如 minecraft:the_end。",
+    "command_translation.help.argument.execute.on": "将执行者换成与其具有指定关系的实体。",
+    "command_translation.help.argument.execute.on.attacker": "关系 attacker：最近 5 秒内伤害当前执行者的实体。",
+    "command_translation.help.argument.execute.on.controller": "关系 controller：骑乘并操控当前执行者的实体。",
+    "command_translation.help.argument.execute.on.leasher": "关系 leasher：用拴绳牵着当前执行者的实体。",
+    "command_translation.help.argument.execute.on.origin": "关系 origin：使当前执行者被生成的实体，如箭的射手或 TNT 的点火者。",
+    "command_translation.help.argument.execute.on.owner": "关系 owner：若当前执行者是可驯服动物，则为其主人。",
+    "command_translation.help.argument.execute.on.passengers": "关系 passengers：直接骑乘当前执行者的所有实体（可能分叉）。",
+    "command_translation.help.argument.execute.on.target": "关系 target：当前执行者计划攻击的实体。",
+    "command_translation.help.argument.execute.on.vehicle": "关系 vehicle：当前执行者所骑乘的实体。",
+    "command_translation.help.argument.execute.positioned": "修饰符：设置执行位置，不改变朝向或维度。",
+    "command_translation.help.argument.execute.positioned.as": "positioned 选项：复制所选实体的位置。",
+    "command_translation.help.argument.execute.positioned.as.targets": "被复制位置的实体；选中多个会分叉。",
+    "command_translation.help.argument.execute.positioned.over": "positioned 选项：把执行位置放到当前 x、z 处某高度图的最上方。",
+    "command_translation.help.argument.execute.positioned.over.heightmap": "用于确定执行高度的地表类型。",
+    "command_translation.help.argument.execute.positioned.pos": "positioned 选项：显式坐标 x y z（可用小数）；还会把执行锚点重置为脚部。",
+    "command_translation.help.argument.execute.rotated": "修饰符：设置执行朝向，用 yaw 与 pitch（度）表示。",
+    "command_translation.help.argument.execute.rotated.as": "rotated 选项：复制所选实体的朝向。",
+    "command_translation.help.argument.execute.rotated.as.targets": "被复制朝向的实体；选中多个会分叉。",
+    "command_translation.help.argument.execute.rotated.rot": "执行时的水平与垂直朝向。",
+    "command_translation.help.argument.execute.run": "结束子命令链，并用修改后的上下文执行所给命令；run 之后的所有内容即要执行的命令。",
+    "command_translation.help.argument.execute.store": "修饰符：记录最终子命令的输出值，在链结束后写入所选位置；输出为整数（先向下取整，再乘 scale）。仅 Java 版。",
+    "command_translation.help.argument.execute.store.result": "存储最终子命令的结果值，即命令的实际输出（如数量）。",
+    "command_translation.help.argument.execute.store.block": "存储位置 block：写入某方块实体 NBT 的指定路径。",
+    "command_translation.help.argument.execute.store.block.targetPos": "接收值的方块实体位置，x y z。",
+    "command_translation.help.argument.execute.store.block.targetPos.path": "在方块实体中写入该值的 NBT 路径。",
+    "command_translation.help.argument.execute.store.type.byte": "以 byte 标签存储：8 位整数，-128 到 127；输出先向下取整，再乘 scale。",
+    "command_translation.help.argument.execute.store.scale": "存储前对（取整后的）输出施加的乘数（double），默认 1，可为负。",
+    "command_translation.help.argument.execute.store.type.double": "以 double 标签存储：双精度，在 SNBT 中写作带后缀 d（例如 1.0d）。",
+    "command_translation.help.argument.execute.store.type.float": "以 float 标签存储：单精度，在 SNBT 中写作带后缀 f（例如 1.0f）。",
+    "command_translation.help.argument.execute.store.type.int": "以 int 标签存储：32 位整数，-2147483648 到 2147483647。",
+    "command_translation.help.argument.execute.store.type.long": "以 long 标签存储：64 位整数，在 SNBT 中写作带后缀 L。",
+    "command_translation.help.argument.execute.store.type.short": "以 short 标签存储：16 位整数，-32768 到 32767。",
+    "command_translation.help.argument.execute.store.bossbar": "存储位置 bossbar：把值写入某 Boss 栏的当前值或最大值。",
+    "command_translation.help.argument.execute.store.bossbar.id": "Boss 栏的资源位置 id。",
+    "command_translation.help.argument.execute.store.bossbar.id.max": "写入 Boss 栏的最大值。",
+    "command_translation.help.argument.execute.store.bossbar.id.value": "写入 Boss 栏的当前值。",
+    "command_translation.help.argument.execute.store.entity": "存储位置 entity：写入某实体的 NBT；玩家的 NBT 不能这样修改。",
+    "command_translation.help.argument.execute.store.entity.target": "要写入的单个实体：玩家名、目标选择器或 UUID。",
+    "command_translation.help.argument.execute.store.entity.target.path": "在实体中写入该值的 NBT 路径。",
+    "command_translation.help.argument.execute.store.score": "存储位置 score：覆盖某记分持有者在某目标中的分数。",
+    "command_translation.help.argument.execute.store.score.targets": "被覆盖分数的记分持有者：目标选择器、玩家名、UUID，或 * 表示全部被记录的持有者。",
+    "command_translation.help.argument.execute.store.score.targets.objective": "被覆盖分数的目标，必须已存在。",
+    "command_translation.help.argument.execute.store.storage": "存储位置 storage：写入某命令存储的 NBT；若不存在则创建。",
+    "command_translation.help.argument.execute.store.storage.target": "目标存储的资源位置 id。",
+    "command_translation.help.argument.execute.store.storage.target.path": "在存储中写入该值的 NBT 路径。",
+    "command_translation.help.argument.execute.store.success": "存储最终子命令的成功值：成功通常为 1，失败为 0。",
+    "command_translation.help.argument.execute.summon": "修饰符：在执行位置生成一个实体并使其成为新的执行者。仅 Java 版。",
+    "command_translation.help.argument.execute.summon.entity": "要生成并作为执行者的实体类型。",
+    "command_translation.help.argument.execute.unless": "条件：if 的取反；仅当后续测试不通过时继续执行。",
+    "command_translation.help.argument.execute.if.function": "条件：运行函数或函数标签，仅当其返回非 0 时继续；不能放在链末。仅 Java 版。",
+    "command_translation.help.argument.execute.if.function.name": "要运行的函数或函数标签：资源位置，或以 # 开头的函数标签。",
+    "command_translation.help.argument.execute.if.items": "条件：检测某物品栏槽位中是否有匹配的物品。仅 Java 版。",
+    "command_translation.help.argument.execute.if.items.block": "items 条件的目标是容器方块。",
+    "command_translation.help.argument.execute.if.items.block.pos": "要检测的容器方块位置，x y z。",
+    "command_translation.help.argument.execute.if.items.block.pos.slots": "要检测的槽位，写成 slot_type 或 slot_type.number；可列出多个槽位类型。",
+    "command_translation.help.argument.execute.if.items.block.pos.slots.item_predicate": "要匹配的物品或物品标签，写成 item_id[检测]；接受以 # 开头的物品和方块标签，检测可省略。",
+    "command_translation.help.argument.execute.if.items.entity": "items 条件的目标是实体。",
+    "command_translation.help.argument.execute.if.items.entity.entities": "要检测其槽位的实体：玩家名、目标选择器或 UUID。",
+    "command_translation.help.argument.execute.if.items.entity.entities.slots": "在每个实体上要检测的槽位，写成 slot_type 或 slot_type.number。",
+    "command_translation.help.argument.execute.if.items.entity.entities.slots.item_predicate": "要匹配的物品或物品标签，写成 item_id[检测]。",
+    "command_translation.help.argument.execute.if.stopwatch": "条件：把某计时器已流逝的秒数与一个范围比较。仅 Java 版，1.21.11 起。",
+    "command_translation.help.argument.execute.if.stopwatch.id": "要读取的计时器，用资源位置 id 表示。",
+    "command_translation.help.argument.execute.if.stopwatch.id.range": "要比较的秒数范围，浮点范围，如 0.5、..1.0 或 1.0..。",
+    "command_translation.help.value.execute.anchored.anchor.eyes": "eyes：以实体眼睛为基准计算本地坐标与朝向。",
+    "command_translation.help.value.execute.anchored.anchor.feet": "feet：以实体脚部为基准（默认）。",
+    "command_translation.help.value.execute.facing.entity.targets.anchor.eyes": "eyes：让执行朝向看向所选目标实体的眼睛；这里选的是要看的目标点，不是执行者自己的锚点。",
+    "command_translation.help.value.execute.facing.entity.targets.anchor.feet": "feet：让执行朝向看向所选目标实体的脚部。",
+    "command_translation.help.value.execute.positioned.over.heightmap.world_surface": "world_surface：最高的非空气方块。",
+    "command_translation.help.value.execute.positioned.over.heightmap.motion_blocking": "motion_blocking：最高的一格阻挡运动或含流体的方块，如树叶或水。",
+    "command_translation.help.value.execute.positioned.over.heightmap.motion_blocking_no_leaves": "motion_blocking_no_leaves：同 motion_blocking，但树叶不算。",
+    "command_translation.help.value.execute.positioned.over.heightmap.ocean_floor": "ocean_floor：最高的阻挡运动方块，忽略其上方流体；用于寻找海底、湖底等实体地面，不是水面。"
+  },
+  "sources": {
+    "command_translation.help.argument.execute.align": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.align.axes": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.anchored": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.anchored.anchor": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.as": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.as.targets": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      },
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.argument.execute.at": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.at.targets": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      },
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.argument.execute.facing": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.facing.entity": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.facing.entity.targets": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      },
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.argument.execute.facing.entity.targets.anchor": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.facing.pos": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.if": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.if.biome": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.if.biome.pos": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.if.biome.pos.biome": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.if.block": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.if.block.pos": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.if.block.pos.block": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.if.blocks": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.if.blocks.start": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.if.blocks.start.end": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.if.blocks.start.end.destination": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.if.blocks.start.end.destination.all": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.if.blocks.start.end.destination.masked": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.if.data": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.if.data.block": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.if.data.block.sourcePos": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.if.data.block.sourcePos.path": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      },
+      {
+        "url": "https://minecraft.wiki/w/Argument%20types",
+        "revision": 3825973
+      }
+    ],
+    "command_translation.help.argument.execute.if.data.entity": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.if.data.entity.source": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      },
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.argument.execute.if.data.entity.source.path": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      },
+      {
+        "url": "https://minecraft.wiki/w/Argument%20types",
+        "revision": 3825973
+      }
+    ],
+    "command_translation.help.argument.execute.if.data.storage": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.if.data.storage.source": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.if.data.storage.source.path": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      },
+      {
+        "url": "https://minecraft.wiki/w/Argument%20types",
+        "revision": 3825973
+      }
+    ],
+    "command_translation.help.argument.execute.if.dimension": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.if.dimension.dimension": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.if.entity": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.if.entity.entities": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      },
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.argument.execute.if.loaded": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.if.loaded.pos": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.if.predicate": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.if.predicate.predicate": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.if.score": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.if.score.target": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.if.score.target.targetObjective": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.if.score.target.targetObjective.op": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.if.score.target.targetObjective.op.source": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.if.score.target.targetObjective.op.source.sourceObjective": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.if.score.target.targetObjective.matches": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.if.score.target.targetObjective.matches.range": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.in": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.in.dimension": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.on": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.on.attacker": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.on.controller": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.on.leasher": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.on.origin": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.on.owner": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.on.passengers": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.on.target": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.on.vehicle": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.positioned": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.positioned.as": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.positioned.as.targets": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      },
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.argument.execute.positioned.over": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.positioned.over.heightmap": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.positioned.pos": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.rotated": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.rotated.as": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.rotated.as.targets": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      },
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.argument.execute.rotated.rot": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.run": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.store": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.store.result": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.store.block": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.store.block.targetPos": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.store.block.targetPos.path": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      },
+      {
+        "url": "https://minecraft.wiki/w/Argument%20types",
+        "revision": 3825973
+      }
+    ],
+    "command_translation.help.argument.execute.store.type.byte": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.store.scale": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.store.type.double": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.store.type.float": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.store.type.int": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.store.type.long": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.store.type.short": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.store.bossbar": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.store.bossbar.id": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.store.bossbar.id.max": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.store.bossbar.id.value": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.store.entity": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.store.entity.target": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      },
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.argument.execute.store.entity.target.path": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      },
+      {
+        "url": "https://minecraft.wiki/w/Argument%20types",
+        "revision": 3825973
+      }
+    ],
+    "command_translation.help.argument.execute.store.score": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.store.score.targets": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.store.score.targets.objective": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.store.storage": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.store.storage.target": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.store.storage.target.path": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      },
+      {
+        "url": "https://minecraft.wiki/w/Argument%20types",
+        "revision": 3825973
+      }
+    ],
+    "command_translation.help.argument.execute.store.success": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.summon": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.summon.entity": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.unless": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.if.function": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.if.function.name": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.if.items": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.if.items.block": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.if.items.block.pos": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.if.items.block.pos.slots": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.if.items.block.pos.slots.item_predicate": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.if.items.entity": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.if.items.entity.entities": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      },
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.argument.execute.if.items.entity.entities.slots": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.if.items.entity.entities.slots.item_predicate": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.if.stopwatch": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.if.stopwatch.id": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.argument.execute.if.stopwatch.id.range": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.value.execute.anchored.anchor.eyes": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.value.execute.anchored.anchor.feet": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.value.execute.facing.entity.targets.anchor.eyes": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.value.execute.facing.entity.targets.anchor.feet": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fexecute",
+        "revision": 3831996
+      }
+    ],
+    "command_translation.help.value.execute.positioned.over.heightmap.world_surface": [
+      {
+        "url": "https://minecraft.wiki/w/Heightmap",
+        "revision": 3806795
+      }
+    ],
+    "command_translation.help.value.execute.positioned.over.heightmap.motion_blocking": [
+      {
+        "url": "https://minecraft.wiki/w/Heightmap",
+        "revision": 3806795
+      }
+    ],
+    "command_translation.help.value.execute.positioned.over.heightmap.motion_blocking_no_leaves": [
+      {
+        "url": "https://minecraft.wiki/w/Heightmap",
+        "revision": 3806795
+      }
+    ],
+    "command_translation.help.value.execute.positioned.over.heightmap.ocean_floor": [
+      {
+        "url": "https://minecraft.wiki/w/Heightmap",
+        "revision": 3806795
+      }
+    ]
+  },
+  "bindings": {
+    "execute.align": "command_translation.help.argument.execute.align",
+    "execute.align.axes": "command_translation.help.argument.execute.align.axes",
+    "execute.anchored": "command_translation.help.argument.execute.anchored",
+    "execute.anchored.anchor": "command_translation.help.argument.execute.anchored.anchor",
+    "execute.as": "command_translation.help.argument.execute.as",
+    "execute.as.targets": "command_translation.help.argument.execute.as.targets",
+    "execute.at": "command_translation.help.argument.execute.at",
+    "execute.at.targets": "command_translation.help.argument.execute.at.targets",
+    "execute.facing": "command_translation.help.argument.execute.facing",
+    "execute.facing.entity": "command_translation.help.argument.execute.facing.entity",
+    "execute.facing.entity.targets": "command_translation.help.argument.execute.facing.entity.targets",
+    "execute.facing.entity.targets.anchor": "command_translation.help.argument.execute.facing.entity.targets.anchor",
+    "execute.facing.pos": "command_translation.help.argument.execute.facing.pos",
+    "execute.if": "command_translation.help.argument.execute.if",
+    "execute.if.biome": "command_translation.help.argument.execute.if.biome",
+    "execute.if.biome.pos": "command_translation.help.argument.execute.if.biome.pos",
+    "execute.if.biome.pos.biome": "command_translation.help.argument.execute.if.biome.pos.biome",
+    "execute.if.block": "command_translation.help.argument.execute.if.block",
+    "execute.if.block.pos": "command_translation.help.argument.execute.if.block.pos",
+    "execute.if.block.pos.block": "command_translation.help.argument.execute.if.block.pos.block",
+    "execute.if.blocks": "command_translation.help.argument.execute.if.blocks",
+    "execute.if.blocks.start": "command_translation.help.argument.execute.if.blocks.start",
+    "execute.if.blocks.start.end": "command_translation.help.argument.execute.if.blocks.start.end",
+    "execute.if.blocks.start.end.destination": "command_translation.help.argument.execute.if.blocks.start.end.destination",
+    "execute.if.blocks.start.end.destination.all": "command_translation.help.argument.execute.if.blocks.start.end.destination.all",
+    "execute.if.blocks.start.end.destination.masked": "command_translation.help.argument.execute.if.blocks.start.end.destination.masked",
+    "execute.if.data": "command_translation.help.argument.execute.if.data",
+    "execute.if.data.block": "command_translation.help.argument.execute.if.data.block",
+    "execute.if.data.block.sourcePos": "command_translation.help.argument.execute.if.data.block.sourcePos",
+    "execute.if.data.block.sourcePos.path": "command_translation.help.argument.execute.if.data.block.sourcePos.path",
+    "execute.if.data.entity": "command_translation.help.argument.execute.if.data.entity",
+    "execute.if.data.entity.source": "command_translation.help.argument.execute.if.data.entity.source",
+    "execute.if.data.entity.source.path": "command_translation.help.argument.execute.if.data.entity.source.path",
+    "execute.if.data.storage": "command_translation.help.argument.execute.if.data.storage",
+    "execute.if.data.storage.source": "command_translation.help.argument.execute.if.data.storage.source",
+    "execute.if.data.storage.source.path": "command_translation.help.argument.execute.if.data.storage.source.path",
+    "execute.if.dimension": "command_translation.help.argument.execute.if.dimension",
+    "execute.if.dimension.dimension": "command_translation.help.argument.execute.if.dimension.dimension",
+    "execute.if.entity": "command_translation.help.argument.execute.if.entity",
+    "execute.if.entity.entities": "command_translation.help.argument.execute.if.entity.entities",
+    "execute.if.loaded": "command_translation.help.argument.execute.if.loaded",
+    "execute.if.loaded.pos": "command_translation.help.argument.execute.if.loaded.pos",
+    "execute.if.predicate": "command_translation.help.argument.execute.if.predicate",
+    "execute.if.predicate.predicate": "command_translation.help.argument.execute.if.predicate.predicate",
+    "execute.if.score": "command_translation.help.argument.execute.if.score",
+    "execute.if.score.target": "command_translation.help.argument.execute.if.score.target",
+    "execute.if.score.target.targetObjective": "command_translation.help.argument.execute.if.score.target.targetObjective",
+    "execute.if.score.target.targetObjective.<": "command_translation.help.argument.execute.if.score.target.targetObjective.op",
+    "execute.if.score.target.targetObjective.<.source": "command_translation.help.argument.execute.if.score.target.targetObjective.op.source",
+    "execute.if.score.target.targetObjective.<.source.sourceObjective": "command_translation.help.argument.execute.if.score.target.targetObjective.op.source.sourceObjective",
+    "execute.if.score.target.targetObjective.<=": "command_translation.help.argument.execute.if.score.target.targetObjective.op",
+    "execute.if.score.target.targetObjective.<=.source": "command_translation.help.argument.execute.if.score.target.targetObjective.op.source",
+    "execute.if.score.target.targetObjective.<=.source.sourceObjective": "command_translation.help.argument.execute.if.score.target.targetObjective.op.source.sourceObjective",
+    "execute.if.score.target.targetObjective.=": "command_translation.help.argument.execute.if.score.target.targetObjective.op",
+    "execute.if.score.target.targetObjective.=.source": "command_translation.help.argument.execute.if.score.target.targetObjective.op.source",
+    "execute.if.score.target.targetObjective.=.source.sourceObjective": "command_translation.help.argument.execute.if.score.target.targetObjective.op.source.sourceObjective",
+    "execute.if.score.target.targetObjective.>": "command_translation.help.argument.execute.if.score.target.targetObjective.op",
+    "execute.if.score.target.targetObjective.>.source": "command_translation.help.argument.execute.if.score.target.targetObjective.op.source",
+    "execute.if.score.target.targetObjective.>.source.sourceObjective": "command_translation.help.argument.execute.if.score.target.targetObjective.op.source.sourceObjective",
+    "execute.if.score.target.targetObjective.>=": "command_translation.help.argument.execute.if.score.target.targetObjective.op",
+    "execute.if.score.target.targetObjective.>=.source": "command_translation.help.argument.execute.if.score.target.targetObjective.op.source",
+    "execute.if.score.target.targetObjective.>=.source.sourceObjective": "command_translation.help.argument.execute.if.score.target.targetObjective.op.source.sourceObjective",
+    "execute.if.score.target.targetObjective.matches": "command_translation.help.argument.execute.if.score.target.targetObjective.matches",
+    "execute.if.score.target.targetObjective.matches.range": "command_translation.help.argument.execute.if.score.target.targetObjective.matches.range",
+    "execute.in": "command_translation.help.argument.execute.in",
+    "execute.in.dimension": "command_translation.help.argument.execute.in.dimension",
+    "execute.on": "command_translation.help.argument.execute.on",
+    "execute.on.attacker": "command_translation.help.argument.execute.on.attacker",
+    "execute.on.controller": "command_translation.help.argument.execute.on.controller",
+    "execute.on.leasher": "command_translation.help.argument.execute.on.leasher",
+    "execute.on.origin": "command_translation.help.argument.execute.on.origin",
+    "execute.on.owner": "command_translation.help.argument.execute.on.owner",
+    "execute.on.passengers": "command_translation.help.argument.execute.on.passengers",
+    "execute.on.target": "command_translation.help.argument.execute.on.target",
+    "execute.on.vehicle": "command_translation.help.argument.execute.on.vehicle",
+    "execute.positioned": "command_translation.help.argument.execute.positioned",
+    "execute.positioned.as": "command_translation.help.argument.execute.positioned.as",
+    "execute.positioned.as.targets": "command_translation.help.argument.execute.positioned.as.targets",
+    "execute.positioned.over": "command_translation.help.argument.execute.positioned.over",
+    "execute.positioned.over.heightmap": "command_translation.help.argument.execute.positioned.over.heightmap",
+    "execute.positioned.pos": "command_translation.help.argument.execute.positioned.pos",
+    "execute.rotated": "command_translation.help.argument.execute.rotated",
+    "execute.rotated.as": "command_translation.help.argument.execute.rotated.as",
+    "execute.rotated.as.targets": "command_translation.help.argument.execute.rotated.as.targets",
+    "execute.rotated.rot": "command_translation.help.argument.execute.rotated.rot",
+    "execute.run": "command_translation.help.argument.execute.run",
+    "execute.store": "command_translation.help.argument.execute.store",
+    "execute.store.result": "command_translation.help.argument.execute.store.result",
+    "execute.store.result.block": "command_translation.help.argument.execute.store.block",
+    "execute.store.result.block.targetPos": "command_translation.help.argument.execute.store.block.targetPos",
+    "execute.store.result.block.targetPos.path": "command_translation.help.argument.execute.store.block.targetPos.path",
+    "execute.store.result.block.targetPos.path.byte": "command_translation.help.argument.execute.store.type.byte",
+    "execute.store.result.block.targetPos.path.byte.scale": "command_translation.help.argument.execute.store.scale",
+    "execute.store.result.block.targetPos.path.double": "command_translation.help.argument.execute.store.type.double",
+    "execute.store.result.block.targetPos.path.double.scale": "command_translation.help.argument.execute.store.scale",
+    "execute.store.result.block.targetPos.path.float": "command_translation.help.argument.execute.store.type.float",
+    "execute.store.result.block.targetPos.path.float.scale": "command_translation.help.argument.execute.store.scale",
+    "execute.store.result.block.targetPos.path.int": "command_translation.help.argument.execute.store.type.int",
+    "execute.store.result.block.targetPos.path.int.scale": "command_translation.help.argument.execute.store.scale",
+    "execute.store.result.block.targetPos.path.long": "command_translation.help.argument.execute.store.type.long",
+    "execute.store.result.block.targetPos.path.long.scale": "command_translation.help.argument.execute.store.scale",
+    "execute.store.result.block.targetPos.path.short": "command_translation.help.argument.execute.store.type.short",
+    "execute.store.result.block.targetPos.path.short.scale": "command_translation.help.argument.execute.store.scale",
+    "execute.store.result.bossbar": "command_translation.help.argument.execute.store.bossbar",
+    "execute.store.result.bossbar.id": "command_translation.help.argument.execute.store.bossbar.id",
+    "execute.store.result.bossbar.id.max": "command_translation.help.argument.execute.store.bossbar.id.max",
+    "execute.store.result.bossbar.id.value": "command_translation.help.argument.execute.store.bossbar.id.value",
+    "execute.store.result.entity": "command_translation.help.argument.execute.store.entity",
+    "execute.store.result.entity.target": "command_translation.help.argument.execute.store.entity.target",
+    "execute.store.result.entity.target.path": "command_translation.help.argument.execute.store.entity.target.path",
+    "execute.store.result.entity.target.path.byte": "command_translation.help.argument.execute.store.type.byte",
+    "execute.store.result.entity.target.path.byte.scale": "command_translation.help.argument.execute.store.scale",
+    "execute.store.result.entity.target.path.double": "command_translation.help.argument.execute.store.type.double",
+    "execute.store.result.entity.target.path.double.scale": "command_translation.help.argument.execute.store.scale",
+    "execute.store.result.entity.target.path.float": "command_translation.help.argument.execute.store.type.float",
+    "execute.store.result.entity.target.path.float.scale": "command_translation.help.argument.execute.store.scale",
+    "execute.store.result.entity.target.path.int": "command_translation.help.argument.execute.store.type.int",
+    "execute.store.result.entity.target.path.int.scale": "command_translation.help.argument.execute.store.scale",
+    "execute.store.result.entity.target.path.long": "command_translation.help.argument.execute.store.type.long",
+    "execute.store.result.entity.target.path.long.scale": "command_translation.help.argument.execute.store.scale",
+    "execute.store.result.entity.target.path.short": "command_translation.help.argument.execute.store.type.short",
+    "execute.store.result.entity.target.path.short.scale": "command_translation.help.argument.execute.store.scale",
+    "execute.store.result.score": "command_translation.help.argument.execute.store.score",
+    "execute.store.result.score.targets": "command_translation.help.argument.execute.store.score.targets",
+    "execute.store.result.score.targets.objective": "command_translation.help.argument.execute.store.score.targets.objective",
+    "execute.store.result.storage": "command_translation.help.argument.execute.store.storage",
+    "execute.store.result.storage.target": "command_translation.help.argument.execute.store.storage.target",
+    "execute.store.result.storage.target.path": "command_translation.help.argument.execute.store.storage.target.path",
+    "execute.store.result.storage.target.path.byte": "command_translation.help.argument.execute.store.type.byte",
+    "execute.store.result.storage.target.path.byte.scale": "command_translation.help.argument.execute.store.scale",
+    "execute.store.result.storage.target.path.double": "command_translation.help.argument.execute.store.type.double",
+    "execute.store.result.storage.target.path.double.scale": "command_translation.help.argument.execute.store.scale",
+    "execute.store.result.storage.target.path.float": "command_translation.help.argument.execute.store.type.float",
+    "execute.store.result.storage.target.path.float.scale": "command_translation.help.argument.execute.store.scale",
+    "execute.store.result.storage.target.path.int": "command_translation.help.argument.execute.store.type.int",
+    "execute.store.result.storage.target.path.int.scale": "command_translation.help.argument.execute.store.scale",
+    "execute.store.result.storage.target.path.long": "command_translation.help.argument.execute.store.type.long",
+    "execute.store.result.storage.target.path.long.scale": "command_translation.help.argument.execute.store.scale",
+    "execute.store.result.storage.target.path.short": "command_translation.help.argument.execute.store.type.short",
+    "execute.store.result.storage.target.path.short.scale": "command_translation.help.argument.execute.store.scale",
+    "execute.store.success": "command_translation.help.argument.execute.store.success",
+    "execute.store.success.block": "command_translation.help.argument.execute.store.block",
+    "execute.store.success.block.targetPos": "command_translation.help.argument.execute.store.block.targetPos",
+    "execute.store.success.block.targetPos.path": "command_translation.help.argument.execute.store.block.targetPos.path",
+    "execute.store.success.block.targetPos.path.byte": "command_translation.help.argument.execute.store.type.byte",
+    "execute.store.success.block.targetPos.path.byte.scale": "command_translation.help.argument.execute.store.scale",
+    "execute.store.success.block.targetPos.path.double": "command_translation.help.argument.execute.store.type.double",
+    "execute.store.success.block.targetPos.path.double.scale": "command_translation.help.argument.execute.store.scale",
+    "execute.store.success.block.targetPos.path.float": "command_translation.help.argument.execute.store.type.float",
+    "execute.store.success.block.targetPos.path.float.scale": "command_translation.help.argument.execute.store.scale",
+    "execute.store.success.block.targetPos.path.int": "command_translation.help.argument.execute.store.type.int",
+    "execute.store.success.block.targetPos.path.int.scale": "command_translation.help.argument.execute.store.scale",
+    "execute.store.success.block.targetPos.path.long": "command_translation.help.argument.execute.store.type.long",
+    "execute.store.success.block.targetPos.path.long.scale": "command_translation.help.argument.execute.store.scale",
+    "execute.store.success.block.targetPos.path.short": "command_translation.help.argument.execute.store.type.short",
+    "execute.store.success.block.targetPos.path.short.scale": "command_translation.help.argument.execute.store.scale",
+    "execute.store.success.bossbar": "command_translation.help.argument.execute.store.bossbar",
+    "execute.store.success.bossbar.id": "command_translation.help.argument.execute.store.bossbar.id",
+    "execute.store.success.bossbar.id.max": "command_translation.help.argument.execute.store.bossbar.id.max",
+    "execute.store.success.bossbar.id.value": "command_translation.help.argument.execute.store.bossbar.id.value",
+    "execute.store.success.entity": "command_translation.help.argument.execute.store.entity",
+    "execute.store.success.entity.target": "command_translation.help.argument.execute.store.entity.target",
+    "execute.store.success.entity.target.path": "command_translation.help.argument.execute.store.entity.target.path",
+    "execute.store.success.entity.target.path.byte": "command_translation.help.argument.execute.store.type.byte",
+    "execute.store.success.entity.target.path.byte.scale": "command_translation.help.argument.execute.store.scale",
+    "execute.store.success.entity.target.path.double": "command_translation.help.argument.execute.store.type.double",
+    "execute.store.success.entity.target.path.double.scale": "command_translation.help.argument.execute.store.scale",
+    "execute.store.success.entity.target.path.float": "command_translation.help.argument.execute.store.type.float",
+    "execute.store.success.entity.target.path.float.scale": "command_translation.help.argument.execute.store.scale",
+    "execute.store.success.entity.target.path.int": "command_translation.help.argument.execute.store.type.int",
+    "execute.store.success.entity.target.path.int.scale": "command_translation.help.argument.execute.store.scale",
+    "execute.store.success.entity.target.path.long": "command_translation.help.argument.execute.store.type.long",
+    "execute.store.success.entity.target.path.long.scale": "command_translation.help.argument.execute.store.scale",
+    "execute.store.success.entity.target.path.short": "command_translation.help.argument.execute.store.type.short",
+    "execute.store.success.entity.target.path.short.scale": "command_translation.help.argument.execute.store.scale",
+    "execute.store.success.score": "command_translation.help.argument.execute.store.score",
+    "execute.store.success.score.targets": "command_translation.help.argument.execute.store.score.targets",
+    "execute.store.success.score.targets.objective": "command_translation.help.argument.execute.store.score.targets.objective",
+    "execute.store.success.storage": "command_translation.help.argument.execute.store.storage",
+    "execute.store.success.storage.target": "command_translation.help.argument.execute.store.storage.target",
+    "execute.store.success.storage.target.path": "command_translation.help.argument.execute.store.storage.target.path",
+    "execute.store.success.storage.target.path.byte": "command_translation.help.argument.execute.store.type.byte",
+    "execute.store.success.storage.target.path.byte.scale": "command_translation.help.argument.execute.store.scale",
+    "execute.store.success.storage.target.path.double": "command_translation.help.argument.execute.store.type.double",
+    "execute.store.success.storage.target.path.double.scale": "command_translation.help.argument.execute.store.scale",
+    "execute.store.success.storage.target.path.float": "command_translation.help.argument.execute.store.type.float",
+    "execute.store.success.storage.target.path.float.scale": "command_translation.help.argument.execute.store.scale",
+    "execute.store.success.storage.target.path.int": "command_translation.help.argument.execute.store.type.int",
+    "execute.store.success.storage.target.path.int.scale": "command_translation.help.argument.execute.store.scale",
+    "execute.store.success.storage.target.path.long": "command_translation.help.argument.execute.store.type.long",
+    "execute.store.success.storage.target.path.long.scale": "command_translation.help.argument.execute.store.scale",
+    "execute.store.success.storage.target.path.short": "command_translation.help.argument.execute.store.type.short",
+    "execute.store.success.storage.target.path.short.scale": "command_translation.help.argument.execute.store.scale",
+    "execute.summon": "command_translation.help.argument.execute.summon",
+    "execute.summon.entity": "command_translation.help.argument.execute.summon.entity",
+    "execute.unless": "command_translation.help.argument.execute.unless",
+    "execute.unless.biome": "command_translation.help.argument.execute.if.biome",
+    "execute.unless.biome.pos": "command_translation.help.argument.execute.if.biome.pos",
+    "execute.unless.biome.pos.biome": "command_translation.help.argument.execute.if.biome.pos.biome",
+    "execute.unless.block": "command_translation.help.argument.execute.if.block",
+    "execute.unless.block.pos": "command_translation.help.argument.execute.if.block.pos",
+    "execute.unless.block.pos.block": "command_translation.help.argument.execute.if.block.pos.block",
+    "execute.unless.blocks": "command_translation.help.argument.execute.if.blocks",
+    "execute.unless.blocks.start": "command_translation.help.argument.execute.if.blocks.start",
+    "execute.unless.blocks.start.end": "command_translation.help.argument.execute.if.blocks.start.end",
+    "execute.unless.blocks.start.end.destination": "command_translation.help.argument.execute.if.blocks.start.end.destination",
+    "execute.unless.blocks.start.end.destination.all": "command_translation.help.argument.execute.if.blocks.start.end.destination.all",
+    "execute.unless.blocks.start.end.destination.masked": "command_translation.help.argument.execute.if.blocks.start.end.destination.masked",
+    "execute.unless.data": "command_translation.help.argument.execute.if.data",
+    "execute.unless.data.block": "command_translation.help.argument.execute.if.data.block",
+    "execute.unless.data.block.sourcePos": "command_translation.help.argument.execute.if.data.block.sourcePos",
+    "execute.unless.data.block.sourcePos.path": "command_translation.help.argument.execute.if.data.block.sourcePos.path",
+    "execute.unless.data.entity": "command_translation.help.argument.execute.if.data.entity",
+    "execute.unless.data.entity.source": "command_translation.help.argument.execute.if.data.entity.source",
+    "execute.unless.data.entity.source.path": "command_translation.help.argument.execute.if.data.entity.source.path",
+    "execute.unless.data.storage": "command_translation.help.argument.execute.if.data.storage",
+    "execute.unless.data.storage.source": "command_translation.help.argument.execute.if.data.storage.source",
+    "execute.unless.data.storage.source.path": "command_translation.help.argument.execute.if.data.storage.source.path",
+    "execute.unless.dimension": "command_translation.help.argument.execute.if.dimension",
+    "execute.unless.dimension.dimension": "command_translation.help.argument.execute.if.dimension.dimension",
+    "execute.unless.entity": "command_translation.help.argument.execute.if.entity",
+    "execute.unless.entity.entities": "command_translation.help.argument.execute.if.entity.entities",
+    "execute.unless.loaded": "command_translation.help.argument.execute.if.loaded",
+    "execute.unless.loaded.pos": "command_translation.help.argument.execute.if.loaded.pos",
+    "execute.unless.predicate": "command_translation.help.argument.execute.if.predicate",
+    "execute.unless.predicate.predicate": "command_translation.help.argument.execute.if.predicate.predicate",
+    "execute.unless.score": "command_translation.help.argument.execute.if.score",
+    "execute.unless.score.target": "command_translation.help.argument.execute.if.score.target",
+    "execute.unless.score.target.targetObjective": "command_translation.help.argument.execute.if.score.target.targetObjective",
+    "execute.unless.score.target.targetObjective.<": "command_translation.help.argument.execute.if.score.target.targetObjective.op",
+    "execute.unless.score.target.targetObjective.<.source": "command_translation.help.argument.execute.if.score.target.targetObjective.op.source",
+    "execute.unless.score.target.targetObjective.<.source.sourceObjective": "command_translation.help.argument.execute.if.score.target.targetObjective.op.source.sourceObjective",
+    "execute.unless.score.target.targetObjective.<=": "command_translation.help.argument.execute.if.score.target.targetObjective.op",
+    "execute.unless.score.target.targetObjective.<=.source": "command_translation.help.argument.execute.if.score.target.targetObjective.op.source",
+    "execute.unless.score.target.targetObjective.<=.source.sourceObjective": "command_translation.help.argument.execute.if.score.target.targetObjective.op.source.sourceObjective",
+    "execute.unless.score.target.targetObjective.=": "command_translation.help.argument.execute.if.score.target.targetObjective.op",
+    "execute.unless.score.target.targetObjective.=.source": "command_translation.help.argument.execute.if.score.target.targetObjective.op.source",
+    "execute.unless.score.target.targetObjective.=.source.sourceObjective": "command_translation.help.argument.execute.if.score.target.targetObjective.op.source.sourceObjective",
+    "execute.unless.score.target.targetObjective.>": "command_translation.help.argument.execute.if.score.target.targetObjective.op",
+    "execute.unless.score.target.targetObjective.>.source": "command_translation.help.argument.execute.if.score.target.targetObjective.op.source",
+    "execute.unless.score.target.targetObjective.>.source.sourceObjective": "command_translation.help.argument.execute.if.score.target.targetObjective.op.source.sourceObjective",
+    "execute.unless.score.target.targetObjective.>=": "command_translation.help.argument.execute.if.score.target.targetObjective.op",
+    "execute.unless.score.target.targetObjective.>=.source": "command_translation.help.argument.execute.if.score.target.targetObjective.op.source",
+    "execute.unless.score.target.targetObjective.>=.source.sourceObjective": "command_translation.help.argument.execute.if.score.target.targetObjective.op.source.sourceObjective",
+    "execute.unless.score.target.targetObjective.matches": "command_translation.help.argument.execute.if.score.target.targetObjective.matches",
+    "execute.unless.score.target.targetObjective.matches.range": "command_translation.help.argument.execute.if.score.target.targetObjective.matches.range",
+    "execute.if.function": "command_translation.help.argument.execute.if.function",
+    "execute.if.function.name": "command_translation.help.argument.execute.if.function.name",
+    "execute.if.items": "command_translation.help.argument.execute.if.items",
+    "execute.if.items.block": "command_translation.help.argument.execute.if.items.block",
+    "execute.if.items.block.pos": "command_translation.help.argument.execute.if.items.block.pos",
+    "execute.if.items.block.pos.slots": "command_translation.help.argument.execute.if.items.block.pos.slots",
+    "execute.if.items.block.pos.slots.item_predicate": "command_translation.help.argument.execute.if.items.block.pos.slots.item_predicate",
+    "execute.if.items.entity": "command_translation.help.argument.execute.if.items.entity",
+    "execute.if.items.entity.entities": "command_translation.help.argument.execute.if.items.entity.entities",
+    "execute.if.items.entity.entities.slots": "command_translation.help.argument.execute.if.items.entity.entities.slots",
+    "execute.if.items.entity.entities.slots.item_predicate": "command_translation.help.argument.execute.if.items.entity.entities.slots.item_predicate",
+    "execute.unless.function": "command_translation.help.argument.execute.if.function",
+    "execute.unless.function.name": "command_translation.help.argument.execute.if.function.name",
+    "execute.unless.items": "command_translation.help.argument.execute.if.items",
+    "execute.unless.items.block": "command_translation.help.argument.execute.if.items.block",
+    "execute.unless.items.block.pos": "command_translation.help.argument.execute.if.items.block.pos",
+    "execute.unless.items.block.pos.slots": "command_translation.help.argument.execute.if.items.block.pos.slots",
+    "execute.unless.items.block.pos.slots.item_predicate": "command_translation.help.argument.execute.if.items.block.pos.slots.item_predicate",
+    "execute.unless.items.entity": "command_translation.help.argument.execute.if.items.entity",
+    "execute.unless.items.entity.entities": "command_translation.help.argument.execute.if.items.entity.entities",
+    "execute.unless.items.entity.entities.slots": "command_translation.help.argument.execute.if.items.entity.entities.slots",
+    "execute.unless.items.entity.entities.slots.item_predicate": "command_translation.help.argument.execute.if.items.entity.entities.slots.item_predicate",
+    "execute.if.stopwatch": "command_translation.help.argument.execute.if.stopwatch",
+    "execute.if.stopwatch.id": "command_translation.help.argument.execute.if.stopwatch.id",
+    "execute.if.stopwatch.id.range": "command_translation.help.argument.execute.if.stopwatch.id.range",
+    "execute.unless.stopwatch": "command_translation.help.argument.execute.if.stopwatch",
+    "execute.unless.stopwatch.id": "command_translation.help.argument.execute.if.stopwatch.id",
+    "execute.unless.stopwatch.id.range": "command_translation.help.argument.execute.if.stopwatch.id.range"
+  },
+  "de_de": {
+    "command_translation.help.argument.execute.align": "Modifikator: rundet die Ausführungsposition auf ganzzahlige Blockkoordinaten ab, aber nur entlang der aufgelisteten Achsen.",
+    "command_translation.help.argument.execute.align.axes": "Achsen zum Ausrichten: jede sich nicht wiederholende Kombination aus x, y, z in beliebiger Reihenfolge; jede aufgeführte Koordinate wird um weniger als einen Block abgerundet.",
+    "command_translation.help.argument.execute.anchored": "Modifikator: setzt den Ausführungsanker, von dem lokale ^-Koordinaten und die Blickrichtung gemessen werden, auf die Augen oder die Füße (Standard Füße).",
+    "command_translation.help.argument.execute.anchored.anchor": "Der zu verwendende Ankerpunkt: eyes oder feet.",
+    "command_translation.help.argument.execute.as": "Modifikator: macht die ausgewählten Entitäten zum neuen Ausführer (@s), ohne Position, Blickrichtung, Dimension oder Anker zu ändern; verzweigt einmal pro ausgewählter Entität.",
+    "command_translation.help.argument.execute.as.targets": "Die Entitäten, die zum neuen Ausführer werden: ein Spielername, Zielselektor oder eine UUID; mehrere verursachen eine Verzweigung.",
+    "command_translation.help.argument.execute.at": "Modifikator: setzt Position, Blickrichtung und Dimension passend zur ausgewählten Entität, ändert aber nicht, wer der Ausführer ist (@s bleibt gleich).",
+    "command_translation.help.argument.execute.at.targets": "Die Entitäten, deren Position, Blickrichtung und Dimension übernommen werden: ein Spielername, Zielselektor oder eine UUID; mehrere verursachen eine Verzweigung.",
+    "command_translation.help.argument.execute.facing": "Modifikator: setzt die Ausführungsblickrichtung so, dass sie auf einen Koordinatenpunkt oder auf die Augen oder Füße einer Entität zeigt.",
+    "command_translation.help.argument.execute.facing.entity": "Facing-Option: auf die gewählte Entität blicken.",
+    "command_translation.help.argument.execute.facing.entity.targets": "Die Entität oder Entitäten, auf die geblickt wird: ein Spielername, Zielselektor oder eine UUID; mehrere verursachen eine Verzweigung.",
+    "command_translation.help.argument.execute.facing.entity.targets.anchor": "Ob auf die Augen oder die Füße des Ziels gezielt wird.",
+    "command_translation.help.argument.execute.facing.pos": "Facing-Option: Koordinaten, auf die geblickt wird, als x y z (Dezimalzahlen erlaubt; ~- und ^-Notation akzeptiert).",
+    "command_translation.help.argument.execute.if": "Bedingung: führt den Rest nur aus, wenn der folgende Test erfolgreich ist; am Ende der Kette wird stattdessen das Testergebnis gemeldet.",
+    "command_translation.help.argument.execute.unless": "Bedingung: die Verneinung von if; führt den Rest nur aus, wenn der folgende Test fehlschlägt.",
+    "command_translation.help.argument.execute.if.biome": "Bedingung: testet das Biom an einer Position.",
+    "command_translation.help.argument.execute.if.biome.pos": "Blockposition, deren Biom getestet wird, als x y z.",
+    "command_translation.help.argument.execute.if.biome.pos.biome": "Das oder die Biome, die passen sollen: eine registrierte worldgen/biome-ID oder ein Tag mit # davor.",
+    "command_translation.help.argument.execute.if.block": "Bedingung: testet einen einzelnen Block gegen eine Block-ID mit optionalen Zuständen und Daten-Tags.",
+    "command_translation.help.argument.execute.if.block.pos": "Zu testende Blockposition, als x y z.",
+    "command_translation.help.argument.execute.if.block.pos.block": "Der zu passende Block, geschrieben als block_id[state=value,...]{tag}; # Block-Tags werden akzeptiert, Zustände und Tags dürfen fehlen.",
+    "command_translation.help.argument.execute.if.blocks": "Bedingung: testet, ob zwei gleich große Blockvolumen übereinstimmen; das Quellvolumen darf höchstens 32768 Blöcke (8 Chunk-Abschnitte) groß sein.",
+    "command_translation.help.argument.execute.if.blocks.start": "Eine Ecke des Quellvolumens, als x y z.",
+    "command_translation.help.argument.execute.if.blocks.start.end": "Die gegenüberliegende Ecke des Quellvolumens, als x y z; zusammen mit start definiert sie das Volumen.",
+    "command_translation.help.argument.execute.if.blocks.start.end.destination": "Die untere Nordwest-Ecke des Zielvolumens; es wird als gleich groß wie das Quellvolumen angenommen.",
+    "command_translation.help.argument.execute.if.blocks.start.end.destination.all": "Übereinstimmungsmodus all: vergleicht jeden Block, einschließlich Luft.",
+    "command_translation.help.argument.execute.if.blocks.start.end.destination.masked": "Übereinstimmungsmodus masked: ignoriert Luftblöcke im Quellvolumen beim Vergleich.",
+    "command_translation.help.argument.execute.if.data": "Bedingung: testet, ob ein Block-Entity, eine Entität oder ein Speicher an einem gegebenen NBT-Pfad ein Tag hat.",
+    "command_translation.help.argument.execute.if.data.block": "Datenziel ist ein Block-Entity.",
+    "command_translation.help.argument.execute.if.data.block.sourcePos": "Blockposition des zu testenden Block-Entities, als x y z.",
+    "command_translation.help.argument.execute.if.data.block.sourcePos.path": "NBT-Pfad, der sich auf mindestens ein Tag auflösen muss.",
+    "command_translation.help.argument.execute.if.data.entity": "Datenziel ist eine einzelne Entität.",
+    "command_translation.help.argument.execute.if.data.entity.source": "Die einzelne zu testende Entität: ein Spielername, Zielselektor oder eine UUID.",
+    "command_translation.help.argument.execute.if.data.entity.source.path": "NBT-Pfad, der sich auf mindestens ein Tag auflösen muss.",
+    "command_translation.help.argument.execute.if.data.storage": "Datenziel ist ein Befehlsspeicher.",
+    "command_translation.help.argument.execute.if.data.storage.source": "Ressourcenpositions-ID des zu testenden Speichers.",
+    "command_translation.help.argument.execute.if.data.storage.source.path": "NBT-Pfad, der sich auf mindestens ein Tag auflösen muss.",
+    "command_translation.help.argument.execute.if.dimension": "Bedingung: testet die Dimension der Ausführung.",
+    "command_translation.help.argument.execute.if.dimension.dimension": "Die zu passende Dimensions-ID, zum Beispiel minecraft:the_nether.",
+    "command_translation.help.argument.execute.if.entity": "Bedingung: testet, ob irgendeine Entität zum Selektor passt.",
+    "command_translation.help.argument.execute.if.entity.entities": "Die Entität oder Entitäten, nach denen gesucht wird: ein Spielername, Zielselektor oder eine UUID; der Ergebniswert ist die Anzahl der Treffer.",
+    "command_translation.help.argument.execute.if.loaded": "Bedingung: testet, ob der Chunk an einer Position vollständig geladen ist (entitäts-tickend). Java Edition.",
+    "command_translation.help.argument.execute.if.loaded.pos": "Zu testende Blockposition, als x y z.",
+    "command_translation.help.argument.execute.if.predicate": "Bedingung: wertet ein Prädikat aus. Java Edition.",
+    "command_translation.help.argument.execute.if.predicate.predicate": "Das auszuwertende Prädikat: eine registrierte Prädikat-ID oder eine Inline-SNBT-Prädikatdefinition.",
+    "command_translation.help.argument.execute.if.score": "Bedingung: vergleicht einen Punktestand mit einem anderen Punktestand oder mit einem inklusiven Bereich. Java Edition.",
+    "command_translation.help.argument.execute.if.score.target": "Der einzelne Punktestand-Halter, dessen Punktestand getestet wird: ein Zielselektor, Spielername oder eine UUID (der *-Platzhalter ist hier nicht erlaubt).",
+    "command_translation.help.argument.execute.if.score.target.targetObjective": "Das Objective, aus dem der Ziel-Punktestand gelesen wird; es muss existieren.",
+    "command_translation.help.argument.execute.if.score.target.targetObjective.op": "Vergleichsoperator zwischen den beiden Punkteständen: <, <=, =, >= oder >.",
+    "command_translation.help.argument.execute.if.score.target.targetObjective.op.source": "Der Punktestand-Halter, der den rechten Punktestand liefert: ein Zielselektor, Spielername oder eine UUID.",
+    "command_translation.help.argument.execute.if.score.target.targetObjective.op.source.sourceObjective": "Das Objective, aus dem der Quell-Punktestand gelesen wird.",
+    "command_translation.help.argument.execute.if.score.target.targetObjective.matches": "Vergleichsoption matches: testet einen einzelnen Punktestand gegen einen inklusiven Ganzzahlbereich statt gegen einen anderen Punktestand.",
+    "command_translation.help.argument.execute.if.score.target.targetObjective.matches.range": "Der Ganzzahlbereich, zum Beispiel 5 (genau 5), ..5 (höchstens 5), 5.. (mindestens 5) oder 5..10.",
+    "command_translation.help.argument.execute.in": "Modifikator: ändert die Ausführungsdimension; relative und lokale x und z werden zwischen Oberwelt und Nether um den Faktor 8 umgerechnet.",
+    "command_translation.help.argument.execute.in.dimension": "Die Dimension, in der ausgeführt wird, zum Beispiel minecraft:the_end.",
+    "command_translation.help.argument.execute.on": "Wechselt den Ausführenden zu einer Entität mit der gewählten Beziehung.",
+    "command_translation.help.argument.execute.on.attacker": "Beziehung attacker: die Entität, die den aktuellen Ausführer zuletzt innerhalb der letzten 5 Sekunden geschädigt hat.",
+    "command_translation.help.argument.execute.on.controller": "Beziehung controller: die Entität, die den aktuellen Ausführer reitet und steuert.",
+    "command_translation.help.argument.execute.on.leasher": "Beziehung leasher: die Entität, die den aktuellen Ausführer mit einer Leine führt.",
+    "command_translation.help.argument.execute.on.origin": "Beziehung origin: die Entität, die die Erzeugung des aktuellen Ausführers verursacht hat, etwa der Schütze eines Pfeils oder der Zünder von TNT.",
+    "command_translation.help.argument.execute.on.owner": "Beziehung owner: der Besitzer des aktuellen Ausführers, wenn er ein zähmbares Tier ist.",
+    "command_translation.help.argument.execute.on.passengers": "Beziehung passengers: alle Entitäten, die den aktuellen Ausführer direkt reiten (dies kann verzweigen).",
+    "command_translation.help.argument.execute.on.target": "Beziehung target: die Entität, die der aktuelle Ausführer angreifen will.",
+    "command_translation.help.argument.execute.on.vehicle": "Beziehung vehicle: die Entität, die der aktuelle Ausführer reitet.",
+    "command_translation.help.argument.execute.positioned": "Modifikator: setzt die Ausführungsposition, ohne Blickrichtung oder Dimension zu ändern.",
+    "command_translation.help.argument.execute.positioned.as": "Positioned-Option: übernimmt die Position der gewählten Entität.",
+    "command_translation.help.argument.execute.positioned.as.targets": "Die Entität oder Entitäten, deren Position übernommen wird; mehrere verursachen eine Verzweigung.",
+    "command_translation.help.argument.execute.positioned.over": "Positioned-Option: setzt die Ausführungsposition auf die Oberkante einer Höhenkarte am aktuellen x und z.",
+    "command_translation.help.argument.execute.positioned.over.heightmap": "Die Oberfläche, die die Ausführungshöhe bestimmt.",
+    "command_translation.help.argument.execute.positioned.pos": "Positioned-Option: explizite Koordinaten x y z (Dezimalzahlen erlaubt); setzt außerdem den Ausführungsanker auf die Füße zurück.",
+    "command_translation.help.argument.execute.rotated": "Modifikator: setzt die Ausführungsblickrichtung, angegeben als yaw und pitch in Grad.",
+    "command_translation.help.argument.execute.rotated.as": "Rotated-Option: übernimmt die Blickrichtung der gewählten Entität.",
+    "command_translation.help.argument.execute.rotated.as.targets": "Die Entität oder Entitäten, deren Blickrichtung übernommen wird; mehrere verursachen eine Verzweigung.",
+    "command_translation.help.argument.execute.rotated.rot": "Die horizontale und vertikale Blickrichtung der Ausführung.",
+    "command_translation.help.argument.execute.run": "Beendet die Unterbefehlskette und führt den angegebenen Befehl mit dem geänderten Kontext aus; alles nach run ist der auszuführende Befehl.",
+    "command_translation.help.argument.execute.store": "Modifikator: zeichnet den Ausgabewert des letzten Unterbefehls auf und schreibt ihn nach Ende der Kette an den gewählten Ort; Ausgaben sind Ganzzahlen (abgerundet, danach greift scale). Java Edition.",
+    "command_translation.help.argument.execute.store.result": "Speichert den Ergebniswert des letzten Unterbefehls, also die tatsächliche Ausgabe des Befehls wie etwa eine Anzahl.",
+    "command_translation.help.argument.execute.store.block": "Speicherort block: schreibt in das NBT eines Block-Entities an einem NBT-Pfad.",
+    "command_translation.help.argument.execute.store.block.targetPos": "Blockposition des Block-Entities, das den Wert erhält, als x y z.",
+    "command_translation.help.argument.execute.store.block.targetPos.path": "NBT-Pfad im Block-Entity, in den der Wert geschrieben wird.",
+    "command_translation.help.argument.execute.store.type.byte": "Als byte-Tag speichern: eine 8-Bit-Ganzzahl, -128 bis 127; die Ausgabe wird abgerundet und dann mit scale multipliziert.",
+    "command_translation.help.argument.execute.store.scale": "Multiplikator, der vor dem Speichern auf die (abgerundete) Ausgabe angewendet wird; ein double, standardmäßig 1 und darf negativ sein.",
+    "command_translation.help.argument.execute.store.type.double": "Als double-Tag speichern: doppelte Genauigkeit, in SNBT mit nachgestelltem d (zum Beispiel 1.0d).",
+    "command_translation.help.argument.execute.store.type.float": "Als float-Tag speichern: einfache Genauigkeit, in SNBT mit nachgestelltem f (zum Beispiel 1.0f).",
+    "command_translation.help.argument.execute.store.type.int": "Als int-Tag speichern: eine 32-Bit-Ganzzahl, -2147483648 bis 2147483647.",
+    "command_translation.help.argument.execute.store.type.long": "Als long-Tag speichern: eine 64-Bit-Ganzzahl, in SNBT mit nachgestelltem L.",
+    "command_translation.help.argument.execute.store.type.short": "Als short-Tag speichern: eine 16-Bit-Ganzzahl, -32768 bis 32767.",
+    "command_translation.help.argument.execute.store.bossbar": "Speicherort bossbar: schreibt den Wert in den aktuellen Wert oder den Maximalwert einer Bossleiste.",
+    "command_translation.help.argument.execute.store.bossbar.id": "Ressourcenpositions-ID der Bossleiste.",
+    "command_translation.help.argument.execute.store.bossbar.id.max": "Schreibt in den Maximalwert der Bossleiste.",
+    "command_translation.help.argument.execute.store.bossbar.id.value": "Schreibt in den aktuellen Wert der Bossleiste.",
+    "command_translation.help.argument.execute.store.entity": "Speicherort entity: schreibt in das NBT einer Entität; Spieler-NBT kann so nicht geändert werden.",
+    "command_translation.help.argument.execute.store.entity.target": "Die einzelne Entität, in die geschrieben wird: ein Spielername, Zielselektor oder eine UUID.",
+    "command_translation.help.argument.execute.store.entity.target.path": "NBT-Pfad in der Entität, in den der Wert geschrieben wird.",
+    "command_translation.help.argument.execute.store.score": "Speicherort score: überschreibt den Punktestand eines Punktestand-Halters in einem Objective.",
+    "command_translation.help.argument.execute.store.score.targets": "Der oder die Punktestand-Halter, deren Punktestand überschrieben wird: ein Zielselektor, Spielername, eine UUID oder * für alle erfassten Halter.",
+    "command_translation.help.argument.execute.store.score.targets.objective": "Das Objective, dessen Punktestand überschrieben wird; es muss existieren.",
+    "command_translation.help.argument.execute.store.storage": "Speicherort storage: schreibt in das NBT eines Befehlsspeichers; der Speicher wird erstellt, wenn er nicht existiert.",
+    "command_translation.help.argument.execute.store.storage.target": "Ressourcenpositions-ID des Zielspeichers.",
+    "command_translation.help.argument.execute.store.storage.target.path": "NBT-Pfad im Speicher, in den der Wert geschrieben wird.",
+    "command_translation.help.argument.execute.store.success": "Speichert den Erfolgswert des letzten Unterbefehls: normalerweise 1 bei Erfolg und 0 bei Misserfolg.",
+    "command_translation.help.argument.execute.summon": "Modifikator: beschwört eine Entität an der Ausführungsposition und macht sie zum neuen Ausführer. Java Edition.",
+    "command_translation.help.argument.execute.summon.entity": "Der zu beschwörende Entitätstyp, der zum Ausführenden wird.",
+    "command_translation.help.argument.execute.if.function": "Bedingung: führt eine Funktion oder ein Funktions-Tag aus und fährt nur fort, wenn sie einen Wert ungleich 0 zurückgibt; kann nicht am Ende der Kette stehen. Java Edition.",
+    "command_translation.help.argument.execute.if.function.name": "Die auszuführende Funktion oder das Funktions-Tag: eine Ressourcenposition oder ein mit # beginnendes Funktions-Tag.",
+    "command_translation.help.argument.execute.if.items": "Bedingung: testet einen Inventarplatz auf einen passenden Gegenstand. Java Edition.",
+    "command_translation.help.argument.execute.if.items.block": "Items-Bedingungsziel ist ein Behältnisblock.",
+    "command_translation.help.argument.execute.if.items.block.pos": "Blockposition des zu testenden Behältnisses, als x y z.",
+    "command_translation.help.argument.execute.if.items.block.pos.slots": "Der oder die zu testenden Plätze, als slot_type oder slot_type.number; mehrere Platztypen dürfen aufgelistet werden.",
+    "command_translation.help.argument.execute.if.items.block.pos.slots.item_predicate": "Gegenstand oder Gegenstands-Tag, das passen soll, als item_id[tests]; # Gegenstands- und Block-Tags werden akzeptiert, tests dürfen fehlen.",
+    "command_translation.help.argument.execute.if.items.entity": "Items-Bedingungsziel ist eine Entität.",
+    "command_translation.help.argument.execute.if.items.entity.entities": "Die Entität oder Entitäten, deren Plätze getestet werden: ein Spielername, Zielselektor oder eine UUID.",
+    "command_translation.help.argument.execute.if.items.entity.entities.slots": "Der oder die an jeder Entität zu testenden Plätze, als slot_type oder slot_type.number.",
+    "command_translation.help.argument.execute.if.items.entity.entities.slots.item_predicate": "Gegenstand oder Gegenstands-Tag, das passen soll, als item_id[tests].",
+    "command_translation.help.argument.execute.if.stopwatch": "Bedingung: vergleicht die verstrichenen Sekunden einer Stoppuhr mit einem Bereich. Java Edition, ab 1.21.11.",
+    "command_translation.help.argument.execute.if.stopwatch.id": "Die zu lesende Stoppuhr, angegeben als Ressourcenpositions-ID.",
+    "command_translation.help.argument.execute.if.stopwatch.id.range": "Der zu vergleichende Sekundenbereich, ein Float-Bereich wie 0.5, ..1.0 oder 1.0..",
+    "command_translation.help.value.execute.anchored.anchor.eyes": "eyes: misst lokale Koordinaten und Blickrichtung von den Augen der Entität.",
+    "command_translation.help.value.execute.anchored.anchor.feet": "feet: misst von den Füßen der Entität (Standard).",
+    "command_translation.help.value.execute.facing.entity.targets.anchor.eyes": "eyes: richtet die Ausführungsrichtung auf die Augen der Zielentität; dies wählt den Zielpunkt, nicht den Anker des Ausführenden.",
+    "command_translation.help.value.execute.facing.entity.targets.anchor.feet": "feet: richtet die Ausführungsrichtung auf die Füße der Zielentität.",
+    "command_translation.help.value.execute.positioned.over.heightmap.world_surface": "world_surface: der höchste Nicht-Luft-Block.",
+    "command_translation.help.value.execute.positioned.over.heightmap.motion_blocking": "motion_blocking: der höchste Block, der Bewegung blockiert oder eine Flüssigkeit enthält, z. B. Laub oder Wasser.",
+    "command_translation.help.value.execute.positioned.over.heightmap.motion_blocking_no_leaves": "motion_blocking_no_leaves: wie motion_blocking, aber Laub zählt nicht.",
+    "command_translation.help.value.execute.positioned.over.heightmap.ocean_floor": "ocean_floor: der höchste Block, der Bewegung blockiert, ohne darüberliegende Flüssigkeit; liefert den festen Meeres- oder Seegrund, nicht die Wasseroberfläche."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.execute.align": "修飾子：実行位置をブロックの整数座標に切り捨てる。指定した軸にのみ作用する。",
+    "command_translation.help.argument.execute.align.axes": "揃える軸：x、y、z の重複しない任意の組み合わせ（順序自由）。挙げた各座標は 1 ブロック未満だけ切り捨てられる。",
+    "command_translation.help.argument.execute.anchored": "修飾子：ローカルの ^ 座標と向きの基準となる実行アンカーを目または足に設定する（既定は足）。",
+    "command_translation.help.argument.execute.anchored.anchor": "使用するアンカー：eyes または feet。",
+    "command_translation.help.argument.execute.as": "修飾子：選択したエンティティを新しい実行者（@s）にする。位置・向き・次元・アンカーは変えず、選択したエンティティごとに 1 回分岐する。",
+    "command_translation.help.argument.execute.as.targets": "新しい実行者になるエンティティ：プレイヤー名、ターゲットセレクター、または UUID。複数選ぶと分岐する。",
+    "command_translation.help.argument.execute.at": "修飾子：実行位置・向き・次元を選択したエンティティに合わせる。ただし実行者が誰かは変えない（@s はそのまま）。",
+    "command_translation.help.argument.execute.at.targets": "位置・向き・次元をコピーするエンティティ：プレイヤー名、ターゲットセレクター、または UUID。複数選ぶと分岐する。",
+    "command_translation.help.argument.execute.facing": "修飾子：実行の向きを、座標点またはエンティティの目や足の方向に向ける。",
+    "command_translation.help.argument.execute.facing.entity": "facing オプション：選択したエンティティの方を向く。",
+    "command_translation.help.argument.execute.facing.entity.targets": "向く対象のエンティティ：プレイヤー名、ターゲットセレクター、または UUID。複数選ぶと分岐する。",
+    "command_translation.help.argument.execute.facing.entity.targets.anchor": "対象の目（eyes）と足（feet）のどちらを狙うか。",
+    "command_translation.help.argument.execute.facing.pos": "facing オプション：向く座標。x y z で、小数も使える（~ 記法や ^ 記法も可）。",
+    "command_translation.help.argument.execute.if": "条件：後続のテストが成功したときだけ残りを実行する。連鎖の末尾に置くと代わりにテスト結果を報告する。",
+    "command_translation.help.argument.execute.unless": "条件：if の否定。後続のテストが失敗したときだけ残りを実行する。",
+    "command_translation.help.argument.execute.if.biome": "条件：ある位置のバイオームをテストする。",
+    "command_translation.help.argument.execute.if.biome.pos": "バイオームをテストするブロック位置。x y z。",
+    "command_translation.help.argument.execute.if.biome.pos.biome": "一致させるバイオーム：登録済みの worldgen/biome の ID、または先頭に # を付けたタグ。",
+    "command_translation.help.argument.execute.if.block": "条件：1 つのブロックを、ブロック ID（任意の状態やデータタグ付き）と比較する。",
+    "command_translation.help.argument.execute.if.block.pos": "テストするブロック位置。x y z。",
+    "command_translation.help.argument.execute.if.block.pos.block": "一致させるブロック。block_id[state=value,...]{tag} で書き、# 付きのブロックタグも使える。状態やタグは省略できる。",
+    "command_translation.help.argument.execute.if.blocks": "条件：同じ大きさの 2 つのブロック領域が一致するかをテストする。ソース領域は最大 32768 ブロック（チャンクセクション 8 個分）。",
+    "command_translation.help.argument.execute.if.blocks.start": "ソース領域の 1 つの角。x y z。",
+    "command_translation.help.argument.execute.if.blocks.start.end": "ソース領域の対角。x y z。start と合わせて領域を定義する。",
+    "command_translation.help.argument.execute.if.blocks.start.end.destination": "対象領域の北西下の角。ソース領域と同じ大きさとみなされる。",
+    "command_translation.help.argument.execute.if.blocks.start.end.destination.all": "一致モード all：空気を含むすべてのブロックを比較する。",
+    "command_translation.help.argument.execute.if.blocks.start.end.destination.masked": "一致モード masked：比較時にソース領域の空気ブロックを無視する。",
+    "command_translation.help.argument.execute.if.data": "条件：ブロックエンティティ・エンティティ・ストレージが、指定した NBT パスにタグを持っているかをテストする。",
+    "command_translation.help.argument.execute.if.data.block": "データ対象はブロックエンティティ。",
+    "command_translation.help.argument.execute.if.data.block.sourcePos": "テストするブロックエンティティのブロック位置。x y z。",
+    "command_translation.help.argument.execute.if.data.block.sourcePos.path": "少なくとも 1 つのタグに解決される必要がある NBT パス。",
+    "command_translation.help.argument.execute.if.data.entity": "データ対象は単一のエンティティ。",
+    "command_translation.help.argument.execute.if.data.entity.source": "テストする単一のエンティティ：プレイヤー名、ターゲットセレクター、または UUID。",
+    "command_translation.help.argument.execute.if.data.entity.source.path": "少なくとも 1 つのタグに解決される必要がある NBT パス。",
+    "command_translation.help.argument.execute.if.data.storage": "データ対象はコマンドストレージ。",
+    "command_translation.help.argument.execute.if.data.storage.source": "テストするストレージの資源位置 ID。",
+    "command_translation.help.argument.execute.if.data.storage.source.path": "少なくとも 1 つのタグに解決される必要がある NBT パス。",
+    "command_translation.help.argument.execute.if.dimension": "条件：実行されている次元をテストする。",
+    "command_translation.help.argument.execute.if.dimension.dimension": "一致させる次元 ID。例：minecraft:the_nether。",
+    "command_translation.help.argument.execute.if.entity": "条件：セレクターに一致するエンティティが存在するかをテストする。",
+    "command_translation.help.argument.execute.if.entity.entities": "探すエンティティ：プレイヤー名、ターゲットセレクター、または UUID。結果値は一致した数。",
+    "command_translation.help.argument.execute.if.loaded": "条件：ある位置のチャンクが完全に読み込まれているか（エンティティティック中か）をテストする。Java 版。",
+    "command_translation.help.argument.execute.if.loaded.pos": "テストするブロック位置。x y z。",
+    "command_translation.help.argument.execute.if.predicate": "条件：述語（predicate）を評価する。Java 版。",
+    "command_translation.help.argument.execute.if.predicate.predicate": "評価する述語：登録済み predicate の ID、またはインライン SNBT の述語定義。",
+    "command_translation.help.argument.execute.if.score": "条件：あるスコアを別のスコア、または両端を含む範囲と比較する。Java 版。",
+    "command_translation.help.argument.execute.if.score.target": "スコアをテストする単一のスコア保持者：ターゲットセレクター、プレイヤー名、または UUID（ここでは * ワイルドカードは使えない）。",
+    "command_translation.help.argument.execute.if.score.target.targetObjective": "対象のスコアを読み取るオブジェクト。存在している必要がある。",
+    "command_translation.help.argument.execute.if.score.target.targetObjective.op": "2 つのスコア間の比較演算子：<、<=、=、>=、または >。",
+    "command_translation.help.argument.execute.if.score.target.targetObjective.op.source": "右側のスコアを与えるスコア保持者：ターゲットセレクター、プレイヤー名、または UUID。",
+    "command_translation.help.argument.execute.if.score.target.targetObjective.op.source.sourceObjective": "ソースのスコアを読み取るオブジェクト。",
+    "command_translation.help.argument.execute.if.score.target.targetObjective.matches": "比較オプション matches：別のスコアではなく、両端を含む整数範囲と 1 つのスコアを比較する。",
+    "command_translation.help.argument.execute.if.score.target.targetObjective.matches.range": "整数範囲。例：5（ちょうど 5）、..5（5 以下）、5..（5 以上）、5..10。",
+    "command_translation.help.argument.execute.in": "修飾子：実行する次元を変更する。オーバーワールドとネザーの間で、相対座標とローカル座標の x・z が 8 倍で換算される。",
+    "command_translation.help.argument.execute.in.dimension": "実行する次元。例：minecraft:the_end。",
+    "command_translation.help.argument.execute.on": "実行者を指定した関係にあるエンティティへ変更する。",
+    "command_translation.help.argument.execute.on.attacker": "関係 attacker：直近 5 秒以内に現在の実行者を最後に傷つけたエンティティ。",
+    "command_translation.help.argument.execute.on.controller": "関係 controller：現在の実行者に乗って操作しているエンティティ。",
+    "command_translation.help.argument.execute.on.leasher": "関係 leasher：現在の実行者をリードで引いているエンティティ。",
+    "command_translation.help.argument.execute.on.origin": "関係 origin：現在の実行者を生み出した原因のエンティティ。例：矢を放った射手、TNT の点火者。",
+    "command_translation.help.argument.execute.on.owner": "関係 owner：現在の実行者が手なずけられる動物なら、その飼い主。",
+    "command_translation.help.argument.execute.on.passengers": "関係 passengers：現在の実行者に直接乗っているすべてのエンティティ（分岐することがある）。",
+    "command_translation.help.argument.execute.on.target": "関係 target：現在の実行者が攻撃しようとしているエンティティ。",
+    "command_translation.help.argument.execute.on.vehicle": "関係 vehicle：現在の実行者が乗っているエンティティ。",
+    "command_translation.help.argument.execute.positioned": "修飾子：実行位置を設定する。向きや次元は変えない。",
+    "command_translation.help.argument.execute.positioned.as": "positioned オプション：選択したエンティティの位置をコピーする。",
+    "command_translation.help.argument.execute.positioned.as.targets": "位置をコピーするエンティティ。複数選ぶと分岐する。",
+    "command_translation.help.argument.execute.positioned.over": "positioned オプション：現在の x と z で、あるハイトマップの最上部に実行位置を置く。",
+    "command_translation.help.argument.execute.positioned.over.heightmap": "実行高度を決める地表の種類。",
+    "command_translation.help.argument.execute.positioned.pos": "positioned オプション：明示的な座標 x y z（小数可）。実行アンカーも足にリセットする。",
+    "command_translation.help.argument.execute.rotated": "修飾子：実行の向きを、yaw と pitch（度）で設定する。",
+    "command_translation.help.argument.execute.rotated.as": "rotated オプション：選択したエンティティの向きをコピーする。",
+    "command_translation.help.argument.execute.rotated.as.targets": "向きをコピーするエンティティ。複数選ぶと分岐する。",
+    "command_translation.help.argument.execute.rotated.rot": "実行時の水平方向と垂直方向の向き。",
+    "command_translation.help.argument.execute.run": "サブコマンドの連鎖を終了し、変更されたコンテキストで指定したコマンドを実行する。run の後に入力したものが実行するコマンドになる。",
+    "command_translation.help.argument.execute.store": "修飾子：最後のサブコマンドの出力値を記録し、連鎖の終了後に選んだ場所へ書き込む。出力は整数（切り捨て後、scale が適用される）。Java 版。",
+    "command_translation.help.argument.execute.store.result": "最後のサブコマンドの結果値（個数など、コマンドの実際の出力）を保存する。",
+    "command_translation.help.argument.execute.store.block": "保存先 block：ブロックエンティティの NBT の指定した NBT パスに書き込む。",
+    "command_translation.help.argument.execute.store.block.targetPos": "値を受け取るブロックエンティティのブロック位置。x y z。",
+    "command_translation.help.argument.execute.store.block.targetPos.path": "値を書き込むブロックエンティティ内の NBT パス。",
+    "command_translation.help.argument.execute.store.type.byte": "byte タグとして保存：8 ビット整数、-128 から 127。出力は切り捨ててから scale を掛ける。",
+    "command_translation.help.argument.execute.store.scale": "保存前に（切り捨てた）出力へ掛ける倍率。double で既定は 1、負の値も可。",
+    "command_translation.help.argument.execute.store.type.double": "double タグとして保存：倍精度。SNBT では末尾に d を付けて書く（例：1.0d）。",
+    "command_translation.help.argument.execute.store.type.float": "float タグとして保存：単精度。SNBT では末尾に f を付けて書く（例：1.0f）。",
+    "command_translation.help.argument.execute.store.type.int": "int タグとして保存：32 ビット整数、-2147483648 から 2147483647。",
+    "command_translation.help.argument.execute.store.type.long": "long タグとして保存：64 ビット整数。SNBT では末尾に L を付けて書く。",
+    "command_translation.help.argument.execute.store.type.short": "short タグとして保存：16 ビット整数、-32768 から 32767。",
+    "command_translation.help.argument.execute.store.bossbar": "保存先 bossbar：値をボスバーの現在値または最大値に書き込む。",
+    "command_translation.help.argument.execute.store.bossbar.id": "ボスバーの資源位置 ID。",
+    "command_translation.help.argument.execute.store.bossbar.id.max": "ボスバーの最大値に書き込む。",
+    "command_translation.help.argument.execute.store.bossbar.id.value": "ボスバーの現在値に書き込む。",
+    "command_translation.help.argument.execute.store.entity": "保存先 entity：エンティティの NBT に書き込む。プレイヤーの NBT はこの方法では変更できない。",
+    "command_translation.help.argument.execute.store.entity.target": "書き込む単一のエンティティ：プレイヤー名、ターゲットセレクター、または UUID。",
+    "command_translation.help.argument.execute.store.entity.target.path": "値を書き込むエンティティ内の NBT パス。",
+    "command_translation.help.argument.execute.store.score": "保存先 score：オブジェクト内のスコア保持者のスコアを上書きする。",
+    "command_translation.help.argument.execute.store.score.targets": "スコアを上書きされるスコア保持者：ターゲットセレクター、プレイヤー名、UUID、または *（記録されている全保持者）。",
+    "command_translation.help.argument.execute.store.score.targets.objective": "スコアを上書きするオブジェクト。存在している必要がある。",
+    "command_translation.help.argument.execute.store.storage": "保存先 storage：コマンドストレージの NBT に書き込む。ストレージが無ければ作成される。",
+    "command_translation.help.argument.execute.store.storage.target": "対象ストレージの資源位置 ID。",
+    "command_translation.help.argument.execute.store.storage.target.path": "値を書き込むストレージ内の NBT パス。",
+    "command_translation.help.argument.execute.store.success": "最後のサブコマンドの成功値を保存する：通常は成功で 1、失敗で 0。",
+    "command_translation.help.argument.execute.summon": "修飾子：実行位置にエンティティを召喚し、それを新しい実行者にする。Java 版。",
+    "command_translation.help.argument.execute.summon.entity": "召喚して実行者にするエンティティの種類。",
+    "command_translation.help.argument.execute.if.function": "条件：関数または関数タグを実行し、0 以外の値を返したときだけ続行する。連鎖の末尾には置けない。Java 版。",
+    "command_translation.help.argument.execute.if.function.name": "実行する関数または関数タグ：資源位置、または # で始まる関数タグ。",
+    "command_translation.help.argument.execute.if.items": "条件：インベントリスロットに一致するアイテムがあるかをテストする。Java 版。",
+    "command_translation.help.argument.execute.if.items.block": "items 条件の対象はコンテナブロック。",
+    "command_translation.help.argument.execute.if.items.block.pos": "テストするコンテナブロックのブロック位置。x y z。",
+    "command_translation.help.argument.execute.if.items.block.pos.slots": "テストするスロット。slot_type または slot_type.number で書き、複数のスロット型を挙げてもよい。",
+    "command_translation.help.argument.execute.if.items.block.pos.slots.item_predicate": "一致させるアイテムまたはアイテムタグ。item_id[tests] で書き、# 付きのアイテムタグやブロックタグも使え、tests は省略できる。",
+    "command_translation.help.argument.execute.if.items.entity": "items 条件の対象はエンティティ。",
+    "command_translation.help.argument.execute.if.items.entity.entities": "スロットをテストするエンティティ：プレイヤー名、ターゲットセレクター、または UUID。",
+    "command_translation.help.argument.execute.if.items.entity.entities.slots": "各エンティティでテストするスロット。slot_type または slot_type.number で書く。",
+    "command_translation.help.argument.execute.if.items.entity.entities.slots.item_predicate": "一致させるアイテムまたはアイテムタグ。item_id[tests] で書く。",
+    "command_translation.help.argument.execute.if.stopwatch": "条件：ストップウォッチの経過時間（秒）を範囲と比較する。Java 版、1.21.11 以降。",
+    "command_translation.help.argument.execute.if.stopwatch.id": "読み取るストップウォッチ。資源位置 ID で指定する。",
+    "command_translation.help.argument.execute.if.stopwatch.id.range": "比較する秒数の範囲。0.5、..1.0、1.0.. のような浮動小数点の範囲。",
+    "command_translation.help.value.execute.anchored.anchor.eyes": "eyes：エンティティの目を基準にローカル座標と向きを測る。",
+    "command_translation.help.value.execute.anchored.anchor.feet": "feet：エンティティの足を基準に測る（既定）。",
+    "command_translation.help.value.execute.facing.entity.targets.anchor.eyes": "eyes：選んだ対象エンティティの目を見るよう実行方向を変える。見る先の点を選ぶ指定であり、実行者自身の基準点ではない。",
+    "command_translation.help.value.execute.facing.entity.targets.anchor.feet": "feet：選んだ対象エンティティの足元を見るよう実行方向を変える。",
+    "command_translation.help.value.execute.positioned.over.heightmap.world_surface": "world_surface：最も高い非空気ブロック。",
+    "command_translation.help.value.execute.positioned.over.heightmap.motion_blocking": "motion_blocking：移動を妨げるか液体を含む最も高いブロック（葉や水など）。",
+    "command_translation.help.value.execute.positioned.over.heightmap.motion_blocking_no_leaves": "motion_blocking_no_leaves：motion_blocking と同じだが、葉は数えない。",
+    "command_translation.help.value.execute.positioned.over.heightmap.ocean_floor": "ocean_floor：上にある液体を無視し、移動を妨げる最も高いブロック。水面ではなく海底や湖底などの地面を探す。"
+  },
+  "syntax": [
+    {
+      "path": "execute",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.align",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.align.axes",
+      "type": "argument",
+      "parser": "minecraft:swizzle",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.anchored",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.anchored.anchor",
+      "type": "argument",
+      "parser": "minecraft:entity_anchor",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.as",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.as.targets",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.at",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.at.targets",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.facing",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.facing.entity",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.facing.entity.targets",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.facing.entity.targets.anchor",
+      "type": "argument",
+      "parser": "minecraft:entity_anchor",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.facing.pos",
+      "type": "argument",
+      "parser": "minecraft:vec3",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.biome",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.biome.pos",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.biome.pos.biome",
+      "type": "argument",
+      "parser": "minecraft:resource_or_tag",
+      "properties": {
+        "registry": "minecraft:worldgen/biome"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.block",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.block.pos",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.block.pos.block",
+      "type": "argument",
+      "parser": "minecraft:block_predicate",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.blocks",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.blocks.start",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.blocks.start.end",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.blocks.start.end.destination",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.blocks.start.end.destination.all",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.blocks.start.end.destination.masked",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.data",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.data.block",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.data.block.sourcePos",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.data.block.sourcePos.path",
+      "type": "argument",
+      "parser": "minecraft:nbt_path",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.data.entity",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.data.entity.source",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "single"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.data.entity.source.path",
+      "type": "argument",
+      "parser": "minecraft:nbt_path",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.data.storage",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.data.storage.source",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.data.storage.source.path",
+      "type": "argument",
+      "parser": "minecraft:nbt_path",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.dimension",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.dimension.dimension",
+      "type": "argument",
+      "parser": "minecraft:dimension",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.entity",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.entity.entities",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.loaded",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.loaded.pos",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.predicate",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.predicate.predicate",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1"
+      ]
+    },
+    {
+      "path": "execute.if.score",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.score.target",
+      "type": "argument",
+      "parser": "minecraft:score_holder",
+      "properties": {
+        "amount": "single"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.score.target.targetObjective",
+      "type": "argument",
+      "parser": "minecraft:objective",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.score.target.targetObjective.<",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.score.target.targetObjective.<.source",
+      "type": "argument",
+      "parser": "minecraft:score_holder",
+      "properties": {
+        "amount": "single"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.score.target.targetObjective.<.source.sourceObjective",
+      "type": "argument",
+      "parser": "minecraft:objective",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.score.target.targetObjective.<=",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.score.target.targetObjective.<=.source",
+      "type": "argument",
+      "parser": "minecraft:score_holder",
+      "properties": {
+        "amount": "single"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.score.target.targetObjective.<=.source.sourceObjective",
+      "type": "argument",
+      "parser": "minecraft:objective",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.score.target.targetObjective.=",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.score.target.targetObjective.=.source",
+      "type": "argument",
+      "parser": "minecraft:score_holder",
+      "properties": {
+        "amount": "single"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.score.target.targetObjective.=.source.sourceObjective",
+      "type": "argument",
+      "parser": "minecraft:objective",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.score.target.targetObjective.>",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.score.target.targetObjective.>.source",
+      "type": "argument",
+      "parser": "minecraft:score_holder",
+      "properties": {
+        "amount": "single"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.score.target.targetObjective.>.source.sourceObjective",
+      "type": "argument",
+      "parser": "minecraft:objective",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.score.target.targetObjective.>=",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.score.target.targetObjective.>=.source",
+      "type": "argument",
+      "parser": "minecraft:score_holder",
+      "properties": {
+        "amount": "single"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.score.target.targetObjective.>=.source.sourceObjective",
+      "type": "argument",
+      "parser": "minecraft:objective",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.score.target.targetObjective.matches",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.score.target.targetObjective.matches.range",
+      "type": "argument",
+      "parser": "minecraft:int_range",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.in",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.in.dimension",
+      "type": "argument",
+      "parser": "minecraft:dimension",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.on",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.on.attacker",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.on.controller",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.on.leasher",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.on.origin",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.on.owner",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.on.passengers",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.on.target",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.on.vehicle",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.positioned",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.positioned.as",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.positioned.as.targets",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.positioned.over",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.positioned.over.heightmap",
+      "type": "argument",
+      "parser": "minecraft:heightmap",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.positioned.pos",
+      "type": "argument",
+      "parser": "minecraft:vec3",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.rotated",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.rotated.as",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.rotated.as.targets",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.rotated.rot",
+      "type": "argument",
+      "parser": "minecraft:rotation",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.run",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.block",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.block.targetPos",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.block.targetPos.path",
+      "type": "argument",
+      "parser": "minecraft:nbt_path",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.block.targetPos.path.byte",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.block.targetPos.path.byte.scale",
+      "type": "argument",
+      "parser": "brigadier:double",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.block.targetPos.path.double",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.block.targetPos.path.double.scale",
+      "type": "argument",
+      "parser": "brigadier:double",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.block.targetPos.path.float",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.block.targetPos.path.float.scale",
+      "type": "argument",
+      "parser": "brigadier:double",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.block.targetPos.path.int",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.block.targetPos.path.int.scale",
+      "type": "argument",
+      "parser": "brigadier:double",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.block.targetPos.path.long",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.block.targetPos.path.long.scale",
+      "type": "argument",
+      "parser": "brigadier:double",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.block.targetPos.path.short",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.block.targetPos.path.short.scale",
+      "type": "argument",
+      "parser": "brigadier:double",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.bossbar",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.bossbar.id",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.bossbar.id.max",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.bossbar.id.value",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.entity",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.entity.target",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "single"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.entity.target.path",
+      "type": "argument",
+      "parser": "minecraft:nbt_path",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.entity.target.path.byte",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.entity.target.path.byte.scale",
+      "type": "argument",
+      "parser": "brigadier:double",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.entity.target.path.double",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.entity.target.path.double.scale",
+      "type": "argument",
+      "parser": "brigadier:double",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.entity.target.path.float",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.entity.target.path.float.scale",
+      "type": "argument",
+      "parser": "brigadier:double",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.entity.target.path.int",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.entity.target.path.int.scale",
+      "type": "argument",
+      "parser": "brigadier:double",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.entity.target.path.long",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.entity.target.path.long.scale",
+      "type": "argument",
+      "parser": "brigadier:double",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.entity.target.path.short",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.entity.target.path.short.scale",
+      "type": "argument",
+      "parser": "brigadier:double",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.score",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.score.targets",
+      "type": "argument",
+      "parser": "minecraft:score_holder",
+      "properties": {
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.score.targets.objective",
+      "type": "argument",
+      "parser": "minecraft:objective",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.storage",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.storage.target",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.storage.target.path",
+      "type": "argument",
+      "parser": "minecraft:nbt_path",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.storage.target.path.byte",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.storage.target.path.byte.scale",
+      "type": "argument",
+      "parser": "brigadier:double",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.storage.target.path.double",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.storage.target.path.double.scale",
+      "type": "argument",
+      "parser": "brigadier:double",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.storage.target.path.float",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.storage.target.path.float.scale",
+      "type": "argument",
+      "parser": "brigadier:double",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.storage.target.path.int",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.storage.target.path.int.scale",
+      "type": "argument",
+      "parser": "brigadier:double",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.storage.target.path.long",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.storage.target.path.long.scale",
+      "type": "argument",
+      "parser": "brigadier:double",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.storage.target.path.short",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.result.storage.target.path.short.scale",
+      "type": "argument",
+      "parser": "brigadier:double",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.block",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.block.targetPos",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.block.targetPos.path",
+      "type": "argument",
+      "parser": "minecraft:nbt_path",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.block.targetPos.path.byte",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.block.targetPos.path.byte.scale",
+      "type": "argument",
+      "parser": "brigadier:double",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.block.targetPos.path.double",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.block.targetPos.path.double.scale",
+      "type": "argument",
+      "parser": "brigadier:double",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.block.targetPos.path.float",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.block.targetPos.path.float.scale",
+      "type": "argument",
+      "parser": "brigadier:double",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.block.targetPos.path.int",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.block.targetPos.path.int.scale",
+      "type": "argument",
+      "parser": "brigadier:double",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.block.targetPos.path.long",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.block.targetPos.path.long.scale",
+      "type": "argument",
+      "parser": "brigadier:double",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.block.targetPos.path.short",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.block.targetPos.path.short.scale",
+      "type": "argument",
+      "parser": "brigadier:double",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.bossbar",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.bossbar.id",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.bossbar.id.max",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.bossbar.id.value",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.entity",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.entity.target",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "single"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.entity.target.path",
+      "type": "argument",
+      "parser": "minecraft:nbt_path",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.entity.target.path.byte",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.entity.target.path.byte.scale",
+      "type": "argument",
+      "parser": "brigadier:double",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.entity.target.path.double",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.entity.target.path.double.scale",
+      "type": "argument",
+      "parser": "brigadier:double",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.entity.target.path.float",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.entity.target.path.float.scale",
+      "type": "argument",
+      "parser": "brigadier:double",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.entity.target.path.int",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.entity.target.path.int.scale",
+      "type": "argument",
+      "parser": "brigadier:double",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.entity.target.path.long",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.entity.target.path.long.scale",
+      "type": "argument",
+      "parser": "brigadier:double",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.entity.target.path.short",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.entity.target.path.short.scale",
+      "type": "argument",
+      "parser": "brigadier:double",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.score",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.score.targets",
+      "type": "argument",
+      "parser": "minecraft:score_holder",
+      "properties": {
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.score.targets.objective",
+      "type": "argument",
+      "parser": "minecraft:objective",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.storage",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.storage.target",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.storage.target.path",
+      "type": "argument",
+      "parser": "minecraft:nbt_path",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.storage.target.path.byte",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.storage.target.path.byte.scale",
+      "type": "argument",
+      "parser": "brigadier:double",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.storage.target.path.double",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.storage.target.path.double.scale",
+      "type": "argument",
+      "parser": "brigadier:double",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.storage.target.path.float",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.storage.target.path.float.scale",
+      "type": "argument",
+      "parser": "brigadier:double",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.storage.target.path.int",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.storage.target.path.int.scale",
+      "type": "argument",
+      "parser": "brigadier:double",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.storage.target.path.long",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.storage.target.path.long.scale",
+      "type": "argument",
+      "parser": "brigadier:double",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.storage.target.path.short",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.store.success.storage.target.path.short.scale",
+      "type": "argument",
+      "parser": "brigadier:double",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.summon",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.summon.entity",
+      "type": "argument",
+      "parser": "minecraft:resource",
+      "properties": {
+        "registry": "minecraft:entity_type"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.biome",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.biome.pos",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.biome.pos.biome",
+      "type": "argument",
+      "parser": "minecraft:resource_or_tag",
+      "properties": {
+        "registry": "minecraft:worldgen/biome"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.block",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.block.pos",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.block.pos.block",
+      "type": "argument",
+      "parser": "minecraft:block_predicate",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.blocks",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.blocks.start",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.blocks.start.end",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.blocks.start.end.destination",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.blocks.start.end.destination.all",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.blocks.start.end.destination.masked",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.data",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.data.block",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.data.block.sourcePos",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.data.block.sourcePos.path",
+      "type": "argument",
+      "parser": "minecraft:nbt_path",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.data.entity",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.data.entity.source",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "single"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.data.entity.source.path",
+      "type": "argument",
+      "parser": "minecraft:nbt_path",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.data.storage",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.data.storage.source",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.data.storage.source.path",
+      "type": "argument",
+      "parser": "minecraft:nbt_path",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.dimension",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.dimension.dimension",
+      "type": "argument",
+      "parser": "minecraft:dimension",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.entity",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.entity.entities",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.loaded",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.loaded.pos",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.predicate",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.predicate.predicate",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1"
+      ]
+    },
+    {
+      "path": "execute.unless.score",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.score.target",
+      "type": "argument",
+      "parser": "minecraft:score_holder",
+      "properties": {
+        "amount": "single"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.score.target.targetObjective",
+      "type": "argument",
+      "parser": "minecraft:objective",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.score.target.targetObjective.<",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.score.target.targetObjective.<.source",
+      "type": "argument",
+      "parser": "minecraft:score_holder",
+      "properties": {
+        "amount": "single"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.score.target.targetObjective.<.source.sourceObjective",
+      "type": "argument",
+      "parser": "minecraft:objective",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.score.target.targetObjective.<=",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.score.target.targetObjective.<=.source",
+      "type": "argument",
+      "parser": "minecraft:score_holder",
+      "properties": {
+        "amount": "single"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.score.target.targetObjective.<=.source.sourceObjective",
+      "type": "argument",
+      "parser": "minecraft:objective",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.score.target.targetObjective.=",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.score.target.targetObjective.=.source",
+      "type": "argument",
+      "parser": "minecraft:score_holder",
+      "properties": {
+        "amount": "single"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.score.target.targetObjective.=.source.sourceObjective",
+      "type": "argument",
+      "parser": "minecraft:objective",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.score.target.targetObjective.>",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.score.target.targetObjective.>.source",
+      "type": "argument",
+      "parser": "minecraft:score_holder",
+      "properties": {
+        "amount": "single"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.score.target.targetObjective.>.source.sourceObjective",
+      "type": "argument",
+      "parser": "minecraft:objective",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.score.target.targetObjective.>=",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.score.target.targetObjective.>=.source",
+      "type": "argument",
+      "parser": "minecraft:score_holder",
+      "properties": {
+        "amount": "single"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.score.target.targetObjective.>=.source.sourceObjective",
+      "type": "argument",
+      "parser": "minecraft:objective",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.score.target.targetObjective.matches",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.score.target.targetObjective.matches.range",
+      "type": "argument",
+      "parser": "minecraft:int_range",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.function",
+      "type": "literal",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.function.name",
+      "type": "argument",
+      "parser": "minecraft:function",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.items",
+      "type": "literal",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.items.block",
+      "type": "literal",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.items.block.pos",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.items.block.pos.slots",
+      "type": "argument",
+      "parser": "minecraft:item_slots",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.items.block.pos.slots.item_predicate",
+      "type": "argument",
+      "parser": "minecraft:item_predicate",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.items.entity",
+      "type": "literal",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.items.entity.entities",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.items.entity.entities.slots",
+      "type": "argument",
+      "parser": "minecraft:item_slots",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.items.entity.entities.slots.item_predicate",
+      "type": "argument",
+      "parser": "minecraft:item_predicate",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.predicate.predicate",
+      "type": "argument",
+      "parser": "minecraft:loot_predicate",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.function",
+      "type": "literal",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.function.name",
+      "type": "argument",
+      "parser": "minecraft:function",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.items",
+      "type": "literal",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.items.block",
+      "type": "literal",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.items.block.pos",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.items.block.pos.slots",
+      "type": "argument",
+      "parser": "minecraft:item_slots",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.items.block.pos.slots.item_predicate",
+      "type": "argument",
+      "parser": "minecraft:item_predicate",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.items.entity",
+      "type": "literal",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.items.entity.entities",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.items.entity.entities.slots",
+      "type": "argument",
+      "parser": "minecraft:item_slots",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.items.entity.entities.slots.item_predicate",
+      "type": "argument",
+      "parser": "minecraft:item_predicate",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.predicate.predicate",
+      "type": "argument",
+      "parser": "minecraft:loot_predicate",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.stopwatch",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.stopwatch.id",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.if.stopwatch.id.range",
+      "type": "argument",
+      "parser": "minecraft:float_range",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.stopwatch",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.stopwatch.id",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "execute.unless.stopwatch.id.range",
+      "type": "argument",
+      "parser": "minecraft:float_range",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

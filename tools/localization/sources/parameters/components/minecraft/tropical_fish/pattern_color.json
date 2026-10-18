@@ -1,0 +1,318 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color": "The color of the tropical fish’s markings.",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.white": "White markings.",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.orange": "Orange markings.",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.magenta": "Magenta markings.",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.light_blue": "Light blue markings.",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.yellow": "Yellow markings.",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.lime": "Lime markings.",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.pink": "Pink markings.",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.gray": "Gray markings.",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.light_gray": "Light gray markings.",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.cyan": "Cyan markings.",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.purple": "Purple markings.",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.blue": "Blue markings.",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.brown": "Brown markings.",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.green": "Green markings.",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.red": "Red markings.",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.black": "Black markings."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color": "热带鱼身上花纹的颜色。",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.white": "热带鱼的花纹为白色。",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.orange": "热带鱼的花纹为橙色。",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.magenta": "热带鱼的花纹为品红色。",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.light_blue": "热带鱼的花纹为淡蓝色。",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.yellow": "热带鱼的花纹为黄色。",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.lime": "热带鱼的花纹为黄绿色。",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.pink": "热带鱼的花纹为粉红色。",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.gray": "热带鱼的花纹为灰色。",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.light_gray": "热带鱼的花纹为淡灰色。",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.cyan": "热带鱼的花纹为青色。",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.purple": "热带鱼的花纹为紫色。",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.blue": "热带鱼的花纹为蓝色。",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.brown": "热带鱼的花纹为棕色。",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.green": "热带鱼的花纹为绿色。",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.red": "热带鱼的花纹为红色。",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.black": "热带鱼的花纹为黑色。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color": "Die Musterfarbe des Tropenfisches.",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.white": "Musterfarbe: Weiß.",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.orange": "Musterfarbe: Orange.",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.magenta": "Musterfarbe: Magenta.",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.light_blue": "Musterfarbe: Hellblau.",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.yellow": "Musterfarbe: Gelb.",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.lime": "Musterfarbe: Hellgrün.",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.pink": "Musterfarbe: Rosa.",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.gray": "Musterfarbe: Grau.",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.light_gray": "Musterfarbe: Hellgrau.",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.cyan": "Musterfarbe: Türkis.",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.purple": "Musterfarbe: Violett.",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.blue": "Musterfarbe: Blau.",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.brown": "Musterfarbe: Braun.",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.green": "Musterfarbe: Grün.",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.red": "Musterfarbe: Rot.",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.black": "Musterfarbe: Schwarz."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color": "熱帯魚の模様の色。",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.white": "熱帯魚の模様の色：白色。",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.orange": "熱帯魚の模様の色：橙色。",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.magenta": "熱帯魚の模様の色：赤紫色。",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.light_blue": "熱帯魚の模様の色：空色。",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.yellow": "熱帯魚の模様の色：黄色。",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.lime": "熱帯魚の模様の色：黄緑色。",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.pink": "熱帯魚の模様の色：桃色。",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.gray": "熱帯魚の模様の色：灰色。",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.light_gray": "熱帯魚の模様の色：薄灰色。",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.cyan": "熱帯魚の模様の色：青緑色。",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.purple": "熱帯魚の模様の色：紫色。",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.blue": "熱帯魚の模様の色：青色。",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.brown": "熱帯魚の模様の色：茶色。",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.green": "熱帯魚の模様の色：緑色。",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.red": "熱帯魚の模様の色：赤色。",
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.black": "熱帯魚の模様の色：黒色。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.white": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.orange": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.magenta": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.light_blue": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.yellow": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.lime": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.pink": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.gray": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.light_gray": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.cyan": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.purple": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.blue": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.brown": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.green": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.red": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:tropical_fish/pattern_color.value.black": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ]
+  }
+}

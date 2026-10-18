@@ -1,0 +1,54 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:use_cooldown": "Applies a use cooldown to all items of the same type after this item is used.",
+    "command_translation.help.component.minecraft:use_cooldown.field.seconds": "The cooldown duration in seconds.",
+    "command_translation.help.component.minecraft:use_cooldown.field.cooldown_group": "A resource location placing the item in a shared cooldown group."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:use_cooldown": "使用该物品后，对同类型的所有物品施加使用冷却。",
+    "command_translation.help.component.minecraft:use_cooldown.field.seconds": "冷却持续时间（秒）。",
+    "command_translation.help.component.minecraft:use_cooldown.field.cooldown_group": "将该物品放入共享冷却组的资源位置。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:use_cooldown": "Wendet nach der Benutzung dieses Items einen Nutzungs-Cooldown auf alle Items desselben Typs an.",
+    "command_translation.help.component.minecraft:use_cooldown.field.seconds": "Die Cooldown-Dauer in Sekunden.",
+    "command_translation.help.component.minecraft:use_cooldown.field.cooldown_group": "Ein Ressourcenpfad, der das Item in eine gemeinsame Cooldown-Gruppe einordnet."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:use_cooldown": "このアイテムを使用すると、同じ種類の全アイテムに使用クールダウンを適用する。",
+    "command_translation.help.component.minecraft:use_cooldown.field.seconds": "クールダウンの持続時間（秒）。",
+    "command_translation.help.component.minecraft:use_cooldown.field.cooldown_group": "アイテムを共有クールダウングループに入れるリソース位置。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:use_cooldown": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:use_cooldown.field.seconds": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:use_cooldown.field.cooldown_group": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

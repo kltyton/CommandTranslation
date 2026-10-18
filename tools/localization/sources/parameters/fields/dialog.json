@@ -1,0 +1,1132 @@
+{
+  "en_us": {
+    "command_translation.help.dialog.field.type": "Dialog type: notice, confirmation, multi_action, server_links or dialog_list.",
+    "command_translation.help.dialog.field.title": "Screen title text component, always shown.",
+    "command_translation.help.dialog.field.external_title": "Name used for a button leading to this dialog; falls back to the title.",
+    "command_translation.help.dialog.field.body": "Optional body element, or list of them, shown between the title and the actions.",
+    "command_translation.help.dialog.field.body.type": "Body element type: plain_message or item.",
+    "command_translation.help.dialog.field.body.contents": "Text shown by a plain_message body element.",
+    "command_translation.help.dialog.field.body.width": "Maximum width of the body element.",
+    "command_translation.help.dialog.field.body.item": "Item stack shown by an item body element.",
+    "command_translation.help.dialog.field.body.item.id": "Resource location of the displayed item.",
+    "command_translation.help.dialog.field.body.item.count": "Number of items in the displayed stack.",
+    "command_translation.help.dialog.field.body.item.components": "Data components of the displayed item.",
+    "command_translation.help.dialog.field.body.description.contents": "Text shown beside the item in an item body element.",
+    "command_translation.help.dialog.field.body.show_decoration": "Whether the item count and damage bar render over the item.",
+    "command_translation.help.dialog.field.body.show_tooltip": "Whether the item's tooltip shows when hovered.",
+    "command_translation.help.dialog.field.body.height": "Vertical size of the item body element.",
+    "command_translation.help.dialog.field.inputs": "Optional list of input controls that receive player input.",
+    "command_translation.help.dialog.field.inputs.type": "Input control type: text, boolean, single_option or number_range.",
+    "command_translation.help.dialog.field.inputs.key": "Identifier of the input's value used when submitting.",
+    "command_translation.help.dialog.field.inputs.label": "Text component shown to the left of the input.",
+    "command_translation.help.dialog.field.inputs.width": "Width of the input control.",
+    "command_translation.help.dialog.field.inputs.label_visible": "Whether the input's label is shown.",
+    "command_translation.help.dialog.field.inputs.initial": "Initial value of the input control.",
+    "command_translation.help.dialog.field.inputs.max_length": "Maximum number of characters allowed in a text input.",
+    "command_translation.help.dialog.field.inputs.multiline": "Present to allow a text input to span multiple lines.",
+    "command_translation.help.dialog.field.inputs.multiline.max_lines": "Maximum number of lines allowed in a multiline text input.",
+    "command_translation.help.dialog.field.inputs.multiline.height": "Height of a multiline text input.",
+    "command_translation.help.dialog.field.inputs.on_true": "Value sent by a boolean input when checked.",
+    "command_translation.help.dialog.field.inputs.on_false": "Value sent by a boolean input when unchecked.",
+    "command_translation.help.dialog.field.inputs.options": "Non-empty list of choices for a single_option input.",
+    "command_translation.help.dialog.field.inputs.options.id": "Value sent when this option is selected.",
+    "command_translation.help.dialog.field.inputs.options.display": "Text component shown for this option.",
+    "command_translation.help.dialog.field.inputs.options.initial": "Whether this option is initially selected.",
+    "command_translation.help.dialog.field.inputs.label_format": "Translation key used to build a number slider's label.",
+    "command_translation.help.dialog.field.inputs.start": "Minimum value of a number slider.",
+    "command_translation.help.dialog.field.inputs.end": "Maximum value of a number slider.",
+    "command_translation.help.dialog.field.inputs.step": "Allowed increment between slider values.",
+    "command_translation.help.dialog.field.can_close_with_escape": "Whether the Escape key can dismiss the dialog.",
+    "command_translation.help.dialog.field.pause": "Whether the dialog pauses the game in single-player.",
+    "command_translation.help.dialog.field.after_action": "Action taken after a click or submit: close, none or wait_for_response.",
+    "command_translation.help.dialog.field.columns": "Number of columns the buttons are arranged in.",
+    "command_translation.help.dialog.field.button_width": "Width of buttons in a dialog list.",
+    "command_translation.help.dialog.field.dialogs": "Dialogs listed by a dialog_list dialog.",
+    "command_translation.help.dialog.field.action": "Footer button of a notice dialog.",
+    "command_translation.help.dialog.field.action.label": "Text component shown on this button.",
+    "command_translation.help.dialog.field.action.tooltip": "Text shown when this button is hovered.",
+    "command_translation.help.dialog.field.action.width": "Width of this button.",
+    "command_translation.help.dialog.field.action.action": "Action performed when this button is clicked.",
+    "command_translation.help.dialog.field.action.action.type": "Action type, such as run_command, open_url or show_dialog.",
+    "command_translation.help.dialog.field.action.action.url": "URL opened by an open_url action.",
+    "command_translation.help.dialog.field.action.action.command": "Command run or suggested by the action.",
+    "command_translation.help.dialog.field.action.action.page": "Page a change_page action switches to.",
+    "command_translation.help.dialog.field.action.action.value": "Text copied by a copy_to_clipboard action.",
+    "command_translation.help.dialog.field.action.action.dialog": "Dialog opened by a show_dialog action.",
+    "command_translation.help.dialog.field.action.action.id": "ID of a custom action event.",
+    "command_translation.help.dialog.field.action.action.payload": "Payload of a custom action event.",
+    "command_translation.help.dialog.field.action.action.template": "Macro template used by a dynamic/run_command action.",
+    "command_translation.help.dialog.field.yes": "Confirmation dialog's positive button.",
+    "command_translation.help.dialog.field.yes.label": "Text component shown on this button.",
+    "command_translation.help.dialog.field.yes.tooltip": "Text shown when this button is hovered.",
+    "command_translation.help.dialog.field.yes.width": "Width of this button.",
+    "command_translation.help.dialog.field.yes.action": "Action performed when this button is clicked.",
+    "command_translation.help.dialog.field.yes.action.type": "Action type, such as run_command, open_url or show_dialog.",
+    "command_translation.help.dialog.field.yes.action.url": "URL opened by an open_url action.",
+    "command_translation.help.dialog.field.yes.action.command": "Command run or suggested by the action.",
+    "command_translation.help.dialog.field.yes.action.page": "Page a change_page action switches to.",
+    "command_translation.help.dialog.field.yes.action.value": "Text copied by a copy_to_clipboard action.",
+    "command_translation.help.dialog.field.yes.action.dialog": "Dialog opened by a show_dialog action.",
+    "command_translation.help.dialog.field.yes.action.id": "ID of a custom action event.",
+    "command_translation.help.dialog.field.yes.action.payload": "Payload of a custom action event.",
+    "command_translation.help.dialog.field.yes.action.template": "Macro template used by a dynamic/run_command action.",
+    "command_translation.help.dialog.field.no": "Confirmation dialog's negative button.",
+    "command_translation.help.dialog.field.no.label": "Text component shown on this button.",
+    "command_translation.help.dialog.field.no.tooltip": "Text shown when this button is hovered.",
+    "command_translation.help.dialog.field.no.width": "Width of this button.",
+    "command_translation.help.dialog.field.no.action": "Action performed when this button is clicked.",
+    "command_translation.help.dialog.field.no.action.type": "Action type, such as run_command, open_url or show_dialog.",
+    "command_translation.help.dialog.field.no.action.url": "URL opened by an open_url action.",
+    "command_translation.help.dialog.field.no.action.command": "Command run or suggested by the action.",
+    "command_translation.help.dialog.field.no.action.page": "Page a change_page action switches to.",
+    "command_translation.help.dialog.field.no.action.value": "Text copied by a copy_to_clipboard action.",
+    "command_translation.help.dialog.field.no.action.dialog": "Dialog opened by a show_dialog action.",
+    "command_translation.help.dialog.field.no.action.id": "ID of a custom action event.",
+    "command_translation.help.dialog.field.no.action.payload": "Payload of a custom action event.",
+    "command_translation.help.dialog.field.no.action.template": "Macro template used by a dynamic/run_command action.",
+    "command_translation.help.dialog.field.actions": "Non-empty list of buttons for a multi_action dialog.",
+    "command_translation.help.dialog.field.actions.label": "Text component shown on this button.",
+    "command_translation.help.dialog.field.actions.tooltip": "Text shown when this button is hovered.",
+    "command_translation.help.dialog.field.actions.width": "Width of this button.",
+    "command_translation.help.dialog.field.actions.action": "Action performed when this button is clicked.",
+    "command_translation.help.dialog.field.actions.action.type": "Action type, such as run_command, open_url or show_dialog.",
+    "command_translation.help.dialog.field.actions.action.url": "URL opened by an open_url action.",
+    "command_translation.help.dialog.field.actions.action.command": "Command run or suggested by the action.",
+    "command_translation.help.dialog.field.actions.action.page": "Page a change_page action switches to.",
+    "command_translation.help.dialog.field.actions.action.value": "Text copied by a copy_to_clipboard action.",
+    "command_translation.help.dialog.field.actions.action.dialog": "Dialog opened by a show_dialog action.",
+    "command_translation.help.dialog.field.actions.action.id": "ID of a custom action event.",
+    "command_translation.help.dialog.field.actions.action.payload": "Payload of a custom action event.",
+    "command_translation.help.dialog.field.actions.action.template": "Macro template used by a dynamic/run_command action.",
+    "command_translation.help.dialog.field.exit_action": "Button used to leave the dialog.",
+    "command_translation.help.dialog.field.exit_action.label": "Text component shown on this button.",
+    "command_translation.help.dialog.field.exit_action.tooltip": "Text shown when this button is hovered.",
+    "command_translation.help.dialog.field.exit_action.width": "Width of this button.",
+    "command_translation.help.dialog.field.exit_action.action": "Action performed when this button is clicked.",
+    "command_translation.help.dialog.field.exit_action.action.type": "Action type, such as run_command, open_url or show_dialog.",
+    "command_translation.help.dialog.field.exit_action.action.url": "URL opened by an open_url action.",
+    "command_translation.help.dialog.field.exit_action.action.command": "Command run or suggested by the action.",
+    "command_translation.help.dialog.field.exit_action.action.page": "Page a change_page action switches to.",
+    "command_translation.help.dialog.field.exit_action.action.value": "Text copied by a copy_to_clipboard action.",
+    "command_translation.help.dialog.field.exit_action.action.dialog": "Dialog opened by a show_dialog action.",
+    "command_translation.help.dialog.field.exit_action.action.id": "ID of a custom action event.",
+    "command_translation.help.dialog.field.exit_action.action.payload": "Payload of a custom action event.",
+    "command_translation.help.dialog.field.exit_action.action.template": "Macro template used by a dynamic/run_command action."
+  },
+  "zh_cn": {
+    "command_translation.help.dialog.field.type": "对话框类型：notice、confirmation、multi_action、server_links 或 dialog_list。",
+    "command_translation.help.dialog.field.title": "屏幕标题文本组件，始终显示。",
+    "command_translation.help.dialog.field.external_title": "指向该对话框的按钮所用名称；缺省时使用标题。",
+    "command_translation.help.dialog.field.body": "可选的正文元素（或其列表），显示在标题与按钮之间。",
+    "command_translation.help.dialog.field.body.type": "正文元素类型：plain_message 或 item。",
+    "command_translation.help.dialog.field.body.contents": "plain_message 正文元素显示的文本。",
+    "command_translation.help.dialog.field.body.width": "正文元素的最大宽度。",
+    "command_translation.help.dialog.field.body.item": "item 正文元素显示的物品堆叠。",
+    "command_translation.help.dialog.field.body.item.id": "所显示物品的资源位置。",
+    "command_translation.help.dialog.field.body.item.count": "所显示堆叠中的物品数量。",
+    "command_translation.help.dialog.field.body.item.components": "所显示物品的数据组件。",
+    "command_translation.help.dialog.field.body.description.contents": "item 正文元素中显示在物品旁边的文本。",
+    "command_translation.help.dialog.field.body.show_decoration": "是否在物品上渲染数量与耐久条。",
+    "command_translation.help.dialog.field.body.show_tooltip": "悬停时是否显示物品提示框。",
+    "command_translation.help.dialog.field.body.height": "item 正文元素的垂直尺寸。",
+    "command_translation.help.dialog.field.inputs": "可选的输入控件列表，用于接收玩家输入。",
+    "command_translation.help.dialog.field.inputs.type": "输入控件类型：text、boolean、single_option 或 number_range。",
+    "command_translation.help.dialog.field.inputs.key": "提交时用于引用该输入值的标识符。",
+    "command_translation.help.dialog.field.inputs.label": "显示在输入控件左侧的文本组件。",
+    "command_translation.help.dialog.field.inputs.width": "输入控件的宽度。",
+    "command_translation.help.dialog.field.inputs.label_visible": "是否显示输入控件的标签。",
+    "command_translation.help.dialog.field.inputs.initial": "输入控件的初始值。",
+    "command_translation.help.dialog.field.inputs.max_length": "文本输入允许的最大字符数。",
+    "command_translation.help.dialog.field.inputs.multiline": "存在时允许文本输入占多行。",
+    "command_translation.help.dialog.field.inputs.multiline.max_lines": "多行文本输入允许的最大行数。",
+    "command_translation.help.dialog.field.inputs.multiline.height": "多行文本输入的高度。",
+    "command_translation.help.dialog.field.inputs.on_true": "布尔输入勾选时发送的值。",
+    "command_translation.help.dialog.field.inputs.on_false": "布尔输入未勾选时发送的值。",
+    "command_translation.help.dialog.field.inputs.options": "single_option 输入的非空选项列表。",
+    "command_translation.help.dialog.field.inputs.options.id": "选中该选项时发送的值。",
+    "command_translation.help.dialog.field.inputs.options.display": "该选项显示的文本组件。",
+    "command_translation.help.dialog.field.inputs.options.initial": "该选项是否初始选中。",
+    "command_translation.help.dialog.field.inputs.label_format": "用于构建数字滑块标签的翻译键。",
+    "command_translation.help.dialog.field.inputs.start": "数字滑块的最小值。",
+    "command_translation.help.dialog.field.inputs.end": "数字滑块的最大值。",
+    "command_translation.help.dialog.field.inputs.step": "滑块取值允许的步长。",
+    "command_translation.help.dialog.field.can_close_with_escape": "是否可以用 Esc 键关闭对话框。",
+    "command_translation.help.dialog.field.pause": "在单人游戏中该对话框是否暂停游戏。",
+    "command_translation.help.dialog.field.after_action": "点击或提交后执行的操作：close、none 或 wait_for_response。",
+    "command_translation.help.dialog.field.columns": "按钮排列的列数。",
+    "command_translation.help.dialog.field.button_width": "对话框列表中按钮的宽度。",
+    "command_translation.help.dialog.field.dialogs": "dialog_list 对话框列出的对话框。",
+    "command_translation.help.dialog.field.action": "notice 对话框底部的按钮。",
+    "command_translation.help.dialog.field.action.label": "该按钮上显示的文本组件。",
+    "command_translation.help.dialog.field.action.tooltip": "悬停该按钮时显示的文本。",
+    "command_translation.help.dialog.field.action.width": "该按钮的宽度。",
+    "command_translation.help.dialog.field.action.action": "点击该按钮时执行的操作。",
+    "command_translation.help.dialog.field.action.action.type": "动作类型，如 run_command、open_url 或 show_dialog。",
+    "command_translation.help.dialog.field.action.action.url": "open_url 动作打开的网址。",
+    "command_translation.help.dialog.field.action.action.command": "动作运行或建议的命令。",
+    "command_translation.help.dialog.field.action.action.page": "change_page 动作切换到的页码。",
+    "command_translation.help.dialog.field.action.action.value": "copy_to_clipboard 动作复制的文本。",
+    "command_translation.help.dialog.field.action.action.dialog": "show_dialog 动作打开的对话框。",
+    "command_translation.help.dialog.field.action.action.id": "自定义动作事件的 ID。",
+    "command_translation.help.dialog.field.action.action.payload": "自定义动作事件的负载。",
+    "command_translation.help.dialog.field.action.action.template": "dynamic/run_command 动作使用的宏模板。",
+    "command_translation.help.dialog.field.yes": "确认对话框的肯定按钮。",
+    "command_translation.help.dialog.field.yes.label": "该按钮上显示的文本组件。",
+    "command_translation.help.dialog.field.yes.tooltip": "悬停该按钮时显示的文本。",
+    "command_translation.help.dialog.field.yes.width": "该按钮的宽度。",
+    "command_translation.help.dialog.field.yes.action": "点击该按钮时执行的操作。",
+    "command_translation.help.dialog.field.yes.action.type": "动作类型，如 run_command、open_url 或 show_dialog。",
+    "command_translation.help.dialog.field.yes.action.url": "open_url 动作打开的网址。",
+    "command_translation.help.dialog.field.yes.action.command": "动作运行或建议的命令。",
+    "command_translation.help.dialog.field.yes.action.page": "change_page 动作切换到的页码。",
+    "command_translation.help.dialog.field.yes.action.value": "copy_to_clipboard 动作复制的文本。",
+    "command_translation.help.dialog.field.yes.action.dialog": "show_dialog 动作打开的对话框。",
+    "command_translation.help.dialog.field.yes.action.id": "自定义动作事件的 ID。",
+    "command_translation.help.dialog.field.yes.action.payload": "自定义动作事件的负载。",
+    "command_translation.help.dialog.field.yes.action.template": "dynamic/run_command 动作使用的宏模板。",
+    "command_translation.help.dialog.field.no": "确认对话框的否定按钮。",
+    "command_translation.help.dialog.field.no.label": "该按钮上显示的文本组件。",
+    "command_translation.help.dialog.field.no.tooltip": "悬停该按钮时显示的文本。",
+    "command_translation.help.dialog.field.no.width": "该按钮的宽度。",
+    "command_translation.help.dialog.field.no.action": "点击该按钮时执行的操作。",
+    "command_translation.help.dialog.field.no.action.type": "动作类型，如 run_command、open_url 或 show_dialog。",
+    "command_translation.help.dialog.field.no.action.url": "open_url 动作打开的网址。",
+    "command_translation.help.dialog.field.no.action.command": "动作运行或建议的命令。",
+    "command_translation.help.dialog.field.no.action.page": "change_page 动作切换到的页码。",
+    "command_translation.help.dialog.field.no.action.value": "copy_to_clipboard 动作复制的文本。",
+    "command_translation.help.dialog.field.no.action.dialog": "show_dialog 动作打开的对话框。",
+    "command_translation.help.dialog.field.no.action.id": "自定义动作事件的 ID。",
+    "command_translation.help.dialog.field.no.action.payload": "自定义动作事件的负载。",
+    "command_translation.help.dialog.field.no.action.template": "dynamic/run_command 动作使用的宏模板。",
+    "command_translation.help.dialog.field.actions": "multi_action 对话框的非空按钮列表。",
+    "command_translation.help.dialog.field.actions.label": "该按钮上显示的文本组件。",
+    "command_translation.help.dialog.field.actions.tooltip": "悬停该按钮时显示的文本。",
+    "command_translation.help.dialog.field.actions.width": "该按钮的宽度。",
+    "command_translation.help.dialog.field.actions.action": "点击该按钮时执行的操作。",
+    "command_translation.help.dialog.field.actions.action.type": "动作类型，如 run_command、open_url 或 show_dialog。",
+    "command_translation.help.dialog.field.actions.action.url": "open_url 动作打开的网址。",
+    "command_translation.help.dialog.field.actions.action.command": "动作运行或建议的命令。",
+    "command_translation.help.dialog.field.actions.action.page": "change_page 动作切换到的页码。",
+    "command_translation.help.dialog.field.actions.action.value": "copy_to_clipboard 动作复制的文本。",
+    "command_translation.help.dialog.field.actions.action.dialog": "show_dialog 动作打开的对话框。",
+    "command_translation.help.dialog.field.actions.action.id": "自定义动作事件的 ID。",
+    "command_translation.help.dialog.field.actions.action.payload": "自定义动作事件的负载。",
+    "command_translation.help.dialog.field.actions.action.template": "dynamic/run_command 动作使用的宏模板。",
+    "command_translation.help.dialog.field.exit_action": "用于离开对话框的按钮。",
+    "command_translation.help.dialog.field.exit_action.label": "该按钮上显示的文本组件。",
+    "command_translation.help.dialog.field.exit_action.tooltip": "悬停该按钮时显示的文本。",
+    "command_translation.help.dialog.field.exit_action.width": "该按钮的宽度。",
+    "command_translation.help.dialog.field.exit_action.action": "点击该按钮时执行的操作。",
+    "command_translation.help.dialog.field.exit_action.action.type": "动作类型，如 run_command、open_url 或 show_dialog。",
+    "command_translation.help.dialog.field.exit_action.action.url": "open_url 动作打开的网址。",
+    "command_translation.help.dialog.field.exit_action.action.command": "动作运行或建议的命令。",
+    "command_translation.help.dialog.field.exit_action.action.page": "change_page 动作切换到的页码。",
+    "command_translation.help.dialog.field.exit_action.action.value": "copy_to_clipboard 动作复制的文本。",
+    "command_translation.help.dialog.field.exit_action.action.dialog": "show_dialog 动作打开的对话框。",
+    "command_translation.help.dialog.field.exit_action.action.id": "自定义动作事件的 ID。",
+    "command_translation.help.dialog.field.exit_action.action.payload": "自定义动作事件的负载。",
+    "command_translation.help.dialog.field.exit_action.action.template": "dynamic/run_command 动作使用的宏模板。"
+  },
+  "de_de": {
+    "command_translation.help.dialog.field.type": "Dialogtyp: notice, confirmation, multi_action, server_links oder dialog_list.",
+    "command_translation.help.dialog.field.title": "Titel-Textkomponente des Bildschirms, immer sichtbar.",
+    "command_translation.help.dialog.field.external_title": "Name für eine Schaltfläche, die zu diesem Dialog führt; sonst der Titel.",
+    "command_translation.help.dialog.field.body": "Optionales Rumpfelement (oder Liste davon) zwischen Titel und Aktionen.",
+    "command_translation.help.dialog.field.body.type": "Typ des Rumpfelements: plain_message oder item.",
+    "command_translation.help.dialog.field.body.contents": "Vom plain_message-Rumpfelement angezeigter Text.",
+    "command_translation.help.dialog.field.body.width": "Maximale Breite des Rumpfelements.",
+    "command_translation.help.dialog.field.body.item": "Vom item-Rumpfelement angezeigter Gegenstandsstapel.",
+    "command_translation.help.dialog.field.body.item.id": "Ressourcenpfad des angezeigten Gegenstands.",
+    "command_translation.help.dialog.field.body.item.count": "Anzahl der Gegenstände im angezeigten Stapel.",
+    "command_translation.help.dialog.field.body.item.components": "Datenkomponenten des angezeigten Gegenstands.",
+    "command_translation.help.dialog.field.body.description.contents": "Text neben dem Gegenstand im item-Rumpfelement.",
+    "command_translation.help.dialog.field.body.show_decoration": "Ob Anzahl und Haltbarkeitsbalken über dem Gegenstand erscheinen.",
+    "command_translation.help.dialog.field.body.show_tooltip": "Ob beim Überfahren der Gegenstands-Tooltip erscheint.",
+    "command_translation.help.dialog.field.body.height": "Vertikale Größe des item-Rumpfelements.",
+    "command_translation.help.dialog.field.inputs": "Optionale Liste von Eingabefeldern für Spielereingaben.",
+    "command_translation.help.dialog.field.inputs.type": "Typ des Eingabefelds: text, boolean, single_option oder number_range.",
+    "command_translation.help.dialog.field.inputs.key": "Kennung des Eingabewerts bei der Übermittlung.",
+    "command_translation.help.dialog.field.inputs.label": "Textkomponente links neben dem Eingabefeld.",
+    "command_translation.help.dialog.field.inputs.width": "Breite des Eingabefelds.",
+    "command_translation.help.dialog.field.inputs.label_visible": "Ob die Beschriftung des Eingabefelds sichtbar ist.",
+    "command_translation.help.dialog.field.inputs.initial": "Anfangswert des Eingabefelds.",
+    "command_translation.help.dialog.field.inputs.max_length": "Maximale Zeichenzahl einer Texteingabe.",
+    "command_translation.help.dialog.field.inputs.multiline": "Vorhanden, damit eine Texteingabe mehrzeilig sein kann.",
+    "command_translation.help.dialog.field.inputs.multiline.max_lines": "Maximale Zeilenzahl einer mehrzeiligen Texteingabe.",
+    "command_translation.help.dialog.field.inputs.multiline.height": "Höhe einer mehrzeiligen Texteingabe.",
+    "command_translation.help.dialog.field.inputs.on_true": "Wert, den ein boolean-Feld gesetzt sendet.",
+    "command_translation.help.dialog.field.inputs.on_false": "Wert, den ein boolean-Feld ungesetzt sendet.",
+    "command_translation.help.dialog.field.inputs.options": "Nicht leere Auswahlliste eines single_option-Felds.",
+    "command_translation.help.dialog.field.inputs.options.id": "Wert, der beim Auswählen dieser Option gesendet wird.",
+    "command_translation.help.dialog.field.inputs.options.display": "Für diese Option angezeigte Textkomponente.",
+    "command_translation.help.dialog.field.inputs.options.initial": "Ob diese Option anfangs gewählt ist.",
+    "command_translation.help.dialog.field.inputs.label_format": "Übersetzungsschlüssel für die Beschriftung eines Zahlenschiebers.",
+    "command_translation.help.dialog.field.inputs.start": "Minimalwert eines Zahlenschiebers.",
+    "command_translation.help.dialog.field.inputs.end": "Maximalwert eines Zahlenschiebers.",
+    "command_translation.help.dialog.field.inputs.step": "Erlaubte Schrittweite zwischen Schieberwerten.",
+    "command_translation.help.dialog.field.can_close_with_escape": "Ob die Escape-Taste den Dialog schließen kann.",
+    "command_translation.help.dialog.field.pause": "Ob der Dialog im Einzelspieler das Spiel pausiert.",
+    "command_translation.help.dialog.field.after_action": "Aktion nach Klick oder Absenden: close, none oder wait_for_response.",
+    "command_translation.help.dialog.field.columns": "Anzahl der Spalten, in denen die Schaltflächen angeordnet sind.",
+    "command_translation.help.dialog.field.button_width": "Breite der Schaltflächen in einer Dialogliste.",
+    "command_translation.help.dialog.field.dialogs": "Vom dialog_list-Dialog aufgelistete Dialoge.",
+    "command_translation.help.dialog.field.action": "Fußschaltfläche eines notice-Dialogs.",
+    "command_translation.help.dialog.field.action.label": "Auf dieser Schaltfläche angezeigte Textkomponente.",
+    "command_translation.help.dialog.field.action.tooltip": "Text beim Überfahren dieser Schaltfläche.",
+    "command_translation.help.dialog.field.action.width": "Breite dieser Schaltfläche.",
+    "command_translation.help.dialog.field.action.action": "Aktion, die beim Klicken dieser Schaltfläche ausgeführt wird.",
+    "command_translation.help.dialog.field.action.action.type": "Aktionstyp, z. B. run_command, open_url oder show_dialog.",
+    "command_translation.help.dialog.field.action.action.url": "Von einer open_url-Aktion geöffnete URL.",
+    "command_translation.help.dialog.field.action.action.command": "Vom Aktionsbefehl ausgeführter oder vorgeschlagener Befehl.",
+    "command_translation.help.dialog.field.action.action.page": "Seite, zu der eine change_page-Aktion wechselt.",
+    "command_translation.help.dialog.field.action.action.value": "Von einer copy_to_clipboard-Aktion kopierter Text.",
+    "command_translation.help.dialog.field.action.action.dialog": "Von einer show_dialog-Aktion geöffneter Dialog.",
+    "command_translation.help.dialog.field.action.action.id": "ID eines custom-Aktionsereignisses.",
+    "command_translation.help.dialog.field.action.action.payload": "Nutzlast eines custom-Aktionsereignisses.",
+    "command_translation.help.dialog.field.action.action.template": "Makrovorlage einer dynamic/run_command-Aktion.",
+    "command_translation.help.dialog.field.yes": "Positive Schaltfläche eines confirmation-Dialogs.",
+    "command_translation.help.dialog.field.yes.label": "Auf dieser Schaltfläche angezeigte Textkomponente.",
+    "command_translation.help.dialog.field.yes.tooltip": "Text beim Überfahren dieser Schaltfläche.",
+    "command_translation.help.dialog.field.yes.width": "Breite dieser Schaltfläche.",
+    "command_translation.help.dialog.field.yes.action": "Aktion, die beim Klicken dieser Schaltfläche ausgeführt wird.",
+    "command_translation.help.dialog.field.yes.action.type": "Aktionstyp, z. B. run_command, open_url oder show_dialog.",
+    "command_translation.help.dialog.field.yes.action.url": "Von einer open_url-Aktion geöffnete URL.",
+    "command_translation.help.dialog.field.yes.action.command": "Vom Aktionsbefehl ausgeführter oder vorgeschlagener Befehl.",
+    "command_translation.help.dialog.field.yes.action.page": "Seite, zu der eine change_page-Aktion wechselt.",
+    "command_translation.help.dialog.field.yes.action.value": "Von einer copy_to_clipboard-Aktion kopierter Text.",
+    "command_translation.help.dialog.field.yes.action.dialog": "Von einer show_dialog-Aktion geöffneter Dialog.",
+    "command_translation.help.dialog.field.yes.action.id": "ID eines custom-Aktionsereignisses.",
+    "command_translation.help.dialog.field.yes.action.payload": "Nutzlast eines custom-Aktionsereignisses.",
+    "command_translation.help.dialog.field.yes.action.template": "Makrovorlage einer dynamic/run_command-Aktion.",
+    "command_translation.help.dialog.field.no": "Negative Schaltfläche eines confirmation-Dialogs.",
+    "command_translation.help.dialog.field.no.label": "Auf dieser Schaltfläche angezeigte Textkomponente.",
+    "command_translation.help.dialog.field.no.tooltip": "Text beim Überfahren dieser Schaltfläche.",
+    "command_translation.help.dialog.field.no.width": "Breite dieser Schaltfläche.",
+    "command_translation.help.dialog.field.no.action": "Aktion, die beim Klicken dieser Schaltfläche ausgeführt wird.",
+    "command_translation.help.dialog.field.no.action.type": "Aktionstyp, z. B. run_command, open_url oder show_dialog.",
+    "command_translation.help.dialog.field.no.action.url": "Von einer open_url-Aktion geöffnete URL.",
+    "command_translation.help.dialog.field.no.action.command": "Vom Aktionsbefehl ausgeführter oder vorgeschlagener Befehl.",
+    "command_translation.help.dialog.field.no.action.page": "Seite, zu der eine change_page-Aktion wechselt.",
+    "command_translation.help.dialog.field.no.action.value": "Von einer copy_to_clipboard-Aktion kopierter Text.",
+    "command_translation.help.dialog.field.no.action.dialog": "Von einer show_dialog-Aktion geöffneter Dialog.",
+    "command_translation.help.dialog.field.no.action.id": "ID eines custom-Aktionsereignisses.",
+    "command_translation.help.dialog.field.no.action.payload": "Nutzlast eines custom-Aktionsereignisses.",
+    "command_translation.help.dialog.field.no.action.template": "Makrovorlage einer dynamic/run_command-Aktion.",
+    "command_translation.help.dialog.field.actions": "Nicht leere Schaltflächenliste eines multi_action-Dialogs.",
+    "command_translation.help.dialog.field.actions.label": "Auf dieser Schaltfläche angezeigte Textkomponente.",
+    "command_translation.help.dialog.field.actions.tooltip": "Text beim Überfahren dieser Schaltfläche.",
+    "command_translation.help.dialog.field.actions.width": "Breite dieser Schaltfläche.",
+    "command_translation.help.dialog.field.actions.action": "Aktion, die beim Klicken dieser Schaltfläche ausgeführt wird.",
+    "command_translation.help.dialog.field.actions.action.type": "Aktionstyp, z. B. run_command, open_url oder show_dialog.",
+    "command_translation.help.dialog.field.actions.action.url": "Von einer open_url-Aktion geöffnete URL.",
+    "command_translation.help.dialog.field.actions.action.command": "Vom Aktionsbefehl ausgeführter oder vorgeschlagener Befehl.",
+    "command_translation.help.dialog.field.actions.action.page": "Seite, zu der eine change_page-Aktion wechselt.",
+    "command_translation.help.dialog.field.actions.action.value": "Von einer copy_to_clipboard-Aktion kopierter Text.",
+    "command_translation.help.dialog.field.actions.action.dialog": "Von einer show_dialog-Aktion geöffneter Dialog.",
+    "command_translation.help.dialog.field.actions.action.id": "ID eines custom-Aktionsereignisses.",
+    "command_translation.help.dialog.field.actions.action.payload": "Nutzlast eines custom-Aktionsereignisses.",
+    "command_translation.help.dialog.field.actions.action.template": "Makrovorlage einer dynamic/run_command-Aktion.",
+    "command_translation.help.dialog.field.exit_action": "Schaltfläche zum Verlassen des Dialogs.",
+    "command_translation.help.dialog.field.exit_action.label": "Auf dieser Schaltfläche angezeigte Textkomponente.",
+    "command_translation.help.dialog.field.exit_action.tooltip": "Text beim Überfahren dieser Schaltfläche.",
+    "command_translation.help.dialog.field.exit_action.width": "Breite dieser Schaltfläche.",
+    "command_translation.help.dialog.field.exit_action.action": "Aktion, die beim Klicken dieser Schaltfläche ausgeführt wird.",
+    "command_translation.help.dialog.field.exit_action.action.type": "Aktionstyp, z. B. run_command, open_url oder show_dialog.",
+    "command_translation.help.dialog.field.exit_action.action.url": "Von einer open_url-Aktion geöffnete URL.",
+    "command_translation.help.dialog.field.exit_action.action.command": "Vom Aktionsbefehl ausgeführter oder vorgeschlagener Befehl.",
+    "command_translation.help.dialog.field.exit_action.action.page": "Seite, zu der eine change_page-Aktion wechselt.",
+    "command_translation.help.dialog.field.exit_action.action.value": "Von einer copy_to_clipboard-Aktion kopierter Text.",
+    "command_translation.help.dialog.field.exit_action.action.dialog": "Von einer show_dialog-Aktion geöffneter Dialog.",
+    "command_translation.help.dialog.field.exit_action.action.id": "ID eines custom-Aktionsereignisses.",
+    "command_translation.help.dialog.field.exit_action.action.payload": "Nutzlast eines custom-Aktionsereignisses.",
+    "command_translation.help.dialog.field.exit_action.action.template": "Makrovorlage einer dynamic/run_command-Aktion."
+  },
+  "ja_jp": {
+    "command_translation.help.dialog.field.type": "ダイアログの種類: notice、confirmation、multi_action、server_links、dialog_list。",
+    "command_translation.help.dialog.field.title": "常に表示される画面タイトルのテキストコンポーネント。",
+    "command_translation.help.dialog.field.external_title": "このダイアログへ導くボタンに使う名前。省略時はタイトルを使う。",
+    "command_translation.help.dialog.field.body": "タイトルと操作ボタンの間に表示する任意の本文要素（またはそのリスト）。",
+    "command_translation.help.dialog.field.body.type": "本文要素の種類: plain_message または item。",
+    "command_translation.help.dialog.field.body.contents": "plain_message 本文要素が表示するテキスト。",
+    "command_translation.help.dialog.field.body.width": "本文要素の最大幅。",
+    "command_translation.help.dialog.field.body.item": "item 本文要素が表示するアイテムスタック。",
+    "command_translation.help.dialog.field.body.item.id": "表示するアイテムのリソース位置。",
+    "command_translation.help.dialog.field.body.item.count": "表示するスタックのアイテム数。",
+    "command_translation.help.dialog.field.body.item.components": "表示するアイテムのデータコンポーネント。",
+    "command_translation.help.dialog.field.body.description.contents": "item 本文要素でアイテムの横に表示するテキスト。",
+    "command_translation.help.dialog.field.body.show_decoration": "アイテム上に個数と耐久バーを描画するか。",
+    "command_translation.help.dialog.field.body.show_tooltip": "カーソルを合わせたときアイテムのツールチップを表示するか。",
+    "command_translation.help.dialog.field.body.height": "item 本文要素の縦の大きさ。",
+    "command_translation.help.dialog.field.inputs": "プレイヤー入力を受け取る任意の入力コントロール一覧。",
+    "command_translation.help.dialog.field.inputs.type": "入力コントロールの種類: text、boolean、single_option、number_range。",
+    "command_translation.help.dialog.field.inputs.key": "送信時にこの入力値を参照する識別子。",
+    "command_translation.help.dialog.field.inputs.label": "入力の左に表示するテキストコンポーネント。",
+    "command_translation.help.dialog.field.inputs.width": "入力コントロールの幅。",
+    "command_translation.help.dialog.field.inputs.label_visible": "入力のラベルを表示するか。",
+    "command_translation.help.dialog.field.inputs.initial": "入力コントロールの初期値。",
+    "command_translation.help.dialog.field.inputs.max_length": "テキスト入力で許可される最大文字数。",
+    "command_translation.help.dialog.field.inputs.multiline": "存在するとテキスト入力を複数行にできる。",
+    "command_translation.help.dialog.field.inputs.multiline.max_lines": "複数行テキスト入力で許可される最大行数。",
+    "command_translation.help.dialog.field.inputs.multiline.height": "複数行テキスト入力の高さ。",
+    "command_translation.help.dialog.field.inputs.on_true": "boolean 入力がオンのとき送る値。",
+    "command_translation.help.dialog.field.inputs.on_false": "boolean 入力がオフのとき送る値。",
+    "command_translation.help.dialog.field.inputs.options": "single_option 入力の空でない選択肢一覧。",
+    "command_translation.help.dialog.field.inputs.options.id": "この選択肢を選んだときに送る値。",
+    "command_translation.help.dialog.field.inputs.options.display": "この選択肢に表示するテキストコンポーネント。",
+    "command_translation.help.dialog.field.inputs.options.initial": "この選択肢を初期選択にするか。",
+    "command_translation.help.dialog.field.inputs.label_format": "数値スライダーのラベルを作る翻訳キー。",
+    "command_translation.help.dialog.field.inputs.start": "数値スライダーの最小値。",
+    "command_translation.help.dialog.field.inputs.end": "数値スライダーの最大値。",
+    "command_translation.help.dialog.field.inputs.step": "スライダー値の許される刻み幅。",
+    "command_translation.help.dialog.field.can_close_with_escape": "Esc キーでダイアログを閉じられるか。",
+    "command_translation.help.dialog.field.pause": "シングルプレイでこのダイアログがゲームを一時停止するか。",
+    "command_translation.help.dialog.field.after_action": "クリックまたは送信後に取る動作: close、none、wait_for_response。",
+    "command_translation.help.dialog.field.columns": "ボタンを並べる列数。",
+    "command_translation.help.dialog.field.button_width": "ダイアログ一覧のボタンの幅。",
+    "command_translation.help.dialog.field.dialogs": "dialog_list ダイアログが一覧表示するダイアログ。",
+    "command_translation.help.dialog.field.action": "notice ダイアログのフッターのボタン。",
+    "command_translation.help.dialog.field.action.label": "このボタンに表示するテキストコンポーネント。",
+    "command_translation.help.dialog.field.action.tooltip": "このボタンにカーソルを合わせたときのテキスト。",
+    "command_translation.help.dialog.field.action.width": "このボタンの幅。",
+    "command_translation.help.dialog.field.action.action": "このボタンをクリックしたときに実行する動作。",
+    "command_translation.help.dialog.field.action.action.type": "動作の種類（run_command、open_url、show_dialog など）。",
+    "command_translation.help.dialog.field.action.action.url": "open_url 動作が開く URL。",
+    "command_translation.help.dialog.field.action.action.command": "動作が実行または提案するコマンド。",
+    "command_translation.help.dialog.field.action.action.page": "change_page 動作が切り替えるページ。",
+    "command_translation.help.dialog.field.action.action.value": "copy_to_clipboard 動作がコピーするテキスト。",
+    "command_translation.help.dialog.field.action.action.dialog": "show_dialog 動作が開くダイアログ。",
+    "command_translation.help.dialog.field.action.action.id": "custom 動作イベントの ID。",
+    "command_translation.help.dialog.field.action.action.payload": "custom 動作イベントのペイロード。",
+    "command_translation.help.dialog.field.action.action.template": "dynamic/run_command 動作が使うマクロテンプレート。",
+    "command_translation.help.dialog.field.yes": "confirmation ダイアログの肯定ボタン。",
+    "command_translation.help.dialog.field.yes.label": "このボタンに表示するテキストコンポーネント。",
+    "command_translation.help.dialog.field.yes.tooltip": "このボタンにカーソルを合わせたときのテキスト。",
+    "command_translation.help.dialog.field.yes.width": "このボタンの幅。",
+    "command_translation.help.dialog.field.yes.action": "このボタンをクリックしたときに実行する動作。",
+    "command_translation.help.dialog.field.yes.action.type": "動作の種類（run_command、open_url、show_dialog など）。",
+    "command_translation.help.dialog.field.yes.action.url": "open_url 動作が開く URL。",
+    "command_translation.help.dialog.field.yes.action.command": "動作が実行または提案するコマンド。",
+    "command_translation.help.dialog.field.yes.action.page": "change_page 動作が切り替えるページ。",
+    "command_translation.help.dialog.field.yes.action.value": "copy_to_clipboard 動作がコピーするテキスト。",
+    "command_translation.help.dialog.field.yes.action.dialog": "show_dialog 動作が開くダイアログ。",
+    "command_translation.help.dialog.field.yes.action.id": "custom 動作イベントの ID。",
+    "command_translation.help.dialog.field.yes.action.payload": "custom 動作イベントのペイロード。",
+    "command_translation.help.dialog.field.yes.action.template": "dynamic/run_command 動作が使うマクロテンプレート。",
+    "command_translation.help.dialog.field.no": "confirmation ダイアログの否定ボタン。",
+    "command_translation.help.dialog.field.no.label": "このボタンに表示するテキストコンポーネント。",
+    "command_translation.help.dialog.field.no.tooltip": "このボタンにカーソルを合わせたときのテキスト。",
+    "command_translation.help.dialog.field.no.width": "このボタンの幅。",
+    "command_translation.help.dialog.field.no.action": "このボタンをクリックしたときに実行する動作。",
+    "command_translation.help.dialog.field.no.action.type": "動作の種類（run_command、open_url、show_dialog など）。",
+    "command_translation.help.dialog.field.no.action.url": "open_url 動作が開く URL。",
+    "command_translation.help.dialog.field.no.action.command": "動作が実行または提案するコマンド。",
+    "command_translation.help.dialog.field.no.action.page": "change_page 動作が切り替えるページ。",
+    "command_translation.help.dialog.field.no.action.value": "copy_to_clipboard 動作がコピーするテキスト。",
+    "command_translation.help.dialog.field.no.action.dialog": "show_dialog 動作が開くダイアログ。",
+    "command_translation.help.dialog.field.no.action.id": "custom 動作イベントの ID。",
+    "command_translation.help.dialog.field.no.action.payload": "custom 動作イベントのペイロード。",
+    "command_translation.help.dialog.field.no.action.template": "dynamic/run_command 動作が使うマクロテンプレート。",
+    "command_translation.help.dialog.field.actions": "multi_action ダイアログの空でないボタン一覧。",
+    "command_translation.help.dialog.field.actions.label": "このボタンに表示するテキストコンポーネント。",
+    "command_translation.help.dialog.field.actions.tooltip": "このボタンにカーソルを合わせたときのテキスト。",
+    "command_translation.help.dialog.field.actions.width": "このボタンの幅。",
+    "command_translation.help.dialog.field.actions.action": "このボタンをクリックしたときに実行する動作。",
+    "command_translation.help.dialog.field.actions.action.type": "動作の種類（run_command、open_url、show_dialog など）。",
+    "command_translation.help.dialog.field.actions.action.url": "open_url 動作が開く URL。",
+    "command_translation.help.dialog.field.actions.action.command": "動作が実行または提案するコマンド。",
+    "command_translation.help.dialog.field.actions.action.page": "change_page 動作が切り替えるページ。",
+    "command_translation.help.dialog.field.actions.action.value": "copy_to_clipboard 動作がコピーするテキスト。",
+    "command_translation.help.dialog.field.actions.action.dialog": "show_dialog 動作が開くダイアログ。",
+    "command_translation.help.dialog.field.actions.action.id": "custom 動作イベントの ID。",
+    "command_translation.help.dialog.field.actions.action.payload": "custom 動作イベントのペイロード。",
+    "command_translation.help.dialog.field.actions.action.template": "dynamic/run_command 動作が使うマクロテンプレート。",
+    "command_translation.help.dialog.field.exit_action": "ダイアログを離れるためのボタン。",
+    "command_translation.help.dialog.field.exit_action.label": "このボタンに表示するテキストコンポーネント。",
+    "command_translation.help.dialog.field.exit_action.tooltip": "このボタンにカーソルを合わせたときのテキスト。",
+    "command_translation.help.dialog.field.exit_action.width": "このボタンの幅。",
+    "command_translation.help.dialog.field.exit_action.action": "このボタンをクリックしたときに実行する動作。",
+    "command_translation.help.dialog.field.exit_action.action.type": "動作の種類（run_command、open_url、show_dialog など）。",
+    "command_translation.help.dialog.field.exit_action.action.url": "open_url 動作が開く URL。",
+    "command_translation.help.dialog.field.exit_action.action.command": "動作が実行または提案するコマンド。",
+    "command_translation.help.dialog.field.exit_action.action.page": "change_page 動作が切り替えるページ。",
+    "command_translation.help.dialog.field.exit_action.action.value": "copy_to_clipboard 動作がコピーするテキスト。",
+    "command_translation.help.dialog.field.exit_action.action.dialog": "show_dialog 動作が開くダイアログ。",
+    "command_translation.help.dialog.field.exit_action.action.id": "custom 動作イベントの ID。",
+    "command_translation.help.dialog.field.exit_action.action.payload": "custom 動作イベントのペイロード。",
+    "command_translation.help.dialog.field.exit_action.action.template": "dynamic/run_command 動作が使うマクロテンプレート。"
+  },
+  "sources": {
+    "command_translation.help.dialog.field.type": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.title": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.external_title": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.body": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.body.type": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.body.contents": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.body.width": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.body.item": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.body.item.id": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.body.item.count": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.body.item.components": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.body.description.contents": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.body.show_decoration": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.body.show_tooltip": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.body.height": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.inputs": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.inputs.type": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.inputs.key": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.inputs.label": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.inputs.width": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.inputs.label_visible": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.inputs.initial": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.inputs.max_length": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.inputs.multiline": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.inputs.multiline.max_lines": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.inputs.multiline.height": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.inputs.on_true": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.inputs.on_false": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.inputs.options": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.inputs.options.id": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.inputs.options.display": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.inputs.options.initial": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.inputs.label_format": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.inputs.start": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.inputs.end": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.inputs.step": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.can_close_with_escape": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.pause": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.after_action": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.columns": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.button_width": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.dialogs": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.action": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.action.label": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.action.tooltip": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.action.width": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.action.action": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.action.action.type": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.action.action.url": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.action.action.command": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.action.action.page": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.action.action.value": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.action.action.dialog": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.action.action.id": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.action.action.payload": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.action.action.template": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.yes": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.yes.label": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.yes.tooltip": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.yes.width": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.yes.action": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.yes.action.type": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.yes.action.url": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.yes.action.command": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.yes.action.page": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.yes.action.value": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.yes.action.dialog": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.yes.action.id": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.yes.action.payload": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.yes.action.template": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.no": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.no.label": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.no.tooltip": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.no.width": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.no.action": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.no.action.type": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.no.action.url": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.no.action.command": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.no.action.page": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.no.action.value": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.no.action.dialog": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.no.action.id": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.no.action.payload": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.no.action.template": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.actions": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.actions.label": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.actions.tooltip": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.actions.width": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.actions.action": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.actions.action.type": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.actions.action.url": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.actions.action.command": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.actions.action.page": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.actions.action.value": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.actions.action.dialog": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.actions.action.id": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.actions.action.payload": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.actions.action.template": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.exit_action": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.exit_action.label": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.exit_action.tooltip": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.exit_action.width": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.exit_action.action": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.exit_action.action.type": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.exit_action.action.url": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.exit_action.action.command": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.exit_action.action.page": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.exit_action.action.value": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.exit_action.action.dialog": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.exit_action.action.id": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.exit_action.action.payload": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ],
+    "command_translation.help.dialog.field.exit_action.action.template": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog",
+        "revision": 3753247
+      }
+    ]
+  }
+}

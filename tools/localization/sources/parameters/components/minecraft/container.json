@@ -1,0 +1,66 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:container": "The items contained in this container's slots.",
+    "command_translation.help.component.minecraft:container.field.item": "The item stack in this slot.",
+    "command_translation.help.component.minecraft:container.field.slot": "The slot index from 0 to 255."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:container": "容器各槽位中所含的物品。",
+    "command_translation.help.component.minecraft:container.field.item": "该槽位中的物品堆叠。",
+    "command_translation.help.component.minecraft:container.field.slot": "0 到 255 之间的槽位编号。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:container": "Die in den Slots dieses Behälters enthaltenen Gegenstände.",
+    "command_translation.help.component.minecraft:container.field.item": "Der Gegenstandsstapel in diesem Slot.",
+    "command_translation.help.component.minecraft:container.field.slot": "Der Slot-Index von 0 bis 255."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:container": "このコンテナのスロットに収められたアイテム。",
+    "command_translation.help.component.minecraft:container.field.item": "このスロットにあるアイテムスタック。",
+    "command_translation.help.component.minecraft:container.field.slot": "0から255までのスロット番号。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:container": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:container.field.item": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:container.field.slot": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

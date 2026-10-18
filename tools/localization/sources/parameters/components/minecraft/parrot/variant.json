@@ -1,0 +1,120 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:parrot/variant": "The parrot’s appearance variant.",
+    "command_translation.help.component.minecraft:parrot/variant.value.red_blue": "Red-and-blue parrot.",
+    "command_translation.help.component.minecraft:parrot/variant.value.blue": "Blue parrot.",
+    "command_translation.help.component.minecraft:parrot/variant.value.green": "Green parrot.",
+    "command_translation.help.component.minecraft:parrot/variant.value.yellow_blue": "Yellow-and-blue parrot.",
+    "command_translation.help.component.minecraft:parrot/variant.value.gray": "Gray parrot."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:parrot/variant": "鹦鹉的外观变种。",
+    "command_translation.help.component.minecraft:parrot/variant.value.red_blue": "红蓝色鹦鹉。",
+    "command_translation.help.component.minecraft:parrot/variant.value.blue": "蓝色鹦鹉。",
+    "command_translation.help.component.minecraft:parrot/variant.value.green": "绿色鹦鹉。",
+    "command_translation.help.component.minecraft:parrot/variant.value.yellow_blue": "黄蓝色鹦鹉。",
+    "command_translation.help.component.minecraft:parrot/variant.value.gray": "灰色鹦鹉。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:parrot/variant": "Die Erscheinungsvariante des Papageis.",
+    "command_translation.help.component.minecraft:parrot/variant.value.red_blue": "Rotblauer Papagei.",
+    "command_translation.help.component.minecraft:parrot/variant.value.blue": "Blauer Papagei.",
+    "command_translation.help.component.minecraft:parrot/variant.value.green": "Grüner Papagei.",
+    "command_translation.help.component.minecraft:parrot/variant.value.yellow_blue": "Gelbblauer Papagei.",
+    "command_translation.help.component.minecraft:parrot/variant.value.gray": "Grauer Papagei."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:parrot/variant": "オウムの見た目のバリエーション。",
+    "command_translation.help.component.minecraft:parrot/variant.value.red_blue": "赤と青のオウム。",
+    "command_translation.help.component.minecraft:parrot/variant.value.blue": "青色のオウム。",
+    "command_translation.help.component.minecraft:parrot/variant.value.green": "緑色のオウム。",
+    "command_translation.help.component.minecraft:parrot/variant.value.yellow_blue": "黄色と青のオウム。",
+    "command_translation.help.component.minecraft:parrot/variant.value.gray": "灰色のオウム。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:parrot/variant": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:parrot/variant.value.red_blue": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:parrot/variant.value.blue": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:parrot/variant.value.green": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:parrot/variant.value.yellow_blue": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:parrot/variant.value.gray": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ]
+  }
+}

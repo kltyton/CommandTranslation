@@ -1,0 +1,26 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:item_model": "The resource location of the item model definition to display."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:item_model": "要显示的物品模型定义的资源位置。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:item_model": "Die Ressourcenadresse der anzuzeigenden Itemmodell-Definition."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:item_model": "表示するアイテムモデル定義のリソース位置。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:item_model": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

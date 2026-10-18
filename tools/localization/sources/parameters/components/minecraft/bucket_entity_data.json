@@ -1,0 +1,192 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:bucket_entity_data": "Entity data restored when the creature is released from this bucket.",
+    "command_translation.help.component.minecraft:bucket_entity_data.field.NoAI": "Whether the released entity has AI disabled.",
+    "command_translation.help.component.minecraft:bucket_entity_data.field.Silent": "Whether the released entity makes no sound.",
+    "command_translation.help.component.minecraft:bucket_entity_data.field.NoGravity": "Whether the released entity is unaffected by gravity.",
+    "command_translation.help.component.minecraft:bucket_entity_data.field.Glowing": "Whether the released entity has the glowing outline.",
+    "command_translation.help.component.minecraft:bucket_entity_data.field.Invulnerable": "Whether the released entity is immune to damage.",
+    "command_translation.help.component.minecraft:bucket_entity_data.field.AgeLocked": "Whether axolotls and tadpoles stop growing after release.",
+    "command_translation.help.component.minecraft:bucket_entity_data.field.Health": "The health of the released entity.",
+    "command_translation.help.component.minecraft:bucket_entity_data.field.Age": "The growth age of the released axolotl or tadpole.",
+    "command_translation.help.component.minecraft:bucket_entity_data.field.HuntingCooldown": "When the axolotl's hunting cooldown expires."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:bucket_entity_data": "从桶中放出生物时恢复的实体数据。",
+    "command_translation.help.component.minecraft:bucket_entity_data.field.NoAI": "放出的生物是否失去 AI 行为。",
+    "command_translation.help.component.minecraft:bucket_entity_data.field.Silent": "放出的生物是否不发出声音。",
+    "command_translation.help.component.minecraft:bucket_entity_data.field.NoGravity": "放出的生物是否不受重力影响。",
+    "command_translation.help.component.minecraft:bucket_entity_data.field.Glowing": "放出的生物是否带发光轮廓。",
+    "command_translation.help.component.minecraft:bucket_entity_data.field.Invulnerable": "放出的生物是否免疫伤害。",
+    "command_translation.help.component.minecraft:bucket_entity_data.field.AgeLocked": "美西螈和蝌蚪放出后是否停止成长。",
+    "command_translation.help.component.minecraft:bucket_entity_data.field.Health": "放出生物的生命值。",
+    "command_translation.help.component.minecraft:bucket_entity_data.field.Age": "放出的美西螈或蝌蚪的成长年龄。",
+    "command_translation.help.component.minecraft:bucket_entity_data.field.HuntingCooldown": "美西螈捕猎冷却的到期时间。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:bucket_entity_data": "Entitätsdaten, die beim Freilassen aus diesem Eimer wiederhergestellt werden.",
+    "command_translation.help.component.minecraft:bucket_entity_data.field.NoAI": "Ob die freigelassene Entität keine KI hat.",
+    "command_translation.help.component.minecraft:bucket_entity_data.field.Silent": "Ob die freigelassene Entität keine Geräusche macht.",
+    "command_translation.help.component.minecraft:bucket_entity_data.field.NoGravity": "Ob die freigelassene Entität nicht von Schwerkraft beeinflusst wird.",
+    "command_translation.help.component.minecraft:bucket_entity_data.field.Glowing": "Ob die freigelassene Entität den Leuchtrand hat.",
+    "command_translation.help.component.minecraft:bucket_entity_data.field.Invulnerable": "Ob die freigelassene Entität immun gegen Schaden ist.",
+    "command_translation.help.component.minecraft:bucket_entity_data.field.AgeLocked": "Ob Axolotl und Kaulquappen nach dem Freilassen nicht weiter wachsen.",
+    "command_translation.help.component.minecraft:bucket_entity_data.field.Health": "Die Gesundheit der freigelassenen Entität.",
+    "command_translation.help.component.minecraft:bucket_entity_data.field.Age": "Das Wachstumsalter des freigelassenen Axolotls oder der Kaulquappe.",
+    "command_translation.help.component.minecraft:bucket_entity_data.field.HuntingCooldown": "Wann die Jagd-Abklingzeit des Axolotls abläuft."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:bucket_entity_data": "バケツから放出したときに復元されるエンティティのデータ。",
+    "command_translation.help.component.minecraft:bucket_entity_data.field.NoAI": "放出したエンティティがAIを持たないようにするか。",
+    "command_translation.help.component.minecraft:bucket_entity_data.field.Silent": "放出したエンティティが音を出さないようにするか。",
+    "command_translation.help.component.minecraft:bucket_entity_data.field.NoGravity": "放出したエンティティが重力の影響を受けないようにするか。",
+    "command_translation.help.component.minecraft:bucket_entity_data.field.Glowing": "放出したエンティティが発光するか。",
+    "command_translation.help.component.minecraft:bucket_entity_data.field.Invulnerable": "放出したエンティティが無敵になるか。",
+    "command_translation.help.component.minecraft:bucket_entity_data.field.AgeLocked": "ウーパールーパーとオタマジャクシが放出後に成長を止めるか。",
+    "command_translation.help.component.minecraft:bucket_entity_data.field.Health": "放出したエンティティの体力。",
+    "command_translation.help.component.minecraft:bucket_entity_data.field.Age": "放出したウーパールーパーやオタマジャクシの成長年齢。",
+    "command_translation.help.component.minecraft:bucket_entity_data.field.HuntingCooldown": "ウーパールーパーの狩りクールダウンの終了時刻。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:bucket_entity_data": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:bucket_entity_data.field.NoAI": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:bucket_entity_data.field.Silent": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:bucket_entity_data.field.NoGravity": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:bucket_entity_data.field.Glowing": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:bucket_entity_data.field.Invulnerable": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:bucket_entity_data.field.AgeLocked": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:bucket_entity_data.field.Health": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:bucket_entity_data.field.Age": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:bucket_entity_data.field.HuntingCooldown": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

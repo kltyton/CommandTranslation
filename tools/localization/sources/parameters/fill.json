@@ -1,0 +1,274 @@
+{
+  "en_us": {
+    "command_translation.help.argument.fill.from": "One corner block position of the region to fill; with 'to' it defines the box.",
+    "command_translation.help.argument.fill.to": "The opposite corner block position of the region to fill.",
+    "command_translation.help.argument.fill.block": "The block to place, optionally with block states or NBT.",
+    "command_translation.help.argument.fill.destroy": "Destroys the replaced blocks as if mined, dropping items and playing break effects.",
+    "command_translation.help.argument.fill.hollow": "Builds only the outer shell; blocks inside the region are replaced with air.",
+    "command_translation.help.argument.fill.keep": "Changes only blocks that are currently air.",
+    "command_translation.help.argument.fill.outline": "Like hollow, but the inner blocks are left unchanged.",
+    "command_translation.help.argument.fill.replace": "Replaces the existing blocks and accepts an optional filter for which blocks may be replaced.",
+    "command_translation.help.argument.fill.filter": "Limits replacement to matching blocks.",
+    "command_translation.help.argument.fill.strict": "Places blocks exactly as specified without triggering neighboring block updates or recalculating block shapes."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.fill.from": "要填充区域的一个角的方块坐标，与 to 一起确定范围。",
+    "command_translation.help.argument.fill.to": "与之相对的另一个角坐标。",
+    "command_translation.help.argument.fill.block": "要放置的方块，可带方块状态或 NBT。",
+    "command_translation.help.argument.fill.destroy": "把被替换的方块如同被挖掘一样破坏，掉落物品并播放破坏效果。",
+    "command_translation.help.argument.fill.hollow": "只建造外壳，区域内部方块被替换为空气。",
+    "command_translation.help.argument.fill.keep": "只更改当前为空气的方块。",
+    "command_translation.help.argument.fill.outline": "类似 hollow，但内部方块保持原样。",
+    "command_translation.help.argument.fill.replace": "替换已有方块，并可附带过滤器限定哪些方块可被替换。",
+    "command_translation.help.argument.fill.filter": "限定只替换匹配的方块。",
+    "command_translation.help.argument.fill.strict": "按指定状态直接放置方块，不触发邻近方块更新，也不重新计算方块形状。"
+  },
+  "sources": {
+    "command_translation.help.argument.fill.from": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ffill",
+        "revision": 3383435
+      }
+    ],
+    "command_translation.help.argument.fill.to": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ffill",
+        "revision": 3383435
+      }
+    ],
+    "command_translation.help.argument.fill.block": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ffill",
+        "revision": 3383435
+      }
+    ],
+    "command_translation.help.argument.fill.destroy": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ffill",
+        "revision": 3383435
+      }
+    ],
+    "command_translation.help.argument.fill.hollow": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ffill",
+        "revision": 3383435
+      }
+    ],
+    "command_translation.help.argument.fill.keep": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ffill",
+        "revision": 3383435
+      }
+    ],
+    "command_translation.help.argument.fill.outline": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ffill",
+        "revision": 3383435
+      }
+    ],
+    "command_translation.help.argument.fill.replace": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ffill",
+        "revision": 3383435
+      }
+    ],
+    "command_translation.help.argument.fill.filter": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ffill",
+        "revision": 3383435
+      }
+    ],
+    "command_translation.help.argument.fill.strict": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ffill",
+        "revision": 3383435
+      }
+    ]
+  },
+  "bindings": {
+    "fill.from": "command_translation.help.argument.fill.from",
+    "fill.from.to": "command_translation.help.argument.fill.to",
+    "fill.from.to.block": "command_translation.help.argument.fill.block",
+    "fill.from.to.block.destroy": "command_translation.help.argument.fill.destroy",
+    "fill.from.to.block.hollow": "command_translation.help.argument.fill.hollow",
+    "fill.from.to.block.keep": "command_translation.help.argument.fill.keep",
+    "fill.from.to.block.outline": "command_translation.help.argument.fill.outline",
+    "fill.from.to.block.replace": "command_translation.help.argument.fill.replace",
+    "fill.from.to.block.replace.filter": "command_translation.help.argument.fill.filter",
+    "fill.from.to.block.replace.filter.destroy": "command_translation.help.argument.fill.destroy",
+    "fill.from.to.block.replace.filter.hollow": "command_translation.help.argument.fill.hollow",
+    "fill.from.to.block.replace.filter.outline": "command_translation.help.argument.fill.outline",
+    "fill.from.to.block.replace.filter.strict": "command_translation.help.argument.fill.strict",
+    "fill.from.to.block.strict": "command_translation.help.argument.fill.strict"
+  },
+  "de_de": {
+    "command_translation.help.argument.fill.from": "Eine Eck-Blockposition des zu füllenden Bereichs; zusammen mit 'to' legt sie den Quader fest.",
+    "command_translation.help.argument.fill.to": "Die gegenüberliegende Eck-Blockposition des zu füllenden Bereichs.",
+    "command_translation.help.argument.fill.block": "Der zu platzierende Block, optional mit Blockzuständen oder NBT.",
+    "command_translation.help.argument.fill.destroy": "Zerstört die ersetzten Blöcke wie beim Abbau, lässt Gegenstände fallen und spielt Brucheffekte ab.",
+    "command_translation.help.argument.fill.hollow": "Errichtet nur die äußere Hülle; Blöcke im Inneren werden durch Luft ersetzt.",
+    "command_translation.help.argument.fill.keep": "Ändert nur Blöcke, die derzeit Luft sind.",
+    "command_translation.help.argument.fill.outline": "Wie hollow, aber die inneren Blöcke bleiben unverändert.",
+    "command_translation.help.argument.fill.replace": "Ersetzt die vorhandenen Blöcke und akzeptiert einen optionalen Filter dafür, welche ersetzt werden dürfen.",
+    "command_translation.help.argument.fill.filter": "Beschränkt die Ersetzung auf passende Blöcke.",
+    "command_translation.help.argument.fill.strict": "Platziert Blöcke genau wie angegeben, ohne benachbarte Blockupdates auszulösen oder Blockformen neu zu berechnen."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.fill.from": "塗りつぶす領域の一角のブロック位置。'to' と合わせて直方体を定める。",
+    "command_translation.help.argument.fill.to": "塗りつぶす領域の反対側の角のブロック位置。",
+    "command_translation.help.argument.fill.block": "設置するブロック（ブロック状態や NBT を任意で付けられる）。",
+    "command_translation.help.argument.fill.destroy": "置き換えられるブロックを採掘したときのように破壊し、アイテムをドロップして破壊エフェクトを再生する。",
+    "command_translation.help.argument.fill.hollow": "外殻だけを構築する。領域内部のブロックは空気に置き換えられる。",
+    "command_translation.help.argument.fill.keep": "現在空気であるブロックだけを変更する。",
+    "command_translation.help.argument.fill.outline": "hollow と似ているが、内部のブロックは消去されずそのまま残る。",
+    "command_translation.help.argument.fill.replace": "既存のブロックを置き換える。置き換え対象を絞る任意のフィルターを指定できる。",
+    "command_translation.help.argument.fill.filter": "置き換えを一致するブロックに限定する。",
+    "command_translation.help.argument.fill.strict": "指定どおりにブロックを設置し、隣接ブロックの更新やブロック形状の再計算を行わない。"
+  },
+  "syntax": [
+    {
+      "path": "fill",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "fill.from",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "fill.from.to",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "fill.from.to.block",
+      "type": "argument",
+      "parser": "minecraft:block_state",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "fill.from.to.block.destroy",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "fill.from.to.block.hollow",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "fill.from.to.block.keep",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "fill.from.to.block.outline",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "fill.from.to.block.replace",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "fill.from.to.block.replace.filter",
+      "type": "argument",
+      "parser": "minecraft:block_predicate",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "fill.from.to.block.replace.filter.destroy",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "fill.from.to.block.replace.filter.hollow",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "fill.from.to.block.replace.filter.outline",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "fill.from.to.block.replace.filter.strict",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "fill.from.to.block.strict",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

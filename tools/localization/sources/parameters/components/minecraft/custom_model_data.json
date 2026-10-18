@@ -1,0 +1,102 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:custom_model_data": "Data used by resource packs to select custom models.",
+    "command_translation.help.component.minecraft:custom_model_data.field.floats": "Float values used by the range_dispatch model type.",
+    "command_translation.help.component.minecraft:custom_model_data.field.flags": "Boolean flags used by the condition model type.",
+    "command_translation.help.component.minecraft:custom_model_data.field.strings": "String values used by the select model type.",
+    "command_translation.help.component.minecraft:custom_model_data.field.colors": "RGB colors used for model tints."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:custom_model_data": "供资源包选择自定义模型的数据。",
+    "command_translation.help.component.minecraft:custom_model_data.field.floats": "range_dispatch 模型类型使用的浮点值。",
+    "command_translation.help.component.minecraft:custom_model_data.field.flags": "condition 模型类型使用的布尔标记。",
+    "command_translation.help.component.minecraft:custom_model_data.field.strings": "select 模型类型使用的字符串值。",
+    "command_translation.help.component.minecraft:custom_model_data.field.colors": "模型着色使用的 RGB 颜色。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:custom_model_data": "Daten, mit denen Ressourcenpakete benutzerdefinierte Modelle auswählen.",
+    "command_translation.help.component.minecraft:custom_model_data.field.floats": "Gleitkommawerte für den Modelltyp range_dispatch.",
+    "command_translation.help.component.minecraft:custom_model_data.field.flags": "Boolesche Flags für den Modelltyp condition.",
+    "command_translation.help.component.minecraft:custom_model_data.field.strings": "Zeichenkettenwerte für den Modelltyp select.",
+    "command_translation.help.component.minecraft:custom_model_data.field.colors": "RGB-Farben für Modellfärbungen."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:custom_model_data": "リソースパックがカスタムモデルを選ぶためのデータ。",
+    "command_translation.help.component.minecraft:custom_model_data.field.floats": "range_dispatchモデル種別で使う浮動小数点値。",
+    "command_translation.help.component.minecraft:custom_model_data.field.flags": "conditionモデル種別で使う真偽値フラグ。",
+    "command_translation.help.component.minecraft:custom_model_data.field.strings": "selectモデル種別で使う文字列値。",
+    "command_translation.help.component.minecraft:custom_model_data.field.colors": "モデルの着色に使うRGB色。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:custom_model_data": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:custom_model_data.field.floats": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:custom_model_data.field.flags": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:custom_model_data.field.strings": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:custom_model_data.field.colors": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

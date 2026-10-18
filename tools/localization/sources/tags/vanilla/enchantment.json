@@ -1,0 +1,232 @@
+{
+  "en_us": {
+    "command_translation.tag.enchantment.minecraft.curse": "Curses cannot be removed with a grindstone",
+    "command_translation.tag.enchantment.minecraft.double_trade_price": "Enchantments costing double in trades",
+    "command_translation.tag.enchantment.minecraft.exclusive_set.armor": "Mutually exclusive armor enchantments",
+    "command_translation.tag.enchantment.minecraft.exclusive_set.boots": "Mutually exclusive boot enchantments",
+    "command_translation.tag.enchantment.minecraft.exclusive_set.bow": "Mutually exclusive bow enchantments",
+    "command_translation.tag.enchantment.minecraft.exclusive_set.crossbow": "Mutually exclusive crossbow enchantments",
+    "command_translation.tag.enchantment.minecraft.exclusive_set.damage": "Mutually exclusive damage enchantments",
+    "command_translation.tag.enchantment.minecraft.exclusive_set.mining": "Mutually exclusive mining enchantments",
+    "command_translation.tag.enchantment.minecraft.exclusive_set.riptide": "Enchantments exclusive with Riptide",
+    "command_translation.tag.enchantment.minecraft.in_enchanting_table": "Enchantments obtainable from an enchanting table",
+    "command_translation.tag.enchantment.minecraft.non_treasure": "Non-treasure enchantments",
+    "command_translation.tag.enchantment.minecraft.on_mob_spawn_equipment": "Enchantments on spawned mob equipment",
+    "command_translation.tag.enchantment.minecraft.on_random_loot": "Enchantments found in generated loot",
+    "command_translation.tag.enchantment.minecraft.on_traded_equipment": "Enchantments on villager-traded equipment",
+    "command_translation.tag.enchantment.minecraft.prevents_bee_spawns_when_mining": "Prevents bees from leaving when mining hives",
+    "command_translation.tag.enchantment.minecraft.prevents_decorated_pot_shattering": "Prevents decorated pots from shattering",
+    "command_translation.tag.enchantment.minecraft.prevents_ice_melting": "Prevents ice from turning into water",
+    "command_translation.tag.enchantment.minecraft.prevents_infested_spawns": "Prevents infested blocks from spawning silverfish",
+    "command_translation.tag.enchantment.minecraft.smelts_loot": "Makes eligible entity drops cook when killed",
+    "command_translation.tag.enchantment.minecraft.tooltip_order": "Enchantment display order in item tooltips",
+    "command_translation.tag.enchantment.minecraft.tradeable": "Enchantments villagers can sell",
+    "command_translation.tag.enchantment.minecraft.treasure": "Treasure enchantments"
+  },
+  "zh_cn": {
+    "command_translation.tag.enchantment.minecraft.curse": "诅咒附魔，砂轮无法移除",
+    "command_translation.tag.enchantment.minecraft.double_trade_price": "村民交易价格翻倍的附魔",
+    "command_translation.tag.enchantment.minecraft.exclusive_set.armor": "护甲互斥附魔组",
+    "command_translation.tag.enchantment.minecraft.exclusive_set.boots": "靴子互斥附魔组",
+    "command_translation.tag.enchantment.minecraft.exclusive_set.bow": "弓互斥附魔组",
+    "command_translation.tag.enchantment.minecraft.exclusive_set.crossbow": "弩互斥附魔组",
+    "command_translation.tag.enchantment.minecraft.exclusive_set.damage": "伤害互斥附魔组",
+    "command_translation.tag.enchantment.minecraft.exclusive_set.mining": "采集互斥附魔组",
+    "command_translation.tag.enchantment.minecraft.exclusive_set.riptide": "与激流互斥的附魔",
+    "command_translation.tag.enchantment.minecraft.in_enchanting_table": "可在附魔台获得的附魔",
+    "command_translation.tag.enchantment.minecraft.non_treasure": "非宝藏附魔",
+    "command_translation.tag.enchantment.minecraft.on_mob_spawn_equipment": "生成生物装备上的附魔",
+    "command_translation.tag.enchantment.minecraft.on_random_loot": "自然生成战利品中的附魔",
+    "command_translation.tag.enchantment.minecraft.on_traded_equipment": "村民出售装备上的附魔",
+    "command_translation.tag.enchantment.minecraft.prevents_bee_spawns_when_mining": "挖掘蜂巢时不放出蜜蜂",
+    "command_translation.tag.enchantment.minecraft.prevents_decorated_pot_shattering": "防止饰纹陶罐破碎",
+    "command_translation.tag.enchantment.minecraft.prevents_ice_melting": "防止冰融化成水",
+    "command_translation.tag.enchantment.minecraft.prevents_infested_spawns": "防止虫蚀方块生成蠹虫",
+    "command_translation.tag.enchantment.minecraft.smelts_loot": "击杀生物时可使相应掉落物变为熟制品",
+    "command_translation.tag.enchantment.minecraft.tooltip_order": "物品提示中的附魔显示顺序",
+    "command_translation.tag.enchantment.minecraft.tradeable": "村民可出售的附魔",
+    "command_translation.tag.enchantment.minecraft.treasure": "宝藏附魔"
+  },
+  "de_de": {
+    "command_translation.tag.enchantment.minecraft.curse": "Flüche sind nicht am Schleifstein entfernbar",
+    "command_translation.tag.enchantment.minecraft.double_trade_price": "Verzauberungen mit doppeltem Handelspreis",
+    "command_translation.tag.enchantment.minecraft.exclusive_set.armor": "Gegenseitig ausschließende Rüstungsverzauberungen",
+    "command_translation.tag.enchantment.minecraft.exclusive_set.boots": "Gegenseitig ausschließende Stiefelverzauberungen",
+    "command_translation.tag.enchantment.minecraft.exclusive_set.bow": "Gegenseitig ausschließende Bogenverzauberungen",
+    "command_translation.tag.enchantment.minecraft.exclusive_set.crossbow": "Gegenseitig ausschließende Armbrustverzauberungen",
+    "command_translation.tag.enchantment.minecraft.exclusive_set.damage": "Gegenseitig ausschließende Schadensverzauberungen",
+    "command_translation.tag.enchantment.minecraft.exclusive_set.mining": "Gegenseitig ausschließende Abbauverzauberungen",
+    "command_translation.tag.enchantment.minecraft.exclusive_set.riptide": "Verzauberungen, die Sog ausschließen",
+    "command_translation.tag.enchantment.minecraft.in_enchanting_table": "Am Zaubertisch erhältlich",
+    "command_translation.tag.enchantment.minecraft.non_treasure": "Nicht-Schatz-Verzauberungen",
+    "command_translation.tag.enchantment.minecraft.on_mob_spawn_equipment": "Verzauberungen auf Kreaturenausrüstung",
+    "command_translation.tag.enchantment.minecraft.on_random_loot": "Verzauberungen in generierter Beute",
+    "command_translation.tag.enchantment.minecraft.on_traded_equipment": "Verzauberungen auf gehandelter Ausrüstung",
+    "command_translation.tag.enchantment.minecraft.prevents_bee_spawns_when_mining": "Verhindert Bienen beim Abbau von Nestern",
+    "command_translation.tag.enchantment.minecraft.prevents_decorated_pot_shattering": "Verhindert Zerbrechen verzierter Töpfe",
+    "command_translation.tag.enchantment.minecraft.prevents_ice_melting": "Verhindert Schmelzen von Eis",
+    "command_translation.tag.enchantment.minecraft.prevents_infested_spawns": "Verhindert Silberfische aus befallenen Blöcken",
+    "command_translation.tag.enchantment.minecraft.smelts_loot": "Gart geeignete Kreaturbeute beim Töten",
+    "command_translation.tag.enchantment.minecraft.tooltip_order": "Reihenfolge der Verzauberungen im Tooltip",
+    "command_translation.tag.enchantment.minecraft.tradeable": "Verzauberungen, die Dorfbewohner verkaufen",
+    "command_translation.tag.enchantment.minecraft.treasure": "Schatz-Verzauberungen"
+  },
+  "ja_jp": {
+    "command_translation.tag.enchantment.minecraft.curse": "砥石で取り除けない呪いのエンチャント",
+    "command_translation.tag.enchantment.minecraft.double_trade_price": "取引価格が2倍になるエンチャント",
+    "command_translation.tag.enchantment.minecraft.exclusive_set.armor": "防具の排他エンチャント",
+    "command_translation.tag.enchantment.minecraft.exclusive_set.boots": "ブーツの排他エンチャント",
+    "command_translation.tag.enchantment.minecraft.exclusive_set.bow": "弓の排他エンチャント",
+    "command_translation.tag.enchantment.minecraft.exclusive_set.crossbow": "クロスボウの排他エンチャント",
+    "command_translation.tag.enchantment.minecraft.exclusive_set.damage": "ダメージ系の排他エンチャント",
+    "command_translation.tag.enchantment.minecraft.exclusive_set.mining": "採掘系の排他エンチャント",
+    "command_translation.tag.enchantment.minecraft.exclusive_set.riptide": "激流と排他のエンチャント",
+    "command_translation.tag.enchantment.minecraft.in_enchanting_table": "エンチャントテーブルで入手可能",
+    "command_translation.tag.enchantment.minecraft.non_treasure": "非トレジャーエンチャント",
+    "command_translation.tag.enchantment.minecraft.on_mob_spawn_equipment": "スポーン装備のエンチャント",
+    "command_translation.tag.enchantment.minecraft.on_random_loot": "生成される戦利品のエンチャント",
+    "command_translation.tag.enchantment.minecraft.on_traded_equipment": "取引装備のエンチャント",
+    "command_translation.tag.enchantment.minecraft.prevents_bee_spawns_when_mining": "採掘時にミツバチを出さない",
+    "command_translation.tag.enchantment.minecraft.prevents_decorated_pot_shattering": "装飾された壺の破損を防ぐ",
+    "command_translation.tag.enchantment.minecraft.prevents_ice_melting": "氷が水になるのを防ぐ",
+    "command_translation.tag.enchantment.minecraft.prevents_infested_spawns": "虫食いブロックのシルバーフィッシュを防ぐ",
+    "command_translation.tag.enchantment.minecraft.smelts_loot": "倒したMobの対応するドロップを焼いた状態にする",
+    "command_translation.tag.enchantment.minecraft.tooltip_order": "ツールチップのエンチャント表示順",
+    "command_translation.tag.enchantment.minecraft.tradeable": "村人が販売するエンチャント",
+    "command_translation.tag.enchantment.minecraft.treasure": "トレジャーエンチャント"
+  },
+  "sources": {
+    "command_translation.tag.enchantment.minecraft.curse": [
+      {
+        "url": "https://minecraft.wiki/w/Enchantment%20tag%20(Java%20Edition)",
+        "revision": 3839189
+      }
+    ],
+    "command_translation.tag.enchantment.minecraft.double_trade_price": [
+      {
+        "url": "https://minecraft.wiki/w/Enchantment%20tag%20(Java%20Edition)",
+        "revision": 3839189
+      }
+    ],
+    "command_translation.tag.enchantment.minecraft.exclusive_set.armor": [
+      {
+        "url": "https://minecraft.wiki/w/Enchantment%20tag%20(Java%20Edition)",
+        "revision": 3839189
+      }
+    ],
+    "command_translation.tag.enchantment.minecraft.exclusive_set.boots": [
+      {
+        "url": "https://minecraft.wiki/w/Enchantment%20tag%20(Java%20Edition)",
+        "revision": 3839189
+      }
+    ],
+    "command_translation.tag.enchantment.minecraft.exclusive_set.bow": [
+      {
+        "url": "https://minecraft.wiki/w/Enchantment%20tag%20(Java%20Edition)",
+        "revision": 3839189
+      }
+    ],
+    "command_translation.tag.enchantment.minecraft.exclusive_set.crossbow": [
+      {
+        "url": "https://minecraft.wiki/w/Enchantment%20tag%20(Java%20Edition)",
+        "revision": 3839189
+      }
+    ],
+    "command_translation.tag.enchantment.minecraft.exclusive_set.damage": [
+      {
+        "url": "https://minecraft.wiki/w/Enchantment%20tag%20(Java%20Edition)",
+        "revision": 3839189
+      }
+    ],
+    "command_translation.tag.enchantment.minecraft.exclusive_set.mining": [
+      {
+        "url": "https://minecraft.wiki/w/Enchantment%20tag%20(Java%20Edition)",
+        "revision": 3839189
+      }
+    ],
+    "command_translation.tag.enchantment.minecraft.exclusive_set.riptide": [
+      {
+        "url": "https://minecraft.wiki/w/Enchantment%20tag%20(Java%20Edition)",
+        "revision": 3839189
+      }
+    ],
+    "command_translation.tag.enchantment.minecraft.in_enchanting_table": [
+      {
+        "url": "https://minecraft.wiki/w/Enchantment%20tag%20(Java%20Edition)",
+        "revision": 3839189
+      }
+    ],
+    "command_translation.tag.enchantment.minecraft.non_treasure": [
+      {
+        "url": "https://minecraft.wiki/w/Enchantment%20tag%20(Java%20Edition)",
+        "revision": 3839189
+      }
+    ],
+    "command_translation.tag.enchantment.minecraft.on_mob_spawn_equipment": [
+      {
+        "url": "https://minecraft.wiki/w/Enchantment%20tag%20(Java%20Edition)",
+        "revision": 3839189
+      }
+    ],
+    "command_translation.tag.enchantment.minecraft.on_random_loot": [
+      {
+        "url": "https://minecraft.wiki/w/Enchantment%20tag%20(Java%20Edition)",
+        "revision": 3839189
+      }
+    ],
+    "command_translation.tag.enchantment.minecraft.on_traded_equipment": [
+      {
+        "url": "https://minecraft.wiki/w/Enchantment%20tag%20(Java%20Edition)",
+        "revision": 3839189
+      }
+    ],
+    "command_translation.tag.enchantment.minecraft.prevents_bee_spawns_when_mining": [
+      {
+        "url": "https://minecraft.wiki/w/Enchantment%20tag%20(Java%20Edition)",
+        "revision": 3839189
+      }
+    ],
+    "command_translation.tag.enchantment.minecraft.prevents_decorated_pot_shattering": [
+      {
+        "url": "https://minecraft.wiki/w/Enchantment%20tag%20(Java%20Edition)",
+        "revision": 3839189
+      }
+    ],
+    "command_translation.tag.enchantment.minecraft.prevents_ice_melting": [
+      {
+        "url": "https://minecraft.wiki/w/Enchantment%20tag%20(Java%20Edition)",
+        "revision": 3839189
+      }
+    ],
+    "command_translation.tag.enchantment.minecraft.prevents_infested_spawns": [
+      {
+        "url": "https://minecraft.wiki/w/Enchantment%20tag%20(Java%20Edition)",
+        "revision": 3839189
+      }
+    ],
+    "command_translation.tag.enchantment.minecraft.smelts_loot": [
+      {
+        "url": "https://minecraft.wiki/w/Enchantment%20tag%20(Java%20Edition)",
+        "revision": 3839189
+      }
+    ],
+    "command_translation.tag.enchantment.minecraft.tooltip_order": [
+      {
+        "url": "https://minecraft.wiki/w/Enchantment%20tag%20(Java%20Edition)",
+        "revision": 3839189
+      }
+    ],
+    "command_translation.tag.enchantment.minecraft.tradeable": [
+      {
+        "url": "https://minecraft.wiki/w/Enchantment%20tag%20(Java%20Edition)",
+        "revision": 3839189
+      }
+    ],
+    "command_translation.tag.enchantment.minecraft.treasure": [
+      {
+        "url": "https://minecraft.wiki/w/Enchantment%20tag%20(Java%20Edition)",
+        "revision": 3839189
+      }
+    ]
+  }
+}

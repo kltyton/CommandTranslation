@@ -1,0 +1,72 @@
+{
+  "en_us": {
+    "command_translation.tag.fluid.minecraft.lava": "Lava-type fluid",
+    "command_translation.tag.fluid.minecraft.water": "Water-type fluid",
+    "command_translation.tag.fluid.minecraft.bubble_column_can_occupy": "Fluid a bubble column can occupy",
+    "command_translation.tag.fluid.minecraft.supports_frogspawn": "Fluid that supports frogspawn",
+    "command_translation.tag.fluid.minecraft.supports_lily_pad": "Fluid that supports lily pads",
+    "command_translation.tag.fluid.minecraft.supports_sugar_cane_adjacently": "Fluid that supports sugar cane placed next to it"
+  },
+  "zh_cn": {
+    "command_translation.tag.fluid.minecraft.lava": "熔岩类流体",
+    "command_translation.tag.fluid.minecraft.water": "水类流体",
+    "command_translation.tag.fluid.minecraft.bubble_column_can_occupy": "气泡柱可占据的流体",
+    "command_translation.tag.fluid.minecraft.supports_frogspawn": "可放置青蛙卵的流体",
+    "command_translation.tag.fluid.minecraft.supports_lily_pad": "可放置睡莲的流体",
+    "command_translation.tag.fluid.minecraft.supports_sugar_cane_adjacently": "可相邻种植甘蔗的流体"
+  },
+  "de_de": {
+    "command_translation.tag.fluid.minecraft.lava": "Lava-Fluid",
+    "command_translation.tag.fluid.minecraft.water": "Wasser-Fluid",
+    "command_translation.tag.fluid.minecraft.bubble_column_can_occupy": "Von Blasensäule belegbares Fluid",
+    "command_translation.tag.fluid.minecraft.supports_frogspawn": "Fluid, das Froschlaich trägt",
+    "command_translation.tag.fluid.minecraft.supports_lily_pad": "Fluid, das Seerosenblätter trägt",
+    "command_translation.tag.fluid.minecraft.supports_sugar_cane_adjacently": "Fluid, an dem Zuckerrohr daneben wächst"
+  },
+  "ja_jp": {
+    "command_translation.tag.fluid.minecraft.lava": "溶岩系の流体",
+    "command_translation.tag.fluid.minecraft.water": "水系の流体",
+    "command_translation.tag.fluid.minecraft.bubble_column_can_occupy": "泡柱が占有できる流体",
+    "command_translation.tag.fluid.minecraft.supports_frogspawn": "カエルの卵を支える流体",
+    "command_translation.tag.fluid.minecraft.supports_lily_pad": "スイレンの葉を支える流体",
+    "command_translation.tag.fluid.minecraft.supports_sugar_cane_adjacently": "隣にサトウキビを植えられる流体"
+  },
+  "sources": {
+    "command_translation.tag.fluid.minecraft.lava": [
+      {
+        "url": "https://minecraft.wiki/w/Fluid%20tag%20(Java%20Edition)",
+        "revision": 3840743
+      }
+    ],
+    "command_translation.tag.fluid.minecraft.water": [
+      {
+        "url": "https://minecraft.wiki/w/Fluid%20tag%20(Java%20Edition)",
+        "revision": 3840743
+      }
+    ],
+    "command_translation.tag.fluid.minecraft.bubble_column_can_occupy": [
+      {
+        "url": "https://minecraft.wiki/w/Fluid%20tag%20(Java%20Edition)",
+        "revision": 3840743
+      }
+    ],
+    "command_translation.tag.fluid.minecraft.supports_frogspawn": [
+      {
+        "url": "https://minecraft.wiki/w/Fluid%20tag%20(Java%20Edition)",
+        "revision": 3840743
+      }
+    ],
+    "command_translation.tag.fluid.minecraft.supports_lily_pad": [
+      {
+        "url": "https://minecraft.wiki/w/Fluid%20tag%20(Java%20Edition)",
+        "revision": 3840743
+      }
+    ],
+    "command_translation.tag.fluid.minecraft.supports_sugar_cane_adjacently": [
+      {
+        "url": "https://minecraft.wiki/w/Fluid%20tag%20(Java%20Edition)",
+        "revision": 3840743
+      }
+    ]
+  }
+}

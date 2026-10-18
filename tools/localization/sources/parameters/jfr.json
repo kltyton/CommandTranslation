@@ -1,0 +1,68 @@
+{
+  "en_us": {
+    "command_translation.help.argument.jfr.start": "Starts a Java Flight Recorder profiling session on the server.",
+    "command_translation.help.argument.jfr.stop": "Stops the session and writes a .jfr recording and a summary under .minecraft/debug."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.jfr.start": "在服务器上启动一次 Java Flight Recorder 性能记录会话。",
+    "command_translation.help.argument.jfr.stop": "停止会话，并把 .jfr 记录与摘要写入 .minecraft/debug 下。"
+  },
+  "sources": {
+    "command_translation.help.argument.jfr.start": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fjfr",
+        "revision": 3662194
+      }
+    ],
+    "command_translation.help.argument.jfr.stop": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fjfr",
+        "revision": 3662194
+      }
+    ]
+  },
+  "bindings": {
+    "jfr.start": "command_translation.help.argument.jfr.start",
+    "jfr.stop": "command_translation.help.argument.jfr.stop"
+  },
+  "de_de": {
+    "command_translation.help.argument.jfr.start": "Startet eine Java-Flight-Recorder-Profiling-Sitzung auf dem Server.",
+    "command_translation.help.argument.jfr.stop": "Beendet die Sitzung und schreibt eine .jfr-Aufzeichnung samt Zusammenfassung unter .minecraft/debug."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.jfr.start": "サーバー上で Java Flight Recorder のプロファイリングセッションを開始する。",
+    "command_translation.help.argument.jfr.stop": "セッションを停止し、.jfr 記録と要約を .minecraft/debug に書き出す。"
+  },
+  "syntax": [
+    {
+      "path": "jfr",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "jfr.start",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "jfr.stop",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

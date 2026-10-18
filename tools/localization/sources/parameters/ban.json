@@ -1,0 +1,70 @@
+{
+  "en_us": {
+    "command_translation.help.argument.ban.targets": "The player profile(s) to add to the server blacklist.",
+    "command_translation.help.argument.ban.reason": "The message shown to the banned player, other operators and the server logs."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.ban.targets": "要加入服务器封禁列表的玩家档案。",
+    "command_translation.help.argument.ban.reason": "向被封禁玩家、其他管理员和服务器日志显示的消息。"
+  },
+  "sources": {
+    "command_translation.help.argument.ban.targets": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fban",
+        "revision": 3563909
+      }
+    ],
+    "command_translation.help.argument.ban.reason": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fban",
+        "revision": 3563909
+      }
+    ]
+  },
+  "bindings": {
+    "ban.targets": "command_translation.help.argument.ban.targets",
+    "ban.targets.reason": "command_translation.help.argument.ban.reason"
+  },
+  "de_de": {
+    "command_translation.help.argument.ban.targets": "Das Spielerprofil, das der Server-Blacklist hinzugefügt wird.",
+    "command_translation.help.argument.ban.reason": "Die Nachricht, die dem gebannten Spieler, anderen Operatoren und im Server-Log angezeigt wird."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.ban.targets": "サーバーのブラックリストに追加するプレイヤープロフィール。",
+    "command_translation.help.argument.ban.reason": "BAN されたプレイヤー、他のオペレーター、サーバーログに表示されるメッセージ。"
+  },
+  "syntax": [
+    {
+      "path": "ban",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "ban.targets",
+      "type": "argument",
+      "parser": "minecraft:game_profile",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "ban.targets.reason",
+      "type": "argument",
+      "parser": "minecraft:message",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

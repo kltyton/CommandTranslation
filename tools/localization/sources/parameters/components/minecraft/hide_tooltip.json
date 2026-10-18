@@ -1,0 +1,22 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:hide_tooltip": "Hides the item's entire tooltip, including its name."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:hide_tooltip": "完全隐藏该物品的提示框，包括名称。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:hide_tooltip": "Blendet den gesamten Tooltip des Items einschließlich des Namens aus."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:hide_tooltip": "名前を含め、このアイテムのツールチップを完全に隠す。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:hide_tooltip": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      }
+    ]
+  }
+}

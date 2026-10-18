@@ -1,0 +1,2252 @@
+{
+  "en_us": {
+    "command_translation.help.value.context": "%s\n%s",
+    "command_translation.help.value.type.attribute_operation.add_value": "Adds the amount directly.",
+    "command_translation.help.value.type.attribute_operation.add_multiplied_base": "Adds base value × amount after direct additions.",
+    "command_translation.help.value.type.attribute_operation.add_multiplied_total": "Multiplies the result by 1 + amount for each modifier.",
+    "command_translation.help.value.type.equipment_slot.any": "Any equipment slot, not any inventory slot.",
+    "command_translation.help.value.type.equipment_slot.hand": "Main hand or offhand.",
+    "command_translation.help.value.type.equipment_slot.armor": "Armor equipment slots.",
+    "command_translation.help.value.type.equipment_slot.mainhand": "Main-hand equipment slot.",
+    "command_translation.help.value.type.equipment_slot.offhand": "Offhand equipment slot.",
+    "command_translation.help.value.type.equipment_slot.head": "Head equipment slot.",
+    "command_translation.help.value.type.equipment_slot.chest": "Chest equipment slot.",
+    "command_translation.help.value.type.equipment_slot.legs": "Leg equipment slot.",
+    "command_translation.help.value.type.equipment_slot.feet": "Foot equipment slot.",
+    "command_translation.help.value.type.equipment_slot.body": "Body equipment slot used by animal armor.",
+    "command_translation.help.value.type.equipment_slot.saddle": "Saddle equipment slot.",
+    "command_translation.help.value.type.use_animation.none": "No use animation.",
+    "command_translation.help.value.type.use_animation.eat": "Eating animation.",
+    "command_translation.help.value.type.use_animation.drink": "Drinking animation.",
+    "command_translation.help.value.type.use_animation.block": "Blocking animation.",
+    "command_translation.help.value.type.use_animation.bow": "Bow-drawing animation.",
+    "command_translation.help.value.type.use_animation.spear": "Spear-use animation.",
+    "command_translation.help.value.type.use_animation.trident": "Trident-use animation.",
+    "command_translation.help.value.type.use_animation.crossbow": "Crossbow-use animation.",
+    "command_translation.help.value.type.use_animation.spyglass": "Spyglass animation.",
+    "command_translation.help.value.type.use_animation.toot_horn": "Goat-horn blowing animation.",
+    "command_translation.help.value.type.use_animation.brush": "Brushing animation.",
+    "command_translation.help.value.type.use_animation.bundle": "Bundle-use animation.",
+    "command_translation.help.value.type.firework_shape.small_ball": "Small-ball firework explosion.",
+    "command_translation.help.value.type.firework_shape.large_ball": "Large-ball firework explosion.",
+    "command_translation.help.value.type.firework_shape.star": "Star-shaped firework explosion.",
+    "command_translation.help.value.type.firework_shape.creeper": "Creeper-shaped firework explosion.",
+    "command_translation.help.value.type.firework_shape.burst": "Burst-shaped firework explosion.",
+    "command_translation.help.value.type.text_click_action.open_url": "Opens the URL in the default browser.",
+    "command_translation.help.value.type.text_click_action.open_file": "Opens a local file; servers cannot send this action.",
+    "command_translation.help.value.type.text_click_action.run_command": "Runs the command with the player’s command permissions.",
+    "command_translation.help.value.type.text_click_action.suggest_command": "Fills the chat input without executing it.",
+    "command_translation.help.value.type.text_click_action.change_page": "Turns a written book to the specified existing page.",
+    "command_translation.help.value.type.text_click_action.copy_to_clipboard": "Copies the text to the clipboard.",
+    "command_translation.help.value.type.text_click_action.show_dialog": "Opens the specified dialog.",
+    "command_translation.help.value.type.text_hover_action.show_text": "Shows the specified text in a tooltip.",
+    "command_translation.help.value.type.text_hover_action.show_item": "Shows the specified item’s tooltip.",
+    "command_translation.help.value.type.text_hover_action.show_entity": "Shows an entity’s name, type and UUID.",
+    "command_translation.help.value.type.entity_no_ai.true": "Disables the mob’s AI.",
+    "command_translation.help.value.type.entity_no_ai.1b": "Disables the mob’s AI.",
+    "command_translation.help.value.type.entity_no_ai.1": "Disables the mob’s AI.",
+    "command_translation.help.value.type.entity_no_ai.false": "Allows the mob’s AI to operate.",
+    "command_translation.help.value.type.entity_no_ai.0b": "Allows the mob’s AI to operate.",
+    "command_translation.help.value.type.entity_no_ai.0": "Allows the mob’s AI to operate.",
+    "command_translation.help.nbt.entity.field.NoAI.value_type": "entity_no_ai",
+    "command_translation.help.value.type.entity_no_gravity.true": "Disables natural falling from gravity.",
+    "command_translation.help.value.type.entity_no_gravity.1b": "Disables natural falling from gravity.",
+    "command_translation.help.value.type.entity_no_gravity.1": "Disables natural falling from gravity.",
+    "command_translation.help.value.type.entity_no_gravity.false": "Clears this field’s no-gravity setting.",
+    "command_translation.help.value.type.entity_no_gravity.0b": "Clears this field’s no-gravity setting.",
+    "command_translation.help.value.type.entity_no_gravity.0": "Clears this field’s no-gravity setting.",
+    "command_translation.help.nbt.entity.field.NoGravity.value_type": "entity_no_gravity",
+    "command_translation.help.value.type.entity_silent.true": "Silences the entity.",
+    "command_translation.help.value.type.entity_silent.1b": "Silences the entity.",
+    "command_translation.help.value.type.entity_silent.1": "Silences the entity.",
+    "command_translation.help.value.type.entity_silent.false": "Clears this field’s silence setting.",
+    "command_translation.help.value.type.entity_silent.0b": "Clears this field’s silence setting.",
+    "command_translation.help.value.type.entity_silent.0": "Clears this field’s silence setting.",
+    "command_translation.help.nbt.entity.field.Silent.value_type": "entity_silent",
+    "command_translation.help.value.type.entity_glowing.true": "Gives the entity a glowing outline.",
+    "command_translation.help.value.type.entity_glowing.1b": "Gives the entity a glowing outline.",
+    "command_translation.help.value.type.entity_glowing.1": "Gives the entity a glowing outline.",
+    "command_translation.help.value.type.entity_glowing.false": "Clears this field’s glowing outline.",
+    "command_translation.help.value.type.entity_glowing.0b": "Clears this field’s glowing outline.",
+    "command_translation.help.value.type.entity_glowing.0": "Clears this field’s glowing outline.",
+    "command_translation.help.nbt.entity.field.Glowing.value_type": "entity_glowing",
+    "command_translation.help.value.type.entity_persistent.true": "Prevents the mob from naturally despawning.",
+    "command_translation.help.value.type.entity_persistent.1b": "Prevents the mob from naturally despawning.",
+    "command_translation.help.value.type.entity_persistent.1": "Prevents the mob from naturally despawning.",
+    "command_translation.help.value.type.entity_persistent.false": "Allows normal natural despawning.",
+    "command_translation.help.value.type.entity_persistent.0b": "Allows normal natural despawning.",
+    "command_translation.help.value.type.entity_persistent.0": "Allows normal natural despawning.",
+    "command_translation.help.nbt.entity.field.PersistenceRequired.value_type": "entity_persistent",
+    "command_translation.help.value.type.entity_invulnerable.true": "Sets invulnerability; Creative players can still damage it.",
+    "command_translation.help.value.type.entity_invulnerable.1b": "Sets invulnerability; Creative players can still damage it.",
+    "command_translation.help.value.type.entity_invulnerable.1": "Sets invulnerability; Creative players can still damage it.",
+    "command_translation.help.value.type.entity_invulnerable.false": "Clears this field’s invulnerability flag.",
+    "command_translation.help.value.type.entity_invulnerable.0b": "Clears this field’s invulnerability flag.",
+    "command_translation.help.value.type.entity_invulnerable.0": "Clears this field’s invulnerability flag.",
+    "command_translation.help.nbt.entity.field.Invulnerable.value_type": "entity_invulnerable",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.operation.value_type": "attribute_operation",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.operation.value_type": "attribute_operation",
+    "command_translation.help.nbt.entity.field.attributes.modifiers.operation.value_type": "attribute_operation",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.slot.value_type": "equipment_slot",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.slot.value_type": "equipment_slot",
+    "command_translation.help.component.minecraft:equippable.field.slot.value_type": "equipment_slot",
+    "command_translation.help.component.minecraft:consumable.field.animation.value_type": "use_animation",
+    "command_translation.help.component.minecraft:firework_explosion.field.shape.value_type": "firework_shape",
+    "command_translation.help.component.minecraft:fireworks.field.explosions.shape.value_type": "firework_shape",
+    "command_translation.help.text.field.click_event.action.value_type": "text_click_action",
+    "command_translation.help.text.field.clickEvent.action.value_type": "text_click_action",
+    "command_translation.help.dialog.field.action.type.value_type": "text_click_action",
+    "command_translation.help.dialog.field.actions.action.type.value_type": "text_click_action",
+    "command_translation.help.dialog.field.exit_action.type.value_type": "text_click_action",
+    "command_translation.help.text.field.hover_event.action.value_type": "text_hover_action",
+    "command_translation.help.text.field.hoverEvent.action.value_type": "text_hover_action",
+    "command_translation.help.component.minecraft:damage_type.registry": "minecraft:damage_type",
+    "command_translation.help.component.minecraft:damage_resistant.field.types.registry": "minecraft:damage_type",
+    "command_translation.help.component.minecraft:blocks_attacks.field.damage_reductions.types.registry": "minecraft:damage_type",
+    "command_translation.help.component.minecraft:blocks_attacks.field.bypassed_by.registry": "minecraft:damage_type",
+    "command_translation.help.component.minecraft:container.field.item.id.registry": "minecraft:item",
+    "command_translation.help.component.minecraft:bundle_contents.field.id.registry": "minecraft:item",
+    "command_translation.help.component.minecraft:charged_projectiles.field.id.registry": "minecraft:item",
+    "command_translation.help.component.minecraft:pot_decorations.registry": "minecraft:item",
+    "command_translation.help.component.minecraft:repairable.field.items.registry": "minecraft:item",
+    "command_translation.help.component.minecraft:lock.field.items.registry": "minecraft:item",
+    "command_translation.help.nbt.item.field.id.registry": "minecraft:item",
+    "command_translation.help.nbt.entity.field.Items.id.registry": "minecraft:item",
+    "command_translation.help.nbt.entity.field.Inventory.id.registry": "minecraft:item",
+    "command_translation.help.nbt.entity.field.Item.id.registry": "minecraft:item",
+    "command_translation.help.nbt.block_entity.field.Items.id.registry": "minecraft:item",
+    "command_translation.help.particle.minecraft:item.field.item.id.registry": "minecraft:item",
+    "command_translation.help.component.minecraft:can_break.field.predicates.blocks.registry": "minecraft:block",
+    "command_translation.help.component.minecraft:can_place_on.field.predicates.blocks.registry": "minecraft:block",
+    "command_translation.help.component.minecraft:tool.field.rules.blocks.registry": "minecraft:block",
+    "command_translation.help.component.minecraft:use_remainder.field.id.registry": "minecraft:item",
+    "command_translation.help.particle.minecraft:block.field.block_state.Name.registry": "minecraft:block",
+    "command_translation.help.particle.minecraft:block_marker.field.block_state.Name.registry": "minecraft:block",
+    "command_translation.help.particle.minecraft:falling_dust.field.block_state.Name.registry": "minecraft:block",
+    "command_translation.help.nbt.block_entity.field.BlockState.Name.registry": "minecraft:block",
+    "command_translation.help.selector.field.type.registry": "minecraft:entity_type",
+    "command_translation.help.component.minecraft:entity_data.field.id.registry": "minecraft:entity_type",
+    "command_translation.help.component.minecraft:bucket_entity_data.field.id.registry": "minecraft:entity_type",
+    "command_translation.help.component.minecraft:equippable.field.allowed_entities.registry": "minecraft:entity_type",
+    "command_translation.help.nbt.entity.field.id.registry": "minecraft:entity_type",
+    "command_translation.help.text.field.hoverEvent.contents.type.registry": "minecraft:entity_type",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.type.registry": "minecraft:attribute",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.type.registry": "minecraft:attribute",
+    "command_translation.help.nbt.entity.field.attributes.id.registry": "minecraft:attribute",
+    "command_translation.help.nbt.entity.field.Attributes.Name.registry": "minecraft:attribute",
+    "command_translation.help.component.minecraft:potion_contents.field.custom_effects.id.registry": "minecraft:mob_effect",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.effects.id.registry": "minecraft:mob_effect",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.effects.registry": "minecraft:mob_effect",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.effects.id.registry": "minecraft:mob_effect",
+    "command_translation.help.component.minecraft:suspicious_stew_effects.field.id.registry": "minecraft:mob_effect",
+    "command_translation.help.nbt.entity.field.active_effects.id.registry": "minecraft:mob_effect",
+    "command_translation.help.component.minecraft:potion_contents.field.potion.registry": "minecraft:potion",
+    "command_translation.help.nbt.item.field.Potion.registry": "minecraft:potion",
+    "command_translation.help.nbt.item.field.Enchantments.id.registry": "minecraft:enchantment",
+    "command_translation.help.nbt.item.field.StoredEnchantments.id.registry": "minecraft:enchantment",
+    "command_translation.help.component.minecraft:painting/variant.registry": "minecraft:painting_variant",
+    "command_translation.help.component.minecraft:banner_patterns.field.pattern.registry": "minecraft:banner_pattern",
+    "command_translation.help.component.minecraft:provides_banner_patterns.registry": "minecraft:banner_pattern",
+    "command_translation.help.component.minecraft:trim.field.material.registry": "minecraft:trim_material",
+    "command_translation.help.component.minecraft:trim.field.pattern.registry": "minecraft:trim_pattern",
+    "command_translation.help.component.minecraft:instrument.registry": "minecraft:instrument",
+    "command_translation.help.component.minecraft:jukebox_playable.registry": "minecraft:jukebox_song",
+    "command_translation.help.component.minecraft:jukebox_playable.field.song.registry": "minecraft:jukebox_song",
+    "command_translation.help.component.minecraft:break_sound.registry": "minecraft:sound_event",
+    "command_translation.help.component.minecraft:consumable.field.sound.registry": "minecraft:sound_event",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.sound.registry": "minecraft:sound_event",
+    "command_translation.help.component.minecraft:equippable.field.equip_sound.registry": "minecraft:sound_event",
+    "command_translation.help.component.minecraft:blocks_attacks.field.block_sound.registry": "minecraft:sound_event",
+    "command_translation.help.component.minecraft:blocks_attacks.field.disable_sound.registry": "minecraft:sound_event",
+    "command_translation.help.component.minecraft:kinetic_weapon.field.hit_sound.registry": "minecraft:sound_event",
+    "command_translation.help.component.minecraft:instrument.field.sound_event.registry": "minecraft:sound_event",
+    "command_translation.help.component.minecraft:lodestone_tracker.field.target.dimension.registry": "minecraft:dimension",
+    "command_translation.help.nbt.entity.field.Dimension.registry": "minecraft:dimension",
+    "command_translation.help.component.minecraft:enchantments.field.*.key_registry": "minecraft:enchantment",
+    "command_translation.help.component.minecraft:enchantments.field.levels.*.key_registry": "minecraft:enchantment",
+    "command_translation.help.component.minecraft:stored_enchantments.field.*.key_registry": "minecraft:enchantment",
+    "command_translation.help.component.minecraft:stored_enchantments.field.levels.*.key_registry": "minecraft:enchantment",
+    "command_translation.help.nbt.entity.field.HandItems.id.registry": "minecraft:item",
+    "command_translation.help.nbt.entity.field.ArmorItems.id.registry": "minecraft:item",
+    "command_translation.help.nbt.entity.field.SelectedItem.id.registry": "minecraft:item",
+    "command_translation.help.nbt.entity.field.equipment.*.id.registry": "minecraft:item",
+    "command_translation.help.nbt.block_entity.field.RecordItem.id.registry": "minecraft:item",
+    "command_translation.help.nbt.item.field.BlockEntityTag.Items.id.registry": "minecraft:item",
+    "command_translation.help.value.type.legacy_attribute_operation.0": "Adds the amount directly.",
+    "command_translation.help.value.type.legacy_attribute_operation.1": "Adds base value × amount after direct additions.",
+    "command_translation.help.value.type.legacy_attribute_operation.2": "Multiplies the result by 1 + amount for each modifier.",
+    "command_translation.help.nbt.item.field.AttributeModifiers.Operation.value_type": "legacy_attribute_operation",
+    "command_translation.help.nbt.entity.field.Attributes.Modifiers.Operation.value_type": "legacy_attribute_operation",
+    "command_translation.help.nbt.item.field.AttributeModifiers.Slot.value_type": "equipment_slot",
+    "command_translation.help.nbt.item.field.AttributeModifiers.AttributeName.registry": "minecraft:attribute",
+    "command_translation.help.value.type.legacy_firework_shape.0": "Small-ball firework explosion.",
+    "command_translation.help.value.type.legacy_firework_shape.0b": "Small-ball firework explosion.",
+    "command_translation.help.value.type.legacy_firework_shape.1": "Large-ball firework explosion.",
+    "command_translation.help.value.type.legacy_firework_shape.1b": "Large-ball firework explosion.",
+    "command_translation.help.value.type.legacy_firework_shape.2": "Star-shaped firework explosion.",
+    "command_translation.help.value.type.legacy_firework_shape.2b": "Star-shaped firework explosion.",
+    "command_translation.help.value.type.legacy_firework_shape.3": "Creeper-shaped firework explosion.",
+    "command_translation.help.value.type.legacy_firework_shape.3b": "Creeper-shaped firework explosion.",
+    "command_translation.help.value.type.legacy_firework_shape.4": "Burst-shaped firework explosion.",
+    "command_translation.help.value.type.legacy_firework_shape.4b": "Burst-shaped firework explosion.",
+    "command_translation.help.nbt.item.field.Explosion.Type.value_type": "legacy_firework_shape",
+    "command_translation.help.nbt.item.field.Fireworks.Explosions.Type.value_type": "legacy_firework_shape",
+    "command_translation.help.value.type.book_generation.0": "Original; can be copied.",
+    "command_translation.help.value.type.book_generation.1": "Copy of original; can be copied.",
+    "command_translation.help.value.type.book_generation.2": "Copy of a copy; cannot be copied again.",
+    "command_translation.help.value.type.book_generation.3": "Tattered; cannot be copied, and unused in normal gameplay.",
+    "command_translation.help.nbt.item.field.generation.value_type": "book_generation",
+    "command_translation.help.component.minecraft:written_book_content.field.generation.value_type": "book_generation",
+    "command_translation.help.value.type.item_unbreakable.true": "The item does not lose durability when used.",
+    "command_translation.help.value.type.item_unbreakable.1b": "The item does not lose durability when used.",
+    "command_translation.help.value.type.item_unbreakable.1": "The item does not lose durability when used.",
+    "command_translation.help.value.type.item_unbreakable.false": "Clears this field’s unbreakable setting.",
+    "command_translation.help.value.type.item_unbreakable.0b": "Clears this field’s unbreakable setting.",
+    "command_translation.help.value.type.item_unbreakable.0": "Clears this field’s unbreakable setting.",
+    "command_translation.help.nbt.item.field.Unbreakable.value_type": "item_unbreakable",
+    "command_translation.help.value.type.firework_twinkle.true": "Adds a twinkle effect to the explosion.",
+    "command_translation.help.value.type.firework_twinkle.1b": "Adds a twinkle effect to the explosion.",
+    "command_translation.help.value.type.firework_twinkle.1": "Adds a twinkle effect to the explosion.",
+    "command_translation.help.value.type.firework_twinkle.false": "No twinkle effect from this field.",
+    "command_translation.help.value.type.firework_twinkle.0b": "No twinkle effect from this field.",
+    "command_translation.help.value.type.firework_twinkle.0": "No twinkle effect from this field.",
+    "command_translation.help.nbt.item.field.Explosion.Flicker.value_type": "firework_twinkle",
+    "command_translation.help.nbt.item.field.Fireworks.Explosions.Flicker.value_type": "firework_twinkle",
+    "command_translation.help.component.minecraft:firework_explosion.field.has_twinkle.value_type": "firework_twinkle",
+    "command_translation.help.component.minecraft:fireworks.field.explosions.has_twinkle.value_type": "firework_twinkle",
+    "command_translation.help.value.type.firework_trail.true": "Adds a trail effect to the explosion.",
+    "command_translation.help.value.type.firework_trail.1b": "Adds a trail effect to the explosion.",
+    "command_translation.help.value.type.firework_trail.1": "Adds a trail effect to the explosion.",
+    "command_translation.help.value.type.firework_trail.false": "No trail effect from this field.",
+    "command_translation.help.value.type.firework_trail.0b": "No trail effect from this field.",
+    "command_translation.help.value.type.firework_trail.0": "No trail effect from this field.",
+    "command_translation.help.nbt.item.field.Explosion.Trail.value_type": "firework_trail",
+    "command_translation.help.nbt.item.field.Fireworks.Explosions.Trail.value_type": "firework_trail",
+    "command_translation.help.component.minecraft:firework_explosion.field.has_trail.value_type": "firework_trail",
+    "command_translation.help.component.minecraft:fireworks.field.explosions.has_trail.value_type": "firework_trail"
+  },
+  "zh_cn": {
+    "command_translation.help.value.context": "%s\n%s",
+    "command_translation.help.value.type.attribute_operation.add_value": "直接加上修饰数值。",
+    "command_translation.help.value.type.attribute_operation.add_multiplied_base": "在直接加值后，再加上该阶段基础值×修饰数值。",
+    "command_translation.help.value.type.attribute_operation.add_multiplied_total": "每个修饰符依次将结果乘以（1＋修饰数值）。",
+    "command_translation.help.value.type.equipment_slot.any": "任意装备槽位，不包括普通背包槽位。",
+    "command_translation.help.value.type.equipment_slot.hand": "主手或副手。",
+    "command_translation.help.value.type.equipment_slot.armor": "盔甲装备槽位。",
+    "command_translation.help.value.type.equipment_slot.mainhand": "主手槽位。",
+    "command_translation.help.value.type.equipment_slot.offhand": "副手槽位。",
+    "command_translation.help.value.type.equipment_slot.head": "头部槽位。",
+    "command_translation.help.value.type.equipment_slot.chest": "胸部槽位。",
+    "command_translation.help.value.type.equipment_slot.legs": "腿部槽位。",
+    "command_translation.help.value.type.equipment_slot.feet": "脚部槽位。",
+    "command_translation.help.value.type.equipment_slot.body": "动物护甲使用的身体槽位。",
+    "command_translation.help.value.type.equipment_slot.saddle": "鞍的装备槽位。",
+    "command_translation.help.value.type.use_animation.none": "不播放使用动画。",
+    "command_translation.help.value.type.use_animation.eat": "进食动画。",
+    "command_translation.help.value.type.use_animation.drink": "饮用动画。",
+    "command_translation.help.value.type.use_animation.block": "格挡动画。",
+    "command_translation.help.value.type.use_animation.bow": "拉弓动画。",
+    "command_translation.help.value.type.use_animation.spear": "长矛使用动画。",
+    "command_translation.help.value.type.use_animation.trident": "三叉戟使用动画。",
+    "command_translation.help.value.type.use_animation.crossbow": "弩的使用动画。",
+    "command_translation.help.value.type.use_animation.spyglass": "望远镜使用动画。",
+    "command_translation.help.value.type.use_animation.toot_horn": "吹响山羊角的动画。",
+    "command_translation.help.value.type.use_animation.brush": "刷扫动画。",
+    "command_translation.help.value.type.use_animation.bundle": "收纳袋使用动画。",
+    "command_translation.help.value.type.firework_shape.small_ball": "小型球状烟花爆炸。",
+    "command_translation.help.value.type.firework_shape.large_ball": "大型球状烟花爆炸。",
+    "command_translation.help.value.type.firework_shape.star": "星形烟花爆炸。",
+    "command_translation.help.value.type.firework_shape.creeper": "苦力怕形状的烟花爆炸。",
+    "command_translation.help.value.type.firework_shape.burst": "喷发状烟花爆炸。",
+    "command_translation.help.value.type.text_click_action.open_url": "在默认浏览器打开链接。",
+    "command_translation.help.value.type.text_click_action.open_file": "打开本地文件；服务器不能发送此操作。",
+    "command_translation.help.value.type.text_click_action.run_command": "以玩家的指令权限执行指令。",
+    "command_translation.help.value.type.text_click_action.suggest_command": "填入聊天输入框，不直接执行。",
+    "command_translation.help.value.type.text_click_action.change_page": "在成书中跳转到指定的已有页。",
+    "command_translation.help.value.type.text_click_action.copy_to_clipboard": "将文本复制到剪贴板。",
+    "command_translation.help.value.type.text_click_action.show_dialog": "打开指定的对话框。",
+    "command_translation.help.value.type.text_hover_action.show_text": "在悬停提示中显示指定文本。",
+    "command_translation.help.value.type.text_hover_action.show_item": "显示指定物品的提示。",
+    "command_translation.help.value.type.text_hover_action.show_entity": "显示实体名称、类型和 UUID。",
+    "command_translation.help.value.type.entity_no_ai.true": "禁用生物的 AI。",
+    "command_translation.help.value.type.entity_no_ai.1b": "禁用生物的 AI。",
+    "command_translation.help.value.type.entity_no_ai.1": "禁用生物的 AI。",
+    "command_translation.help.value.type.entity_no_ai.false": "允许生物的 AI 运作。",
+    "command_translation.help.value.type.entity_no_ai.0b": "允许生物的 AI 运作。",
+    "command_translation.help.value.type.entity_no_ai.0": "允许生物的 AI 运作。",
+    "command_translation.help.nbt.entity.field.NoAI.value_type": "entity_no_ai",
+    "command_translation.help.value.type.entity_no_gravity.true": "取消重力引起的自然下落。",
+    "command_translation.help.value.type.entity_no_gravity.1b": "取消重力引起的自然下落。",
+    "command_translation.help.value.type.entity_no_gravity.1": "取消重力引起的自然下落。",
+    "command_translation.help.value.type.entity_no_gravity.false": "取消此字段的无重力设置。",
+    "command_translation.help.value.type.entity_no_gravity.0b": "取消此字段的无重力设置。",
+    "command_translation.help.value.type.entity_no_gravity.0": "取消此字段的无重力设置。",
+    "command_translation.help.nbt.entity.field.NoGravity.value_type": "entity_no_gravity",
+    "command_translation.help.value.type.entity_silent.true": "使实体不发出声音。",
+    "command_translation.help.value.type.entity_silent.1b": "使实体不发出声音。",
+    "command_translation.help.value.type.entity_silent.1": "使实体不发出声音。",
+    "command_translation.help.value.type.entity_silent.false": "取消此字段的静音设置。",
+    "command_translation.help.value.type.entity_silent.0b": "取消此字段的静音设置。",
+    "command_translation.help.value.type.entity_silent.0": "取消此字段的静音设置。",
+    "command_translation.help.nbt.entity.field.Silent.value_type": "entity_silent",
+    "command_translation.help.value.type.entity_glowing.true": "为实体添加发光轮廓。",
+    "command_translation.help.value.type.entity_glowing.1b": "为实体添加发光轮廓。",
+    "command_translation.help.value.type.entity_glowing.1": "为实体添加发光轮廓。",
+    "command_translation.help.value.type.entity_glowing.false": "取消此字段设置的发光轮廓。",
+    "command_translation.help.value.type.entity_glowing.0b": "取消此字段设置的发光轮廓。",
+    "command_translation.help.value.type.entity_glowing.0": "取消此字段设置的发光轮廓。",
+    "command_translation.help.nbt.entity.field.Glowing.value_type": "entity_glowing",
+    "command_translation.help.value.type.entity_persistent.true": "阻止生物自然消失。",
+    "command_translation.help.value.type.entity_persistent.1b": "阻止生物自然消失。",
+    "command_translation.help.value.type.entity_persistent.1": "阻止生物自然消失。",
+    "command_translation.help.value.type.entity_persistent.false": "允许按正常规则自然消失。",
+    "command_translation.help.value.type.entity_persistent.0b": "允许按正常规则自然消失。",
+    "command_translation.help.value.type.entity_persistent.0": "允许按正常规则自然消失。",
+    "command_translation.help.nbt.entity.field.PersistenceRequired.value_type": "entity_persistent",
+    "command_translation.help.value.type.entity_invulnerable.true": "设置无敌标记；创造模式玩家仍可伤害它。",
+    "command_translation.help.value.type.entity_invulnerable.1b": "设置无敌标记；创造模式玩家仍可伤害它。",
+    "command_translation.help.value.type.entity_invulnerable.1": "设置无敌标记；创造模式玩家仍可伤害它。",
+    "command_translation.help.value.type.entity_invulnerable.false": "取消此字段的无敌标记。",
+    "command_translation.help.value.type.entity_invulnerable.0b": "取消此字段的无敌标记。",
+    "command_translation.help.value.type.entity_invulnerable.0": "取消此字段的无敌标记。",
+    "command_translation.help.nbt.entity.field.Invulnerable.value_type": "entity_invulnerable",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.operation.value_type": "attribute_operation",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.operation.value_type": "attribute_operation",
+    "command_translation.help.nbt.entity.field.attributes.modifiers.operation.value_type": "attribute_operation",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.slot.value_type": "equipment_slot",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.slot.value_type": "equipment_slot",
+    "command_translation.help.component.minecraft:equippable.field.slot.value_type": "equipment_slot",
+    "command_translation.help.component.minecraft:consumable.field.animation.value_type": "use_animation",
+    "command_translation.help.component.minecraft:firework_explosion.field.shape.value_type": "firework_shape",
+    "command_translation.help.component.minecraft:fireworks.field.explosions.shape.value_type": "firework_shape",
+    "command_translation.help.text.field.click_event.action.value_type": "text_click_action",
+    "command_translation.help.text.field.clickEvent.action.value_type": "text_click_action",
+    "command_translation.help.dialog.field.action.type.value_type": "text_click_action",
+    "command_translation.help.dialog.field.actions.action.type.value_type": "text_click_action",
+    "command_translation.help.dialog.field.exit_action.type.value_type": "text_click_action",
+    "command_translation.help.text.field.hover_event.action.value_type": "text_hover_action",
+    "command_translation.help.text.field.hoverEvent.action.value_type": "text_hover_action",
+    "command_translation.help.component.minecraft:damage_type.registry": "minecraft:damage_type",
+    "command_translation.help.component.minecraft:damage_resistant.field.types.registry": "minecraft:damage_type",
+    "command_translation.help.component.minecraft:blocks_attacks.field.damage_reductions.types.registry": "minecraft:damage_type",
+    "command_translation.help.component.minecraft:blocks_attacks.field.bypassed_by.registry": "minecraft:damage_type",
+    "command_translation.help.component.minecraft:container.field.item.id.registry": "minecraft:item",
+    "command_translation.help.component.minecraft:bundle_contents.field.id.registry": "minecraft:item",
+    "command_translation.help.component.minecraft:charged_projectiles.field.id.registry": "minecraft:item",
+    "command_translation.help.component.minecraft:pot_decorations.registry": "minecraft:item",
+    "command_translation.help.component.minecraft:repairable.field.items.registry": "minecraft:item",
+    "command_translation.help.component.minecraft:lock.field.items.registry": "minecraft:item",
+    "command_translation.help.nbt.item.field.id.registry": "minecraft:item",
+    "command_translation.help.nbt.entity.field.Items.id.registry": "minecraft:item",
+    "command_translation.help.nbt.entity.field.Inventory.id.registry": "minecraft:item",
+    "command_translation.help.nbt.entity.field.Item.id.registry": "minecraft:item",
+    "command_translation.help.nbt.block_entity.field.Items.id.registry": "minecraft:item",
+    "command_translation.help.particle.minecraft:item.field.item.id.registry": "minecraft:item",
+    "command_translation.help.component.minecraft:can_break.field.predicates.blocks.registry": "minecraft:block",
+    "command_translation.help.component.minecraft:can_place_on.field.predicates.blocks.registry": "minecraft:block",
+    "command_translation.help.component.minecraft:tool.field.rules.blocks.registry": "minecraft:block",
+    "command_translation.help.component.minecraft:use_remainder.field.id.registry": "minecraft:item",
+    "command_translation.help.particle.minecraft:block.field.block_state.Name.registry": "minecraft:block",
+    "command_translation.help.particle.minecraft:block_marker.field.block_state.Name.registry": "minecraft:block",
+    "command_translation.help.particle.minecraft:falling_dust.field.block_state.Name.registry": "minecraft:block",
+    "command_translation.help.nbt.block_entity.field.BlockState.Name.registry": "minecraft:block",
+    "command_translation.help.selector.field.type.registry": "minecraft:entity_type",
+    "command_translation.help.component.minecraft:entity_data.field.id.registry": "minecraft:entity_type",
+    "command_translation.help.component.minecraft:bucket_entity_data.field.id.registry": "minecraft:entity_type",
+    "command_translation.help.component.minecraft:equippable.field.allowed_entities.registry": "minecraft:entity_type",
+    "command_translation.help.nbt.entity.field.id.registry": "minecraft:entity_type",
+    "command_translation.help.text.field.hoverEvent.contents.type.registry": "minecraft:entity_type",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.type.registry": "minecraft:attribute",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.type.registry": "minecraft:attribute",
+    "command_translation.help.nbt.entity.field.attributes.id.registry": "minecraft:attribute",
+    "command_translation.help.nbt.entity.field.Attributes.Name.registry": "minecraft:attribute",
+    "command_translation.help.component.minecraft:potion_contents.field.custom_effects.id.registry": "minecraft:mob_effect",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.effects.id.registry": "minecraft:mob_effect",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.effects.registry": "minecraft:mob_effect",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.effects.id.registry": "minecraft:mob_effect",
+    "command_translation.help.component.minecraft:suspicious_stew_effects.field.id.registry": "minecraft:mob_effect",
+    "command_translation.help.nbt.entity.field.active_effects.id.registry": "minecraft:mob_effect",
+    "command_translation.help.component.minecraft:potion_contents.field.potion.registry": "minecraft:potion",
+    "command_translation.help.nbt.item.field.Potion.registry": "minecraft:potion",
+    "command_translation.help.nbt.item.field.Enchantments.id.registry": "minecraft:enchantment",
+    "command_translation.help.nbt.item.field.StoredEnchantments.id.registry": "minecraft:enchantment",
+    "command_translation.help.component.minecraft:painting/variant.registry": "minecraft:painting_variant",
+    "command_translation.help.component.minecraft:banner_patterns.field.pattern.registry": "minecraft:banner_pattern",
+    "command_translation.help.component.minecraft:provides_banner_patterns.registry": "minecraft:banner_pattern",
+    "command_translation.help.component.minecraft:trim.field.material.registry": "minecraft:trim_material",
+    "command_translation.help.component.minecraft:trim.field.pattern.registry": "minecraft:trim_pattern",
+    "command_translation.help.component.minecraft:instrument.registry": "minecraft:instrument",
+    "command_translation.help.component.minecraft:jukebox_playable.registry": "minecraft:jukebox_song",
+    "command_translation.help.component.minecraft:jukebox_playable.field.song.registry": "minecraft:jukebox_song",
+    "command_translation.help.component.minecraft:break_sound.registry": "minecraft:sound_event",
+    "command_translation.help.component.minecraft:consumable.field.sound.registry": "minecraft:sound_event",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.sound.registry": "minecraft:sound_event",
+    "command_translation.help.component.minecraft:equippable.field.equip_sound.registry": "minecraft:sound_event",
+    "command_translation.help.component.minecraft:blocks_attacks.field.block_sound.registry": "minecraft:sound_event",
+    "command_translation.help.component.minecraft:blocks_attacks.field.disable_sound.registry": "minecraft:sound_event",
+    "command_translation.help.component.minecraft:kinetic_weapon.field.hit_sound.registry": "minecraft:sound_event",
+    "command_translation.help.component.minecraft:instrument.field.sound_event.registry": "minecraft:sound_event",
+    "command_translation.help.component.minecraft:lodestone_tracker.field.target.dimension.registry": "minecraft:dimension",
+    "command_translation.help.nbt.entity.field.Dimension.registry": "minecraft:dimension",
+    "command_translation.help.component.minecraft:enchantments.field.*.key_registry": "minecraft:enchantment",
+    "command_translation.help.component.minecraft:enchantments.field.levels.*.key_registry": "minecraft:enchantment",
+    "command_translation.help.component.minecraft:stored_enchantments.field.*.key_registry": "minecraft:enchantment",
+    "command_translation.help.component.minecraft:stored_enchantments.field.levels.*.key_registry": "minecraft:enchantment",
+    "command_translation.help.nbt.entity.field.HandItems.id.registry": "minecraft:item",
+    "command_translation.help.nbt.entity.field.ArmorItems.id.registry": "minecraft:item",
+    "command_translation.help.nbt.entity.field.SelectedItem.id.registry": "minecraft:item",
+    "command_translation.help.nbt.entity.field.equipment.*.id.registry": "minecraft:item",
+    "command_translation.help.nbt.block_entity.field.RecordItem.id.registry": "minecraft:item",
+    "command_translation.help.nbt.item.field.BlockEntityTag.Items.id.registry": "minecraft:item",
+    "command_translation.help.value.type.legacy_attribute_operation.0": "直接加上修饰数值。",
+    "command_translation.help.value.type.legacy_attribute_operation.1": "在直接加值后，再加上该阶段基础值×修饰数值。",
+    "command_translation.help.value.type.legacy_attribute_operation.2": "每个修饰符依次将结果乘以（1＋修饰数值）。",
+    "command_translation.help.nbt.item.field.AttributeModifiers.Operation.value_type": "legacy_attribute_operation",
+    "command_translation.help.nbt.entity.field.Attributes.Modifiers.Operation.value_type": "legacy_attribute_operation",
+    "command_translation.help.nbt.item.field.AttributeModifiers.Slot.value_type": "equipment_slot",
+    "command_translation.help.nbt.item.field.AttributeModifiers.AttributeName.registry": "minecraft:attribute",
+    "command_translation.help.value.type.legacy_firework_shape.0": "小型球状烟花爆炸。",
+    "command_translation.help.value.type.legacy_firework_shape.0b": "小型球状烟花爆炸。",
+    "command_translation.help.value.type.legacy_firework_shape.1": "大型球状烟花爆炸。",
+    "command_translation.help.value.type.legacy_firework_shape.1b": "大型球状烟花爆炸。",
+    "command_translation.help.value.type.legacy_firework_shape.2": "星形烟花爆炸。",
+    "command_translation.help.value.type.legacy_firework_shape.2b": "星形烟花爆炸。",
+    "command_translation.help.value.type.legacy_firework_shape.3": "苦力怕形状的烟花爆炸。",
+    "command_translation.help.value.type.legacy_firework_shape.3b": "苦力怕形状的烟花爆炸。",
+    "command_translation.help.value.type.legacy_firework_shape.4": "喷发状烟花爆炸。",
+    "command_translation.help.value.type.legacy_firework_shape.4b": "喷发状烟花爆炸。",
+    "command_translation.help.nbt.item.field.Explosion.Type.value_type": "legacy_firework_shape",
+    "command_translation.help.nbt.item.field.Fireworks.Explosions.Type.value_type": "legacy_firework_shape",
+    "command_translation.help.value.type.book_generation.0": "原作，可以复制。",
+    "command_translation.help.value.type.book_generation.1": "原作的副本，可以复制。",
+    "command_translation.help.value.type.book_generation.2": "副本的副本，不能再次复制。",
+    "command_translation.help.value.type.book_generation.3": "破烂不堪，不能复制，正常游戏中不使用。",
+    "command_translation.help.nbt.item.field.generation.value_type": "book_generation",
+    "command_translation.help.component.minecraft:written_book_content.field.generation.value_type": "book_generation",
+    "command_translation.help.value.type.item_unbreakable.true": "使用时不消耗耐久度。",
+    "command_translation.help.value.type.item_unbreakable.1b": "使用时不消耗耐久度。",
+    "command_translation.help.value.type.item_unbreakable.1": "使用时不消耗耐久度。",
+    "command_translation.help.value.type.item_unbreakable.false": "取消此字段的不可破坏设置。",
+    "command_translation.help.value.type.item_unbreakable.0b": "取消此字段的不可破坏设置。",
+    "command_translation.help.value.type.item_unbreakable.0": "取消此字段的不可破坏设置。",
+    "command_translation.help.nbt.item.field.Unbreakable.value_type": "item_unbreakable",
+    "command_translation.help.value.type.firework_twinkle.true": "为爆炸添加闪烁效果。",
+    "command_translation.help.value.type.firework_twinkle.1b": "为爆炸添加闪烁效果。",
+    "command_translation.help.value.type.firework_twinkle.1": "为爆炸添加闪烁效果。",
+    "command_translation.help.value.type.firework_twinkle.false": "此字段不添加闪烁效果。",
+    "command_translation.help.value.type.firework_twinkle.0b": "此字段不添加闪烁效果。",
+    "command_translation.help.value.type.firework_twinkle.0": "此字段不添加闪烁效果。",
+    "command_translation.help.nbt.item.field.Explosion.Flicker.value_type": "firework_twinkle",
+    "command_translation.help.nbt.item.field.Fireworks.Explosions.Flicker.value_type": "firework_twinkle",
+    "command_translation.help.component.minecraft:firework_explosion.field.has_twinkle.value_type": "firework_twinkle",
+    "command_translation.help.component.minecraft:fireworks.field.explosions.has_twinkle.value_type": "firework_twinkle",
+    "command_translation.help.value.type.firework_trail.true": "为爆炸添加拖曳轨迹。",
+    "command_translation.help.value.type.firework_trail.1b": "为爆炸添加拖曳轨迹。",
+    "command_translation.help.value.type.firework_trail.1": "为爆炸添加拖曳轨迹。",
+    "command_translation.help.value.type.firework_trail.false": "此字段不添加拖曳轨迹。",
+    "command_translation.help.value.type.firework_trail.0b": "此字段不添加拖曳轨迹。",
+    "command_translation.help.value.type.firework_trail.0": "此字段不添加拖曳轨迹。",
+    "command_translation.help.nbt.item.field.Explosion.Trail.value_type": "firework_trail",
+    "command_translation.help.nbt.item.field.Fireworks.Explosions.Trail.value_type": "firework_trail",
+    "command_translation.help.component.minecraft:firework_explosion.field.has_trail.value_type": "firework_trail",
+    "command_translation.help.component.minecraft:fireworks.field.explosions.has_trail.value_type": "firework_trail"
+  },
+  "de_de": {
+    "command_translation.help.value.context": "%s\n%s",
+    "command_translation.help.value.type.attribute_operation.add_value": "Addiert den Betrag direkt.",
+    "command_translation.help.value.type.attribute_operation.add_multiplied_base": "Addiert nach direkten Zuschlägen den Basiswert × Betrag.",
+    "command_translation.help.value.type.attribute_operation.add_multiplied_total": "Multipliziert das Ergebnis je Modifikator mit 1 + Betrag.",
+    "command_translation.help.value.type.equipment_slot.any": "Jeder Ausrüstungsslot, nicht jeder Inventarslot.",
+    "command_translation.help.value.type.equipment_slot.hand": "Haupt- oder Nebenhand.",
+    "command_translation.help.value.type.equipment_slot.armor": "Rüstungsslots.",
+    "command_translation.help.value.type.equipment_slot.mainhand": "Haupthand-Slot.",
+    "command_translation.help.value.type.equipment_slot.offhand": "Nebenhand-Slot.",
+    "command_translation.help.value.type.equipment_slot.head": "Kopf-Slot.",
+    "command_translation.help.value.type.equipment_slot.chest": "Brust-Slot.",
+    "command_translation.help.value.type.equipment_slot.legs": "Bein-Slot.",
+    "command_translation.help.value.type.equipment_slot.feet": "Fuß-Slot.",
+    "command_translation.help.value.type.equipment_slot.body": "Körperslot für Tierrüstung.",
+    "command_translation.help.value.type.equipment_slot.saddle": "Sattel-Slot.",
+    "command_translation.help.value.type.use_animation.none": "Keine Benutzungsanimation.",
+    "command_translation.help.value.type.use_animation.eat": "Essanimation.",
+    "command_translation.help.value.type.use_animation.drink": "Trinkanimation.",
+    "command_translation.help.value.type.use_animation.block": "Blockanimation.",
+    "command_translation.help.value.type.use_animation.bow": "Bogenspannanimation.",
+    "command_translation.help.value.type.use_animation.spear": "Speeranimation.",
+    "command_translation.help.value.type.use_animation.trident": "Dreizackanimation.",
+    "command_translation.help.value.type.use_animation.crossbow": "Armbrustanimation.",
+    "command_translation.help.value.type.use_animation.spyglass": "Fernrohranimation.",
+    "command_translation.help.value.type.use_animation.toot_horn": "Ziegenhorn-Blasanimation.",
+    "command_translation.help.value.type.use_animation.brush": "Bürstenanimation.",
+    "command_translation.help.value.type.use_animation.bundle": "Bündelanimation.",
+    "command_translation.help.value.type.firework_shape.small_ball": "Kleine kugelförmige Feuerwerksexplosion.",
+    "command_translation.help.value.type.firework_shape.large_ball": "Große kugelförmige Feuerwerksexplosion.",
+    "command_translation.help.value.type.firework_shape.star": "Sternförmige Feuerwerksexplosion.",
+    "command_translation.help.value.type.firework_shape.creeper": "Creeperförmige Feuerwerksexplosion.",
+    "command_translation.help.value.type.firework_shape.burst": "Verstreute Feuerwerksexplosion.",
+    "command_translation.help.value.type.text_click_action.open_url": "Öffnet die URL im Standardbrowser.",
+    "command_translation.help.value.type.text_click_action.open_file": "Öffnet eine lokale Datei; nicht von Servern sendbar.",
+    "command_translation.help.value.type.text_click_action.run_command": "Führt den Befehl mit den Rechten des Spielers aus.",
+    "command_translation.help.value.type.text_click_action.suggest_command": "Füllt die Chateingabe, ohne sie auszuführen.",
+    "command_translation.help.value.type.text_click_action.change_page": "Blättert ein beschriebenes Buch zur angegebenen Seite.",
+    "command_translation.help.value.type.text_click_action.copy_to_clipboard": "Kopiert den Text in die Zwischenablage.",
+    "command_translation.help.value.type.text_click_action.show_dialog": "Öffnet den angegebenen Dialog.",
+    "command_translation.help.value.type.text_hover_action.show_text": "Zeigt den angegebenen Text als Tooltip.",
+    "command_translation.help.value.type.text_hover_action.show_item": "Zeigt den Tooltip des angegebenen Items.",
+    "command_translation.help.value.type.text_hover_action.show_entity": "Zeigt Name, Typ und UUID einer Entität.",
+    "command_translation.help.value.type.entity_no_ai.true": "Deaktiviert die KI des Wesens.",
+    "command_translation.help.value.type.entity_no_ai.1b": "Deaktiviert die KI des Wesens.",
+    "command_translation.help.value.type.entity_no_ai.1": "Deaktiviert die KI des Wesens.",
+    "command_translation.help.value.type.entity_no_ai.false": "Erlaubt die KI des Wesens.",
+    "command_translation.help.value.type.entity_no_ai.0b": "Erlaubt die KI des Wesens.",
+    "command_translation.help.value.type.entity_no_ai.0": "Erlaubt die KI des Wesens.",
+    "command_translation.help.nbt.entity.field.NoAI.value_type": "entity_no_ai",
+    "command_translation.help.value.type.entity_no_gravity.true": "Deaktiviert natürliches Fallen durch Schwerkraft.",
+    "command_translation.help.value.type.entity_no_gravity.1b": "Deaktiviert natürliches Fallen durch Schwerkraft.",
+    "command_translation.help.value.type.entity_no_gravity.1": "Deaktiviert natürliches Fallen durch Schwerkraft.",
+    "command_translation.help.value.type.entity_no_gravity.false": "Entfernt die Schwerelosigkeit dieses Feldes.",
+    "command_translation.help.value.type.entity_no_gravity.0b": "Entfernt die Schwerelosigkeit dieses Feldes.",
+    "command_translation.help.value.type.entity_no_gravity.0": "Entfernt die Schwerelosigkeit dieses Feldes.",
+    "command_translation.help.nbt.entity.field.NoGravity.value_type": "entity_no_gravity",
+    "command_translation.help.value.type.entity_silent.true": "Schaltet die Entität stumm.",
+    "command_translation.help.value.type.entity_silent.1b": "Schaltet die Entität stumm.",
+    "command_translation.help.value.type.entity_silent.1": "Schaltet die Entität stumm.",
+    "command_translation.help.value.type.entity_silent.false": "Hebt die Stummschaltung dieses Feldes auf.",
+    "command_translation.help.value.type.entity_silent.0b": "Hebt die Stummschaltung dieses Feldes auf.",
+    "command_translation.help.value.type.entity_silent.0": "Hebt die Stummschaltung dieses Feldes auf.",
+    "command_translation.help.nbt.entity.field.Silent.value_type": "entity_silent",
+    "command_translation.help.value.type.entity_glowing.true": "Gibt der Entität einen leuchtenden Umriss.",
+    "command_translation.help.value.type.entity_glowing.1b": "Gibt der Entität einen leuchtenden Umriss.",
+    "command_translation.help.value.type.entity_glowing.1": "Gibt der Entität einen leuchtenden Umriss.",
+    "command_translation.help.value.type.entity_glowing.false": "Entfernt den durch dieses Feld gesetzten Leuchtumriss.",
+    "command_translation.help.value.type.entity_glowing.0b": "Entfernt den durch dieses Feld gesetzten Leuchtumriss.",
+    "command_translation.help.value.type.entity_glowing.0": "Entfernt den durch dieses Feld gesetzten Leuchtumriss.",
+    "command_translation.help.nbt.entity.field.Glowing.value_type": "entity_glowing",
+    "command_translation.help.value.type.entity_persistent.true": "Verhindert das natürliche Verschwinden des Wesens.",
+    "command_translation.help.value.type.entity_persistent.1b": "Verhindert das natürliche Verschwinden des Wesens.",
+    "command_translation.help.value.type.entity_persistent.1": "Verhindert das natürliche Verschwinden des Wesens.",
+    "command_translation.help.value.type.entity_persistent.false": "Erlaubt normales natürliches Verschwinden.",
+    "command_translation.help.value.type.entity_persistent.0b": "Erlaubt normales natürliches Verschwinden.",
+    "command_translation.help.value.type.entity_persistent.0": "Erlaubt normales natürliches Verschwinden.",
+    "command_translation.help.nbt.entity.field.PersistenceRequired.value_type": "entity_persistent",
+    "command_translation.help.value.type.entity_invulnerable.true": "Setzt Unverwundbarkeit; Kreativspieler können weiterhin Schaden zufügen.",
+    "command_translation.help.value.type.entity_invulnerable.1b": "Setzt Unverwundbarkeit; Kreativspieler können weiterhin Schaden zufügen.",
+    "command_translation.help.value.type.entity_invulnerable.1": "Setzt Unverwundbarkeit; Kreativspieler können weiterhin Schaden zufügen.",
+    "command_translation.help.value.type.entity_invulnerable.false": "Entfernt die Unverwundbarkeit dieses Feldes.",
+    "command_translation.help.value.type.entity_invulnerable.0b": "Entfernt die Unverwundbarkeit dieses Feldes.",
+    "command_translation.help.value.type.entity_invulnerable.0": "Entfernt die Unverwundbarkeit dieses Feldes.",
+    "command_translation.help.nbt.entity.field.Invulnerable.value_type": "entity_invulnerable",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.operation.value_type": "attribute_operation",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.operation.value_type": "attribute_operation",
+    "command_translation.help.nbt.entity.field.attributes.modifiers.operation.value_type": "attribute_operation",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.slot.value_type": "equipment_slot",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.slot.value_type": "equipment_slot",
+    "command_translation.help.component.minecraft:equippable.field.slot.value_type": "equipment_slot",
+    "command_translation.help.component.minecraft:consumable.field.animation.value_type": "use_animation",
+    "command_translation.help.component.minecraft:firework_explosion.field.shape.value_type": "firework_shape",
+    "command_translation.help.component.minecraft:fireworks.field.explosions.shape.value_type": "firework_shape",
+    "command_translation.help.text.field.click_event.action.value_type": "text_click_action",
+    "command_translation.help.text.field.clickEvent.action.value_type": "text_click_action",
+    "command_translation.help.dialog.field.action.type.value_type": "text_click_action",
+    "command_translation.help.dialog.field.actions.action.type.value_type": "text_click_action",
+    "command_translation.help.dialog.field.exit_action.type.value_type": "text_click_action",
+    "command_translation.help.text.field.hover_event.action.value_type": "text_hover_action",
+    "command_translation.help.text.field.hoverEvent.action.value_type": "text_hover_action",
+    "command_translation.help.component.minecraft:damage_type.registry": "minecraft:damage_type",
+    "command_translation.help.component.minecraft:damage_resistant.field.types.registry": "minecraft:damage_type",
+    "command_translation.help.component.minecraft:blocks_attacks.field.damage_reductions.types.registry": "minecraft:damage_type",
+    "command_translation.help.component.minecraft:blocks_attacks.field.bypassed_by.registry": "minecraft:damage_type",
+    "command_translation.help.component.minecraft:container.field.item.id.registry": "minecraft:item",
+    "command_translation.help.component.minecraft:bundle_contents.field.id.registry": "minecraft:item",
+    "command_translation.help.component.minecraft:charged_projectiles.field.id.registry": "minecraft:item",
+    "command_translation.help.component.minecraft:pot_decorations.registry": "minecraft:item",
+    "command_translation.help.component.minecraft:repairable.field.items.registry": "minecraft:item",
+    "command_translation.help.component.minecraft:lock.field.items.registry": "minecraft:item",
+    "command_translation.help.nbt.item.field.id.registry": "minecraft:item",
+    "command_translation.help.nbt.entity.field.Items.id.registry": "minecraft:item",
+    "command_translation.help.nbt.entity.field.Inventory.id.registry": "minecraft:item",
+    "command_translation.help.nbt.entity.field.Item.id.registry": "minecraft:item",
+    "command_translation.help.nbt.block_entity.field.Items.id.registry": "minecraft:item",
+    "command_translation.help.particle.minecraft:item.field.item.id.registry": "minecraft:item",
+    "command_translation.help.component.minecraft:can_break.field.predicates.blocks.registry": "minecraft:block",
+    "command_translation.help.component.minecraft:can_place_on.field.predicates.blocks.registry": "minecraft:block",
+    "command_translation.help.component.minecraft:tool.field.rules.blocks.registry": "minecraft:block",
+    "command_translation.help.component.minecraft:use_remainder.field.id.registry": "minecraft:item",
+    "command_translation.help.particle.minecraft:block.field.block_state.Name.registry": "minecraft:block",
+    "command_translation.help.particle.minecraft:block_marker.field.block_state.Name.registry": "minecraft:block",
+    "command_translation.help.particle.minecraft:falling_dust.field.block_state.Name.registry": "minecraft:block",
+    "command_translation.help.nbt.block_entity.field.BlockState.Name.registry": "minecraft:block",
+    "command_translation.help.selector.field.type.registry": "minecraft:entity_type",
+    "command_translation.help.component.minecraft:entity_data.field.id.registry": "minecraft:entity_type",
+    "command_translation.help.component.minecraft:bucket_entity_data.field.id.registry": "minecraft:entity_type",
+    "command_translation.help.component.minecraft:equippable.field.allowed_entities.registry": "minecraft:entity_type",
+    "command_translation.help.nbt.entity.field.id.registry": "minecraft:entity_type",
+    "command_translation.help.text.field.hoverEvent.contents.type.registry": "minecraft:entity_type",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.type.registry": "minecraft:attribute",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.type.registry": "minecraft:attribute",
+    "command_translation.help.nbt.entity.field.attributes.id.registry": "minecraft:attribute",
+    "command_translation.help.nbt.entity.field.Attributes.Name.registry": "minecraft:attribute",
+    "command_translation.help.component.minecraft:potion_contents.field.custom_effects.id.registry": "minecraft:mob_effect",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.effects.id.registry": "minecraft:mob_effect",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.effects.registry": "minecraft:mob_effect",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.effects.id.registry": "minecraft:mob_effect",
+    "command_translation.help.component.minecraft:suspicious_stew_effects.field.id.registry": "minecraft:mob_effect",
+    "command_translation.help.nbt.entity.field.active_effects.id.registry": "minecraft:mob_effect",
+    "command_translation.help.component.minecraft:potion_contents.field.potion.registry": "minecraft:potion",
+    "command_translation.help.nbt.item.field.Potion.registry": "minecraft:potion",
+    "command_translation.help.nbt.item.field.Enchantments.id.registry": "minecraft:enchantment",
+    "command_translation.help.nbt.item.field.StoredEnchantments.id.registry": "minecraft:enchantment",
+    "command_translation.help.component.minecraft:painting/variant.registry": "minecraft:painting_variant",
+    "command_translation.help.component.minecraft:banner_patterns.field.pattern.registry": "minecraft:banner_pattern",
+    "command_translation.help.component.minecraft:provides_banner_patterns.registry": "minecraft:banner_pattern",
+    "command_translation.help.component.minecraft:trim.field.material.registry": "minecraft:trim_material",
+    "command_translation.help.component.minecraft:trim.field.pattern.registry": "minecraft:trim_pattern",
+    "command_translation.help.component.minecraft:instrument.registry": "minecraft:instrument",
+    "command_translation.help.component.minecraft:jukebox_playable.registry": "minecraft:jukebox_song",
+    "command_translation.help.component.minecraft:jukebox_playable.field.song.registry": "minecraft:jukebox_song",
+    "command_translation.help.component.minecraft:break_sound.registry": "minecraft:sound_event",
+    "command_translation.help.component.minecraft:consumable.field.sound.registry": "minecraft:sound_event",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.sound.registry": "minecraft:sound_event",
+    "command_translation.help.component.minecraft:equippable.field.equip_sound.registry": "minecraft:sound_event",
+    "command_translation.help.component.minecraft:blocks_attacks.field.block_sound.registry": "minecraft:sound_event",
+    "command_translation.help.component.minecraft:blocks_attacks.field.disable_sound.registry": "minecraft:sound_event",
+    "command_translation.help.component.minecraft:kinetic_weapon.field.hit_sound.registry": "minecraft:sound_event",
+    "command_translation.help.component.minecraft:instrument.field.sound_event.registry": "minecraft:sound_event",
+    "command_translation.help.component.minecraft:lodestone_tracker.field.target.dimension.registry": "minecraft:dimension",
+    "command_translation.help.nbt.entity.field.Dimension.registry": "minecraft:dimension",
+    "command_translation.help.component.minecraft:enchantments.field.*.key_registry": "minecraft:enchantment",
+    "command_translation.help.component.minecraft:enchantments.field.levels.*.key_registry": "minecraft:enchantment",
+    "command_translation.help.component.minecraft:stored_enchantments.field.*.key_registry": "minecraft:enchantment",
+    "command_translation.help.component.minecraft:stored_enchantments.field.levels.*.key_registry": "minecraft:enchantment",
+    "command_translation.help.nbt.entity.field.HandItems.id.registry": "minecraft:item",
+    "command_translation.help.nbt.entity.field.ArmorItems.id.registry": "minecraft:item",
+    "command_translation.help.nbt.entity.field.SelectedItem.id.registry": "minecraft:item",
+    "command_translation.help.nbt.entity.field.equipment.*.id.registry": "minecraft:item",
+    "command_translation.help.nbt.block_entity.field.RecordItem.id.registry": "minecraft:item",
+    "command_translation.help.nbt.item.field.BlockEntityTag.Items.id.registry": "minecraft:item",
+    "command_translation.help.value.type.legacy_attribute_operation.0": "Addiert den Betrag direkt.",
+    "command_translation.help.value.type.legacy_attribute_operation.1": "Addiert nach direkten Zuschlägen den Basiswert × Betrag.",
+    "command_translation.help.value.type.legacy_attribute_operation.2": "Multipliziert das Ergebnis je Modifikator mit 1 + Betrag.",
+    "command_translation.help.nbt.item.field.AttributeModifiers.Operation.value_type": "legacy_attribute_operation",
+    "command_translation.help.nbt.entity.field.Attributes.Modifiers.Operation.value_type": "legacy_attribute_operation",
+    "command_translation.help.nbt.item.field.AttributeModifiers.Slot.value_type": "equipment_slot",
+    "command_translation.help.nbt.item.field.AttributeModifiers.AttributeName.registry": "minecraft:attribute",
+    "command_translation.help.value.type.legacy_firework_shape.0": "Kleine kugelförmige Feuerwerksexplosion.",
+    "command_translation.help.value.type.legacy_firework_shape.0b": "Kleine kugelförmige Feuerwerksexplosion.",
+    "command_translation.help.value.type.legacy_firework_shape.1": "Große kugelförmige Feuerwerksexplosion.",
+    "command_translation.help.value.type.legacy_firework_shape.1b": "Große kugelförmige Feuerwerksexplosion.",
+    "command_translation.help.value.type.legacy_firework_shape.2": "Sternförmige Feuerwerksexplosion.",
+    "command_translation.help.value.type.legacy_firework_shape.2b": "Sternförmige Feuerwerksexplosion.",
+    "command_translation.help.value.type.legacy_firework_shape.3": "Creeperförmige Feuerwerksexplosion.",
+    "command_translation.help.value.type.legacy_firework_shape.3b": "Creeperförmige Feuerwerksexplosion.",
+    "command_translation.help.value.type.legacy_firework_shape.4": "Verstreute Feuerwerksexplosion.",
+    "command_translation.help.value.type.legacy_firework_shape.4b": "Verstreute Feuerwerksexplosion.",
+    "command_translation.help.nbt.item.field.Explosion.Type.value_type": "legacy_firework_shape",
+    "command_translation.help.nbt.item.field.Fireworks.Explosions.Type.value_type": "legacy_firework_shape",
+    "command_translation.help.value.type.book_generation.0": "Original; kann kopiert werden.",
+    "command_translation.help.value.type.book_generation.1": "Kopie des Originals; kann kopiert werden.",
+    "command_translation.help.value.type.book_generation.2": "Kopie einer Kopie; nicht erneut kopierbar.",
+    "command_translation.help.value.type.book_generation.3": "Zerfleddert; nicht kopierbar und im normalen Spiel unbenutzt.",
+    "command_translation.help.nbt.item.field.generation.value_type": "book_generation",
+    "command_translation.help.component.minecraft:written_book_content.field.generation.value_type": "book_generation",
+    "command_translation.help.value.type.item_unbreakable.true": "Der Gegenstand verliert beim Benutzen keine Haltbarkeit.",
+    "command_translation.help.value.type.item_unbreakable.1b": "Der Gegenstand verliert beim Benutzen keine Haltbarkeit.",
+    "command_translation.help.value.type.item_unbreakable.1": "Der Gegenstand verliert beim Benutzen keine Haltbarkeit.",
+    "command_translation.help.value.type.item_unbreakable.false": "Entfernt die Unzerstörbarkeit dieses Feldes.",
+    "command_translation.help.value.type.item_unbreakable.0b": "Entfernt die Unzerstörbarkeit dieses Feldes.",
+    "command_translation.help.value.type.item_unbreakable.0": "Entfernt die Unzerstörbarkeit dieses Feldes.",
+    "command_translation.help.nbt.item.field.Unbreakable.value_type": "item_unbreakable",
+    "command_translation.help.value.type.firework_twinkle.true": "Fügt der Explosion einen Funkel-Effekt hinzu.",
+    "command_translation.help.value.type.firework_twinkle.1b": "Fügt der Explosion einen Funkel-Effekt hinzu.",
+    "command_translation.help.value.type.firework_twinkle.1": "Fügt der Explosion einen Funkel-Effekt hinzu.",
+    "command_translation.help.value.type.firework_twinkle.false": "Kein Funkel-Effekt durch dieses Feld.",
+    "command_translation.help.value.type.firework_twinkle.0b": "Kein Funkel-Effekt durch dieses Feld.",
+    "command_translation.help.value.type.firework_twinkle.0": "Kein Funkel-Effekt durch dieses Feld.",
+    "command_translation.help.nbt.item.field.Explosion.Flicker.value_type": "firework_twinkle",
+    "command_translation.help.nbt.item.field.Fireworks.Explosions.Flicker.value_type": "firework_twinkle",
+    "command_translation.help.component.minecraft:firework_explosion.field.has_twinkle.value_type": "firework_twinkle",
+    "command_translation.help.component.minecraft:fireworks.field.explosions.has_twinkle.value_type": "firework_twinkle",
+    "command_translation.help.value.type.firework_trail.true": "Fügt der Explosion einen Schweif hinzu.",
+    "command_translation.help.value.type.firework_trail.1b": "Fügt der Explosion einen Schweif hinzu.",
+    "command_translation.help.value.type.firework_trail.1": "Fügt der Explosion einen Schweif hinzu.",
+    "command_translation.help.value.type.firework_trail.false": "Kein Schweif durch dieses Feld.",
+    "command_translation.help.value.type.firework_trail.0b": "Kein Schweif durch dieses Feld.",
+    "command_translation.help.value.type.firework_trail.0": "Kein Schweif durch dieses Feld.",
+    "command_translation.help.nbt.item.field.Explosion.Trail.value_type": "firework_trail",
+    "command_translation.help.nbt.item.field.Fireworks.Explosions.Trail.value_type": "firework_trail",
+    "command_translation.help.component.minecraft:firework_explosion.field.has_trail.value_type": "firework_trail",
+    "command_translation.help.component.minecraft:fireworks.field.explosions.has_trail.value_type": "firework_trail"
+  },
+  "ja_jp": {
+    "command_translation.help.value.context": "%s\n%s",
+    "command_translation.help.value.type.attribute_operation.add_value": "値を直接加算します。",
+    "command_translation.help.value.type.attribute_operation.add_multiplied_base": "直接加算後の基礎値×値を加算します。",
+    "command_translation.help.value.type.attribute_operation.add_multiplied_total": "各修飾子で結果を（1＋値）倍します。",
+    "command_translation.help.value.type.equipment_slot.any": "任意の装備スロット。通常のインベントリ枠は除きます。",
+    "command_translation.help.value.type.equipment_slot.hand": "メインハンドまたはオフハンド。",
+    "command_translation.help.value.type.equipment_slot.armor": "防具の装備スロット。",
+    "command_translation.help.value.type.equipment_slot.mainhand": "メインハンドのスロット。",
+    "command_translation.help.value.type.equipment_slot.offhand": "オフハンドのスロット。",
+    "command_translation.help.value.type.equipment_slot.head": "頭の装備スロット。",
+    "command_translation.help.value.type.equipment_slot.chest": "胴体の装備スロット。",
+    "command_translation.help.value.type.equipment_slot.legs": "脚の装備スロット。",
+    "command_translation.help.value.type.equipment_slot.feet": "足の装備スロット。",
+    "command_translation.help.value.type.equipment_slot.body": "動物用の防具を装備するスロット。",
+    "command_translation.help.value.type.equipment_slot.saddle": "鞍の装備スロット。",
+    "command_translation.help.value.type.use_animation.none": "使用アニメーションなし。",
+    "command_translation.help.value.type.use_animation.eat": "食べる動作。",
+    "command_translation.help.value.type.use_animation.drink": "飲む動作。",
+    "command_translation.help.value.type.use_animation.block": "防御の動作。",
+    "command_translation.help.value.type.use_animation.bow": "弓を引く動作。",
+    "command_translation.help.value.type.use_animation.spear": "槍を使う動作。",
+    "command_translation.help.value.type.use_animation.trident": "トライデントを使う動作。",
+    "command_translation.help.value.type.use_animation.crossbow": "クロスボウを使う動作。",
+    "command_translation.help.value.type.use_animation.spyglass": "望遠鏡を使う動作。",
+    "command_translation.help.value.type.use_animation.toot_horn": "ヤギの角笛を吹く動作。",
+    "command_translation.help.value.type.use_animation.brush": "ブラシを使う動作。",
+    "command_translation.help.value.type.use_animation.bundle": "バンドルを使う動作。",
+    "command_translation.help.value.type.firework_shape.small_ball": "小さな球形の花火。",
+    "command_translation.help.value.type.firework_shape.large_ball": "大きな球形の花火。",
+    "command_translation.help.value.type.firework_shape.star": "星形の花火。",
+    "command_translation.help.value.type.firework_shape.creeper": "クリーパー形の花火。",
+    "command_translation.help.value.type.firework_shape.burst": "破裂形の花火。",
+    "command_translation.help.value.type.text_click_action.open_url": "既定のブラウザーでURLを開きます。",
+    "command_translation.help.value.type.text_click_action.open_file": "ローカルファイルを開きます。サーバーからは送信できません。",
+    "command_translation.help.value.type.text_click_action.run_command": "プレイヤーの権限でコマンドを実行します。",
+    "command_translation.help.value.type.text_click_action.suggest_command": "チャット欄へ入力します。実行はしません。",
+    "command_translation.help.value.type.text_click_action.change_page": "記入済みの本を指定の存在するページに切り替えます。",
+    "command_translation.help.value.type.text_click_action.copy_to_clipboard": "テキストをクリップボードにコピーします。",
+    "command_translation.help.value.type.text_click_action.show_dialog": "指定のダイアログを開きます。",
+    "command_translation.help.value.type.text_hover_action.show_text": "指定のテキストをツールチップに表示します。",
+    "command_translation.help.value.type.text_hover_action.show_item": "指定のアイテムのツールチップを表示します。",
+    "command_translation.help.value.type.text_hover_action.show_entity": "エンティティの名前、種類、UUIDを表示します。",
+    "command_translation.help.value.type.entity_no_ai.true": "MobのAIを無効にします。",
+    "command_translation.help.value.type.entity_no_ai.1b": "MobのAIを無効にします。",
+    "command_translation.help.value.type.entity_no_ai.1": "MobのAIを無効にします。",
+    "command_translation.help.value.type.entity_no_ai.false": "MobのAIを動作可能にします。",
+    "command_translation.help.value.type.entity_no_ai.0b": "MobのAIを動作可能にします。",
+    "command_translation.help.value.type.entity_no_ai.0": "MobのAIを動作可能にします。",
+    "command_translation.help.nbt.entity.field.NoAI.value_type": "entity_no_ai",
+    "command_translation.help.value.type.entity_no_gravity.true": "重力による自然落下を無効にします。",
+    "command_translation.help.value.type.entity_no_gravity.1b": "重力による自然落下を無効にします。",
+    "command_translation.help.value.type.entity_no_gravity.1": "重力による自然落下を無効にします。",
+    "command_translation.help.value.type.entity_no_gravity.false": "このフィールドの無重力設定を解除します。",
+    "command_translation.help.value.type.entity_no_gravity.0b": "このフィールドの無重力設定を解除します。",
+    "command_translation.help.value.type.entity_no_gravity.0": "このフィールドの無重力設定を解除します。",
+    "command_translation.help.nbt.entity.field.NoGravity.value_type": "entity_no_gravity",
+    "command_translation.help.value.type.entity_silent.true": "エンティティを無音にします。",
+    "command_translation.help.value.type.entity_silent.1b": "エンティティを無音にします。",
+    "command_translation.help.value.type.entity_silent.1": "エンティティを無音にします。",
+    "command_translation.help.value.type.entity_silent.false": "このフィールドの無音設定を解除します。",
+    "command_translation.help.value.type.entity_silent.0b": "このフィールドの無音設定を解除します。",
+    "command_translation.help.value.type.entity_silent.0": "このフィールドの無音設定を解除します。",
+    "command_translation.help.nbt.entity.field.Silent.value_type": "entity_silent",
+    "command_translation.help.value.type.entity_glowing.true": "エンティティに発光する輪郭を付けます。",
+    "command_translation.help.value.type.entity_glowing.1b": "エンティティに発光する輪郭を付けます。",
+    "command_translation.help.value.type.entity_glowing.1": "エンティティに発光する輪郭を付けます。",
+    "command_translation.help.value.type.entity_glowing.false": "このフィールドによる発光の輪郭を解除します。",
+    "command_translation.help.value.type.entity_glowing.0b": "このフィールドによる発光の輪郭を解除します。",
+    "command_translation.help.value.type.entity_glowing.0": "このフィールドによる発光の輪郭を解除します。",
+    "command_translation.help.nbt.entity.field.Glowing.value_type": "entity_glowing",
+    "command_translation.help.value.type.entity_persistent.true": "Mobの自然デスポーンを防ぎます。",
+    "command_translation.help.value.type.entity_persistent.1b": "Mobの自然デスポーンを防ぎます。",
+    "command_translation.help.value.type.entity_persistent.1": "Mobの自然デスポーンを防ぎます。",
+    "command_translation.help.value.type.entity_persistent.false": "通常の条件での自然デスポーンを許可します。",
+    "command_translation.help.value.type.entity_persistent.0b": "通常の条件での自然デスポーンを許可します。",
+    "command_translation.help.value.type.entity_persistent.0": "通常の条件での自然デスポーンを許可します。",
+    "command_translation.help.nbt.entity.field.PersistenceRequired.value_type": "entity_persistent",
+    "command_translation.help.value.type.entity_invulnerable.true": "無敵状態を設定します。クリエイティブのプレイヤーは攻撃できます。",
+    "command_translation.help.value.type.entity_invulnerable.1b": "無敵状態を設定します。クリエイティブのプレイヤーは攻撃できます。",
+    "command_translation.help.value.type.entity_invulnerable.1": "無敵状態を設定します。クリエイティブのプレイヤーは攻撃できます。",
+    "command_translation.help.value.type.entity_invulnerable.false": "このフィールドの無敵フラグを解除します。",
+    "command_translation.help.value.type.entity_invulnerable.0b": "このフィールドの無敵フラグを解除します。",
+    "command_translation.help.value.type.entity_invulnerable.0": "このフィールドの無敵フラグを解除します。",
+    "command_translation.help.nbt.entity.field.Invulnerable.value_type": "entity_invulnerable",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.operation.value_type": "attribute_operation",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.operation.value_type": "attribute_operation",
+    "command_translation.help.nbt.entity.field.attributes.modifiers.operation.value_type": "attribute_operation",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.slot.value_type": "equipment_slot",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.slot.value_type": "equipment_slot",
+    "command_translation.help.component.minecraft:equippable.field.slot.value_type": "equipment_slot",
+    "command_translation.help.component.minecraft:consumable.field.animation.value_type": "use_animation",
+    "command_translation.help.component.minecraft:firework_explosion.field.shape.value_type": "firework_shape",
+    "command_translation.help.component.minecraft:fireworks.field.explosions.shape.value_type": "firework_shape",
+    "command_translation.help.text.field.click_event.action.value_type": "text_click_action",
+    "command_translation.help.text.field.clickEvent.action.value_type": "text_click_action",
+    "command_translation.help.dialog.field.action.type.value_type": "text_click_action",
+    "command_translation.help.dialog.field.actions.action.type.value_type": "text_click_action",
+    "command_translation.help.dialog.field.exit_action.type.value_type": "text_click_action",
+    "command_translation.help.text.field.hover_event.action.value_type": "text_hover_action",
+    "command_translation.help.text.field.hoverEvent.action.value_type": "text_hover_action",
+    "command_translation.help.component.minecraft:damage_type.registry": "minecraft:damage_type",
+    "command_translation.help.component.minecraft:damage_resistant.field.types.registry": "minecraft:damage_type",
+    "command_translation.help.component.minecraft:blocks_attacks.field.damage_reductions.types.registry": "minecraft:damage_type",
+    "command_translation.help.component.minecraft:blocks_attacks.field.bypassed_by.registry": "minecraft:damage_type",
+    "command_translation.help.component.minecraft:container.field.item.id.registry": "minecraft:item",
+    "command_translation.help.component.minecraft:bundle_contents.field.id.registry": "minecraft:item",
+    "command_translation.help.component.minecraft:charged_projectiles.field.id.registry": "minecraft:item",
+    "command_translation.help.component.minecraft:pot_decorations.registry": "minecraft:item",
+    "command_translation.help.component.minecraft:repairable.field.items.registry": "minecraft:item",
+    "command_translation.help.component.minecraft:lock.field.items.registry": "minecraft:item",
+    "command_translation.help.nbt.item.field.id.registry": "minecraft:item",
+    "command_translation.help.nbt.entity.field.Items.id.registry": "minecraft:item",
+    "command_translation.help.nbt.entity.field.Inventory.id.registry": "minecraft:item",
+    "command_translation.help.nbt.entity.field.Item.id.registry": "minecraft:item",
+    "command_translation.help.nbt.block_entity.field.Items.id.registry": "minecraft:item",
+    "command_translation.help.particle.minecraft:item.field.item.id.registry": "minecraft:item",
+    "command_translation.help.component.minecraft:can_break.field.predicates.blocks.registry": "minecraft:block",
+    "command_translation.help.component.minecraft:can_place_on.field.predicates.blocks.registry": "minecraft:block",
+    "command_translation.help.component.minecraft:tool.field.rules.blocks.registry": "minecraft:block",
+    "command_translation.help.component.minecraft:use_remainder.field.id.registry": "minecraft:item",
+    "command_translation.help.particle.minecraft:block.field.block_state.Name.registry": "minecraft:block",
+    "command_translation.help.particle.minecraft:block_marker.field.block_state.Name.registry": "minecraft:block",
+    "command_translation.help.particle.minecraft:falling_dust.field.block_state.Name.registry": "minecraft:block",
+    "command_translation.help.nbt.block_entity.field.BlockState.Name.registry": "minecraft:block",
+    "command_translation.help.selector.field.type.registry": "minecraft:entity_type",
+    "command_translation.help.component.minecraft:entity_data.field.id.registry": "minecraft:entity_type",
+    "command_translation.help.component.minecraft:bucket_entity_data.field.id.registry": "minecraft:entity_type",
+    "command_translation.help.component.minecraft:equippable.field.allowed_entities.registry": "minecraft:entity_type",
+    "command_translation.help.nbt.entity.field.id.registry": "minecraft:entity_type",
+    "command_translation.help.text.field.hoverEvent.contents.type.registry": "minecraft:entity_type",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.type.registry": "minecraft:attribute",
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.type.registry": "minecraft:attribute",
+    "command_translation.help.nbt.entity.field.attributes.id.registry": "minecraft:attribute",
+    "command_translation.help.nbt.entity.field.Attributes.Name.registry": "minecraft:attribute",
+    "command_translation.help.component.minecraft:potion_contents.field.custom_effects.id.registry": "minecraft:mob_effect",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.effects.id.registry": "minecraft:mob_effect",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.effects.registry": "minecraft:mob_effect",
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.effects.id.registry": "minecraft:mob_effect",
+    "command_translation.help.component.minecraft:suspicious_stew_effects.field.id.registry": "minecraft:mob_effect",
+    "command_translation.help.nbt.entity.field.active_effects.id.registry": "minecraft:mob_effect",
+    "command_translation.help.component.minecraft:potion_contents.field.potion.registry": "minecraft:potion",
+    "command_translation.help.nbt.item.field.Potion.registry": "minecraft:potion",
+    "command_translation.help.nbt.item.field.Enchantments.id.registry": "minecraft:enchantment",
+    "command_translation.help.nbt.item.field.StoredEnchantments.id.registry": "minecraft:enchantment",
+    "command_translation.help.component.minecraft:painting/variant.registry": "minecraft:painting_variant",
+    "command_translation.help.component.minecraft:banner_patterns.field.pattern.registry": "minecraft:banner_pattern",
+    "command_translation.help.component.minecraft:provides_banner_patterns.registry": "minecraft:banner_pattern",
+    "command_translation.help.component.minecraft:trim.field.material.registry": "minecraft:trim_material",
+    "command_translation.help.component.minecraft:trim.field.pattern.registry": "minecraft:trim_pattern",
+    "command_translation.help.component.minecraft:instrument.registry": "minecraft:instrument",
+    "command_translation.help.component.minecraft:jukebox_playable.registry": "minecraft:jukebox_song",
+    "command_translation.help.component.minecraft:jukebox_playable.field.song.registry": "minecraft:jukebox_song",
+    "command_translation.help.component.minecraft:break_sound.registry": "minecraft:sound_event",
+    "command_translation.help.component.minecraft:consumable.field.sound.registry": "minecraft:sound_event",
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.sound.registry": "minecraft:sound_event",
+    "command_translation.help.component.minecraft:equippable.field.equip_sound.registry": "minecraft:sound_event",
+    "command_translation.help.component.minecraft:blocks_attacks.field.block_sound.registry": "minecraft:sound_event",
+    "command_translation.help.component.minecraft:blocks_attacks.field.disable_sound.registry": "minecraft:sound_event",
+    "command_translation.help.component.minecraft:kinetic_weapon.field.hit_sound.registry": "minecraft:sound_event",
+    "command_translation.help.component.minecraft:instrument.field.sound_event.registry": "minecraft:sound_event",
+    "command_translation.help.component.minecraft:lodestone_tracker.field.target.dimension.registry": "minecraft:dimension",
+    "command_translation.help.nbt.entity.field.Dimension.registry": "minecraft:dimension",
+    "command_translation.help.component.minecraft:enchantments.field.*.key_registry": "minecraft:enchantment",
+    "command_translation.help.component.minecraft:enchantments.field.levels.*.key_registry": "minecraft:enchantment",
+    "command_translation.help.component.minecraft:stored_enchantments.field.*.key_registry": "minecraft:enchantment",
+    "command_translation.help.component.minecraft:stored_enchantments.field.levels.*.key_registry": "minecraft:enchantment",
+    "command_translation.help.nbt.entity.field.HandItems.id.registry": "minecraft:item",
+    "command_translation.help.nbt.entity.field.ArmorItems.id.registry": "minecraft:item",
+    "command_translation.help.nbt.entity.field.SelectedItem.id.registry": "minecraft:item",
+    "command_translation.help.nbt.entity.field.equipment.*.id.registry": "minecraft:item",
+    "command_translation.help.nbt.block_entity.field.RecordItem.id.registry": "minecraft:item",
+    "command_translation.help.nbt.item.field.BlockEntityTag.Items.id.registry": "minecraft:item",
+    "command_translation.help.value.type.legacy_attribute_operation.0": "値を直接加算します。",
+    "command_translation.help.value.type.legacy_attribute_operation.1": "直接加算後の基礎値×値を加算します。",
+    "command_translation.help.value.type.legacy_attribute_operation.2": "各修飾子で結果を（1＋値）倍します。",
+    "command_translation.help.nbt.item.field.AttributeModifiers.Operation.value_type": "legacy_attribute_operation",
+    "command_translation.help.nbt.entity.field.Attributes.Modifiers.Operation.value_type": "legacy_attribute_operation",
+    "command_translation.help.nbt.item.field.AttributeModifiers.Slot.value_type": "equipment_slot",
+    "command_translation.help.nbt.item.field.AttributeModifiers.AttributeName.registry": "minecraft:attribute",
+    "command_translation.help.value.type.legacy_firework_shape.0": "小さな球形の花火。",
+    "command_translation.help.value.type.legacy_firework_shape.0b": "小さな球形の花火。",
+    "command_translation.help.value.type.legacy_firework_shape.1": "大きな球形の花火。",
+    "command_translation.help.value.type.legacy_firework_shape.1b": "大きな球形の花火。",
+    "command_translation.help.value.type.legacy_firework_shape.2": "星形の花火。",
+    "command_translation.help.value.type.legacy_firework_shape.2b": "星形の花火。",
+    "command_translation.help.value.type.legacy_firework_shape.3": "クリーパー形の花火。",
+    "command_translation.help.value.type.legacy_firework_shape.3b": "クリーパー形の花火。",
+    "command_translation.help.value.type.legacy_firework_shape.4": "破裂形の花火。",
+    "command_translation.help.value.type.legacy_firework_shape.4b": "破裂形の花火。",
+    "command_translation.help.nbt.item.field.Explosion.Type.value_type": "legacy_firework_shape",
+    "command_translation.help.nbt.item.field.Fireworks.Explosions.Type.value_type": "legacy_firework_shape",
+    "command_translation.help.value.type.book_generation.0": "オリジナル。複製できます。",
+    "command_translation.help.value.type.book_generation.1": "オリジナルのコピー。複製できます。",
+    "command_translation.help.value.type.book_generation.2": "コピーのコピー。これ以上複製できません。",
+    "command_translation.help.value.type.book_generation.3": "ぼろぼろ。複製できず、通常のゲームでは使われません。",
+    "command_translation.help.nbt.item.field.generation.value_type": "book_generation",
+    "command_translation.help.component.minecraft:written_book_content.field.generation.value_type": "book_generation",
+    "command_translation.help.value.type.item_unbreakable.true": "使用しても耐久値が減りません。",
+    "command_translation.help.value.type.item_unbreakable.1b": "使用しても耐久値が減りません。",
+    "command_translation.help.value.type.item_unbreakable.1": "使用しても耐久値が減りません。",
+    "command_translation.help.value.type.item_unbreakable.false": "このフィールドの耐久値固定設定を解除します。",
+    "command_translation.help.value.type.item_unbreakable.0b": "このフィールドの耐久値固定設定を解除します。",
+    "command_translation.help.value.type.item_unbreakable.0": "このフィールドの耐久値固定設定を解除します。",
+    "command_translation.help.nbt.item.field.Unbreakable.value_type": "item_unbreakable",
+    "command_translation.help.value.type.firework_twinkle.true": "爆発にきらめきの効果を付けます。",
+    "command_translation.help.value.type.firework_twinkle.1b": "爆発にきらめきの効果を付けます。",
+    "command_translation.help.value.type.firework_twinkle.1": "爆発にきらめきの効果を付けます。",
+    "command_translation.help.value.type.firework_twinkle.false": "このフィールドではきらめきの効果を付けません。",
+    "command_translation.help.value.type.firework_twinkle.0b": "このフィールドではきらめきの効果を付けません。",
+    "command_translation.help.value.type.firework_twinkle.0": "このフィールドではきらめきの効果を付けません。",
+    "command_translation.help.nbt.item.field.Explosion.Flicker.value_type": "firework_twinkle",
+    "command_translation.help.nbt.item.field.Fireworks.Explosions.Flicker.value_type": "firework_twinkle",
+    "command_translation.help.component.minecraft:firework_explosion.field.has_twinkle.value_type": "firework_twinkle",
+    "command_translation.help.component.minecraft:fireworks.field.explosions.has_twinkle.value_type": "firework_twinkle",
+    "command_translation.help.value.type.firework_trail.true": "爆発に軌跡の効果を付けます。",
+    "command_translation.help.value.type.firework_trail.1b": "爆発に軌跡の効果を付けます。",
+    "command_translation.help.value.type.firework_trail.1": "爆発に軌跡の効果を付けます。",
+    "command_translation.help.value.type.firework_trail.false": "このフィールドでは軌跡を付けません。",
+    "command_translation.help.value.type.firework_trail.0b": "このフィールドでは軌跡を付けません。",
+    "command_translation.help.value.type.firework_trail.0": "このフィールドでは軌跡を付けません。",
+    "command_translation.help.nbt.item.field.Explosion.Trail.value_type": "firework_trail",
+    "command_translation.help.nbt.item.field.Fireworks.Explosions.Trail.value_type": "firework_trail",
+    "command_translation.help.component.minecraft:firework_explosion.field.has_trail.value_type": "firework_trail",
+    "command_translation.help.component.minecraft:fireworks.field.explosions.has_trail.value_type": "firework_trail"
+  },
+  "sources": {
+    "command_translation.help.value.context": [
+      {
+        "url": "https://minecraft.wiki/w/NBT_format?oldid=3725656",
+        "revision": 3725656
+      }
+    ],
+    "command_translation.help.value.type.attribute_operation.add_value": [
+      {
+        "url": "https://minecraft.wiki/w/Attribute?oldid=3841674",
+        "revision": 3841674
+      }
+    ],
+    "command_translation.help.value.type.attribute_operation.add_multiplied_base": [
+      {
+        "url": "https://minecraft.wiki/w/Attribute?oldid=3841674",
+        "revision": 3841674
+      }
+    ],
+    "command_translation.help.value.type.attribute_operation.add_multiplied_total": [
+      {
+        "url": "https://minecraft.wiki/w/Attribute?oldid=3841674",
+        "revision": 3841674
+      }
+    ],
+    "command_translation.help.value.type.equipment_slot.any": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format/attribute_modifiers?oldid=3429564",
+        "revision": 3429564
+      }
+    ],
+    "command_translation.help.value.type.equipment_slot.hand": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format/attribute_modifiers?oldid=3429564",
+        "revision": 3429564
+      }
+    ],
+    "command_translation.help.value.type.equipment_slot.armor": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format/attribute_modifiers?oldid=3429564",
+        "revision": 3429564
+      }
+    ],
+    "command_translation.help.value.type.equipment_slot.mainhand": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format/attribute_modifiers?oldid=3429564",
+        "revision": 3429564
+      }
+    ],
+    "command_translation.help.value.type.equipment_slot.offhand": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format/attribute_modifiers?oldid=3429564",
+        "revision": 3429564
+      }
+    ],
+    "command_translation.help.value.type.equipment_slot.head": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format/attribute_modifiers?oldid=3429564",
+        "revision": 3429564
+      }
+    ],
+    "command_translation.help.value.type.equipment_slot.chest": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format/attribute_modifiers?oldid=3429564",
+        "revision": 3429564
+      }
+    ],
+    "command_translation.help.value.type.equipment_slot.legs": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format/attribute_modifiers?oldid=3429564",
+        "revision": 3429564
+      }
+    ],
+    "command_translation.help.value.type.equipment_slot.feet": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format/attribute_modifiers?oldid=3429564",
+        "revision": 3429564
+      }
+    ],
+    "command_translation.help.value.type.equipment_slot.body": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format/attribute_modifiers?oldid=3429564",
+        "revision": 3429564
+      }
+    ],
+    "command_translation.help.value.type.equipment_slot.saddle": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format/attribute_modifiers?oldid=3429564",
+        "revision": 3429564
+      }
+    ],
+    "command_translation.help.value.type.use_animation.none": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format/consumable?oldid=3681306",
+        "revision": 3681306
+      }
+    ],
+    "command_translation.help.value.type.use_animation.eat": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format/consumable?oldid=3681306",
+        "revision": 3681306
+      }
+    ],
+    "command_translation.help.value.type.use_animation.drink": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format/consumable?oldid=3681306",
+        "revision": 3681306
+      }
+    ],
+    "command_translation.help.value.type.use_animation.block": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format/consumable?oldid=3681306",
+        "revision": 3681306
+      }
+    ],
+    "command_translation.help.value.type.use_animation.bow": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format/consumable?oldid=3681306",
+        "revision": 3681306
+      }
+    ],
+    "command_translation.help.value.type.use_animation.spear": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format/consumable?oldid=3681306",
+        "revision": 3681306
+      }
+    ],
+    "command_translation.help.value.type.use_animation.trident": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format/consumable?oldid=3681306",
+        "revision": 3681306
+      }
+    ],
+    "command_translation.help.value.type.use_animation.crossbow": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format/consumable?oldid=3681306",
+        "revision": 3681306
+      }
+    ],
+    "command_translation.help.value.type.use_animation.spyglass": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format/consumable?oldid=3681306",
+        "revision": 3681306
+      }
+    ],
+    "command_translation.help.value.type.use_animation.toot_horn": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format/consumable?oldid=3681306",
+        "revision": 3681306
+      }
+    ],
+    "command_translation.help.value.type.use_animation.brush": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format/consumable?oldid=3681306",
+        "revision": 3681306
+      }
+    ],
+    "command_translation.help.value.type.use_animation.bundle": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format/consumable?oldid=3681306",
+        "revision": 3681306
+      }
+    ],
+    "command_translation.help.value.type.firework_shape.small_ball": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format/firework_explosion?oldid=2948332",
+        "revision": 2948332
+      }
+    ],
+    "command_translation.help.value.type.firework_shape.large_ball": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format/firework_explosion?oldid=2948332",
+        "revision": 2948332
+      }
+    ],
+    "command_translation.help.value.type.firework_shape.star": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format/firework_explosion?oldid=2948332",
+        "revision": 2948332
+      }
+    ],
+    "command_translation.help.value.type.firework_shape.creeper": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format/firework_explosion?oldid=2948332",
+        "revision": 2948332
+      }
+    ],
+    "command_translation.help.value.type.firework_shape.burst": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format/firework_explosion?oldid=2948332",
+        "revision": 2948332
+      }
+    ],
+    "command_translation.help.value.type.text_click_action.open_url": [
+      {
+        "url": "https://minecraft.wiki/w/Text_component_format?oldid=3749600",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.value.type.text_click_action.open_file": [
+      {
+        "url": "https://minecraft.wiki/w/Text_component_format?oldid=3749600",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.value.type.text_click_action.run_command": [
+      {
+        "url": "https://minecraft.wiki/w/Text_component_format?oldid=3749600",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.value.type.text_click_action.suggest_command": [
+      {
+        "url": "https://minecraft.wiki/w/Text_component_format?oldid=3749600",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.value.type.text_click_action.change_page": [
+      {
+        "url": "https://minecraft.wiki/w/Text_component_format?oldid=3749600",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.value.type.text_click_action.copy_to_clipboard": [
+      {
+        "url": "https://minecraft.wiki/w/Text_component_format?oldid=3749600",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.value.type.text_click_action.show_dialog": [
+      {
+        "url": "https://minecraft.wiki/w/Text_component_format?oldid=3749600",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.value.type.text_hover_action.show_text": [
+      {
+        "url": "https://minecraft.wiki/w/Text_component_format?oldid=3749600",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.value.type.text_hover_action.show_item": [
+      {
+        "url": "https://minecraft.wiki/w/Text_component_format?oldid=3749600",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.value.type.text_hover_action.show_entity": [
+      {
+        "url": "https://minecraft.wiki/w/Text_component_format?oldid=3749600",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.value.type.entity_no_ai.true": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format/Mob?oldid=3840969",
+        "revision": 3840969
+      }
+    ],
+    "command_translation.help.value.type.entity_no_ai.1b": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format/Mob?oldid=3840969",
+        "revision": 3840969
+      }
+    ],
+    "command_translation.help.value.type.entity_no_ai.1": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format/Mob?oldid=3840969",
+        "revision": 3840969
+      }
+    ],
+    "command_translation.help.value.type.entity_no_ai.false": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format/Mob?oldid=3840969",
+        "revision": 3840969
+      }
+    ],
+    "command_translation.help.value.type.entity_no_ai.0b": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format/Mob?oldid=3840969",
+        "revision": 3840969
+      }
+    ],
+    "command_translation.help.value.type.entity_no_ai.0": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format/Mob?oldid=3840969",
+        "revision": 3840969
+      }
+    ],
+    "command_translation.help.nbt.entity.field.NoAI.value_type": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format/Mob?oldid=3840969",
+        "revision": 3840969
+      }
+    ],
+    "command_translation.help.value.type.entity_no_gravity.true": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format/Entity?oldid=3840867",
+        "revision": 3840867
+      }
+    ],
+    "command_translation.help.value.type.entity_no_gravity.1b": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format/Entity?oldid=3840867",
+        "revision": 3840867
+      }
+    ],
+    "command_translation.help.value.type.entity_no_gravity.1": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format/Entity?oldid=3840867",
+        "revision": 3840867
+      }
+    ],
+    "command_translation.help.value.type.entity_no_gravity.false": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format/Entity?oldid=3840867",
+        "revision": 3840867
+      }
+    ],
+    "command_translation.help.value.type.entity_no_gravity.0b": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format/Entity?oldid=3840867",
+        "revision": 3840867
+      }
+    ],
+    "command_translation.help.value.type.entity_no_gravity.0": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format/Entity?oldid=3840867",
+        "revision": 3840867
+      }
+    ],
+    "command_translation.help.nbt.entity.field.NoGravity.value_type": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format/Entity?oldid=3840867",
+        "revision": 3840867
+      }
+    ],
+    "command_translation.help.value.type.entity_silent.true": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format/Entity?oldid=3840867",
+        "revision": 3840867
+      }
+    ],
+    "command_translation.help.value.type.entity_silent.1b": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format/Entity?oldid=3840867",
+        "revision": 3840867
+      }
+    ],
+    "command_translation.help.value.type.entity_silent.1": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format/Entity?oldid=3840867",
+        "revision": 3840867
+      }
+    ],
+    "command_translation.help.value.type.entity_silent.false": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format/Entity?oldid=3840867",
+        "revision": 3840867
+      }
+    ],
+    "command_translation.help.value.type.entity_silent.0b": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format/Entity?oldid=3840867",
+        "revision": 3840867
+      }
+    ],
+    "command_translation.help.value.type.entity_silent.0": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format/Entity?oldid=3840867",
+        "revision": 3840867
+      }
+    ],
+    "command_translation.help.nbt.entity.field.Silent.value_type": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format/Entity?oldid=3840867",
+        "revision": 3840867
+      }
+    ],
+    "command_translation.help.value.type.entity_glowing.true": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format/Entity?oldid=3840867",
+        "revision": 3840867
+      }
+    ],
+    "command_translation.help.value.type.entity_glowing.1b": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format/Entity?oldid=3840867",
+        "revision": 3840867
+      }
+    ],
+    "command_translation.help.value.type.entity_glowing.1": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format/Entity?oldid=3840867",
+        "revision": 3840867
+      }
+    ],
+    "command_translation.help.value.type.entity_glowing.false": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format/Entity?oldid=3840867",
+        "revision": 3840867
+      }
+    ],
+    "command_translation.help.value.type.entity_glowing.0b": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format/Entity?oldid=3840867",
+        "revision": 3840867
+      }
+    ],
+    "command_translation.help.value.type.entity_glowing.0": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format/Entity?oldid=3840867",
+        "revision": 3840867
+      }
+    ],
+    "command_translation.help.nbt.entity.field.Glowing.value_type": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format/Entity?oldid=3840867",
+        "revision": 3840867
+      }
+    ],
+    "command_translation.help.value.type.entity_persistent.true": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format/Mob?oldid=3840969",
+        "revision": 3840969
+      }
+    ],
+    "command_translation.help.value.type.entity_persistent.1b": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format/Mob?oldid=3840969",
+        "revision": 3840969
+      }
+    ],
+    "command_translation.help.value.type.entity_persistent.1": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format/Mob?oldid=3840969",
+        "revision": 3840969
+      }
+    ],
+    "command_translation.help.value.type.entity_persistent.false": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format/Mob?oldid=3840969",
+        "revision": 3840969
+      }
+    ],
+    "command_translation.help.value.type.entity_persistent.0b": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format/Mob?oldid=3840969",
+        "revision": 3840969
+      }
+    ],
+    "command_translation.help.value.type.entity_persistent.0": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format/Mob?oldid=3840969",
+        "revision": 3840969
+      }
+    ],
+    "command_translation.help.nbt.entity.field.PersistenceRequired.value_type": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format/Mob?oldid=3840969",
+        "revision": 3840969
+      }
+    ],
+    "command_translation.help.value.type.entity_invulnerable.true": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format/Entity?oldid=3840867",
+        "revision": 3840867
+      }
+    ],
+    "command_translation.help.value.type.entity_invulnerable.1b": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format/Entity?oldid=3840867",
+        "revision": 3840867
+      }
+    ],
+    "command_translation.help.value.type.entity_invulnerable.1": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format/Entity?oldid=3840867",
+        "revision": 3840867
+      }
+    ],
+    "command_translation.help.value.type.entity_invulnerable.false": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format/Entity?oldid=3840867",
+        "revision": 3840867
+      }
+    ],
+    "command_translation.help.value.type.entity_invulnerable.0b": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format/Entity?oldid=3840867",
+        "revision": 3840867
+      }
+    ],
+    "command_translation.help.value.type.entity_invulnerable.0": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format/Entity?oldid=3840867",
+        "revision": 3840867
+      }
+    ],
+    "command_translation.help.nbt.entity.field.Invulnerable.value_type": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format/Entity?oldid=3840867",
+        "revision": 3840867
+      }
+    ],
+    "command_translation.help.component.minecraft:attribute_modifiers.field.operation.value_type": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.operation.value_type": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.nbt.entity.field.attributes.modifiers.operation.value_type": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:attribute_modifiers.field.slot.value_type": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.slot.value_type": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:equippable.field.slot.value_type": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:consumable.field.animation.value_type": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:firework_explosion.field.shape.value_type": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:fireworks.field.explosions.shape.value_type": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.text.field.click_event.action.value_type": [
+      {
+        "url": "https://minecraft.wiki/w/Text_component_format?oldid=3749600",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.clickEvent.action.value_type": [
+      {
+        "url": "https://minecraft.wiki/w/Text_component_format?oldid=3749600",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.dialog.field.action.type.value_type": [
+      {
+        "url": "https://minecraft.wiki/w/Text_component_format?oldid=3749600",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.dialog.field.actions.action.type.value_type": [
+      {
+        "url": "https://minecraft.wiki/w/Text_component_format?oldid=3749600",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.dialog.field.exit_action.type.value_type": [
+      {
+        "url": "https://minecraft.wiki/w/Text_component_format?oldid=3749600",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.hover_event.action.value_type": [
+      {
+        "url": "https://minecraft.wiki/w/Text_component_format?oldid=3749600",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.text.field.hoverEvent.action.value_type": [
+      {
+        "url": "https://minecraft.wiki/w/Text_component_format?oldid=3749600",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.component.minecraft:damage_type.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:damage_resistant.field.types.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:blocks_attacks.field.damage_reductions.types.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:blocks_attacks.field.bypassed_by.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:container.field.item.id.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:bundle_contents.field.id.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:charged_projectiles.field.id.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:pot_decorations.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:repairable.field.items.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:lock.field.items.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.nbt.item.field.id.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Before_1.20.5?oldid=3573309",
+        "revision": 3573309
+      }
+    ],
+    "command_translation.help.nbt.entity.field.Items.id.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format?oldid=3778757",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.Inventory.id.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format?oldid=3778757",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.Item.id.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format?oldid=3778757",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.block_entity.field.Items.id.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Block_entity_format?oldid=3836474",
+        "revision": 3836474
+      }
+    ],
+    "command_translation.help.particle.minecraft:item.field.item.id.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Particle_format?oldid=3698603",
+        "revision": 3698603
+      }
+    ],
+    "command_translation.help.component.minecraft:can_break.field.predicates.blocks.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:can_place_on.field.predicates.blocks.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:tool.field.rules.blocks.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:use_remainder.field.id.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.particle.minecraft:block.field.block_state.Name.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Particle_format?oldid=3698603",
+        "revision": 3698603
+      }
+    ],
+    "command_translation.help.particle.minecraft:block_marker.field.block_state.Name.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Particle_format?oldid=3698603",
+        "revision": 3698603
+      }
+    ],
+    "command_translation.help.particle.minecraft:falling_dust.field.block_state.Name.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Particle_format?oldid=3698603",
+        "revision": 3698603
+      }
+    ],
+    "command_translation.help.nbt.block_entity.field.BlockState.Name.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Block_entity_format?oldid=3836474",
+        "revision": 3836474
+      }
+    ],
+    "command_translation.help.selector.field.type.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:entity_data.field.id.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:bucket_entity_data.field.id.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:equippable.field.allowed_entities.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.nbt.entity.field.id.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format?oldid=3778757",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.text.field.hoverEvent.contents.type.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Text_component_format?oldid=3749600",
+        "revision": 3749600
+      }
+    ],
+    "command_translation.help.component.minecraft:attribute_modifiers.field.type.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:attribute_modifiers.field.modifiers.type.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.nbt.entity.field.attributes.id.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format?oldid=3778757",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.Attributes.Name.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format?oldid=3778757",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.component.minecraft:potion_contents.field.custom_effects.id.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.effects.id.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.effects.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:death_protection.field.death_effects.effects.id.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:suspicious_stew_effects.field.id.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.nbt.entity.field.active_effects.id.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format?oldid=3778757",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.component.minecraft:potion_contents.field.potion.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.nbt.item.field.Potion.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Before_1.20.5?oldid=3573309",
+        "revision": 3573309
+      }
+    ],
+    "command_translation.help.nbt.item.field.Enchantments.id.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Before_1.20.5?oldid=3573309",
+        "revision": 3573309
+      }
+    ],
+    "command_translation.help.nbt.item.field.StoredEnchantments.id.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Before_1.20.5?oldid=3573309",
+        "revision": 3573309
+      }
+    ],
+    "command_translation.help.component.minecraft:painting/variant.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:banner_patterns.field.pattern.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:provides_banner_patterns.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:trim.field.material.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:trim.field.pattern.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:instrument.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:jukebox_playable.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:jukebox_playable.field.song.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:break_sound.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:consumable.field.sound.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:consumable.field.on_consume_effects.sound.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:equippable.field.equip_sound.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:blocks_attacks.field.block_sound.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:blocks_attacks.field.disable_sound.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:kinetic_weapon.field.hit_sound.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:instrument.field.sound_event.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:lodestone_tracker.field.target.dimension.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.nbt.entity.field.Dimension.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format?oldid=3778757",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.component.minecraft:enchantments.field.*.key_registry": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:enchantments.field.levels.*.key_registry": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:stored_enchantments.field.*.key_registry": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:stored_enchantments.field.levels.*.key_registry": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.nbt.entity.field.HandItems.id.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format?oldid=3778757",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.ArmorItems.id.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format?oldid=3778757",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.SelectedItem.id.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format?oldid=3778757",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.equipment.*.id.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Entity_format?oldid=3778757",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.block_entity.field.RecordItem.id.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Block_entity_format?oldid=3836474",
+        "revision": 3836474
+      }
+    ],
+    "command_translation.help.nbt.item.field.BlockEntityTag.Items.id.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Before_1.20.5?oldid=3573309",
+        "revision": 3573309
+      }
+    ],
+    "command_translation.help.value.type.legacy_attribute_operation.0": [
+      {
+        "url": "https://minecraft.wiki/w/Attribute?oldid=2254271",
+        "revision": 2254271
+      }
+    ],
+    "command_translation.help.value.type.legacy_attribute_operation.1": [
+      {
+        "url": "https://minecraft.wiki/w/Attribute?oldid=2254271",
+        "revision": 2254271
+      }
+    ],
+    "command_translation.help.value.type.legacy_attribute_operation.2": [
+      {
+        "url": "https://minecraft.wiki/w/Attribute?oldid=2254271",
+        "revision": 2254271
+      }
+    ],
+    "command_translation.help.nbt.item.field.AttributeModifiers.Operation.value_type": [
+      {
+        "url": "https://minecraft.wiki/w/Attribute?oldid=2254271",
+        "revision": 2254271
+      }
+    ],
+    "command_translation.help.nbt.entity.field.Attributes.Modifiers.Operation.value_type": [
+      {
+        "url": "https://minecraft.wiki/w/Attribute?oldid=2254271",
+        "revision": 2254271
+      }
+    ],
+    "command_translation.help.nbt.item.field.AttributeModifiers.Slot.value_type": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Attribute_Modifiers?oldid=2543982",
+        "revision": 2543982
+      }
+    ],
+    "command_translation.help.nbt.item.field.AttributeModifiers.AttributeName.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Attribute_Modifiers?oldid=2543982",
+        "revision": 2543982
+      }
+    ],
+    "command_translation.help.value.type.legacy_firework_shape.0": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Firework_Explosions?oldid=2543994",
+        "revision": 2543994
+      }
+    ],
+    "command_translation.help.value.type.legacy_firework_shape.0b": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Firework_Explosions?oldid=2543994",
+        "revision": 2543994
+      }
+    ],
+    "command_translation.help.value.type.legacy_firework_shape.1": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Firework_Explosions?oldid=2543994",
+        "revision": 2543994
+      }
+    ],
+    "command_translation.help.value.type.legacy_firework_shape.1b": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Firework_Explosions?oldid=2543994",
+        "revision": 2543994
+      }
+    ],
+    "command_translation.help.value.type.legacy_firework_shape.2": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Firework_Explosions?oldid=2543994",
+        "revision": 2543994
+      }
+    ],
+    "command_translation.help.value.type.legacy_firework_shape.2b": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Firework_Explosions?oldid=2543994",
+        "revision": 2543994
+      }
+    ],
+    "command_translation.help.value.type.legacy_firework_shape.3": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Firework_Explosions?oldid=2543994",
+        "revision": 2543994
+      }
+    ],
+    "command_translation.help.value.type.legacy_firework_shape.3b": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Firework_Explosions?oldid=2543994",
+        "revision": 2543994
+      }
+    ],
+    "command_translation.help.value.type.legacy_firework_shape.4": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Firework_Explosions?oldid=2543994",
+        "revision": 2543994
+      }
+    ],
+    "command_translation.help.value.type.legacy_firework_shape.4b": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Firework_Explosions?oldid=2543994",
+        "revision": 2543994
+      }
+    ],
+    "command_translation.help.nbt.item.field.Explosion.Type.value_type": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Firework_Explosions?oldid=2543994",
+        "revision": 2543994
+      }
+    ],
+    "command_translation.help.nbt.item.field.Fireworks.Explosions.Type.value_type": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Firework_Explosions?oldid=2543994",
+        "revision": 2543994
+      }
+    ],
+    "command_translation.help.value.type.book_generation.0": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Written_Books?oldid=2814115",
+        "revision": 2814115
+      }
+    ],
+    "command_translation.help.value.type.book_generation.1": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Written_Books?oldid=2814115",
+        "revision": 2814115
+      }
+    ],
+    "command_translation.help.value.type.book_generation.2": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Written_Books?oldid=2814115",
+        "revision": 2814115
+      }
+    ],
+    "command_translation.help.value.type.book_generation.3": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Written_Books?oldid=2814115",
+        "revision": 2814115
+      }
+    ],
+    "command_translation.help.nbt.item.field.generation.value_type": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Written_Books?oldid=2814115",
+        "revision": 2814115
+      }
+    ],
+    "command_translation.help.component.minecraft:written_book_content.field.generation.value_type": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Written_Books?oldid=2814115",
+        "revision": 2814115
+      }
+    ],
+    "command_translation.help.value.type.item_unbreakable.true": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Durability?oldid=2543991",
+        "revision": 2543991
+      }
+    ],
+    "command_translation.help.value.type.item_unbreakable.1b": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Durability?oldid=2543991",
+        "revision": 2543991
+      }
+    ],
+    "command_translation.help.value.type.item_unbreakable.1": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Durability?oldid=2543991",
+        "revision": 2543991
+      }
+    ],
+    "command_translation.help.value.type.item_unbreakable.false": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Durability?oldid=2543991",
+        "revision": 2543991
+      }
+    ],
+    "command_translation.help.value.type.item_unbreakable.0b": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Durability?oldid=2543991",
+        "revision": 2543991
+      }
+    ],
+    "command_translation.help.value.type.item_unbreakable.0": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Durability?oldid=2543991",
+        "revision": 2543991
+      }
+    ],
+    "command_translation.help.nbt.item.field.Unbreakable.value_type": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Durability?oldid=2543991",
+        "revision": 2543991
+      }
+    ],
+    "command_translation.help.value.type.firework_twinkle.true": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Firework_Explosions?oldid=2543994",
+        "revision": 2543994
+      }
+    ],
+    "command_translation.help.value.type.firework_twinkle.1b": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Firework_Explosions?oldid=2543994",
+        "revision": 2543994
+      }
+    ],
+    "command_translation.help.value.type.firework_twinkle.1": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Firework_Explosions?oldid=2543994",
+        "revision": 2543994
+      }
+    ],
+    "command_translation.help.value.type.firework_twinkle.false": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Firework_Explosions?oldid=2543994",
+        "revision": 2543994
+      }
+    ],
+    "command_translation.help.value.type.firework_twinkle.0b": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Firework_Explosions?oldid=2543994",
+        "revision": 2543994
+      }
+    ],
+    "command_translation.help.value.type.firework_twinkle.0": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Firework_Explosions?oldid=2543994",
+        "revision": 2543994
+      }
+    ],
+    "command_translation.help.nbt.item.field.Explosion.Flicker.value_type": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Firework_Explosions?oldid=2543994",
+        "revision": 2543994
+      }
+    ],
+    "command_translation.help.nbt.item.field.Fireworks.Explosions.Flicker.value_type": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Firework_Explosions?oldid=2543994",
+        "revision": 2543994
+      }
+    ],
+    "command_translation.help.component.minecraft:firework_explosion.field.has_twinkle.value_type": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Firework_Explosions?oldid=2543994",
+        "revision": 2543994
+      }
+    ],
+    "command_translation.help.component.minecraft:fireworks.field.explosions.has_twinkle.value_type": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Firework_Explosions?oldid=2543994",
+        "revision": 2543994
+      }
+    ],
+    "command_translation.help.value.type.firework_trail.true": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Firework_Explosions?oldid=2543994",
+        "revision": 2543994
+      }
+    ],
+    "command_translation.help.value.type.firework_trail.1b": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Firework_Explosions?oldid=2543994",
+        "revision": 2543994
+      }
+    ],
+    "command_translation.help.value.type.firework_trail.1": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Firework_Explosions?oldid=2543994",
+        "revision": 2543994
+      }
+    ],
+    "command_translation.help.value.type.firework_trail.false": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Firework_Explosions?oldid=2543994",
+        "revision": 2543994
+      }
+    ],
+    "command_translation.help.value.type.firework_trail.0b": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Firework_Explosions?oldid=2543994",
+        "revision": 2543994
+      }
+    ],
+    "command_translation.help.value.type.firework_trail.0": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Firework_Explosions?oldid=2543994",
+        "revision": 2543994
+      }
+    ],
+    "command_translation.help.nbt.item.field.Explosion.Trail.value_type": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Firework_Explosions?oldid=2543994",
+        "revision": 2543994
+      }
+    ],
+    "command_translation.help.nbt.item.field.Fireworks.Explosions.Trail.value_type": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Firework_Explosions?oldid=2543994",
+        "revision": 2543994
+      }
+    ],
+    "command_translation.help.component.minecraft:firework_explosion.field.has_trail.value_type": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Firework_Explosions?oldid=2543994",
+        "revision": 2543994
+      }
+    ],
+    "command_translation.help.component.minecraft:fireworks.field.explosions.has_trail.value_type": [
+      {
+        "url": "https://minecraft.wiki/w/Item_format/Firework_Explosions?oldid=2543994",
+        "revision": 2543994
+      }
+    ]
+  }
+}

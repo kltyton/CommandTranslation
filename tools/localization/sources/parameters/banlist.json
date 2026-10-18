@@ -1,0 +1,68 @@
+{
+  "en_us": {
+    "command_translation.help.argument.banlist.ips": "Shows only the banned IP addresses.",
+    "command_translation.help.argument.banlist.players": "Shows only the banned player profiles."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.banlist.ips": "只显示被封禁的 IP 地址。",
+    "command_translation.help.argument.banlist.players": "只显示被封禁的玩家档案。"
+  },
+  "sources": {
+    "command_translation.help.argument.banlist.ips": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fban",
+        "revision": 3563909
+      }
+    ],
+    "command_translation.help.argument.banlist.players": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fban",
+        "revision": 3563909
+      }
+    ]
+  },
+  "bindings": {
+    "banlist.ips": "command_translation.help.argument.banlist.ips",
+    "banlist.players": "command_translation.help.argument.banlist.players"
+  },
+  "de_de": {
+    "command_translation.help.argument.banlist.ips": "Zeigt nur die gebannten IP-Adressen.",
+    "command_translation.help.argument.banlist.players": "Zeigt nur die gebannten Spielerprofile."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.banlist.ips": "BAN された IP アドレスだけを表示する。",
+    "command_translation.help.argument.banlist.players": "BAN されたプレイヤープロフィールだけを表示する。"
+  },
+  "syntax": [
+    {
+      "path": "banlist",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "banlist.ips",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "banlist.players",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

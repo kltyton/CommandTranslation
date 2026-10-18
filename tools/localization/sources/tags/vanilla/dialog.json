@@ -1,0 +1,32 @@
+{
+  "en_us": {
+    "command_translation.tag.dialog.minecraft.pause_screen_additions": "Additional dialogs in the pause menu",
+    "command_translation.tag.dialog.minecraft.quick_actions": "Dialogs opened by the quick actions keybind"
+  },
+  "zh_cn": {
+    "command_translation.tag.dialog.minecraft.pause_screen_additions": "暂停菜单中的附加对话框",
+    "command_translation.tag.dialog.minecraft.quick_actions": "快捷操作键打开的对话"
+  },
+  "de_de": {
+    "command_translation.tag.dialog.minecraft.pause_screen_additions": "Zusätzliche Dialoge im Pausenmenü",
+    "command_translation.tag.dialog.minecraft.quick_actions": "Dialoge der Schnellaktions-Taste"
+  },
+  "ja_jp": {
+    "command_translation.tag.dialog.minecraft.pause_screen_additions": "ポーズメニューに追加するダイアログ",
+    "command_translation.tag.dialog.minecraft.quick_actions": "クイック操作キーで開くダイアログ"
+  },
+  "sources": {
+    "command_translation.tag.dialog.minecraft.pause_screen_additions": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog%20tag%20(Java%20Edition)",
+        "revision": 3839216
+      }
+    ],
+    "command_translation.tag.dialog.minecraft.quick_actions": [
+      {
+        "url": "https://minecraft.wiki/w/Dialog%20tag%20(Java%20Edition)",
+        "revision": 3839216
+      }
+    ]
+  }
+}

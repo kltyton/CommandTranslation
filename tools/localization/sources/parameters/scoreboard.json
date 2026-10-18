@@ -1,0 +1,1389 @@
+{
+  "en_us": {
+    "command_translation.help.argument.scoreboard.objectives": "Subcommand group managing objectives themselves: add, list, modify, remove, setdisplay.",
+    "command_translation.help.argument.scoreboard.objectives.add": "Creates a new objective with the given internal name and criterion, optionally a display name.",
+    "command_translation.help.argument.scoreboard.objectives.add.objective": "Internal name of the new objective: one word of letters, digits and - + . _ (no spaces); must not already exist.",
+    "command_translation.help.argument.scoreboard.criteria": "The criterion deciding how the score is tracked, for example dummy (manual only) or trigger; required on creation.",
+    "command_translation.help.argument.scoreboard.component": "A raw JSON text component (chat text) used for display names and number formats.",
+    "command_translation.help.argument.scoreboard.objectives.list": "Lists all objectives with their names and criteria; the result value is the number of objectives.",
+    "command_translation.help.argument.scoreboard.objectives.modify": "Edits an existing objective's display: auto-update, display name, number format, or render type.",
+    "command_translation.help.argument.scoreboard.objective": "An existing objective name: one word of letters, digits and - + . _ (no spaces); it must already exist.",
+    "command_translation.help.argument.scoreboard.objectives.modify.objective.displayname": "Changes the display name shown for the objective in display slots.",
+    "command_translation.help.argument.scoreboard.objectives.modify.objective.rendertype": "Changes how the objective's scores are drawn in the tab player list: hearts or integer; default integer.",
+    "command_translation.help.argument.scoreboard.objectives.modify.objective.rendertype.hearts": "Render type hearts: shows health-like scores as heart icons in the tab list.",
+    "command_translation.help.argument.scoreboard.objectives.modify.objective.rendertype.integer": "Render type integer: shows scores as plain numbers in the tab list (default).",
+    "command_translation.help.argument.scoreboard.objectives.remove": "Deletes the named objective and all scores stored under it.",
+    "command_translation.help.argument.scoreboard.objectives.setdisplay": "Chooses which objective is shown in a display slot; if no objective is given, the slot is cleared.",
+    "command_translation.help.argument.scoreboard.slot": "The display slot: list (tab list), sidebar (right-side scoreboard), or below_name (under nametags); slots may show different objectives.",
+    "command_translation.help.argument.scoreboard.players": "Reads or changes scores held by players and other score holders.",
+    "command_translation.help.argument.scoreboard.players.add": "Adds the given amount to each target's score in the objective; a negative amount subtracts.",
+    "command_translation.help.argument.scoreboard.score_holder": "A score holder: a player name, target selector, UUID, entity unique id, or * for all tracked holders; player names need not be online.",
+    "command_translation.help.argument.scoreboard.integer": "A 32-bit integer (-2147483648 to 2147483647): the new value for set, or the amount to add/remove; negatives allowed.",
+    "command_translation.help.argument.scoreboard.players.enable": "Lets the targets use /trigger on the objective (criterion must be trigger); a target with no score is first set to 0.",
+    "command_translation.help.argument.scoreboard.players.get": "Returns the target's score in the objective; capture it with /execute store result.",
+    "command_translation.help.argument.scoreboard.players.list": "Lists score holders tracked by the scoreboard; with a target, lists the objectives that holder is tracked in.",
+    "command_translation.help.argument.scoreboard.players.operation": "Applies an arithmetic operation to a target score, using another score as input.",
+    "command_translation.help.argument.scoreboard.operation": "The operation applied: = assign, += add, -= subtract, *= multiply, /= floor divide, %= modulus, >< swap, < minimum, > maximum.",
+    "command_translation.help.argument.scoreboard.players.remove": "Subtracts the given amount from each target's score; a negative amount adds.",
+    "command_translation.help.argument.scoreboard.players.reset": "Removes the targets' scores entirely (not set to 0); with an objective, only that one. It also disables /trigger for players.",
+    "command_translation.help.argument.scoreboard.players.set": "Sets each target's score in the objective, overwriting any previous value.",
+    "command_translation.help.argument.scoreboard.objectives.modify.objective.displayautoupdate": "Controls whether the objective's display names update automatically on every score change.",
+    "command_translation.help.argument.scoreboard.bool": "true or false; true enables automatic display-name updates, false disables them.",
+    "command_translation.help.argument.scoreboard.objectives.modify.objective.numberformat": "Resets the default number format of the objective's scores in display slots and text components.",
+    "command_translation.help.argument.scoreboard.objectives.modify.objective.numberformat.blank": "Number format blank: the score value is not shown.",
+    "command_translation.help.argument.scoreboard.objectives.modify.objective.numberformat.fixed": "Number format fixed: the score value is replaced by a fixed text component.",
+    "command_translation.help.argument.scoreboard.objectives.modify.objective.numberformat.styled": "Number format styled: the score is drawn with the given text style.",
+    "command_translation.help.argument.scoreboard.style": "A text style (colour, bold, italic, and so on) applied to the score display.",
+    "command_translation.help.argument.scoreboard.players.display": "Per-holder display overrides: set a custom name or number format for specific score holders.",
+    "command_translation.help.argument.scoreboard.players.display.name": "Sets the display name for the targets' score in the objective; omitting the text resets it.",
+    "command_translation.help.argument.scoreboard.players.display.numberformat": "Sets the number format for the targets' score in the objective: blank, fixed, or styled.",
+    "command_translation.help.argument.scoreboard.players.display.numberformat.targets.objective.blank": "Per-holder blank format: hides this holder's score value.",
+    "command_translation.help.argument.scoreboard.players.display.numberformat.targets.objective.fixed": "Per-holder fixed format: replaces this holder's score with the given text component.",
+    "command_translation.help.argument.scoreboard.players.display.numberformat.targets.objective.styled": "Per-holder styled format: draws this holder's score with the given text style.",
+    "command_translation.help.value.scoreboard.players.operation.targets.targetObjective.operation.=": "Assignment: sets the target score to the source score.",
+    "command_translation.help.value.scoreboard.players.operation.targets.targetObjective.operation.+=": "Addition: adds the source score to the target score.",
+    "command_translation.help.value.scoreboard.players.operation.targets.targetObjective.operation.-=": "Subtraction: subtracts the source score from the target score.",
+    "command_translation.help.value.scoreboard.players.operation.targets.targetObjective.operation.*=": "Multiplication: sets the target score to target times source.",
+    "command_translation.help.value.scoreboard.players.operation.targets.targetObjective.operation./=": "Floor division: divides target by source and rounds down; fails when source is 0 (Java).",
+    "command_translation.help.value.scoreboard.players.operation.targets.targetObjective.operation.%=": "Modulo: replaces the target score with the remainder from floor division by the source score; a source of 0 errors, and a negative divisor can give a negative remainder.",
+    "command_translation.help.value.scoreboard.players.operation.targets.targetObjective.operation.><": "Swapping: exchanges the target and source scores (the source score changes too).",
+    "command_translation.help.value.scoreboard.players.operation.targets.targetObjective.operation.<": "Minimum: sets the target score to the source score only if the source is smaller.",
+    "command_translation.help.value.scoreboard.players.operation.targets.targetObjective.operation.>": "Maximum: sets the target score to the source score only if the source is larger.",
+    "command_translation.help.value.scoreboard.objectives.setdisplay.slot.list": "list display slot: shows the objective in the tab player list.",
+    "command_translation.help.value.scoreboard.objectives.setdisplay.slot.sidebar": "sidebar display slot: shows the objective on the right side of the screen.",
+    "command_translation.help.value.scoreboard.objectives.setdisplay.slot.below_name": "below_name display slot: shows the objective's score under each holder's nametag."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.scoreboard.objectives": "管理记分板目标本身的操作组：add、list、modify、remove、setdisplay。",
+    "command_translation.help.argument.scoreboard.objectives.add": "用给定内部名称与准则新建目标，可选显示名。",
+    "command_translation.help.argument.scoreboard.objectives.add.objective": "新目标的内部名称：仅含字母、数字及 - + . _ 的单词（不能含空格），且不能已存在。",
+    "command_translation.help.argument.scoreboard.criteria": "决定分数如何被追踪的准则，例如 dummy（仅手动改动）或 trigger；创建时必填。",
+    "command_translation.help.argument.scoreboard.component": "原始 JSON 文本组件（聊天文本），用于显示名与数字格式。",
+    "command_translation.help.argument.scoreboard.objectives.list": "列出所有目标及其名称与准则；结果值为目标数量。",
+    "command_translation.help.argument.scoreboard.objectives.modify": "修改已有目标的显示：自动更新、显示名、数字格式或渲染类型。",
+    "command_translation.help.argument.scoreboard.objective": "已有目标名称：仅含字母、数字及 - + . _ 的单词（不能含空格），且必须已存在。",
+    "command_translation.help.argument.scoreboard.objectives.modify.objective.displayname": "修改目标在显示槽位中显示的显示名。",
+    "command_translation.help.argument.scoreboard.objectives.modify.objective.rendertype": "修改该目标分数在玩家列表中的绘制方式：hearts 或 integer；默认 integer。",
+    "command_translation.help.argument.scoreboard.objectives.modify.objective.rendertype.hearts": "渲染类型 hearts：在玩家列表把类似生命的分数显示为爱心图标。",
+    "command_translation.help.argument.scoreboard.objectives.modify.objective.rendertype.integer": "渲染类型 integer：在玩家列表把分数显示为普通数字（默认）。",
+    "command_translation.help.argument.scoreboard.objectives.remove": "删除指定目标及其下存储的所有分数。",
+    "command_translation.help.argument.scoreboard.objectives.setdisplay": "指定某显示槽位显示哪个目标；不给出目标则清空该槽位。",
+    "command_translation.help.argument.scoreboard.slot": "显示槽位：list（玩家列表）、sidebar（右侧记分板）或 below_name（名牌下方）；不同槽位可显示不同目标。",
+    "command_translation.help.argument.scoreboard.players": "读取或修改玩家及其他记分对象的分数。",
+    "command_translation.help.argument.scoreboard.players.add": "给每个目标在该目标中的分数加上指定数值；负数即减少。",
+    "command_translation.help.argument.scoreboard.score_holder": "记分持有者：玩家名、目标选择器、UUID、实体唯一 id，或 * 表示全部被记录的持有者；玩家名不必在线。",
+    "command_translation.help.argument.scoreboard.integer": "32 位整数（-2147483648 到 2147483647）：set 时为新值，add/remove 时为增减量；可为负。",
+    "command_translation.help.argument.scoreboard.players.enable": "允许目标对该目标使用 /trigger（准则必须为 trigger）；原本无分数的目标会先设为 0。",
+    "command_translation.help.argument.scoreboard.players.get": "返回目标在该目标中的分数；可用 /execute store result 捕获。",
+    "command_translation.help.argument.scoreboard.players.list": "列出被记分板记录的持有者；给出目标时列出该持有者所涉及的各个目标。",
+    "command_translation.help.argument.scoreboard.players.operation": "以另一个分数为输入，对目标分数做算术运算。",
+    "command_translation.help.argument.scoreboard.operation": "所施加的运算：= 赋值、+= 加、-= 减、*= 乘、/= 向下取整除、%= 取模、>< 交换、< 取较小、> 取较大。",
+    "command_translation.help.argument.scoreboard.players.remove": "从每个目标分数减去指定数值；负数即增加。",
+    "command_translation.help.argument.scoreboard.players.reset": "移除目标的分数（彻底删除，不是设为 0）；给出目标则只移除该目标；同时关闭玩家的 /trigger。",
+    "command_translation.help.argument.scoreboard.players.set": "设置每个目标在该目标中的分数，覆盖原有值。",
+    "command_translation.help.argument.scoreboard.objectives.modify.objective.displayautoupdate": "控制该目标的显示名是否在每次分数变化时自动更新。",
+    "command_translation.help.argument.scoreboard.bool": "true 或 false；true 开启显示名自动更新，false 关闭。",
+    "command_translation.help.argument.scoreboard.objectives.modify.objective.numberformat": "重置该目标分数在显示槽位与文本组件中的默认数字格式。",
+    "command_translation.help.argument.scoreboard.objectives.modify.objective.numberformat.blank": "数字格式 blank：不显示分数数值。",
+    "command_translation.help.argument.scoreboard.objectives.modify.objective.numberformat.fixed": "数字格式 fixed：用固定的文本组件替换分数数值。",
+    "command_translation.help.argument.scoreboard.objectives.modify.objective.numberformat.styled": "数字格式 styled：用给定的文本样式绘制分数。",
+    "command_translation.help.argument.scoreboard.style": "应用到分数显示的文本样式（颜色、加粗、斜体等）。",
+    "command_translation.help.argument.scoreboard.players.display": "按持有者的显示覆盖：为特定记分持有者设置自定义名称或数字格式。",
+    "command_translation.help.argument.scoreboard.players.display.name": "设置目标在该目标中的分数显示名；省略文本则重置。",
+    "command_translation.help.argument.scoreboard.players.display.numberformat": "设置目标在该目标中的分数数字格式：blank、fixed 或 styled。",
+    "command_translation.help.argument.scoreboard.players.display.numberformat.targets.objective.blank": "按持有者的 blank 格式：隐藏该持有者的分数数值。",
+    "command_translation.help.argument.scoreboard.players.display.numberformat.targets.objective.fixed": "按持有者的 fixed 格式：用给定文本组件替换该持有者的分数。",
+    "command_translation.help.argument.scoreboard.players.display.numberformat.targets.objective.styled": "按持有者的 styled 格式：用给定文本样式绘制该持有者的分数。",
+    "command_translation.help.value.scoreboard.players.operation.targets.targetObjective.operation.=": "赋值：把目标分数设为来源分数。",
+    "command_translation.help.value.scoreboard.players.operation.targets.targetObjective.operation.+=": "加法：把来源分数加到目标分数。",
+    "command_translation.help.value.scoreboard.players.operation.targets.targetObjective.operation.-=": "减法：从目标分数减去来源分数。",
+    "command_translation.help.value.scoreboard.players.operation.targets.targetObjective.operation.*=": "乘法：把目标分数设为 目标×来源。",
+    "command_translation.help.value.scoreboard.players.operation.targets.targetObjective.operation./=": "向下取整除法：目标除以来源并向下取整；来源为 0 时失败（Java）。",
+    "command_translation.help.value.scoreboard.players.operation.targets.targetObjective.operation.%=": "取模：把目标分数改为按向下取整除法计算的余数；来源为 0 会报错，除数为负时余数也可能为负。",
+    "command_translation.help.value.scoreboard.players.operation.targets.targetObjective.operation.><": "交换：互换目标与来源的分数（来源分数也会改变）。",
+    "command_translation.help.value.scoreboard.players.operation.targets.targetObjective.operation.<": "取较小：仅当来源较小时把目标分数设为来源分数。",
+    "command_translation.help.value.scoreboard.players.operation.targets.targetObjective.operation.>": "取较大：仅当来源较大时把目标分数设为来源分数。",
+    "command_translation.help.value.scoreboard.objectives.setdisplay.slot.list": "list 槽位：在玩家列表显示该目标。",
+    "command_translation.help.value.scoreboard.objectives.setdisplay.slot.sidebar": "sidebar 槽位：在屏幕右侧显示该目标。",
+    "command_translation.help.value.scoreboard.objectives.setdisplay.slot.below_name": "below_name 槽位：在每个持有者名牌下方显示该目标分数。"
+  },
+  "sources": {
+    "command_translation.help.argument.scoreboard.objectives": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      }
+    ],
+    "command_translation.help.argument.scoreboard.objectives.add": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      }
+    ],
+    "command_translation.help.argument.scoreboard.objectives.add.objective": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      }
+    ],
+    "command_translation.help.argument.scoreboard.criteria": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      },
+      {
+        "url": "https://minecraft.wiki/w/Argument%20types",
+        "revision": 3825973
+      }
+    ],
+    "command_translation.help.argument.scoreboard.component": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      },
+      {
+        "url": "https://minecraft.wiki/w/Argument%20types",
+        "revision": 3825973
+      }
+    ],
+    "command_translation.help.argument.scoreboard.objectives.list": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      }
+    ],
+    "command_translation.help.argument.scoreboard.objectives.modify": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      }
+    ],
+    "command_translation.help.argument.scoreboard.objective": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      }
+    ],
+    "command_translation.help.argument.scoreboard.objectives.modify.objective.displayname": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      }
+    ],
+    "command_translation.help.argument.scoreboard.objectives.modify.objective.rendertype": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      }
+    ],
+    "command_translation.help.argument.scoreboard.objectives.modify.objective.rendertype.hearts": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      }
+    ],
+    "command_translation.help.argument.scoreboard.objectives.modify.objective.rendertype.integer": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      }
+    ],
+    "command_translation.help.argument.scoreboard.objectives.remove": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      }
+    ],
+    "command_translation.help.argument.scoreboard.objectives.setdisplay": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      }
+    ],
+    "command_translation.help.argument.scoreboard.slot": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      }
+    ],
+    "command_translation.help.argument.scoreboard.players": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      }
+    ],
+    "command_translation.help.argument.scoreboard.players.add": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      }
+    ],
+    "command_translation.help.argument.scoreboard.score_holder": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      },
+      {
+        "url": "https://minecraft.wiki/w/Argument%20types",
+        "revision": 3825973
+      }
+    ],
+    "command_translation.help.argument.scoreboard.integer": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      },
+      {
+        "url": "https://minecraft.wiki/w/Argument%20types",
+        "revision": 3825973
+      }
+    ],
+    "command_translation.help.argument.scoreboard.players.enable": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      }
+    ],
+    "command_translation.help.argument.scoreboard.players.get": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      }
+    ],
+    "command_translation.help.argument.scoreboard.players.list": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      }
+    ],
+    "command_translation.help.argument.scoreboard.players.operation": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      }
+    ],
+    "command_translation.help.argument.scoreboard.operation": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      }
+    ],
+    "command_translation.help.argument.scoreboard.players.remove": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      }
+    ],
+    "command_translation.help.argument.scoreboard.players.reset": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      }
+    ],
+    "command_translation.help.argument.scoreboard.players.set": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      }
+    ],
+    "command_translation.help.argument.scoreboard.objectives.modify.objective.displayautoupdate": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      }
+    ],
+    "command_translation.help.argument.scoreboard.bool": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      },
+      {
+        "url": "https://minecraft.wiki/w/Argument%20types",
+        "revision": 3825973
+      }
+    ],
+    "command_translation.help.argument.scoreboard.objectives.modify.objective.numberformat": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      }
+    ],
+    "command_translation.help.argument.scoreboard.objectives.modify.objective.numberformat.blank": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      }
+    ],
+    "command_translation.help.argument.scoreboard.objectives.modify.objective.numberformat.fixed": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      }
+    ],
+    "command_translation.help.argument.scoreboard.objectives.modify.objective.numberformat.styled": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      }
+    ],
+    "command_translation.help.argument.scoreboard.style": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      },
+      {
+        "url": "https://minecraft.wiki/w/Argument%20types",
+        "revision": 3825973
+      }
+    ],
+    "command_translation.help.argument.scoreboard.players.display": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      }
+    ],
+    "command_translation.help.argument.scoreboard.players.display.name": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      }
+    ],
+    "command_translation.help.argument.scoreboard.players.display.numberformat": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      }
+    ],
+    "command_translation.help.argument.scoreboard.players.display.numberformat.targets.objective.blank": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      }
+    ],
+    "command_translation.help.argument.scoreboard.players.display.numberformat.targets.objective.fixed": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      }
+    ],
+    "command_translation.help.argument.scoreboard.players.display.numberformat.targets.objective.styled": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      }
+    ],
+    "command_translation.help.value.scoreboard.players.operation.targets.targetObjective.operation.=": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      }
+    ],
+    "command_translation.help.value.scoreboard.players.operation.targets.targetObjective.operation.+=": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      }
+    ],
+    "command_translation.help.value.scoreboard.players.operation.targets.targetObjective.operation.-=": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      }
+    ],
+    "command_translation.help.value.scoreboard.players.operation.targets.targetObjective.operation.*=": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      }
+    ],
+    "command_translation.help.value.scoreboard.players.operation.targets.targetObjective.operation./=": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      }
+    ],
+    "command_translation.help.value.scoreboard.players.operation.targets.targetObjective.operation.%=": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      }
+    ],
+    "command_translation.help.value.scoreboard.players.operation.targets.targetObjective.operation.><": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      }
+    ],
+    "command_translation.help.value.scoreboard.players.operation.targets.targetObjective.operation.<": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      }
+    ],
+    "command_translation.help.value.scoreboard.players.operation.targets.targetObjective.operation.>": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      }
+    ],
+    "command_translation.help.value.scoreboard.objectives.setdisplay.slot.list": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      }
+    ],
+    "command_translation.help.value.scoreboard.objectives.setdisplay.slot.sidebar": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      }
+    ],
+    "command_translation.help.value.scoreboard.objectives.setdisplay.slot.below_name": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fscoreboard",
+        "revision": 3640891
+      }
+    ]
+  },
+  "bindings": {
+    "scoreboard.objectives": "command_translation.help.argument.scoreboard.objectives",
+    "scoreboard.objectives.add": "command_translation.help.argument.scoreboard.objectives.add",
+    "scoreboard.objectives.add.objective": "command_translation.help.argument.scoreboard.objectives.add.objective",
+    "scoreboard.objectives.add.objective.criteria": "command_translation.help.argument.scoreboard.criteria",
+    "scoreboard.objectives.add.objective.criteria.displayName": "command_translation.help.argument.scoreboard.component",
+    "scoreboard.objectives.list": "command_translation.help.argument.scoreboard.objectives.list",
+    "scoreboard.objectives.modify": "command_translation.help.argument.scoreboard.objectives.modify",
+    "scoreboard.objectives.modify.objective": "command_translation.help.argument.scoreboard.objective",
+    "scoreboard.objectives.modify.objective.displayname": "command_translation.help.argument.scoreboard.objectives.modify.objective.displayname",
+    "scoreboard.objectives.modify.objective.displayname.displayName": "command_translation.help.argument.scoreboard.component",
+    "scoreboard.objectives.modify.objective.rendertype": "command_translation.help.argument.scoreboard.objectives.modify.objective.rendertype",
+    "scoreboard.objectives.modify.objective.rendertype.hearts": "command_translation.help.argument.scoreboard.objectives.modify.objective.rendertype.hearts",
+    "scoreboard.objectives.modify.objective.rendertype.integer": "command_translation.help.argument.scoreboard.objectives.modify.objective.rendertype.integer",
+    "scoreboard.objectives.remove": "command_translation.help.argument.scoreboard.objectives.remove",
+    "scoreboard.objectives.remove.objective": "command_translation.help.argument.scoreboard.objective",
+    "scoreboard.objectives.setdisplay": "command_translation.help.argument.scoreboard.objectives.setdisplay",
+    "scoreboard.objectives.setdisplay.slot": "command_translation.help.argument.scoreboard.slot",
+    "scoreboard.objectives.setdisplay.slot.objective": "command_translation.help.argument.scoreboard.objective",
+    "scoreboard.players": "command_translation.help.argument.scoreboard.players",
+    "scoreboard.players.add": "command_translation.help.argument.scoreboard.players.add",
+    "scoreboard.players.add.targets": "command_translation.help.argument.scoreboard.score_holder",
+    "scoreboard.players.add.targets.objective": "command_translation.help.argument.scoreboard.objective",
+    "scoreboard.players.add.targets.objective.score": "command_translation.help.argument.scoreboard.integer",
+    "scoreboard.players.enable": "command_translation.help.argument.scoreboard.players.enable",
+    "scoreboard.players.enable.targets": "command_translation.help.argument.scoreboard.score_holder",
+    "scoreboard.players.enable.targets.objective": "command_translation.help.argument.scoreboard.objective",
+    "scoreboard.players.get": "command_translation.help.argument.scoreboard.players.get",
+    "scoreboard.players.get.target": "command_translation.help.argument.scoreboard.score_holder",
+    "scoreboard.players.get.target.objective": "command_translation.help.argument.scoreboard.objective",
+    "scoreboard.players.list": "command_translation.help.argument.scoreboard.players.list",
+    "scoreboard.players.list.target": "command_translation.help.argument.scoreboard.score_holder",
+    "scoreboard.players.operation": "command_translation.help.argument.scoreboard.players.operation",
+    "scoreboard.players.operation.targets": "command_translation.help.argument.scoreboard.score_holder",
+    "scoreboard.players.operation.targets.targetObjective": "command_translation.help.argument.scoreboard.objective",
+    "scoreboard.players.operation.targets.targetObjective.operation": "command_translation.help.argument.scoreboard.operation",
+    "scoreboard.players.operation.targets.targetObjective.operation.source": "command_translation.help.argument.scoreboard.score_holder",
+    "scoreboard.players.operation.targets.targetObjective.operation.source.sourceObjective": "command_translation.help.argument.scoreboard.objective",
+    "scoreboard.players.remove": "command_translation.help.argument.scoreboard.players.remove",
+    "scoreboard.players.remove.targets": "command_translation.help.argument.scoreboard.score_holder",
+    "scoreboard.players.remove.targets.objective": "command_translation.help.argument.scoreboard.objective",
+    "scoreboard.players.remove.targets.objective.score": "command_translation.help.argument.scoreboard.integer",
+    "scoreboard.players.reset": "command_translation.help.argument.scoreboard.players.reset",
+    "scoreboard.players.reset.targets": "command_translation.help.argument.scoreboard.score_holder",
+    "scoreboard.players.reset.targets.objective": "command_translation.help.argument.scoreboard.objective",
+    "scoreboard.players.set": "command_translation.help.argument.scoreboard.players.set",
+    "scoreboard.players.set.targets": "command_translation.help.argument.scoreboard.score_holder",
+    "scoreboard.players.set.targets.objective": "command_translation.help.argument.scoreboard.objective",
+    "scoreboard.players.set.targets.objective.score": "command_translation.help.argument.scoreboard.integer",
+    "scoreboard.objectives.modify.objective.displayautoupdate": "command_translation.help.argument.scoreboard.objectives.modify.objective.displayautoupdate",
+    "scoreboard.objectives.modify.objective.displayautoupdate.value": "command_translation.help.argument.scoreboard.bool",
+    "scoreboard.objectives.modify.objective.numberformat": "command_translation.help.argument.scoreboard.objectives.modify.objective.numberformat",
+    "scoreboard.objectives.modify.objective.numberformat.blank": "command_translation.help.argument.scoreboard.objectives.modify.objective.numberformat.blank",
+    "scoreboard.objectives.modify.objective.numberformat.fixed": "command_translation.help.argument.scoreboard.objectives.modify.objective.numberformat.fixed",
+    "scoreboard.objectives.modify.objective.numberformat.fixed.contents": "command_translation.help.argument.scoreboard.component",
+    "scoreboard.objectives.modify.objective.numberformat.styled": "command_translation.help.argument.scoreboard.objectives.modify.objective.numberformat.styled",
+    "scoreboard.objectives.modify.objective.numberformat.styled.style": "command_translation.help.argument.scoreboard.style",
+    "scoreboard.players.display": "command_translation.help.argument.scoreboard.players.display",
+    "scoreboard.players.display.name": "command_translation.help.argument.scoreboard.players.display.name",
+    "scoreboard.players.display.name.targets": "command_translation.help.argument.scoreboard.score_holder",
+    "scoreboard.players.display.name.targets.objective": "command_translation.help.argument.scoreboard.objective",
+    "scoreboard.players.display.name.targets.objective.name": "command_translation.help.argument.scoreboard.component",
+    "scoreboard.players.display.numberformat": "command_translation.help.argument.scoreboard.players.display.numberformat",
+    "scoreboard.players.display.numberformat.targets": "command_translation.help.argument.scoreboard.score_holder",
+    "scoreboard.players.display.numberformat.targets.objective": "command_translation.help.argument.scoreboard.objective",
+    "scoreboard.players.display.numberformat.targets.objective.blank": "command_translation.help.argument.scoreboard.players.display.numberformat.targets.objective.blank",
+    "scoreboard.players.display.numberformat.targets.objective.fixed": "command_translation.help.argument.scoreboard.players.display.numberformat.targets.objective.fixed",
+    "scoreboard.players.display.numberformat.targets.objective.fixed.contents": "command_translation.help.argument.scoreboard.component",
+    "scoreboard.players.display.numberformat.targets.objective.styled": "command_translation.help.argument.scoreboard.players.display.numberformat.targets.objective.styled",
+    "scoreboard.players.display.numberformat.targets.objective.styled.style": "command_translation.help.argument.scoreboard.style"
+  },
+  "de_de": {
+    "command_translation.help.argument.scoreboard.objectives": "Unterbefehl-Gruppe, die die Ziele (Objectives) selbst verwaltet: add, list, modify, remove, setdisplay.",
+    "command_translation.help.argument.scoreboard.objectives.add": "Erstellt ein neues Ziel mit dem angegebenen internen Namen und Kriterium, optional mit Anzeigenamen.",
+    "command_translation.help.argument.scoreboard.objectives.add.objective": "Interner Name des neuen Ziels: ein Wort aus Buchstaben, Ziffern sowie - + . _ (keine Leerzeichen); darf noch nicht existieren.",
+    "command_translation.help.argument.scoreboard.criteria": "Das Kriterium, das bestimmt, wie der Punktestand verfolgt wird, z. B. dummy (nur manuell) oder trigger; bei Erstellung erforderlich.",
+    "command_translation.help.argument.scoreboard.component": "Eine rohe JSON-Textkomponente (Chat-Text), verwendet für Anzeigenamen und Zahlenformate.",
+    "command_translation.help.argument.scoreboard.objectives.list": "Listet alle Ziele mit Namen und Kriterien auf; der Ergebniswert ist die Anzahl der Ziele.",
+    "command_translation.help.argument.scoreboard.objectives.modify": "Bearbeitet die Anzeige eines vorhandenen Ziels: Auto-Update, Anzeigename, Zahlenformat oder Darstellungstyp.",
+    "command_translation.help.argument.scoreboard.objective": "Ein vorhandener Zielname: ein Wort aus Buchstaben, Ziffern sowie - + . _ (keine Leerzeichen); muss bereits existieren.",
+    "command_translation.help.argument.scoreboard.objectives.modify.objective.displayname": "Ändert den Anzeigenamen, der für das Ziel in den Anzeigeplätzen gezeigt wird.",
+    "command_translation.help.argument.scoreboard.objectives.modify.objective.rendertype": "Ändert, wie die Punktestände in der Tab-Spielerliste dargestellt werden: hearts oder integer; Standard integer.",
+    "command_translation.help.argument.scoreboard.objectives.modify.objective.rendertype.hearts": "Darstellungstyp hearts: lebensähnliche Werte werden in der Tab-Liste als Herzsymbole gezeigt.",
+    "command_translation.help.argument.scoreboard.objectives.modify.objective.rendertype.integer": "Darstellungstyp integer: Werte werden in der Tab-Liste als normale Zahlen gezeigt (Standard).",
+    "command_translation.help.argument.scoreboard.objectives.remove": "Löscht das genannte Ziel und alle darunter gespeicherten Punktestände.",
+    "command_translation.help.argument.scoreboard.objectives.setdisplay": "Wählt, welches Ziel in einem Anzeigeplatz gezeigt wird; ohne Zielangabe wird der Platz geleert.",
+    "command_translation.help.argument.scoreboard.slot": "Der Anzeigeplatz: list (Tab-Liste), sidebar (Punktestand rechts) oder below_name (unter den Namensschildern); verschiedene Plätze können verschiedene Ziele zeigen.",
+    "command_translation.help.argument.scoreboard.players": "Liest oder ändert Punkte von Spielern und anderen Punktinhabern.",
+    "command_translation.help.argument.scoreboard.players.add": "Addiert den angegebenen Betrag zum Punktestand jedes Ziels im Objective; ein negativer Betrag subtrahiert.",
+    "command_translation.help.argument.scoreboard.score_holder": "Ein Punktestand-Halter: ein Spielername, Zielselektor, eine UUID, eine Entitäts-ID oder * für alle erfassten Halter; Spielernamen müssen nicht online sein.",
+    "command_translation.help.argument.scoreboard.integer": "Eine 32-Bit-Ganzzahl (-2147483648 bis 2147483647): der neue Wert für set oder der Betrag zum Addieren/Subtrahieren; negative Werte erlaubt.",
+    "command_translation.help.argument.scoreboard.players.enable": "Erlaubt den Zielen /trigger für das Objective (Kriterium muss trigger sein); ein Ziel ohne Punktestand wird zuvor auf 0 gesetzt.",
+    "command_translation.help.argument.scoreboard.players.get": "Gibt den Punktestand des Ziels im Objective zurück; mit /execute store result erfassbar.",
+    "command_translation.help.argument.scoreboard.players.list": "Listet die erfassten Punktestand-Halter auf; mit einem Ziel die Objectives, in denen dieser Halter erfasst ist.",
+    "command_translation.help.argument.scoreboard.players.operation": "Wendet eine Rechenoperation auf den Punktestand eines Ziels an und nutzt einen anderen Punktestand als Eingabe.",
+    "command_translation.help.argument.scoreboard.operation": "Die angewendete Operation: = zuweisen, += addieren, -= subtrahieren, *= multiplizieren, /= abrunden, %= Modulo, >< tauschen, < Minimum, > Maximum.",
+    "command_translation.help.argument.scoreboard.players.remove": "Subtrahiert den angegebenen Betrag vom Punktestand jedes Ziels; ein negativer Betrag addiert.",
+    "command_translation.help.argument.scoreboard.players.reset": "Entfernt die Punktestände der Ziele vollständig (nicht auf 0 gesetzt); mit einem Objective nur dieses; deaktiviert zudem /trigger für Spieler.",
+    "command_translation.help.argument.scoreboard.players.set": "Setzt den Punktestand jedes Ziels im Objective und überschreibt jeden bisherigen Wert.",
+    "command_translation.help.argument.scoreboard.objectives.modify.objective.displayautoupdate": "Steuert, ob die Anzeigenamen des Ziels bei jeder Punktestandänderung automatisch aktualisiert werden.",
+    "command_translation.help.argument.scoreboard.bool": "true oder false; true aktiviert automatische Anzeigenamen-Aktualisierungen, false deaktiviert sie.",
+    "command_translation.help.argument.scoreboard.objectives.modify.objective.numberformat": "Setzt das Standard-Zahlenformat der Punktestände des Ziels in Anzeigeplätzen und Textkomponenten zurück.",
+    "command_translation.help.argument.scoreboard.objectives.modify.objective.numberformat.blank": "Zahlenformat blank: der Punktestand wird nicht angezeigt.",
+    "command_translation.help.argument.scoreboard.objectives.modify.objective.numberformat.fixed": "Zahlenformat fixed: der Punktestand wird durch eine feste Textkomponente ersetzt.",
+    "command_translation.help.argument.scoreboard.objectives.modify.objective.numberformat.styled": "Zahlenformat styled: der Punktestand wird im angegebenen Textstil dargestellt.",
+    "command_translation.help.argument.scoreboard.style": "Ein Textstil (Farbe, fett, kursiv usw.), der auf die Anzeige des Punktestands angewendet wird.",
+    "command_translation.help.argument.scoreboard.players.display": "Anzeige-Überschreibungen pro Halter: eigener Name oder eigenes Zahlenformat für bestimmte Halter.",
+    "command_translation.help.argument.scoreboard.players.display.name": "Setzt den Anzeigenamen für den Punktestand der Ziele im Objective; ohne Text wird er zurückgesetzt.",
+    "command_translation.help.argument.scoreboard.players.display.numberformat": "Setzt das Zahlenformat für den Punktestand der Ziele im Objective: blank, fixed oder styled.",
+    "command_translation.help.argument.scoreboard.players.display.numberformat.targets.objective.blank": "Blank-Format pro Halter: blendet den Punktestand dieses Halters aus.",
+    "command_translation.help.argument.scoreboard.players.display.numberformat.targets.objective.fixed": "Fixed-Format pro Halter: ersetzt den Punktestand dieses Halters durch die angegebene Textkomponente.",
+    "command_translation.help.argument.scoreboard.players.display.numberformat.targets.objective.styled": "Styled-Format pro Halter: stellt den Punktestand dieses Halters im angegebenen Textstil dar.",
+    "command_translation.help.value.scoreboard.players.operation.targets.targetObjective.operation.=": "Zuweisung: setzt den Punktestand des Ziels auf den der Quelle.",
+    "command_translation.help.value.scoreboard.players.operation.targets.targetObjective.operation.+=": "Addition: addiert den Punktestand der Quelle zum Ziel.",
+    "command_translation.help.value.scoreboard.players.operation.targets.targetObjective.operation.-=": "Subtraktion: subtrahiert den Punktestand der Quelle vom Ziel.",
+    "command_translation.help.value.scoreboard.players.operation.targets.targetObjective.operation.*=": "Multiplikation: setzt den Punktestand des Ziels auf Ziel mal Quelle.",
+    "command_translation.help.value.scoreboard.players.operation.targets.targetObjective.operation./=": "Ganzzahlige Division (Abrunden): teilt Ziel durch Quelle und rundet ab; schlägt fehl, wenn Quelle 0 ist (Java).",
+    "command_translation.help.value.scoreboard.players.operation.targets.targetObjective.operation.%=": "Modulo: ersetzt den Zielpunktestand durch den Rest der ganzzahligen Division durch die Quelle; eine Quelle von 0 ist ein Fehler, ein negativer Divisor kann einen negativen Rest ergeben.",
+    "command_translation.help.value.scoreboard.players.operation.targets.targetObjective.operation.><": "Tauschen: vertauscht die Punktestände von Ziel und Quelle (der Quellwert ändert sich ebenfalls).",
+    "command_translation.help.value.scoreboard.players.operation.targets.targetObjective.operation.<": "Minimum: setzt den Zielpunktestand nur dann auf den der Quelle, wenn die Quelle kleiner ist.",
+    "command_translation.help.value.scoreboard.players.operation.targets.targetObjective.operation.>": "Maximum: setzt den Zielpunktestand nur dann auf den der Quelle, wenn die Quelle größer ist.",
+    "command_translation.help.value.scoreboard.objectives.setdisplay.slot.list": "list-Anzeigeplatz: zeigt das Objective in der Tab-Spielerliste.",
+    "command_translation.help.value.scoreboard.objectives.setdisplay.slot.sidebar": "sidebar-Anzeigeplatz: zeigt das Objective am rechten Bildschirmrand.",
+    "command_translation.help.value.scoreboard.objectives.setdisplay.slot.below_name": "below_name-Anzeigeplatz: zeigt den Punktestand des Objectives unter dem Namensschild jedes Halters."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.scoreboard.objectives": "オブジェクト自体を管理するサブコマンド群：add、list、modify、remove、setdisplay。",
+    "command_translation.help.argument.scoreboard.objectives.add": "指定した内部名と基準で新しいオブジェクトを作成する。表示名は省略可能。",
+    "command_translation.help.argument.scoreboard.objectives.add.objective": "新しいオブジェクトの内部名：英字・数字・- + . _ だけの 1 語（空白不可）。まだ存在してはならない。",
+    "command_translation.help.argument.scoreboard.criteria": "スコアの追跡方法を決める基準。例：dummy（手動のみ）や trigger。作成時に必須。",
+    "command_translation.help.argument.scoreboard.component": "生の JSON テキストコンポーネント（チャットテキスト）。表示名や数値フォーマットに使う。",
+    "command_translation.help.argument.scoreboard.objectives.list": "すべてのオブジェクトを名前と基準とともに一覧表示する。結果値はオブジェクトの数。",
+    "command_translation.help.argument.scoreboard.objectives.modify": "既存オブジェクトの表示を編集する：自動更新、表示名、数値フォーマット、描画タイプ。",
+    "command_translation.help.argument.scoreboard.objective": "既存のオブジェクト名：英字・数字・- + . _ だけの 1 語（空白不可）。すでに存在している必要がある。",
+    "command_translation.help.argument.scoreboard.objectives.modify.objective.displayname": "表示スロットでそのオブジェクトに表示される名前を変更する。",
+    "command_translation.help.argument.scoreboard.objectives.modify.objective.rendertype": "そのオブジェクトのスコアをタブのプレイヤー一覧でどう描画するかを変更する：hearts または integer。既定は integer。",
+    "command_translation.help.argument.scoreboard.objectives.modify.objective.rendertype.hearts": "描画タイプ hearts：体力に似た値をタブ一覧でハートのアイコンとして表示する。",
+    "command_translation.help.argument.scoreboard.objectives.modify.objective.rendertype.integer": "描画タイプ integer：スコアをタブ一覧で通常の数字として表示する（既定）。",
+    "command_translation.help.argument.scoreboard.objectives.remove": "指定したオブジェクトと、その下に保存されたすべてのスコアを削除する。",
+    "command_translation.help.argument.scoreboard.objectives.setdisplay": "どの表示スロットにどのオブジェクトを表示するかを選ぶ。オブジェクトを指定しないとスロットが空になる。",
+    "command_translation.help.argument.scoreboard.slot": "表示スロット：list（タブ一覧）、sidebar（画面右側のスコアボード）、below_name（ネームタグの下）。スロットごとに別のオブジェクトを表示できる。",
+    "command_translation.help.argument.scoreboard.players": "プレイヤーなどのスコア保持者の得点を読み取りまたは変更する。",
+    "command_translation.help.argument.scoreboard.players.add": "オブジェクト内の各対象のスコアに指定した量を加算する。負の量なら減算。",
+    "command_translation.help.argument.scoreboard.score_holder": "スコア保持者：プレイヤー名、ターゲットセレクター、UUID、エンティティの一意 ID、または *（全保持者）。プレイヤー名はオンラインでなくてもよい。",
+    "command_translation.help.argument.scoreboard.integer": "32 ビット整数（-2147483648～2147483647）：set では新しい値、add/remove では増減量。負の値も使える。",
+    "command_translation.help.argument.scoreboard.players.enable": "対象がそのオブジェクトで /trigger を使えるようにする（基準が trigger である必要がある）。スコアが無い対象は先に 0 にされる。",
+    "command_translation.help.argument.scoreboard.players.get": "オブジェクト内の対象のスコアを返す。/execute store result で取り込める。",
+    "command_translation.help.argument.scoreboard.players.list": "記録されているスコア保持者を一覧表示する。対象を指定すると、その保持者が記録されているオブジェクトを一覧表示する。",
+    "command_translation.help.argument.scoreboard.players.operation": "別のスコアを入力として、対象のスコアに算術演算を適用する。",
+    "command_translation.help.argument.scoreboard.operation": "適用する演算：= 代入、+= 加算、-= 減算、*= 乗算、/= 切り捨て除算、%= 剰余、>< 交換、< 最小、> 最大。",
+    "command_translation.help.argument.scoreboard.players.remove": "各対象のスコアから指定した量を減算する。負の量なら加算。",
+    "command_translation.help.argument.scoreboard.players.reset": "対象のスコアを完全に削除する（0 に設定しない）。オブジェクト指定時はそのオブジェクトだけ。プレイヤーの /trigger も無効化する。",
+    "command_translation.help.argument.scoreboard.players.set": "オブジェクト内の各対象のスコアを設定し、以前の値を上書きする。",
+    "command_translation.help.argument.scoreboard.objectives.modify.objective.displayautoupdate": "スコアが変わるたびに、そのオブジェクトの表示名を自動更新するかどうかを制御する。",
+    "command_translation.help.argument.scoreboard.bool": "true または false。true で表示名の自動更新を有効にし、false で無効にする。",
+    "command_translation.help.argument.scoreboard.objectives.modify.objective.numberformat": "表示スロットおよびテキストコンポーネントにおける、そのオブジェクトのスコアの既定の数値フォーマットをリセットする。",
+    "command_translation.help.argument.scoreboard.objectives.modify.objective.numberformat.blank": "数値フォーマット blank：スコアの値を表示しない。",
+    "command_translation.help.argument.scoreboard.objectives.modify.objective.numberformat.fixed": "数値フォーマット fixed：スコアの値を固定のテキストコンポーネントに置き換える。",
+    "command_translation.help.argument.scoreboard.objectives.modify.objective.numberformat.styled": "数値フォーマット styled：スコアを指定したテキストスタイルで描画する。",
+    "command_translation.help.argument.scoreboard.style": "スコア表示に適用するテキストスタイル（色、太字、斜体など）。",
+    "command_translation.help.argument.scoreboard.players.display": "保持者ごとの表示上書き：特定のスコア保持者に独自の名前や数値フォーマットを設定する。",
+    "command_translation.help.argument.scoreboard.players.display.name": "オブジェクト内の対象のスコアの表示名を設定する。テキストを省略するとリセットされる。",
+    "command_translation.help.argument.scoreboard.players.display.numberformat": "オブジェクト内の対象のスコアの数値フォーマットを設定する：blank、fixed、styled。",
+    "command_translation.help.argument.scoreboard.players.display.numberformat.targets.objective.blank": "保持者ごとの blank フォーマット：その保持者のスコア値を隠す。",
+    "command_translation.help.argument.scoreboard.players.display.numberformat.targets.objective.fixed": "保持者ごとの fixed フォーマット：その保持者のスコアを指定したテキストコンポーネントに置き換える。",
+    "command_translation.help.argument.scoreboard.players.display.numberformat.targets.objective.styled": "保持者ごとの styled フォーマット：その保持者のスコアを指定したテキストスタイルで描画する。",
+    "command_translation.help.value.scoreboard.players.operation.targets.targetObjective.operation.=": "代入：対象のスコアをソースのスコアに設定する。",
+    "command_translation.help.value.scoreboard.players.operation.targets.targetObjective.operation.+=": "加算：ソースのスコアを対象のスコアに加える。",
+    "command_translation.help.value.scoreboard.players.operation.targets.targetObjective.operation.-=": "減算：対象のスコアからソースのスコアを引く。",
+    "command_translation.help.value.scoreboard.players.operation.targets.targetObjective.operation.*=": "乗算：対象のスコアを「対象×ソース」に設定する。",
+    "command_translation.help.value.scoreboard.players.operation.targets.targetObjective.operation./=": "切り捨て除算：対象をソースで割り切り捨てる。ソースが 0 のとき失敗する（Java）。",
+    "command_translation.help.value.scoreboard.players.operation.targets.targetObjective.operation.%=": "剰余：対象のスコアをソースによる切り捨て除算の余りに置き換える。ソース 0 はエラー、除数が負だと余りも負になりうる。",
+    "command_translation.help.value.scoreboard.players.operation.targets.targetObjective.operation.><": "交換：対象とソースのスコアを入れ替える（ソースのスコアも変わる）。",
+    "command_translation.help.value.scoreboard.players.operation.targets.targetObjective.operation.<": "最小：ソースの方が小さいときだけ、対象のスコアをソースのスコアに設定する。",
+    "command_translation.help.value.scoreboard.players.operation.targets.targetObjective.operation.>": "最大：ソースの方が大きいときだけ、対象のスコアをソースのスコアに設定する。",
+    "command_translation.help.value.scoreboard.objectives.setdisplay.slot.list": "list 表示スロット：タブのプレイヤー一覧にそのオブジェクトを表示する。",
+    "command_translation.help.value.scoreboard.objectives.setdisplay.slot.sidebar": "sidebar 表示スロット：画面の右側にそのオブジェクトを表示する。",
+    "command_translation.help.value.scoreboard.objectives.setdisplay.slot.below_name": "below_name 表示スロット：各保持者のネームタグの下にそのオブジェクトのスコアを表示する。"
+  },
+  "syntax": [
+    {
+      "path": "scoreboard",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.objectives",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.objectives.add",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.objectives.add.objective",
+      "type": "argument",
+      "parser": "brigadier:string",
+      "properties": {
+        "type": "word"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.objectives.add.objective.criteria",
+      "type": "argument",
+      "parser": "minecraft:objective_criteria",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.objectives.add.objective.criteria.displayName",
+      "type": "argument",
+      "parser": "minecraft:component",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.objectives.list",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.objectives.modify",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.objectives.modify.objective",
+      "type": "argument",
+      "parser": "minecraft:objective",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.objectives.modify.objective.displayname",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.objectives.modify.objective.displayname.displayName",
+      "type": "argument",
+      "parser": "minecraft:component",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.objectives.modify.objective.rendertype",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.objectives.modify.objective.rendertype.hearts",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.objectives.modify.objective.rendertype.integer",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.objectives.remove",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.objectives.remove.objective",
+      "type": "argument",
+      "parser": "minecraft:objective",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.objectives.setdisplay",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.objectives.setdisplay.slot",
+      "type": "argument",
+      "parser": "minecraft:scoreboard_slot",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.objectives.setdisplay.slot.objective",
+      "type": "argument",
+      "parser": "minecraft:objective",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.players",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.players.add",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.players.add.targets",
+      "type": "argument",
+      "parser": "minecraft:score_holder",
+      "properties": {
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.players.add.targets.objective",
+      "type": "argument",
+      "parser": "minecraft:objective",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.players.add.targets.objective.score",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.players.enable",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.players.enable.targets",
+      "type": "argument",
+      "parser": "minecraft:score_holder",
+      "properties": {
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.players.enable.targets.objective",
+      "type": "argument",
+      "parser": "minecraft:objective",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.players.get",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.players.get.target",
+      "type": "argument",
+      "parser": "minecraft:score_holder",
+      "properties": {
+        "amount": "single"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.players.get.target.objective",
+      "type": "argument",
+      "parser": "minecraft:objective",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.players.list",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.players.list.target",
+      "type": "argument",
+      "parser": "minecraft:score_holder",
+      "properties": {
+        "amount": "single"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.players.operation",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.players.operation.targets",
+      "type": "argument",
+      "parser": "minecraft:score_holder",
+      "properties": {
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.players.operation.targets.targetObjective",
+      "type": "argument",
+      "parser": "minecraft:objective",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.players.operation.targets.targetObjective.operation",
+      "type": "argument",
+      "parser": "minecraft:operation",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.players.operation.targets.targetObjective.operation.source",
+      "type": "argument",
+      "parser": "minecraft:score_holder",
+      "properties": {
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.players.operation.targets.targetObjective.operation.source.sourceObjective",
+      "type": "argument",
+      "parser": "minecraft:objective",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.players.remove",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.players.remove.targets",
+      "type": "argument",
+      "parser": "minecraft:score_holder",
+      "properties": {
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.players.remove.targets.objective",
+      "type": "argument",
+      "parser": "minecraft:objective",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.players.remove.targets.objective.score",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.players.reset",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.players.reset.targets",
+      "type": "argument",
+      "parser": "minecraft:score_holder",
+      "properties": {
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.players.reset.targets.objective",
+      "type": "argument",
+      "parser": "minecraft:objective",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.players.set",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.players.set.targets",
+      "type": "argument",
+      "parser": "minecraft:score_holder",
+      "properties": {
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.players.set.targets.objective",
+      "type": "argument",
+      "parser": "minecraft:objective",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.players.set.targets.objective.score",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.objectives.modify.objective.displayautoupdate",
+      "type": "literal",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.objectives.modify.objective.displayautoupdate.value",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.objectives.modify.objective.numberformat",
+      "type": "literal",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.objectives.modify.objective.numberformat.blank",
+      "type": "literal",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.objectives.modify.objective.numberformat.fixed",
+      "type": "literal",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.objectives.modify.objective.numberformat.fixed.contents",
+      "type": "argument",
+      "parser": "minecraft:component",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.objectives.modify.objective.numberformat.styled",
+      "type": "literal",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.objectives.modify.objective.numberformat.styled.style",
+      "type": "argument",
+      "parser": "minecraft:style",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.players.display",
+      "type": "literal",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.players.display.name",
+      "type": "literal",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.players.display.name.targets",
+      "type": "argument",
+      "parser": "minecraft:score_holder",
+      "properties": {
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.players.display.name.targets.objective",
+      "type": "argument",
+      "parser": "minecraft:objective",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.players.display.name.targets.objective.name",
+      "type": "argument",
+      "parser": "minecraft:component",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.players.display.numberformat",
+      "type": "literal",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.players.display.numberformat.targets",
+      "type": "argument",
+      "parser": "minecraft:score_holder",
+      "properties": {
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.players.display.numberformat.targets.objective",
+      "type": "argument",
+      "parser": "minecraft:objective",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.players.display.numberformat.targets.objective.blank",
+      "type": "literal",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.players.display.numberformat.targets.objective.fixed",
+      "type": "literal",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.players.display.numberformat.targets.objective.fixed.contents",
+      "type": "argument",
+      "parser": "minecraft:component",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.players.display.numberformat.targets.objective.styled",
+      "type": "literal",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "scoreboard.players.display.numberformat.targets.objective.styled.style",
+      "type": "argument",
+      "parser": "minecraft:style",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

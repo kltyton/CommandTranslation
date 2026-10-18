@@ -1,0 +1,1122 @@
+{
+  "en_us": {
+    "command_translation.help.nbt.entity.field.id": "Namespaced ID of the entity type; stored only for entities saved outside the world.",
+    "command_translation.help.nbt.entity.field.Pos": "The entity's position as three doubles X, Y, Z.",
+    "command_translation.help.nbt.entity.field.Motion": "The entity's velocity as three doubles dX, dY, dZ.",
+    "command_translation.help.nbt.entity.field.Rotation": "The entity's yaw and pitch as two floats.",
+    "command_translation.help.nbt.entity.field.Air": "Game ticks of air remaining before the entity starts drowning.",
+    "command_translation.help.nbt.entity.field.Fire": "Game ticks until the entity stops burning; negative values give fire immunity.",
+    "command_translation.help.nbt.entity.field.fall_distance": "Distance the entity has fallen, used to compute fall damage.",
+    "command_translation.help.nbt.entity.field.CustomName": "Custom name text component of the entity.",
+    "command_translation.help.nbt.entity.field.CustomNameVisible": "Whether the entity's custom name is always shown above it.",
+    "command_translation.help.nbt.entity.field.data": "Arbitrary custom NBT data attached to the entity.",
+    "command_translation.help.nbt.entity.field.Glowing": "Whether the entity has a glowing outline.",
+    "command_translation.help.nbt.entity.field.Invulnerable": "Whether the entity is immune to damage.",
+    "command_translation.help.nbt.entity.field.NoGravity": "Whether the entity ignores gravity.",
+    "command_translation.help.nbt.entity.field.OnGround": "Whether the entity is touching the ground.",
+    "command_translation.help.nbt.entity.field.Passengers": "The entities riding this entity, each in the same entity format.",
+    "command_translation.help.nbt.entity.field.PortalCooldown": "Game ticks before the entity can use a portal again.",
+    "command_translation.help.nbt.entity.field.Silent": "Whether the entity makes no sound.",
+    "command_translation.help.nbt.entity.field.Tags": "List of scoreboard tags on the entity.",
+    "command_translation.help.nbt.entity.field.TicksFrozen": "Game ticks the entity has been freezing in powder snow.",
+    "command_translation.help.nbt.entity.field.UUID": "The entity's universally unique identifier, stored as four ints.",
+    "command_translation.help.nbt.entity.field.Health": "The mob's current health.",
+    "command_translation.help.nbt.entity.field.AbsorptionAmount": "Extra health added by the Absorption effect.",
+    "command_translation.help.nbt.entity.field.active_effects": "List of status effects currently on the mob.",
+    "command_translation.help.nbt.entity.field.active_effects.id": "Effect name of the status effect.",
+    "command_translation.help.nbt.entity.field.active_effects.amplifier": "Effect level minus one.",
+    "command_translation.help.nbt.entity.field.active_effects.duration": "Game ticks the effect lasts; -1 means infinite.",
+    "command_translation.help.nbt.entity.field.active_effects.show_particles": "Whether the effect creates particles.",
+    "command_translation.help.nbt.entity.field.active_effects.show_icon": "Whether the effect icon shows on the screen.",
+    "command_translation.help.nbt.entity.field.attributes": "List of attribute values and modifiers of the mob.",
+    "command_translation.help.nbt.entity.field.attributes.id": "Name of the attribute.",
+    "command_translation.help.nbt.entity.field.attributes.base": "Base value of the attribute.",
+    "command_translation.help.nbt.entity.field.attributes.modifiers": "Modifiers applied to the attribute.",
+    "command_translation.help.nbt.entity.field.attributes.modifiers.amount": "Amount the modifier adds to the attribute.",
+    "command_translation.help.nbt.entity.field.attributes.modifiers.id": "Resource location identifying the modifier.",
+    "command_translation.help.nbt.entity.field.attributes.modifiers.operation": "How the modifier applies: add_value, add_multiplied_base or add_multiplied_total.",
+    "command_translation.help.nbt.entity.field.Brain": "Memories used by the mob's AI.",
+    "command_translation.help.nbt.entity.field.CanPickUpLoot": "Whether the mob can pick up loot and equipment.",
+    "command_translation.help.nbt.entity.field.DeathTime": "Game ticks the mob has been dead, controlling its death animation.",
+    "command_translation.help.nbt.entity.field.HurtTime": "Game ticks the mob flashes red after being hit.",
+    "command_translation.help.nbt.entity.field.drop_chances": "Chance per equipment slot that its item is dropped on death.",
+    "command_translation.help.nbt.entity.field.equipment": "Map of equipment slots to the item stacks worn or held.",
+    "command_translation.help.nbt.entity.field.leash": "Where the entity's leash connects: a fence post position or an entity UUID.",
+    "command_translation.help.nbt.entity.field.LeftHanded": "Whether the mob renders its main hand on the left.",
+    "command_translation.help.nbt.entity.field.NoAI": "Whether the mob's AI is disabled.",
+    "command_translation.help.nbt.entity.field.PersistenceRequired": "Whether the mob never despawns naturally.",
+    "command_translation.help.nbt.entity.minecraft:item.field.Age": "Game ticks the dropped item has existed before it despawns; -32768 prevents aging.",
+    "command_translation.help.nbt.entity.minecraft:item.field.Item": "The item stack carried by the item entity.",
+    "command_translation.help.nbt.entity.minecraft:item.field.Item.id": "Resource location of the carried item.",
+    "command_translation.help.nbt.entity.minecraft:item.field.Item.count": "Number of items in the carried stack.",
+    "command_translation.help.nbt.entity.minecraft:item.field.Item.components": "Data components of the carried item.",
+    "command_translation.help.nbt.entity.minecraft:item.field.Owner": "UUID of the only player allowed to pick up the item.",
+    "command_translation.help.nbt.entity.minecraft:item.field.PickupDelay": "Game ticks before the item can be picked up.",
+    "command_translation.help.nbt.entity.minecraft:item.field.Thrower": "UUID of the entity that dropped the item.",
+    "command_translation.help.nbt.block_entity.field.id": "Namespaced ID of the block entity type.",
+    "command_translation.help.nbt.block_entity.field.x": "X coordinate of the block entity.",
+    "command_translation.help.nbt.block_entity.field.y": "Y coordinate of the block entity.",
+    "command_translation.help.nbt.block_entity.field.z": "Z coordinate of the block entity.",
+    "command_translation.help.nbt.block_entity.field.Items": "List of item stacks stored in the container.",
+    "command_translation.help.nbt.block_entity.field.Items.Slot": "Slot number the stack occupies in the container.",
+    "command_translation.help.nbt.block_entity.field.Items.id": "Resource location of the stored item.",
+    "command_translation.help.nbt.block_entity.field.Items.count": "Number of items in the stored stack.",
+    "command_translation.help.nbt.block_entity.field.CustomName": "Custom name text component of the container.",
+    "command_translation.help.nbt.block_entity.field.Lock": "Lock string that an item's name must match to open the container.",
+    "command_translation.help.nbt.block_entity.field.LootTable": "Loot table used to fill the container.",
+    "command_translation.help.nbt.block_entity.field.LootTableSeed": "Seed used to generate the container's loot.",
+    "command_translation.help.nbt.block_entity.field.Command": "Command entered in the command block.",
+    "command_translation.help.nbt.block_entity.field.SuccessCount": "The number of successful executions of the last command.",
+    "command_translation.help.nbt.block_entity.field.LastOutput": "Last output line of the command block.",
+    "command_translation.help.nbt.block_entity.field.TrackOutput": "Whether the command block stores its last output.",
+    "command_translation.help.nbt.block_entity.field.auto": "Whether the command block runs automatically.",
+    "command_translation.help.nbt.block_entity.field.powered": "Whether the command block is currently powered.",
+    "command_translation.help.nbt.block_entity.field.conditionMet": "Whether the command block's condition was met.",
+    "command_translation.help.nbt.block_entity.field.UpdateLastExecution": "Whether the command block updates its last execution time.",
+    "command_translation.help.nbt.block_entity.field.LastExecution": "Game tick when the command block last ran.",
+    "command_translation.help.nbt.item.field.display": "Compound holding the item's display data.",
+    "command_translation.help.nbt.item.field.display.Name": "Custom name of the item, as a JSON text component.",
+    "command_translation.help.nbt.item.field.display.Lore": "List of lore lines shown under the item name.",
+    "command_translation.help.nbt.item.field.display.color": "The RGB dye color of leather armor.",
+    "command_translation.help.nbt.item.field.Enchantments": "List of enchantments on the item.",
+    "command_translation.help.nbt.item.field.Enchantments.id": "Name of the enchantment.",
+    "command_translation.help.nbt.item.field.Enchantments.lvl": "Level of the enchantment.",
+    "command_translation.help.nbt.item.field.Damage": "Number of durability uses already consumed by the item.",
+    "command_translation.help.nbt.item.field.Unbreakable": "Whether the item never loses durability when used.",
+    "command_translation.help.nbt.item.field.HideFlags": "Bit field hiding parts of the item's tooltip.",
+    "command_translation.help.nbt.item.field.AttributeModifiers": "List of attribute modifiers the item applies when held or worn.",
+    "command_translation.help.nbt.item.field.AttributeModifiers.AttributeName": "Name of the attribute the modifier changes.",
+    "command_translation.help.nbt.item.field.AttributeModifiers.Name": "The modifier name; it does not change the attribute calculation.",
+    "command_translation.help.nbt.item.field.AttributeModifiers.Amount": "Amount the modifier adds.",
+    "command_translation.help.nbt.item.field.AttributeModifiers.Operation": "How the modifier applies: 0 add, 1 multiply base, 2 multiply total.",
+    "command_translation.help.nbt.item.field.AttributeModifiers.UUID": "Unique ID of the modifier.",
+    "command_translation.help.nbt.item.field.AttributeModifiers.Slot": "Equipment slot the modifier applies in.",
+    "command_translation.help.nbt.item.field.CanDestroy": "Blocks the item can break in adventure mode.",
+    "command_translation.help.nbt.item.field.CanPlaceOn": "Blocks the item can be placed on in adventure mode.",
+    "command_translation.help.nbt.item.field.CustomModelData": "Integer used by resource packs to select an item model.",
+    "command_translation.help.nbt.item.field.RepairCost": "Experience levels added to the item's anvil repair cost.",
+    "command_translation.help.nbt.item.field.StoredEnchantments": "Enchantments stored in an enchanted book.",
+    "command_translation.help.nbt.item.field.BlockEntityTag": "Block entity data applied to the block when this item is placed.",
+    "command_translation.help.nbt.block_entity.field.Items.Count": "Number of items in the stored stack.",
+    "command_translation.help.nbt.entity.field.FallDistance": "Distance the entity has fallen, used to compute fall damage.",
+    "command_translation.help.nbt.entity.field.ActiveEffects": "List of status effects currently on the mob.",
+    "command_translation.help.nbt.entity.field.ActiveEffects.Amplifier": "Effect level minus one.",
+    "command_translation.help.nbt.entity.field.ActiveEffects.Duration": "Game ticks the effect lasts; -1 means infinite.",
+    "command_translation.help.nbt.entity.field.ActiveEffects.ShowParticles": "Whether the effect creates particles.",
+    "command_translation.help.nbt.entity.field.ActiveEffects.ShowIcon": "Whether the effect icon shows on the screen.",
+    "command_translation.help.nbt.entity.field.Attributes": "List of attribute values and modifiers of the mob.",
+    "command_translation.help.nbt.entity.field.Attributes.Name": "Name of the attribute.",
+    "command_translation.help.nbt.entity.field.Attributes.Base": "Base value of the attribute.",
+    "command_translation.help.nbt.entity.field.Attributes.Modifiers": "Modifiers applied to the attribute.",
+    "command_translation.help.nbt.entity.field.Attributes.Modifiers.Amount": "Amount the modifier adds to the attribute.",
+    "command_translation.help.nbt.entity.field.ActiveEffects.Id": "The numeric ID of the status effect.",
+    "command_translation.help.nbt.entity.field.Attributes.Modifiers.Operation": "How the modifier applies: 0 add, 1 multiply base, 2 multiply total."
+  },
+  "zh_cn": {
+    "command_translation.help.nbt.entity.field.id": "实体类型的命名空间 ID；仅在实体被存于世界之外时保存。",
+    "command_translation.help.nbt.entity.field.Pos": "实体位置，由 X、Y、Z 三个双精度数组成。",
+    "command_translation.help.nbt.entity.field.Motion": "实体速度，由 dX、dY、dZ 三个双精度数组成。",
+    "command_translation.help.nbt.entity.field.Rotation": "实体的偏航角与俯仰角，由两个浮点数组成。",
+    "command_translation.help.nbt.entity.field.Air": "实体开始溺水前剩余的空气刻数。",
+    "command_translation.help.nbt.entity.field.Fire": "实体熄灭前剩余的燃烧刻数；负值代表防火时间。",
+    "command_translation.help.nbt.entity.field.fall_distance": "实体下落距离，用于计算摔落伤害。",
+    "command_translation.help.nbt.entity.field.CustomName": "实体的自定义名称文本组件。",
+    "command_translation.help.nbt.entity.field.CustomNameVisible": "实体的自定义名称是否始终显示在其上方。",
+    "command_translation.help.nbt.entity.field.data": "附加到实体的任意自定义 NBT 数据。",
+    "command_translation.help.nbt.entity.field.Glowing": "实体是否带有发光轮廓。",
+    "command_translation.help.nbt.entity.field.Invulnerable": "实体是否免疫伤害。",
+    "command_translation.help.nbt.entity.field.NoGravity": "实体是否忽略重力。",
+    "command_translation.help.nbt.entity.field.OnGround": "实体是否接触地面。",
+    "command_translation.help.nbt.entity.field.Passengers": "骑乘该实体的实体列表，每项格式相同。",
+    "command_translation.help.nbt.entity.field.PortalCooldown": "实体再次使用传送门前需等待的刻数。",
+    "command_translation.help.nbt.entity.field.Silent": "实体是否不发出声音。",
+    "command_translation.help.nbt.entity.field.Tags": "实体身上的计分板标签列表。",
+    "command_translation.help.nbt.entity.field.TicksFrozen": "实体在细雪中被冻结的刻数。",
+    "command_translation.help.nbt.entity.field.UUID": "实体的唯一标识符，保存为四个整数。",
+    "command_translation.help.nbt.entity.field.Health": "生物当前的生命值。",
+    "command_translation.help.nbt.entity.field.AbsorptionAmount": "吸收效果提供的额外生命值。",
+    "command_translation.help.nbt.entity.field.active_effects": "生物当前身上的状态效果列表。",
+    "command_translation.help.nbt.entity.field.active_effects.id": "状态效果的效果名称。",
+    "command_translation.help.nbt.entity.field.active_effects.amplifier": "效果等级减一。",
+    "command_translation.help.nbt.entity.field.active_effects.duration": "效果持续的刻数；-1 表示无限。",
+    "command_translation.help.nbt.entity.field.active_effects.show_particles": "该效果是否产生粒子。",
+    "command_translation.help.nbt.entity.field.active_effects.show_icon": "该效果图标是否显示在屏幕上。",
+    "command_translation.help.nbt.entity.field.attributes": "生物的属性数值与修饰符列表。",
+    "command_translation.help.nbt.entity.field.attributes.id": "属性的名称。",
+    "command_translation.help.nbt.entity.field.attributes.base": "属性的基础值。",
+    "command_translation.help.nbt.entity.field.attributes.modifiers": "作用于该属性的修饰符。",
+    "command_translation.help.nbt.entity.field.attributes.modifiers.amount": "修饰符为属性增加的量。",
+    "command_translation.help.nbt.entity.field.attributes.modifiers.id": "标识该修饰符的资源位置。",
+    "command_translation.help.nbt.entity.field.attributes.modifiers.operation": "修饰符的作用方式：add_value、add_multiplied_base 或 add_multiplied_total。",
+    "command_translation.help.nbt.entity.field.Brain": "生物 AI 使用的记忆。",
+    "command_translation.help.nbt.entity.field.CanPickUpLoot": "生物是否能拾取战利品与装备。",
+    "command_translation.help.nbt.entity.field.DeathTime": "生物已死亡的刻数，控制死亡动画。",
+    "command_translation.help.nbt.entity.field.HurtTime": "生物受击后闪红的刻数。",
+    "command_translation.help.nbt.entity.field.drop_chances": "每个装备槽位在死亡时掉落物品的概率。",
+    "command_translation.help.nbt.entity.field.equipment": "装备槽位到所穿戴或手持物品的映射。",
+    "command_translation.help.nbt.entity.field.leash": "拴绳连接处：栅栏柱坐标或实体的 UUID。",
+    "command_translation.help.nbt.entity.field.LeftHanded": "生物是否把主手渲染在左侧。",
+    "command_translation.help.nbt.entity.field.NoAI": "是否禁用生物的 AI。",
+    "command_translation.help.nbt.entity.field.PersistenceRequired": "生物是否永不自然消失。",
+    "command_translation.help.nbt.entity.minecraft:item.field.Age": "掉落物在消失前已存在于世界的刻数；-32768 表示不再增长年龄。",
+    "command_translation.help.nbt.entity.minecraft:item.field.Item": "掉落物实体所携带的物品堆叠。",
+    "command_translation.help.nbt.entity.minecraft:item.field.Item.id": "所携带物品的资源位置。",
+    "command_translation.help.nbt.entity.minecraft:item.field.Item.count": "所携带堆叠中的物品数量。",
+    "command_translation.help.nbt.entity.minecraft:item.field.Item.components": "所携带物品的数据组件。",
+    "command_translation.help.nbt.entity.minecraft:item.field.Owner": "唯一可以拾取该物品的玩家的 UUID。",
+    "command_translation.help.nbt.entity.minecraft:item.field.PickupDelay": "该物品可被拾取前的刻数。",
+    "command_translation.help.nbt.entity.minecraft:item.field.Thrower": "丢弃该物品的实体的 UUID。",
+    "command_translation.help.nbt.block_entity.field.id": "方块实体类型的命名空间 ID。",
+    "command_translation.help.nbt.block_entity.field.x": "方块实体的 X 坐标。",
+    "command_translation.help.nbt.block_entity.field.y": "方块实体的 Y 坐标。",
+    "command_translation.help.nbt.block_entity.field.z": "方块实体的 Z 坐标。",
+    "command_translation.help.nbt.block_entity.field.Items": "容器中存储的物品堆叠列表。",
+    "command_translation.help.nbt.block_entity.field.Items.Slot": "该堆叠在容器中占用的槽位编号。",
+    "command_translation.help.nbt.block_entity.field.Items.id": "所存物品的资源位置。",
+    "command_translation.help.nbt.block_entity.field.Items.count": "所存堆叠中的物品数量。",
+    "command_translation.help.nbt.block_entity.field.CustomName": "容器的自定义名称文本组件。",
+    "command_translation.help.nbt.block_entity.field.Lock": "锁定字符串，需用同名物品才能打开该容器。",
+    "command_translation.help.nbt.block_entity.field.LootTable": "用于填充容器的战利品表。",
+    "command_translation.help.nbt.block_entity.field.LootTableSeed": "生成容器战利品所用的种子。",
+    "command_translation.help.nbt.block_entity.field.Command": "命令方块中输入的指令。",
+    "command_translation.help.nbt.block_entity.field.SuccessCount": "上一条指令成功执行的次数。",
+    "command_translation.help.nbt.block_entity.field.LastOutput": "命令方块上一次的输出内容。",
+    "command_translation.help.nbt.block_entity.field.TrackOutput": "命令方块是否保存上一次输出。",
+    "command_translation.help.nbt.block_entity.field.auto": "命令方块是否自动运行。",
+    "command_translation.help.nbt.block_entity.field.powered": "命令方块当前是否被激活。",
+    "command_translation.help.nbt.block_entity.field.conditionMet": "命令方块的条件是否满足。",
+    "command_translation.help.nbt.block_entity.field.UpdateLastExecution": "命令方块是否更新上次执行时间。",
+    "command_translation.help.nbt.block_entity.field.LastExecution": "命令方块上次运行的刻数。",
+    "command_translation.help.nbt.item.field.display": "保存物品显示数据的复合标签。",
+    "command_translation.help.nbt.item.field.display.Name": "物品的自定义名称，JSON 文本组件。",
+    "command_translation.help.nbt.item.field.display.Lore": "显示在物品名称下方的描述行列表。",
+    "command_translation.help.nbt.item.field.display.color": "皮革护甲的 RGB 染色颜色。",
+    "command_translation.help.nbt.item.field.Enchantments": "物品上的附魔列表。",
+    "command_translation.help.nbt.item.field.Enchantments.id": "附魔的名称。",
+    "command_translation.help.nbt.item.field.Enchantments.lvl": "附魔的等级。",
+    "command_translation.help.nbt.item.field.Damage": "物品已消耗的耐久使用次数。",
+    "command_translation.help.nbt.item.field.Unbreakable": "物品使用时是否永不损耗耐久。",
+    "command_translation.help.nbt.item.field.HideFlags": "隐藏物品提示框各部分的位域。",
+    "command_translation.help.nbt.item.field.AttributeModifiers": "物品被持有或穿戴时生效的属性修饰符列表。",
+    "command_translation.help.nbt.item.field.AttributeModifiers.AttributeName": "修饰符所改变的属性名称。",
+    "command_translation.help.nbt.item.field.AttributeModifiers.Name": "修饰符的名称，不影响属性数值运算。",
+    "command_translation.help.nbt.item.field.AttributeModifiers.Amount": "修饰符增加的量。",
+    "command_translation.help.nbt.item.field.AttributeModifiers.Operation": "修饰符的作用方式：0 相加、1 乘基础、2 乘总计。",
+    "command_translation.help.nbt.item.field.AttributeModifiers.UUID": "修饰符的唯一 ID。",
+    "command_translation.help.nbt.item.field.AttributeModifiers.Slot": "修饰符生效的装备槽位。",
+    "command_translation.help.nbt.item.field.CanDestroy": "冒险模式下物品可以破坏的方块。",
+    "command_translation.help.nbt.item.field.CanPlaceOn": "冒险模式下物品可以放置其上的方块。",
+    "command_translation.help.nbt.item.field.CustomModelData": "资源包用于选择物品模型的整数值。",
+    "command_translation.help.nbt.item.field.RepairCost": "加到物品铁砧修复费用上的经验等级。",
+    "command_translation.help.nbt.item.field.StoredEnchantments": "附魔书中存储的附魔。",
+    "command_translation.help.nbt.item.field.BlockEntityTag": "放置该物品时应用到方块的方块实体数据。",
+    "command_translation.help.nbt.block_entity.field.Items.Count": "所存堆叠中的物品数量。",
+    "command_translation.help.nbt.entity.field.FallDistance": "实体下落距离，用于计算摔落伤害。",
+    "command_translation.help.nbt.entity.field.ActiveEffects": "生物当前身上的状态效果列表。",
+    "command_translation.help.nbt.entity.field.ActiveEffects.Amplifier": "效果等级减一。",
+    "command_translation.help.nbt.entity.field.ActiveEffects.Duration": "效果持续的刻数；-1 表示无限。",
+    "command_translation.help.nbt.entity.field.ActiveEffects.ShowParticles": "该效果是否产生粒子。",
+    "command_translation.help.nbt.entity.field.ActiveEffects.ShowIcon": "该效果图标是否显示在屏幕上。",
+    "command_translation.help.nbt.entity.field.Attributes": "生物的属性数值与修饰符列表。",
+    "command_translation.help.nbt.entity.field.Attributes.Name": "属性的名称。",
+    "command_translation.help.nbt.entity.field.Attributes.Base": "属性的基础值。",
+    "command_translation.help.nbt.entity.field.Attributes.Modifiers": "作用于该属性的修饰符。",
+    "command_translation.help.nbt.entity.field.Attributes.Modifiers.Amount": "修饰符为属性增加的量。",
+    "command_translation.help.nbt.entity.field.ActiveEffects.Id": "状态效果的内部编号。",
+    "command_translation.help.nbt.entity.field.Attributes.Modifiers.Operation": "修饰符的作用方式：0 相加、1 乘基础、2 乘总计。"
+  },
+  "de_de": {
+    "command_translation.help.nbt.entity.field.id": "Namensraum-ID des Entity-Typs; nur für außerhalb der Welt gespeicherte Entities gespeichert.",
+    "command_translation.help.nbt.entity.field.Pos": "Position der Entity als drei Doubles X, Y, Z.",
+    "command_translation.help.nbt.entity.field.Motion": "Geschwindigkeit der Entity als drei Doubles dX, dY, dZ.",
+    "command_translation.help.nbt.entity.field.Rotation": "Gier- und Neigungswinkel der Entity als zwei Floats.",
+    "command_translation.help.nbt.entity.field.Air": "Spielticks Luft, bevor die Entity zu ertrinken beginnt.",
+    "command_translation.help.nbt.entity.field.Fire": "Spielticks, bis die Entity aufhört zu brennen; negative Werte geben Feuerimmunität.",
+    "command_translation.help.nbt.entity.field.fall_distance": "Fallhöhe der Entity, aus der der Fallschaden berechnet wird.",
+    "command_translation.help.nbt.entity.field.CustomName": "Benutzerdefinierte Namens-Textkomponente der Entity.",
+    "command_translation.help.nbt.entity.field.CustomNameVisible": "Ob der benutzerdefinierte Name immer über der Entity angezeigt wird.",
+    "command_translation.help.nbt.entity.field.data": "Beliebige benutzerdefinierte NBT-Daten der Entity.",
+    "command_translation.help.nbt.entity.field.Glowing": "Ob die Entity einen leuchtenden Umriss hat.",
+    "command_translation.help.nbt.entity.field.Invulnerable": "Ob die Entity immun gegen Schaden ist.",
+    "command_translation.help.nbt.entity.field.NoGravity": "Ob die Entity die Schwerkraft ignoriert.",
+    "command_translation.help.nbt.entity.field.OnGround": "Ob die Entity den Boden berührt.",
+    "command_translation.help.nbt.entity.field.Passengers": "Die auf dieser Entity reitenden Entities, jede im selben Format.",
+    "command_translation.help.nbt.entity.field.PortalCooldown": "Spielticks, bevor die Entity erneut ein Portal nutzen kann.",
+    "command_translation.help.nbt.entity.field.Silent": "Ob die Entity keine Geräusche macht.",
+    "command_translation.help.nbt.entity.field.Tags": "Liste der Scoreboard-Tags der Entity.",
+    "command_translation.help.nbt.entity.field.TicksFrozen": "Spielticks, die die Entity im Pulverschnee gefroren ist.",
+    "command_translation.help.nbt.entity.field.UUID": "Die eindeutige Kennung der Entity, gespeichert als vier Ints.",
+    "command_translation.help.nbt.entity.field.Health": "Aktuelle Gesundheit des Mobs.",
+    "command_translation.help.nbt.entity.field.AbsorptionAmount": "Zusätzliche Gesundheit durch den Absorptionseffekt.",
+    "command_translation.help.nbt.entity.field.active_effects": "Liste der aktuell auf dem Mob wirkenden Statuseffekte.",
+    "command_translation.help.nbt.entity.field.active_effects.id": "Effektname des Statuseffekts.",
+    "command_translation.help.nbt.entity.field.active_effects.amplifier": "Effektstufe minus eins.",
+    "command_translation.help.nbt.entity.field.active_effects.duration": "Spielticks, die der Effekt hält; -1 bedeutet unendlich.",
+    "command_translation.help.nbt.entity.field.active_effects.show_particles": "Ob der Effekt Partikel erzeugt.",
+    "command_translation.help.nbt.entity.field.active_effects.show_icon": "Ob das Effektsymbol auf dem Bildschirm erscheint.",
+    "command_translation.help.nbt.entity.field.attributes": "Liste der Attributwerte und Modifikatoren des Mobs.",
+    "command_translation.help.nbt.entity.field.attributes.id": "Name des Attributs.",
+    "command_translation.help.nbt.entity.field.attributes.base": "Grundwert des Attributs.",
+    "command_translation.help.nbt.entity.field.attributes.modifiers": "Modifikatoren, die auf das Attribut wirken.",
+    "command_translation.help.nbt.entity.field.attributes.modifiers.amount": "Betrag, den der Modifikator zum Attribut addiert.",
+    "command_translation.help.nbt.entity.field.attributes.modifiers.id": "Ressourcenpfad zur Kennzeichnung des Modifikators.",
+    "command_translation.help.nbt.entity.field.attributes.modifiers.operation": "Wirkungsweise des Modifikators: add_value, add_multiplied_base oder add_multiplied_total.",
+    "command_translation.help.nbt.entity.field.Brain": "Gedächtnisinhalte der Mob-KI.",
+    "command_translation.help.nbt.entity.field.CanPickUpLoot": "Ob der Mob Beute und Ausrüstung aufnehmen kann.",
+    "command_translation.help.nbt.entity.field.DeathTime": "Spielticks, die der Mob tot ist, steuert die Todesanimation.",
+    "command_translation.help.nbt.entity.field.HurtTime": "Spielticks, die der Mob nach einem Treffer rot blinkt.",
+    "command_translation.help.nbt.entity.field.drop_chances": "Chance je Ausrüstungsslot, dass der Gegenstand beim Tod fallen gelassen wird.",
+    "command_translation.help.nbt.entity.field.equipment": "Zuordnung der Ausrüstungsslots zu den getragenen Gegenstandsstapeln.",
+    "command_translation.help.nbt.entity.field.leash": "Woran die Leine hängt: Position eines Zaunpfahls oder UUID einer Entity.",
+    "command_translation.help.nbt.entity.field.LeftHanded": "Ob der Mob seine Haupthand links darstellt.",
+    "command_translation.help.nbt.entity.field.NoAI": "Ob die KI des Mobs deaktiviert ist.",
+    "command_translation.help.nbt.entity.field.PersistenceRequired": "Ob der Mob nie natürlich verschwindet.",
+    "command_translation.help.nbt.entity.minecraft:item.field.Age": "Spielticks, die das gefallene Item bereits in der Welt ist; -32768 verhindert das Altern.",
+    "command_translation.help.nbt.entity.minecraft:item.field.Item": "Der vom Item-Entity getragene Gegenstandsstapel.",
+    "command_translation.help.nbt.entity.minecraft:item.field.Item.id": "Ressourcenpfad des getragenen Gegenstands.",
+    "command_translation.help.nbt.entity.minecraft:item.field.Item.count": "Anzahl der Gegenstände im getragenen Stapel.",
+    "command_translation.help.nbt.entity.minecraft:item.field.Item.components": "Datenkomponenten des getragenen Gegenstands.",
+    "command_translation.help.nbt.entity.minecraft:item.field.Owner": "UUID des einzigen Spielers, der den Gegenstand aufnehmen darf.",
+    "command_translation.help.nbt.entity.minecraft:item.field.PickupDelay": "Spielticks, bevor der Gegenstand aufgenommen werden kann.",
+    "command_translation.help.nbt.entity.minecraft:item.field.Thrower": "UUID der Entity, die den Gegenstand fallen gelassen hat.",
+    "command_translation.help.nbt.block_entity.field.id": "Namensraum-ID des Blockentity-Typs.",
+    "command_translation.help.nbt.block_entity.field.x": "X-Koordinate der Blockentity.",
+    "command_translation.help.nbt.block_entity.field.y": "Y-Koordinate der Blockentity.",
+    "command_translation.help.nbt.block_entity.field.z": "Z-Koordinate der Blockentity.",
+    "command_translation.help.nbt.block_entity.field.Items": "Liste der im Behälter gespeicherten Gegenstandsstapel.",
+    "command_translation.help.nbt.block_entity.field.Items.Slot": "Slotnummer, die der Stapel im Behälter belegt.",
+    "command_translation.help.nbt.block_entity.field.Items.id": "Ressourcenpfad des gespeicherten Gegenstands.",
+    "command_translation.help.nbt.block_entity.field.Items.count": "Anzahl der Gegenstände im gespeicherten Stapel.",
+    "command_translation.help.nbt.block_entity.field.CustomName": "Benutzerdefinierte Namens-Textkomponente des Behälters.",
+    "command_translation.help.nbt.block_entity.field.Lock": "Sperrstring, den der Name eines Gegenstands erfüllen muss, um den Behälter zu öffnen.",
+    "command_translation.help.nbt.block_entity.field.LootTable": "Loottabelle, mit der der Behälter gefüllt wird.",
+    "command_translation.help.nbt.block_entity.field.LootTableSeed": "Seed zur Erzeugung des Behälter-Loots.",
+    "command_translation.help.nbt.block_entity.field.Command": "Im Befehlsblock eingegebener Befehl.",
+    "command_translation.help.nbt.block_entity.field.SuccessCount": "Die Anzahl erfolgreicher Ausführungen des letzten Befehls.",
+    "command_translation.help.nbt.block_entity.field.LastOutput": "Letzte Ausgabezeile des Befehlsblocks.",
+    "command_translation.help.nbt.block_entity.field.TrackOutput": "Ob der Befehlsblock seine letzte Ausgabe speichert.",
+    "command_translation.help.nbt.block_entity.field.auto": "Ob der Befehlsblock automatisch ausgeführt wird.",
+    "command_translation.help.nbt.block_entity.field.powered": "Ob der Befehlsblock derzeit aktiviert ist.",
+    "command_translation.help.nbt.block_entity.field.conditionMet": "Ob die Bedingung des Befehlsblocks erfüllt wurde.",
+    "command_translation.help.nbt.block_entity.field.UpdateLastExecution": "Ob der Befehlsblock seinen letzten Ausführungszeitpunkt aktualisiert.",
+    "command_translation.help.nbt.block_entity.field.LastExecution": "Spieltick, an dem der Befehlsblock zuletzt lief.",
+    "command_translation.help.nbt.item.field.display": "Compound mit den Anzeigedaten des Gegenstands.",
+    "command_translation.help.nbt.item.field.display.Name": "Benutzerdefinierter Name des Gegenstands als JSON-Textkomponente.",
+    "command_translation.help.nbt.item.field.display.Lore": "Liste der Beschreibungszeilen unter dem Gegenstandsnamen.",
+    "command_translation.help.nbt.item.field.display.color": "Die RGB-Färbung der Lederrüstung.",
+    "command_translation.help.nbt.item.field.Enchantments": "Liste der Verzauberungen auf dem Gegenstand.",
+    "command_translation.help.nbt.item.field.Enchantments.id": "Name der Verzauberung.",
+    "command_translation.help.nbt.item.field.Enchantments.lvl": "Stufe der Verzauberung.",
+    "command_translation.help.nbt.item.field.Damage": "Anzahl bereits verbrauchter Haltbarkeitsnutzungen des Gegenstands.",
+    "command_translation.help.nbt.item.field.Unbreakable": "Ob der Gegenstand bei Nutzung nie Haltbarkeit verliert.",
+    "command_translation.help.nbt.item.field.HideFlags": "Bitfeld, das Teile des Gegenstands-Tooltips ausblendet.",
+    "command_translation.help.nbt.item.field.AttributeModifiers": "Liste der Attributmodifikatoren, die der Gegenstand beim Tragen bewirkt.",
+    "command_translation.help.nbt.item.field.AttributeModifiers.AttributeName": "Name des Attributs, das der Modifikator ändert.",
+    "command_translation.help.nbt.item.field.AttributeModifiers.Name": "Der Modifikatorname; er ändert die Attributberechnung nicht.",
+    "command_translation.help.nbt.item.field.AttributeModifiers.Amount": "Betrag, den der Modifikator addiert.",
+    "command_translation.help.nbt.item.field.AttributeModifiers.Operation": "Wirkungsweise: 0 addieren, 1 Basis multiplizieren, 2 Gesamt multiplizieren.",
+    "command_translation.help.nbt.item.field.AttributeModifiers.UUID": "Eindeutige ID des Modifikators.",
+    "command_translation.help.nbt.item.field.AttributeModifiers.Slot": "Ausrüstungsslot, in dem der Modifikator wirkt.",
+    "command_translation.help.nbt.item.field.CanDestroy": "Blöcke, die der Gegenstand im Abenteuermodus abbauen kann.",
+    "command_translation.help.nbt.item.field.CanPlaceOn": "Blöcke, auf die der Gegenstand im Abenteuermodus gesetzt werden kann.",
+    "command_translation.help.nbt.item.field.CustomModelData": "Ganzzahl, mit der Ressourcenpakete ein Itemmodell auswählen.",
+    "command_translation.help.nbt.item.field.RepairCost": "Erfahrungsstufen, die zu den Amboss-Reparaturkosten hinzukommen.",
+    "command_translation.help.nbt.item.field.StoredEnchantments": "Im verzauberten Buch gespeicherte Verzauberungen.",
+    "command_translation.help.nbt.item.field.BlockEntityTag": "Blockentity-Daten, die beim Platzieren auf den Block angewendet werden.",
+    "command_translation.help.nbt.block_entity.field.Items.Count": "Anzahl der Gegenstände im gespeicherten Stapel.",
+    "command_translation.help.nbt.entity.field.FallDistance": "Fallhöhe der Entity, aus der der Fallschaden berechnet wird.",
+    "command_translation.help.nbt.entity.field.ActiveEffects": "Liste der aktuell auf dem Mob wirkenden Statuseffekte.",
+    "command_translation.help.nbt.entity.field.ActiveEffects.Amplifier": "Effektstufe minus eins.",
+    "command_translation.help.nbt.entity.field.ActiveEffects.Duration": "Spielticks, die der Effekt hält; -1 bedeutet unendlich.",
+    "command_translation.help.nbt.entity.field.ActiveEffects.ShowParticles": "Ob der Effekt Partikel erzeugt.",
+    "command_translation.help.nbt.entity.field.ActiveEffects.ShowIcon": "Ob das Effektsymbol auf dem Bildschirm erscheint.",
+    "command_translation.help.nbt.entity.field.Attributes": "Liste der Attributwerte und Modifikatoren des Mobs.",
+    "command_translation.help.nbt.entity.field.Attributes.Name": "Name des Attributs.",
+    "command_translation.help.nbt.entity.field.Attributes.Base": "Grundwert des Attributs.",
+    "command_translation.help.nbt.entity.field.Attributes.Modifiers": "Modifikatoren, die auf das Attribut wirken.",
+    "command_translation.help.nbt.entity.field.Attributes.Modifiers.Amount": "Betrag, den der Modifikator zum Attribut addiert.",
+    "command_translation.help.nbt.entity.field.ActiveEffects.Id": "Die numerische ID des Statuseffekts.",
+    "command_translation.help.nbt.entity.field.Attributes.Modifiers.Operation": "Wirkungsweise: 0 addieren, 1 Basis multiplizieren, 2 Gesamt multiplizieren."
+  },
+  "ja_jp": {
+    "command_translation.help.nbt.entity.field.id": "エンティティタイプの名前空間 ID。ワールド外に保存されたエンティティにのみ保存される。",
+    "command_translation.help.nbt.entity.field.Pos": "エンティティの位置。X、Y、Z の3つの double。",
+    "command_translation.help.nbt.entity.field.Motion": "エンティティの速度。dX、dY、dZ の3つの double。",
+    "command_translation.help.nbt.entity.field.Rotation": "エンティティの yaw と pitch。2つの float。",
+    "command_translation.help.nbt.entity.field.Air": "エンティティが溺れ始めるまでの残り空気ティック。",
+    "command_translation.help.nbt.entity.field.Fire": "エンティティが燃え尽きるまでのティック。負の値は防火時間。",
+    "command_translation.help.nbt.entity.field.fall_distance": "エンティティの落下距離。落下ダメージの計算に使う。",
+    "command_translation.help.nbt.entity.field.CustomName": "エンティティのカスタム名テキストコンポーネント。",
+    "command_translation.help.nbt.entity.field.CustomNameVisible": "カスタム名を常にエンティティの上に表示するか。",
+    "command_translation.help.nbt.entity.field.data": "エンティティに付与された任意のカスタム NBT データ。",
+    "command_translation.help.nbt.entity.field.Glowing": "エンティティが発光する輪郭を持つか。",
+    "command_translation.help.nbt.entity.field.Invulnerable": "エンティティがダメージを無効化するか。",
+    "command_translation.help.nbt.entity.field.NoGravity": "エンティティが重力を無視するか。",
+    "command_translation.help.nbt.entity.field.OnGround": "エンティティが地面に接しているか。",
+    "command_translation.help.nbt.entity.field.Passengers": "このエンティティに乗っているエンティティ一覧。各要素は同じ形式。",
+    "command_translation.help.nbt.entity.field.PortalCooldown": "エンティティが再びポータルを使えるようになるまでのティック。",
+    "command_translation.help.nbt.entity.field.Silent": "エンティティが音を出さないか。",
+    "command_translation.help.nbt.entity.field.Tags": "エンティティに付いたスコアボードタグの一覧。",
+    "command_translation.help.nbt.entity.field.TicksFrozen": "エンティティが粉雪で凍結しているティック数。",
+    "command_translation.help.nbt.entity.field.UUID": "エンティティの一意な ID。4つの int で保存される。",
+    "command_translation.help.nbt.entity.field.Health": "モブの現在の体力。",
+    "command_translation.help.nbt.entity.field.AbsorptionAmount": "吸収効果による追加の体力。",
+    "command_translation.help.nbt.entity.field.active_effects": "モブに現在かかっているステータス効果の一覧。",
+    "command_translation.help.nbt.entity.field.active_effects.id": "ステータス効果の効果名。",
+    "command_translation.help.nbt.entity.field.active_effects.amplifier": "効果レベルから1を引いた値。",
+    "command_translation.help.nbt.entity.field.active_effects.duration": "効果が続くティック。-1 は無限。",
+    "command_translation.help.nbt.entity.field.active_effects.show_particles": "効果がパーティクルを出すか。",
+    "command_translation.help.nbt.entity.field.active_effects.show_icon": "効果アイコンを画面に表示するか。",
+    "command_translation.help.nbt.entity.field.attributes": "モブの属性値と修飾子の一覧。",
+    "command_translation.help.nbt.entity.field.attributes.id": "属性の名前。",
+    "command_translation.help.nbt.entity.field.attributes.base": "属性の基本値。",
+    "command_translation.help.nbt.entity.field.attributes.modifiers": "属性に作用する修飾子。",
+    "command_translation.help.nbt.entity.field.attributes.modifiers.amount": "修飾子が属性に加える量。",
+    "command_translation.help.nbt.entity.field.attributes.modifiers.id": "修飾子を識別するリソース位置。",
+    "command_translation.help.nbt.entity.field.attributes.modifiers.operation": "修飾子の適用方法: add_value、add_multiplied_base、add_multiplied_total。",
+    "command_translation.help.nbt.entity.field.Brain": "モブの AI が使う記憶。",
+    "command_translation.help.nbt.entity.field.CanPickUpLoot": "モブが戦利品や装備を拾えるか。",
+    "command_translation.help.nbt.entity.field.DeathTime": "モブが死んでからのティック。死亡アニメーションを制御する。",
+    "command_translation.help.nbt.entity.field.HurtTime": "モブが攻撃を受けて赤く点滅するティック。",
+    "command_translation.help.nbt.entity.field.drop_chances": "死亡時に各装備スロットのアイテムを落とす確率。",
+    "command_translation.help.nbt.entity.field.equipment": "装備スロットと着用・所持アイテムの対応。",
+    "command_translation.help.nbt.entity.field.leash": "リードの接続先: フェンスの座標またはエンティティの UUID。",
+    "command_translation.help.nbt.entity.field.LeftHanded": "モブがメインハンドを左に描画するか。",
+    "command_translation.help.nbt.entity.field.NoAI": "モブの AI を無効化するか。",
+    "command_translation.help.nbt.entity.field.PersistenceRequired": "モブが自然に消滅しないか。",
+    "command_translation.help.nbt.entity.minecraft:item.field.Age": "ドロップアイテムが消滅するまでにワールドに存在したティック。-32768 で老化しない。",
+    "command_translation.help.nbt.entity.minecraft:item.field.Item": "アイテムエンティティが持つアイテムスタック。",
+    "command_translation.help.nbt.entity.minecraft:item.field.Item.id": "持っているアイテムのリソース位置。",
+    "command_translation.help.nbt.entity.minecraft:item.field.Item.count": "持っているスタックのアイテム数。",
+    "command_translation.help.nbt.entity.minecraft:item.field.Item.components": "持っているアイテムのデータコンポーネント。",
+    "command_translation.help.nbt.entity.minecraft:item.field.Owner": "このアイテムを拾える唯一のプレイヤーの UUID。",
+    "command_translation.help.nbt.entity.minecraft:item.field.PickupDelay": "アイテムを拾えるようになるまでのティック。",
+    "command_translation.help.nbt.entity.minecraft:item.field.Thrower": "アイテムを落としたエンティティの UUID。",
+    "command_translation.help.nbt.block_entity.field.id": "ブロックエンティティタイプの名前空間 ID。",
+    "command_translation.help.nbt.block_entity.field.x": "ブロックエンティティの X 座標。",
+    "command_translation.help.nbt.block_entity.field.y": "ブロックエンティティの Y 座標。",
+    "command_translation.help.nbt.block_entity.field.z": "ブロックエンティティの Z 座標。",
+    "command_translation.help.nbt.block_entity.field.Items": "コンテナに保存されたアイテムスタックの一覧。",
+    "command_translation.help.nbt.block_entity.field.Items.Slot": "スタックがコンテナで占めるスロット番号。",
+    "command_translation.help.nbt.block_entity.field.Items.id": "保存されたアイテムのリソース位置。",
+    "command_translation.help.nbt.block_entity.field.Items.count": "保存されたスタックのアイテム数。",
+    "command_translation.help.nbt.block_entity.field.CustomName": "コンテナのカスタム名テキストコンポーネント。",
+    "command_translation.help.nbt.block_entity.field.Lock": "コンテナを開くためにアイテム名が一致すべきロック文字列。",
+    "command_translation.help.nbt.block_entity.field.LootTable": "コンテナを埋めるルートテーブル。",
+    "command_translation.help.nbt.block_entity.field.LootTableSeed": "コンテナのルート生成に使うシード。",
+    "command_translation.help.nbt.block_entity.field.Command": "コマンドブロックに入力されたコマンド。",
+    "command_translation.help.nbt.block_entity.field.SuccessCount": "直前のコマンドが正常に実行された回数。",
+    "command_translation.help.nbt.block_entity.field.LastOutput": "コマンドブロックの前回の出力行。",
+    "command_translation.help.nbt.block_entity.field.TrackOutput": "コマンドブロックが前回の出力を保存するか。",
+    "command_translation.help.nbt.block_entity.field.auto": "コマンドブロックを自動実行するか。",
+    "command_translation.help.nbt.block_entity.field.powered": "コマンドブロックが現在起動しているか。",
+    "command_translation.help.nbt.block_entity.field.conditionMet": "コマンドブロックの条件が満たされたか。",
+    "command_translation.help.nbt.block_entity.field.UpdateLastExecution": "コマンドブロックが最終実行時刻を更新するか。",
+    "command_translation.help.nbt.block_entity.field.LastExecution": "コマンドブロックが最後に実行されたティック。",
+    "command_translation.help.nbt.item.field.display": "アイテムの表示データを保持する複合タグ。",
+    "command_translation.help.nbt.item.field.display.Name": "アイテムのカスタム名。JSON テキストコンポーネント。",
+    "command_translation.help.nbt.item.field.display.Lore": "アイテム名の下に表示する説明行の一覧。",
+    "command_translation.help.nbt.item.field.display.color": "革の防具のRGB染色値。",
+    "command_translation.help.nbt.item.field.Enchantments": "アイテムのエンチャント一覧。",
+    "command_translation.help.nbt.item.field.Enchantments.id": "エンチャントの名前。",
+    "command_translation.help.nbt.item.field.Enchantments.lvl": "エンチャントのレベル。",
+    "command_translation.help.nbt.item.field.Damage": "アイテムが消費した耐久使用回数。",
+    "command_translation.help.nbt.item.field.Unbreakable": "使用しても耐久を失わないか。",
+    "command_translation.help.nbt.item.field.HideFlags": "アイテムのツールチップの一部を隠すビットフィールド。",
+    "command_translation.help.nbt.item.field.AttributeModifiers": "アイテムを装備・所持したときに働く属性修飾子の一覧。",
+    "command_translation.help.nbt.item.field.AttributeModifiers.AttributeName": "修飾子が変更する属性の名前。",
+    "command_translation.help.nbt.item.field.AttributeModifiers.Name": "修飾子の名前。属性値の計算には影響しない。",
+    "command_translation.help.nbt.item.field.AttributeModifiers.Amount": "修飾子が加える量。",
+    "command_translation.help.nbt.item.field.AttributeModifiers.Operation": "修飾子の適用方法: 0 加算、1 基本値に乗算、2 合計に乗算。",
+    "command_translation.help.nbt.item.field.AttributeModifiers.UUID": "修飾子の一意な ID。",
+    "command_translation.help.nbt.item.field.AttributeModifiers.Slot": "修飾子が働く装備スロット。",
+    "command_translation.help.nbt.item.field.CanDestroy": "アドベンチャーモードでアイテムが壊せるブロック。",
+    "command_translation.help.nbt.item.field.CanPlaceOn": "アドベンチャーモードでアイテムを置けるブロック。",
+    "command_translation.help.nbt.item.field.CustomModelData": "リソースパックがアイテムモデルを選ぶための整数値。",
+    "command_translation.help.nbt.item.field.RepairCost": "アイテムの金床修理費に加わる経験レベル。",
+    "command_translation.help.nbt.item.field.StoredEnchantments": "エンチャントの本に保存されたエンチャント。",
+    "command_translation.help.nbt.item.field.BlockEntityTag": "このアイテムを設置したときにブロックへ適用されるブロックエンティティデータ。",
+    "command_translation.help.nbt.block_entity.field.Items.Count": "保存されたスタックのアイテム数。",
+    "command_translation.help.nbt.entity.field.FallDistance": "エンティティの落下距離。落下ダメージの計算に使う。",
+    "command_translation.help.nbt.entity.field.ActiveEffects": "モブに現在かかっているステータス効果の一覧。",
+    "command_translation.help.nbt.entity.field.ActiveEffects.Amplifier": "効果レベルから1を引いた値。",
+    "command_translation.help.nbt.entity.field.ActiveEffects.Duration": "効果が続くティック。-1 は無限。",
+    "command_translation.help.nbt.entity.field.ActiveEffects.ShowParticles": "効果がパーティクルを出すか。",
+    "command_translation.help.nbt.entity.field.ActiveEffects.ShowIcon": "効果アイコンを画面に表示するか。",
+    "command_translation.help.nbt.entity.field.Attributes": "モブの属性値と修飾子の一覧。",
+    "command_translation.help.nbt.entity.field.Attributes.Name": "属性の名前。",
+    "command_translation.help.nbt.entity.field.Attributes.Base": "属性の基本値。",
+    "command_translation.help.nbt.entity.field.Attributes.Modifiers": "属性に作用する修飾子。",
+    "command_translation.help.nbt.entity.field.Attributes.Modifiers.Amount": "修飾子が属性に加える量。",
+    "command_translation.help.nbt.entity.field.ActiveEffects.Id": "ステータス効果の内部番号。",
+    "command_translation.help.nbt.entity.field.Attributes.Modifiers.Operation": "修飾子の適用方法: 0 加算、1 基本値に乗算、2 合計に乗算。"
+  },
+  "sources": {
+    "command_translation.help.nbt.entity.field.id": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.Pos": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.Motion": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.Rotation": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.Air": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.Fire": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.fall_distance": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.CustomName": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.CustomNameVisible": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.data": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.Glowing": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.Invulnerable": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.NoGravity": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.OnGround": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.Passengers": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.PortalCooldown": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.Silent": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.Tags": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.TicksFrozen": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.UUID": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.Health": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.AbsorptionAmount": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.active_effects": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.active_effects.id": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.active_effects.amplifier": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.active_effects.duration": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.active_effects.show_particles": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.active_effects.show_icon": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.attributes": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.attributes.id": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.attributes.base": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.attributes.modifiers": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.attributes.modifiers.amount": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.attributes.modifiers.id": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.attributes.modifiers.operation": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.Brain": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.CanPickUpLoot": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.DeathTime": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.HurtTime": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.drop_chances": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.equipment": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.leash": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.LeftHanded": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.NoAI": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.PersistenceRequired": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.minecraft:item.field.Age": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.minecraft:item.field.Item": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.minecraft:item.field.Item.id": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.minecraft:item.field.Item.count": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.minecraft:item.field.Item.components": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.minecraft:item.field.Owner": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.minecraft:item.field.PickupDelay": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.minecraft:item.field.Thrower": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.block_entity.field.id": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20entity%20format",
+        "revision": 3836474
+      }
+    ],
+    "command_translation.help.nbt.block_entity.field.x": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20entity%20format",
+        "revision": 3836474
+      }
+    ],
+    "command_translation.help.nbt.block_entity.field.y": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20entity%20format",
+        "revision": 3836474
+      }
+    ],
+    "command_translation.help.nbt.block_entity.field.z": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20entity%20format",
+        "revision": 3836474
+      }
+    ],
+    "command_translation.help.nbt.block_entity.field.Items": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20entity%20format",
+        "revision": 3836474
+      }
+    ],
+    "command_translation.help.nbt.block_entity.field.Items.Slot": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20entity%20format",
+        "revision": 3836474
+      }
+    ],
+    "command_translation.help.nbt.block_entity.field.Items.id": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20entity%20format",
+        "revision": 3836474
+      }
+    ],
+    "command_translation.help.nbt.block_entity.field.Items.count": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20entity%20format",
+        "revision": 3836474
+      }
+    ],
+    "command_translation.help.nbt.block_entity.field.CustomName": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20entity%20format",
+        "revision": 3836474
+      }
+    ],
+    "command_translation.help.nbt.block_entity.field.Lock": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20entity%20format",
+        "revision": 3836474
+      }
+    ],
+    "command_translation.help.nbt.block_entity.field.LootTable": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20entity%20format",
+        "revision": 3836474
+      }
+    ],
+    "command_translation.help.nbt.block_entity.field.LootTableSeed": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20entity%20format",
+        "revision": 3836474
+      }
+    ],
+    "command_translation.help.nbt.block_entity.field.Command": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20entity%20format",
+        "revision": 3836474
+      }
+    ],
+    "command_translation.help.nbt.block_entity.field.SuccessCount": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20entity%20format",
+        "revision": 3836474
+      }
+    ],
+    "command_translation.help.nbt.block_entity.field.LastOutput": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20entity%20format",
+        "revision": 3836474
+      }
+    ],
+    "command_translation.help.nbt.block_entity.field.TrackOutput": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20entity%20format",
+        "revision": 3836474
+      }
+    ],
+    "command_translation.help.nbt.block_entity.field.auto": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20entity%20format",
+        "revision": 3836474
+      }
+    ],
+    "command_translation.help.nbt.block_entity.field.powered": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20entity%20format",
+        "revision": 3836474
+      }
+    ],
+    "command_translation.help.nbt.block_entity.field.conditionMet": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20entity%20format",
+        "revision": 3836474
+      }
+    ],
+    "command_translation.help.nbt.block_entity.field.UpdateLastExecution": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20entity%20format",
+        "revision": 3836474
+      }
+    ],
+    "command_translation.help.nbt.block_entity.field.LastExecution": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20entity%20format",
+        "revision": 3836474
+      }
+    ],
+    "command_translation.help.nbt.item.field.display": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20format%2FBefore%201.20.5",
+        "revision": 3573309
+      }
+    ],
+    "command_translation.help.nbt.item.field.display.Name": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20format%2FBefore%201.20.5",
+        "revision": 3573309
+      }
+    ],
+    "command_translation.help.nbt.item.field.display.Lore": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20format%2FBefore%201.20.5",
+        "revision": 3573309
+      }
+    ],
+    "command_translation.help.nbt.item.field.display.color": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20format%2FBefore%201.20.5",
+        "revision": 3573309
+      }
+    ],
+    "command_translation.help.nbt.item.field.Enchantments": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20format%2FBefore%201.20.5",
+        "revision": 3573309
+      }
+    ],
+    "command_translation.help.nbt.item.field.Enchantments.id": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20format%2FBefore%201.20.5",
+        "revision": 3573309
+      }
+    ],
+    "command_translation.help.nbt.item.field.Enchantments.lvl": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20format%2FBefore%201.20.5",
+        "revision": 3573309
+      }
+    ],
+    "command_translation.help.nbt.item.field.Damage": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20format%2FBefore%201.20.5",
+        "revision": 3573309
+      }
+    ],
+    "command_translation.help.nbt.item.field.Unbreakable": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20format%2FBefore%201.20.5",
+        "revision": 3573309
+      }
+    ],
+    "command_translation.help.nbt.item.field.HideFlags": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20format%2FBefore%201.20.5",
+        "revision": 3573309
+      }
+    ],
+    "command_translation.help.nbt.item.field.AttributeModifiers": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20format%2FBefore%201.20.5",
+        "revision": 3573309
+      }
+    ],
+    "command_translation.help.nbt.item.field.AttributeModifiers.AttributeName": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20format%2FBefore%201.20.5",
+        "revision": 3573309
+      }
+    ],
+    "command_translation.help.nbt.item.field.AttributeModifiers.Name": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20format%2FBefore%201.20.5",
+        "revision": 3573309
+      }
+    ],
+    "command_translation.help.nbt.item.field.AttributeModifiers.Amount": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20format%2FBefore%201.20.5",
+        "revision": 3573309
+      }
+    ],
+    "command_translation.help.nbt.item.field.AttributeModifiers.Operation": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20format%2FBefore%201.20.5",
+        "revision": 3573309
+      }
+    ],
+    "command_translation.help.nbt.item.field.AttributeModifiers.UUID": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20format%2FBefore%201.20.5",
+        "revision": 3573309
+      }
+    ],
+    "command_translation.help.nbt.item.field.AttributeModifiers.Slot": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20format%2FBefore%201.20.5",
+        "revision": 3573309
+      }
+    ],
+    "command_translation.help.nbt.item.field.CanDestroy": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20format%2FBefore%201.20.5",
+        "revision": 3573309
+      }
+    ],
+    "command_translation.help.nbt.item.field.CanPlaceOn": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20format%2FBefore%201.20.5",
+        "revision": 3573309
+      }
+    ],
+    "command_translation.help.nbt.item.field.CustomModelData": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20format%2FBefore%201.20.5",
+        "revision": 3573309
+      }
+    ],
+    "command_translation.help.nbt.item.field.RepairCost": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20format%2FBefore%201.20.5",
+        "revision": 3573309
+      }
+    ],
+    "command_translation.help.nbt.item.field.StoredEnchantments": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20format%2FBefore%201.20.5",
+        "revision": 3573309
+      }
+    ],
+    "command_translation.help.nbt.item.field.BlockEntityTag": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20format%2FBefore%201.20.5",
+        "revision": 3573309
+      }
+    ],
+    "command_translation.help.nbt.block_entity.field.Items.Count": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20entity%20format",
+        "revision": 3836474
+      }
+    ],
+    "command_translation.help.nbt.entity.field.FallDistance": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.ActiveEffects": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.ActiveEffects.Amplifier": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.ActiveEffects.Duration": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.ActiveEffects.ShowParticles": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.ActiveEffects.ShowIcon": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.Attributes": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.Attributes.Name": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.Attributes.Base": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.Attributes.Modifiers": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.Attributes.Modifiers.Amount": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.ActiveEffects.Id": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20format",
+        "revision": 3778757
+      }
+    ],
+    "command_translation.help.nbt.entity.field.Attributes.Modifiers.Operation": [
+      {
+        "url": "https://minecraft.wiki/w/Item%20format%2FBefore%201.20.5",
+        "revision": 3573309
+      }
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:writable_book_content": "The contents of this book and quill.",
+    "command_translation.help.component.minecraft:writable_book_content.field.pages": "The list of pages in the book.",
+    "command_translation.help.component.minecraft:writable_book_content.field.pages.raw": "The plain text content of a page.",
+    "command_translation.help.component.minecraft:writable_book_content.field.pages.filtered": "The filtered text of a page, shown only to players with chat filter enabled."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:writable_book_content": "该书与笔的内容。",
+    "command_translation.help.component.minecraft:writable_book_content.field.pages": "书中的页面列表。",
+    "command_translation.help.component.minecraft:writable_book_content.field.pages.raw": "某页的纯文本内容。",
+    "command_translation.help.component.minecraft:writable_book_content.field.pages.filtered": "某页经过滤的文本，仅对启用聊天过滤的玩家显示。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:writable_book_content": "Der Inhalt dieses Buchs und Federkiels.",
+    "command_translation.help.component.minecraft:writable_book_content.field.pages": "Die Liste der Seiten im Buch.",
+    "command_translation.help.component.minecraft:writable_book_content.field.pages.raw": "Der reine Textinhalt einer Seite.",
+    "command_translation.help.component.minecraft:writable_book_content.field.pages.filtered": "Der gefilterte Text einer Seite, nur für Spieler mit aktiviertem Chatfilter."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:writable_book_content": "この本と羽ペンの内容。",
+    "command_translation.help.component.minecraft:writable_book_content.field.pages": "本のページのリスト。",
+    "command_translation.help.component.minecraft:writable_book_content.field.pages.raw": "ページのプレーンテキスト内容。",
+    "command_translation.help.component.minecraft:writable_book_content.field.pages.filtered": "ページのフィルター済みテキスト。チャットフィルター有効時のみ表示。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:writable_book_content": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:writable_book_content.field.pages": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:writable_book_content.field.pages.raw": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:writable_book_content.field.pages.filtered": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

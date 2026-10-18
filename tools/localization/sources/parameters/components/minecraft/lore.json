@@ -1,0 +1,30 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:lore": "Additional text lines shown in the item tooltip."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:lore": "物品提示中额外显示的文字。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:lore": "Zusätzliche Textzeilen im Item-Tooltip."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:lore": "アイテムのツールチップに表示する追加テキスト。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:lore": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:unbreakable": "Prevents the item from losing durability.",
+    "command_translation.help.component.minecraft:unbreakable.field.show_in_tooltip": "Whether this component’s details appear in the item tooltip."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:unbreakable": "使物品不会损失耐久。",
+    "command_translation.help.component.minecraft:unbreakable.field.show_in_tooltip": "是否在物品提示中显示该组件的信息。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:unbreakable": "Verhindert Haltbarkeitsverlust des Items.",
+    "command_translation.help.component.minecraft:unbreakable.field.show_in_tooltip": "Ob die Informationen dieser Komponente im Item-Tooltip erscheinen."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:unbreakable": "アイテムの耐久値が減らなくなる。",
+    "command_translation.help.component.minecraft:unbreakable.field.show_in_tooltip": "このコンポーネントの情報をアイテムのツールチップに表示するか。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:unbreakable": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:unbreakable.field.show_in_tooltip": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

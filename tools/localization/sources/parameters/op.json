@@ -1,0 +1,48 @@
+{
+  "en_us": {
+    "command_translation.help.argument.op.targets": "The player profile(s) to op; works on offline players too."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.op.targets": "要授予管理员身份的玩家档案，可对离线玩家生效。"
+  },
+  "sources": {
+    "command_translation.help.argument.op.targets": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fop",
+        "revision": 3697828
+      }
+    ]
+  },
+  "bindings": {
+    "op.targets": "command_translation.help.argument.op.targets"
+  },
+  "de_de": {
+    "command_translation.help.argument.op.targets": "Das Spielerprofil, dem Operator-Status gegeben wird; funktioniert auch für offline Spieler."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.op.targets": "オペレーター権限を与えるプレイヤープロフィール。オフラインのプレイヤーにも有効。"
+  },
+  "syntax": [
+    {
+      "path": "op",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "op.targets",
+      "type": "argument",
+      "parser": "minecraft:game_profile",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

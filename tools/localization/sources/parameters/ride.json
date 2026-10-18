@@ -1,0 +1,120 @@
+{
+  "en_us": {
+    "command_translation.help.argument.ride.target": "The entity that becomes the passenger; exactly one must be selected.",
+    "command_translation.help.argument.ride.mount": "Makes the target ride the vehicle.",
+    "command_translation.help.argument.ride.dismount": "Makes the target stop riding whatever it is on.",
+    "command_translation.help.argument.ride.vehicle": "The vehicle to ride; markers, players, fishing bobbers, leash knots and lightning bolts cannot be ridden."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.ride.target": "作为乘客的实体，只能选出一个。",
+    "command_translation.help.argument.ride.mount": "让目标骑上载具。",
+    "command_translation.help.argument.ride.dismount": "让目标从当前载具上下来。",
+    "command_translation.help.argument.ride.vehicle": "载具实体；标记、玩家、钓鱼浮标、拴绳结和闪电无法被骑乘。"
+  },
+  "sources": {
+    "command_translation.help.argument.ride.target": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fride",
+        "revision": 3838417
+      }
+    ],
+    "command_translation.help.argument.ride.mount": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fride",
+        "revision": 3838417
+      }
+    ],
+    "command_translation.help.argument.ride.dismount": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fride",
+        "revision": 3838417
+      }
+    ],
+    "command_translation.help.argument.ride.vehicle": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fride",
+        "revision": 3838417
+      }
+    ]
+  },
+  "bindings": {
+    "ride.target": "command_translation.help.argument.ride.target",
+    "ride.target.dismount": "command_translation.help.argument.ride.dismount",
+    "ride.target.mount": "command_translation.help.argument.ride.mount",
+    "ride.target.mount.vehicle": "command_translation.help.argument.ride.vehicle"
+  },
+  "de_de": {
+    "command_translation.help.argument.ride.target": "Die Entität, die zum Passagier wird; es muss genau eine ausgewählt werden.",
+    "command_translation.help.argument.ride.mount": "Lässt das Ziel auf dem Fahrzeug reiten.",
+    "command_translation.help.argument.ride.dismount": "Lässt das Ziel von seinem aktuellen Fahrzeug absteigen.",
+    "command_translation.help.argument.ride.vehicle": "Das Fahrzeug zum Reiten; Marker, Spieler, Angelhaken, Leinenknoten und Blitze können nicht geritten werden."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.ride.target": "乗客となるエンティティ。ちょうど 1 体だけ選ぶ必要がある。",
+    "command_translation.help.argument.ride.mount": "対象を指定した乗り物に乗せる。",
+    "command_translation.help.argument.ride.dismount": "対象を現在乗っているものから降ろす。",
+    "command_translation.help.argument.ride.vehicle": "乗る乗り物。マーカー、プレイヤー、釣り浮き、リードの結び目、雷には乗れない。"
+  },
+  "syntax": [
+    {
+      "path": "ride",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "ride.target",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "single"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "ride.target.dismount",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "ride.target.mount",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "ride.target.mount.vehicle",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "single"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

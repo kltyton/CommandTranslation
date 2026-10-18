@@ -1,0 +1,82 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:piercing_weapon": "Melee attacks with this item pierce multiple entities along a ray and cannot mine blocks.",
+    "command_translation.help.component.minecraft:piercing_weapon.field.deals_knockback": "Whether the attack deals knockback.",
+    "command_translation.help.component.minecraft:piercing_weapon.field.dismounts": "Whether the attack dismounts the target.",
+    "command_translation.help.component.minecraft:piercing_weapon.field.sound": "The sound event played when a player attacks with the weapon.",
+    "command_translation.help.component.minecraft:piercing_weapon.field.hit_sound": "The sound event played when the weapon hits an entity."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:piercing_weapon": "使用该物品的近战攻击会沿射线穿透多个实体，且无法用于挖掘方块。",
+    "command_translation.help.component.minecraft:piercing_weapon.field.deals_knockback": "攻击是否造成击退。",
+    "command_translation.help.component.minecraft:piercing_weapon.field.dismounts": "攻击是否使目标骑乘者下马。",
+    "command_translation.help.component.minecraft:piercing_weapon.field.sound": "玩家用该武器攻击时播放的声音事件。",
+    "command_translation.help.component.minecraft:piercing_weapon.field.hit_sound": "武器击中实体时播放的声音事件。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:piercing_weapon": "Nahkampfangriffe mit diesem Item durchbohren mehrere Entitäten entlang eines Strahls und können keine Blöcke abbauen.",
+    "command_translation.help.component.minecraft:piercing_weapon.field.deals_knockback": "Ob der Angriff Rückstoß verursacht.",
+    "command_translation.help.component.minecraft:piercing_weapon.field.dismounts": "Ob der Angriff das Ziel absteigen lässt.",
+    "command_translation.help.component.minecraft:piercing_weapon.field.sound": "Das Geräuschereignis beim Angriff eines Spielers mit der Waffe.",
+    "command_translation.help.component.minecraft:piercing_weapon.field.hit_sound": "Das Geräuschereignis, wenn die Waffe eine Entität trifft."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:piercing_weapon": "このアイテムでの近接攻撃は光線に沿って複数のエンティティを貫き、ブロックを掘れない。",
+    "command_translation.help.component.minecraft:piercing_weapon.field.deals_knockback": "攻撃がノックバックを与えるか。",
+    "command_translation.help.component.minecraft:piercing_weapon.field.dismounts": "攻撃が対象を乗り物から降ろすか。",
+    "command_translation.help.component.minecraft:piercing_weapon.field.sound": "プレイヤーが武器で攻撃したときに再生されるサウンドイベント。",
+    "command_translation.help.component.minecraft:piercing_weapon.field.hit_sound": "武器がエンティティに当たったときに再生されるサウンドイベント。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:piercing_weapon": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:piercing_weapon.field.deals_knockback": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:piercing_weapon.field.dismounts": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:piercing_weapon.field.sound": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:piercing_weapon.field.hit_sound": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

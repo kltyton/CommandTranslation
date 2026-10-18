@@ -1,0 +1,30 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:recipes": "The recipes unlocked when this knowledge book is used."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:recipes": "使用该知识之书时解锁的配方。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:recipes": "Die Rezepte, die beim Benutzen dieses Wissensbuchs freigeschaltet werden."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:recipes": "この知識の本を使うと解放されるレシピ。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:recipes": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

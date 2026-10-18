@@ -1,0 +1,492 @@
+{
+  "en_us": {
+    "command_translation.tag.entity_type.minecraft.accepts_iron_golem_gift": "Iron golems can place poppies on them",
+    "command_translation.tag.entity_type.minecraft.aquatic": "Aquatic mobs",
+    "command_translation.tag.entity_type.minecraft.arrows": "Arrows affected by Power and Punch",
+    "command_translation.tag.entity_type.minecraft.arthropod": "Arthropod mobs",
+    "command_translation.tag.entity_type.minecraft.axolotl_always_hostiles": "Targets axolotls are always hostile to",
+    "command_translation.tag.entity_type.minecraft.axolotl_hunt_targets": "Targets axolotls hunt",
+    "command_translation.tag.entity_type.minecraft.beehive_inhabitors": "Entities that can be inside beehives",
+    "command_translation.tag.entity_type.minecraft.boat": "Boat entities",
+    "command_translation.tag.entity_type.minecraft.burn_in_daylight": "Entities that burn in direct sunlight",
+    "command_translation.tag.entity_type.minecraft.can_breathe_under_water": "Entities that cannot drown",
+    "command_translation.tag.entity_type.minecraft.can_equip_harness": "Entities that can equip a harness",
+    "command_translation.tag.entity_type.minecraft.can_equip_saddle": "Entities that can equip a saddle",
+    "command_translation.tag.entity_type.minecraft.can_float_while_ridden": "Entities that float while ridden",
+    "command_translation.tag.entity_type.minecraft.can_turn_in_boats": "Entities not forced to face forward in boats",
+    "command_translation.tag.entity_type.minecraft.can_wear_horse_armor": "Entities that can wear horse armor",
+    "command_translation.tag.entity_type.minecraft.can_wear_nautilus_armor": "Entities that can wear nautilus armor",
+    "command_translation.tag.entity_type.minecraft.candidate_for_iron_golem_gift": "Entities iron golems offer poppies to",
+    "command_translation.tag.entity_type.minecraft.cannot_be_age_locked": "Entities that cannot be permanently aged as babies",
+    "command_translation.tag.entity_type.minecraft.cannot_be_pushed_onto_boats": "Entities that do not enter boats automatically",
+    "command_translation.tag.entity_type.minecraft.deflects_projectiles": "Entities that projectiles bounce off",
+    "command_translation.tag.entity_type.minecraft.dismounts_underwater": "Entities that force riders off when submerged",
+    "command_translation.tag.entity_type.minecraft.fall_damage_immune": "Entities immune to fall damage",
+    "command_translation.tag.entity_type.minecraft.followable_friendly_mobs": "Adults followed by ghastlings",
+    "command_translation.tag.entity_type.minecraft.freeze_hurts_extra_types": "Entities taking 5x freezing damage",
+    "command_translation.tag.entity_type.minecraft.freeze_immune_entity_types": "Entities that do not build up freezing",
+    "command_translation.tag.entity_type.minecraft.frog_food": "Entities eaten by frogs",
+    "command_translation.tag.entity_type.minecraft.impact_projectiles": "Projectiles that can break chorus flowers and pots",
+    "command_translation.tag.entity_type.minecraft.ignores_poison_and_regen": "Entities unaffected by Poison and Regeneration",
+    "command_translation.tag.entity_type.minecraft.illager": "Illager mobs",
+    "command_translation.tag.entity_type.minecraft.illager_friends": "Entities illagers treat as allies",
+    "command_translation.tag.entity_type.minecraft.immune_to_infested": "Entities immune to the Infested effect",
+    "command_translation.tag.entity_type.minecraft.immune_to_oozing": "Entities immune to the Oozing effect",
+    "command_translation.tag.entity_type.minecraft.inverted_healing_and_harm": "Entities healed by Instant Damage",
+    "command_translation.tag.entity_type.minecraft.nautilus_hostiles": "Targets nautiluses are hostile to",
+    "command_translation.tag.entity_type.minecraft.no_anger_from_wind_charge": "Entities not angered by wind charges",
+    "command_translation.tag.entity_type.minecraft.non_controlling_rider": "Riders that do not override their mount's AI",
+    "command_translation.tag.entity_type.minecraft.not_affected_by_geysers": "Entities unaffected by geysers",
+    "command_translation.tag.entity_type.minecraft.not_scary_for_pufferfish": "Entities that do not inflate pufferfish",
+    "command_translation.tag.entity_type.minecraft.powder_snow_walkable_mobs": "Entities that can walk on powder snow",
+    "command_translation.tag.entity_type.minecraft.raiders": "Raider mobs",
+    "command_translation.tag.entity_type.minecraft.redirectable_projectile": "Projectiles reflected by left click",
+    "command_translation.tag.entity_type.minecraft.sensitive_to_bane_of_arthropods": "Entities affected by Bane of Arthropods",
+    "command_translation.tag.entity_type.minecraft.sensitive_to_impaling": "Entities affected by Impaling",
+    "command_translation.tag.entity_type.minecraft.sensitive_to_smite": "Entities affected by Smite",
+    "command_translation.tag.entity_type.minecraft.skeletons": "Skeleton mobs",
+    "command_translation.tag.entity_type.minecraft.undead": "Undead mobs",
+    "command_translation.tag.entity_type.minecraft.wither_friends": "Entities withers do not target",
+    "command_translation.tag.entity_type.minecraft.zombies": "Zombie mobs"
+  },
+  "zh_cn": {
+    "command_translation.tag.entity_type.minecraft.accepts_iron_golem_gift": "可被铁傀儡献上虞美人",
+    "command_translation.tag.entity_type.minecraft.aquatic": "水生生物",
+    "command_translation.tag.entity_type.minecraft.arrows": "受力量和冲击附魔影响的箭",
+    "command_translation.tag.entity_type.minecraft.arthropod": "节肢动物生物",
+    "command_translation.tag.entity_type.minecraft.axolotl_always_hostiles": "美西螈始终敌对的目标",
+    "command_translation.tag.entity_type.minecraft.axolotl_hunt_targets": "美西螈猎捕的目标",
+    "command_translation.tag.entity_type.minecraft.beehive_inhabitors": "可栖居蜂巢内的实体",
+    "command_translation.tag.entity_type.minecraft.boat": "船类实体",
+    "command_translation.tag.entity_type.minecraft.burn_in_daylight": "日光下燃烧的实体",
+    "command_translation.tag.entity_type.minecraft.can_breathe_under_water": "水下不会溺水的实体",
+    "command_translation.tag.entity_type.minecraft.can_equip_harness": "可装备挽具的实体",
+    "command_translation.tag.entity_type.minecraft.can_equip_saddle": "可装备鞍的实体",
+    "command_translation.tag.entity_type.minecraft.can_float_while_ridden": "被骑乘时可在水中漂浮的实体",
+    "command_translation.tag.entity_type.minecraft.can_turn_in_boats": "在船中可自由转身的实体",
+    "command_translation.tag.entity_type.minecraft.can_wear_horse_armor": "可穿戴马铠的实体",
+    "command_translation.tag.entity_type.minecraft.can_wear_nautilus_armor": "可穿戴鹦鹉螺铠甲的实体",
+    "command_translation.tag.entity_type.minecraft.candidate_for_iron_golem_gift": "铁傀儡会献花的实体",
+    "command_translation.tag.entity_type.minecraft.cannot_be_age_locked": "无法被永久锁定为幼年的实体",
+    "command_translation.tag.entity_type.minecraft.cannot_be_pushed_onto_boats": "不会自动登上船的实体",
+    "command_translation.tag.entity_type.minecraft.deflects_projectiles": "弹开弹射物的实体",
+    "command_translation.tag.entity_type.minecraft.dismounts_underwater": "完全入水时强制骑手下骑的实体",
+    "command_translation.tag.entity_type.minecraft.fall_damage_immune": "免疫摔落伤害的实体",
+    "command_translation.tag.entity_type.minecraft.followable_friendly_mobs": "会被小恶魂跟随的成年个体",
+    "command_translation.tag.entity_type.minecraft.freeze_hurts_extra_types": "承受5倍冰冻伤害的实体",
+    "command_translation.tag.entity_type.minecraft.freeze_immune_entity_types": "不会积累冰冻的实体",
+    "command_translation.tag.entity_type.minecraft.frog_food": "被青蛙捕食的实体",
+    "command_translation.tag.entity_type.minecraft.impact_projectiles": "可击碎紫颂花与陶罐的弹射物",
+    "command_translation.tag.entity_type.minecraft.ignores_poison_and_regen": "不受中毒与生命恢复影响的实体",
+    "command_translation.tag.entity_type.minecraft.illager": "灾厄村民生物",
+    "command_translation.tag.entity_type.minecraft.illager_friends": "被灾厄村民视为盟友的实体",
+    "command_translation.tag.entity_type.minecraft.immune_to_infested": "免疫寄生效果的实体",
+    "command_translation.tag.entity_type.minecraft.immune_to_oozing": "免疫渗浆效果的实体",
+    "command_translation.tag.entity_type.minecraft.inverted_healing_and_harm": "受瞬间伤害治疗、瞬间治疗伤害的实体",
+    "command_translation.tag.entity_type.minecraft.nautilus_hostiles": "鹦鹉螺敌对的目标",
+    "command_translation.tag.entity_type.minecraft.no_anger_from_wind_charge": "不受风弹激怒的实体",
+    "command_translation.tag.entity_type.minecraft.non_controlling_rider": "骑乘时不夺取坐骑AI控制的骑手",
+    "command_translation.tag.entity_type.minecraft.not_affected_by_geysers": "不受间歇泉影响的实体",
+    "command_translation.tag.entity_type.minecraft.not_scary_for_pufferfish": "不会使河豚膨胀的实体",
+    "command_translation.tag.entity_type.minecraft.powder_snow_walkable_mobs": "可在细雪上行走的实体",
+    "command_translation.tag.entity_type.minecraft.raiders": "袭击者生物",
+    "command_translation.tag.entity_type.minecraft.redirectable_projectile": "可左键反弹的弹射物",
+    "command_translation.tag.entity_type.minecraft.sensitive_to_bane_of_arthropods": "受节肢杀手附魔影响的实体",
+    "command_translation.tag.entity_type.minecraft.sensitive_to_impaling": "受穿刺附魔影响的实体",
+    "command_translation.tag.entity_type.minecraft.sensitive_to_smite": "受亡灵杀手附魔影响的实体",
+    "command_translation.tag.entity_type.minecraft.skeletons": "骷髅类生物",
+    "command_translation.tag.entity_type.minecraft.undead": "亡灵生物",
+    "command_translation.tag.entity_type.minecraft.wither_friends": "凋灵不会攻击的实体",
+    "command_translation.tag.entity_type.minecraft.zombies": "僵尸类生物"
+  },
+  "de_de": {
+    "command_translation.tag.entity_type.minecraft.accepts_iron_golem_gift": "Eisenmenschen können ihnen Mohnblumen geben",
+    "command_translation.tag.entity_type.minecraft.aquatic": "Wasserkreaturen",
+    "command_translation.tag.entity_type.minecraft.arrows": "Pfeile, die Stärke und Schlag nutzen",
+    "command_translation.tag.entity_type.minecraft.arthropod": "Gliederfüßer",
+    "command_translation.tag.entity_type.minecraft.axolotl_always_hostiles": "Ziele, auf die Axolotl immer feindlich sind",
+    "command_translation.tag.entity_type.minecraft.axolotl_hunt_targets": "Ziele, die Axolotl jagen",
+    "command_translation.tag.entity_type.minecraft.beehive_inhabitors": "Kreaturen, die im Bienenstock sein können",
+    "command_translation.tag.entity_type.minecraft.boat": "Boot-Kreaturen",
+    "command_translation.tag.entity_type.minecraft.burn_in_daylight": "Kreaturen, die in Sonnenlicht brennen",
+    "command_translation.tag.entity_type.minecraft.can_breathe_under_water": "Kreaturen, die nicht ertrinken",
+    "command_translation.tag.entity_type.minecraft.can_equip_harness": "Kreaturen, die ein Geschirr tragen können",
+    "command_translation.tag.entity_type.minecraft.can_equip_saddle": "Kreaturen, die einen Sattel tragen können",
+    "command_translation.tag.entity_type.minecraft.can_float_while_ridden": "Kreaturen, die geritten im Wasser schwimmen",
+    "command_translation.tag.entity_type.minecraft.can_turn_in_boats": "Kreaturen, die sich im Boot drehen können",
+    "command_translation.tag.entity_type.minecraft.can_wear_horse_armor": "Kreaturen, die Pferderüstung tragen können",
+    "command_translation.tag.entity_type.minecraft.can_wear_nautilus_armor": "Kreaturen, die Nautilus-Rüstung tragen können",
+    "command_translation.tag.entity_type.minecraft.candidate_for_iron_golem_gift": "Kreaturen, denen Eisenmenschen Mohn geben",
+    "command_translation.tag.entity_type.minecraft.cannot_be_age_locked": "Kreaturen, die nicht dauerhaft jung bleiben",
+    "command_translation.tag.entity_type.minecraft.cannot_be_pushed_onto_boats": "Kreaturen, die nicht von selbst einsteigen",
+    "command_translation.tag.entity_type.minecraft.deflects_projectiles": "Kreaturen, an denen Geschosse abprallen",
+    "command_translation.tag.entity_type.minecraft.dismounts_underwater": "Kreaturen, die Reiter unter Wasser abwerfen",
+    "command_translation.tag.entity_type.minecraft.fall_damage_immune": "Kreaturen, die immun gegen Sturzschaden sind",
+    "command_translation.tag.entity_type.minecraft.followable_friendly_mobs": "Erwachsene, denen Ghastlinge folgen",
+    "command_translation.tag.entity_type.minecraft.freeze_hurts_extra_types": "Kreaturen mit 5-fachem Erfrierungsschaden",
+    "command_translation.tag.entity_type.minecraft.freeze_immune_entity_types": "Kreaturen, die nicht erfrieren",
+    "command_translation.tag.entity_type.minecraft.frog_food": "Kreaturen, die von Fröschen gefressen werden",
+    "command_translation.tag.entity_type.minecraft.impact_projectiles": "Geschosse, die Chorusblüten und Töpfe zerstören",
+    "command_translation.tag.entity_type.minecraft.ignores_poison_and_regen": "Kreaturen ohne Gift und Regeneration",
+    "command_translation.tag.entity_type.minecraft.illager": "Illager-Kreaturen",
+    "command_translation.tag.entity_type.minecraft.illager_friends": "Kreaturen, die Illager als Verbündete sehen",
+    "command_translation.tag.entity_type.minecraft.immune_to_infested": "Kreaturen, die immun gegen Befall sind",
+    "command_translation.tag.entity_type.minecraft.immune_to_oozing": "Kreaturen, die immun gegen Schleimigkeit sind",
+    "command_translation.tag.entity_type.minecraft.inverted_healing_and_harm": "Kreaturen, die durch Sofortschaden geheilt werden",
+    "command_translation.tag.entity_type.minecraft.nautilus_hostiles": "Ziele, auf die Nautilus feindlich sind",
+    "command_translation.tag.entity_type.minecraft.no_anger_from_wind_charge": "Kreaturen, die Windladungen nicht erzürnen",
+    "command_translation.tag.entity_type.minecraft.non_controlling_rider": "Reiter, die die KI des Reittiers nicht steuern",
+    "command_translation.tag.entity_type.minecraft.not_affected_by_geysers": "Kreaturen, die von Geysiren unbeeinflusst sind",
+    "command_translation.tag.entity_type.minecraft.not_scary_for_pufferfish": "Kreaturen, die Kugelfische nicht aufblähen",
+    "command_translation.tag.entity_type.minecraft.powder_snow_walkable_mobs": "Kreaturen, die auf Pulverschnee laufen",
+    "command_translation.tag.entity_type.minecraft.raiders": "Überfall-Kreaturen",
+    "command_translation.tag.entity_type.minecraft.redirectable_projectile": "Geschosse, die per Linksklick zurückgeworfen werden",
+    "command_translation.tag.entity_type.minecraft.sensitive_to_bane_of_arthropods": "Kreaturen, die auf Insektenbann reagieren",
+    "command_translation.tag.entity_type.minecraft.sensitive_to_impaling": "Kreaturen, die auf Aufspießen reagieren",
+    "command_translation.tag.entity_type.minecraft.sensitive_to_smite": "Kreaturen, die auf Untotenbann reagieren",
+    "command_translation.tag.entity_type.minecraft.skeletons": "Skelett-Kreaturen",
+    "command_translation.tag.entity_type.minecraft.undead": "Untote Kreaturen",
+    "command_translation.tag.entity_type.minecraft.wither_friends": "Kreaturen, die der Wither nicht angreift",
+    "command_translation.tag.entity_type.minecraft.zombies": "Zombie-Kreaturen"
+  },
+  "ja_jp": {
+    "command_translation.tag.entity_type.minecraft.accepts_iron_golem_gift": "アイアンゴーレムがポピーを渡せる相手",
+    "command_translation.tag.entity_type.minecraft.aquatic": "水生モブ",
+    "command_translation.tag.entity_type.minecraft.arrows": "射撃力と衝撃の対象になる矢",
+    "command_translation.tag.entity_type.minecraft.arthropod": "節足動物モブ",
+    "command_translation.tag.entity_type.minecraft.axolotl_always_hostiles": "ウーパールーパーが常に敵対する対象",
+    "command_translation.tag.entity_type.minecraft.axolotl_hunt_targets": "ウーパールーパーが狩る対象",
+    "command_translation.tag.entity_type.minecraft.beehive_inhabitors": "ミツバチの巣に入れるエンティティ",
+    "command_translation.tag.entity_type.minecraft.boat": "ボート系エンティティ",
+    "command_translation.tag.entity_type.minecraft.burn_in_daylight": "直射日光で燃えるエンティティ",
+    "command_translation.tag.entity_type.minecraft.can_breathe_under_water": "水中で溺れないエンティティ",
+    "command_translation.tag.entity_type.minecraft.can_equip_harness": "ハーネスを装備できるエンティティ",
+    "command_translation.tag.entity_type.minecraft.can_equip_saddle": "鞍を装備できるエンティティ",
+    "command_translation.tag.entity_type.minecraft.can_float_while_ridden": "騎乗中に水中で浮かべるエンティティ",
+    "command_translation.tag.entity_type.minecraft.can_turn_in_boats": "ボート内で向きを変えられるエンティティ",
+    "command_translation.tag.entity_type.minecraft.can_wear_horse_armor": "馬鎧を装備できるエンティティ",
+    "command_translation.tag.entity_type.minecraft.can_wear_nautilus_armor": "オウムガイの鎧を装備できるエンティティ",
+    "command_translation.tag.entity_type.minecraft.candidate_for_iron_golem_gift": "アイアンゴーレムがポピーを渡す相手",
+    "command_translation.tag.entity_type.minecraft.cannot_be_age_locked": "幼体に固定できないエンティティ",
+    "command_translation.tag.entity_type.minecraft.cannot_be_pushed_onto_boats": "自動でボートに乗らないエンティティ",
+    "command_translation.tag.entity_type.minecraft.deflects_projectiles": "発射物を弾くエンティティ",
+    "command_translation.tag.entity_type.minecraft.dismounts_underwater": "水没時に騎乗者を降ろすエンティティ",
+    "command_translation.tag.entity_type.minecraft.fall_damage_immune": "落下ダメージを受けないエンティティ",
+    "command_translation.tag.entity_type.minecraft.followable_friendly_mobs": "ガストリングに追われる大人",
+    "command_translation.tag.entity_type.minecraft.freeze_hurts_extra_types": "凍結ダメージが5倍になるエンティティ",
+    "command_translation.tag.entity_type.minecraft.freeze_immune_entity_types": "凍結が蓄積しないエンティティ",
+    "command_translation.tag.entity_type.minecraft.frog_food": "カエルに食べられるエンティティ",
+    "command_translation.tag.entity_type.minecraft.impact_projectiles": "コーラスフラワーや壺を壊す発射物",
+    "command_translation.tag.entity_type.minecraft.ignores_poison_and_regen": "毒と回復の影響を受けないエンティティ",
+    "command_translation.tag.entity_type.minecraft.illager": "イリジャーモブ",
+    "command_translation.tag.entity_type.minecraft.illager_friends": "イリジャーが味方とみなすエンティティ",
+    "command_translation.tag.entity_type.minecraft.immune_to_infested": "寄生効果に免疫のエンティティ",
+    "command_translation.tag.entity_type.minecraft.immune_to_oozing": "滲出効果に免疫のエンティティ",
+    "command_translation.tag.entity_type.minecraft.inverted_healing_and_harm": "即時ダメージで回復するエンティティ",
+    "command_translation.tag.entity_type.minecraft.nautilus_hostiles": "オウムガイが敵対する対象",
+    "command_translation.tag.entity_type.minecraft.no_anger_from_wind_charge": "風の弾で怒らないエンティティ",
+    "command_translation.tag.entity_type.minecraft.non_controlling_rider": "乗り物のAIを奪わない騎乗者",
+    "command_translation.tag.entity_type.minecraft.not_affected_by_geysers": "間欠泉の影響を受けないエンティティ",
+    "command_translation.tag.entity_type.minecraft.not_scary_for_pufferfish": "フグを膨らませないエンティティ",
+    "command_translation.tag.entity_type.minecraft.powder_snow_walkable_mobs": "粉雪の上を歩けるエンティティ",
+    "command_translation.tag.entity_type.minecraft.raiders": "襲撃者モブ",
+    "command_translation.tag.entity_type.minecraft.redirectable_projectile": "左クリックで跳ね返せる発射物",
+    "command_translation.tag.entity_type.minecraft.sensitive_to_bane_of_arthropods": "虫特効の対象になるエンティティ",
+    "command_translation.tag.entity_type.minecraft.sensitive_to_impaling": "串刺しの対象になるエンティティ",
+    "command_translation.tag.entity_type.minecraft.sensitive_to_smite": "アンデッド特効の対象になるエンティティ",
+    "command_translation.tag.entity_type.minecraft.skeletons": "スケルトン系モブ",
+    "command_translation.tag.entity_type.minecraft.undead": "アンデッドモブ",
+    "command_translation.tag.entity_type.minecraft.wither_friends": "ウィザーが攻撃しないエンティティ",
+    "command_translation.tag.entity_type.minecraft.zombies": "ゾンビ系モブ"
+  },
+  "sources": {
+    "command_translation.tag.entity_type.minecraft.accepts_iron_golem_gift": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ],
+    "command_translation.tag.entity_type.minecraft.aquatic": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ],
+    "command_translation.tag.entity_type.minecraft.arrows": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ],
+    "command_translation.tag.entity_type.minecraft.arthropod": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ],
+    "command_translation.tag.entity_type.minecraft.axolotl_always_hostiles": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ],
+    "command_translation.tag.entity_type.minecraft.axolotl_hunt_targets": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ],
+    "command_translation.tag.entity_type.minecraft.beehive_inhabitors": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ],
+    "command_translation.tag.entity_type.minecraft.boat": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ],
+    "command_translation.tag.entity_type.minecraft.burn_in_daylight": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ],
+    "command_translation.tag.entity_type.minecraft.can_breathe_under_water": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ],
+    "command_translation.tag.entity_type.minecraft.can_equip_harness": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ],
+    "command_translation.tag.entity_type.minecraft.can_equip_saddle": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ],
+    "command_translation.tag.entity_type.minecraft.can_float_while_ridden": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ],
+    "command_translation.tag.entity_type.minecraft.can_turn_in_boats": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ],
+    "command_translation.tag.entity_type.minecraft.can_wear_horse_armor": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ],
+    "command_translation.tag.entity_type.minecraft.can_wear_nautilus_armor": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ],
+    "command_translation.tag.entity_type.minecraft.candidate_for_iron_golem_gift": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ],
+    "command_translation.tag.entity_type.minecraft.cannot_be_age_locked": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ],
+    "command_translation.tag.entity_type.minecraft.cannot_be_pushed_onto_boats": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ],
+    "command_translation.tag.entity_type.minecraft.deflects_projectiles": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ],
+    "command_translation.tag.entity_type.minecraft.dismounts_underwater": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ],
+    "command_translation.tag.entity_type.minecraft.fall_damage_immune": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ],
+    "command_translation.tag.entity_type.minecraft.followable_friendly_mobs": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ],
+    "command_translation.tag.entity_type.minecraft.freeze_hurts_extra_types": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ],
+    "command_translation.tag.entity_type.minecraft.freeze_immune_entity_types": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ],
+    "command_translation.tag.entity_type.minecraft.frog_food": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ],
+    "command_translation.tag.entity_type.minecraft.impact_projectiles": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ],
+    "command_translation.tag.entity_type.minecraft.ignores_poison_and_regen": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ],
+    "command_translation.tag.entity_type.minecraft.illager": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ],
+    "command_translation.tag.entity_type.minecraft.illager_friends": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ],
+    "command_translation.tag.entity_type.minecraft.immune_to_infested": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ],
+    "command_translation.tag.entity_type.minecraft.immune_to_oozing": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ],
+    "command_translation.tag.entity_type.minecraft.inverted_healing_and_harm": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ],
+    "command_translation.tag.entity_type.minecraft.nautilus_hostiles": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ],
+    "command_translation.tag.entity_type.minecraft.no_anger_from_wind_charge": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ],
+    "command_translation.tag.entity_type.minecraft.non_controlling_rider": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ],
+    "command_translation.tag.entity_type.minecraft.not_affected_by_geysers": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ],
+    "command_translation.tag.entity_type.minecraft.not_scary_for_pufferfish": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ],
+    "command_translation.tag.entity_type.minecraft.powder_snow_walkable_mobs": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ],
+    "command_translation.tag.entity_type.minecraft.raiders": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ],
+    "command_translation.tag.entity_type.minecraft.redirectable_projectile": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ],
+    "command_translation.tag.entity_type.minecraft.sensitive_to_bane_of_arthropods": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ],
+    "command_translation.tag.entity_type.minecraft.sensitive_to_impaling": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ],
+    "command_translation.tag.entity_type.minecraft.sensitive_to_smite": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ],
+    "command_translation.tag.entity_type.minecraft.skeletons": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ],
+    "command_translation.tag.entity_type.minecraft.undead": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ],
+    "command_translation.tag.entity_type.minecraft.wither_friends": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ],
+    "command_translation.tag.entity_type.minecraft.zombies": [
+      {
+        "url": "https://minecraft.wiki/w/Entity%20type%20tag%20(Java%20Edition)",
+        "revision": 3842605
+      }
+    ]
+  }
+}

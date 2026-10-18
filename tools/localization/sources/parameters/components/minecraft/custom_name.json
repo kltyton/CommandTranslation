@@ -1,0 +1,30 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:custom_name": "The item’s custom display name."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:custom_name": "物品的自定义显示名称。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:custom_name": "Der benutzerdefinierte Anzeigename des Items."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:custom_name": "アイテムの独自の表示名。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:custom_name": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

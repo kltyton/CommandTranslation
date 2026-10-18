@@ -1,0 +1,5607 @@
+{
+  "artifacts": [
+    {
+      "loader": "forge",
+      "version": "1.20.1",
+      "coordinate": "net.minecraftforge:forge:1.20.1-47.3.0"
+    },
+    {
+      "loader": "neoforge",
+      "version": "1.21.1",
+      "coordinate": "net.neoforged:neoforge:21.1.234"
+    },
+    {
+      "loader": "neoforge",
+      "version": "26.1.2",
+      "coordinate": "net.neoforged:neoforge:26.1.2.84"
+    },
+    {
+      "loader": "neoforge",
+      "version": "26.2",
+      "coordinate": "net.neoforged:neoforge:26.2.0.88"
+    },
+    {
+      "loader": "fabric",
+      "version": "1.20.1",
+      "coordinate": "net.fabricmc.fabric-api:fabric-convention-tags-v1:1.5.6+1802ada577"
+    },
+    {
+      "loader": "fabric",
+      "version": "1.21.1",
+      "coordinate": "net.fabricmc.fabric-api:fabric-convention-tags-v2:2.12.0+c3656daa19"
+    },
+    {
+      "loader": "fabric",
+      "version": "26.1.2",
+      "coordinate": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.6.2+4f11f7994c"
+    },
+    {
+      "loader": "fabric",
+      "version": "26.2",
+      "coordinate": "net.fabricmc.fabric-api:fabric-convention-tags-v2:4.7.1+1f023a9e9e"
+    }
+  ],
+  "registries": {
+    "worldgen/biome": {
+      "forge:is_wet/overworld": [
+        "forge-1.20.1"
+      ],
+      "forge:is_wet": [
+        "forge-1.20.1"
+      ],
+      "forge:is_water": [
+        "forge-1.20.1"
+      ],
+      "forge:is_wasteland": [
+        "forge-1.20.1"
+      ],
+      "forge:is_void": [
+        "forge-1.20.1"
+      ],
+      "forge:is_underground": [
+        "forge-1.20.1"
+      ],
+      "forge:is_swamp": [
+        "forge-1.20.1"
+      ],
+      "forge:is_spooky": [
+        "forge-1.20.1"
+      ],
+      "forge:is_sparse/overworld": [
+        "forge-1.20.1"
+      ],
+      "forge:is_sparse": [
+        "forge-1.20.1"
+      ],
+      "forge:is_snowy": [
+        "forge-1.20.1"
+      ],
+      "forge:is_slope": [
+        "forge-1.20.1"
+      ],
+      "forge:is_sandy": [
+        "forge-1.20.1"
+      ],
+      "forge:is_rare": [
+        "forge-1.20.1"
+      ],
+      "forge:is_plateau": [
+        "forge-1.20.1"
+      ],
+      "forge:is_plains": [
+        "forge-1.20.1"
+      ],
+      "forge:is_peak": [
+        "forge-1.20.1"
+      ],
+      "forge:is_mushroom": [
+        "forge-1.20.1"
+      ],
+      "forge:is_mountain": [
+        "forge-1.20.1"
+      ],
+      "forge:is_lush": [
+        "forge-1.20.1"
+      ],
+      "forge:is_hot/overworld": [
+        "forge-1.20.1"
+      ],
+      "forge:is_hot/nether": [
+        "forge-1.20.1"
+      ],
+      "forge:is_hot": [
+        "forge-1.20.1"
+      ],
+      "forge:is_dry/overworld": [
+        "forge-1.20.1"
+      ],
+      "forge:is_dry/nether": [
+        "forge-1.20.1"
+      ],
+      "forge:is_dry/end": [
+        "forge-1.20.1"
+      ],
+      "forge:is_dry": [
+        "forge-1.20.1"
+      ],
+      "forge:is_desert": [
+        "forge-1.20.1"
+      ],
+      "forge:is_dense/overworld": [
+        "forge-1.20.1"
+      ],
+      "forge:is_dense": [
+        "forge-1.20.1"
+      ],
+      "forge:is_coniferous": [
+        "forge-1.20.1"
+      ],
+      "forge:is_cold/overworld": [
+        "forge-1.20.1"
+      ],
+      "forge:is_cold/end": [
+        "forge-1.20.1"
+      ],
+      "forge:is_cold": [
+        "forge-1.20.1"
+      ],
+      "forge:is_cave": [
+        "forge-1.20.1"
+      ],
+      "c:hidden_from_locator_selection": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_aquatic": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_aquatic_icy": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_badlands": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_beach": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_birch_forest": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_cave": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_cold": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_cold/end": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_cold/nether": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_cold/overworld": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_dead": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_deep_ocean": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_dense_vegetation": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_dense_vegetation/end": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_dense_vegetation/nether": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_dense_vegetation/overworld": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_desert": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_dry": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_dry/end": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_dry/nether": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_dry/overworld": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_end": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_floral": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_flower_forest": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_forest": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_hill": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_hot": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_hot/end": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_hot/nether": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_hot/overworld": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_icy": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_jungle": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_lush": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_magical": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_modified": [
+        "neoforge-1.21.1"
+      ],
+      "c:is_mountain": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_mountain/peak": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_mountain/slope": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_mushroom": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_nether": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_nether_forest": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_ocean": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_old_growth": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_outer_end_island": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_overworld": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_plains": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_plateau": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_rare": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_river": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_sandy": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_savanna": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_shallow_ocean": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_snowy": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_snowy_plains": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_sparse_vegetation": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_sparse_vegetation/end": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_sparse_vegetation/nether": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_sparse_vegetation/overworld": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_spooky": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_stony_shores": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_swamp": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_taiga": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_temperate": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_temperate/end": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_temperate/nether": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_temperate/overworld": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_tree/coniferous": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_tree/deciduous": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_tree/jungle": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_tree/savanna": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_underground": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_void": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_wasteland": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_wet": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_wet/end": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_wet/nether": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_wet/overworld": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_windswept": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:no_default_monsters": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:is_dark_forest": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:primary_wood_type": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:primary_wood_type/acacia": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:primary_wood_type/bamboo": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:primary_wood_type/birch": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:primary_wood_type/cherry": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:primary_wood_type/crimson": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:primary_wood_type/dark_oak": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:primary_wood_type/jungle": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:primary_wood_type/mangrove": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:primary_wood_type/oak": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:primary_wood_type/pale_oak": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:primary_wood_type/spruce": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:primary_wood_type/warped": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:windswept": [
+        "fabric-1.20.1"
+      ],
+      "c:wasteland": [
+        "fabric-1.20.1"
+      ],
+      "c:void": [
+        "fabric-1.20.1"
+      ],
+      "c:vegetation_sparse": [
+        "fabric-1.20.1"
+      ],
+      "c:vegetation_dense": [
+        "fabric-1.20.1"
+      ],
+      "c:underground": [
+        "fabric-1.20.1"
+      ],
+      "c:tree_savanna": [
+        "fabric-1.20.1"
+      ],
+      "c:tree_jungle": [
+        "fabric-1.20.1"
+      ],
+      "c:tree_deciduous": [
+        "fabric-1.20.1"
+      ],
+      "c:tree_coniferous": [
+        "fabric-1.20.1"
+      ],
+      "c:taiga": [
+        "fabric-1.20.1"
+      ],
+      "c:swamp": [
+        "fabric-1.20.1"
+      ],
+      "c:stony_shores": [
+        "fabric-1.20.1"
+      ],
+      "c:snowy_plains": [
+        "fabric-1.20.1"
+      ],
+      "c:snowy": [
+        "fabric-1.20.1"
+      ],
+      "c:shallow_ocean": [
+        "fabric-1.20.1"
+      ],
+      "c:savanna": [
+        "fabric-1.20.1"
+      ],
+      "c:river": [
+        "fabric-1.20.1"
+      ],
+      "c:plains": [
+        "fabric-1.20.1"
+      ],
+      "c:ocean": [
+        "fabric-1.20.1"
+      ],
+      "c:nether_forests": [
+        "fabric-1.20.1"
+      ],
+      "c:mushroom": [
+        "fabric-1.20.1"
+      ],
+      "c:mountain_slope": [
+        "fabric-1.20.1"
+      ],
+      "c:mountain_peak": [
+        "fabric-1.20.1"
+      ],
+      "c:mountain": [
+        "fabric-1.20.1"
+      ],
+      "c:mesa": [
+        "fabric-1.20.1"
+      ],
+      "c:jungle": [
+        "fabric-1.20.1"
+      ],
+      "c:in_the_end": [
+        "fabric-1.20.1"
+      ],
+      "c:in_overworld": [
+        "fabric-1.20.1"
+      ],
+      "c:in_nether": [
+        "fabric-1.20.1"
+      ],
+      "c:icy": [
+        "fabric-1.20.1"
+      ],
+      "c:forest": [
+        "fabric-1.20.1"
+      ],
+      "c:flower_forests": [
+        "fabric-1.20.1"
+      ],
+      "c:floral": [
+        "fabric-1.20.1"
+      ],
+      "c:extreme_hills": [
+        "fabric-1.20.1"
+      ],
+      "c:end_islands": [
+        "fabric-1.20.1"
+      ],
+      "c:desert": [
+        "fabric-1.20.1"
+      ],
+      "c:deep_ocean": [
+        "fabric-1.20.1"
+      ],
+      "c:dead": [
+        "fabric-1.20.1"
+      ],
+      "c:climate_wet": [
+        "fabric-1.20.1"
+      ],
+      "c:climate_temperate": [
+        "fabric-1.20.1"
+      ],
+      "c:climate_hot": [
+        "fabric-1.20.1"
+      ],
+      "c:climate_dry": [
+        "fabric-1.20.1"
+      ],
+      "c:climate_cold": [
+        "fabric-1.20.1"
+      ],
+      "c:caves": [
+        "fabric-1.20.1"
+      ],
+      "c:birch_forest": [
+        "fabric-1.20.1"
+      ],
+      "c:beach": [
+        "fabric-1.20.1"
+      ],
+      "c:badlands": [
+        "fabric-1.20.1"
+      ],
+      "c:aquatic_icy": [
+        "fabric-1.20.1"
+      ],
+      "c:aquatic": [
+        "fabric-1.20.1"
+      ]
+    },
+    "item": {
+      "forge:tools/tridents": [
+        "forge-1.20.1"
+      ],
+      "forge:tools/shields": [
+        "forge-1.20.1"
+      ],
+      "forge:tools/fishing_rods": [
+        "forge-1.20.1"
+      ],
+      "forge:tools/crossbows": [
+        "forge-1.20.1"
+      ],
+      "forge:tools/bows": [
+        "forge-1.20.1"
+      ],
+      "forge:tools": [
+        "forge-1.20.1"
+      ],
+      "forge:string": [
+        "forge-1.20.1"
+      ],
+      "forge:storage_blocks/redstone": [
+        "forge-1.20.1"
+      ],
+      "forge:storage_blocks/raw_iron": [
+        "forge-1.20.1"
+      ],
+      "forge:storage_blocks/raw_gold": [
+        "forge-1.20.1"
+      ],
+      "forge:storage_blocks/raw_copper": [
+        "forge-1.20.1"
+      ],
+      "forge:storage_blocks/quartz": [
+        "forge-1.20.1"
+      ],
+      "forge:storage_blocks/netherite": [
+        "forge-1.20.1"
+      ],
+      "forge:storage_blocks/lapis": [
+        "forge-1.20.1"
+      ],
+      "forge:storage_blocks/iron": [
+        "forge-1.20.1"
+      ],
+      "forge:storage_blocks/gold": [
+        "forge-1.20.1"
+      ],
+      "forge:storage_blocks/emerald": [
+        "forge-1.20.1"
+      ],
+      "forge:storage_blocks/diamond": [
+        "forge-1.20.1"
+      ],
+      "forge:storage_blocks/copper": [
+        "forge-1.20.1"
+      ],
+      "forge:storage_blocks/coal": [
+        "forge-1.20.1"
+      ],
+      "forge:storage_blocks/amethyst": [
+        "forge-1.20.1"
+      ],
+      "forge:storage_blocks": [
+        "forge-1.20.1"
+      ],
+      "forge:stone": [
+        "forge-1.20.1"
+      ],
+      "forge:stained_glass_panes": [
+        "forge-1.20.1"
+      ],
+      "forge:stained_glass": [
+        "forge-1.20.1"
+      ],
+      "forge:slimeballs": [
+        "forge-1.20.1"
+      ],
+      "forge:shears": [
+        "forge-1.20.1"
+      ],
+      "forge:seeds/wheat": [
+        "forge-1.20.1"
+      ],
+      "forge:seeds/pumpkin": [
+        "forge-1.20.1"
+      ],
+      "forge:seeds/melon": [
+        "forge-1.20.1"
+      ],
+      "forge:seeds/beetroot": [
+        "forge-1.20.1"
+      ],
+      "forge:seeds": [
+        "forge-1.20.1"
+      ],
+      "forge:sandstone": [
+        "forge-1.20.1"
+      ],
+      "forge:sand/red": [
+        "forge-1.20.1"
+      ],
+      "forge:sand/colorless": [
+        "forge-1.20.1"
+      ],
+      "forge:sand": [
+        "forge-1.20.1"
+      ],
+      "forge:rods/wooden": [
+        "forge-1.20.1"
+      ],
+      "forge:rods/blaze": [
+        "forge-1.20.1"
+      ],
+      "forge:rods": [
+        "forge-1.20.1"
+      ],
+      "forge:raw_materials/iron": [
+        "forge-1.20.1"
+      ],
+      "forge:raw_materials/gold": [
+        "forge-1.20.1"
+      ],
+      "forge:raw_materials/copper": [
+        "forge-1.20.1"
+      ],
+      "forge:raw_materials": [
+        "forge-1.20.1"
+      ],
+      "forge:ores_in_ground/stone": [
+        "forge-1.20.1"
+      ],
+      "forge:ores_in_ground/netherrack": [
+        "forge-1.20.1"
+      ],
+      "forge:ores_in_ground/deepslate": [
+        "forge-1.20.1"
+      ],
+      "forge:ores/redstone": [
+        "forge-1.20.1"
+      ],
+      "forge:ores/quartz": [
+        "forge-1.20.1"
+      ],
+      "forge:ores/netherite_scrap": [
+        "forge-1.20.1"
+      ],
+      "forge:ores/lapis": [
+        "forge-1.20.1"
+      ],
+      "forge:ores/iron": [
+        "forge-1.20.1"
+      ],
+      "forge:ores/gold": [
+        "forge-1.20.1"
+      ],
+      "forge:ores/emerald": [
+        "forge-1.20.1"
+      ],
+      "forge:ores/diamond": [
+        "forge-1.20.1"
+      ],
+      "forge:ores/copper": [
+        "forge-1.20.1"
+      ],
+      "forge:ores/coal": [
+        "forge-1.20.1"
+      ],
+      "forge:ores": [
+        "forge-1.20.1"
+      ],
+      "forge:ore_rates/sparse": [
+        "forge-1.20.1"
+      ],
+      "forge:ore_rates/singular": [
+        "forge-1.20.1"
+      ],
+      "forge:ore_rates/dense": [
+        "forge-1.20.1"
+      ],
+      "forge:ore_bearing_ground/stone": [
+        "forge-1.20.1"
+      ],
+      "forge:ore_bearing_ground/netherrack": [
+        "forge-1.20.1"
+      ],
+      "forge:ore_bearing_ground/deepslate": [
+        "forge-1.20.1"
+      ],
+      "forge:obsidian": [
+        "forge-1.20.1"
+      ],
+      "forge:nuggets/iron": [
+        "forge-1.20.1"
+      ],
+      "forge:nuggets/gold": [
+        "forge-1.20.1"
+      ],
+      "forge:nuggets": [
+        "forge-1.20.1"
+      ],
+      "forge:netherrack": [
+        "forge-1.20.1"
+      ],
+      "forge:nether_stars": [
+        "forge-1.20.1"
+      ],
+      "forge:mushrooms": [
+        "forge-1.20.1"
+      ],
+      "forge:leather": [
+        "forge-1.20.1"
+      ],
+      "forge:ingots/netherite": [
+        "forge-1.20.1"
+      ],
+      "forge:ingots/nether_brick": [
+        "forge-1.20.1"
+      ],
+      "forge:ingots/iron": [
+        "forge-1.20.1"
+      ],
+      "forge:ingots/gold": [
+        "forge-1.20.1"
+      ],
+      "forge:ingots/copper": [
+        "forge-1.20.1"
+      ],
+      "forge:ingots/brick": [
+        "forge-1.20.1"
+      ],
+      "forge:ingots": [
+        "forge-1.20.1"
+      ],
+      "forge:heads": [
+        "forge-1.20.1"
+      ],
+      "forge:gunpowder": [
+        "forge-1.20.1"
+      ],
+      "forge:gravel": [
+        "forge-1.20.1"
+      ],
+      "forge:glass_panes/yellow": [
+        "forge-1.20.1"
+      ],
+      "forge:glass_panes/white": [
+        "forge-1.20.1"
+      ],
+      "forge:glass_panes/red": [
+        "forge-1.20.1"
+      ],
+      "forge:glass_panes/purple": [
+        "forge-1.20.1"
+      ],
+      "forge:glass_panes/pink": [
+        "forge-1.20.1"
+      ],
+      "forge:glass_panes/orange": [
+        "forge-1.20.1"
+      ],
+      "forge:glass_panes/magenta": [
+        "forge-1.20.1"
+      ],
+      "forge:glass_panes/lime": [
+        "forge-1.20.1"
+      ],
+      "forge:glass_panes/light_gray": [
+        "forge-1.20.1"
+      ],
+      "forge:glass_panes/light_blue": [
+        "forge-1.20.1"
+      ],
+      "forge:glass_panes/green": [
+        "forge-1.20.1"
+      ],
+      "forge:glass_panes/gray": [
+        "forge-1.20.1"
+      ],
+      "forge:glass_panes/cyan": [
+        "forge-1.20.1"
+      ],
+      "forge:glass_panes/colorless": [
+        "forge-1.20.1"
+      ],
+      "forge:glass_panes/brown": [
+        "forge-1.20.1"
+      ],
+      "forge:glass_panes/blue": [
+        "forge-1.20.1"
+      ],
+      "forge:glass_panes/black": [
+        "forge-1.20.1"
+      ],
+      "forge:glass_panes": [
+        "forge-1.20.1"
+      ],
+      "forge:glass/yellow": [
+        "forge-1.20.1"
+      ],
+      "forge:glass/white": [
+        "forge-1.20.1"
+      ],
+      "forge:glass/tinted": [
+        "forge-1.20.1"
+      ],
+      "forge:glass/silica": [
+        "forge-1.20.1"
+      ],
+      "forge:glass/red": [
+        "forge-1.20.1"
+      ],
+      "forge:glass/purple": [
+        "forge-1.20.1"
+      ],
+      "forge:glass/pink": [
+        "forge-1.20.1"
+      ],
+      "forge:glass/orange": [
+        "forge-1.20.1"
+      ],
+      "forge:glass/magenta": [
+        "forge-1.20.1"
+      ],
+      "forge:glass/lime": [
+        "forge-1.20.1"
+      ],
+      "forge:glass/light_gray": [
+        "forge-1.20.1"
+      ],
+      "forge:glass/light_blue": [
+        "forge-1.20.1"
+      ],
+      "forge:glass/green": [
+        "forge-1.20.1"
+      ],
+      "forge:glass/gray": [
+        "forge-1.20.1"
+      ],
+      "forge:glass/cyan": [
+        "forge-1.20.1"
+      ],
+      "forge:glass/colorless": [
+        "forge-1.20.1"
+      ],
+      "forge:glass/brown": [
+        "forge-1.20.1"
+      ],
+      "forge:glass/blue": [
+        "forge-1.20.1"
+      ],
+      "forge:glass/black": [
+        "forge-1.20.1"
+      ],
+      "forge:glass": [
+        "forge-1.20.1"
+      ],
+      "forge:gems/quartz": [
+        "forge-1.20.1"
+      ],
+      "forge:gems/prismarine": [
+        "forge-1.20.1"
+      ],
+      "forge:gems/lapis": [
+        "forge-1.20.1"
+      ],
+      "forge:gems/emerald": [
+        "forge-1.20.1"
+      ],
+      "forge:gems/diamond": [
+        "forge-1.20.1"
+      ],
+      "forge:gems/amethyst": [
+        "forge-1.20.1"
+      ],
+      "forge:gems": [
+        "forge-1.20.1"
+      ],
+      "forge:fences/wooden": [
+        "forge-1.20.1"
+      ],
+      "forge:fences/nether_brick": [
+        "forge-1.20.1"
+      ],
+      "forge:fences": [
+        "forge-1.20.1"
+      ],
+      "forge:fence_gates/wooden": [
+        "forge-1.20.1"
+      ],
+      "forge:fence_gates": [
+        "forge-1.20.1"
+      ],
+      "forge:feathers": [
+        "forge-1.20.1"
+      ],
+      "forge:ender_pearls": [
+        "forge-1.20.1"
+      ],
+      "forge:end_stones": [
+        "forge-1.20.1"
+      ],
+      "forge:enchanting_fuels": [
+        "forge-1.20.1"
+      ],
+      "forge:eggs": [
+        "forge-1.20.1"
+      ],
+      "forge:dyes/yellow": [
+        "forge-1.20.1"
+      ],
+      "forge:dyes/white": [
+        "forge-1.20.1"
+      ],
+      "forge:dyes/red": [
+        "forge-1.20.1"
+      ],
+      "forge:dyes/purple": [
+        "forge-1.20.1"
+      ],
+      "forge:dyes/pink": [
+        "forge-1.20.1"
+      ],
+      "forge:dyes/orange": [
+        "forge-1.20.1"
+      ],
+      "forge:dyes/magenta": [
+        "forge-1.20.1"
+      ],
+      "forge:dyes/lime": [
+        "forge-1.20.1"
+      ],
+      "forge:dyes/light_gray": [
+        "forge-1.20.1"
+      ],
+      "forge:dyes/light_blue": [
+        "forge-1.20.1"
+      ],
+      "forge:dyes/green": [
+        "forge-1.20.1"
+      ],
+      "forge:dyes/gray": [
+        "forge-1.20.1"
+      ],
+      "forge:dyes/cyan": [
+        "forge-1.20.1"
+      ],
+      "forge:dyes/brown": [
+        "forge-1.20.1"
+      ],
+      "forge:dyes/blue": [
+        "forge-1.20.1"
+      ],
+      "forge:dyes/black": [
+        "forge-1.20.1"
+      ],
+      "forge:dyes": [
+        "forge-1.20.1"
+      ],
+      "forge:dusts/redstone": [
+        "forge-1.20.1"
+      ],
+      "forge:dusts/prismarine": [
+        "forge-1.20.1"
+      ],
+      "forge:dusts/glowstone": [
+        "forge-1.20.1"
+      ],
+      "forge:dusts": [
+        "forge-1.20.1"
+      ],
+      "forge:crops/wheat": [
+        "forge-1.20.1"
+      ],
+      "forge:crops/potato": [
+        "forge-1.20.1"
+      ],
+      "forge:crops/nether_wart": [
+        "forge-1.20.1"
+      ],
+      "forge:crops/carrot": [
+        "forge-1.20.1"
+      ],
+      "forge:crops/beetroot": [
+        "forge-1.20.1"
+      ],
+      "forge:crops": [
+        "forge-1.20.1"
+      ],
+      "forge:cobblestone/normal": [
+        "forge-1.20.1"
+      ],
+      "forge:cobblestone/mossy": [
+        "forge-1.20.1"
+      ],
+      "forge:cobblestone/infested": [
+        "forge-1.20.1"
+      ],
+      "forge:cobblestone/deepslate": [
+        "forge-1.20.1"
+      ],
+      "forge:cobblestone": [
+        "forge-1.20.1"
+      ],
+      "forge:chests/wooden": [
+        "forge-1.20.1"
+      ],
+      "forge:chests/trapped": [
+        "forge-1.20.1"
+      ],
+      "forge:chests/ender": [
+        "forge-1.20.1"
+      ],
+      "forge:chests": [
+        "forge-1.20.1"
+      ],
+      "forge:bookshelves": [
+        "forge-1.20.1"
+      ],
+      "forge:bones": [
+        "forge-1.20.1"
+      ],
+      "forge:barrels/wooden": [
+        "forge-1.20.1"
+      ],
+      "forge:barrels": [
+        "forge-1.20.1"
+      ],
+      "forge:armors/leggings": [
+        "forge-1.20.1"
+      ],
+      "forge:armors/helmets": [
+        "forge-1.20.1"
+      ],
+      "forge:armors/chestplates": [
+        "forge-1.20.1"
+      ],
+      "forge:armors/boots": [
+        "forge-1.20.1"
+      ],
+      "forge:armors": [
+        "forge-1.20.1"
+      ],
+      "c:animal_foods": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:armors": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:barrels": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:barrels/wooden": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:bones": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:bookshelves": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2",
+        "fabric-1.20.1"
+      ],
+      "c:bricks": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:bricks/nether": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:bricks/normal": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:buckets": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:buckets/empty": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:buckets/entity_water": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:buckets/lava": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:buckets/milk": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:buckets/powder_snow": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:buckets/water": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:budding_blocks": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2",
+        "fabric-1.20.1"
+      ],
+      "c:buds": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2",
+        "fabric-1.20.1"
+      ],
+      "c:chains": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:chests": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2",
+        "fabric-1.20.1"
+      ],
+      "c:chests/ender": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:chests/trapped": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:chests/wooden": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:clusters": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2",
+        "fabric-1.20.1"
+      ],
+      "c:cobblestones": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:cobblestones/deepslate": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:cobblestones/infested": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:cobblestones/mossy": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:cobblestones/normal": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:concrete_powders": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:concretes": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:crops": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:crops/beetroot": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:crops/cactus": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:crops/carrot": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:crops/cocoa_bean": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:crops/melon": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:crops/nether_wart": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:crops/potato": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:crops/pumpkin": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:crops/sugar_cane": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:crops/wheat": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:drinks": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:drinks/honey": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:drinks/juice": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:drinks/magic": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:drinks/milk": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:drinks/ominous": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:drinks/water": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:drinks/watery": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dusts": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2",
+        "fabric-1.20.1"
+      ],
+      "c:dusts/glowstone": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dusts/redstone": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyed": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyed/black": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyed/blue": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyed/brown": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyed/cyan": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyed/gray": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyed/green": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyed/light_blue": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyed/light_gray": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyed/lime": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyed/magenta": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyed/orange": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyed/pink": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyed/purple": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyed/red": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyed/white": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyed/yellow": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyes": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2",
+        "fabric-1.20.1"
+      ],
+      "c:dyes/black": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyes/blue": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyes/brown": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyes/cyan": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyes/gray": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyes/green": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyes/light_blue": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyes/light_gray": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyes/lime": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyes/magenta": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyes/orange": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyes/pink": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyes/purple": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyes/red": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyes/white": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyes/yellow": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:eggs": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:enchantables": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:end_stones": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:ender_pearls": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:feathers": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:fence_gates": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:fence_gates/wooden": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:fences": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:fences/nether_brick": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:fences/wooden": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:fertilizers": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:foods": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2",
+        "fabric-1.20.1"
+      ],
+      "c:foods/berry": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:foods/bread": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:foods/candy": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:foods/cooked_fish": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:foods/cooked_meat": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:foods/cookie": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:foods/dough": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:foods/edible_when_placed": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:foods/food_poisoning": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:foods/fruit": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:foods/golden": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:foods/pie": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:foods/raw_fish": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:foods/raw_meat": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:foods/soup": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:foods/vegetable": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:gems": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2",
+        "fabric-1.20.1"
+      ],
+      "c:gems/amethyst": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:gems/diamond": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:gems/emerald": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:gems/lapis": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:gems/prismarine": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:gems/quartz": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:glass_blocks": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2",
+        "fabric-1.20.1"
+      ],
+      "c:glass_blocks/cheap": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:glass_blocks/colorless": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:glass_blocks/tinted": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:glass_panes": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2",
+        "fabric-1.20.1"
+      ],
+      "c:glass_panes/colorless": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:glazed_terracottas": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:gravels": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:gunpowders": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:hidden_from_recipe_viewers": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:ingots": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2",
+        "fabric-1.20.1"
+      ],
+      "c:ingots/copper": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:ingots/gold": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:ingots/iron": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:ingots/netherite": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:leathers": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:loom_patterns": [
+        "neoforge-1.21.1",
+        "fabric-1.21.1"
+      ],
+      "c:mushrooms": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:music_discs": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:nether_stars": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:netherracks": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:nuggets": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2",
+        "fabric-1.20.1"
+      ],
+      "c:nuggets/gold": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:nuggets/iron": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:obsidians": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:obsidians/crying": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:obsidians/normal": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:ore_bearing_ground/deepslate": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:ore_bearing_ground/netherrack": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:ore_bearing_ground/stone": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:ore_rates/dense": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:ore_rates/singular": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:ore_rates/sparse": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:ores": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2",
+        "fabric-1.20.1"
+      ],
+      "c:ores/coal": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:ores/copper": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:ores/diamond": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:ores/emerald": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:ores/gold": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:ores/iron": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:ores/lapis": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:ores/netherite_scrap": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:ores/quartz": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:ores/redstone": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:ores_in_ground/deepslate": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:ores_in_ground/netherrack": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:ores_in_ground/stone": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:player_workstations/crafting_tables": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:player_workstations/furnaces": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:potions": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2",
+        "fabric-1.20.1"
+      ],
+      "c:potions/bottle": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:pumpkins": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:pumpkins/carved": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:pumpkins/jack_o_lanterns": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:pumpkins/normal": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:raw_materials": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:raw_materials/copper": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:raw_materials/gold": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:raw_materials/iron": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:rods": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:rods/blaze": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:rods/breeze": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:rods/wooden": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:ropes": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:sands": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:sands/colorless": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:sands/red": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:sandstone/blocks": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:sandstone/red_blocks": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:sandstone/red_slabs": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:sandstone/red_stairs": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:sandstone/slabs": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:sandstone/stairs": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:sandstone/uncolored_blocks": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:sandstone/uncolored_slabs": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:sandstone/uncolored_stairs": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:seeds": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:seeds/beetroot": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:seeds/melon": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:seeds/pumpkin": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:seeds/torchflower": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:seeds/wheat": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:shulker_boxes": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2",
+        "fabric-1.20.1"
+      ],
+      "c:slime_balls": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:slimeballs": [
+        "neoforge-1.21.1"
+      ],
+      "c:stones": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:storage_blocks": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:storage_blocks/bone_meal": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:storage_blocks/coal": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:storage_blocks/copper": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:storage_blocks/diamond": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:storage_blocks/dried_kelp": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:storage_blocks/emerald": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:storage_blocks/gold": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:storage_blocks/iron": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:storage_blocks/lapis": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:storage_blocks/netherite": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:storage_blocks/raw_copper": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:storage_blocks/raw_gold": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:storage_blocks/raw_iron": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:storage_blocks/redstone": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:storage_blocks/slime": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:storage_blocks/wheat": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:strings": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:stripped_logs": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:stripped_woods": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:tools": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:tools/bow": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:tools/brush": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:tools/crossbow": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:tools/fishing_rod": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:tools/igniter": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:tools/mace": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:tools/melee_weapon": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:tools/mining_tool": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:tools/ranged_weapon": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:tools/shear": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:tools/shield": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:tools/spear": [
+        "neoforge-1.21.1",
+        "fabric-1.21.1"
+      ],
+      "c:tools/wrench": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:villager_job_sites": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2",
+        "fabric-1.20.1"
+      ],
+      "neoforge:enchanting_fuels": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2"
+      ],
+      "c:armors/horse": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:armors/humanoid": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:armors/nautilus": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:armors/wolf": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:bars": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:bars/copper": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:bars/iron": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:bricks/resin": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:clumps": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:clumps/resin": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:drink_containing/bottle": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:drink_containing/bucket": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:flowers": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:flowers/small": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:flowers/tall": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:froglights": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:natural_logs": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:natural_logs/nether": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:natural_logs/overworld": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:natural_woods": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:nuggets/copper": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:seeds/pitcher_plant": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:storage_blocks/resin": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:tools/trident": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "neoforge:piglin_usable_crossbows": [
+        "neoforge-26.1.2",
+        "neoforge-26.2"
+      ],
+      "neoforge:pillager_usable_crossbows": [
+        "neoforge-26.1.2",
+        "neoforge-26.2"
+      ],
+      "neoforge:skeleton_usable_bows": [
+        "neoforge-26.1.2",
+        "neoforge-26.2"
+      ],
+      "c:buckets/entity_dry": [
+        "neoforge-26.2",
+        "fabric-26.2"
+      ],
+      "c:coal": [
+        "fabric-1.21.1",
+        "fabric-1.20.1"
+      ],
+      "c:concrete": [
+        "fabric-1.21.1"
+      ],
+      "c:concrete_powder": [
+        "fabric-1.21.1"
+      ],
+      "c:foods/berries": [
+        "fabric-1.21.1"
+      ],
+      "c:foods/breads": [
+        "fabric-1.21.1"
+      ],
+      "c:foods/candies": [
+        "fabric-1.21.1"
+      ],
+      "c:foods/cooked_fishes": [
+        "fabric-1.21.1"
+      ],
+      "c:foods/cooked_meats": [
+        "fabric-1.21.1"
+      ],
+      "c:foods/cookies": [
+        "fabric-1.21.1"
+      ],
+      "c:foods/fruits": [
+        "fabric-1.21.1"
+      ],
+      "c:foods/raw_fishes": [
+        "fabric-1.21.1"
+      ],
+      "c:foods/raw_meats": [
+        "fabric-1.21.1"
+      ],
+      "c:foods/soups": [
+        "fabric-1.21.1"
+      ],
+      "c:foods/vegetables": [
+        "fabric-1.21.1"
+      ],
+      "c:glazed_terracotta": [
+        "fabric-1.21.1"
+      ],
+      "c:raw_blocks": [
+        "fabric-1.21.1"
+      ],
+      "c:raw_blocks/copper": [
+        "fabric-1.21.1"
+      ],
+      "c:raw_blocks/gold": [
+        "fabric-1.21.1"
+      ],
+      "c:raw_blocks/iron": [
+        "fabric-1.21.1"
+      ],
+      "c:tools/bows": [
+        "fabric-1.21.1"
+      ],
+      "c:tools/brushes": [
+        "fabric-1.21.1"
+      ],
+      "c:tools/crossbows": [
+        "fabric-1.21.1"
+      ],
+      "c:tools/fishing_rods": [
+        "fabric-1.21.1"
+      ],
+      "c:tools/melee_weapons": [
+        "fabric-1.21.1"
+      ],
+      "c:tools/mining_tools": [
+        "fabric-1.21.1"
+      ],
+      "c:tools/ranged_weapons": [
+        "fabric-1.21.1"
+      ],
+      "c:tools/shears": [
+        "fabric-1.21.1"
+      ],
+      "c:tools/shields": [
+        "fabric-1.21.1"
+      ],
+      "c:tools/spears": [
+        "fabric-1.21.1"
+      ],
+      "c:yellow_dyes": [
+        "fabric-1.20.1"
+      ],
+      "c:wooden_barrels": [
+        "fabric-1.20.1"
+      ],
+      "c:white_dyes": [
+        "fabric-1.20.1"
+      ],
+      "c:water_buckets": [
+        "fabric-1.20.1"
+      ],
+      "c:uncolored_sandstone_stairs": [
+        "fabric-1.20.1"
+      ],
+      "c:uncolored_sandstone_slabs": [
+        "fabric-1.20.1"
+      ],
+      "c:uncolored_sandstone_blocks": [
+        "fabric-1.20.1"
+      ],
+      "c:swords": [
+        "fabric-1.20.1"
+      ],
+      "c:spears": [
+        "fabric-1.20.1"
+      ],
+      "c:shovels": [
+        "fabric-1.20.1"
+      ],
+      "c:shields": [
+        "fabric-1.20.1"
+      ],
+      "c:shears": [
+        "fabric-1.20.1"
+      ],
+      "c:sandstone_stairs": [
+        "fabric-1.20.1"
+      ],
+      "c:sandstone_slabs": [
+        "fabric-1.20.1"
+      ],
+      "c:sandstone_blocks": [
+        "fabric-1.20.1"
+      ],
+      "c:redstone_dusts": [
+        "fabric-1.20.1"
+      ],
+      "c:red_sandstone_stairs": [
+        "fabric-1.20.1"
+      ],
+      "c:red_sandstone_slabs": [
+        "fabric-1.20.1"
+      ],
+      "c:red_sandstone_blocks": [
+        "fabric-1.20.1"
+      ],
+      "c:red_dyes": [
+        "fabric-1.20.1"
+      ],
+      "c:raw_ores": [
+        "fabric-1.20.1"
+      ],
+      "c:raw_iron_ores": [
+        "fabric-1.20.1"
+      ],
+      "c:raw_iron_blocks": [
+        "fabric-1.20.1"
+      ],
+      "c:raw_gold_ores": [
+        "fabric-1.20.1"
+      ],
+      "c:raw_gold_blocks": [
+        "fabric-1.20.1"
+      ],
+      "c:raw_copper_ores": [
+        "fabric-1.20.1"
+      ],
+      "c:raw_copper_blocks": [
+        "fabric-1.20.1"
+      ],
+      "c:quartz_ores": [
+        "fabric-1.20.1"
+      ],
+      "c:quartz": [
+        "fabric-1.20.1"
+      ],
+      "c:purple_dyes": [
+        "fabric-1.20.1"
+      ],
+      "c:pink_dyes": [
+        "fabric-1.20.1"
+      ],
+      "c:pickaxes": [
+        "fabric-1.20.1"
+      ],
+      "c:orange_dyes": [
+        "fabric-1.20.1"
+      ],
+      "c:netherite_ingots": [
+        "fabric-1.20.1"
+      ],
+      "c:milk_buckets": [
+        "fabric-1.20.1"
+      ],
+      "c:magenta_dyes": [
+        "fabric-1.20.1"
+      ],
+      "c:lime_dyes": [
+        "fabric-1.20.1"
+      ],
+      "c:light_gray_dyes": [
+        "fabric-1.20.1"
+      ],
+      "c:light_blue_dyes": [
+        "fabric-1.20.1"
+      ],
+      "c:lava_buckets": [
+        "fabric-1.20.1"
+      ],
+      "c:lapis": [
+        "fabric-1.20.1"
+      ],
+      "c:iron_ingots": [
+        "fabric-1.20.1"
+      ],
+      "c:hoes": [
+        "fabric-1.20.1"
+      ],
+      "c:green_dyes": [
+        "fabric-1.20.1"
+      ],
+      "c:gray_dyes": [
+        "fabric-1.20.1"
+      ],
+      "c:gold_ingots": [
+        "fabric-1.20.1"
+      ],
+      "c:entity_water_buckets": [
+        "fabric-1.20.1"
+      ],
+      "c:empty_buckets": [
+        "fabric-1.20.1"
+      ],
+      "c:emeralds": [
+        "fabric-1.20.1"
+      ],
+      "c:diamonds": [
+        "fabric-1.20.1"
+      ],
+      "c:cyan_dyes": [
+        "fabric-1.20.1"
+      ],
+      "c:copper_ingots": [
+        "fabric-1.20.1"
+      ],
+      "c:brown_dyes": [
+        "fabric-1.20.1"
+      ],
+      "c:bows": [
+        "fabric-1.20.1"
+      ],
+      "c:blue_dyes": [
+        "fabric-1.20.1"
+      ],
+      "c:black_dyes": [
+        "fabric-1.20.1"
+      ],
+      "c:axes": [
+        "fabric-1.20.1"
+      ]
+    },
+    "fluid": {
+      "forge:milk": [
+        "forge-1.20.1"
+      ],
+      "c:beetroot_soup": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:experience": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:gaseous": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:hidden_from_recipe_viewers": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:honey": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:lava": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2",
+        "fabric-1.20.1"
+      ],
+      "c:milk": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:mushroom_stew": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:potion": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:rabbit_stew": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:suspicious_stew": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:water": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2",
+        "fabric-1.20.1"
+      ]
+    },
+    "entity_type": {
+      "forge:bosses": [
+        "forge-1.20.1"
+      ],
+      "c:boats": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2",
+        "fabric-1.20.1"
+      ],
+      "c:bosses": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2",
+        "fabric-1.20.1"
+      ],
+      "c:capturing_not_supported": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:minecarts": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2",
+        "fabric-1.20.1"
+      ],
+      "c:teleporting_not_supported": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:item_frames": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ]
+    },
+    "block": {
+      "forge:storage_blocks/redstone": [
+        "forge-1.20.1"
+      ],
+      "forge:storage_blocks/raw_iron": [
+        "forge-1.20.1"
+      ],
+      "forge:storage_blocks/raw_gold": [
+        "forge-1.20.1"
+      ],
+      "forge:storage_blocks/raw_copper": [
+        "forge-1.20.1"
+      ],
+      "forge:storage_blocks/quartz": [
+        "forge-1.20.1"
+      ],
+      "forge:storage_blocks/netherite": [
+        "forge-1.20.1"
+      ],
+      "forge:storage_blocks/lapis": [
+        "forge-1.20.1"
+      ],
+      "forge:storage_blocks/iron": [
+        "forge-1.20.1"
+      ],
+      "forge:storage_blocks/gold": [
+        "forge-1.20.1"
+      ],
+      "forge:storage_blocks/emerald": [
+        "forge-1.20.1"
+      ],
+      "forge:storage_blocks/diamond": [
+        "forge-1.20.1"
+      ],
+      "forge:storage_blocks/copper": [
+        "forge-1.20.1"
+      ],
+      "forge:storage_blocks/coal": [
+        "forge-1.20.1"
+      ],
+      "forge:storage_blocks/amethyst": [
+        "forge-1.20.1"
+      ],
+      "forge:storage_blocks": [
+        "forge-1.20.1"
+      ],
+      "forge:stone": [
+        "forge-1.20.1"
+      ],
+      "forge:stained_glass_panes": [
+        "forge-1.20.1"
+      ],
+      "forge:stained_glass": [
+        "forge-1.20.1"
+      ],
+      "forge:sandstone": [
+        "forge-1.20.1"
+      ],
+      "forge:sand/red": [
+        "forge-1.20.1"
+      ],
+      "forge:sand/colorless": [
+        "forge-1.20.1"
+      ],
+      "forge:sand": [
+        "forge-1.20.1"
+      ],
+      "forge:ores_in_ground/stone": [
+        "forge-1.20.1"
+      ],
+      "forge:ores_in_ground/netherrack": [
+        "forge-1.20.1"
+      ],
+      "forge:ores_in_ground/deepslate": [
+        "forge-1.20.1"
+      ],
+      "forge:ores/redstone": [
+        "forge-1.20.1"
+      ],
+      "forge:ores/quartz": [
+        "forge-1.20.1"
+      ],
+      "forge:ores/netherite_scrap": [
+        "forge-1.20.1"
+      ],
+      "forge:ores/lapis": [
+        "forge-1.20.1"
+      ],
+      "forge:ores/iron": [
+        "forge-1.20.1"
+      ],
+      "forge:ores/gold": [
+        "forge-1.20.1"
+      ],
+      "forge:ores/emerald": [
+        "forge-1.20.1"
+      ],
+      "forge:ores/diamond": [
+        "forge-1.20.1"
+      ],
+      "forge:ores/copper": [
+        "forge-1.20.1"
+      ],
+      "forge:ores/coal": [
+        "forge-1.20.1"
+      ],
+      "forge:ores": [
+        "forge-1.20.1"
+      ],
+      "forge:ore_rates/sparse": [
+        "forge-1.20.1"
+      ],
+      "forge:ore_rates/singular": [
+        "forge-1.20.1"
+      ],
+      "forge:ore_rates/dense": [
+        "forge-1.20.1"
+      ],
+      "forge:ore_bearing_ground/stone": [
+        "forge-1.20.1"
+      ],
+      "forge:ore_bearing_ground/netherrack": [
+        "forge-1.20.1"
+      ],
+      "forge:ore_bearing_ground/deepslate": [
+        "forge-1.20.1"
+      ],
+      "forge:obsidian": [
+        "forge-1.20.1"
+      ],
+      "forge:netherrack": [
+        "forge-1.20.1"
+      ],
+      "forge:gravel": [
+        "forge-1.20.1"
+      ],
+      "forge:glass_panes/yellow": [
+        "forge-1.20.1"
+      ],
+      "forge:glass_panes/white": [
+        "forge-1.20.1"
+      ],
+      "forge:glass_panes/red": [
+        "forge-1.20.1"
+      ],
+      "forge:glass_panes/purple": [
+        "forge-1.20.1"
+      ],
+      "forge:glass_panes/pink": [
+        "forge-1.20.1"
+      ],
+      "forge:glass_panes/orange": [
+        "forge-1.20.1"
+      ],
+      "forge:glass_panes/magenta": [
+        "forge-1.20.1"
+      ],
+      "forge:glass_panes/lime": [
+        "forge-1.20.1"
+      ],
+      "forge:glass_panes/light_gray": [
+        "forge-1.20.1"
+      ],
+      "forge:glass_panes/light_blue": [
+        "forge-1.20.1"
+      ],
+      "forge:glass_panes/green": [
+        "forge-1.20.1"
+      ],
+      "forge:glass_panes/gray": [
+        "forge-1.20.1"
+      ],
+      "forge:glass_panes/cyan": [
+        "forge-1.20.1"
+      ],
+      "forge:glass_panes/colorless": [
+        "forge-1.20.1"
+      ],
+      "forge:glass_panes/brown": [
+        "forge-1.20.1"
+      ],
+      "forge:glass_panes/blue": [
+        "forge-1.20.1"
+      ],
+      "forge:glass_panes/black": [
+        "forge-1.20.1"
+      ],
+      "forge:glass_panes": [
+        "forge-1.20.1"
+      ],
+      "forge:glass/yellow": [
+        "forge-1.20.1"
+      ],
+      "forge:glass/white": [
+        "forge-1.20.1"
+      ],
+      "forge:glass/tinted": [
+        "forge-1.20.1"
+      ],
+      "forge:glass/silica": [
+        "forge-1.20.1"
+      ],
+      "forge:glass/red": [
+        "forge-1.20.1"
+      ],
+      "forge:glass/purple": [
+        "forge-1.20.1"
+      ],
+      "forge:glass/pink": [
+        "forge-1.20.1"
+      ],
+      "forge:glass/orange": [
+        "forge-1.20.1"
+      ],
+      "forge:glass/magenta": [
+        "forge-1.20.1"
+      ],
+      "forge:glass/lime": [
+        "forge-1.20.1"
+      ],
+      "forge:glass/light_gray": [
+        "forge-1.20.1"
+      ],
+      "forge:glass/light_blue": [
+        "forge-1.20.1"
+      ],
+      "forge:glass/green": [
+        "forge-1.20.1"
+      ],
+      "forge:glass/gray": [
+        "forge-1.20.1"
+      ],
+      "forge:glass/cyan": [
+        "forge-1.20.1"
+      ],
+      "forge:glass/colorless": [
+        "forge-1.20.1"
+      ],
+      "forge:glass/brown": [
+        "forge-1.20.1"
+      ],
+      "forge:glass/blue": [
+        "forge-1.20.1"
+      ],
+      "forge:glass/black": [
+        "forge-1.20.1"
+      ],
+      "forge:glass": [
+        "forge-1.20.1"
+      ],
+      "forge:fences/wooden": [
+        "forge-1.20.1"
+      ],
+      "forge:fences/nether_brick": [
+        "forge-1.20.1"
+      ],
+      "forge:fences": [
+        "forge-1.20.1"
+      ],
+      "forge:fence_gates/wooden": [
+        "forge-1.20.1"
+      ],
+      "forge:fence_gates": [
+        "forge-1.20.1"
+      ],
+      "forge:enderman_place_on_blacklist": [
+        "forge-1.20.1"
+      ],
+      "forge:end_stones": [
+        "forge-1.20.1"
+      ],
+      "forge:cobblestone/normal": [
+        "forge-1.20.1"
+      ],
+      "forge:cobblestone/mossy": [
+        "forge-1.20.1"
+      ],
+      "forge:cobblestone/infested": [
+        "forge-1.20.1"
+      ],
+      "forge:cobblestone/deepslate": [
+        "forge-1.20.1"
+      ],
+      "forge:cobblestone": [
+        "forge-1.20.1"
+      ],
+      "forge:chests/wooden": [
+        "forge-1.20.1"
+      ],
+      "forge:chests/trapped": [
+        "forge-1.20.1"
+      ],
+      "forge:chests/ender": [
+        "forge-1.20.1"
+      ],
+      "forge:chests": [
+        "forge-1.20.1"
+      ],
+      "forge:bookshelves": [
+        "forge-1.20.1"
+      ],
+      "forge:barrels/wooden": [
+        "forge-1.20.1"
+      ],
+      "forge:barrels": [
+        "forge-1.20.1"
+      ],
+      "c:barrels": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:barrels/wooden": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:bookshelves": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2",
+        "fabric-1.20.1"
+      ],
+      "c:budding_blocks": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2",
+        "fabric-1.20.1"
+      ],
+      "c:buds": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2",
+        "fabric-1.20.1"
+      ],
+      "c:chains": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:chests": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2",
+        "fabric-1.20.1"
+      ],
+      "c:chests/ender": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:chests/trapped": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:chests/wooden": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:clusters": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2",
+        "fabric-1.20.1"
+      ],
+      "c:cobblestones": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:cobblestones/deepslate": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:cobblestones/infested": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:cobblestones/mossy": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:cobblestones/normal": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:concretes": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyed": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyed/black": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyed/blue": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyed/brown": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyed/cyan": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyed/gray": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyed/green": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyed/light_blue": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyed/light_gray": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyed/lime": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyed/magenta": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyed/orange": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyed/pink": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyed/purple": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyed/red": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyed/white": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:dyed/yellow": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:end_stones": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:fence_gates": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:fence_gates/wooden": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:fences": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:fences/nether_brick": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:fences/wooden": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:glass_blocks": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2",
+        "fabric-1.20.1"
+      ],
+      "c:glass_blocks/cheap": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:glass_blocks/colorless": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:glass_blocks/tinted": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:glass_panes": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2",
+        "fabric-1.20.1"
+      ],
+      "c:glass_panes/colorless": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:glazed_terracottas": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:gravels": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:hidden_from_recipe_viewers": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:netherracks": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:obsidians": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:obsidians/crying": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:obsidians/normal": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:ore_bearing_ground/deepslate": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:ore_bearing_ground/netherrack": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:ore_bearing_ground/stone": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:ore_rates/dense": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:ore_rates/singular": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:ore_rates/sparse": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:ores": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2",
+        "fabric-1.20.1"
+      ],
+      "c:ores/coal": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:ores/copper": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:ores/diamond": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:ores/emerald": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:ores/gold": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:ores/iron": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:ores/lapis": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:ores/netherite_scrap": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:ores/quartz": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:ores/redstone": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:ores_in_ground/deepslate": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:ores_in_ground/netherrack": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:ores_in_ground/stone": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:player_workstations/crafting_tables": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:player_workstations/furnaces": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:pumpkins": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:pumpkins/carved": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:pumpkins/jack_o_lanterns": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:pumpkins/normal": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:relocation_not_supported": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:ropes": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:sands": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:sands/colorless": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:sands/red": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:sandstone/blocks": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:sandstone/red_blocks": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:sandstone/red_slabs": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:sandstone/red_stairs": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:sandstone/slabs": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:sandstone/stairs": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:sandstone/uncolored_blocks": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:sandstone/uncolored_slabs": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:sandstone/uncolored_stairs": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:skulls": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:stones": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:storage_blocks": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:storage_blocks/bone_meal": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:storage_blocks/coal": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:storage_blocks/copper": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:storage_blocks/diamond": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:storage_blocks/dried_kelp": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:storage_blocks/emerald": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:storage_blocks/gold": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:storage_blocks/iron": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:storage_blocks/lapis": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:storage_blocks/netherite": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:storage_blocks/raw_copper": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:storage_blocks/raw_gold": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:storage_blocks/raw_iron": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:storage_blocks/redstone": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:storage_blocks/slime": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:storage_blocks/wheat": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:stripped_logs": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:stripped_woods": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:villager_job_sites": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2",
+        "fabric-1.20.1"
+      ],
+      "neoforge:enderman_place_on_blacklist": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2"
+      ],
+      "neoforge:needs_netherite_tool": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2"
+      ],
+      "neoforge:villager_farmlands": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2"
+      ],
+      "c:bars": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:bars/copper": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:bars/iron": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:flowers": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:flowers/small": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:flowers/tall": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:froglights": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:natural_logs": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:natural_logs/nether": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:natural_logs/overworld": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:natural_woods": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:storage_blocks/resin": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:concrete": [
+        "fabric-1.21.1"
+      ],
+      "c:glazed_terracotta": [
+        "fabric-1.21.1"
+      ],
+      "c:wooden_barrels": [
+        "fabric-1.20.1"
+      ],
+      "c:uncolored_sandstone_stairs": [
+        "fabric-1.20.1"
+      ],
+      "c:uncolored_sandstone_slabs": [
+        "fabric-1.20.1"
+      ],
+      "c:uncolored_sandstone_blocks": [
+        "fabric-1.20.1"
+      ],
+      "c:shulker_boxes": [
+        "fabric-1.20.1"
+      ],
+      "c:sandstone_stairs": [
+        "fabric-1.20.1"
+      ],
+      "c:sandstone_slabs": [
+        "fabric-1.20.1"
+      ],
+      "c:sandstone_blocks": [
+        "fabric-1.20.1"
+      ],
+      "c:red_sandstone_stairs": [
+        "fabric-1.20.1"
+      ],
+      "c:red_sandstone_slabs": [
+        "fabric-1.20.1"
+      ],
+      "c:red_sandstone_blocks": [
+        "fabric-1.20.1"
+      ],
+      "c:quartz_ores": [
+        "fabric-1.20.1"
+      ]
+    },
+    "enchantment": {
+      "c:entity_auxiliary_movement_enhancements": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:entity_defense_enhancements": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:entity_speed_enhancements": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:increase_block_drops": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:increase_entity_drops": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:weapon_damage_enhancements": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:hidden_from_recipe_viewers": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:weapon_damage_enhancement": [
+        "fabric-1.20.1"
+      ],
+      "c:looting": [
+        "fabric-1.20.1"
+      ],
+      "c:fortune": [
+        "fabric-1.20.1"
+      ],
+      "c:entity_movement_enhancement": [
+        "fabric-1.20.1"
+      ],
+      "c:entity_defense_enhancement": [
+        "fabric-1.20.1"
+      ]
+    },
+    "worldgen/structure": {
+      "c:hidden_from_displayers": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ],
+      "c:hidden_from_locator_selection": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-1.21.1",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ]
+    },
+    "damage_type": {
+      "neoforge:is_environment": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2"
+      ],
+      "neoforge:is_magic": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2"
+      ],
+      "neoforge:is_physical": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2"
+      ],
+      "neoforge:is_poison": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2"
+      ],
+      "neoforge:is_technical": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2"
+      ],
+      "neoforge:is_wither": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2"
+      ],
+      "neoforge:no_flinch": [
+        "neoforge-1.21.1",
+        "neoforge-26.1.2",
+        "neoforge-26.2"
+      ]
+    },
+    "potion": {
+      "c:hidden_from_recipe_viewers": [
+        "neoforge-26.1.2",
+        "neoforge-26.2",
+        "fabric-26.1.2",
+        "fabric-26.2"
+      ]
+    },
+    "world_clock": {
+      "neoforge:ignores/pause_command": [
+        "neoforge-26.1.2",
+        "neoforge-26.2"
+      ],
+      "neoforge:ignores/advance_time_rule": [
+        "neoforge-26.1.2",
+        "neoforge-26.2"
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:note_block_sound": "The sound event a note block plays when this player head is placed on top of it."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:note_block_sound": "将该玩家头颅放在音符盒上时音符盒播放的声音事件。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:note_block_sound": "Das Geräuschereignis, das ein Notenblock spielt, wenn dieser Spielerkopf darauf gesetzt wird."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:note_block_sound": "このプレイヤーの頭を上に置いたときに音符ブロックが再生するサウンドイベント。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:note_block_sound": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

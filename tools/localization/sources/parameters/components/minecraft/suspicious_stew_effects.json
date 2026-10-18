@@ -1,0 +1,66 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:suspicious_stew_effects": "The unamplified mob effects applied when this item is consumed.",
+    "command_translation.help.component.minecraft:suspicious_stew_effects.field.id": "The ID of the effect.",
+    "command_translation.help.component.minecraft:suspicious_stew_effects.field.duration": "The effect duration in ticks."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:suspicious_stew_effects": "食用该物品时施加的无等级生物效果。",
+    "command_translation.help.component.minecraft:suspicious_stew_effects.field.id": "效果的 ID。",
+    "command_translation.help.component.minecraft:suspicious_stew_effects.field.duration": "效果持续时间（刻）。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:suspicious_stew_effects": "Die unverstärkten Mob-Effekte, die beim Verzehr dieses Items angewendet werden.",
+    "command_translation.help.component.minecraft:suspicious_stew_effects.field.id": "Die ID des Effekts.",
+    "command_translation.help.component.minecraft:suspicious_stew_effects.field.duration": "Die Wirkungsdauer in Ticks."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:suspicious_stew_effects": "このアイテムを消費したときに付与される強度なしのMob効果。",
+    "command_translation.help.component.minecraft:suspicious_stew_effects.field.id": "効果のID。",
+    "command_translation.help.component.minecraft:suspicious_stew_effects.field.duration": "効果の持続時間（ティック）。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:suspicious_stew_effects": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:suspicious_stew_effects.field.id": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:suspicious_stew_effects.field.duration": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

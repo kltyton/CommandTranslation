@@ -1,0 +1,26 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:break_sound": "The sound played when the item runs out of durability and breaks."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:break_sound": "物品耐久耗尽损坏时播放的声音。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:break_sound": "Der Klang, der beim Zerbrechen des Items nach Verbrauch der Haltbarkeit abgespielt wird."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:break_sound": "耐久が尽きて壊れたときに再生される音。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:break_sound": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

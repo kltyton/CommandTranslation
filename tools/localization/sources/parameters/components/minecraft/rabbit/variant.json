@@ -1,0 +1,30 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:rabbit/variant": "The rabbit’s appearance variant."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:rabbit/variant": "兔子的外观变种。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:rabbit/variant": "Die Erscheinungsvariante des Kaninchens."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:rabbit/variant": "ウサギの見た目のバリエーション。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:rabbit/variant": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ]
+  }
+}

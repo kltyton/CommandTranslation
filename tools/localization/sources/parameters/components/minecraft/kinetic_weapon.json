@@ -1,0 +1,138 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:kinetic_weapon": "Enables a charge attack that deals damage based on relative speed.",
+    "command_translation.help.component.minecraft:kinetic_weapon.field.delay_ticks": "The ticks required before the weapon becomes effective.",
+    "command_translation.help.component.minecraft:kinetic_weapon.field.damage_conditions": "The conditions under which the charge attack deals damage.",
+    "command_translation.help.component.minecraft:kinetic_weapon.field.dismount_conditions": "The conditions under which the charge attack dismounts the target.",
+    "command_translation.help.component.minecraft:kinetic_weapon.field.knockback_conditions": "The conditions under which the charge attack deals knockback.",
+    "command_translation.help.component.minecraft:kinetic_weapon.field.forward_movement": "The distance the item moves forward during its animation.",
+    "command_translation.help.component.minecraft:kinetic_weapon.field.damage_multiplier": "The multiplier applied to damage from relative speed.",
+    "command_translation.help.component.minecraft:kinetic_weapon.field.sound": "The sound event played when the weapon is engaged.",
+    "command_translation.help.component.minecraft:kinetic_weapon.field.hit_sound": "The sound event played when the weapon hits an entity."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:kinetic_weapon": "启用依据相对速度造成伤害的蓄力攻击。",
+    "command_translation.help.component.minecraft:kinetic_weapon.field.delay_ticks": "武器生效前所需的刻数。",
+    "command_translation.help.component.minecraft:kinetic_weapon.field.damage_conditions": "蓄力攻击造成伤害的条件。",
+    "command_translation.help.component.minecraft:kinetic_weapon.field.dismount_conditions": "蓄力攻击使目标下马的条件。",
+    "command_translation.help.component.minecraft:kinetic_weapon.field.knockback_conditions": "蓄力攻击造成击退的条件。",
+    "command_translation.help.component.minecraft:kinetic_weapon.field.forward_movement": "动画中物品向前移动的距离。",
+    "command_translation.help.component.minecraft:kinetic_weapon.field.damage_multiplier": "相对速度伤害的倍率。",
+    "command_translation.help.component.minecraft:kinetic_weapon.field.sound": "武器进入蓄力状态时播放的声音事件。",
+    "command_translation.help.component.minecraft:kinetic_weapon.field.hit_sound": "武器命中实体时播放的声音事件。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:kinetic_weapon": "Ermöglicht einen Aufladeangriff, dessen Schaden von der Relativgeschwindigkeit abhängt.",
+    "command_translation.help.component.minecraft:kinetic_weapon.field.delay_ticks": "Die Ticks, bevor die Waffe wirksam wird.",
+    "command_translation.help.component.minecraft:kinetic_weapon.field.damage_conditions": "Die Bedingungen, unter denen der Aufladeangriff Schaden verursacht.",
+    "command_translation.help.component.minecraft:kinetic_weapon.field.dismount_conditions": "Die Bedingungen, unter denen der Aufladeangriff das Ziel absteigen lässt.",
+    "command_translation.help.component.minecraft:kinetic_weapon.field.knockback_conditions": "Die Bedingungen, unter denen der Aufladeangriff Rückstoß verursacht.",
+    "command_translation.help.component.minecraft:kinetic_weapon.field.forward_movement": "Die Strecke, die das Item während seiner Animation nach vorn bewegt wird.",
+    "command_translation.help.component.minecraft:kinetic_weapon.field.damage_multiplier": "Der Faktor für den Schaden aus der Relativgeschwindigkeit.",
+    "command_translation.help.component.minecraft:kinetic_weapon.field.sound": "Das Geräuschereignis beim Aktivieren der Waffe.",
+    "command_translation.help.component.minecraft:kinetic_weapon.field.hit_sound": "Das Geräuschereignis, wenn die Waffe eine Entität trifft."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:kinetic_weapon": "相対速度に応じたダメージを与えるチャージ攻撃を可能にする。",
+    "command_translation.help.component.minecraft:kinetic_weapon.field.delay_ticks": "武器が有効になるまでに必要なティック数。",
+    "command_translation.help.component.minecraft:kinetic_weapon.field.damage_conditions": "チャージ攻撃がダメージを与える条件。",
+    "command_translation.help.component.minecraft:kinetic_weapon.field.dismount_conditions": "チャージ攻撃が対象を降ろす条件。",
+    "command_translation.help.component.minecraft:kinetic_weapon.field.knockback_conditions": "チャージ攻撃がノックバックを与える条件。",
+    "command_translation.help.component.minecraft:kinetic_weapon.field.forward_movement": "アニメーション中にアイテムが前方へ動く距離。",
+    "command_translation.help.component.minecraft:kinetic_weapon.field.damage_multiplier": "相対速度によるダメージの倍率。",
+    "command_translation.help.component.minecraft:kinetic_weapon.field.sound": "武器の構え時コング再生されるサウンドイベント。",
+    "command_translation.help.component.minecraft:kinetic_weapon.field.hit_sound": "武器がエンティティに命中したときのサウンドイベント。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:kinetic_weapon": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:kinetic_weapon.field.delay_ticks": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:kinetic_weapon.field.damage_conditions": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:kinetic_weapon.field.dismount_conditions": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:kinetic_weapon.field.knockback_conditions": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:kinetic_weapon.field.forward_movement": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:kinetic_weapon.field.damage_multiplier": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:kinetic_weapon.field.sound": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:kinetic_weapon.field.hit_sound": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

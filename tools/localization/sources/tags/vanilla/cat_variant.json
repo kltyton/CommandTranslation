@@ -1,0 +1,32 @@
+{
+  "en_us": {
+    "command_translation.tag.cat_variant.minecraft.default_spawns": "Normally spawning cat variants",
+    "command_translation.tag.cat_variant.minecraft.full_moon_spawns": "Cat variants available at full moon"
+  },
+  "zh_cn": {
+    "command_translation.tag.cat_variant.minecraft.default_spawns": "通常可生成的猫变种",
+    "command_translation.tag.cat_variant.minecraft.full_moon_spawns": "满月时可生成的猫变种"
+  },
+  "de_de": {
+    "command_translation.tag.cat_variant.minecraft.default_spawns": "Normalerweise erscheinende Katzenvarianten",
+    "command_translation.tag.cat_variant.minecraft.full_moon_spawns": "Bei Vollmond mögliche Katzenvarianten"
+  },
+  "ja_jp": {
+    "command_translation.tag.cat_variant.minecraft.default_spawns": "通常スポーンするネコの種類",
+    "command_translation.tag.cat_variant.minecraft.full_moon_spawns": "満月時にスポーンできるネコの種類"
+  },
+  "sources": {
+    "command_translation.tag.cat_variant.minecraft.default_spawns": [
+      {
+        "url": "https://minecraft.wiki/w/Cat%20variant%20tag%20(Java%20Edition)",
+        "revision": 3839214
+      }
+    ],
+    "command_translation.tag.cat_variant.minecraft.full_moon_spawns": [
+      {
+        "url": "https://minecraft.wiki/w/Cat%20variant%20tag%20(Java%20Edition)",
+        "revision": 3839214
+      }
+    ]
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:blocks_attacks": "Lets the item be used like a shield to block attacks.",
+    "command_translation.help.component.minecraft:blocks_attacks.field.block_delay_seconds": "The time in seconds use must be held before blocking works.",
+    "command_translation.help.component.minecraft:blocks_attacks.field.disable_cooldown_scale": "The multiplier applied to the disable cooldown after a disabling attack.",
+    "command_translation.help.component.minecraft:blocks_attacks.field.damage_reductions": "The rules for how much and which damage is blocked.",
+    "command_translation.help.component.minecraft:blocks_attacks.field.damage_reductions.type": "The damage types this rule blocks.",
+    "command_translation.help.component.minecraft:blocks_attacks.field.damage_reductions.base": "The constant amount of damage blocked.",
+    "command_translation.help.component.minecraft:blocks_attacks.field.damage_reductions.factor": "The fraction of incoming damage blocked.",
+    "command_translation.help.component.minecraft:blocks_attacks.field.damage_reductions.horizontal_blocking_angle": "The maximum angle between facing direction and attack for blocking.",
+    "command_translation.help.component.minecraft:blocks_attacks.field.item_damage": "How much damage the item takes from an attack.",
+    "command_translation.help.component.minecraft:blocks_attacks.field.item_damage.threshold": "The minimum attack damage needed before the item is damaged.",
+    "command_translation.help.component.minecraft:blocks_attacks.field.item_damage.base": "The constant durability damage applied once the threshold is passed."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:blocks_attacks": "使物品能像盾牌一样格挡攻击。",
+    "command_translation.help.component.minecraft:blocks_attacks.field.block_delay_seconds": "格挡生效前需持续使用的时间（秒）。",
+    "command_translation.help.component.minecraft:blocks_attacks.field.disable_cooldown_scale": "被破盾攻击后冷却时间的倍率。",
+    "command_translation.help.component.minecraft:blocks_attacks.field.damage_reductions": "可格挡的伤害种类与减免规则。",
+    "command_translation.help.component.minecraft:blocks_attacks.field.damage_reductions.type": "该规则格挡的伤害类型。",
+    "command_translation.help.component.minecraft:blocks_attacks.field.damage_reductions.base": "固定格挡的伤害量。",
+    "command_translation.help.component.minecraft:blocks_attacks.field.damage_reductions.factor": "按比例格挡的伤害份额。",
+    "command_translation.help.component.minecraft:blocks_attacks.field.damage_reductions.horizontal_blocking_angle": "朝向与来袭方向间可格挡的最大夹角。",
+    "command_translation.help.component.minecraft:blocks_attacks.field.item_damage": "一次攻击对物品造成的耐久损耗。",
+    "command_translation.help.component.minecraft:blocks_attacks.field.item_damage.threshold": "开始损耗物品耐久所需的最低攻击伤害。",
+    "command_translation.help.component.minecraft:blocks_attacks.field.item_damage.base": "超过阈值后固定损耗的耐久值。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:blocks_attacks": "Lässt das Item wie einen Schild Angriffe blocken.",
+    "command_translation.help.component.minecraft:blocks_attacks.field.block_delay_seconds": "Die Zeit in Sekunden, die vor dem Blocken gehalten werden muss.",
+    "command_translation.help.component.minecraft:blocks_attacks.field.disable_cooldown_scale": "Der Faktor für die Deaktivierungs-Abklingzeit nach einem Deaktivierungsangriff.",
+    "command_translation.help.component.minecraft:blocks_attacks.field.damage_reductions": "Die Regeln, wie viel und welcher Schaden geblockt wird.",
+    "command_translation.help.component.minecraft:blocks_attacks.field.damage_reductions.type": "Die Schadenstypen, die diese Regel blockt.",
+    "command_translation.help.component.minecraft:blocks_attacks.field.damage_reductions.base": "Der konstante geblockte Schadensbetrag.",
+    "command_translation.help.component.minecraft:blocks_attacks.field.damage_reductions.factor": "Der Anteil des eingehenden Schadens, der geblockt wird.",
+    "command_translation.help.component.minecraft:blocks_attacks.field.damage_reductions.horizontal_blocking_angle": "Der maximale Winkel zwischen Blickrichtung und Angriff zum Blocken.",
+    "command_translation.help.component.minecraft:blocks_attacks.field.item_damage": "Wie viel Schaden das Item durch einen Angriff nimmt.",
+    "command_translation.help.component.minecraft:blocks_attacks.field.item_damage.threshold": "Der Mindestangriffsschaden, bevor das Item beschädigt wird.",
+    "command_translation.help.component.minecraft:blocks_attacks.field.item_damage.base": "Der konstante Haltbarkeitsschaden nach Überschreiten der Schwelle."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:blocks_attacks": "アイテムを盾のように使って攻撃を防げるようにする。",
+    "command_translation.help.component.minecraft:blocks_attacks.field.block_delay_seconds": "防御が有効になるまで使用し続ける時間（秒）。",
+    "command_translation.help.component.minecraft:blocks_attacks.field.disable_cooldown_scale": "無効化攻撃を受けた後のクールダウンの倍率。",
+    "command_translation.help.component.minecraft:blocks_attacks.field.damage_reductions": "どのダメージをどれだけ防ぐかの規則。",
+    "command_translation.help.component.minecraft:blocks_attacks.field.damage_reductions.type": "この規則が防ぐダメージの種類。",
+    "command_translation.help.component.minecraft:blocks_attacks.field.damage_reductions.base": "定量的に防ぐダメージ量。",
+    "command_translation.help.component.minecraft:blocks_attacks.field.damage_reductions.factor": "受けたダメージのうち防ぐ割合。",
+    "command_translation.help.component.minecraft:blocks_attacks.field.damage_reductions.horizontal_blocking_angle": "向きと攻撃方向の間で防御できる最大角度。",
+    "command_translation.help.component.minecraft:blocks_attacks.field.item_damage": "攻撃でアイテムが受ける耐久の減り方。",
+    "command_translation.help.component.minecraft:blocks_attacks.field.item_damage.threshold": "アイテムが損耗し始める最低攻撃ダメージ。",
+    "command_translation.help.component.minecraft:blocks_attacks.field.item_damage.base": "しきい値を超えたときに定量的に減る耐久値。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:blocks_attacks": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:blocks_attacks.field.block_delay_seconds": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:blocks_attacks.field.disable_cooldown_scale": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:blocks_attacks.field.damage_reductions": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:blocks_attacks.field.damage_reductions.type": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:blocks_attacks.field.damage_reductions.base": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:blocks_attacks.field.damage_reductions.factor": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:blocks_attacks.field.damage_reductions.horizontal_blocking_angle": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:blocks_attacks.field.item_damage": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:blocks_attacks.field.item_damage.threshold": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:blocks_attacks.field.item_damage.base": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

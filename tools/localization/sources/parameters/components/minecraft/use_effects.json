@@ -1,0 +1,68 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:use_effects": "Defines the vibration and movement effects while this item is continuously used.",
+    "command_translation.help.component.minecraft:use_effects.field.can_sprint": "Whether the player can sprint during use.",
+    "command_translation.help.component.minecraft:use_effects.field.speed_multiplier": "The movement speed multiplier inflicted during use.",
+    "command_translation.help.component.minecraft:use_effects.field.interact_vibrations": "Whether using this item emits item interact game events."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:use_effects": "定义持续使用该物品时的振动与移动影响。",
+    "command_translation.help.component.minecraft:use_effects.field.can_sprint": "使用期间玩家能否疾跑。",
+    "command_translation.help.component.minecraft:use_effects.field.speed_multiplier": "使用期间施加的移动速度倍率。",
+    "command_translation.help.component.minecraft:use_effects.field.interact_vibrations": "使用该物品是否发出物品交互游戏事件。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:use_effects": "Definiert Vibrationen und Bewegungseinschränkungen bei fortlaufender Benutzung dieses Items.",
+    "command_translation.help.component.minecraft:use_effects.field.can_sprint": "Ob der Spieler während der Benutzung sprinten kann.",
+    "command_translation.help.component.minecraft:use_effects.field.speed_multiplier": "Der Bewegungsgeschwindigkeits-Multiplikator während der Benutzung.",
+    "command_translation.help.component.minecraft:use_effects.field.interact_vibrations": "Ob die Benutzung dieses Items Item-Interaktions-Spielereignisse auslöst."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:use_effects": "このアイテムを継続使用中の振動と移動への影響を定義する。",
+    "command_translation.help.component.minecraft:use_effects.field.can_sprint": "使用中にプレイヤーがダッシュできるか。",
+    "command_translation.help.component.minecraft:use_effects.field.speed_multiplier": "使用中に課される移動速度の倍率。",
+    "command_translation.help.component.minecraft:use_effects.field.interact_vibrations": "このアイテムの使用がアイテム操作のゲームイベントを発するか。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:use_effects": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:use_effects.field.can_sprint": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:use_effects.field.speed_multiplier": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:use_effects.field.interact_vibrations": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

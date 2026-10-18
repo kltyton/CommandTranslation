@@ -1,0 +1,47 @@
+{
+  "en_us": {
+    "command_translation.help.argument.list.uuids": "Also shows each player's UUID beside their name."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.list.uuids": "在每位玩家的名字旁同时显示其 UUID。"
+  },
+  "sources": {
+    "command_translation.help.argument.list.uuids": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Flist",
+        "revision": 3581363
+      }
+    ]
+  },
+  "bindings": {
+    "list.uuids": "command_translation.help.argument.list.uuids"
+  },
+  "de_de": {
+    "command_translation.help.argument.list.uuids": "Zeigt neben jedem Namen auch die UUID des Spielers an."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.list.uuids": "各プレイヤーの名前に加えて UUID も表示する。"
+  },
+  "syntax": [
+    {
+      "path": "list",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "list.uuids",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

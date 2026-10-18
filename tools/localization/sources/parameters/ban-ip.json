@@ -1,0 +1,73 @@
+{
+  "en_us": {
+    "command_translation.help.argument.ban-ip.target": "The IP address to ban; an online player's name may be given instead, meaning that player's IP. IPv6 addresses cannot be banned this way.",
+    "command_translation.help.argument.ban-ip.reason": "The message shown to the banned player, other operators and the server logs."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.ban-ip.target": "要封禁的 IP 地址；也可填在线玩家的名字表示其 IP，这种写法无法封禁 IPv6。",
+    "command_translation.help.argument.ban-ip.reason": "向被封禁玩家、其他管理员和服务器日志显示的消息。"
+  },
+  "sources": {
+    "command_translation.help.argument.ban-ip.target": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fban",
+        "revision": 3563909
+      }
+    ],
+    "command_translation.help.argument.ban-ip.reason": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fban",
+        "revision": 3563909
+      }
+    ]
+  },
+  "bindings": {
+    "ban-ip.target": "command_translation.help.argument.ban-ip.target",
+    "ban-ip.target.reason": "command_translation.help.argument.ban-ip.reason"
+  },
+  "de_de": {
+    "command_translation.help.argument.ban-ip.target": "Die zu bannende IP-Adresse; stattdessen kann der Name eines Online-Spielers für dessen IP stehen. IPv6-Adressen lassen sich so nicht bannen.",
+    "command_translation.help.argument.ban-ip.reason": "Die Nachricht, die dem gebannten Spieler, anderen Operatoren und im Server-Log angezeigt wird."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.ban-ip.target": "BAN する IP アドレス。代わりにオンラインプレイヤーの名前を指定すると、そのプレイヤーの IP を意味する。この方法で IPv6 アドレスは BAN できない。",
+    "command_translation.help.argument.ban-ip.reason": "BAN されたプレイヤー、他のオペレーター、サーバーログに表示されるメッセージ。"
+  },
+  "syntax": [
+    {
+      "path": "ban-ip",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "ban-ip.target",
+      "type": "argument",
+      "parser": "brigadier:string",
+      "properties": {
+        "type": "word"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "ban-ip.target.reason",
+      "type": "argument",
+      "parser": "minecraft:message",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

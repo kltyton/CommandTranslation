@@ -1,0 +1,6 @@
+# Replace the username with the project's actual maintainers.
+/common/ @kltyton
+/targets/ @kltyton
+/gradle/ @kltyton
+/buildSrc/ @kltyton
+/integrations/ @kltyton

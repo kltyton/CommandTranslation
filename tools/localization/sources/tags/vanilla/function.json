@@ -1,0 +1,32 @@
+{
+  "en_us": {
+    "command_translation.tag.function.minecraft.load": "Functions run after a world or data pack loads",
+    "command_translation.tag.function.minecraft.tick": "Functions run every game tick"
+  },
+  "zh_cn": {
+    "command_translation.tag.function.minecraft.load": "世界或数据包加载后执行的函数",
+    "command_translation.tag.function.minecraft.tick": "每个游戏刻执行的函数"
+  },
+  "de_de": {
+    "command_translation.tag.function.minecraft.load": "Nach dem Laden von Welt oder Datenpaketen ausgeführte Funktionen",
+    "command_translation.tag.function.minecraft.tick": "In jedem Spieltick ausgeführte Funktionen"
+  },
+  "ja_jp": {
+    "command_translation.tag.function.minecraft.load": "ワールド・データパックの読み込み後に実行する関数",
+    "command_translation.tag.function.minecraft.tick": "ゲームの毎tick実行する関数"
+  },
+  "sources": {
+    "command_translation.tag.function.minecraft.load": [
+      {
+        "url": "https://minecraft.wiki/w/Function%20tag%20(Java%20Edition)",
+        "revision": 3839222
+      }
+    ],
+    "command_translation.tag.function.minecraft.tick": [
+      {
+        "url": "https://minecraft.wiki/w/Function%20tag%20(Java%20Edition)",
+        "revision": 3839222
+      }
+    ]
+  }
+}

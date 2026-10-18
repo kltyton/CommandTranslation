@@ -1,0 +1,212 @@
+{
+  "en_us": {
+    "command_translation.tag.worldgen.structure.minecraft.cats_spawn_as_black": "Structures where cats spawn as all-black",
+    "command_translation.tag.worldgen.structure.minecraft.cats_spawn_in": "Structures where cats spawn",
+    "command_translation.tag.worldgen.structure.minecraft.dolphin_located": "Structures dolphins guide the player to",
+    "command_translation.tag.worldgen.structure.minecraft.eye_of_ender_located": "Structures Eyes of Ender fly toward",
+    "command_translation.tag.worldgen.structure.minecraft.mineshaft": "Mineshaft structures",
+    "command_translation.tag.worldgen.structure.minecraft.ocean_ruin": "Ocean ruin structures",
+    "command_translation.tag.worldgen.structure.minecraft.on_ocean_explorer_maps": "Structures found on ocean explorer maps",
+    "command_translation.tag.worldgen.structure.minecraft.on_treasure_maps": "Structures found on buried treasure maps",
+    "command_translation.tag.worldgen.structure.minecraft.on_woodland_explorer_maps": "Structures found on woodland explorer maps",
+    "command_translation.tag.worldgen.structure.minecraft.ruined_portal": "Ruined portal structures",
+    "command_translation.tag.worldgen.structure.minecraft.shipwreck": "Shipwreck structures",
+    "command_translation.tag.worldgen.structure.minecraft.village": "Village structures",
+    "command_translation.tag.worldgen.structure.minecraft.on_trial_chambers_maps": "Structures found on trial chambers maps",
+    "command_translation.tag.worldgen.structure.minecraft.on_desert_village_maps": "Structures found on desert village maps",
+    "command_translation.tag.worldgen.structure.minecraft.on_jungle_explorer_maps": "Structures found on jungle explorer maps",
+    "command_translation.tag.worldgen.structure.minecraft.on_plains_village_maps": "Structures found on plains village maps",
+    "command_translation.tag.worldgen.structure.minecraft.on_savanna_village_maps": "Structures found on savanna village maps",
+    "command_translation.tag.worldgen.structure.minecraft.on_snowy_village_maps": "Structures found on snowy village maps",
+    "command_translation.tag.worldgen.structure.minecraft.on_swamp_explorer_maps": "Structures found on swamp explorer maps",
+    "command_translation.tag.worldgen.structure.minecraft.on_taiga_village_maps": "Structures found on taiga village maps"
+  },
+  "zh_cn": {
+    "command_translation.tag.worldgen.structure.minecraft.cats_spawn_as_black": "猫以全黑变种生成的结构",
+    "command_translation.tag.worldgen.structure.minecraft.cats_spawn_in": "猫自然生成的结构",
+    "command_translation.tag.worldgen.structure.minecraft.dolphin_located": "海豚引导玩家前往的结构",
+    "command_translation.tag.worldgen.structure.minecraft.eye_of_ender_located": "末影之眼飞向的结构",
+    "command_translation.tag.worldgen.structure.minecraft.mineshaft": "废弃矿井类结构",
+    "command_translation.tag.worldgen.structure.minecraft.ocean_ruin": "海底废墟类结构",
+    "command_translation.tag.worldgen.structure.minecraft.on_ocean_explorer_maps": "出现在海洋探险家地图上的结构",
+    "command_translation.tag.worldgen.structure.minecraft.on_treasure_maps": "出现在埋藏的宝藏地图上的结构",
+    "command_translation.tag.worldgen.structure.minecraft.on_woodland_explorer_maps": "出现在林地探险家地图上的结构",
+    "command_translation.tag.worldgen.structure.minecraft.ruined_portal": "废弃传送门类结构",
+    "command_translation.tag.worldgen.structure.minecraft.shipwreck": "沉船类结构",
+    "command_translation.tag.worldgen.structure.minecraft.village": "村庄类结构",
+    "command_translation.tag.worldgen.structure.minecraft.on_trial_chambers_maps": "出现在试炼密室地图上的结构",
+    "command_translation.tag.worldgen.structure.minecraft.on_desert_village_maps": "出现在沙漠村庄地图上的结构",
+    "command_translation.tag.worldgen.structure.minecraft.on_jungle_explorer_maps": "出现在丛林探险家地图上的结构",
+    "command_translation.tag.worldgen.structure.minecraft.on_plains_village_maps": "出现在平原村庄地图上的结构",
+    "command_translation.tag.worldgen.structure.minecraft.on_savanna_village_maps": "出现在热带草原村庄地图上的结构",
+    "command_translation.tag.worldgen.structure.minecraft.on_snowy_village_maps": "出现在雪原村庄地图上的结构",
+    "command_translation.tag.worldgen.structure.minecraft.on_swamp_explorer_maps": "出现在沼泽探险家地图上的结构",
+    "command_translation.tag.worldgen.structure.minecraft.on_taiga_village_maps": "出现在针叶林村庄地图上的结构"
+  },
+  "de_de": {
+    "command_translation.tag.worldgen.structure.minecraft.cats_spawn_as_black": "Strukturen mit schwarzen Katzen",
+    "command_translation.tag.worldgen.structure.minecraft.cats_spawn_in": "Strukturen, in denen Katzen erscheinen",
+    "command_translation.tag.worldgen.structure.minecraft.dolphin_located": "Strukturen, zu denen Delfine führen",
+    "command_translation.tag.worldgen.structure.minecraft.eye_of_ender_located": "Strukturen, zu denen Enderaugen fliegen",
+    "command_translation.tag.worldgen.structure.minecraft.mineshaft": "Minenstrukturen",
+    "command_translation.tag.worldgen.structure.minecraft.ocean_ruin": "Ozeanruinen-Strukturen",
+    "command_translation.tag.worldgen.structure.minecraft.on_ocean_explorer_maps": "Strukturen auf Ozeanforscherkarten",
+    "command_translation.tag.worldgen.structure.minecraft.on_treasure_maps": "Strukturen auf vergrabenen Schatzkarten",
+    "command_translation.tag.worldgen.structure.minecraft.on_woodland_explorer_maps": "Strukturen auf Waldanwesen-Karten",
+    "command_translation.tag.worldgen.structure.minecraft.ruined_portal": "Ruinierte Portale",
+    "command_translation.tag.worldgen.structure.minecraft.shipwreck": "Schiffswrack-Strukturen",
+    "command_translation.tag.worldgen.structure.minecraft.village": "Dorfstrukturen",
+    "command_translation.tag.worldgen.structure.minecraft.on_trial_chambers_maps": "Strukturen auf Prüfungskammer-Karten",
+    "command_translation.tag.worldgen.structure.minecraft.on_desert_village_maps": "Strukturen auf Wüstendorfkarten",
+    "command_translation.tag.worldgen.structure.minecraft.on_jungle_explorer_maps": "Strukturen auf Dschungelforscherkarten",
+    "command_translation.tag.worldgen.structure.minecraft.on_plains_village_maps": "Strukturen auf Flachlanddorfkarten",
+    "command_translation.tag.worldgen.structure.minecraft.on_savanna_village_maps": "Strukturen auf Savannendorfkarten",
+    "command_translation.tag.worldgen.structure.minecraft.on_snowy_village_maps": "Strukturen auf Schneedorfkarten",
+    "command_translation.tag.worldgen.structure.minecraft.on_swamp_explorer_maps": "Strukturen auf Sumpfforscherkarten",
+    "command_translation.tag.worldgen.structure.minecraft.on_taiga_village_maps": "Strukturen auf Taigadorfkarten"
+  },
+  "ja_jp": {
+    "command_translation.tag.worldgen.structure.minecraft.cats_spawn_as_black": "黒いネコが出現する構造物",
+    "command_translation.tag.worldgen.structure.minecraft.cats_spawn_in": "ネコが自然に出現する構造物",
+    "command_translation.tag.worldgen.structure.minecraft.dolphin_located": "イルカが案内する構造物",
+    "command_translation.tag.worldgen.structure.minecraft.eye_of_ender_located": "エンダーアイが向かう構造物",
+    "command_translation.tag.worldgen.structure.minecraft.mineshaft": "廃坑系の構造物",
+    "command_translation.tag.worldgen.structure.minecraft.ocean_ruin": "海底遺跡系の構造物",
+    "command_translation.tag.worldgen.structure.minecraft.on_ocean_explorer_maps": "海洋探検家の地図に載る構造物",
+    "command_translation.tag.worldgen.structure.minecraft.on_treasure_maps": "埋もれた宝の地図に載る構造物",
+    "command_translation.tag.worldgen.structure.minecraft.on_woodland_explorer_maps": "森の洋館の地図に載る構造物",
+    "command_translation.tag.worldgen.structure.minecraft.ruined_portal": "荒廃したポータル系の構造物",
+    "command_translation.tag.worldgen.structure.minecraft.shipwreck": "難破船系の構造物",
+    "command_translation.tag.worldgen.structure.minecraft.village": "村系の構造物",
+    "command_translation.tag.worldgen.structure.minecraft.on_trial_chambers_maps": "試練の間の地図に載る構造物",
+    "command_translation.tag.worldgen.structure.minecraft.on_desert_village_maps": "砂漠の村の地図に載る構造物",
+    "command_translation.tag.worldgen.structure.minecraft.on_jungle_explorer_maps": "ジャングル探検家の地図に載る構造物",
+    "command_translation.tag.worldgen.structure.minecraft.on_plains_village_maps": "平原の村の地図に載る構造物",
+    "command_translation.tag.worldgen.structure.minecraft.on_savanna_village_maps": "サバンナの村の地図に載る構造物",
+    "command_translation.tag.worldgen.structure.minecraft.on_snowy_village_maps": "雪原の村の地図に載る構造物",
+    "command_translation.tag.worldgen.structure.minecraft.on_swamp_explorer_maps": "沼地探検家の地図に載る構造物",
+    "command_translation.tag.worldgen.structure.minecraft.on_taiga_village_maps": "タイガの村の地図に載る構造物"
+  },
+  "sources": {
+    "command_translation.tag.worldgen.structure.minecraft.cats_spawn_as_black": [
+      {
+        "url": "https://minecraft.wiki/w/Structure%20tag%20(Java%20Edition)",
+        "revision": 3839230
+      }
+    ],
+    "command_translation.tag.worldgen.structure.minecraft.cats_spawn_in": [
+      {
+        "url": "https://minecraft.wiki/w/Structure%20tag%20(Java%20Edition)",
+        "revision": 3839230
+      }
+    ],
+    "command_translation.tag.worldgen.structure.minecraft.dolphin_located": [
+      {
+        "url": "https://minecraft.wiki/w/Structure%20tag%20(Java%20Edition)",
+        "revision": 3839230
+      }
+    ],
+    "command_translation.tag.worldgen.structure.minecraft.eye_of_ender_located": [
+      {
+        "url": "https://minecraft.wiki/w/Structure%20tag%20(Java%20Edition)",
+        "revision": 3839230
+      }
+    ],
+    "command_translation.tag.worldgen.structure.minecraft.mineshaft": [
+      {
+        "url": "https://minecraft.wiki/w/Structure%20tag%20(Java%20Edition)",
+        "revision": 3839230
+      }
+    ],
+    "command_translation.tag.worldgen.structure.minecraft.ocean_ruin": [
+      {
+        "url": "https://minecraft.wiki/w/Structure%20tag%20(Java%20Edition)",
+        "revision": 3839230
+      }
+    ],
+    "command_translation.tag.worldgen.structure.minecraft.on_ocean_explorer_maps": [
+      {
+        "url": "https://minecraft.wiki/w/Structure%20tag%20(Java%20Edition)",
+        "revision": 3839230
+      }
+    ],
+    "command_translation.tag.worldgen.structure.minecraft.on_treasure_maps": [
+      {
+        "url": "https://minecraft.wiki/w/Structure%20tag%20(Java%20Edition)",
+        "revision": 3839230
+      }
+    ],
+    "command_translation.tag.worldgen.structure.minecraft.on_woodland_explorer_maps": [
+      {
+        "url": "https://minecraft.wiki/w/Structure%20tag%20(Java%20Edition)",
+        "revision": 3839230
+      }
+    ],
+    "command_translation.tag.worldgen.structure.minecraft.ruined_portal": [
+      {
+        "url": "https://minecraft.wiki/w/Structure%20tag%20(Java%20Edition)",
+        "revision": 3839230
+      }
+    ],
+    "command_translation.tag.worldgen.structure.minecraft.shipwreck": [
+      {
+        "url": "https://minecraft.wiki/w/Structure%20tag%20(Java%20Edition)",
+        "revision": 3839230
+      }
+    ],
+    "command_translation.tag.worldgen.structure.minecraft.village": [
+      {
+        "url": "https://minecraft.wiki/w/Structure%20tag%20(Java%20Edition)",
+        "revision": 3839230
+      }
+    ],
+    "command_translation.tag.worldgen.structure.minecraft.on_trial_chambers_maps": [
+      {
+        "url": "https://minecraft.wiki/w/Structure%20tag%20(Java%20Edition)",
+        "revision": 3839230
+      }
+    ],
+    "command_translation.tag.worldgen.structure.minecraft.on_desert_village_maps": [
+      {
+        "url": "https://minecraft.wiki/w/Structure%20tag%20(Java%20Edition)",
+        "revision": 3839230
+      }
+    ],
+    "command_translation.tag.worldgen.structure.minecraft.on_jungle_explorer_maps": [
+      {
+        "url": "https://minecraft.wiki/w/Structure%20tag%20(Java%20Edition)",
+        "revision": 3839230
+      }
+    ],
+    "command_translation.tag.worldgen.structure.minecraft.on_plains_village_maps": [
+      {
+        "url": "https://minecraft.wiki/w/Structure%20tag%20(Java%20Edition)",
+        "revision": 3839230
+      }
+    ],
+    "command_translation.tag.worldgen.structure.minecraft.on_savanna_village_maps": [
+      {
+        "url": "https://minecraft.wiki/w/Structure%20tag%20(Java%20Edition)",
+        "revision": 3839230
+      }
+    ],
+    "command_translation.tag.worldgen.structure.minecraft.on_snowy_village_maps": [
+      {
+        "url": "https://minecraft.wiki/w/Structure%20tag%20(Java%20Edition)",
+        "revision": 3839230
+      }
+    ],
+    "command_translation.tag.worldgen.structure.minecraft.on_swamp_explorer_maps": [
+      {
+        "url": "https://minecraft.wiki/w/Structure%20tag%20(Java%20Edition)",
+        "revision": 3839230
+      }
+    ],
+    "command_translation.tag.worldgen.structure.minecraft.on_taiga_village_maps": [
+      {
+        "url": "https://minecraft.wiki/w/Structure%20tag%20(Java%20Edition)",
+        "revision": 3839230
+      }
+    ]
+  }
+}

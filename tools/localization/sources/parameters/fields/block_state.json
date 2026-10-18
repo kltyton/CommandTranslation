@@ -1,0 +1,1902 @@
+{
+  "en_us": {
+    "command_translation.help.block_state.field.age": "Growth stage of plants, or a timer for fire spread and vine growth; higher values are more mature or more advanced.",
+    "command_translation.help.block_state.field.attached": "Tripwire hook connected to a valid tripwire circuit, or a hanging sign hanging from a single point.",
+    "command_translation.help.block_state.field.attachment": "How the block attaches to the block it is on, such as a bell's floor, ceiling or wall mount.",
+    "command_translation.help.block_state.field.axis": "The axis the block is oriented along: x, y or z.",
+    "command_translation.help.block_state.field.berries": "Whether these cave vines carry berries.",
+    "command_translation.help.block_state.field.bites": "Number of bites taken from the cake (0-6).",
+    "command_translation.help.block_state.field.bloom": "Whether the sculk catalyst is currently blooming.",
+    "command_translation.help.block_state.field.bottom": "Scaffolding floating and showing its bottom face, or a pale moss carpet showing only its upper vines.",
+    "command_translation.help.block_state.field.can_summon": "Whether the sculk shrieker can summon a warden; naturally generated shriekers are true.",
+    "command_translation.help.block_state.field.candles": "Number of candles in the block (1-4).",
+    "command_translation.help.block_state.field.charges": "Remaining uses of the respawn anchor (0-4).",
+    "command_translation.help.block_state.field.conditional": "Whether the command block is conditional.",
+    "command_translation.help.block_state.field.copper_golem_pose": "Pose of a copper golem statue: standing, sitting, running or star.",
+    "command_translation.help.block_state.field.cracked": "Whether the decorated pot plays a shattering sound when broken.",
+    "command_translation.help.block_state.field.crafting": "Whether the crafter is currently crafting.",
+    "command_translation.help.block_state.field.creaking_heart_state": "State of the creaking heart: uprooted, dormant or awake; only awake can spawn a Creaking.",
+    "command_translation.help.block_state.field.delay": "The redstone repeater’s delay setting, from 1 to 4.",
+    "command_translation.help.block_state.field.disarmed": "Whether the tripwire has been broken with shears.",
+    "command_translation.help.block_state.field.distance": "Distance from a base block: scaffolding layers from its support, or leaf distance from a log.",
+    "command_translation.help.block_state.field.down": "Whether something is attached below the block.",
+    "command_translation.help.block_state.field.drag": "Bubble column flow: true is a downward whirlpool, false pushes upward.",
+    "command_translation.help.block_state.field.dusted": "Dusting progress of a suspicious sand or gravel block (0-3).",
+    "command_translation.help.block_state.field.east": "Whether something is attached on the block's east side.",
+    "command_translation.help.block_state.field.eggs": "Number of turtle eggs in the block (1-4).",
+    "command_translation.help.block_state.field.enabled": "Whether the hopper can collect and transfer items.",
+    "command_translation.help.block_state.field.extended": "Whether the piston is extended.",
+    "command_translation.help.block_state.field.eye": "Whether the end portal frame contains an eye of ender.",
+    "command_translation.help.block_state.field.face": "Which side an attached block sits on: floor, wall or ceiling.",
+    "command_translation.help.block_state.field.facing": "Direction the block faces; for wall bells and cocoa the stored direction is opposite to the visible one.",
+    "command_translation.help.block_state.field.falling": "Whether a fluid is falling.",
+    "command_translation.help.block_state.field.flower_amount": "Number of flowers in a pink petals or wildflowers group (1-4).",
+    "command_translation.help.block_state.field.half": "Which half of the block space is occupied: upper/lower for tall blocks, top/bottom for stairs and trapdoors.",
+    "command_translation.help.block_state.field.hanging": "Whether the lantern or mangrove propagule hangs from the ceiling.",
+    "command_translation.help.block_state.field.has_book": "Whether the lectern holds a book.",
+    "command_translation.help.block_state.field.has_bottle_0": "Whether brewing-stand slot 1 holds a bottle.",
+    "command_translation.help.block_state.field.has_bottle_1": "Whether brewing-stand slot 2 holds a bottle.",
+    "command_translation.help.block_state.field.has_bottle_2": "Whether brewing-stand slot 3 holds a bottle.",
+    "command_translation.help.block_state.field.has_record": "Whether the jukebox contains a music disc.",
+    "command_translation.help.block_state.field.hatch": "How close the egg is to hatching (0-2); incremented randomly.",
+    "command_translation.help.block_state.field.hinge": "Which side the door's hinge is on: left or right.",
+    "command_translation.help.block_state.field.honey_level": "Amount of honey stored in the beehive or bee nest (0-5).",
+    "command_translation.help.block_state.field.in_wall": "Whether the fence gate is lowered three pixels to sit flush with walls.",
+    "command_translation.help.block_state.field.instrument": "Instrument sound the note block plays when powered.",
+    "command_translation.help.block_state.field.inverted": "Whether the daylight detector detects darkness instead of light.",
+    "command_translation.help.block_state.field.layers": "Number of stacked snow layers (1-8).",
+    "command_translation.help.block_state.field.leaves": "Size of the leaves on this bamboo: none, small or large.",
+    "command_translation.help.block_state.field.level": "Fill or intensity level: cauldron fullness, composter fill, fluid height or light level.",
+    "command_translation.help.block_state.field.lit": "Whether the block is lit or turned on.",
+    "command_translation.help.block_state.field.locked": "Whether the repeater's powered state is locked from changes.",
+    "command_translation.help.block_state.field.mode": "Operating mode of the comparator, structure block or test block.",
+    "command_translation.help.block_state.field.moisture": "Farmland moisture: 0 is dry, values above 0 are hydrated.",
+    "command_translation.help.block_state.field.natural": "Whether the creaking heart was generated naturally rather than placed.",
+    "command_translation.help.block_state.field.north": "Whether something is attached on the block's north side.",
+    "command_translation.help.block_state.field.note": "Pitch the note block plays when powered (0-24).",
+    "command_translation.help.block_state.field.occupied": "Whether the bed is currently occupied by a player or villager.",
+    "command_translation.help.block_state.field.ominous": "Whether the trial spawner or vault is ominous.",
+    "command_translation.help.block_state.field.open": "Whether the door, fence gate, trapdoor or barrel is open.",
+    "command_translation.help.block_state.field.orientation": "Direction the block's arrows point, followed by the position of its line face, e.g. down_east or west_up.",
+    "command_translation.help.block_state.field.part": "Whether this is the foot or head end of the bed.",
+    "command_translation.help.block_state.field.persistent": "Whether the leaves stay instead of decaying when unsupported.",
+    "command_translation.help.block_state.field.pickles": "Number of sea pickles in the block (1-4).",
+    "command_translation.help.block_state.field.potent_sulfur_state": "State of the potent sulfur block: dry, wet, dormant, erupting or continuous.",
+    "command_translation.help.block_state.field.power": "Redstone power level emitted or measured (0-15).",
+    "command_translation.help.block_state.field.powered": "Whether the block is receiving or supplying power.",
+    "command_translation.help.block_state.field.rotation": "Rotation of standing banners, signs and mob heads in 16 steps (0-15).",
+    "command_translation.help.block_state.field.sculk_sensor_phase": "Sculk sensor phase: inactive, active or cooldown.",
+    "command_translation.help.block_state.field.segment_amount": "Number of leaf-litter segments in the block (1-4).",
+    "command_translation.help.block_state.field.shape": "How the block connects to its neighbours: straight, inner/outer corners, or rail ascents.",
+    "command_translation.help.block_state.field.short": "Whether the piston head's arm is 4/16 of a block shorter.",
+    "command_translation.help.block_state.field.shrieking": "Whether the sculk shrieker is currently shrieking.",
+    "command_translation.help.block_state.field.side_chain": "Shelf connection along its side chain: unconnected, right, center or left.",
+    "command_translation.help.block_state.field.signal_fire": "Whether the campfire produces a higher smoke plume.",
+    "command_translation.help.block_state.field.slot_0_occupied": "Whether chiseled-bookshelf slot 0 holds a book.",
+    "command_translation.help.block_state.field.slot_1_occupied": "Whether chiseled-bookshelf slot 1 holds a book.",
+    "command_translation.help.block_state.field.slot_2_occupied": "Whether chiseled-bookshelf slot 2 holds a book.",
+    "command_translation.help.block_state.field.slot_3_occupied": "Whether chiseled-bookshelf slot 3 holds a book.",
+    "command_translation.help.block_state.field.slot_4_occupied": "Whether chiseled-bookshelf slot 4 holds a book.",
+    "command_translation.help.block_state.field.slot_5_occupied": "Whether chiseled-bookshelf slot 5 holds a book.",
+    "command_translation.help.block_state.field.snowy": "Whether the block uses its snowy side texture.",
+    "command_translation.help.block_state.field.south": "Whether something is attached on the block's south side.",
+    "command_translation.help.block_state.field.stage": "Whether the sapling or bamboo is ready to grow to the next stage.",
+    "command_translation.help.block_state.field.thickness": "Thickness section of a pointed dripstone or sulfur spike: tip, frustum, middle, base or tip_merge.",
+    "command_translation.help.block_state.field.tilt": "Tilt stage of the big dripleaf: none, unstable, partial or full.",
+    "command_translation.help.block_state.field.tip": "Whether the pale hanging moss is at the bottom of its strand.",
+    "command_translation.help.block_state.field.trial_spawner_state": "Trial spawner state: inactive, waiting for players, active, waiting for reward, ejecting or cooldown.",
+    "command_translation.help.block_state.field.triggered": "Whether the dispenser, dropper or crafter has been activated.",
+    "command_translation.help.block_state.field.type": "Block variant, such as a slab's half/full form, a chest's side, or a piston head's normal/sticky type.",
+    "command_translation.help.block_state.field.unstable": "Whether the TNT ignites when punched.",
+    "command_translation.help.block_state.field.up": "Whether something is attached above the block.",
+    "command_translation.help.block_state.field.vault_state": "Vault state: inactive, active, unlocking or ejecting.",
+    "command_translation.help.block_state.field.vertical_direction": "Vertical direction of a pointed dripstone or sulfur spike: up or down.",
+    "command_translation.help.block_state.field.waterlogged": "Whether the block contains water.",
+    "command_translation.help.block_state.field.west": "Whether something is attached on the block's west side.",
+    "command_translation.help.block_state.values.bottom_double_top.field.type": "Slab variant: bottom half, top half or a full double slab.",
+    "command_translation.help.block_state.values.left_right_single.field.type": "Chest variant: single, or the left or right half of a double chest.",
+    "command_translation.help.block_state.values.normal_sticky.field.type": "Piston head type: normal or sticky.",
+    "command_translation.help.block_state.values.ascending_east_ascending_north_ascending_south_ascending_west_east_west_north_south.field.shape": "Powered/detector/activator rail: straight horizontal or sloped segment and its direction.",
+    "command_translation.help.block_state.values.inner_left_inner_right_outer_left_outer_right_straight.field.shape": "Stairs connection: straight or an inner/outer left/right corner.",
+    "command_translation.help.block_state.values.ascending_east_ascending_north_ascending_south_ascending_west_east_west_north_east_north_south_north_west_south_east_south_west.field.shape": "Rail connection: straight, sloped, or curving toward a diagonal.",
+    "command_translation.help.block_state.values.compare_subtract.field.mode": "Comparator mode: compare or subtract.",
+    "command_translation.help.block_state.values.corner_data_load_save.field.mode": "Structure block mode: save, load, corner, data or start.",
+    "command_translation.help.block_state.values.accept_fail_log_start.field.mode": "Test block mode: start, log, fail or accept.",
+    "command_translation.help.block_state.values.foot_head.field.part": "Bed end: foot (placed first) or head.",
+    "command_translation.help.block_state.values.bottom_top.field.half": "Stairs/trapdoor: bottom or top half of the block space.",
+    "command_translation.help.block_state.values.lower_upper.field.half": "Tall door or plant: lower or upper half.",
+    "command_translation.help.block_state.values.ceiling_floor_wall.field.face": "Button, lever or grindstone: attached to the floor, a wall or the ceiling.",
+    "command_translation.help.block_state.values.ceiling_double_wall_floor_single_wall.field.attachment": "Bell mount: floor, ceiling, a single wall or two joined walls.",
+    "command_translation.help.block_state.values.large_none_small.field.leaves": "Bamboo leaf size: none, small or large.",
+    "command_translation.help.block_state.values.0_1.field.age": "0 young/not grown, 1 mature (bamboo, torchflower crop, shelf mushroom).",
+    "command_translation.help.block_state.values.0_1_2.field.age": "Cocoa growth stage 0-2.",
+    "command_translation.help.block_state.values.0_1_2_3.field.age": "Growth stage 0-3 (nether wart, beetroots, frosted ice, sweet berry bush).",
+    "command_translation.help.block_state.values.0_1_2_3_4.field.age": "Growth stage 0-4 (pitcher crop, mangrove propagule).",
+    "command_translation.help.block_state.values.0_1_2_3_4_5.field.age": "Chorus flower growth stage 0-5.",
+    "command_translation.help.block_state.values.0_1_2_3_4_5_6_7.field.age": "Growth stage 0-7 (wheat, pumpkin/melon stems, carrots, potatoes).",
+    "command_translation.help.block_state.values.0_1_10_11_12_13_14_15_2_3_4_5_6_7_8_9.field.age": "Timer 0-15 (fire spread, cactus and sugar cane growth).",
+    "command_translation.help.block_state.values.0_1_10_11_12_13_14_15_16_17_18_19_2_20_21_22_23_24_25_3_4_5_6_7_8_9.field.age": "Growth stage 0-25 (cave vines, kelp, twisting vines, weeping vines).",
+    "command_translation.help.block_state.values.0_1_2_3.field.level": "Cauldron fill level for water or powder snow (0-3).",
+    "command_translation.help.block_state.values.0_1_2_3_4_5_6_7_8.field.level": "Composter fill (0-8); 8 means ready to harvest into bone meal.",
+    "command_translation.help.block_state.values.0_1_10_11_12_13_14_15_2_3_4_5_6_7_8_9.field.level": "Fluid height for water/lava, or light level for light blocks (0-15).",
+    "command_translation.help.block_state.values.0_1.field.stage": "Sapling or bamboo growth: 0 not ready, 1 ready to grow.",
+    "command_translation.help.block_state.values.0_1_2_3_4_5_6_7.field.distance": "Scaffolding distance from its base block (0-7).",
+    "command_translation.help.block_state.values.1_2_3_4_5_6_7.field.distance": "Leaf distance from the nearest log (1-7); 7 means about to decay.",
+    "command_translation.help.block_state.values.false_true.field.north": "Whether something is attached on the north side (true/false).",
+    "command_translation.help.block_state.values.false_true.field.south": "Whether something is attached on the south side (true/false).",
+    "command_translation.help.block_state.values.false_true.field.east": "Whether something is attached on the east side (true/false).",
+    "command_translation.help.block_state.values.false_true.field.west": "Whether something is attached on the west side (true/false).",
+    "command_translation.help.block_state.values.false_true.field.up": "Whether something is attached above (true/false).",
+    "command_translation.help.block_state.values.false_true.field.down": "Whether something is attached below (true/false).",
+    "command_translation.help.block_state.values.none_side_up.field.north": "Redstone dust connection on the north side: none, side or up.",
+    "command_translation.help.block_state.values.none_side_up.field.south": "Redstone dust connection on the south side: none, side or up.",
+    "command_translation.help.block_state.values.none_side_up.field.east": "Redstone dust connection on the east side: none, side or up.",
+    "command_translation.help.block_state.values.none_side_up.field.west": "Redstone dust connection on the west side: none, side or up.",
+    "command_translation.help.block_state.values.low_none_tall.field.north": "Pale moss carpet or wall connection on the north side: none, low or tall.",
+    "command_translation.help.block_state.values.low_none_tall.field.south": "Pale moss carpet or wall connection on the south side: none, low or tall.",
+    "command_translation.help.block_state.values.low_none_tall.field.east": "Pale moss carpet or wall connection on the east side: none, low or tall.",
+    "command_translation.help.block_state.values.low_none_tall.field.west": "Pale moss carpet or wall connection on the west side: none, low or tall.",
+    "command_translation.help.block_state.field.drag.value.true": "Whirlpool: pulls entities downward.",
+    "command_translation.help.block_state.field.drag.value.false": "Upward flow: pushes entities upward.",
+    "command_translation.help.block_state.field.inverted.value.true": "Detects darkness (inverted).",
+    "command_translation.help.block_state.field.inverted.value.false": "Detects light (normal).",
+    "command_translation.help.block_state.field.persistent.value.true": "Leaves stay and do not decay.",
+    "command_translation.help.block_state.field.persistent.value.false": "Leaves decay when unsupported.",
+    "command_translation.help.block_state.field.signal_fire.value.true": "Higher smoke plume.",
+    "command_translation.help.block_state.field.signal_fire.value.false": "Normal smoke.",
+    "command_translation.help.block_state.field.thickness.value.base": "Widest base of the spike.",
+    "command_translation.help.block_state.field.thickness.value.frustum": "Tapering section just above the base.",
+    "command_translation.help.block_state.field.thickness.value.middle": "Middle section of the spike.",
+    "command_translation.help.block_state.field.thickness.value.tip": "Pointed tip of the spike.",
+    "command_translation.help.block_state.field.thickness.value.tip_merge": "A tip joined to another pointed-dripstone tip.",
+    "command_translation.help.block_state.field.sculk_sensor_phase.value.inactive": "Not sensing.",
+    "command_translation.help.block_state.field.sculk_sensor_phase.value.active": "Currently detecting a vibration.",
+    "command_translation.help.block_state.field.sculk_sensor_phase.value.cooldown": "Temporarily disabled after detecting.",
+    "command_translation.help.block_state.field.vault_state.value.inactive": "Not in use.",
+    "command_translation.help.block_state.field.vault_state.value.active": "Ready for a nearby player to insert a vault key.",
+    "command_translation.help.block_state.field.vault_state.value.unlocking": "Playing the unlocking animation.",
+    "command_translation.help.block_state.field.vault_state.value.ejecting": "Ejecting the reward.",
+    "command_translation.help.block_state.field.trial_spawner_state.value.inactive": "Not active.",
+    "command_translation.help.block_state.field.trial_spawner_state.value.waiting_for_players": "Waiting for players to enter.",
+    "command_translation.help.block_state.field.trial_spawner_state.value.active": "Spawning mobs.",
+    "command_translation.help.block_state.field.trial_spawner_state.value.waiting_for_reward_ejection": "Mobs defeated; waiting to eject rewards.",
+    "command_translation.help.block_state.field.trial_spawner_state.value.ejecting_reward": "Ejecting rewards.",
+    "command_translation.help.block_state.field.trial_spawner_state.value.cooldown": "Cooling down before reset.",
+    "command_translation.help.block_state.field.creaking_heart_state.value.uprooted": "Not in a configuration that can spawn a Creaking.",
+    "command_translation.help.block_state.field.creaking_heart_state.value.dormant": "Correct configuration, but it is not nighttime.",
+    "command_translation.help.block_state.field.creaking_heart_state.value.awake": "Correct configuration at night; can spawn a Creaking.",
+    "command_translation.help.block_state.field.potent_sulfur_state.value.dry": "Dry.",
+    "command_translation.help.block_state.field.potent_sulfur_state.value.wet": "Wet.",
+    "command_translation.help.block_state.field.potent_sulfur_state.value.dormant": "Dormant.",
+    "command_translation.help.block_state.field.potent_sulfur_state.value.erupting": "Erupting.",
+    "command_translation.help.block_state.field.potent_sulfur_state.value.continuous": "Continuously active.",
+    "command_translation.help.block_state.field.copper_golem_pose.value.standing": "Standing.",
+    "command_translation.help.block_state.field.copper_golem_pose.value.sitting": "Sitting.",
+    "command_translation.help.block_state.field.copper_golem_pose.value.running": "Running.",
+    "command_translation.help.block_state.field.copper_golem_pose.value.star": "Star pose.",
+    "command_translation.help.block_state.field.tilt.value.none": "Not tilted.",
+    "command_translation.help.block_state.field.tilt.value.unstable": "Tilting and about to fall.",
+    "command_translation.help.block_state.field.tilt.value.partial": "Partially tilted.",
+    "command_translation.help.block_state.field.tilt.value.full": "Fully tilted.",
+    "command_translation.help.block_state.field.side_chain.value.unconnected": "No side connection.",
+    "command_translation.help.block_state.field.side_chain.value.right": "Connected to the right.",
+    "command_translation.help.block_state.field.side_chain.value.center": "Connected in the center.",
+    "command_translation.help.block_state.field.side_chain.value.left": "Connected to the left.",
+    "command_translation.help.block_state.minecraft:fire.field.age": "The fire’s age stage.",
+    "command_translation.help.block_state.minecraft:frosted_ice.field.age": "The ice’s aging stage.",
+    "command_translation.help.block_state.minecraft:cactus.field.age": "The cactus growth timer.",
+    "command_translation.help.block_state.minecraft:sugar_cane.field.age": "The sugar cane growth timer.",
+    "command_translation.help.block_state.minecraft:light.field.level": "The light level emitted by this light block.",
+    "command_translation.help.block_state.minecraft:water.field.level": "The water’s fluid level.",
+    "command_translation.help.block_state.minecraft:lava.field.level": "The lava’s fluid level."
+  },
+  "zh_cn": {
+    "command_translation.help.block_state.field.age": "植物的生长阶段，或火焰蔓延与藤蔓生长的计时；数值越大越成熟或越接近完成。",
+    "command_translation.help.block_state.field.attached": "绊线钩是否连接到有效的绊线回路，或悬挂告示牌是否从一个点悬挂。",
+    "command_translation.help.block_state.field.attachment": "方块与其所附方块的连接方式，如钟的 floor、ceiling 或 wall 安装方式。",
+    "command_translation.help.block_state.field.axis": "方块朝向所沿的轴：x、y 或 z。",
+    "command_translation.help.block_state.field.berries": "这些洞穴藤蔓是否结有浆果。",
+    "command_translation.help.block_state.field.bites": "蛋糕已被吃掉的口数（0-6）。",
+    "command_translation.help.block_state.field.bloom": "幽匿催发体当前是否处于绽放状态。",
+    "command_translation.help.block_state.field.bottom": "脚手架是否悬空并显示底面，或苍白苔藓地毯是否只显示上方藤蔓。",
+    "command_translation.help.block_state.field.can_summon": "幽匿尖啸体是否能召唤监守者；自然生成的尖啸体为 true。",
+    "command_translation.help.block_state.field.candles": "方块中蜡烛的数量（1-4）。",
+    "command_translation.help.block_state.field.charges": "重生锚剩余可用次数（0-4）。",
+    "command_translation.help.block_state.field.conditional": "命令方块是否为条件型。",
+    "command_translation.help.block_state.field.copper_golem_pose": "铜傀儡雕像的姿态：standing、sitting、running 或 star。",
+    "command_translation.help.block_state.field.cracked": "饰纹陶罐被破坏时是否播放碎裂音效。",
+    "command_translation.help.block_state.field.crafting": "合成器当前是否正在合成。",
+    "command_translation.help.block_state.field.creaking_heart_state": "嘎枝之心的状态：uprooted、dormant 或 awake；仅 awake 能生成嘎枝。",
+    "command_translation.help.block_state.field.delay": "红石中继器的延迟档位（1–4）。",
+    "command_translation.help.block_state.field.disarmed": "绊线是否已被剪刀剪断。",
+    "command_translation.help.block_state.field.distance": "与基准方块的距离：脚手架距其支撑的层数，或树叶距原木的距离。",
+    "command_translation.help.block_state.field.down": "方块下方是否附着有东西。",
+    "command_translation.help.block_state.field.drag": "气泡柱的流向：true 为向下的漩涡，false 为向上推。",
+    "command_translation.help.block_state.field.dusted": "可疑的沙子或沙砾的刷扫进度（0-3）。",
+    "command_translation.help.block_state.field.east": "方块东侧是否附着有东西。",
+    "command_translation.help.block_state.field.eggs": "方块中海龟蛋的数量（1-4）。",
+    "command_translation.help.block_state.field.enabled": "漏斗是否能收集并传输物品。",
+    "command_translation.help.block_state.field.extended": "活塞是否已伸出。",
+    "command_translation.help.block_state.field.eye": "末地传送门框架是否含末影之眼。",
+    "command_translation.help.block_state.field.face": "附着方块位于哪一侧：floor、wall 或 ceiling。",
+    "command_translation.help.block_state.field.facing": "方块朝向的方向；对墙上的钟和可可果，存储方向与可见方向相反。",
+    "command_translation.help.block_state.field.falling": "流体是否在下落。",
+    "command_translation.help.block_state.field.flower_amount": "粉红色花簇或野花中花的数量（1-4）。",
+    "command_translation.help.block_state.field.half": "占用方块空间的哪一半：高方块为 upper/lower，楼梯与活板门为 top/bottom。",
+    "command_translation.help.block_state.field.hanging": "灯笼或红树林胎生苗是否悬挂在天花板上。",
+    "command_translation.help.block_state.field.has_book": "讲台是否放有书。",
+    "command_translation.help.block_state.field.has_bottle_0": "酿造台第 1 槽是否放有瓶子。",
+    "command_translation.help.block_state.field.has_bottle_1": "酿造台第 2 槽是否放有瓶子。",
+    "command_translation.help.block_state.field.has_bottle_2": "酿造台第 3 槽是否放有瓶子。",
+    "command_translation.help.block_state.field.has_record": "唱片机是否放有音乐唱片。",
+    "command_translation.help.block_state.field.hatch": "蛋距离孵化还有多近（0-2）；随机递增。",
+    "command_translation.help.block_state.field.hinge": "门的合页位于哪一侧：left 或 right。",
+    "command_translation.help.block_state.field.honey_level": "蜂箱或蜂巢中蜂蜜的量（0-5）。",
+    "command_translation.help.block_state.field.in_wall": "栅栏门是否下移三个像素以与墙平齐。",
+    "command_translation.help.block_state.field.instrument": "音符盒被激活时演奏的乐器音色。",
+    "command_translation.help.block_state.field.inverted": "阳光探测器是否改为探测黑暗而非光照。",
+    "command_translation.help.block_state.field.layers": "堆叠的雪层数（1-8）。",
+    "command_translation.help.block_state.field.leaves": "这根竹子上叶子的尺寸：none、small 或 large。",
+    "command_translation.help.block_state.field.level": "填充或强度等级：炼药锅的满度、堆肥桶的填充量、流体高度或光照等级。",
+    "command_translation.help.block_state.field.lit": "方块是否被点亮或开启。",
+    "command_translation.help.block_state.field.locked": "中继器的充能状态是否被锁定而无法改变。",
+    "command_translation.help.block_state.field.mode": "比较器、结构方块或测试方块的运行模式。",
+    "command_translation.help.block_state.field.moisture": "耕地湿度；0 为干燥，大于 0 为湿润。",
+    "command_translation.help.block_state.field.natural": "嘎枝之心是自然生成而非玩家放置。",
+    "command_translation.help.block_state.field.north": "方块北侧是否附着有东西。",
+    "command_translation.help.block_state.field.note": "音符盒被激活时演奏的音高（0-24）。",
+    "command_translation.help.block_state.field.occupied": "床当前是否被玩家或村民占用。",
+    "command_translation.help.block_state.field.ominous": "试炼刷怪笼或宝库是否为不祥状态。",
+    "command_translation.help.block_state.field.open": "门、栅栏门、活板门或木桶是否打开。",
+    "command_translation.help.block_state.field.orientation": "方块箭头指向的方向，后接线面所在位置，如 down_east 或 west_up。",
+    "command_translation.help.block_state.field.part": "这是床的 foot（床尾）还是 head（床头）端。",
+    "command_translation.help.block_state.field.persistent": "树叶在失去支撑时是否保留而不凋零。",
+    "command_translation.help.block_state.field.pickles": "方块中海鞘的数量（1-4）。",
+    "command_translation.help.block_state.field.potent_sulfur_state": "强效硫磺方块的状态：dry、wet、dormant、erupting 或 continuous。",
+    "command_translation.help.block_state.field.power": "红石发出的或测得的能量等级（0-15）。",
+    "command_translation.help.block_state.field.powered": "方块是否正在接收或提供能量。",
+    "command_translation.help.block_state.field.rotation": "立式旗帜、告示牌和生物头颅的旋转，共 16 档（0-15）。",
+    "command_translation.help.block_state.field.sculk_sensor_phase": "幽匿感测体的相位：inactive、active 或 cooldown。",
+    "command_translation.help.block_state.field.segment_amount": "方块中叶堆的数量（1-4）。",
+    "command_translation.help.block_state.field.shape": "方块与相邻方块的连接方式：直段、内/外拐角，或铁轨的坡道。",
+    "command_translation.help.block_state.field.short": "活塞头的臂是否短 4/16 格。",
+    "command_translation.help.block_state.field.shrieking": "幽匿尖啸体当前是否在尖啸。",
+    "command_translation.help.block_state.field.side_chain": "架子沿侧链的连接：unconnected、right、center 或 left。",
+    "command_translation.help.block_state.field.signal_fire": "营火是否产生更高的烟柱。",
+    "command_translation.help.block_state.field.slot_0_occupied": "雕纹书架第 0 槽是否放有书。",
+    "command_translation.help.block_state.field.slot_1_occupied": "雕纹书架第 1 槽是否放有书。",
+    "command_translation.help.block_state.field.slot_2_occupied": "雕纹书架第 2 槽是否放有书。",
+    "command_translation.help.block_state.field.slot_3_occupied": "雕纹书架第 3 槽是否放有书。",
+    "command_translation.help.block_state.field.slot_4_occupied": "雕纹书架第 4 槽是否放有书。",
+    "command_translation.help.block_state.field.slot_5_occupied": "雕纹书架第 5 槽是否放有书。",
+    "command_translation.help.block_state.field.snowy": "方块是否使用积雪侧纹理。",
+    "command_translation.help.block_state.field.south": "方块南侧是否附着有东西。",
+    "command_translation.help.block_state.field.stage": "树苗或竹子是否已准备进入下一生长阶段。",
+    "command_translation.help.block_state.field.thickness": "滴水石锥或硫磺尖刺的粗细段：tip、frustum、middle、base 或 tip_merge。",
+    "command_translation.help.block_state.field.tilt": "大型垂滴叶的倾斜阶段：none、unstable、partial 或 full。",
+    "command_translation.help.block_state.field.tip": "苍白垂苔是否位于其垂条的最下端。",
+    "command_translation.help.block_state.field.trial_spawner_state": "试炼刷怪笼的状态：inactive、等待玩家、active、等待奖励、弹出奖励或冷却。",
+    "command_translation.help.block_state.field.triggered": "发射器、投掷器或合成器是否已被激活。",
+    "command_translation.help.block_state.field.type": "方块变种，如台阶的半砖/整砖形态、箱子的左右侧，或活塞头的 normal/sticky 类型。",
+    "command_translation.help.block_state.field.unstable": "TNT 被击打时是否会点燃。",
+    "command_translation.help.block_state.field.up": "方块上方是否附着有东西。",
+    "command_translation.help.block_state.field.vault_state": "宝库的状态：inactive、active、unlocking 或 ejecting。",
+    "command_translation.help.block_state.field.vertical_direction": "滴水石锥或硫磺尖刺的垂直方向：up 或 down。",
+    "command_translation.help.block_state.field.waterlogged": "方块中是否含水。",
+    "command_translation.help.block_state.field.west": "方块西侧是否附着有东西。",
+    "command_translation.help.block_state.values.bottom_double_top.field.type": "台阶变种：bottom 下半、top 上半或 double 完整双台阶。",
+    "command_translation.help.block_state.values.left_right_single.field.type": "箱子变种：single 单个，或双箱的 left 左半/right 右半。",
+    "command_translation.help.block_state.values.normal_sticky.field.type": "活塞头类型：normal 或 sticky。",
+    "command_translation.help.block_state.values.ascending_east_ascending_north_ascending_south_ascending_west_east_west_north_south.field.shape": "充能/探测/激活铁轨：直线水平或倾斜段及其方向。",
+    "command_translation.help.block_state.values.inner_left_inner_right_outer_left_outer_right_straight.field.shape": "楼梯连接：直段或内/外左/右拐角。",
+    "command_translation.help.block_state.values.ascending_east_ascending_north_ascending_south_ascending_west_east_west_north_east_north_south_north_west_south_east_south_west.field.shape": "铁轨连接：直段、倾斜段，或转向对角。",
+    "command_translation.help.block_state.values.compare_subtract.field.mode": "比较器模式：compare 或 subtract。",
+    "command_translation.help.block_state.values.corner_data_load_save.field.mode": "结构方块模式：save、load、corner、data 或 start。",
+    "command_translation.help.block_state.values.accept_fail_log_start.field.mode": "测试方块模式：start、log、fail 或 accept。",
+    "command_translation.help.block_state.values.foot_head.field.part": "床的端：foot（先放置的一端）或 head。",
+    "command_translation.help.block_state.values.bottom_top.field.half": "楼梯/活板门：方块空间的 bottom 下半或 top 上半。",
+    "command_translation.help.block_state.values.lower_upper.field.half": "高门或高植物：lower 下半或 upper 上半。",
+    "command_translation.help.block_state.values.ceiling_floor_wall.field.face": "按钮、拉杆或砂轮：附着于 floor 地面、wall 墙面或 ceiling 天花板。",
+    "command_translation.help.block_state.values.ceiling_double_wall_floor_single_wall.field.attachment": "钟的安装方式：floor 地面、ceiling 天花板、single_wall 单墙或 double_wall 双墙。",
+    "command_translation.help.block_state.values.large_none_small.field.leaves": "竹子叶子尺寸：none、small 或 large。",
+    "command_translation.help.block_state.values.0_1.field.age": "0 幼小/未生长，1 成熟（竹子、火把花作物、架子菇）。",
+    "command_translation.help.block_state.values.0_1_2.field.age": "可可果生长阶段 0-2。",
+    "command_translation.help.block_state.values.0_1_2_3.field.age": "生长阶段 0-3（下界疣、甜菜根、霜冰、甜浆果丛）。",
+    "command_translation.help.block_state.values.0_1_2_3_4.field.age": "生长阶段 0-4（瓶子草作物、红树林胎生苗）。",
+    "command_translation.help.block_state.values.0_1_2_3_4_5.field.age": "紫颂花生长阶段 0-5。",
+    "command_translation.help.block_state.values.0_1_2_3_4_5_6_7.field.age": "生长阶段 0-7（小麦、南瓜/西瓜茎、胡萝卜、马铃薯）。",
+    "command_translation.help.block_state.values.0_1_10_11_12_13_14_15_2_3_4_5_6_7_8_9.field.age": "计时 0-15（火焰蔓延、仙人掌和甘蔗生长）。",
+    "command_translation.help.block_state.values.0_1_10_11_12_13_14_15_16_17_18_19_2_20_21_22_23_24_25_3_4_5_6_7_8_9.field.age": "生长阶段 0-25（洞穴藤蔓、海带、缠怨藤、垂泪藤）。",
+    "command_translation.help.block_state.values.0_1_2_3.field.level": "炼药锅盛水或细雪的满度（0-3）。",
+    "command_translation.help.block_state.values.0_1_2_3_4_5_6_7_8.field.level": "堆肥桶填充量（0-8）；8 表示可收获为骨粉。",
+    "command_translation.help.block_state.values.0_1_10_11_12_13_14_15_2_3_4_5_6_7_8_9.field.level": "水/岩浆的流体高度，或光源方块的光照等级（0-15）。",
+    "command_translation.help.block_state.values.0_1.field.stage": "树苗或竹子生长：0 未就绪，1 准备生长。",
+    "command_translation.help.block_state.values.0_1_2_3_4_5_6_7.field.distance": "脚手架距其基准方块的距离（0-7）。",
+    "command_translation.help.block_state.values.1_2_3_4_5_6_7.field.distance": "树叶距最近原木的距离（1-7）；7 表示即将凋零。",
+    "command_translation.help.block_state.values.false_true.field.north": "北侧是否附着有东西（true/false）。",
+    "command_translation.help.block_state.values.false_true.field.south": "南侧是否附着有东西（true/false）。",
+    "command_translation.help.block_state.values.false_true.field.east": "东侧是否附着有东西（true/false）。",
+    "command_translation.help.block_state.values.false_true.field.west": "西侧是否附着有东西（true/false）。",
+    "command_translation.help.block_state.values.false_true.field.up": "上方是否附着有东西（true/false）。",
+    "command_translation.help.block_state.values.false_true.field.down": "下方是否附着有东西（true/false）。",
+    "command_translation.help.block_state.values.none_side_up.field.north": "红石粉在北侧的连接：none、side 或 up。",
+    "command_translation.help.block_state.values.none_side_up.field.south": "红石粉在南侧的连接：none、side 或 up。",
+    "command_translation.help.block_state.values.none_side_up.field.east": "红石粉在东侧的连接：none、side 或 up。",
+    "command_translation.help.block_state.values.none_side_up.field.west": "红石粉在西侧的连接：none、side 或 up。",
+    "command_translation.help.block_state.values.low_none_tall.field.north": "苍白苔藓地毯或墙在北侧的连接：none、low 或 tall。",
+    "command_translation.help.block_state.values.low_none_tall.field.south": "苍白苔藓地毯或墙在南侧的连接：none、low 或 tall。",
+    "command_translation.help.block_state.values.low_none_tall.field.east": "苍白苔藓地毯或墙在东侧的连接：none、low 或 tall。",
+    "command_translation.help.block_state.values.low_none_tall.field.west": "苍白苔藓地毯或墙在西侧的连接：none、low 或 tall。",
+    "command_translation.help.block_state.field.drag.value.true": "漩涡：把实体向下吸。",
+    "command_translation.help.block_state.field.drag.value.false": "向上流：把实体向上推。",
+    "command_translation.help.block_state.field.inverted.value.true": "探测黑暗（反转）。",
+    "command_translation.help.block_state.field.inverted.value.false": "探测光照（正常）。",
+    "command_translation.help.block_state.field.persistent.value.true": "树叶保留而不凋零。",
+    "command_translation.help.block_state.field.persistent.value.false": "树叶在失去支撑时凋零。",
+    "command_translation.help.block_state.field.signal_fire.value.true": "更高的烟柱。",
+    "command_translation.help.block_state.field.signal_fire.value.false": "普通烟雾。",
+    "command_translation.help.block_state.field.thickness.value.base": "尖刺最宽的基部。",
+    "command_translation.help.block_state.field.thickness.value.frustum": "基部上方逐渐收窄的一段。",
+    "command_translation.help.block_state.field.thickness.value.middle": "尖刺的中段。",
+    "command_translation.help.block_state.field.thickness.value.tip": "尖刺的尖端。",
+    "command_translation.help.block_state.field.thickness.value.tip_merge": "与另一根滴水石锥尖端相接的尖端。",
+    "command_translation.help.block_state.field.sculk_sensor_phase.value.inactive": "未在感测。",
+    "command_translation.help.block_state.field.sculk_sensor_phase.value.active": "正在检测振动。",
+    "command_translation.help.block_state.field.sculk_sensor_phase.value.cooldown": "检测后暂时禁用。",
+    "command_translation.help.block_state.field.vault_state.value.inactive": "未在使用。",
+    "command_translation.help.block_state.field.vault_state.value.active": "已激活，等待附近玩家插入钥匙。",
+    "command_translation.help.block_state.field.vault_state.value.unlocking": "正在播放解锁动画。",
+    "command_translation.help.block_state.field.vault_state.value.ejecting": "正在弹出奖励。",
+    "command_translation.help.block_state.field.trial_spawner_state.value.inactive": "未激活。",
+    "command_translation.help.block_state.field.trial_spawner_state.value.waiting_for_players": "等待玩家进入。",
+    "command_translation.help.block_state.field.trial_spawner_state.value.active": "正在生成生物。",
+    "command_translation.help.block_state.field.trial_spawner_state.value.waiting_for_reward_ejection": "生物已击败，等待弹出奖励。",
+    "command_translation.help.block_state.field.trial_spawner_state.value.ejecting_reward": "正在弹出奖励。",
+    "command_translation.help.block_state.field.trial_spawner_state.value.cooldown": "重置前冷却中。",
+    "command_translation.help.block_state.field.creaking_heart_state.value.uprooted": "不处于可生成嘎枝的配置。",
+    "command_translation.help.block_state.field.creaking_heart_state.value.dormant": "配置正确，但尚未到夜晚。",
+    "command_translation.help.block_state.field.creaking_heart_state.value.awake": "配置正确且为夜晚；可生成嘎枝。",
+    "command_translation.help.block_state.field.potent_sulfur_state.value.dry": "干燥。",
+    "command_translation.help.block_state.field.potent_sulfur_state.value.wet": "潮湿。",
+    "command_translation.help.block_state.field.potent_sulfur_state.value.dormant": "休眠。",
+    "command_translation.help.block_state.field.potent_sulfur_state.value.erupting": "喷发中。",
+    "command_translation.help.block_state.field.potent_sulfur_state.value.continuous": "持续活动。",
+    "command_translation.help.block_state.field.copper_golem_pose.value.standing": "站立。",
+    "command_translation.help.block_state.field.copper_golem_pose.value.sitting": "坐下。",
+    "command_translation.help.block_state.field.copper_golem_pose.value.running": "奔跑。",
+    "command_translation.help.block_state.field.copper_golem_pose.value.star": "星形姿态。",
+    "command_translation.help.block_state.field.tilt.value.none": "未倾斜。",
+    "command_translation.help.block_state.field.tilt.value.unstable": "正在倾斜，即将倒下。",
+    "command_translation.help.block_state.field.tilt.value.partial": "部分倾斜。",
+    "command_translation.help.block_state.field.tilt.value.full": "完全倾斜。",
+    "command_translation.help.block_state.field.side_chain.value.unconnected": "无侧向连接。",
+    "command_translation.help.block_state.field.side_chain.value.right": "连接到右侧。",
+    "command_translation.help.block_state.field.side_chain.value.center": "连接到中央。",
+    "command_translation.help.block_state.field.side_chain.value.left": "连接到左侧。",
+    "command_translation.help.block_state.minecraft:fire.field.age": "火焰的年龄阶段。",
+    "command_translation.help.block_state.minecraft:frosted_ice.field.age": "霜冰的老化阶段。",
+    "command_translation.help.block_state.minecraft:cactus.field.age": "仙人掌的生长计时。",
+    "command_translation.help.block_state.minecraft:sugar_cane.field.age": "甘蔗的生长计时。",
+    "command_translation.help.block_state.minecraft:light.field.level": "光源方块发出的亮度等级。",
+    "command_translation.help.block_state.minecraft:water.field.level": "水的流体等级。",
+    "command_translation.help.block_state.minecraft:lava.field.level": "熔岩的流体等级。"
+  },
+  "de_de": {
+    "command_translation.help.block_state.field.age": "Wachstumsstufe von Pflanzen oder ein Zeitzähler für Feuerausbreitung und Rankenwachstum; höhere Werte sind weiter entwickelt.",
+    "command_translation.help.block_state.field.attached": "Haken mit einem gültigen Stolperdrahtkreis verbunden, oder ob ein Hängeschild an einem Punkt hängt.",
+    "command_translation.help.block_state.field.attachment": "Wie der Block am Block darunter befestigt ist, z. B. die Boden-, Decken- oder Wandhalterung einer Glocke.",
+    "command_translation.help.block_state.field.axis": "Die Achse, entlang der der Block ausgerichtet ist: x, y oder z.",
+    "command_translation.help.block_state.field.berries": "Ob diese Höhlenranken Beeren tragen.",
+    "command_translation.help.block_state.field.bites": "Anzahl der Bissen, die vom Kuchen genommen wurden (0-6).",
+    "command_translation.help.block_state.field.bloom": "Ob der Sculk-Katalysator gerade blüht.",
+    "command_translation.help.block_state.field.bottom": "Gerüst schwebt und zeigt seine Unterseite, oder ein Blassmoosteppich zeigt nur seine oberen Ranken.",
+    "command_translation.help.block_state.field.can_summon": "Ob der Sculk-Kreischer einen Warden beschwören kann; natürlich erzeugte Kreischer sind true.",
+    "command_translation.help.block_state.field.candles": "Anzahl der Kerzen im Block (1-4).",
+    "command_translation.help.block_state.field.charges": "Verbleibende Verwendungen des Seelenankers (0-4).",
+    "command_translation.help.block_state.field.conditional": "Ob der Befehlsblock bedingt ist.",
+    "command_translation.help.block_state.field.copper_golem_pose": "Pose einer Kupfergolem-Statue: standing, sitting, running oder star.",
+    "command_translation.help.block_state.field.cracked": "Ob der Verzierte Topf beim Zerbrechen ein Splittergeräusch abspielt.",
+    "command_translation.help.block_state.field.crafting": "Ob der Werker gerade herstellt.",
+    "command_translation.help.block_state.field.creaking_heart_state": "Zustand des Knarzherzens: uprooted, dormant oder awake; nur awake kann einen Knarzling erzeugen.",
+    "command_translation.help.block_state.field.delay": "Die Verzögerungsstufe des Redstone-Verstärkers von 1 bis 4.",
+    "command_translation.help.block_state.field.disarmed": "Ob der Stolperdraht mit einer Schere durchtrennt wurde.",
+    "command_translation.help.block_state.field.distance": "Abstand zu einem Basisblock: Gerüstebenen von seiner Stütze, oder Blattabstand zu einem Stamm.",
+    "command_translation.help.block_state.field.down": "Ob unter dem Block etwas befestigt ist.",
+    "command_translation.help.block_state.field.drag": "Blasensäulenströmung: true ist ein Abwärtsstrudel, false drückt nach oben.",
+    "command_translation.help.block_state.field.dusted": "Abstaubfortschritt eines verdächtigen Sand- oder Kiesblocks (0-3).",
+    "command_translation.help.block_state.field.east": "Ob an der Ostseite des Blocks etwas befestigt ist.",
+    "command_translation.help.block_state.field.eggs": "Anzahl der Schildkröteneier im Block (1-4).",
+    "command_translation.help.block_state.field.enabled": "Ob der Trichter Gegenstände aufnehmen und weiterleiten kann.",
+    "command_translation.help.block_state.field.extended": "Ob der Kolben ausgefahren ist.",
+    "command_translation.help.block_state.field.eye": "Ob der Endportalrahmen ein Enderauge enthält.",
+    "command_translation.help.block_state.field.face": "Auf welcher Seite ein befestigter Block sitzt: floor, wall oder ceiling.",
+    "command_translation.help.block_state.field.facing": "Richtung, in die der Block zeigt; bei Wandglocken und Kakao ist die gespeicherte Richtung der sichtbaren entgegengesetzt.",
+    "command_translation.help.block_state.field.falling": "Ob ein Fluid fällt.",
+    "command_translation.help.block_state.field.flower_amount": "Anzahl der Blumen in einer Rosa-Blütenblatt- oder Wildblumengruppe (1-4).",
+    "command_translation.help.block_state.field.half": "Welche Hälfte des Blockraums belegt ist: upper/lower bei hohen Blöcken, top/bottom bei Treppen und Falltüren.",
+    "command_translation.help.block_state.field.hanging": "Ob die Laterne oder der Mangroven-Setzling an der Decke hängt.",
+    "command_translation.help.block_state.field.has_book": "Ob das Lesepult ein Buch enthält.",
+    "command_translation.help.block_state.field.has_bottle_0": "Ob Braustand-Slot 1 eine Flasche enthält.",
+    "command_translation.help.block_state.field.has_bottle_1": "Ob Braustand-Slot 2 eine Flasche enthält.",
+    "command_translation.help.block_state.field.has_bottle_2": "Ob Braustand-Slot 3 eine Flasche enthält.",
+    "command_translation.help.block_state.field.has_record": "Ob die Jukebox eine Musikschallplatte enthält.",
+    "command_translation.help.block_state.field.hatch": "Wie nahe das Ei am Schlüpfen ist (0-2); wird zufällig erhöht.",
+    "command_translation.help.block_state.field.hinge": "Auf welcher Seite das Scharnier der Tür ist: left oder right.",
+    "command_translation.help.block_state.field.honey_level": "Menge des im Bienenstock oder Bienennest gespeicherten Honigs (0-5).",
+    "command_translation.help.block_state.field.in_wall": "Ob das Zauntor um drei Pixel abgesenkt ist, um bündig mit Wänden zu sitzen.",
+    "command_translation.help.block_state.field.instrument": "Instrumentklang, den der Notenblock beim Aktivieren spielt.",
+    "command_translation.help.block_state.field.inverted": "Ob der Tageslichtsensor Dunkelheit statt Licht erkennt.",
+    "command_translation.help.block_state.field.layers": "Anzahl gestapelter Schneeschichten (1-8).",
+    "command_translation.help.block_state.field.leaves": "Größe der Blätter an diesem Bambus: none, small oder large.",
+    "command_translation.help.block_state.field.level": "Füll- oder Intensitätsstufe: Kessel-Füllstand, Komposter-Füllung, Fluidhöhe oder Lichtstufe.",
+    "command_translation.help.block_state.field.lit": "Ob der Block beleuchtet oder eingeschaltet ist.",
+    "command_translation.help.block_state.field.locked": "Ob der Schaltzustand des Verstärkers gegen Änderungen gesperrt ist.",
+    "command_translation.help.block_state.field.mode": "Betriebsmodus des Komparators, Strukturblocks oder Testblocks.",
+    "command_translation.help.block_state.field.moisture": "Feuchtigkeit des Ackerbodens: 0 ist trocken, größere Werte sind feucht.",
+    "command_translation.help.block_state.field.natural": "Ob das Knarzherz natürlich erzeugt statt platziert wurde.",
+    "command_translation.help.block_state.field.north": "Ob an der Nordseite des Blocks etwas befestigt ist.",
+    "command_translation.help.block_state.field.note": "Tonhöhe, die der Notenblock beim Aktivieren spielt (0-24).",
+    "command_translation.help.block_state.field.occupied": "Ob das Bett gerade von einem Spieler oder Dorfbewohner belegt ist.",
+    "command_translation.help.block_state.field.ominous": "Ob der Prüfungs-Spawner oder das Gewölbe unheilvoll ist.",
+    "command_translation.help.block_state.field.open": "Ob Tür, Zauntor, Falltür oder Fass offen ist.",
+    "command_translation.help.block_state.field.orientation": "Richtung der Pfeile des Blocks, gefolgt von der Position der Linienfläche, z. B. down_east oder west_up.",
+    "command_translation.help.block_state.field.part": "Ob dies das Fuß- oder Kopfende des Bettes ist.",
+    "command_translation.help.block_state.field.persistent": "Ob die Blätter bleiben, statt ohne Stütze zu verfallen.",
+    "command_translation.help.block_state.field.pickles": "Anzahl der Meergurken im Block (1-4).",
+    "command_translation.help.block_state.field.potent_sulfur_state": "Zustand des starken Schwefelblocks: dry, wet, dormant, erupting oder continuous.",
+    "command_translation.help.block_state.field.power": "Abgegebene oder gemessene Redstone-Stärke (0-15).",
+    "command_translation.help.block_state.field.powered": "Ob der Block Energie empfängt oder liefert.",
+    "command_translation.help.block_state.field.rotation": "Drehung von stehenden Bannern, Schildern und Mob-Köpfen in 16 Stufen (0-15).",
+    "command_translation.help.block_state.field.sculk_sensor_phase": "Sculk-Sensor-Phase: inactive, active oder cooldown.",
+    "command_translation.help.block_state.field.segment_amount": "Anzahl der Laubstreu-Segmente im Block (1-4).",
+    "command_translation.help.block_state.field.shape": "Wie der Block mit Nachbarn verbunden ist: gerade, Innen-/Außenecken oder Schienensteigungen.",
+    "command_translation.help.block_state.field.short": "Ob der Arm des Kolbenkopfs um 4/16 eines Blocks kürzer ist.",
+    "command_translation.help.block_state.field.shrieking": "Ob der Sculk-Kreischer gerade kreischt.",
+    "command_translation.help.block_state.field.side_chain": "Regalverbindung entlang der Seitenkette: unconnected, right, center oder left.",
+    "command_translation.help.block_state.field.signal_fire": "Ob das Lagerfeuer eine höhere Rauchsäule erzeugt.",
+    "command_translation.help.block_state.field.slot_0_occupied": "Ob Fach 0 des geschnitzten Bücherregals ein Buch enthält.",
+    "command_translation.help.block_state.field.slot_1_occupied": "Ob Fach 1 des geschnitzten Bücherregals ein Buch enthält.",
+    "command_translation.help.block_state.field.slot_2_occupied": "Ob Fach 2 des geschnitzten Bücherregals ein Buch enthält.",
+    "command_translation.help.block_state.field.slot_3_occupied": "Ob Fach 3 des geschnitzten Bücherregals ein Buch enthält.",
+    "command_translation.help.block_state.field.slot_4_occupied": "Ob Fach 4 des geschnitzten Bücherregals ein Buch enthält.",
+    "command_translation.help.block_state.field.slot_5_occupied": "Ob Fach 5 des geschnitzten Bücherregals ein Buch enthält.",
+    "command_translation.help.block_state.field.snowy": "Ob der Block seine beschneite Seitentextur verwendet.",
+    "command_translation.help.block_state.field.south": "Ob an der Südseite des Blocks etwas befestigt ist.",
+    "command_translation.help.block_state.field.stage": "Ob der Setzling oder Bambus bereit ist, in die nächste Stufe zu wachsen.",
+    "command_translation.help.block_state.field.thickness": "Dickenabschnitt eines Tropfsteins oder Schwefelstachels: tip, frustum, middle, base oder tip_merge.",
+    "command_translation.help.block_state.field.tilt": "Neigungsstufe des großen Tropfblatts: none, unstable, partial oder full.",
+    "command_translation.help.block_state.field.tip": "Ob das Blasse Hängemoos am unteren Ende seines Strangs ist.",
+    "command_translation.help.block_state.field.trial_spawner_state": "Zustand des Prüfungs-Spawners: inactive, wartet auf Spieler, active, wartet auf Belohnung, auswerfend oder cooldown.",
+    "command_translation.help.block_state.field.triggered": "Ob der Werfer, Spender oder Werker aktiviert wurde.",
+    "command_translation.help.block_state.field.type": "Blockvariante, z. B. die halbe/volle Form einer Stufe, die Seite einer Truhe oder der normal/sticky Kopf eines Kolbens.",
+    "command_translation.help.block_state.field.unstable": "Ob das TNT beim Schlagen zündet.",
+    "command_translation.help.block_state.field.up": "Ob über dem Block etwas befestigt ist.",
+    "command_translation.help.block_state.field.vault_state": "Gewölbe-Zustand: inactive, active, unlocking oder ejecting.",
+    "command_translation.help.block_state.field.vertical_direction": "Vertikale Richtung eines Tropfsteins oder Schwefelstachels: up oder down.",
+    "command_translation.help.block_state.field.waterlogged": "Ob der Block Wasser enthält.",
+    "command_translation.help.block_state.field.west": "Ob an der Westseite des Blocks etwas befestigt ist.",
+    "command_translation.help.block_state.values.bottom_double_top.field.type": "Stufenvariante: bottom untere Hälfte, top obere Hälfte oder double volle Doppelstufe.",
+    "command_translation.help.block_state.values.left_right_single.field.type": "Truhenvariante: single oder linke/rechte Hälfte einer Doppeltruhe.",
+    "command_translation.help.block_state.values.normal_sticky.field.type": "Kolbenkopftyp: normal oder sticky.",
+    "command_translation.help.block_state.values.ascending_east_ascending_north_ascending_south_ascending_west_east_west_north_south.field.shape": "Antriebs-/Detektor-/Aktivierungsschiene: gerades horizontales oder geneigtes Segment und seine Richtung.",
+    "command_translation.help.block_state.values.inner_left_inner_right_outer_left_outer_right_straight.field.shape": "Treppenverbindung: gerade oder eine innere/äußere linke/rechte Ecke.",
+    "command_translation.help.block_state.values.ascending_east_ascending_north_ascending_south_ascending_west_east_west_north_east_north_south_north_west_south_east_south_west.field.shape": "Schienenverbindung: gerade, geneigt oder in eine Diagonale biegend.",
+    "command_translation.help.block_state.values.compare_subtract.field.mode": "Komparatormodus: compare oder subtract.",
+    "command_translation.help.block_state.values.corner_data_load_save.field.mode": "Strukturblockmodus: save, load, corner, data oder start.",
+    "command_translation.help.block_state.values.accept_fail_log_start.field.mode": "Testblockmodus: start, log, fail oder accept.",
+    "command_translation.help.block_state.values.foot_head.field.part": "Bettende: foot (zuerst platziert) oder head.",
+    "command_translation.help.block_state.values.bottom_top.field.half": "Treppe/Falltür: untere oder obere Hälfte des Blockraums.",
+    "command_translation.help.block_state.values.lower_upper.field.half": "Hohe Tür oder Pflanze: untere oder obere Hälfte.",
+    "command_translation.help.block_state.values.ceiling_floor_wall.field.face": "Knopf, Hebel oder Schleifstein: an floor, wall oder ceiling befestigt.",
+    "command_translation.help.block_state.values.ceiling_double_wall_floor_single_wall.field.attachment": "Glockenhalterung: floor, ceiling, single_wall oder double_wall.",
+    "command_translation.help.block_state.values.large_none_small.field.leaves": "Bambusblattgröße: none, small oder large.",
+    "command_translation.help.block_state.values.0_1.field.age": "0 jung/ungewachsen, 1 ausgewachsen (Bambus, Fackelblumenpflanze, Regalpilz).",
+    "command_translation.help.block_state.values.0_1_2.field.age": "Kakao-Wachstumsstufe 0-2.",
+    "command_translation.help.block_state.values.0_1_2_3.field.age": "Wachstumsstufe 0-3 (Netherwarze, Rote Bete, gefrorenes Eis, Süßbeerenstrauch).",
+    "command_translation.help.block_state.values.0_1_2_3_4.field.age": "Wachstumsstufe 0-4 (Kannenpflanzen-Pflanze, Mangroven-Setzling).",
+    "command_translation.help.block_state.values.0_1_2_3_4_5.field.age": "Chorusblüte-Wachstumsstufe 0-5.",
+    "command_translation.help.block_state.values.0_1_2_3_4_5_6_7.field.age": "Wachstumsstufe 0-7 (Weizen, Kürbis-/Melonenstiel, Karotten, Kartoffeln).",
+    "command_translation.help.block_state.values.0_1_10_11_12_13_14_15_2_3_4_5_6_7_8_9.field.age": "Zeitzähler 0-15 (Feuerausbreitung, Kaktus- und Zuckerrohrwachstum).",
+    "command_translation.help.block_state.values.0_1_10_11_12_13_14_15_16_17_18_19_2_20_21_22_23_24_25_3_4_5_6_7_8_9.field.age": "Wachstumsstufe 0-25 (Höhlenranken, Seetang, Verdrehte Ranken, Trauerranken).",
+    "command_translation.help.block_state.values.0_1_2_3.field.level": "Kessel-Füllstand für Wasser oder Pulverschnee (0-3).",
+    "command_translation.help.block_state.values.0_1_2_3_4_5_6_7_8.field.level": "Komposter-Füllung (0-8); 8 bedeutet bereit zur Ernte zu Knochenmehl.",
+    "command_translation.help.block_state.values.0_1_10_11_12_13_14_15_2_3_4_5_6_7_8_9.field.level": "Fluidhöhe für Wasser/Lava oder Lichtstufe für Lichtblöcke (0-15).",
+    "command_translation.help.block_state.values.0_1.field.stage": "Setzling- oder Bambuswachstum: 0 nicht bereit, 1 bereit zu wachsen.",
+    "command_translation.help.block_state.values.0_1_2_3_4_5_6_7.field.distance": "Gerüstabstand von seinem Basisblock (0-7).",
+    "command_translation.help.block_state.values.1_2_3_4_5_6_7.field.distance": "Blattabstand zum nächsten Stamm (1-7); 7 bedeutet kurz vor dem Verfall.",
+    "command_translation.help.block_state.values.false_true.field.north": "Ob an der Nordseite etwas befestigt ist (true/false).",
+    "command_translation.help.block_state.values.false_true.field.south": "Ob an der Südseite etwas befestigt ist (true/false).",
+    "command_translation.help.block_state.values.false_true.field.east": "Ob an der Ostseite etwas befestigt ist (true/false).",
+    "command_translation.help.block_state.values.false_true.field.west": "Ob an der Westseite etwas befestigt ist (true/false).",
+    "command_translation.help.block_state.values.false_true.field.up": "Ob darüber etwas befestigt ist (true/false).",
+    "command_translation.help.block_state.values.false_true.field.down": "Ob darunter etwas befestigt ist (true/false).",
+    "command_translation.help.block_state.values.none_side_up.field.north": "Redstone-Staub-Verbindung an der Nordseite: none, side oder up.",
+    "command_translation.help.block_state.values.none_side_up.field.south": "Redstone-Staub-Verbindung an der Südseite: none, side oder up.",
+    "command_translation.help.block_state.values.none_side_up.field.east": "Redstone-Staub-Verbindung an der Ostseite: none, side oder up.",
+    "command_translation.help.block_state.values.none_side_up.field.west": "Redstone-Staub-Verbindung an der Westseite: none, side oder up.",
+    "command_translation.help.block_state.values.low_none_tall.field.north": "Blassmoosteppich- oder Wandverbindung an der Nordseite: none, low oder tall.",
+    "command_translation.help.block_state.values.low_none_tall.field.south": "Blassmoosteppich- oder Wandverbindung an der Südseite: none, low oder tall.",
+    "command_translation.help.block_state.values.low_none_tall.field.east": "Blassmoosteppich- oder Wandverbindung an der Ostseite: none, low oder tall.",
+    "command_translation.help.block_state.values.low_none_tall.field.west": "Blassmoosteppich- oder Wandverbindung an der Westseite: none, low oder tall.",
+    "command_translation.help.block_state.field.drag.value.true": "Strudel: zieht Entitäten nach unten.",
+    "command_translation.help.block_state.field.drag.value.false": "Aufwärtsströmung: drückt Entitäten nach oben.",
+    "command_translation.help.block_state.field.inverted.value.true": "Erkennt Dunkelheit (invertiert).",
+    "command_translation.help.block_state.field.inverted.value.false": "Erkennt Licht (normal).",
+    "command_translation.help.block_state.field.persistent.value.true": "Blätter bleiben und verfallen nicht.",
+    "command_translation.help.block_state.field.persistent.value.false": "Blätter verfallen ohne Stütze.",
+    "command_translation.help.block_state.field.signal_fire.value.true": "Höhere Rauchsäule.",
+    "command_translation.help.block_state.field.signal_fire.value.false": "Normaler Rauch.",
+    "command_translation.help.block_state.field.thickness.value.base": "Breiteste Basis des Stachels.",
+    "command_translation.help.block_state.field.thickness.value.frustum": "Sich verjüngender Abschnitt direkt über der Basis.",
+    "command_translation.help.block_state.field.thickness.value.middle": "Mittlerer Abschnitt des Stachels.",
+    "command_translation.help.block_state.field.thickness.value.tip": "Spitze des Stachels.",
+    "command_translation.help.block_state.field.thickness.value.tip_merge": "Eine mit einer anderen Tropfsteinspitze verbundene Spitze.",
+    "command_translation.help.block_state.field.sculk_sensor_phase.value.inactive": "Nicht erkennend.",
+    "command_translation.help.block_state.field.sculk_sensor_phase.value.active": "Erkennt gerade eine Vibration.",
+    "command_translation.help.block_state.field.sculk_sensor_phase.value.cooldown": "Nach einer Erkennung vorübergehend deaktiviert.",
+    "command_translation.help.block_state.field.vault_state.value.inactive": "Nicht in Benutzung.",
+    "command_translation.help.block_state.field.vault_state.value.active": "Aktiv und bereit für einen Schlüssel eines Spielers in der Nähe.",
+    "command_translation.help.block_state.field.vault_state.value.unlocking": "Entsperranimation wird abgespielt.",
+    "command_translation.help.block_state.field.vault_state.value.ejecting": "Belohnung wird ausgeworfen.",
+    "command_translation.help.block_state.field.trial_spawner_state.value.inactive": "Nicht aktiv.",
+    "command_translation.help.block_state.field.trial_spawner_state.value.waiting_for_players": "Wartet auf eintretende Spieler.",
+    "command_translation.help.block_state.field.trial_spawner_state.value.active": "Erzeugt Mobs.",
+    "command_translation.help.block_state.field.trial_spawner_state.value.waiting_for_reward_ejection": "Mobs besiegt; wartet darauf, Belohnungen auszuwerfen.",
+    "command_translation.help.block_state.field.trial_spawner_state.value.ejecting_reward": "Wirft Belohnungen aus.",
+    "command_translation.help.block_state.field.trial_spawner_state.value.cooldown": "Abklingzeit vor dem Zurücksetzen.",
+    "command_translation.help.block_state.field.creaking_heart_state.value.uprooted": "Nicht in einer Konfiguration, die einen Knarzling erzeugen kann.",
+    "command_translation.help.block_state.field.creaking_heart_state.value.dormant": "Korrekte Konfiguration, aber es ist nicht Nacht.",
+    "command_translation.help.block_state.field.creaking_heart_state.value.awake": "Korrekte Konfiguration bei Nacht; kann einen Knarzling erzeugen.",
+    "command_translation.help.block_state.field.potent_sulfur_state.value.dry": "Trocken.",
+    "command_translation.help.block_state.field.potent_sulfur_state.value.wet": "Nass.",
+    "command_translation.help.block_state.field.potent_sulfur_state.value.dormant": "Ruhend.",
+    "command_translation.help.block_state.field.potent_sulfur_state.value.erupting": "Ausbrechend.",
+    "command_translation.help.block_state.field.potent_sulfur_state.value.continuous": "Dauerhaft aktiv.",
+    "command_translation.help.block_state.field.copper_golem_pose.value.standing": "Stehend.",
+    "command_translation.help.block_state.field.copper_golem_pose.value.sitting": "Sitzend.",
+    "command_translation.help.block_state.field.copper_golem_pose.value.running": "Rennend.",
+    "command_translation.help.block_state.field.copper_golem_pose.value.star": "Sternpose.",
+    "command_translation.help.block_state.field.tilt.value.none": "Nicht geneigt.",
+    "command_translation.help.block_state.field.tilt.value.unstable": "Kippt und fällt gleich um.",
+    "command_translation.help.block_state.field.tilt.value.partial": "Teilweise geneigt.",
+    "command_translation.help.block_state.field.tilt.value.full": "Vollständig geneigt.",
+    "command_translation.help.block_state.field.side_chain.value.unconnected": "Keine Seitenverbindung.",
+    "command_translation.help.block_state.field.side_chain.value.right": "Nach rechts verbunden.",
+    "command_translation.help.block_state.field.side_chain.value.center": "In der Mitte verbunden.",
+    "command_translation.help.block_state.field.side_chain.value.left": "Nach links verbunden.",
+    "command_translation.help.block_state.minecraft:fire.field.age": "Die Altersstufe des Feuers.",
+    "command_translation.help.block_state.minecraft:frosted_ice.field.age": "Die Alterungsstufe des brüchigen Eises.",
+    "command_translation.help.block_state.minecraft:cactus.field.age": "Der Wachstumszähler des Kaktus.",
+    "command_translation.help.block_state.minecraft:sugar_cane.field.age": "Der Wachstumszähler des Zuckerrohrs.",
+    "command_translation.help.block_state.minecraft:light.field.level": "Die von diesem Lichtblock abgegebene Lichtstärke.",
+    "command_translation.help.block_state.minecraft:water.field.level": "Die Flüssigkeitsstufe des Wassers.",
+    "command_translation.help.block_state.minecraft:lava.field.level": "Die Flüssigkeitsstufe der Lava."
+  },
+  "ja_jp": {
+    "command_translation.help.block_state.field.age": "植物の成長段階、または火の延焼や蔦の成長のタイマー。値が大きいほど成熟・進行している。",
+    "command_translation.help.block_state.field.attached": "トリップワイヤーフックが有効なトリップワイヤー回路に接続しているか、または吊り看板が 1 点で吊られているか。",
+    "command_translation.help.block_state.field.attachment": "ブロックが接しているブロックへの取り付き方。例: 鐘の床・天井・壁への取り付け。",
+    "command_translation.help.block_state.field.axis": "ブロックが向いている軸: x、y または z。",
+    "command_translation.help.block_state.field.berries": "この洞窟の蔦にベリーが実っているか。",
+    "command_translation.help.block_state.field.bites": "ケーキが食べられた口数（0-6）。",
+    "command_translation.help.block_state.field.bloom": "スカルクカタリストが現在開花中かどうか。",
+    "command_translation.help.block_state.field.bottom": "足場が浮いて底面を表示しているか、またはペイルモスカーペットが上の蔦だけを表示しているか。",
+    "command_translation.help.block_state.field.can_summon": "スカルクシュリーカーがウォーデンを召喚できるか。自然生成のシュリーカーは true。",
+    "command_translation.help.block_state.field.candles": "ブロック内のろうそくの数（1-4）。",
+    "command_translation.help.block_state.field.charges": "リスポーンアンカーの残り使用回数（0-4）。",
+    "command_translation.help.block_state.field.conditional": "コマンドブロックが条件付きかどうか。",
+    "command_translation.help.block_state.field.copper_golem_pose": "銅のゴーレム像のポーズ: standing、sitting、running または star。",
+    "command_translation.help.block_state.field.cracked": "装飾された壺が壊れるときに砕ける音を鳴らすか。",
+    "command_translation.help.block_state.field.crafting": "クラフターが現在製作中かどうか。",
+    "command_translation.help.block_state.field.creaking_heart_state": "クリーキングの心臓の状態: uprooted、dormant または awake。awake のみクリーキングを生成できる。",
+    "command_translation.help.block_state.field.delay": "レッドストーンリピーターの遅延設定（1～4）。",
+    "command_translation.help.block_state.field.disarmed": "トリップワイヤーがハサミで切られているか。",
+    "command_translation.help.block_state.field.distance": "基準ブロックからの距離: 足場は支持からの段数、葉は原木からの距離。",
+    "command_translation.help.block_state.field.down": "ブロックの下に何かが付いているか。",
+    "command_translation.help.block_state.field.drag": "気泡柱の流れ: true は下向きの渦、false は上向き。",
+    "command_translation.help.block_state.field.dusted": "怪しい砂・砂利の払い進捗（0-3）。",
+    "command_translation.help.block_state.field.east": "ブロックの東側に何かが付いているか。",
+    "command_translation.help.block_state.field.eggs": "ブロック内のカメの卵の数（1-4）。",
+    "command_translation.help.block_state.field.enabled": "ホッパーがアイテムを回収・搬送できるか。",
+    "command_translation.help.block_state.field.extended": "ピストンが伸びているかどうか。",
+    "command_translation.help.block_state.field.eye": "エンドポータルフレームにエンダーアイが入っているか。",
+    "command_translation.help.block_state.field.face": "取り付いたブロックがどの面か: floor、wall または ceiling。",
+    "command_translation.help.block_state.field.facing": "ブロックが向いている方向。壁の鐘やカカオでは保存方向は見た目の逆。",
+    "command_translation.help.block_state.field.falling": "流体が落下中かどうか。",
+    "command_translation.help.block_state.field.flower_amount": "ピンクの花びらまたは野花の花の数（1-4）。",
+    "command_translation.help.block_state.field.half": "ブロック空間のどちらの半分か: 背の高いブロックは upper/lower、階段とトラップドアは top/bottom。",
+    "command_translation.help.block_state.field.hanging": "ランタンまたはマングローブの芽が天井から吊られているか。",
+    "command_translation.help.block_state.field.has_book": "書見台に本があるか。",
+    "command_translation.help.block_state.field.has_bottle_0": "醸造台の 1 番スロットに瓶があるか。",
+    "command_translation.help.block_state.field.has_bottle_1": "醸造台の 2 番スロットに瓶があるか。",
+    "command_translation.help.block_state.field.has_bottle_2": "醸造台の 3 番スロットに瓶があるか。",
+    "command_translation.help.block_state.field.has_record": "ジュークボックスにレコードが入っているか。",
+    "command_translation.help.block_state.field.hatch": "卵が孵化にどれだけ近いか（0-2）。ランダムに増加。",
+    "command_translation.help.block_state.field.hinge": "ドアの蝶番がどちら側か: left または right。",
+    "command_translation.help.block_state.field.honey_level": "養蜂箱または蜂の巣に貯まった蜂蜜の量（0-5）。",
+    "command_translation.help.block_state.field.in_wall": "フェンスゲートが壁と面一になるよう 3 ピクセル下がっているか。",
+    "command_translation.help.block_state.field.instrument": "音符ブロックが鳴らす楽器の音色。",
+    "command_translation.help.block_state.field.inverted": "日照センサーが光ではなく暗さを検知するか。",
+    "command_translation.help.block_state.field.layers": "積み重なった雪の層数（1-8）。",
+    "command_translation.help.block_state.field.leaves": "この竹の葉の大きさ: none、small または large。",
+    "command_translation.help.block_state.field.level": "充填または強度の段階: 大釜の満ち具合、コンポスターの充填、流体の高さ、または明るさ。",
+    "command_translation.help.block_state.field.lit": "ブロックが点灯・オンになっているか。",
+    "command_translation.help.block_state.field.locked": "リピーターの通電状態が変更できないようロックされているか。",
+    "command_translation.help.block_state.field.mode": "コンパレーター、ストラクチャーブロック、テストブロックの動作モード。",
+    "command_translation.help.block_state.field.moisture": "耕地の湿り具合。0は乾燥、それより大きい値は湿っている。",
+    "command_translation.help.block_state.field.natural": "クリーキングの心臓がプレイヤー設置ではなく自然生成か。",
+    "command_translation.help.block_state.field.north": "ブロックの北側に何かが付いているか。",
+    "command_translation.help.block_state.field.note": "音符ブロックが鳴らす音程（0-24）。",
+    "command_translation.help.block_state.field.occupied": "ベッドが現在プレイヤーまたは村人に使用されているか。",
+    "command_translation.help.block_state.field.ominous": "トライアルスポナーまたは保管庫が不吉かどうか。",
+    "command_translation.help.block_state.field.open": "ドア、フェンスゲート、トラップドア、または樽が開いているか。",
+    "command_translation.help.block_state.field.orientation": "ブロックの矢印の向きと、続く線面の位置（例: down_east、west_up）。",
+    "command_translation.help.block_state.field.part": "ベッドの foot（足元側）か head（頭側）か。",
+    "command_translation.help.block_state.field.persistent": "葉が支えを失っても枯れずに残るか。",
+    "command_translation.help.block_state.field.pickles": "ブロック内のシーピクルの数（1-4）。",
+    "command_translation.help.block_state.field.potent_sulfur_state": "強力な硫黄ブロックの状態: dry、wet、dormant、erupting または continuous。",
+    "command_translation.help.block_state.field.power": "出力または測定されるレッドストーンの強度（0-15）。",
+    "command_translation.help.block_state.field.powered": "ブロックが動力を受けている・与えているか。",
+    "command_translation.help.block_state.field.rotation": "立てた旗・看板・モブの頭の回転。16 段階（0-15）。",
+    "command_translation.help.block_state.field.sculk_sensor_phase": "スカルクセンサーの段階: inactive、active または cooldown。",
+    "command_translation.help.block_state.field.segment_amount": "ブロック内の落ち葉（リーフリター）の数（1-4）。",
+    "command_translation.help.block_state.field.shape": "隣接ブロックとの接続形状: 直線、内/外コーナー、またはレールの坂。",
+    "command_translation.help.block_state.field.short": "ピストンヘッドの腕がブロックの 4/16 だけ短いか。",
+    "command_translation.help.block_state.field.shrieking": "スカルクシュリーカーが現在叫んでいるか。",
+    "command_translation.help.block_state.field.side_chain": "棚の側面チェーンの接続: unconnected、right、center または left。",
+    "command_translation.help.block_state.field.signal_fire": "焚き火がより高い煙を出すか。",
+    "command_translation.help.block_state.field.slot_0_occupied": "模様入り本棚のスロット 0 に本があるか。",
+    "command_translation.help.block_state.field.slot_1_occupied": "模様入り本棚のスロット 1 に本があるか。",
+    "command_translation.help.block_state.field.slot_2_occupied": "模様入り本棚のスロット 2 に本があるか。",
+    "command_translation.help.block_state.field.slot_3_occupied": "模様入り本棚のスロット 3 に本があるか。",
+    "command_translation.help.block_state.field.slot_4_occupied": "模様入り本棚のスロット 4 に本があるか。",
+    "command_translation.help.block_state.field.slot_5_occupied": "模様入り本棚のスロット 5 に本があるか。",
+    "command_translation.help.block_state.field.snowy": "ブロックが雪の側面テクスチャを使うか。",
+    "command_translation.help.block_state.field.south": "ブロックの南側に何かが付いているか。",
+    "command_translation.help.block_state.field.stage": "苗木または竹が次の成長段階に進む準備ができているか。",
+    "command_translation.help.block_state.field.thickness": "鍾乳石または硫黄のとげの太さの区間: tip、frustum、middle、base または tip_merge。",
+    "command_translation.help.block_state.field.tilt": "大きなヒカリゴケ（ビッグドリップリーフ）の傾き段階: none、unstable、partial または full。",
+    "command_translation.help.block_state.field.tip": "淡い垂れ苔がその房の最下端にあるか。",
+    "command_translation.help.block_state.field.trial_spawner_state": "トライアルスポナーの状態: inactive、プレイヤー待ち、active、報酬待ち、報酬排出中、または cooldown。",
+    "command_translation.help.block_state.field.triggered": "ディスペンサー、ドロッパー、またはクラフターが作動したか。",
+    "command_translation.help.block_state.field.type": "ブロックの変種。例: ハーフスラブ／フルスラブ、チェストの左右、ピストンヘッドの normal/sticky。",
+    "command_translation.help.block_state.field.unstable": "TNT を殴ると点火するか。",
+    "command_translation.help.block_state.field.up": "ブロックの上に何かが付いているか。",
+    "command_translation.help.block_state.field.vault_state": "保管庫の状態: inactive、active、unlocking または ejecting。",
+    "command_translation.help.block_state.field.vertical_direction": "鍾乳石または硫黄のとげの垂直方向: up または down。",
+    "command_translation.help.block_state.field.waterlogged": "ブロックに水が含まれているか。",
+    "command_translation.help.block_state.field.west": "ブロックの西側に何かが付いているか。",
+    "command_translation.help.block_state.values.bottom_double_top.field.type": "スラブの変種: bottom 下半分、top 上半分、または double のフルブロック。",
+    "command_translation.help.block_state.values.left_right_single.field.type": "チェストの変種: single、またはダブルチェストの left/right 半分。",
+    "command_translation.help.block_state.values.normal_sticky.field.type": "ピストンヘッドの種類: normal または sticky。",
+    "command_translation.help.block_state.values.ascending_east_ascending_north_ascending_south_ascending_west_east_west_north_south.field.shape": "パワード／ディテクター／アクティベーターレール: 水平または傾斜した直線区間とその向き。",
+    "command_translation.help.block_state.values.inner_left_inner_right_outer_left_outer_right_straight.field.shape": "階段の接続: 直線、または内側/外側の左/右コーナー。",
+    "command_translation.help.block_state.values.ascending_east_ascending_north_ascending_south_ascending_west_east_west_north_east_north_south_north_west_south_east_south_west.field.shape": "レールの接続: 直線、傾斜、または斜めへのカーブ。",
+    "command_translation.help.block_state.values.compare_subtract.field.mode": "コンパレーターのモード: compare または subtract。",
+    "command_translation.help.block_state.values.corner_data_load_save.field.mode": "ストラクチャーブロックのモード: save、load、corner、data または start。",
+    "command_translation.help.block_state.values.accept_fail_log_start.field.mode": "テストブロックのモード: start、log、fail または accept。",
+    "command_translation.help.block_state.values.foot_head.field.part": "ベッドの端: foot（先に設置した側）または head。",
+    "command_translation.help.block_state.values.bottom_top.field.half": "階段／トラップドア: ブロック空間の bottom 下半分または top 上半分。",
+    "command_translation.help.block_state.values.lower_upper.field.half": "背の高いドアや植物: lower 下半分または upper 上半分。",
+    "command_translation.help.block_state.values.ceiling_floor_wall.field.face": "ボタン、レバー、石臼: floor 床、wall 壁、または ceiling 天井への取り付け。",
+    "command_translation.help.block_state.values.ceiling_double_wall_floor_single_wall.field.attachment": "鐘の取り付け: floor、ceiling、single_wall または double_wall。",
+    "command_translation.help.block_state.values.large_none_small.field.leaves": "竹の葉の大きさ: none、small または large。",
+    "command_translation.help.block_state.values.0_1.field.age": "0 未成熟／未成長、1 成熟（竹、トーチフラワー、棚キノコ）。",
+    "command_translation.help.block_state.values.0_1_2.field.age": "カカオの成長段階 0-2。",
+    "command_translation.help.block_state.values.0_1_2_3.field.age": "成長段階 0-3（ネザーウォート、ビートルート、霜った氷、スイートベリーの茂み）。",
+    "command_translation.help.block_state.values.0_1_2_3_4.field.age": "成長段階 0-4（ピッチャー作物、マングローブの芽）。",
+    "command_translation.help.block_state.values.0_1_2_3_4_5.field.age": "コーラスフラワーの成長段階 0-5。",
+    "command_translation.help.block_state.values.0_1_2_3_4_5_6_7.field.age": "成長段階 0-7（小麦、カボチャ／スイカの茎、ニンジン、ジャガイモ）。",
+    "command_translation.help.block_state.values.0_1_10_11_12_13_14_15_2_3_4_5_6_7_8_9.field.age": "タイマー 0-15（火の延焼、サボテンとサトウキビの成長）。",
+    "command_translation.help.block_state.values.0_1_10_11_12_13_14_15_16_17_18_19_2_20_21_22_23_24_25_3_4_5_6_7_8_9.field.age": "成長段階 0-25（洞窟の蔦、コンブ、ねじれツタ、しだれツタ）。",
+    "command_translation.help.block_state.values.0_1_2_3.field.level": "水またはパウダースノーを入れた大釜の満ち具合（0-3）。",
+    "command_translation.help.block_state.values.0_1_2_3_4_5_6_7_8.field.level": "コンポスターの充填量（0-8）。8 で骨粉として収穫可能。",
+    "command_translation.help.block_state.values.0_1_10_11_12_13_14_15_2_3_4_5_6_7_8_9.field.level": "水／溶岩の流体の高さ、または光源ブロックの明るさ（0-15）。",
+    "command_translation.help.block_state.values.0_1.field.stage": "苗木または竹の成長: 0 未準備、1 成長可能。",
+    "command_translation.help.block_state.values.0_1_2_3_4_5_6_7.field.distance": "足場が基準ブロックから離れた距離（0-7）。",
+    "command_translation.help.block_state.values.1_2_3_4_5_6_7.field.distance": "葉が最寄りの原木から離れた距離（1-7）。7 はもうすぐ枯れる。",
+    "command_translation.help.block_state.values.false_true.field.north": "北側に何かが付いているか（true/false）。",
+    "command_translation.help.block_state.values.false_true.field.south": "南側に何かが付いているか（true/false）。",
+    "command_translation.help.block_state.values.false_true.field.east": "東側に何かが付いているか（true/false）。",
+    "command_translation.help.block_state.values.false_true.field.west": "西側に何かが付いているか（true/false）。",
+    "command_translation.help.block_state.values.false_true.field.up": "上に何かが付いているか（true/false）。",
+    "command_translation.help.block_state.values.false_true.field.down": "下に何かが付いているか（true/false）。",
+    "command_translation.help.block_state.values.none_side_up.field.north": "北側のレッドストーンダストの接続: none、side または up。",
+    "command_translation.help.block_state.values.none_side_up.field.south": "南側のレッドストーンダストの接続: none、side または up。",
+    "command_translation.help.block_state.values.none_side_up.field.east": "東側のレッドストーンダストの接続: none、side または up。",
+    "command_translation.help.block_state.values.none_side_up.field.west": "西側のレッドストーンダストの接続: none、side または up。",
+    "command_translation.help.block_state.values.low_none_tall.field.north": "ペイルモスカーペットまたは壁の北側の接続: none、low または tall。",
+    "command_translation.help.block_state.values.low_none_tall.field.south": "ペイルモスカーペットまたは壁の南側の接続: none、low または tall。",
+    "command_translation.help.block_state.values.low_none_tall.field.east": "ペイルモスカーペットまたは壁の東側の接続: none、low または tall。",
+    "command_translation.help.block_state.values.low_none_tall.field.west": "ペイルモスカーペットまたは壁の西側の接続: none、low または tall。",
+    "command_translation.help.block_state.field.drag.value.true": "渦: エンティティを下へ引き込む。",
+    "command_translation.help.block_state.field.drag.value.false": "上向きの流れ: エンティティを上へ押す。",
+    "command_translation.help.block_state.field.inverted.value.true": "暗さを検知する（反転）。",
+    "command_translation.help.block_state.field.inverted.value.false": "光を検知する（通常）。",
+    "command_translation.help.block_state.field.persistent.value.true": "葉は残り枯れない。",
+    "command_translation.help.block_state.field.persistent.value.false": "支えを失うと葉が枯れる。",
+    "command_translation.help.block_state.field.signal_fire.value.true": "より高い煙。",
+    "command_translation.help.block_state.field.signal_fire.value.false": "通常の煙。",
+    "command_translation.help.block_state.field.thickness.value.base": "とげの最も太い基部。",
+    "command_translation.help.block_state.field.thickness.value.frustum": "基部のすぐ上で細くなる区間。",
+    "command_translation.help.block_state.field.thickness.value.middle": "とげの中間部。",
+    "command_translation.help.block_state.field.thickness.value.tip": "とげの先端。",
+    "command_translation.help.block_state.field.thickness.value.tip_merge": "別の鍾乳石の先端と接続した先端。",
+    "command_translation.help.block_state.field.sculk_sensor_phase.value.inactive": "感知していない。",
+    "command_translation.help.block_state.field.sculk_sensor_phase.value.active": "現在振動を検知している。",
+    "command_translation.help.block_state.field.sculk_sensor_phase.value.cooldown": "検知後、一時的に無効。",
+    "command_translation.help.block_state.field.vault_state.value.inactive": "未使用。",
+    "command_translation.help.block_state.field.vault_state.value.active": "起動中。近くのプレイヤーが鍵を入れるのを待つ。",
+    "command_translation.help.block_state.field.vault_state.value.unlocking": "解錠アニメーションを再生中。",
+    "command_translation.help.block_state.field.vault_state.value.ejecting": "報酬を排出中。",
+    "command_translation.help.block_state.field.trial_spawner_state.value.inactive": "非アクティブ。",
+    "command_translation.help.block_state.field.trial_spawner_state.value.waiting_for_players": "プレイヤーの入場を待機中。",
+    "command_translation.help.block_state.field.trial_spawner_state.value.active": "モブを生成中。",
+    "command_translation.help.block_state.field.trial_spawner_state.value.waiting_for_reward_ejection": "モブを撃破済み。報酬の排出を待機中。",
+    "command_translation.help.block_state.field.trial_spawner_state.value.ejecting_reward": "報酬を排出中。",
+    "command_translation.help.block_state.field.trial_spawner_state.value.cooldown": "リセット前のクールダウン中。",
+    "command_translation.help.block_state.field.creaking_heart_state.value.uprooted": "クリーキングを生成できる構成ではない。",
+    "command_translation.help.block_state.field.creaking_heart_state.value.dormant": "構成は正しいが夜ではない。",
+    "command_translation.help.block_state.field.creaking_heart_state.value.awake": "夜で構成も正しく、クリーキングを生成できる。",
+    "command_translation.help.block_state.field.potent_sulfur_state.value.dry": "乾燥。",
+    "command_translation.help.block_state.field.potent_sulfur_state.value.wet": "湿潤。",
+    "command_translation.help.block_state.field.potent_sulfur_state.value.dormant": "休眠。",
+    "command_translation.help.block_state.field.potent_sulfur_state.value.erupting": "噴出中。",
+    "command_translation.help.block_state.field.potent_sulfur_state.value.continuous": "継続的に活動。",
+    "command_translation.help.block_state.field.copper_golem_pose.value.standing": "立っている。",
+    "command_translation.help.block_state.field.copper_golem_pose.value.sitting": "座っている。",
+    "command_translation.help.block_state.field.copper_golem_pose.value.running": "走っている。",
+    "command_translation.help.block_state.field.copper_golem_pose.value.star": "星のポーズ。",
+    "command_translation.help.block_state.field.tilt.value.none": "傾いていない。",
+    "command_translation.help.block_state.field.tilt.value.unstable": "傾き始め、まもなく倒れる。",
+    "command_translation.help.block_state.field.tilt.value.partial": "部分的に傾いている。",
+    "command_translation.help.block_state.field.tilt.value.full": "完全に傾いている。",
+    "command_translation.help.block_state.field.side_chain.value.unconnected": "側面の接続なし。",
+    "command_translation.help.block_state.field.side_chain.value.right": "右に接続。",
+    "command_translation.help.block_state.field.side_chain.value.center": "中央に接続。",
+    "command_translation.help.block_state.field.side_chain.value.left": "左に接続。",
+    "command_translation.help.block_state.minecraft:fire.field.age": "炎の経過段階。",
+    "command_translation.help.block_state.minecraft:frosted_ice.field.age": "薄氷の経過段階。",
+    "command_translation.help.block_state.minecraft:cactus.field.age": "サボテンの成長カウンター。",
+    "command_translation.help.block_state.minecraft:sugar_cane.field.age": "サトウキビの成長カウンター。",
+    "command_translation.help.block_state.minecraft:light.field.level": "ライトブロックが発する明るさの段階。",
+    "command_translation.help.block_state.minecraft:water.field.level": "水の流体レベル。",
+    "command_translation.help.block_state.minecraft:lava.field.level": "溶岩の流体レベル。"
+  },
+  "sources": {
+    "command_translation.help.block_state.field.age": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.attached": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.attachment": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.axis": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.berries": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.bites": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.bloom": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.bottom": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.can_summon": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.candles": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.charges": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.conditional": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.copper_golem_pose": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.cracked": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.crafting": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.creaking_heart_state": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.delay": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.disarmed": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.distance": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.down": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.drag": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.dusted": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.east": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.eggs": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.enabled": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.extended": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.eye": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.face": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.facing": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.falling": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.flower_amount": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.half": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.hanging": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.has_book": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.has_bottle_0": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.has_bottle_1": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.has_bottle_2": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.has_record": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.hatch": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.hinge": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.honey_level": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.in_wall": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.instrument": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.inverted": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.layers": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.leaves": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.level": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.lit": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.locked": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.mode": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.moisture": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.natural": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.north": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.note": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.occupied": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.ominous": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.open": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.orientation": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.part": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.persistent": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.pickles": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.potent_sulfur_state": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.power": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.powered": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.rotation": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.sculk_sensor_phase": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.segment_amount": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.shape": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.short": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.shrieking": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.side_chain": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.signal_fire": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.slot_0_occupied": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.slot_1_occupied": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.slot_2_occupied": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.slot_3_occupied": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.slot_4_occupied": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.slot_5_occupied": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.snowy": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.south": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.stage": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.thickness": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.tilt": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.tip": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.trial_spawner_state": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.triggered": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.type": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.unstable": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.up": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.vault_state": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.vertical_direction": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.waterlogged": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.west": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.values.bottom_double_top.field.type": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.values.left_right_single.field.type": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.values.normal_sticky.field.type": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.values.ascending_east_ascending_north_ascending_south_ascending_west_east_west_north_south.field.shape": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.values.inner_left_inner_right_outer_left_outer_right_straight.field.shape": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.values.ascending_east_ascending_north_ascending_south_ascending_west_east_west_north_east_north_south_north_west_south_east_south_west.field.shape": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.values.compare_subtract.field.mode": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.values.corner_data_load_save.field.mode": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.values.accept_fail_log_start.field.mode": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.values.foot_head.field.part": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.values.bottom_top.field.half": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.values.lower_upper.field.half": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.values.ceiling_floor_wall.field.face": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.values.ceiling_double_wall_floor_single_wall.field.attachment": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.values.large_none_small.field.leaves": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.values.0_1.field.age": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.values.0_1_2.field.age": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.values.0_1_2_3.field.age": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.values.0_1_2_3_4.field.age": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.values.0_1_2_3_4_5.field.age": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.values.0_1_2_3_4_5_6_7.field.age": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.values.0_1_10_11_12_13_14_15_2_3_4_5_6_7_8_9.field.age": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.values.0_1_10_11_12_13_14_15_16_17_18_19_2_20_21_22_23_24_25_3_4_5_6_7_8_9.field.age": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.values.0_1_2_3.field.level": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.values.0_1_2_3_4_5_6_7_8.field.level": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.values.0_1_10_11_12_13_14_15_2_3_4_5_6_7_8_9.field.level": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.values.0_1.field.stage": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.values.0_1_2_3_4_5_6_7.field.distance": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.values.1_2_3_4_5_6_7.field.distance": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.values.false_true.field.north": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.values.false_true.field.south": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.values.false_true.field.east": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.values.false_true.field.west": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.values.false_true.field.up": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.values.false_true.field.down": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.values.none_side_up.field.north": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.values.none_side_up.field.south": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.values.none_side_up.field.east": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.values.none_side_up.field.west": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.values.low_none_tall.field.north": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.values.low_none_tall.field.south": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.values.low_none_tall.field.east": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.values.low_none_tall.field.west": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.drag.value.true": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.drag.value.false": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.inverted.value.true": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.inverted.value.false": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.persistent.value.true": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.persistent.value.false": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.signal_fire.value.true": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.signal_fire.value.false": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.thickness.value.base": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.thickness.value.frustum": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.thickness.value.middle": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.thickness.value.tip": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.thickness.value.tip_merge": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.sculk_sensor_phase.value.inactive": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.sculk_sensor_phase.value.active": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.sculk_sensor_phase.value.cooldown": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.vault_state.value.inactive": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.vault_state.value.active": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.vault_state.value.unlocking": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.vault_state.value.ejecting": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.trial_spawner_state.value.inactive": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.trial_spawner_state.value.waiting_for_players": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.trial_spawner_state.value.active": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.trial_spawner_state.value.waiting_for_reward_ejection": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.trial_spawner_state.value.ejecting_reward": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.trial_spawner_state.value.cooldown": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.creaking_heart_state.value.uprooted": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.creaking_heart_state.value.dormant": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.creaking_heart_state.value.awake": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.potent_sulfur_state.value.dry": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.potent_sulfur_state.value.wet": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.potent_sulfur_state.value.dormant": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.potent_sulfur_state.value.erupting": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.potent_sulfur_state.value.continuous": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.copper_golem_pose.value.standing": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.copper_golem_pose.value.sitting": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.copper_golem_pose.value.running": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.copper_golem_pose.value.star": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.tilt.value.none": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.tilt.value.unstable": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.tilt.value.partial": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.tilt.value.full": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.side_chain.value.unconnected": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.side_chain.value.right": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.side_chain.value.center": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.field.side_chain.value.left": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.minecraft:fire.field.age": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.minecraft:frosted_ice.field.age": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.minecraft:cactus.field.age": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.minecraft:sugar_cane.field.age": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.minecraft:light.field.level": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.minecraft:water.field.level": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ],
+    "command_translation.help.block_state.minecraft:lava.field.level": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20states",
+        "revision": 3842780
+      }
+    ]
+  }
+}

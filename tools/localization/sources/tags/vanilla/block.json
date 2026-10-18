@@ -1,0 +1,2784 @@
+{
+  "en_us": {
+    "command_translation.tag.block.minecraft.acacia_logs": "Acacia logs",
+    "command_translation.tag.block.minecraft.all_hanging_signs": "All hanging signs",
+    "command_translation.tag.block.minecraft.all_signs": "All signs",
+    "command_translation.tag.block.minecraft.ancient_city_replaceable": "Blocks removed during Ancient City degradation",
+    "command_translation.tag.block.minecraft.animals_spawnable_on": "Blocks animals can spawn on",
+    "command_translation.tag.block.minecraft.anvil": "Anvil blocks",
+    "command_translation.tag.block.minecraft.axolotls_spawnable_on": "Blocks axolotls can spawn on",
+    "command_translation.tag.block.minecraft.azalea_grows_on": "Blocks azalea trees can grow on",
+    "command_translation.tag.block.minecraft.azalea_root_replaceable": "Blocks azalea roots can replace",
+    "command_translation.tag.block.minecraft.bamboo_blocks": "Bamboo blocks",
+    "command_translation.tag.block.minecraft.bamboo_plantable_on": "Blocks bamboo can be planted on",
+    "command_translation.tag.block.minecraft.banners": "Banners",
+    "command_translation.tag.block.minecraft.base_stone_nether": "Nether base stones",
+    "command_translation.tag.block.minecraft.base_stone_overworld": "Overworld base stones",
+    "command_translation.tag.block.minecraft.beacon_base_blocks": "Beacon base blocks",
+    "command_translation.tag.block.minecraft.beds": "Beds",
+    "command_translation.tag.block.minecraft.bee_growables": "Crops bees can grow",
+    "command_translation.tag.block.minecraft.beehives": "Beehives",
+    "command_translation.tag.block.minecraft.big_dripleaf_placeable": "Blocks big dripleaves can be placed on",
+    "command_translation.tag.block.minecraft.birch_logs": "Birch logs",
+    "command_translation.tag.block.minecraft.buttons": "Buttons",
+    "command_translation.tag.block.minecraft.campfires": "Campfires",
+    "command_translation.tag.block.minecraft.candle_cakes": "Candle cakes",
+    "command_translation.tag.block.minecraft.candles": "Candles",
+    "command_translation.tag.block.minecraft.cauldrons": "Cauldrons",
+    "command_translation.tag.block.minecraft.cave_vines": "Cave vines",
+    "command_translation.tag.block.minecraft.ceiling_hanging_signs": "Ceiling hanging signs",
+    "command_translation.tag.block.minecraft.cherry_logs": "Cherry logs",
+    "command_translation.tag.block.minecraft.climbable": "Climbable blocks",
+    "command_translation.tag.block.minecraft.coal_ores": "Coal ores",
+    "command_translation.tag.block.minecraft.combination_step_sound_blocks": "Combines its footstep sound with the block underneath",
+    "command_translation.tag.block.minecraft.completes_find_tree_tutorial": "Blocks that complete the find-tree tutorial",
+    "command_translation.tag.block.minecraft.convertable_to_mud": "Blocks that can be converted to mud",
+    "command_translation.tag.block.minecraft.copper_ores": "Copper ores",
+    "command_translation.tag.block.minecraft.coral_blocks": "Coral blocks",
+    "command_translation.tag.block.minecraft.coral_plants": "Coral plants",
+    "command_translation.tag.block.minecraft.corals": "Corals",
+    "command_translation.tag.block.minecraft.crimson_stems": "Crimson stems",
+    "command_translation.tag.block.minecraft.crops": "Crops",
+    "command_translation.tag.block.minecraft.crystal_sound_blocks": "Blocks with amethyst chime sounds",
+    "command_translation.tag.block.minecraft.dampens_vibrations": "Blocks that dampen vibrations",
+    "command_translation.tag.block.minecraft.dark_oak_logs": "Dark oak logs",
+    "command_translation.tag.block.minecraft.dead_bush_may_place_on": "Blocks dry vegetation may be placed on",
+    "command_translation.tag.block.minecraft.deepslate_ore_replaceables": "Blocks deepslate ores can replace",
+    "command_translation.tag.block.minecraft.diamond_ores": "Diamond ores",
+    "command_translation.tag.block.minecraft.dirt": "Dirt blocks",
+    "command_translation.tag.block.minecraft.doors": "Doors",
+    "command_translation.tag.block.minecraft.dragon_immune": "Blocks the Ender Dragon cannot destroy",
+    "command_translation.tag.block.minecraft.dragon_transparent": "Blocks the Ender Dragon can fly through",
+    "command_translation.tag.block.minecraft.dripstone_replaceable_blocks": "Blocks dripstone can replace",
+    "command_translation.tag.block.minecraft.emerald_ores": "Emerald ores",
+    "command_translation.tag.block.minecraft.enchantment_power_provider": "Increases enchanting-table power",
+    "command_translation.tag.block.minecraft.enchantment_power_transmitter": "Does not block power between bookshelves and an enchanting table",
+    "command_translation.tag.block.minecraft.enderman_holdable": "Blocks endermen can pick up",
+    "command_translation.tag.block.minecraft.fall_damage_resetting": "Blocks that reset fall damage",
+    "command_translation.tag.block.minecraft.features_cannot_replace": "Blocks features cannot replace",
+    "command_translation.tag.block.minecraft.fence_gates": "Fence gates",
+    "command_translation.tag.block.minecraft.fences": "Fences",
+    "command_translation.tag.block.minecraft.fire": "Fire blocks",
+    "command_translation.tag.block.minecraft.flower_pots": "Flower pots",
+    "command_translation.tag.block.minecraft.flowers": "Flowers",
+    "command_translation.tag.block.minecraft.foxes_spawnable_on": "Blocks foxes can spawn on",
+    "command_translation.tag.block.minecraft.frog_prefer_jump_to": "Blocks frogs prefer to jump to",
+    "command_translation.tag.block.minecraft.frogs_spawnable_on": "Blocks frogs can spawn on",
+    "command_translation.tag.block.minecraft.geode_invalid_blocks": "Blocks geodes cannot generate in",
+    "command_translation.tag.block.minecraft.goats_spawnable_on": "Blocks goats can spawn on",
+    "command_translation.tag.block.minecraft.gold_ores": "Gold ores",
+    "command_translation.tag.block.minecraft.guarded_by_piglins": "Blocks guarded by piglins",
+    "command_translation.tag.block.minecraft.hoglin_repellents": "Blocks that repel hoglins",
+    "command_translation.tag.block.minecraft.ice": "Ice blocks",
+    "command_translation.tag.block.minecraft.impermeable": "Blocks dripping-fluid particles",
+    "command_translation.tag.block.minecraft.infiniburn_end": "Blocks that burn forever in the End",
+    "command_translation.tag.block.minecraft.infiniburn_nether": "Blocks that burn forever in the Nether",
+    "command_translation.tag.block.minecraft.infiniburn_overworld": "Blocks that burn forever in the Overworld",
+    "command_translation.tag.block.minecraft.inside_step_sound_blocks": "Replaces the floor footstep sound while walking inside",
+    "command_translation.tag.block.minecraft.invalid_spawn_inside": "Blocks players cannot spawn inside",
+    "command_translation.tag.block.minecraft.iron_ores": "Iron ores",
+    "command_translation.tag.block.minecraft.jungle_logs": "Jungle logs",
+    "command_translation.tag.block.minecraft.lapis_ores": "Lapis lazuli ores",
+    "command_translation.tag.block.minecraft.lava_pool_stone_cannot_replace": "Blocks lava-pool stone cannot replace",
+    "command_translation.tag.block.minecraft.leaves": "Leaves",
+    "command_translation.tag.block.minecraft.logs": "Logs",
+    "command_translation.tag.block.minecraft.logs_that_burn": "Logs that burn",
+    "command_translation.tag.block.minecraft.lush_ground_replaceable": "Blocks lush-cave ground can replace",
+    "command_translation.tag.block.minecraft.maintains_farmland": "Blocks that keep farmland intact",
+    "command_translation.tag.block.minecraft.mangrove_logs": "Mangrove logs",
+    "command_translation.tag.block.minecraft.mangrove_logs_can_grow_through": "Blocks mangrove logs can grow through",
+    "command_translation.tag.block.minecraft.mangrove_roots_can_grow_through": "Blocks mangrove roots can grow through",
+    "command_translation.tag.block.minecraft.mineable.axe": "Blocks mined faster with an axe",
+    "command_translation.tag.block.minecraft.mineable.hoe": "Blocks mined faster with a hoe",
+    "command_translation.tag.block.minecraft.mineable.pickaxe": "Blocks mined faster with a pickaxe",
+    "command_translation.tag.block.minecraft.mineable.shovel": "Blocks mined faster with a shovel",
+    "command_translation.tag.block.minecraft.mooshrooms_spawnable_on": "Blocks mooshrooms can spawn on",
+    "command_translation.tag.block.minecraft.moss_replaceable": "Blocks moss can replace",
+    "command_translation.tag.block.minecraft.mushroom_grow_block": "Blocks where mushrooms ignore light level",
+    "command_translation.tag.block.minecraft.needs_diamond_tool": "Blocks requiring a diamond tool or better",
+    "command_translation.tag.block.minecraft.needs_iron_tool": "Blocks requiring an iron tool or better",
+    "command_translation.tag.block.minecraft.needs_stone_tool": "Blocks requiring a stone tool or better",
+    "command_translation.tag.block.minecraft.nether_carver_replaceables": "Blocks Nether carvers can replace",
+    "command_translation.tag.block.minecraft.nylium": "Nylium blocks",
+    "command_translation.tag.block.minecraft.oak_logs": "Oak logs",
+    "command_translation.tag.block.minecraft.occludes_vibration_signals": "Blocks that block vibration signals",
+    "command_translation.tag.block.minecraft.overworld_carver_replaceables": "Blocks Overworld carvers can replace",
+    "command_translation.tag.block.minecraft.overworld_natural_logs": "Natural overworld logs",
+    "command_translation.tag.block.minecraft.parrots_spawnable_on": "Blocks parrots can spawn on",
+    "command_translation.tag.block.minecraft.piglin_repellents": "Blocks that repel piglins",
+    "command_translation.tag.block.minecraft.planks": "Planks",
+    "command_translation.tag.block.minecraft.polar_bears_spawnable_on_alternate": "Alternate blocks polar bears spawn on",
+    "command_translation.tag.block.minecraft.portals": "Portal blocks",
+    "command_translation.tag.block.minecraft.pressure_plates": "Pressure plates",
+    "command_translation.tag.block.minecraft.prevent_mob_spawning_inside": "Blocks that prevent mob spawning inside",
+    "command_translation.tag.block.minecraft.rabbits_spawnable_on": "Blocks rabbits can spawn on",
+    "command_translation.tag.block.minecraft.rails": "Rails",
+    "command_translation.tag.block.minecraft.redstone_ores": "Redstone ores",
+    "command_translation.tag.block.minecraft.replaceable": "Replaceable blocks",
+    "command_translation.tag.block.minecraft.replaceable_by_trees": "Blocks trees can replace",
+    "command_translation.tag.block.minecraft.sand": "Sand blocks",
+    "command_translation.tag.block.minecraft.saplings": "Saplings",
+    "command_translation.tag.block.minecraft.sculk_replaceable": "Blocks sculk can replace",
+    "command_translation.tag.block.minecraft.sculk_replaceable_world_gen": "Blocks sculk replaces during world generation",
+    "command_translation.tag.block.minecraft.shulker_boxes": "Shulker boxes",
+    "command_translation.tag.block.minecraft.signs": "Signs",
+    "command_translation.tag.block.minecraft.slabs": "Slabs",
+    "command_translation.tag.block.minecraft.small_dripleaf_placeable": "Blocks small dripleaves can be placed on",
+    "command_translation.tag.block.minecraft.small_flowers": "Small flowers",
+    "command_translation.tag.block.minecraft.smelts_to_glass": "Blocks that smelt into glass",
+    "command_translation.tag.block.minecraft.snaps_goat_horn": "Blocks that make goats drop horns",
+    "command_translation.tag.block.minecraft.sniffer_diggable_block": "Blocks sniffers can dig",
+    "command_translation.tag.block.minecraft.sniffer_egg_hatch_boost": "Blocks that speed up sniffer egg hatching",
+    "command_translation.tag.block.minecraft.snow": "Snow blocks",
+    "command_translation.tag.block.minecraft.snow_layer_can_survive_on": "Blocks snow layers can survive on",
+    "command_translation.tag.block.minecraft.snow_layer_cannot_survive_on": "Blocks snow layers cannot survive on",
+    "command_translation.tag.block.minecraft.soul_fire_base_blocks": "Blocks that support soul fire",
+    "command_translation.tag.block.minecraft.soul_speed_blocks": "Blocks boosted by Soul Speed",
+    "command_translation.tag.block.minecraft.spruce_logs": "Spruce logs",
+    "command_translation.tag.block.minecraft.stairs": "Stairs",
+    "command_translation.tag.block.minecraft.standing_signs": "Standing signs",
+    "command_translation.tag.block.minecraft.stone_bricks": "Stone bricks",
+    "command_translation.tag.block.minecraft.stone_buttons": "Stone buttons",
+    "command_translation.tag.block.minecraft.stone_ore_replaceables": "Blocks stone ores can replace",
+    "command_translation.tag.block.minecraft.stone_pressure_plates": "Stone pressure plates",
+    "command_translation.tag.block.minecraft.strider_warm_blocks": "Blocks that keep striders warm",
+    "command_translation.tag.block.minecraft.sword_efficient": "Blocks swords break faster",
+    "command_translation.tag.block.minecraft.tall_flowers": "Tall flowers",
+    "command_translation.tag.block.minecraft.terracotta": "Terracotta",
+    "command_translation.tag.block.minecraft.trail_ruins_replaceable": "Blocks trail-ruin gravel can replace",
+    "command_translation.tag.block.minecraft.trapdoors": "Trapdoors",
+    "command_translation.tag.block.minecraft.underwater_bonemeals": "Blocks spread by underwater bone meal",
+    "command_translation.tag.block.minecraft.unstable_bottom_center": "Blocks that cannot hold lanterns or bells below",
+    "command_translation.tag.block.minecraft.valid_spawn": "Valid spawn blocks (unused)",
+    "command_translation.tag.block.minecraft.vibration_resonators": "Resonates when receiving vibrations",
+    "command_translation.tag.block.minecraft.wall_corals": "Wall corals",
+    "command_translation.tag.block.minecraft.wall_hanging_signs": "Wall hanging signs",
+    "command_translation.tag.block.minecraft.wall_post_override": "Blocks that force wall posts",
+    "command_translation.tag.block.minecraft.wall_signs": "Wall signs",
+    "command_translation.tag.block.minecraft.walls": "Walls",
+    "command_translation.tag.block.minecraft.warped_stems": "Warped stems",
+    "command_translation.tag.block.minecraft.wart_blocks": "Wart blocks",
+    "command_translation.tag.block.minecraft.wither_immune": "Blocks the Wither cannot destroy",
+    "command_translation.tag.block.minecraft.wither_summon_base_blocks": "Blocks usable to summon the Wither",
+    "command_translation.tag.block.minecraft.wolves_spawnable_on": "Blocks wolves can spawn on",
+    "command_translation.tag.block.minecraft.wooden_buttons": "Wooden buttons",
+    "command_translation.tag.block.minecraft.wooden_doors": "Wooden doors",
+    "command_translation.tag.block.minecraft.wooden_fences": "Wooden fences",
+    "command_translation.tag.block.minecraft.wooden_pressure_plates": "Wooden pressure plates",
+    "command_translation.tag.block.minecraft.wooden_slabs": "Wooden slabs",
+    "command_translation.tag.block.minecraft.wooden_stairs": "Wooden stairs",
+    "command_translation.tag.block.minecraft.wooden_trapdoors": "Wooden trapdoors",
+    "command_translation.tag.block.minecraft.wool": "Wool",
+    "command_translation.tag.block.minecraft.wool_carpets": "Wool carpets",
+    "command_translation.tag.block.minecraft.air": "Air blocks",
+    "command_translation.tag.block.minecraft.armadillo_spawnable_on": "Blocks armadillos can spawn on",
+    "command_translation.tag.block.minecraft.badlands_terracotta": "Badlands terracotta",
+    "command_translation.tag.block.minecraft.blocks_wind_charge_explosions": "Blocks that block wind-charge bursts",
+    "command_translation.tag.block.minecraft.camel_sand_step_sound_blocks": "Blocks with camel sand step sounds",
+    "command_translation.tag.block.minecraft.concrete_powder": "Concrete powder blocks",
+    "command_translation.tag.block.minecraft.does_not_block_hoppers": "Blocks that do not obstruct hoppers",
+    "command_translation.tag.block.minecraft.incorrect_for_diamond_tool": "Blocks a diamond tool is incorrect for",
+    "command_translation.tag.block.minecraft.incorrect_for_gold_tool": "Blocks a golden tool is incorrect for",
+    "command_translation.tag.block.minecraft.incorrect_for_iron_tool": "Blocks an iron tool is incorrect for",
+    "command_translation.tag.block.minecraft.incorrect_for_netherite_tool": "Blocks a netherite tool is incorrect for",
+    "command_translation.tag.block.minecraft.incorrect_for_stone_tool": "Blocks a stone tool is incorrect for",
+    "command_translation.tag.block.minecraft.incorrect_for_wooden_tool": "Blocks a wooden tool is incorrect for",
+    "command_translation.tag.block.minecraft.mob_interactable_doors": "Doors mobs can interact with",
+    "command_translation.tag.block.minecraft.bars": "Bars",
+    "command_translation.tag.block.minecraft.bats_spawnable_on": "Blocks bats can spawn on",
+    "command_translation.tag.block.minecraft.bee_attractive": "Blocks bees are attracted to",
+    "command_translation.tag.block.minecraft.beneath_bamboo_podzol_replaceable": "Blocks replaced by podzol beneath bamboo",
+    "command_translation.tag.block.minecraft.beneath_tree_podzol_replaceable": "Blocks replaced by podzol beneath trees",
+    "command_translation.tag.block.minecraft.camels_spawnable_on": "Blocks camels can spawn on",
+    "command_translation.tag.block.minecraft.can_glide_through": "Blocks elytra can glide through",
+    "command_translation.tag.block.minecraft.cannot_replace_below_tree_trunk": "Blocks that cannot be replaced below a tree trunk",
+    "command_translation.tag.block.minecraft.cannot_support_kelp": "Blocks kelp cannot grow on",
+    "command_translation.tag.block.minecraft.cannot_support_seagrass": "Blocks seagrass cannot grow on",
+    "command_translation.tag.block.minecraft.cannot_support_snow_layer": "Blocks that can never hold a snow layer",
+    "command_translation.tag.block.minecraft.chains": "Chains",
+    "command_translation.tag.block.minecraft.copper": "Copper blocks",
+    "command_translation.tag.block.minecraft.copper_chests": "Copper chests",
+    "command_translation.tag.block.minecraft.copper_golem_statues": "Copper golem statues",
+    "command_translation.tag.block.minecraft.edible_for_sheep": "Blocks sheep can eat",
+    "command_translation.tag.block.minecraft.enables_bubble_column_drag_down": "Blocks that allow downward bubble columns",
+    "command_translation.tag.block.minecraft.enables_bubble_column_push_up": "Blocks that allow upward bubble columns",
+    "command_translation.tag.block.minecraft.forest_rock_can_place_on": "Blocks forest rocks can be placed on",
+    "command_translation.tag.block.minecraft.grass_blocks": "Grass blocks",
+    "command_translation.tag.block.minecraft.grows_crops": "Blocks where crops grow",
+    "command_translation.tag.block.minecraft.happy_ghast_avoids": "Blocks happy ghasts avoid",
+    "command_translation.tag.block.minecraft.huge_brown_mushroom_can_place_on": "Blocks huge brown mushrooms can be placed on",
+    "command_translation.tag.block.minecraft.huge_red_mushroom_can_place_on": "Blocks huge red mushrooms can be placed on",
+    "command_translation.tag.block.minecraft.ice_spike_replaceable": "Blocks ice spikes can replace",
+    "command_translation.tag.block.minecraft.incorrect_for_copper_tool": "Blocks a copper tool is incorrect for",
+    "command_translation.tag.block.minecraft.lanterns": "Lanterns",
+    "command_translation.tag.block.minecraft.lightning_rods": "Lightning rods",
+    "command_translation.tag.block.minecraft.moss_blocks": "Moss blocks",
+    "command_translation.tag.block.minecraft.mud": "Mud blocks",
+    "command_translation.tag.block.minecraft.overrides_mushroom_light_requirement": "Blocks where mushrooms ignore light level",
+    "command_translation.tag.block.minecraft.pale_oak_logs": "Pale oak logs",
+    "command_translation.tag.block.minecraft.prevents_nearby_leaf_decay": "Blocks that prevent nearby leaf decay",
+    "command_translation.tag.block.minecraft.replaceable_by_mushrooms": "Blocks growing mushrooms can replace",
+    "command_translation.tag.block.minecraft.substrate_overworld": "Overworld substrate blocks",
+    "command_translation.tag.block.minecraft.support_override_cactus_flower": "Special support blocks for cactus flowers",
+    "command_translation.tag.block.minecraft.support_override_snow_layer": "Blocks that can hold snow despite their shape",
+    "command_translation.tag.block.minecraft.supports_azalea": "Blocks azaleas can be placed on",
+    "command_translation.tag.block.minecraft.supports_bamboo": "Blocks bamboo can be planted on",
+    "command_translation.tag.block.minecraft.supports_big_dripleaf": "Blocks big dripleaves can be placed on",
+    "command_translation.tag.block.minecraft.supports_cactus": "Blocks cacti can be placed on",
+    "command_translation.tag.block.minecraft.supports_chorus_flower": "Blocks chorus flowers can be placed on",
+    "command_translation.tag.block.minecraft.supports_chorus_plant": "Blocks chorus plants can be placed on",
+    "command_translation.tag.block.minecraft.supports_cocoa": "Blocks cocoa beans can be placed on",
+    "command_translation.tag.block.minecraft.supports_crimson_fungus": "Blocks crimson fungi can be placed on",
+    "command_translation.tag.block.minecraft.supports_crimson_roots": "Blocks crimson roots can be placed on",
+    "command_translation.tag.block.minecraft.supports_crops": "Blocks crops can be planted on",
+    "command_translation.tag.block.minecraft.supports_dry_vegetation": "Blocks dry vegetation can be placed on",
+    "command_translation.tag.block.minecraft.supports_frogspawn": "Blocks frogspawn can be placed on",
+    "command_translation.tag.block.minecraft.supports_hanging_mangrove_propagule": "Blocks hanging mangrove propagules can attach to",
+    "command_translation.tag.block.minecraft.supports_lily_pad": "Blocks lily pads can be placed on",
+    "command_translation.tag.block.minecraft.supports_mangrove_propagule": "Blocks mangrove propagules can be placed on",
+    "command_translation.tag.block.minecraft.supports_melon_stem": "Blocks melon stems can grow on",
+    "command_translation.tag.block.minecraft.supports_melon_stem_fruit": "Blocks melon stem fruit can grow on",
+    "command_translation.tag.block.minecraft.supports_nether_sprouts": "Blocks nether sprouts can be placed on",
+    "command_translation.tag.block.minecraft.supports_nether_wart": "Blocks nether wart can be placed on",
+    "command_translation.tag.block.minecraft.supports_pumpkin_stem": "Blocks pumpkin stems can grow on",
+    "command_translation.tag.block.minecraft.supports_pumpkin_stem_fruit": "Blocks pumpkin stem fruit can grow on",
+    "command_translation.tag.block.minecraft.supports_small_dripleaf": "Blocks small dripleaves can be placed on",
+    "command_translation.tag.block.minecraft.supports_stem_crops": "Blocks stem crops can grow on",
+    "command_translation.tag.block.minecraft.supports_stem_fruit": "Blocks stem fruit can grow on",
+    "command_translation.tag.block.minecraft.supports_sugar_cane": "Blocks sugar cane can be placed on",
+    "command_translation.tag.block.minecraft.supports_sugar_cane_adjacently": "Blocks sugar cane can grow next to",
+    "command_translation.tag.block.minecraft.supports_vegetation": "Blocks vegetation can be placed on",
+    "command_translation.tag.block.minecraft.supports_warped_fungus": "Blocks warped fungi can be placed on",
+    "command_translation.tag.block.minecraft.supports_warped_roots": "Blocks warped roots can be placed on",
+    "command_translation.tag.block.minecraft.supports_wither_rose": "Blocks wither roses can be placed on",
+    "command_translation.tag.block.minecraft.sword_instantly_mines": "Blocks swords mine instantly",
+    "command_translation.tag.block.minecraft.triggers_ambient_desert_dry_vegetation_block_sounds": "Blocks that trigger desert dry-vegetation ambience",
+    "command_translation.tag.block.minecraft.triggers_ambient_desert_sand_block_sounds": "Blocks that trigger desert sand ambience",
+    "command_translation.tag.block.minecraft.triggers_ambient_dried_ghast_block_sounds": "Blocks that trigger dried ghast ambience",
+    "command_translation.tag.block.minecraft.wooden_shelves": "Wooden shelves",
+    "command_translation.tag.block.minecraft.causes_continuous_geyser_eruptions": "Blocks that cause continuous geyser eruptions",
+    "command_translation.tag.block.minecraft.causes_periodic_geyser_eruptions": "Blocks that cause periodic geyser eruptions",
+    "command_translation.tag.block.minecraft.concrete": "Concrete blocks",
+    "command_translation.tag.block.minecraft.concrete_powders": "Concrete powder blocks",
+    "command_translation.tag.block.minecraft.fox_immune_to": "Foxes ignore these hazards for spawning and dismounting",
+    "command_translation.tag.block.minecraft.glazed_terracotta": "Glazed terracotta",
+    "command_translation.tag.block.minecraft.polar_bear_immune_to": "Polar bears ignore these hazards for spawning and dismounting",
+    "command_translation.tag.block.minecraft.shears_extreme_breaking_speed": "Blocks shears break extremely fast",
+    "command_translation.tag.block.minecraft.shears_major_breaking_speed": "Blocks shears break much faster",
+    "command_translation.tag.block.minecraft.shears_minor_breaking_speed": "Blocks shears break slightly faster",
+    "command_translation.tag.block.minecraft.snow_golem_immune_to": "Snow golems ignore these hazards for spawning and dismounting",
+    "command_translation.tag.block.minecraft.speleothems": "Speleothems",
+    "command_translation.tag.block.minecraft.stray_immune_to": "Strays ignore these hazards for spawning and dismounting",
+    "command_translation.tag.block.minecraft.sulfur_spike_replaceable_blocks": "Blocks sulfur spikes can replace",
+    "command_translation.tag.block.minecraft.suppresses_bounce": "Blocks that cancel bouncing",
+    "command_translation.tag.block.minecraft.wither_immune_to": "Withers ignore these hazards for spawning and dismounting",
+    "command_translation.tag.block.minecraft.wither_skeleton_immune_to": "Wither skeletons ignore these hazards for spawning and dismounting",
+    "command_translation.tag.block.minecraft.default_immune_to": "Entities by default ignore these hazards for spawning and dismounting"
+  },
+  "zh_cn": {
+    "command_translation.tag.block.minecraft.acacia_logs": "金合欢原木",
+    "command_translation.tag.block.minecraft.all_hanging_signs": "所有悬挂告示牌",
+    "command_translation.tag.block.minecraft.all_signs": "所有告示牌",
+    "command_translation.tag.block.minecraft.ancient_city_replaceable": "远古城市退化时会被移除的方块",
+    "command_translation.tag.block.minecraft.animals_spawnable_on": "动物可生成于的方块",
+    "command_translation.tag.block.minecraft.anvil": "铁砧方块",
+    "command_translation.tag.block.minecraft.axolotls_spawnable_on": "美西螈可生成于的方块",
+    "command_translation.tag.block.minecraft.azalea_grows_on": "杜鹃树可生长于的方块",
+    "command_translation.tag.block.minecraft.azalea_root_replaceable": "杜鹃树根可替换的方块",
+    "command_translation.tag.block.minecraft.bamboo_blocks": "竹块",
+    "command_translation.tag.block.minecraft.bamboo_plantable_on": "可种植竹子的方块",
+    "command_translation.tag.block.minecraft.banners": "旗帜",
+    "command_translation.tag.block.minecraft.base_stone_nether": "下界基础石头",
+    "command_translation.tag.block.minecraft.base_stone_overworld": "主世界基础石头",
+    "command_translation.tag.block.minecraft.beacon_base_blocks": "信标底座方块",
+    "command_translation.tag.block.minecraft.beds": "床",
+    "command_translation.tag.block.minecraft.bee_growables": "蜜蜂可催熟的作物",
+    "command_translation.tag.block.minecraft.beehives": "蜂巢方块",
+    "command_translation.tag.block.minecraft.big_dripleaf_placeable": "可放置大型垂滴叶的方块",
+    "command_translation.tag.block.minecraft.birch_logs": "白桦原木",
+    "command_translation.tag.block.minecraft.buttons": "按钮",
+    "command_translation.tag.block.minecraft.campfires": "营火",
+    "command_translation.tag.block.minecraft.candle_cakes": "蜡烛蛋糕",
+    "command_translation.tag.block.minecraft.candles": "蜡烛",
+    "command_translation.tag.block.minecraft.cauldrons": "炼药锅",
+    "command_translation.tag.block.minecraft.cave_vines": "洞穴藤蔓",
+    "command_translation.tag.block.minecraft.ceiling_hanging_signs": "天花板悬挂告示牌",
+    "command_translation.tag.block.minecraft.cherry_logs": "樱花原木",
+    "command_translation.tag.block.minecraft.climbable": "可攀爬方块",
+    "command_translation.tag.block.minecraft.coal_ores": "煤矿石",
+    "command_translation.tag.block.minecraft.combination_step_sound_blocks": "脚步声与下方方块的声音混合",
+    "command_translation.tag.block.minecraft.completes_find_tree_tutorial": "可完成寻找树木教程的方块",
+    "command_translation.tag.block.minecraft.convertable_to_mud": "可转化为泥巴的方块",
+    "command_translation.tag.block.minecraft.copper_ores": "铜矿石",
+    "command_translation.tag.block.minecraft.coral_blocks": "珊瑚块",
+    "command_translation.tag.block.minecraft.coral_plants": "珊瑚",
+    "command_translation.tag.block.minecraft.corals": "珊瑚类方块",
+    "command_translation.tag.block.minecraft.crimson_stems": "绯红菌柄",
+    "command_translation.tag.block.minecraft.crops": "作物",
+    "command_translation.tag.block.minecraft.crystal_sound_blocks": "紫水晶音效方块",
+    "command_translation.tag.block.minecraft.dampens_vibrations": "减弱振动的方块",
+    "command_translation.tag.block.minecraft.dark_oak_logs": "深色橡木原木",
+    "command_translation.tag.block.minecraft.dead_bush_may_place_on": "可放置干燥植被的方块",
+    "command_translation.tag.block.minecraft.deepslate_ore_replaceables": "深板岩矿石可替换的方块",
+    "command_translation.tag.block.minecraft.diamond_ores": "钻石矿石",
+    "command_translation.tag.block.minecraft.dirt": "泥土类方块",
+    "command_translation.tag.block.minecraft.doors": "门",
+    "command_translation.tag.block.minecraft.dragon_immune": "末影龙无法破坏的方块",
+    "command_translation.tag.block.minecraft.dragon_transparent": "末影龙可穿过的方块",
+    "command_translation.tag.block.minecraft.dripstone_replaceable_blocks": "滴水石可替换的方块",
+    "command_translation.tag.block.minecraft.emerald_ores": "绿宝石矿石",
+    "command_translation.tag.block.minecraft.enchantment_power_provider": "提高附魔台等级的方块",
+    "command_translation.tag.block.minecraft.enchantment_power_transmitter": "不阻挡书架与附魔台连接的方块",
+    "command_translation.tag.block.minecraft.enderman_holdable": "末影人可搬起的方块",
+    "command_translation.tag.block.minecraft.fall_damage_resetting": "重置摔落伤害的方块",
+    "command_translation.tag.block.minecraft.features_cannot_replace": "地物不可替换的方块",
+    "command_translation.tag.block.minecraft.fence_gates": "栅栏门",
+    "command_translation.tag.block.minecraft.fences": "栅栏",
+    "command_translation.tag.block.minecraft.fire": "火方块",
+    "command_translation.tag.block.minecraft.flower_pots": "花盆",
+    "command_translation.tag.block.minecraft.flowers": "花",
+    "command_translation.tag.block.minecraft.foxes_spawnable_on": "狐狸可生成于的方块",
+    "command_translation.tag.block.minecraft.frog_prefer_jump_to": "青蛙偏好跳上的方块",
+    "command_translation.tag.block.minecraft.frogs_spawnable_on": "青蛙可生成于的方块",
+    "command_translation.tag.block.minecraft.geode_invalid_blocks": "晶洞无法生成的方块",
+    "command_translation.tag.block.minecraft.goats_spawnable_on": "山羊可生成于的方块",
+    "command_translation.tag.block.minecraft.gold_ores": "金矿石",
+    "command_translation.tag.block.minecraft.guarded_by_piglins": "猪灵守卫的方块",
+    "command_translation.tag.block.minecraft.hoglin_repellents": "驱离疣猪兽的方块",
+    "command_translation.tag.block.minecraft.ice": "冰类方块",
+    "command_translation.tag.block.minecraft.impermeable": "阻止流体滴落粒子的方块",
+    "command_translation.tag.block.minecraft.infiniburn_end": "末地无限燃烧方块",
+    "command_translation.tag.block.minecraft.infiniburn_nether": "下界无限燃烧方块",
+    "command_translation.tag.block.minecraft.infiniburn_overworld": "主世界无限燃烧方块",
+    "command_translation.tag.block.minecraft.inside_step_sound_blocks": "在其中行走时，用自身声音替代脚下方块的脚步声",
+    "command_translation.tag.block.minecraft.invalid_spawn_inside": "玩家无法在内部出生的方块",
+    "command_translation.tag.block.minecraft.iron_ores": "铁矿石",
+    "command_translation.tag.block.minecraft.jungle_logs": "丛林木",
+    "command_translation.tag.block.minecraft.lapis_ores": "青金石矿石",
+    "command_translation.tag.block.minecraft.lava_pool_stone_cannot_replace": "岩浆池石头不可替换的方块",
+    "command_translation.tag.block.minecraft.leaves": "树叶",
+    "command_translation.tag.block.minecraft.logs": "原木",
+    "command_translation.tag.block.minecraft.logs_that_burn": "可燃烧原木",
+    "command_translation.tag.block.minecraft.lush_ground_replaceable": "繁茂洞穴地面可替换的方块",
+    "command_translation.tag.block.minecraft.maintains_farmland": "维持耕地的方块",
+    "command_translation.tag.block.minecraft.mangrove_logs": "红树原木",
+    "command_translation.tag.block.minecraft.mangrove_logs_can_grow_through": "红树原木可穿透的方块",
+    "command_translation.tag.block.minecraft.mangrove_roots_can_grow_through": "红树根可穿透的方块",
+    "command_translation.tag.block.minecraft.mineable.axe": "斧可加速采集的方块",
+    "command_translation.tag.block.minecraft.mineable.hoe": "锄可加速采集的方块",
+    "command_translation.tag.block.minecraft.mineable.pickaxe": "镐可加速采集的方块",
+    "command_translation.tag.block.minecraft.mineable.shovel": "锹可加速采集的方块",
+    "command_translation.tag.block.minecraft.mooshrooms_spawnable_on": "哞菇可生成于的方块",
+    "command_translation.tag.block.minecraft.moss_replaceable": "苔藓可替换的方块",
+    "command_translation.tag.block.minecraft.mushroom_grow_block": "蘑菇无视光照等级的方块",
+    "command_translation.tag.block.minecraft.needs_diamond_tool": "需要钻石工具或更好的方块",
+    "command_translation.tag.block.minecraft.needs_iron_tool": "需要铁工具或更好的方块",
+    "command_translation.tag.block.minecraft.needs_stone_tool": "需要石头工具或更好的方块",
+    "command_translation.tag.block.minecraft.nether_carver_replaceables": "下界雕刻器可替换的方块",
+    "command_translation.tag.block.minecraft.nylium": "菌岩",
+    "command_translation.tag.block.minecraft.oak_logs": "橡木原木",
+    "command_translation.tag.block.minecraft.occludes_vibration_signals": "阻挡振动信号的方块",
+    "command_translation.tag.block.minecraft.overworld_carver_replaceables": "主世界雕刻器可替换的方块",
+    "command_translation.tag.block.minecraft.overworld_natural_logs": "主世界自然原木",
+    "command_translation.tag.block.minecraft.parrots_spawnable_on": "鹦鹉可生成于的方块",
+    "command_translation.tag.block.minecraft.piglin_repellents": "驱离猪灵的方块",
+    "command_translation.tag.block.minecraft.planks": "木板",
+    "command_translation.tag.block.minecraft.polar_bears_spawnable_on_alternate": "北极熊替代生成方块",
+    "command_translation.tag.block.minecraft.portals": "传送门方块",
+    "command_translation.tag.block.minecraft.pressure_plates": "压力板",
+    "command_translation.tag.block.minecraft.prevent_mob_spawning_inside": "阻止生物在内部生成的方块",
+    "command_translation.tag.block.minecraft.rabbits_spawnable_on": "兔子可生成于的方块",
+    "command_translation.tag.block.minecraft.rails": "铁轨",
+    "command_translation.tag.block.minecraft.redstone_ores": "红石矿石",
+    "command_translation.tag.block.minecraft.replaceable": "可替换方块",
+    "command_translation.tag.block.minecraft.replaceable_by_trees": "树木可替换的方块",
+    "command_translation.tag.block.minecraft.sand": "沙子类方块",
+    "command_translation.tag.block.minecraft.saplings": "树苗",
+    "command_translation.tag.block.minecraft.sculk_replaceable": "幽匿可替换的方块",
+    "command_translation.tag.block.minecraft.sculk_replaceable_world_gen": "世界生成中幽匿可替换的方块",
+    "command_translation.tag.block.minecraft.shulker_boxes": "潜影盒",
+    "command_translation.tag.block.minecraft.signs": "告示牌",
+    "command_translation.tag.block.minecraft.slabs": "台阶",
+    "command_translation.tag.block.minecraft.small_dripleaf_placeable": "可放置小型垂滴叶的方块",
+    "command_translation.tag.block.minecraft.small_flowers": "小型花",
+    "command_translation.tag.block.minecraft.smelts_to_glass": "可烧炼成玻璃的方块",
+    "command_translation.tag.block.minecraft.snaps_goat_horn": "使山羊掉落山羊角的方块",
+    "command_translation.tag.block.minecraft.sniffer_diggable_block": "嗅探兽可挖掘的方块",
+    "command_translation.tag.block.minecraft.sniffer_egg_hatch_boost": "加速嗅探兽蛋孵化的方块",
+    "command_translation.tag.block.minecraft.snow": "雪类方块",
+    "command_translation.tag.block.minecraft.snow_layer_can_survive_on": "雪层可存活的方块",
+    "command_translation.tag.block.minecraft.snow_layer_cannot_survive_on": "雪层不可存活的方块",
+    "command_translation.tag.block.minecraft.soul_fire_base_blocks": "可支撑灵魂火的方块",
+    "command_translation.tag.block.minecraft.soul_speed_blocks": "灵魂疾行加速的方块",
+    "command_translation.tag.block.minecraft.spruce_logs": "云杉原木",
+    "command_translation.tag.block.minecraft.stairs": "楼梯",
+    "command_translation.tag.block.minecraft.standing_signs": "站立告示牌",
+    "command_translation.tag.block.minecraft.stone_bricks": "石砖",
+    "command_translation.tag.block.minecraft.stone_buttons": "石头按钮",
+    "command_translation.tag.block.minecraft.stone_ore_replaceables": "石头矿石可替换的方块",
+    "command_translation.tag.block.minecraft.stone_pressure_plates": "石头压力板",
+    "command_translation.tag.block.minecraft.strider_warm_blocks": "使炽足兽保暖的方块",
+    "command_translation.tag.block.minecraft.sword_efficient": "剑加速破坏的方块",
+    "command_translation.tag.block.minecraft.tall_flowers": "高花",
+    "command_translation.tag.block.minecraft.terracotta": "陶瓦",
+    "command_translation.tag.block.minecraft.trail_ruins_replaceable": "古迹废墟砾石可替换的方块",
+    "command_translation.tag.block.minecraft.trapdoors": "活板门",
+    "command_translation.tag.block.minecraft.underwater_bonemeals": "水下骨粉可蔓延的方块",
+    "command_translation.tag.block.minecraft.unstable_bottom_center": "下方无法悬挂灯笼或钟的方块",
+    "command_translation.tag.block.minecraft.valid_spawn": "有效出生方块（未使用）",
+    "command_translation.tag.block.minecraft.vibration_resonators": "收到振动时产生共鸣的方块",
+    "command_translation.tag.block.minecraft.wall_corals": "墙上的珊瑚",
+    "command_translation.tag.block.minecraft.wall_hanging_signs": "墙上的悬挂告示牌",
+    "command_translation.tag.block.minecraft.wall_post_override": "强制墙柱的方块",
+    "command_translation.tag.block.minecraft.wall_signs": "墙上的告示牌",
+    "command_translation.tag.block.minecraft.walls": "墙",
+    "command_translation.tag.block.minecraft.warped_stems": "诡异菌柄",
+    "command_translation.tag.block.minecraft.wart_blocks": "疣块",
+    "command_translation.tag.block.minecraft.wither_immune": "凋灵无法破坏的方块",
+    "command_translation.tag.block.minecraft.wither_summon_base_blocks": "可召唤凋灵的底座方块",
+    "command_translation.tag.block.minecraft.wolves_spawnable_on": "狼可生成于的方块",
+    "command_translation.tag.block.minecraft.wooden_buttons": "木质按钮",
+    "command_translation.tag.block.minecraft.wooden_doors": "木门",
+    "command_translation.tag.block.minecraft.wooden_fences": "木栅栏",
+    "command_translation.tag.block.minecraft.wooden_pressure_plates": "木质压力板",
+    "command_translation.tag.block.minecraft.wooden_slabs": "木质台阶",
+    "command_translation.tag.block.minecraft.wooden_stairs": "木质楼梯",
+    "command_translation.tag.block.minecraft.wooden_trapdoors": "木质活板门",
+    "command_translation.tag.block.minecraft.wool": "羊毛",
+    "command_translation.tag.block.minecraft.wool_carpets": "地毯",
+    "command_translation.tag.block.minecraft.air": "空气方块",
+    "command_translation.tag.block.minecraft.armadillo_spawnable_on": "犰狳可生成于的方块",
+    "command_translation.tag.block.minecraft.badlands_terracotta": "恶地陶瓦",
+    "command_translation.tag.block.minecraft.blocks_wind_charge_explosions": "阻挡风弹爆发的方块",
+    "command_translation.tag.block.minecraft.camel_sand_step_sound_blocks": "骆驼沙子脚步声方块",
+    "command_translation.tag.block.minecraft.concrete_powder": "混凝土粉末",
+    "command_translation.tag.block.minecraft.does_not_block_hoppers": "不阻挡漏斗的方块",
+    "command_translation.tag.block.minecraft.incorrect_for_diamond_tool": "钻石工具不适合的方块",
+    "command_translation.tag.block.minecraft.incorrect_for_gold_tool": "金质工具不适合的方块",
+    "command_translation.tag.block.minecraft.incorrect_for_iron_tool": "铁质工具不适合的方块",
+    "command_translation.tag.block.minecraft.incorrect_for_netherite_tool": "下界合金工具不适合的方块",
+    "command_translation.tag.block.minecraft.incorrect_for_stone_tool": "石头工具不适合的方块",
+    "command_translation.tag.block.minecraft.incorrect_for_wooden_tool": "木质工具不适合的方块",
+    "command_translation.tag.block.minecraft.mob_interactable_doors": "生物可互动的门",
+    "command_translation.tag.block.minecraft.bars": "栏杆",
+    "command_translation.tag.block.minecraft.bats_spawnable_on": "蝙蝠可生成于的方块",
+    "command_translation.tag.block.minecraft.bee_attractive": "吸引蜜蜂的方块",
+    "command_translation.tag.block.minecraft.beneath_bamboo_podzol_replaceable": "竹下灰化土可替换的方块",
+    "command_translation.tag.block.minecraft.beneath_tree_podzol_replaceable": "树下灰化土可替换的方块",
+    "command_translation.tag.block.minecraft.camels_spawnable_on": "骆驼可生成于的方块",
+    "command_translation.tag.block.minecraft.can_glide_through": "鞘翅可滑翔穿过的方块",
+    "command_translation.tag.block.minecraft.cannot_replace_below_tree_trunk": "树干下方不可替换的方块",
+    "command_translation.tag.block.minecraft.cannot_support_kelp": "海带不可生长的方块",
+    "command_translation.tag.block.minecraft.cannot_support_seagrass": "海草不可生长的方块",
+    "command_translation.tag.block.minecraft.cannot_support_snow_layer": "永远无法支撑雪层的方块",
+    "command_translation.tag.block.minecraft.chains": "锁链",
+    "command_translation.tag.block.minecraft.copper": "铜块",
+    "command_translation.tag.block.minecraft.copper_chests": "铜箱子",
+    "command_translation.tag.block.minecraft.copper_golem_statues": "铜傀儡雕像",
+    "command_translation.tag.block.minecraft.edible_for_sheep": "羊可食用的方块",
+    "command_translation.tag.block.minecraft.enables_bubble_column_drag_down": "允许气泡柱下拽的方块",
+    "command_translation.tag.block.minecraft.enables_bubble_column_push_up": "允许气泡柱上推的方块",
+    "command_translation.tag.block.minecraft.forest_rock_can_place_on": "可放置森林岩石的方块",
+    "command_translation.tag.block.minecraft.grass_blocks": "草方块类",
+    "command_translation.tag.block.minecraft.grows_crops": "作物可生长的方块",
+    "command_translation.tag.block.minecraft.happy_ghast_avoids": "快乐恶魂避开的方块",
+    "command_translation.tag.block.minecraft.huge_brown_mushroom_can_place_on": "可放置巨型棕色蘑菇的方块",
+    "command_translation.tag.block.minecraft.huge_red_mushroom_can_place_on": "可放置巨型红色蘑菇的方块",
+    "command_translation.tag.block.minecraft.ice_spike_replaceable": "冰刺可替换的方块",
+    "command_translation.tag.block.minecraft.incorrect_for_copper_tool": "铜质工具不适合的方块",
+    "command_translation.tag.block.minecraft.lanterns": "灯笼",
+    "command_translation.tag.block.minecraft.lightning_rods": "避雷针",
+    "command_translation.tag.block.minecraft.moss_blocks": "苔藓块",
+    "command_translation.tag.block.minecraft.mud": "泥巴类方块",
+    "command_translation.tag.block.minecraft.overrides_mushroom_light_requirement": "蘑菇无视光照等级的方块",
+    "command_translation.tag.block.minecraft.pale_oak_logs": "苍白橡木原木",
+    "command_translation.tag.block.minecraft.prevents_nearby_leaf_decay": "阻止附近树叶腐烂的方块",
+    "command_translation.tag.block.minecraft.replaceable_by_mushrooms": "蘑菇生长可替换的方块",
+    "command_translation.tag.block.minecraft.substrate_overworld": "主世界基质方块",
+    "command_translation.tag.block.minecraft.support_override_cactus_flower": "仙人掌花的特殊支撑方块",
+    "command_translation.tag.block.minecraft.support_override_snow_layer": "无视形状支撑雪层的方块",
+    "command_translation.tag.block.minecraft.supports_azalea": "可放置杜鹃的方块",
+    "command_translation.tag.block.minecraft.supports_bamboo": "可种植竹子的方块",
+    "command_translation.tag.block.minecraft.supports_big_dripleaf": "可放置大型垂滴叶的方块",
+    "command_translation.tag.block.minecraft.supports_cactus": "可放置仙人掌的方块",
+    "command_translation.tag.block.minecraft.supports_chorus_flower": "可放置紫颂花的方块",
+    "command_translation.tag.block.minecraft.supports_chorus_plant": "可放置紫颂植株的方块",
+    "command_translation.tag.block.minecraft.supports_cocoa": "可放置可可豆的方块",
+    "command_translation.tag.block.minecraft.supports_crimson_fungus": "可放置绯红菌的方块",
+    "command_translation.tag.block.minecraft.supports_crimson_roots": "可放置绯红菌索的方块",
+    "command_translation.tag.block.minecraft.supports_crops": "可种植作物的方块",
+    "command_translation.tag.block.minecraft.supports_dry_vegetation": "可放置干燥植被的方块",
+    "command_translation.tag.block.minecraft.supports_frogspawn": "可放置青蛙卵的方块",
+    "command_translation.tag.block.minecraft.supports_hanging_mangrove_propagule": "可悬挂红树胎生苗的方块",
+    "command_translation.tag.block.minecraft.supports_lily_pad": "可放置睡莲的方块",
+    "command_translation.tag.block.minecraft.supports_mangrove_propagule": "可放置红树胎生苗的方块",
+    "command_translation.tag.block.minecraft.supports_melon_stem": "可种植西瓜茎的方块",
+    "command_translation.tag.block.minecraft.supports_melon_stem_fruit": "西瓜茎结果可生长的方块",
+    "command_translation.tag.block.minecraft.supports_nether_sprouts": "可放置下界苗的方块",
+    "command_translation.tag.block.minecraft.supports_nether_wart": "可放置下界疣的方块",
+    "command_translation.tag.block.minecraft.supports_pumpkin_stem": "可种植南瓜茎的方块",
+    "command_translation.tag.block.minecraft.supports_pumpkin_stem_fruit": "南瓜茎结果可生长的方块",
+    "command_translation.tag.block.minecraft.supports_small_dripleaf": "可放置小型垂滴叶的方块",
+    "command_translation.tag.block.minecraft.supports_stem_crops": "可种植茎类作物的方块",
+    "command_translation.tag.block.minecraft.supports_stem_fruit": "茎类结果可生长的方块",
+    "command_translation.tag.block.minecraft.supports_sugar_cane": "可放置甘蔗的方块",
+    "command_translation.tag.block.minecraft.supports_sugar_cane_adjacently": "甘蔗可相邻生长的方块",
+    "command_translation.tag.block.minecraft.supports_vegetation": "可放置植被的方块",
+    "command_translation.tag.block.minecraft.supports_warped_fungus": "可放置诡异菌的方块",
+    "command_translation.tag.block.minecraft.supports_warped_roots": "可放置诡异菌索的方块",
+    "command_translation.tag.block.minecraft.supports_wither_rose": "可放置凋灵玫瑰的方块",
+    "command_translation.tag.block.minecraft.sword_instantly_mines": "剑可瞬间采集的方块",
+    "command_translation.tag.block.minecraft.triggers_ambient_desert_dry_vegetation_block_sounds": "触发沙漠干植被环境音的方块",
+    "command_translation.tag.block.minecraft.triggers_ambient_desert_sand_block_sounds": "触发沙漠沙子环境音的方块",
+    "command_translation.tag.block.minecraft.triggers_ambient_dried_ghast_block_sounds": "触发干燥恶魂环境音的方块",
+    "command_translation.tag.block.minecraft.wooden_shelves": "木质架子",
+    "command_translation.tag.block.minecraft.causes_continuous_geyser_eruptions": "引发持续间歇泉喷发的方块",
+    "command_translation.tag.block.minecraft.causes_periodic_geyser_eruptions": "引发周期间歇泉喷发的方块",
+    "command_translation.tag.block.minecraft.concrete": "混凝土",
+    "command_translation.tag.block.minecraft.concrete_powders": "混凝土粉末",
+    "command_translation.tag.block.minecraft.fox_immune_to": "生成或下骑时，狐狸忽略的危险方块",
+    "command_translation.tag.block.minecraft.glazed_terracotta": "带釉陶瓦",
+    "command_translation.tag.block.minecraft.polar_bear_immune_to": "生成或下骑时，北极熊忽略的危险方块",
+    "command_translation.tag.block.minecraft.shears_extreme_breaking_speed": "剪刀极快破坏的方块",
+    "command_translation.tag.block.minecraft.shears_major_breaking_speed": "剪刀较快破坏的方块",
+    "command_translation.tag.block.minecraft.shears_minor_breaking_speed": "剪刀略微加快破坏的方块",
+    "command_translation.tag.block.minecraft.snow_golem_immune_to": "生成或下骑时，雪傀儡忽略的危险方块",
+    "command_translation.tag.block.minecraft.speleothems": "洞穴沉积方块",
+    "command_translation.tag.block.minecraft.stray_immune_to": "生成或下骑时，流浪者忽略的危险方块",
+    "command_translation.tag.block.minecraft.sulfur_spike_replaceable_blocks": "硫磺刺可替换的方块",
+    "command_translation.tag.block.minecraft.suppresses_bounce": "取消弹跳的方块",
+    "command_translation.tag.block.minecraft.wither_immune_to": "生成或下骑时，凋灵忽略的危险方块",
+    "command_translation.tag.block.minecraft.wither_skeleton_immune_to": "生成或下骑时，凋灵骷髅忽略的危险方块",
+    "command_translation.tag.block.minecraft.default_immune_to": "生成或下骑时，生物默认忽略的危险方块"
+  },
+  "de_de": {
+    "command_translation.tag.block.minecraft.acacia_logs": "Akazienstämme",
+    "command_translation.tag.block.minecraft.all_hanging_signs": "Alle Hängeschilder",
+    "command_translation.tag.block.minecraft.all_signs": "Alle Schilder",
+    "command_translation.tag.block.minecraft.ancient_city_replaceable": "Bei Antiker-Stadt-Verfall entfernte Blöcke",
+    "command_translation.tag.block.minecraft.animals_spawnable_on": "Blöcke, auf denen Tiere spawnen",
+    "command_translation.tag.block.minecraft.anvil": "Ambossblöcke",
+    "command_translation.tag.block.minecraft.axolotls_spawnable_on": "Blöcke, auf denen Axolotl spawnen",
+    "command_translation.tag.block.minecraft.azalea_grows_on": "Blöcke, auf denen Azaleenbäume wachsen",
+    "command_translation.tag.block.minecraft.azalea_root_replaceable": "Von Azaleenwurzeln ersetzbare Blöcke",
+    "command_translation.tag.block.minecraft.bamboo_blocks": "Bambusblöcke",
+    "command_translation.tag.block.minecraft.bamboo_plantable_on": "Blöcke, auf denen Bambus gepflanzt werden kann",
+    "command_translation.tag.block.minecraft.banners": "Banner",
+    "command_translation.tag.block.minecraft.base_stone_nether": "Nether-Grundgesteine",
+    "command_translation.tag.block.minecraft.base_stone_overworld": "Oberwelt-Grundgesteine",
+    "command_translation.tag.block.minecraft.beacon_base_blocks": "Leuchtfeuer-Sockelblöcke",
+    "command_translation.tag.block.minecraft.beds": "Betten",
+    "command_translation.tag.block.minecraft.bee_growables": "Von Bienen wachsende Pflanzen",
+    "command_translation.tag.block.minecraft.beehives": "Bienennester",
+    "command_translation.tag.block.minecraft.big_dripleaf_placeable": "Blöcke, auf denen Große Fallblattpflanzen stehen",
+    "command_translation.tag.block.minecraft.birch_logs": "Birkenstämme",
+    "command_translation.tag.block.minecraft.buttons": "Knöpfe",
+    "command_translation.tag.block.minecraft.campfires": "Lagerfeuer",
+    "command_translation.tag.block.minecraft.candle_cakes": "Kerzenkuchen",
+    "command_translation.tag.block.minecraft.candles": "Kerzen",
+    "command_translation.tag.block.minecraft.cauldrons": "Kessel",
+    "command_translation.tag.block.minecraft.cave_vines": "Höhlenranken",
+    "command_translation.tag.block.minecraft.ceiling_hanging_signs": "Deckenhängeschilder",
+    "command_translation.tag.block.minecraft.cherry_logs": "Kirschstämme",
+    "command_translation.tag.block.minecraft.climbable": "Kletterbare Blöcke",
+    "command_translation.tag.block.minecraft.coal_ores": "Kohleerze",
+    "command_translation.tag.block.minecraft.combination_step_sound_blocks": "Mischt sein Schrittgeräusch mit dem des Blocks darunter",
+    "command_translation.tag.block.minecraft.completes_find_tree_tutorial": "Blöcke für das Baum-finden-Tutorial",
+    "command_translation.tag.block.minecraft.convertable_to_mud": "In Schlamm umwandelbare Blöcke",
+    "command_translation.tag.block.minecraft.copper_ores": "Kupfererze",
+    "command_translation.tag.block.minecraft.coral_blocks": "Korallenblöcke",
+    "command_translation.tag.block.minecraft.coral_plants": "Korallenpflanzen",
+    "command_translation.tag.block.minecraft.corals": "Korallen",
+    "command_translation.tag.block.minecraft.crimson_stems": "Karmesinstämme",
+    "command_translation.tag.block.minecraft.crops": "Nutzpflanzen",
+    "command_translation.tag.block.minecraft.crystal_sound_blocks": "Blöcke mit Amethystklang",
+    "command_translation.tag.block.minecraft.dampens_vibrations": "Blöcke, die Schwingungen dämpfen",
+    "command_translation.tag.block.minecraft.dark_oak_logs": "Schwarzeichenstämme",
+    "command_translation.tag.block.minecraft.dead_bush_may_place_on": "Blöcke, auf denen Trockenvegetation stehen kann",
+    "command_translation.tag.block.minecraft.deepslate_ore_replaceables": "Von Tiefenschiefererzen ersetzbare Blöcke",
+    "command_translation.tag.block.minecraft.diamond_ores": "Diamanterze",
+    "command_translation.tag.block.minecraft.dirt": "Erdblöcke",
+    "command_translation.tag.block.minecraft.doors": "Türen",
+    "command_translation.tag.block.minecraft.dragon_immune": "Blöcke, die der Enderdrache nicht zerstören kann",
+    "command_translation.tag.block.minecraft.dragon_transparent": "Blöcke, die der Enderdrache durchfliegen kann",
+    "command_translation.tag.block.minecraft.dripstone_replaceable_blocks": "Von Tropfstein ersetzbare Blöcke",
+    "command_translation.tag.block.minecraft.emerald_ores": "Smaragderze",
+    "command_translation.tag.block.minecraft.enchantment_power_provider": "Erhöht die Stärke des Zaubertisches",
+    "command_translation.tag.block.minecraft.enchantment_power_transmitter": "Blockiert die Verbindung zwischen Bücherregal und Zaubertisch nicht",
+    "command_translation.tag.block.minecraft.enderman_holdable": "Blöcke, die Endermen aufheben können",
+    "command_translation.tag.block.minecraft.fall_damage_resetting": "Blöcke, die Fallschaden zurücksetzen",
+    "command_translation.tag.block.minecraft.features_cannot_replace": "Blöcke, die Strukturen nicht ersetzen",
+    "command_translation.tag.block.minecraft.fence_gates": "Zauntore",
+    "command_translation.tag.block.minecraft.fences": "Zäune",
+    "command_translation.tag.block.minecraft.fire": "Feuerblöcke",
+    "command_translation.tag.block.minecraft.flower_pots": "Blumentöpfe",
+    "command_translation.tag.block.minecraft.flowers": "Blumen",
+    "command_translation.tag.block.minecraft.foxes_spawnable_on": "Blöcke, auf denen Füchse spawnen",
+    "command_translation.tag.block.minecraft.frog_prefer_jump_to": "Blöcke, auf die Frösche bevorzugt springen",
+    "command_translation.tag.block.minecraft.frogs_spawnable_on": "Blöcke, auf denen Frösche spawnen",
+    "command_translation.tag.block.minecraft.geode_invalid_blocks": "Blöcke, in denen Geoden nicht entstehen",
+    "command_translation.tag.block.minecraft.goats_spawnable_on": "Blöcke, auf denen Ziegen spawnen",
+    "command_translation.tag.block.minecraft.gold_ores": "Golderze",
+    "command_translation.tag.block.minecraft.guarded_by_piglins": "Von Piglins bewachte Blöcke",
+    "command_translation.tag.block.minecraft.hoglin_repellents": "Blöcke, die Hogline vertreiben",
+    "command_translation.tag.block.minecraft.ice": "Eisblöcke",
+    "command_translation.tag.block.minecraft.impermeable": "Blockiert Tropfpartikel von Flüssigkeiten",
+    "command_translation.tag.block.minecraft.infiniburn_end": "Im Ende ewig brennende Blöcke",
+    "command_translation.tag.block.minecraft.infiniburn_nether": "Im Nether ewig brennende Blöcke",
+    "command_translation.tag.block.minecraft.infiniburn_overworld": "In der Oberwelt ewig brennende Blöcke",
+    "command_translation.tag.block.minecraft.inside_step_sound_blocks": "Ersetzt beim Hindurchgehen das Schrittgeräusch des Bodens",
+    "command_translation.tag.block.minecraft.invalid_spawn_inside": "Blöcke, in denen Spieler nicht spawnen",
+    "command_translation.tag.block.minecraft.iron_ores": "Eisenerze",
+    "command_translation.tag.block.minecraft.jungle_logs": "Tropenbaumstämme",
+    "command_translation.tag.block.minecraft.lapis_ores": "Lapislazulierze",
+    "command_translation.tag.block.minecraft.lava_pool_stone_cannot_replace": "Blöcke, die Lava-Stein nicht ersetzt",
+    "command_translation.tag.block.minecraft.leaves": "Laubblöcke",
+    "command_translation.tag.block.minecraft.logs": "Stämme",
+    "command_translation.tag.block.minecraft.logs_that_burn": "Brennbare Stämme",
+    "command_translation.tag.block.minecraft.lush_ground_replaceable": "Von üppigem Höhlenboden ersetzbare Blöcke",
+    "command_translation.tag.block.minecraft.maintains_farmland": "Blöcke, die Ackerland erhalten",
+    "command_translation.tag.block.minecraft.mangrove_logs": "Mangrovenstämme",
+    "command_translation.tag.block.minecraft.mangrove_logs_can_grow_through": "Blöcke, die Mangrovenstämme durchwachsen",
+    "command_translation.tag.block.minecraft.mangrove_roots_can_grow_through": "Blöcke, die Mangrovenwurzeln durchwachsen",
+    "command_translation.tag.block.minecraft.mineable.axe": "Mit Axt schneller abbaubare Blöcke",
+    "command_translation.tag.block.minecraft.mineable.hoe": "Mit Hacke schneller abbaubare Blöcke",
+    "command_translation.tag.block.minecraft.mineable.pickaxe": "Mit Spitzhacke schneller abbaubare Blöcke",
+    "command_translation.tag.block.minecraft.mineable.shovel": "Mit Schaufel schneller abbaubare Blöcke",
+    "command_translation.tag.block.minecraft.mooshrooms_spawnable_on": "Blöcke, auf denen Mooshrooms spawnen",
+    "command_translation.tag.block.minecraft.moss_replaceable": "Von Moos ersetzbare Blöcke",
+    "command_translation.tag.block.minecraft.mushroom_grow_block": "Blöcke, auf denen Pilze Licht ignorieren",
+    "command_translation.tag.block.minecraft.needs_diamond_tool": "Erfordert Diamantwerkzeug oder besser",
+    "command_translation.tag.block.minecraft.needs_iron_tool": "Erfordert Eisenwerkzeug oder besser",
+    "command_translation.tag.block.minecraft.needs_stone_tool": "Erfordert Steinwerkzeug oder besser",
+    "command_translation.tag.block.minecraft.nether_carver_replaceables": "Von Nether-Höhlen ersetzbare Blöcke",
+    "command_translation.tag.block.minecraft.nylium": "Nyliumblöcke",
+    "command_translation.tag.block.minecraft.oak_logs": "Eichenstämme",
+    "command_translation.tag.block.minecraft.occludes_vibration_signals": "Blöcke, die Schwingungssignale blockieren",
+    "command_translation.tag.block.minecraft.overworld_carver_replaceables": "Von Oberwelt-Höhlen ersetzbare Blöcke",
+    "command_translation.tag.block.minecraft.overworld_natural_logs": "Natürliche Oberweltstämme",
+    "command_translation.tag.block.minecraft.parrots_spawnable_on": "Blöcke, auf denen Papageien spawnen",
+    "command_translation.tag.block.minecraft.piglin_repellents": "Blöcke, die Piglins vertreiben",
+    "command_translation.tag.block.minecraft.planks": "Holzbretter",
+    "command_translation.tag.block.minecraft.polar_bears_spawnable_on_alternate": "Alternative Blöcke für Eisbärspawns",
+    "command_translation.tag.block.minecraft.portals": "Portalblöcke",
+    "command_translation.tag.block.minecraft.pressure_plates": "Druckplatten",
+    "command_translation.tag.block.minecraft.prevent_mob_spawning_inside": "Blöcke, die Mobspawns im Inneren verhindern",
+    "command_translation.tag.block.minecraft.rabbits_spawnable_on": "Blöcke, auf denen Kaninchen spawnen",
+    "command_translation.tag.block.minecraft.rails": "Schienen",
+    "command_translation.tag.block.minecraft.redstone_ores": "Redstoneerze",
+    "command_translation.tag.block.minecraft.replaceable": "Ersetzbare Blöcke",
+    "command_translation.tag.block.minecraft.replaceable_by_trees": "Von Bäumen ersetzbare Blöcke",
+    "command_translation.tag.block.minecraft.sand": "Sandblöcke",
+    "command_translation.tag.block.minecraft.saplings": "Setzlinge",
+    "command_translation.tag.block.minecraft.sculk_replaceable": "Von Sculk ersetzbare Blöcke",
+    "command_translation.tag.block.minecraft.sculk_replaceable_world_gen": "Von Sculk bei der Weltgenerierung ersetzte Blöcke",
+    "command_translation.tag.block.minecraft.shulker_boxes": "Shulkerkisten",
+    "command_translation.tag.block.minecraft.signs": "Schilder",
+    "command_translation.tag.block.minecraft.slabs": "Stufen",
+    "command_translation.tag.block.minecraft.small_dripleaf_placeable": "Blöcke, auf denen Kleine Fallblattpflanzen stehen",
+    "command_translation.tag.block.minecraft.small_flowers": "Kleine Blumen",
+    "command_translation.tag.block.minecraft.smelts_to_glass": "Zu Glas schmelzbare Blöcke",
+    "command_translation.tag.block.minecraft.snaps_goat_horn": "Blöcke, die Ziegen Hörner abwerfen lassen",
+    "command_translation.tag.block.minecraft.sniffer_diggable_block": "Von Schnüfflern grabbare Blöcke",
+    "command_translation.tag.block.minecraft.sniffer_egg_hatch_boost": "Blöcke, die das Schlüpfen von Schnüfflereiern beschleunigen",
+    "command_translation.tag.block.minecraft.snow": "Schneeblöcke",
+    "command_translation.tag.block.minecraft.snow_layer_can_survive_on": "Blöcke, auf denen Schneeschichten halten",
+    "command_translation.tag.block.minecraft.snow_layer_cannot_survive_on": "Blöcke, auf denen Schneeschichten nicht halten",
+    "command_translation.tag.block.minecraft.soul_fire_base_blocks": "Blöcke, die Seelenfeuer tragen",
+    "command_translation.tag.block.minecraft.soul_speed_blocks": "Von Seelenschnelligkeit verstärkte Blöcke",
+    "command_translation.tag.block.minecraft.spruce_logs": "Fichtenstämme",
+    "command_translation.tag.block.minecraft.stairs": "Treppen",
+    "command_translation.tag.block.minecraft.standing_signs": "Stehende Schilder",
+    "command_translation.tag.block.minecraft.stone_bricks": "Steinziegel",
+    "command_translation.tag.block.minecraft.stone_buttons": "Steinknöpfe",
+    "command_translation.tag.block.minecraft.stone_ore_replaceables": "Von Steinerzen ersetzbare Blöcke",
+    "command_translation.tag.block.minecraft.stone_pressure_plates": "Steindruckplatten",
+    "command_translation.tag.block.minecraft.strider_warm_blocks": "Blöcke, die Schreiter warm halten",
+    "command_translation.tag.block.minecraft.sword_efficient": "Von Schwertern schneller abbaubare Blöcke",
+    "command_translation.tag.block.minecraft.tall_flowers": "Hohe Blumen",
+    "command_translation.tag.block.minecraft.terracotta": "Keramik",
+    "command_translation.tag.block.minecraft.trail_ruins_replaceable": "Von Pfadruinen ersetzbare Blöcke",
+    "command_translation.tag.block.minecraft.trapdoors": "Falltüren",
+    "command_translation.tag.block.minecraft.underwater_bonemeals": "Durch Unterwasser-Knochenmehl verteilte Blöcke",
+    "command_translation.tag.block.minecraft.unstable_bottom_center": "Blöcke ohne Laternen/Befestigung an der Unterseite",
+    "command_translation.tag.block.minecraft.valid_spawn": "Gültige Spawnblöcke (unbenutzt)",
+    "command_translation.tag.block.minecraft.vibration_resonators": "Schwingt beim Empfangen von Vibrationen mit",
+    "command_translation.tag.block.minecraft.wall_corals": "Wandkorallen",
+    "command_translation.tag.block.minecraft.wall_hanging_signs": "Wandhängeschilder",
+    "command_translation.tag.block.minecraft.wall_post_override": "Blöcke, die Mauerpfosten erzwingen",
+    "command_translation.tag.block.minecraft.wall_signs": "Wandschilder",
+    "command_translation.tag.block.minecraft.walls": "Mauern",
+    "command_translation.tag.block.minecraft.warped_stems": "Wirrstämme",
+    "command_translation.tag.block.minecraft.wart_blocks": "Warzenblöcke",
+    "command_translation.tag.block.minecraft.wither_immune": "Blöcke, die der Wither nicht zerstören kann",
+    "command_translation.tag.block.minecraft.wither_summon_base_blocks": "Blöcke zum Beschwören des Withers",
+    "command_translation.tag.block.minecraft.wolves_spawnable_on": "Blöcke, auf denen Wölfe spawnen",
+    "command_translation.tag.block.minecraft.wooden_buttons": "Holzknöpfe",
+    "command_translation.tag.block.minecraft.wooden_doors": "Holztüren",
+    "command_translation.tag.block.minecraft.wooden_fences": "Holzzäune",
+    "command_translation.tag.block.minecraft.wooden_pressure_plates": "Holzdruckplatten",
+    "command_translation.tag.block.minecraft.wooden_slabs": "Holzstufen",
+    "command_translation.tag.block.minecraft.wooden_stairs": "Holztreppen",
+    "command_translation.tag.block.minecraft.wooden_trapdoors": "Holzfalltüren",
+    "command_translation.tag.block.minecraft.wool": "Wolle",
+    "command_translation.tag.block.minecraft.wool_carpets": "Wollteppiche",
+    "command_translation.tag.block.minecraft.air": "Luftblöcke",
+    "command_translation.tag.block.minecraft.armadillo_spawnable_on": "Blöcke, auf denen Gürteltiere spawnen",
+    "command_translation.tag.block.minecraft.badlands_terracotta": "Keramik der Badlands",
+    "command_translation.tag.block.minecraft.blocks_wind_charge_explosions": "Blöcke, die Windkugel-Explosionen blockieren",
+    "command_translation.tag.block.minecraft.camel_sand_step_sound_blocks": "Blöcke mit Kamel-Sandschrittgeräusch",
+    "command_translation.tag.block.minecraft.concrete_powder": "Trockenbetonblöcke",
+    "command_translation.tag.block.minecraft.does_not_block_hoppers": "Blöcke, die Trichter nicht blockieren",
+    "command_translation.tag.block.minecraft.incorrect_for_diamond_tool": "Blöcke, für die Diamantwerkzeug falsch ist",
+    "command_translation.tag.block.minecraft.incorrect_for_gold_tool": "Blöcke, für die Goldwerkzeug falsch ist",
+    "command_translation.tag.block.minecraft.incorrect_for_iron_tool": "Blöcke, für die Eisenwerkzeug falsch ist",
+    "command_translation.tag.block.minecraft.incorrect_for_netherite_tool": "Blöcke, für die Netheritwerkzeug falsch ist",
+    "command_translation.tag.block.minecraft.incorrect_for_stone_tool": "Blöcke, für die Steinwerkzeug falsch ist",
+    "command_translation.tag.block.minecraft.incorrect_for_wooden_tool": "Blöcke, für die Holzwerkzeug falsch ist",
+    "command_translation.tag.block.minecraft.mob_interactable_doors": "Türen, mit denen Mobs interagieren",
+    "command_translation.tag.block.minecraft.bars": "Gitter",
+    "command_translation.tag.block.minecraft.bats_spawnable_on": "Blöcke, auf denen Fledermäuse spawnen",
+    "command_translation.tag.block.minecraft.bee_attractive": "Blöcke, die Bienen anziehen",
+    "command_translation.tag.block.minecraft.beneath_bamboo_podzol_replaceable": "Von Podsol unter Bambus ersetzte Blöcke",
+    "command_translation.tag.block.minecraft.beneath_tree_podzol_replaceable": "Von Podsol unter Bäumen ersetzte Blöcke",
+    "command_translation.tag.block.minecraft.camels_spawnable_on": "Blöcke, auf denen Kamele spawnen",
+    "command_translation.tag.block.minecraft.can_glide_through": "Mit Elytren durchfliegbare Blöcke",
+    "command_translation.tag.block.minecraft.cannot_replace_below_tree_trunk": "Blöcke, die unter Baumstämmen nicht ersetzt werden",
+    "command_translation.tag.block.minecraft.cannot_support_kelp": "Blöcke, auf denen Seetang nicht wächst",
+    "command_translation.tag.block.minecraft.cannot_support_seagrass": "Blöcke, auf denen Seegras nicht wächst",
+    "command_translation.tag.block.minecraft.cannot_support_snow_layer": "Blöcke, die nie eine Schneeschicht tragen",
+    "command_translation.tag.block.minecraft.chains": "Ketten",
+    "command_translation.tag.block.minecraft.copper": "Kupferblöcke",
+    "command_translation.tag.block.minecraft.copper_chests": "Kupfertruhen",
+    "command_translation.tag.block.minecraft.copper_golem_statues": "Kupfergolem-Statuen",
+    "command_translation.tag.block.minecraft.edible_for_sheep": "Blöcke, die Schafe fressen",
+    "command_translation.tag.block.minecraft.enables_bubble_column_drag_down": "Blöcke für abwärts ziehende Blasensäulen",
+    "command_translation.tag.block.minecraft.enables_bubble_column_push_up": "Blöcke für aufwärts schiebende Blasensäulen",
+    "command_translation.tag.block.minecraft.forest_rock_can_place_on": "Blöcke, auf denen Waldsteine stehen können",
+    "command_translation.tag.block.minecraft.grass_blocks": "Grasblöcke",
+    "command_translation.tag.block.minecraft.grows_crops": "Blöcke, auf denen Nutzpflanzen wachsen",
+    "command_translation.tag.block.minecraft.happy_ghast_avoids": "Blöcke, die Glückliche Ghasts meiden",
+    "command_translation.tag.block.minecraft.huge_brown_mushroom_can_place_on": "Blöcke für riesige braune Pilze",
+    "command_translation.tag.block.minecraft.huge_red_mushroom_can_place_on": "Blöcke für riesige rote Pilze",
+    "command_translation.tag.block.minecraft.ice_spike_replaceable": "Von Eisstachel-Strukturen ersetzbare Blöcke",
+    "command_translation.tag.block.minecraft.incorrect_for_copper_tool": "Blöcke, für die Kupferwerkzeug falsch ist",
+    "command_translation.tag.block.minecraft.lanterns": "Laternen",
+    "command_translation.tag.block.minecraft.lightning_rods": "Blitzableiter",
+    "command_translation.tag.block.minecraft.moss_blocks": "Moosblöcke",
+    "command_translation.tag.block.minecraft.mud": "Schlammblöcke",
+    "command_translation.tag.block.minecraft.overrides_mushroom_light_requirement": "Blöcke, auf denen Pilze Licht ignorieren",
+    "command_translation.tag.block.minecraft.pale_oak_logs": "Blasseichenstämme",
+    "command_translation.tag.block.minecraft.prevents_nearby_leaf_decay": "Blöcke, die Laubzerfall in der Nähe verhindern",
+    "command_translation.tag.block.minecraft.replaceable_by_mushrooms": "Von wachsenden Pilzen ersetzbare Blöcke",
+    "command_translation.tag.block.minecraft.substrate_overworld": "Oberwelt-Substratblöcke",
+    "command_translation.tag.block.minecraft.support_override_cactus_flower": "Besondere Stützblöcke für Kaktusblüten",
+    "command_translation.tag.block.minecraft.support_override_snow_layer": "Blöcke, die trotz Form Schnee tragen",
+    "command_translation.tag.block.minecraft.supports_azalea": "Blöcke, auf denen Azaleen stehen",
+    "command_translation.tag.block.minecraft.supports_bamboo": "Blöcke, auf denen Bambus gepflanzt werden kann",
+    "command_translation.tag.block.minecraft.supports_big_dripleaf": "Blöcke, auf denen Große Fallblattpflanzen stehen",
+    "command_translation.tag.block.minecraft.supports_cactus": "Blöcke, auf denen Kakteen stehen",
+    "command_translation.tag.block.minecraft.supports_chorus_flower": "Blöcke, auf denen Chorusblüten stehen",
+    "command_translation.tag.block.minecraft.supports_chorus_plant": "Blöcke, auf denen Choruspflanzen stehen",
+    "command_translation.tag.block.minecraft.supports_cocoa": "Blöcke, auf denen Kakao stehen kann",
+    "command_translation.tag.block.minecraft.supports_crimson_fungus": "Blöcke, auf denen Karmesinpilze stehen",
+    "command_translation.tag.block.minecraft.supports_crimson_roots": "Blöcke, auf denen Karmesinwurzeln stehen",
+    "command_translation.tag.block.minecraft.supports_crops": "Blöcke, auf denen Nutzpflanzen wachsen",
+    "command_translation.tag.block.minecraft.supports_dry_vegetation": "Blöcke, auf denen Trockenvegetation steht",
+    "command_translation.tag.block.minecraft.supports_frogspawn": "Blöcke, auf denen Froschlaich liegt",
+    "command_translation.tag.block.minecraft.supports_hanging_mangrove_propagule": "Blöcke für hängende Mangrovenkeimlinge",
+    "command_translation.tag.block.minecraft.supports_lily_pad": "Blöcke, auf denen Seerosen stehen",
+    "command_translation.tag.block.minecraft.supports_mangrove_propagule": "Blöcke, auf denen Mangrovenkeimlinge stehen",
+    "command_translation.tag.block.minecraft.supports_melon_stem": "Blöcke, auf denen Melonenranken wachsen",
+    "command_translation.tag.block.minecraft.supports_melon_stem_fruit": "Blöcke für Melonen an Ranken",
+    "command_translation.tag.block.minecraft.supports_nether_sprouts": "Blöcke, auf denen Nethersprossen stehen",
+    "command_translation.tag.block.minecraft.supports_nether_wart": "Blöcke, auf denen Netherwarzen wachsen",
+    "command_translation.tag.block.minecraft.supports_pumpkin_stem": "Blöcke, auf denen Kürbisranken wachsen",
+    "command_translation.tag.block.minecraft.supports_pumpkin_stem_fruit": "Blöcke für Kürbisse an Ranken",
+    "command_translation.tag.block.minecraft.supports_small_dripleaf": "Blöcke, auf denen Kleine Fallblattpflanzen stehen",
+    "command_translation.tag.block.minecraft.supports_stem_crops": "Blöcke für Rankenpflanzen",
+    "command_translation.tag.block.minecraft.supports_stem_fruit": "Blöcke für Rankenfrüchte",
+    "command_translation.tag.block.minecraft.supports_sugar_cane": "Blöcke, auf denen Zuckerrohr steht",
+    "command_translation.tag.block.minecraft.supports_sugar_cane_adjacently": "Blöcke, neben denen Zuckerrohr wächst",
+    "command_translation.tag.block.minecraft.supports_vegetation": "Blöcke, auf denen Vegetation steht",
+    "command_translation.tag.block.minecraft.supports_warped_fungus": "Blöcke, auf denen Wirrpilze stehen",
+    "command_translation.tag.block.minecraft.supports_warped_roots": "Blöcke, auf denen Wirrwurzeln stehen",
+    "command_translation.tag.block.minecraft.supports_wither_rose": "Blöcke, auf denen Witherrosen stehen",
+    "command_translation.tag.block.minecraft.sword_instantly_mines": "Von Schwertern sofort abgebaute Blöcke",
+    "command_translation.tag.block.minecraft.triggers_ambient_desert_dry_vegetation_block_sounds": "Blöcke mit Wüsten-Trockenvegetations-Ambiente",
+    "command_translation.tag.block.minecraft.triggers_ambient_desert_sand_block_sounds": "Blöcke mit Wüstensand-Ambiente",
+    "command_translation.tag.block.minecraft.triggers_ambient_dried_ghast_block_sounds": "Blöcke mit Getrockneter-Ghast-Ambiente",
+    "command_translation.tag.block.minecraft.wooden_shelves": "Holzregale",
+    "command_translation.tag.block.minecraft.causes_continuous_geyser_eruptions": "Blöcke für dauerhafte Geysirausbrüche",
+    "command_translation.tag.block.minecraft.causes_periodic_geyser_eruptions": "Blöcke für periodische Geysirausbrüche",
+    "command_translation.tag.block.minecraft.concrete": "Betonblöcke",
+    "command_translation.tag.block.minecraft.concrete_powders": "Trockenbetonblöcke",
+    "command_translation.tag.block.minecraft.fox_immune_to": "Füchse ignorieren diese Gefahren beim Spawnen und Absteigen",
+    "command_translation.tag.block.minecraft.glazed_terracotta": "Glasierte Keramik",
+    "command_translation.tag.block.minecraft.polar_bear_immune_to": "Eisbären ignorieren diese Gefahren beim Spawnen und Absteigen",
+    "command_translation.tag.block.minecraft.shears_extreme_breaking_speed": "Von Scheren extrem schnell abbaubare Blöcke",
+    "command_translation.tag.block.minecraft.shears_major_breaking_speed": "Von Scheren deutlich schneller abbaubare Blöcke",
+    "command_translation.tag.block.minecraft.shears_minor_breaking_speed": "Von Scheren etwas schneller abbaubare Blöcke",
+    "command_translation.tag.block.minecraft.snow_golem_immune_to": "Schneegolems ignorieren diese Gefahren beim Spawnen und Absteigen",
+    "command_translation.tag.block.minecraft.speleothems": "Höhlenformationen",
+    "command_translation.tag.block.minecraft.stray_immune_to": "Eiswanderer ignorieren diese Gefahren beim Spawnen und Absteigen",
+    "command_translation.tag.block.minecraft.sulfur_spike_replaceable_blocks": "Von Schwefelspitzen ersetzbare Blöcke",
+    "command_translation.tag.block.minecraft.suppresses_bounce": "Blöcke, die das Federn aufheben",
+    "command_translation.tag.block.minecraft.wither_immune_to": "Wither ignorieren diese Gefahren beim Spawnen und Absteigen",
+    "command_translation.tag.block.minecraft.wither_skeleton_immune_to": "Witherskelette ignorieren diese Gefahren beim Spawnen und Absteigen",
+    "command_translation.tag.block.minecraft.default_immune_to": "Kreaturentypen standardmäßig ignorieren diese Gefahren beim Spawnen und Absteigen"
+  },
+  "ja_jp": {
+    "command_translation.tag.block.minecraft.acacia_logs": "アカシアの原木",
+    "command_translation.tag.block.minecraft.all_hanging_signs": "すべての吊り看板",
+    "command_translation.tag.block.minecraft.all_signs": "すべての看板",
+    "command_translation.tag.block.minecraft.ancient_city_replaceable": "古代都市の劣化で除去されるブロック",
+    "command_translation.tag.block.minecraft.animals_spawnable_on": "動物がスポーンできるブロック",
+    "command_translation.tag.block.minecraft.anvil": "金床ブロック",
+    "command_translation.tag.block.minecraft.axolotls_spawnable_on": "ウーパールーパーがスポーンできるブロック",
+    "command_translation.tag.block.minecraft.azalea_grows_on": "ツツジの木が育つブロック",
+    "command_translation.tag.block.minecraft.azalea_root_replaceable": "ツツジの根が置換できるブロック",
+    "command_translation.tag.block.minecraft.bamboo_blocks": "竹ブロック",
+    "command_translation.tag.block.minecraft.bamboo_plantable_on": "竹を植えられるブロック",
+    "command_translation.tag.block.minecraft.banners": "旗",
+    "command_translation.tag.block.minecraft.base_stone_nether": "ネザーの基礎石",
+    "command_translation.tag.block.minecraft.base_stone_overworld": "オーバーワールドの基礎石",
+    "command_translation.tag.block.minecraft.beacon_base_blocks": "ビーコンの土台ブロック",
+    "command_translation.tag.block.minecraft.beds": "ベッド",
+    "command_translation.tag.block.minecraft.bee_growables": "ミツバチが成長させる作物",
+    "command_translation.tag.block.minecraft.beehives": "養蜂箱",
+    "command_translation.tag.block.minecraft.big_dripleaf_placeable": "オオオオバコを設置できるブロック",
+    "command_translation.tag.block.minecraft.birch_logs": "シラカバの原木",
+    "command_translation.tag.block.minecraft.buttons": "ボタン",
+    "command_translation.tag.block.minecraft.campfires": "焚き火",
+    "command_translation.tag.block.minecraft.candle_cakes": "キャンドルケーキ",
+    "command_translation.tag.block.minecraft.candles": "キャンドル",
+    "command_translation.tag.block.minecraft.cauldrons": "大釜",
+    "command_translation.tag.block.minecraft.cave_vines": "洞窟のツタ",
+    "command_translation.tag.block.minecraft.ceiling_hanging_signs": "天井の吊り看板",
+    "command_translation.tag.block.minecraft.cherry_logs": "サクラの原木",
+    "command_translation.tag.block.minecraft.climbable": "登れるブロック",
+    "command_translation.tag.block.minecraft.coal_ores": "石炭鉱石",
+    "command_translation.tag.block.minecraft.combination_step_sound_blocks": "足音が下のブロックの音と重なる",
+    "command_translation.tag.block.minecraft.completes_find_tree_tutorial": "木を探すチュートリアルを完了するブロック",
+    "command_translation.tag.block.minecraft.convertable_to_mud": "泥に変換できるブロック",
+    "command_translation.tag.block.minecraft.copper_ores": "銅鉱石",
+    "command_translation.tag.block.minecraft.coral_blocks": "サンゴブロック",
+    "command_translation.tag.block.minecraft.coral_plants": "サンゴ",
+    "command_translation.tag.block.minecraft.corals": "サンゴ類",
+    "command_translation.tag.block.minecraft.crimson_stems": "真紅の幹",
+    "command_translation.tag.block.minecraft.crops": "作物",
+    "command_translation.tag.block.minecraft.crystal_sound_blocks": "アメジストの音が鳴るブロック",
+    "command_translation.tag.block.minecraft.dampens_vibrations": "振動を減衰させるブロック",
+    "command_translation.tag.block.minecraft.dark_oak_logs": "ダークオークの原木",
+    "command_translation.tag.block.minecraft.dead_bush_may_place_on": "枯れ木を設置できるブロック",
+    "command_translation.tag.block.minecraft.deepslate_ore_replaceables": "深層岩鉱石が置換できるブロック",
+    "command_translation.tag.block.minecraft.diamond_ores": "ダイヤモンド鉱石",
+    "command_translation.tag.block.minecraft.dirt": "土ブロック",
+    "command_translation.tag.block.minecraft.doors": "ドア",
+    "command_translation.tag.block.minecraft.dragon_immune": "エンダードラゴンが破壊できないブロック",
+    "command_translation.tag.block.minecraft.dragon_transparent": "エンダードラゴンが通り抜けられるブロック",
+    "command_translation.tag.block.minecraft.dripstone_replaceable_blocks": "鍾乳石が置換できるブロック",
+    "command_translation.tag.block.minecraft.emerald_ores": "エメラルド鉱石",
+    "command_translation.tag.block.minecraft.enchantment_power_provider": "エンチャントテーブルの効果を高めるブロック",
+    "command_translation.tag.block.minecraft.enchantment_power_transmitter": "本棚とエンチャントテーブルの間を遮らないブロック",
+    "command_translation.tag.block.minecraft.enderman_holdable": "エンダーマンが持ち上げられるブロック",
+    "command_translation.tag.block.minecraft.fall_damage_resetting": "落下ダメージをリセットするブロック",
+    "command_translation.tag.block.minecraft.features_cannot_replace": "フィーチャーが置換できないブロック",
+    "command_translation.tag.block.minecraft.fence_gates": "フェンスゲート",
+    "command_translation.tag.block.minecraft.fences": "フェンス",
+    "command_translation.tag.block.minecraft.fire": "火のブロック",
+    "command_translation.tag.block.minecraft.flower_pots": "植木鉢",
+    "command_translation.tag.block.minecraft.flowers": "花",
+    "command_translation.tag.block.minecraft.foxes_spawnable_on": "キツネがスポーンできるブロック",
+    "command_translation.tag.block.minecraft.frog_prefer_jump_to": "カエルが好んで飛び乗るブロック",
+    "command_translation.tag.block.minecraft.frogs_spawnable_on": "カエルがスポーンできるブロック",
+    "command_translation.tag.block.minecraft.geode_invalid_blocks": "ジオードが生成できないブロック",
+    "command_translation.tag.block.minecraft.goats_spawnable_on": "ヤギがスポーンできるブロック",
+    "command_translation.tag.block.minecraft.gold_ores": "金鉱石",
+    "command_translation.tag.block.minecraft.guarded_by_piglins": "ピグリンが見張るブロック",
+    "command_translation.tag.block.minecraft.hoglin_repellents": "ホグリンを遠ざけるブロック",
+    "command_translation.tag.block.minecraft.ice": "氷ブロック",
+    "command_translation.tag.block.minecraft.impermeable": "液体の滴るパーティクルを遮るブロック",
+    "command_translation.tag.block.minecraft.infiniburn_end": "エンドで永遠に燃えるブロック",
+    "command_translation.tag.block.minecraft.infiniburn_nether": "ネザーで永遠に燃えるブロック",
+    "command_translation.tag.block.minecraft.infiniburn_overworld": "オーバーワールドで永遠に燃えるブロック",
+    "command_translation.tag.block.minecraft.inside_step_sound_blocks": "中を歩くと下のブロックの足音を置き換える",
+    "command_translation.tag.block.minecraft.invalid_spawn_inside": "内部にスポーンできないブロック",
+    "command_translation.tag.block.minecraft.iron_ores": "鉄鉱石",
+    "command_translation.tag.block.minecraft.jungle_logs": "ジャングルの原木",
+    "command_translation.tag.block.minecraft.lapis_ores": "ラピスラズリ鉱石",
+    "command_translation.tag.block.minecraft.lava_pool_stone_cannot_replace": "溶岩池の石が置換できないブロック",
+    "command_translation.tag.block.minecraft.leaves": "葉",
+    "command_translation.tag.block.minecraft.logs": "原木",
+    "command_translation.tag.block.minecraft.logs_that_burn": "燃える原木",
+    "command_translation.tag.block.minecraft.lush_ground_replaceable": "繁茂した地面が置換できるブロック",
+    "command_translation.tag.block.minecraft.maintains_farmland": "耕地を維持するブロック",
+    "command_translation.tag.block.minecraft.mangrove_logs": "マングローブの原木",
+    "command_translation.tag.block.minecraft.mangrove_logs_can_grow_through": "マングローブの原木が貫通できるブロック",
+    "command_translation.tag.block.minecraft.mangrove_roots_can_grow_through": "マングローブの根が貫通できるブロック",
+    "command_translation.tag.block.minecraft.mineable.axe": "斧で速く採掘できるブロック",
+    "command_translation.tag.block.minecraft.mineable.hoe": "クワで速く採掘できるブロック",
+    "command_translation.tag.block.minecraft.mineable.pickaxe": "ツルハシで速く採掘できるブロック",
+    "command_translation.tag.block.minecraft.mineable.shovel": "シャベルで速く採掘できるブロック",
+    "command_translation.tag.block.minecraft.mooshrooms_spawnable_on": "ムーシュルームがスポーンできるブロック",
+    "command_translation.tag.block.minecraft.moss_replaceable": "苔が置換できるブロック",
+    "command_translation.tag.block.minecraft.mushroom_grow_block": "キノコが明るさを無視できるブロック",
+    "command_translation.tag.block.minecraft.needs_diamond_tool": "ダイヤの道具以上が必要",
+    "command_translation.tag.block.minecraft.needs_iron_tool": "鉄の道具以上が必要",
+    "command_translation.tag.block.minecraft.needs_stone_tool": "石の道具以上が必要",
+    "command_translation.tag.block.minecraft.nether_carver_replaceables": "ネザーの洞窟生成が置換できるブロック",
+    "command_translation.tag.block.minecraft.nylium": "ナイリウム",
+    "command_translation.tag.block.minecraft.oak_logs": "オークの原木",
+    "command_translation.tag.block.minecraft.occludes_vibration_signals": "振動信号を遮るブロック",
+    "command_translation.tag.block.minecraft.overworld_carver_replaceables": "オーバーワールドの洞窟生成が置換できるブロック",
+    "command_translation.tag.block.minecraft.overworld_natural_logs": "オーバーワールドの自然原木",
+    "command_translation.tag.block.minecraft.parrots_spawnable_on": "オウムがスポーンできるブロック",
+    "command_translation.tag.block.minecraft.piglin_repellents": "ピグリンを遠ざけるブロック",
+    "command_translation.tag.block.minecraft.planks": "板材",
+    "command_translation.tag.block.minecraft.polar_bears_spawnable_on_alternate": "シロクマの代替スポーンブロック",
+    "command_translation.tag.block.minecraft.portals": "ポータルブロック",
+    "command_translation.tag.block.minecraft.pressure_plates": "感圧板",
+    "command_translation.tag.block.minecraft.prevent_mob_spawning_inside": "内部のモブスポーンを防ぐブロック",
+    "command_translation.tag.block.minecraft.rabbits_spawnable_on": "ウサギがスポーンできるブロック",
+    "command_translation.tag.block.minecraft.rails": "レール",
+    "command_translation.tag.block.minecraft.redstone_ores": "レッドストーン鉱石",
+    "command_translation.tag.block.minecraft.replaceable": "置換可能なブロック",
+    "command_translation.tag.block.minecraft.replaceable_by_trees": "木が置換できるブロック",
+    "command_translation.tag.block.minecraft.sand": "砂ブロック",
+    "command_translation.tag.block.minecraft.saplings": "苗木",
+    "command_translation.tag.block.minecraft.sculk_replaceable": "スカルクが置換できるブロック",
+    "command_translation.tag.block.minecraft.sculk_replaceable_world_gen": "ワールド生成時にスカルクが置換するブロック",
+    "command_translation.tag.block.minecraft.shulker_boxes": "シュルカーボックス",
+    "command_translation.tag.block.minecraft.signs": "看板",
+    "command_translation.tag.block.minecraft.slabs": "ハーフブロック",
+    "command_translation.tag.block.minecraft.small_dripleaf_placeable": "コオオバコを設置できるブロック",
+    "command_translation.tag.block.minecraft.small_flowers": "小さな花",
+    "command_translation.tag.block.minecraft.smelts_to_glass": "ガラスに精錬できるブロック",
+    "command_translation.tag.block.minecraft.snaps_goat_horn": "ヤギが角を落とすブロック",
+    "command_translation.tag.block.minecraft.sniffer_diggable_block": "スニッファーが掘れるブロック",
+    "command_translation.tag.block.minecraft.sniffer_egg_hatch_boost": "スニッファーの卵の孵化を早めるブロック",
+    "command_translation.tag.block.minecraft.snow": "雪ブロック",
+    "command_translation.tag.block.minecraft.snow_layer_can_survive_on": "雪の層が残れるブロック",
+    "command_translation.tag.block.minecraft.snow_layer_cannot_survive_on": "雪の層が残れないブロック",
+    "command_translation.tag.block.minecraft.soul_fire_base_blocks": "ソウルファイアを支えるブロック",
+    "command_translation.tag.block.minecraft.soul_speed_blocks": "ソウルスピードで加速するブロック",
+    "command_translation.tag.block.minecraft.spruce_logs": "トウヒの原木",
+    "command_translation.tag.block.minecraft.stairs": "階段",
+    "command_translation.tag.block.minecraft.standing_signs": "立て看板",
+    "command_translation.tag.block.minecraft.stone_bricks": "石レンガ",
+    "command_translation.tag.block.minecraft.stone_buttons": "石のボタン",
+    "command_translation.tag.block.minecraft.stone_ore_replaceables": "石鉱石が置換できるブロック",
+    "command_translation.tag.block.minecraft.stone_pressure_plates": "石の感圧板",
+    "command_translation.tag.block.minecraft.strider_warm_blocks": "ストライダーを暖めるブロック",
+    "command_translation.tag.block.minecraft.sword_efficient": "剣で速く壊せるブロック",
+    "command_translation.tag.block.minecraft.tall_flowers": "背の高い花",
+    "command_translation.tag.block.minecraft.terracotta": "テラコッタ",
+    "command_translation.tag.block.minecraft.trail_ruins_replaceable": "遺跡の道で置換可能なブロック",
+    "command_translation.tag.block.minecraft.trapdoors": "トラップドア",
+    "command_translation.tag.block.minecraft.underwater_bonemeals": "水中の骨粉で広がるブロック",
+    "command_translation.tag.block.minecraft.unstable_bottom_center": "下にランタンや鐘を吊れないブロック",
+    "command_translation.tag.block.minecraft.valid_spawn": "有効なスポーンブロック（未使用）",
+    "command_translation.tag.block.minecraft.vibration_resonators": "振動を受けて共鳴するブロック",
+    "command_translation.tag.block.minecraft.wall_corals": "壁のサンゴ",
+    "command_translation.tag.block.minecraft.wall_hanging_signs": "壁の吊り看板",
+    "command_translation.tag.block.minecraft.wall_post_override": "壁の柱を強制するブロック",
+    "command_translation.tag.block.minecraft.wall_signs": "壁の看板",
+    "command_translation.tag.block.minecraft.walls": "壁",
+    "command_translation.tag.block.minecraft.warped_stems": "歪んだ幹",
+    "command_translation.tag.block.minecraft.wart_blocks": "イボブロック",
+    "command_translation.tag.block.minecraft.wither_immune": "ウィザーが破壊できないブロック",
+    "command_translation.tag.block.minecraft.wither_summon_base_blocks": "ウィザーの召喚に使えるブロック",
+    "command_translation.tag.block.minecraft.wolves_spawnable_on": "オオカミがスポーンできるブロック",
+    "command_translation.tag.block.minecraft.wooden_buttons": "木のボタン",
+    "command_translation.tag.block.minecraft.wooden_doors": "木のドア",
+    "command_translation.tag.block.minecraft.wooden_fences": "木のフェンス",
+    "command_translation.tag.block.minecraft.wooden_pressure_plates": "木の感圧板",
+    "command_translation.tag.block.minecraft.wooden_slabs": "木のハーフブロック",
+    "command_translation.tag.block.minecraft.wooden_stairs": "木の階段",
+    "command_translation.tag.block.minecraft.wooden_trapdoors": "木のトラップドア",
+    "command_translation.tag.block.minecraft.wool": "羊毛",
+    "command_translation.tag.block.minecraft.wool_carpets": "カーペット",
+    "command_translation.tag.block.minecraft.air": "空気ブロック",
+    "command_translation.tag.block.minecraft.armadillo_spawnable_on": "アルマジロがスポーンできるブロック",
+    "command_translation.tag.block.minecraft.badlands_terracotta": "荒野のテラコッタ",
+    "command_translation.tag.block.minecraft.blocks_wind_charge_explosions": "ウィンドチャージの爆発を遮るブロック",
+    "command_translation.tag.block.minecraft.camel_sand_step_sound_blocks": "ラクダの砂足音ブロック",
+    "command_translation.tag.block.minecraft.concrete_powder": "コンクリートパウダー",
+    "command_translation.tag.block.minecraft.does_not_block_hoppers": "ホッパーを妨げないブロック",
+    "command_translation.tag.block.minecraft.incorrect_for_diamond_tool": "ダイヤの道具が不適切なブロック",
+    "command_translation.tag.block.minecraft.incorrect_for_gold_tool": "金の道具が不適切なブロック",
+    "command_translation.tag.block.minecraft.incorrect_for_iron_tool": "鉄の道具が不適切なブロック",
+    "command_translation.tag.block.minecraft.incorrect_for_netherite_tool": "ネザライトの道具が不適切なブロック",
+    "command_translation.tag.block.minecraft.incorrect_for_stone_tool": "石の道具が不適切なブロック",
+    "command_translation.tag.block.minecraft.incorrect_for_wooden_tool": "木の道具が不適切なブロック",
+    "command_translation.tag.block.minecraft.mob_interactable_doors": "モブが操作できるドア",
+    "command_translation.tag.block.minecraft.bars": "柵",
+    "command_translation.tag.block.minecraft.bats_spawnable_on": "コウモリがスポーンできるブロック",
+    "command_translation.tag.block.minecraft.bee_attractive": "ミツバチを引き寄せるブロック",
+    "command_translation.tag.block.minecraft.beneath_bamboo_podzol_replaceable": "竹下のポドゾルが置換するブロック",
+    "command_translation.tag.block.minecraft.beneath_tree_podzol_replaceable": "木下のポドゾルが置換するブロック",
+    "command_translation.tag.block.minecraft.camels_spawnable_on": "ラクダがスポーンできるブロック",
+    "command_translation.tag.block.minecraft.can_glide_through": "エリトラで滑空して通れるブロック",
+    "command_translation.tag.block.minecraft.cannot_replace_below_tree_trunk": "幹の下で置換されないブロック",
+    "command_translation.tag.block.minecraft.cannot_support_kelp": "コンブが育たないブロック",
+    "command_translation.tag.block.minecraft.cannot_support_seagrass": "海草が育たないブロック",
+    "command_translation.tag.block.minecraft.cannot_support_snow_layer": "雪の層を支えられないブロック",
+    "command_translation.tag.block.minecraft.chains": "鎖",
+    "command_translation.tag.block.minecraft.copper": "銅ブロック",
+    "command_translation.tag.block.minecraft.copper_chests": "銅のチェスト",
+    "command_translation.tag.block.minecraft.copper_golem_statues": "銅ゴーレム像",
+    "command_translation.tag.block.minecraft.edible_for_sheep": "ヒツジが食べられるブロック",
+    "command_translation.tag.block.minecraft.enables_bubble_column_drag_down": "下向きの泡柱を可能にするブロック",
+    "command_translation.tag.block.minecraft.enables_bubble_column_push_up": "上向きの泡柱を可能にするブロック",
+    "command_translation.tag.block.minecraft.forest_rock_can_place_on": "森の岩を設置できるブロック",
+    "command_translation.tag.block.minecraft.grass_blocks": "草ブロック",
+    "command_translation.tag.block.minecraft.grows_crops": "作物が育つブロック",
+    "command_translation.tag.block.minecraft.happy_ghast_avoids": "ハッピーガストが避けるブロック",
+    "command_translation.tag.block.minecraft.huge_brown_mushroom_can_place_on": "巨大な茶色のキノコを設置できるブロック",
+    "command_translation.tag.block.minecraft.huge_red_mushroom_can_place_on": "巨大な赤いキノコを設置できるブロック",
+    "command_translation.tag.block.minecraft.ice_spike_replaceable": "氷柱が置換できるブロック",
+    "command_translation.tag.block.minecraft.incorrect_for_copper_tool": "銅の道具が不適切なブロック",
+    "command_translation.tag.block.minecraft.lanterns": "ランタン",
+    "command_translation.tag.block.minecraft.lightning_rods": "避雷針",
+    "command_translation.tag.block.minecraft.moss_blocks": "苔ブロック",
+    "command_translation.tag.block.minecraft.mud": "泥ブロック",
+    "command_translation.tag.block.minecraft.overrides_mushroom_light_requirement": "キノコが明るさを無視できるブロック",
+    "command_translation.tag.block.minecraft.pale_oak_logs": "ペイルオークの原木",
+    "command_translation.tag.block.minecraft.prevents_nearby_leaf_decay": "近くの葉の消滅を防ぐブロック",
+    "command_translation.tag.block.minecraft.replaceable_by_mushrooms": "キノコの成長が置換できるブロック",
+    "command_translation.tag.block.minecraft.substrate_overworld": "オーバーワールドの基盤ブロック",
+    "command_translation.tag.block.minecraft.support_override_cactus_flower": "サボテンの花を支える特別なブロック",
+    "command_translation.tag.block.minecraft.support_override_snow_layer": "形状に関わらず雪を支えるブロック",
+    "command_translation.tag.block.minecraft.supports_azalea": "ツツジを設置できるブロック",
+    "command_translation.tag.block.minecraft.supports_bamboo": "竹を植えられるブロック",
+    "command_translation.tag.block.minecraft.supports_big_dripleaf": "オオオオバコを設置できるブロック",
+    "command_translation.tag.block.minecraft.supports_cactus": "サボテンを設置できるブロック",
+    "command_translation.tag.block.minecraft.supports_chorus_flower": "コーラスフラワーを設置できるブロック",
+    "command_translation.tag.block.minecraft.supports_chorus_plant": "コーラスプラントを設置できるブロック",
+    "command_translation.tag.block.minecraft.supports_cocoa": "カカオを設置できるブロック",
+    "command_translation.tag.block.minecraft.supports_crimson_fungus": "真紅のキノコを設置できるブロック",
+    "command_translation.tag.block.minecraft.supports_crimson_roots": "真紅の根を設置できるブロック",
+    "command_translation.tag.block.minecraft.supports_crops": "作物を植えられるブロック",
+    "command_translation.tag.block.minecraft.supports_dry_vegetation": "乾いた植物を設置できるブロック",
+    "command_translation.tag.block.minecraft.supports_frogspawn": "カエルの卵を設置できるブロック",
+    "command_translation.tag.block.minecraft.supports_hanging_mangrove_propagule": "マングローブの芽を吊り下げられるブロック",
+    "command_translation.tag.block.minecraft.supports_lily_pad": "スイレンを設置できるブロック",
+    "command_translation.tag.block.minecraft.supports_mangrove_propagule": "マングローブの芽を設置できるブロック",
+    "command_translation.tag.block.minecraft.supports_melon_stem": "スイカの茎を植えられるブロック",
+    "command_translation.tag.block.minecraft.supports_melon_stem_fruit": "スイカの実が育つブロック",
+    "command_translation.tag.block.minecraft.supports_nether_sprouts": "ネザースプラウトを設置できるブロック",
+    "command_translation.tag.block.minecraft.supports_nether_wart": "ネザーウォートを設置できるブロック",
+    "command_translation.tag.block.minecraft.supports_pumpkin_stem": "カボチャの茎を植えられるブロック",
+    "command_translation.tag.block.minecraft.supports_pumpkin_stem_fruit": "カボチャの実が育つブロック",
+    "command_translation.tag.block.minecraft.supports_small_dripleaf": "コオオバコを設置できるブロック",
+    "command_translation.tag.block.minecraft.supports_stem_crops": "茎作物を植えられるブロック",
+    "command_translation.tag.block.minecraft.supports_stem_fruit": "茎の実が育つブロック",
+    "command_translation.tag.block.minecraft.supports_sugar_cane": "サトウキビを設置できるブロック",
+    "command_translation.tag.block.minecraft.supports_sugar_cane_adjacently": "隣接してサトウキビが育つブロック",
+    "command_translation.tag.block.minecraft.supports_vegetation": "植物を設置できるブロック",
+    "command_translation.tag.block.minecraft.supports_warped_fungus": "歪んだキノコを設置できるブロック",
+    "command_translation.tag.block.minecraft.supports_warped_roots": "歪んだ根を設置できるブロック",
+    "command_translation.tag.block.minecraft.supports_wither_rose": "ウィザーローズを設置できるブロック",
+    "command_translation.tag.block.minecraft.sword_instantly_mines": "剣で即座に壊せるブロック",
+    "command_translation.tag.block.minecraft.triggers_ambient_desert_dry_vegetation_block_sounds": "砂漠の乾燥植物の環境音を鳴らすブロック",
+    "command_translation.tag.block.minecraft.triggers_ambient_desert_sand_block_sounds": "砂漠の砂の環境音を鳴らすブロック",
+    "command_translation.tag.block.minecraft.triggers_ambient_dried_ghast_block_sounds": "乾燥ガストの環境音を鳴らすブロック",
+    "command_translation.tag.block.minecraft.wooden_shelves": "木の棚",
+    "command_translation.tag.block.minecraft.causes_continuous_geyser_eruptions": "継続的な間欠泉噴出を起こすブロック",
+    "command_translation.tag.block.minecraft.causes_periodic_geyser_eruptions": "周期的な間欠泉噴出を起こすブロック",
+    "command_translation.tag.block.minecraft.concrete": "コンクリート",
+    "command_translation.tag.block.minecraft.concrete_powders": "コンクリートパウダー",
+    "command_translation.tag.block.minecraft.fox_immune_to": "キツネがスポーン・降車時に危険と見なさないブロック",
+    "command_translation.tag.block.minecraft.glazed_terracotta": "彩釉テラコッタ",
+    "command_translation.tag.block.minecraft.polar_bear_immune_to": "シロクマがスポーン・降車時に危険と見なさないブロック",
+    "command_translation.tag.block.minecraft.shears_extreme_breaking_speed": "ハサミで非常に速く壊せるブロック",
+    "command_translation.tag.block.minecraft.shears_major_breaking_speed": "ハサミでかなり速く壊せるブロック",
+    "command_translation.tag.block.minecraft.shears_minor_breaking_speed": "ハサミで少し速く壊せるブロック",
+    "command_translation.tag.block.minecraft.snow_golem_immune_to": "スノーゴーレムがスポーン・降車時に危険と見なさないブロック",
+    "command_translation.tag.block.minecraft.speleothems": "洞穴生成物",
+    "command_translation.tag.block.minecraft.stray_immune_to": "ストレイがスポーン・降車時に危険と見なさないブロック",
+    "command_translation.tag.block.minecraft.sulfur_spike_replaceable_blocks": "硫黄の棘が置換できるブロック",
+    "command_translation.tag.block.minecraft.suppresses_bounce": "跳ね返りを打ち消すブロック",
+    "command_translation.tag.block.minecraft.wither_immune_to": "ウィザーがスポーン・降車時に危険と見なさないブロック",
+    "command_translation.tag.block.minecraft.wither_skeleton_immune_to": "ウィザースケルトンがスポーン・降車時に危険と見なさないブロック",
+    "command_translation.tag.block.minecraft.default_immune_to": "Mobが標準でスポーン・降車時に危険と見なさないブロック"
+  },
+  "sources": {
+    "command_translation.tag.block.minecraft.acacia_logs": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.all_hanging_signs": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.all_signs": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.ancient_city_replaceable": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.animals_spawnable_on": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.anvil": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.axolotls_spawnable_on": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.azalea_grows_on": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.azalea_root_replaceable": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.bamboo_blocks": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.bamboo_plantable_on": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.banners": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.base_stone_nether": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.base_stone_overworld": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.beacon_base_blocks": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.beds": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.bee_growables": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.beehives": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.big_dripleaf_placeable": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.birch_logs": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.buttons": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.campfires": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.candle_cakes": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.candles": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.cauldrons": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.cave_vines": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.ceiling_hanging_signs": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.cherry_logs": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.climbable": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.coal_ores": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.combination_step_sound_blocks": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.completes_find_tree_tutorial": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.convertable_to_mud": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.copper_ores": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.coral_blocks": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.coral_plants": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.corals": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.crimson_stems": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.crops": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.crystal_sound_blocks": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.dampens_vibrations": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.dark_oak_logs": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.dead_bush_may_place_on": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.deepslate_ore_replaceables": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.diamond_ores": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.dirt": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.doors": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.dragon_immune": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.dragon_transparent": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.dripstone_replaceable_blocks": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.emerald_ores": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.enchantment_power_provider": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.enchantment_power_transmitter": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.enderman_holdable": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.fall_damage_resetting": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.features_cannot_replace": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.fence_gates": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.fences": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.fire": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.flower_pots": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.flowers": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.foxes_spawnable_on": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.frog_prefer_jump_to": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.frogs_spawnable_on": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.geode_invalid_blocks": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.goats_spawnable_on": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.gold_ores": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.guarded_by_piglins": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.hoglin_repellents": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.ice": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.impermeable": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.infiniburn_end": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.infiniburn_nether": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.infiniburn_overworld": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.inside_step_sound_blocks": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.invalid_spawn_inside": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.iron_ores": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.jungle_logs": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.lapis_ores": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.lava_pool_stone_cannot_replace": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.leaves": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.logs": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.logs_that_burn": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.lush_ground_replaceable": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.maintains_farmland": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.mangrove_logs": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.mangrove_logs_can_grow_through": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.mangrove_roots_can_grow_through": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.mineable.axe": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.mineable.hoe": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.mineable.pickaxe": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.mineable.shovel": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.mooshrooms_spawnable_on": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.moss_replaceable": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.mushroom_grow_block": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.needs_diamond_tool": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.needs_iron_tool": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.needs_stone_tool": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.nether_carver_replaceables": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.nylium": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.oak_logs": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.occludes_vibration_signals": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.overworld_carver_replaceables": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.overworld_natural_logs": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.parrots_spawnable_on": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.piglin_repellents": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.planks": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.polar_bears_spawnable_on_alternate": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.portals": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.pressure_plates": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.prevent_mob_spawning_inside": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.rabbits_spawnable_on": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.rails": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.redstone_ores": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.replaceable": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.replaceable_by_trees": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.sand": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.saplings": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.sculk_replaceable": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.sculk_replaceable_world_gen": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.shulker_boxes": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.signs": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.slabs": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.small_dripleaf_placeable": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.small_flowers": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.smelts_to_glass": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.snaps_goat_horn": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.sniffer_diggable_block": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.sniffer_egg_hatch_boost": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.snow": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.snow_layer_can_survive_on": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.snow_layer_cannot_survive_on": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.soul_fire_base_blocks": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.soul_speed_blocks": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.spruce_logs": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.stairs": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.standing_signs": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.stone_bricks": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.stone_buttons": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.stone_ore_replaceables": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.stone_pressure_plates": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.strider_warm_blocks": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.sword_efficient": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.tall_flowers": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.terracotta": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.trail_ruins_replaceable": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.trapdoors": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.underwater_bonemeals": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.unstable_bottom_center": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.valid_spawn": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.vibration_resonators": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.wall_corals": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.wall_hanging_signs": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.wall_post_override": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.wall_signs": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.walls": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.warped_stems": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.wart_blocks": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.wither_immune": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.wither_summon_base_blocks": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.wolves_spawnable_on": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.wooden_buttons": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.wooden_doors": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.wooden_fences": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.wooden_pressure_plates": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.wooden_slabs": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.wooden_stairs": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.wooden_trapdoors": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.wool": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.wool_carpets": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.air": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.armadillo_spawnable_on": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.badlands_terracotta": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.blocks_wind_charge_explosions": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.camel_sand_step_sound_blocks": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.concrete_powder": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.does_not_block_hoppers": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.incorrect_for_diamond_tool": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.incorrect_for_gold_tool": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.incorrect_for_iron_tool": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.incorrect_for_netherite_tool": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.incorrect_for_stone_tool": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.incorrect_for_wooden_tool": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.mob_interactable_doors": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.bars": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.bats_spawnable_on": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.bee_attractive": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.beneath_bamboo_podzol_replaceable": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.beneath_tree_podzol_replaceable": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.camels_spawnable_on": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.can_glide_through": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.cannot_replace_below_tree_trunk": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.cannot_support_kelp": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.cannot_support_seagrass": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.cannot_support_snow_layer": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.chains": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.copper": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.copper_chests": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.copper_golem_statues": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.edible_for_sheep": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.enables_bubble_column_drag_down": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.enables_bubble_column_push_up": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.forest_rock_can_place_on": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.grass_blocks": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.grows_crops": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.happy_ghast_avoids": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.huge_brown_mushroom_can_place_on": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.huge_red_mushroom_can_place_on": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.ice_spike_replaceable": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.incorrect_for_copper_tool": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.lanterns": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.lightning_rods": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.moss_blocks": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.mud": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.overrides_mushroom_light_requirement": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.pale_oak_logs": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.prevents_nearby_leaf_decay": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.replaceable_by_mushrooms": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.substrate_overworld": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.support_override_cactus_flower": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      },
+      {
+        "url": "https://minecraft.wiki/w/Cactus_Flower",
+        "revision": 3777537
+      }
+    ],
+    "command_translation.tag.block.minecraft.support_override_snow_layer": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.supports_azalea": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.supports_bamboo": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.supports_big_dripleaf": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.supports_cactus": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.supports_chorus_flower": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.supports_chorus_plant": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.supports_cocoa": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.supports_crimson_fungus": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.supports_crimson_roots": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.supports_crops": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.supports_dry_vegetation": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.supports_frogspawn": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.supports_hanging_mangrove_propagule": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.supports_lily_pad": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.supports_mangrove_propagule": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.supports_melon_stem": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.supports_melon_stem_fruit": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.supports_nether_sprouts": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.supports_nether_wart": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.supports_pumpkin_stem": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.supports_pumpkin_stem_fruit": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.supports_small_dripleaf": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.supports_stem_crops": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.supports_stem_fruit": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.supports_sugar_cane": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.supports_sugar_cane_adjacently": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.supports_vegetation": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.supports_warped_fungus": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.supports_warped_roots": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.supports_wither_rose": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.sword_instantly_mines": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.triggers_ambient_desert_dry_vegetation_block_sounds": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.triggers_ambient_desert_sand_block_sounds": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.triggers_ambient_dried_ghast_block_sounds": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.wooden_shelves": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.causes_continuous_geyser_eruptions": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.causes_periodic_geyser_eruptions": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.concrete": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.concrete_powders": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.fox_immune_to": [
+      {
+        "url": "https://minecraft.wiki/w/Block_tag_(Java_Edition)",
+        "revision": 3843013
+      },
+      {
+        "url": "https://minecraft.wiki/w/Java_Edition_26.2_Snapshot_5",
+        "revision": 3802433
+      }
+    ],
+    "command_translation.tag.block.minecraft.glazed_terracotta": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.polar_bear_immune_to": [
+      {
+        "url": "https://minecraft.wiki/w/Block_tag_(Java_Edition)",
+        "revision": 3843013
+      },
+      {
+        "url": "https://minecraft.wiki/w/Java_Edition_26.2_Snapshot_5",
+        "revision": 3802433
+      }
+    ],
+    "command_translation.tag.block.minecraft.shears_extreme_breaking_speed": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.shears_major_breaking_speed": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.shears_minor_breaking_speed": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.snow_golem_immune_to": [
+      {
+        "url": "https://minecraft.wiki/w/Block_tag_(Java_Edition)",
+        "revision": 3843013
+      },
+      {
+        "url": "https://minecraft.wiki/w/Java_Edition_26.2_Snapshot_5",
+        "revision": 3802433
+      }
+    ],
+    "command_translation.tag.block.minecraft.speleothems": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.stray_immune_to": [
+      {
+        "url": "https://minecraft.wiki/w/Block_tag_(Java_Edition)",
+        "revision": 3843013
+      },
+      {
+        "url": "https://minecraft.wiki/w/Java_Edition_26.2_Snapshot_5",
+        "revision": 3802433
+      }
+    ],
+    "command_translation.tag.block.minecraft.sulfur_spike_replaceable_blocks": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.suppresses_bounce": [
+      {
+        "url": "https://minecraft.wiki/w/Block%20tag%20(Java%20Edition)",
+        "revision": 3843013
+      }
+    ],
+    "command_translation.tag.block.minecraft.wither_immune_to": [
+      {
+        "url": "https://minecraft.wiki/w/Block_tag_(Java_Edition)",
+        "revision": 3843013
+      },
+      {
+        "url": "https://minecraft.wiki/w/Java_Edition_26.2_Snapshot_5",
+        "revision": 3802433
+      }
+    ],
+    "command_translation.tag.block.minecraft.wither_skeleton_immune_to": [
+      {
+        "url": "https://minecraft.wiki/w/Block_tag_(Java_Edition)",
+        "revision": 3843013
+      },
+      {
+        "url": "https://minecraft.wiki/w/Java_Edition_26.2_Snapshot_5",
+        "revision": 3802433
+      }
+    ],
+    "command_translation.tag.block.minecraft.default_immune_to": [
+      {
+        "url": "https://minecraft.wiki/w/Block_tag_(Java_Edition)",
+        "revision": 3843013
+      },
+      {
+        "url": "https://minecraft.wiki/w/Java_Edition_26.2_Snapshot_5",
+        "revision": 3802433
+      }
+    ]
+  }
+}

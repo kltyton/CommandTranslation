@@ -1,0 +1,124 @@
+{
+  "en_us": {
+    "command_translation.help.argument.trigger.objective": "A trigger-criterion objective enabled for the player; writing it alone adds 1 to the score.",
+    "command_translation.help.argument.trigger.add": "Adds the value to the player's current score instead of replacing it.",
+    "command_translation.help.argument.trigger.set": "Sets the player's score to the value, replacing the old one.",
+    "command_translation.help.argument.trigger.value": "The integer to set the score to or add; after a successful use the objective becomes disabled for that player."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.trigger.objective": "已为该玩家启用的 trigger 准则目标；只写目标时给分数加 1。",
+    "command_translation.help.argument.trigger.add": "把数值加到玩家当前分数上，而非覆盖。",
+    "command_translation.help.argument.trigger.set": "把玩家分数设为该数值，覆盖旧值。",
+    "command_translation.help.argument.trigger.value": "要设为或加到分数的整数；成功后该目标对该玩家重新变为未启用。"
+  },
+  "sources": {
+    "command_translation.help.argument.trigger.objective": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftrigger",
+        "revision": 3522153
+      }
+    ],
+    "command_translation.help.argument.trigger.add": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftrigger",
+        "revision": 3522153
+      }
+    ],
+    "command_translation.help.argument.trigger.set": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftrigger",
+        "revision": 3522153
+      }
+    ],
+    "command_translation.help.argument.trigger.value": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftrigger",
+        "revision": 3522153
+      }
+    ]
+  },
+  "bindings": {
+    "trigger.objective": "command_translation.help.argument.trigger.objective",
+    "trigger.objective.add": "command_translation.help.argument.trigger.add",
+    "trigger.objective.add.value": "command_translation.help.argument.trigger.value",
+    "trigger.objective.set": "command_translation.help.argument.trigger.set",
+    "trigger.objective.set.value": "command_translation.help.argument.trigger.value"
+  },
+  "de_de": {
+    "command_translation.help.argument.trigger.objective": "Ein für den Spieler aktiviertes Ziel mit dem Kriterium trigger; allein angegeben fügt es dem Wert 1 hinzu.",
+    "command_translation.help.argument.trigger.add": "Addiert den Wert zum aktuellen Punktestand, statt ihn zu ersetzen.",
+    "command_translation.help.argument.trigger.set": "Setzt den Punktestand auf den Wert und ersetzt den alten.",
+    "command_translation.help.argument.trigger.value": "Die ganze Zahl zum Setzen oder Addieren; nach Erfolg wird das Ziel für den Spieler wieder deaktiviert."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.trigger.objective": "そのプレイヤーに有効化された trigger 基準の目標。これだけ書くとスコアに 1 を加える。",
+    "command_translation.help.argument.trigger.add": "値を現在のスコアに加える（置き換えではない）。",
+    "command_translation.help.argument.trigger.set": "プレイヤーのスコアを値に設定し、旧値を置き換える。",
+    "command_translation.help.argument.trigger.value": "スコアに設定または加算する整数。成功後、その目標はそのプレイヤーにとって再び無効になる。"
+  },
+  "syntax": [
+    {
+      "path": "trigger",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "trigger.objective",
+      "type": "argument",
+      "parser": "minecraft:objective",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "trigger.objective.add",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "trigger.objective.add.value",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "trigger.objective.set",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "trigger.objective.set.value",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

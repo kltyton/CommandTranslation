@@ -1,0 +1,37 @@
+{
+  "en_us": {
+    "command_translation.help.argument.tm.message": "The team-only chat message."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.tm.message": "仅队伍可见的聊天消息。"
+  },
+  "sources": {
+    "command_translation.help.argument.tm.message": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteammsg",
+        "revision": 3835291
+      }
+    ]
+  },
+  "bindings": {
+    "tm.message": "command_translation.help.argument.tm.message"
+  },
+  "de_de": {
+    "command_translation.help.argument.tm.message": "Die nur für das Team sichtbare Chatnachricht."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.tm.message": "チーム内だけに見えるチャットメッセージ。"
+  },
+  "syntax": [
+    {
+      "path": "tm",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:tool": "Defines block mining speeds and which blocks count as correctly harvested.",
+    "command_translation.help.component.minecraft:tool.field.default_mining_speed": "The default mining speed, used when no rule overrides it.",
+    "command_translation.help.component.minecraft:tool.field.damage_per_block": "The durability removed each time a block is broken.",
+    "command_translation.help.component.minecraft:tool.field.can_destroy_blocks_in_creative": "Whether the tool can break blocks in Creative mode.",
+    "command_translation.help.component.minecraft:tool.field.rules": "The rules giving this tool special behavior with matching blocks.",
+    "command_translation.help.component.minecraft:tool.field.rules.blocks": "The block ID, #tag, or list of block IDs to match.",
+    "command_translation.help.component.minecraft:tool.field.rules.speed": "The mining speed override for matching blocks.",
+    "command_translation.help.component.minecraft:tool.field.rules.correct_for_drops": "Whether this tool qualifies for the block’s required-tool drops."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:tool": "规定方块的挖掘速度与正确工具判定。",
+    "command_translation.help.component.minecraft:tool.field.default_mining_speed": "默认挖掘速度，在没有规则覆盖时使用。",
+    "command_translation.help.component.minecraft:tool.field.damage_per_block": "每次破坏方块移除的耐久值。",
+    "command_translation.help.component.minecraft:tool.field.can_destroy_blocks_in_creative": "创造模式下该工具能否破坏方块。",
+    "command_translation.help.component.minecraft:tool.field.rules": "为该工具赋予特殊方块行为的规则列表。",
+    "command_translation.help.component.minecraft:tool.field.rules.blocks": "要匹配的方块 ID、#标签或方块 ID 列表。",
+    "command_translation.help.component.minecraft:tool.field.rules.speed": "匹配方块时的挖掘速度覆盖值。",
+    "command_translation.help.component.minecraft:tool.field.rules.correct_for_drops": "能否以正确工具采集该方块的掉落物。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:tool": "Bestimmt Abbaugeschwindigkeiten und korrekt abbaubare Blöcke.",
+    "command_translation.help.component.minecraft:tool.field.default_mining_speed": "Die Standard-Abbauegeschwindigkeit, wenn keine Regel sie überschreibt.",
+    "command_translation.help.component.minecraft:tool.field.damage_per_block": "Die Haltbarkeit, die pro abgebautem Block abgezogen wird.",
+    "command_translation.help.component.minecraft:tool.field.can_destroy_blocks_in_creative": "Ob das Werkzeug im Kreativmodus Blöcke abbauen kann.",
+    "command_translation.help.component.minecraft:tool.field.rules": "Die Regeln, die diesem Werkzeug ein spezielles Verhalten für passende Blöcke geben.",
+    "command_translation.help.component.minecraft:tool.field.rules.blocks": "Die Block-ID, das #Tag oder die Liste von Block-IDs, die übereinstimmen sollen.",
+    "command_translation.help.component.minecraft:tool.field.rules.speed": "Die Überschreibung der Abbauegeschwindigkeit für passende Blöcke.",
+    "command_translation.help.component.minecraft:tool.field.rules.correct_for_drops": "Ob das Werkzeug die Werkzeuganforderung für Blockdrops erfüllt."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:tool": "ブロックの採掘速度と適正ツールの判定を定める。",
+    "command_translation.help.component.minecraft:tool.field.default_mining_speed": "規則で上書きされない場合に使う既定の採掘速度。",
+    "command_translation.help.component.minecraft:tool.field.damage_per_block": "ブロックを1つ壊すごとに減る耐久値。",
+    "command_translation.help.component.minecraft:tool.field.can_destroy_blocks_in_creative": "クリエイティブモードでこのツールがブロックを壊せるか。",
+    "command_translation.help.component.minecraft:tool.field.rules": "一致するブロックで特別な挙動を与える規則の一覧。",
+    "command_translation.help.component.minecraft:tool.field.rules.blocks": "一致させるブロックID、#タグ、またはブロックIDのリスト。",
+    "command_translation.help.component.minecraft:tool.field.rules.speed": "一致するブロックでの採掘速度の上書き値。",
+    "command_translation.help.component.minecraft:tool.field.rules.correct_for_drops": "そのブロックのドロップに必要な適正ツールとして扱うか。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:tool": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:tool.field.default_mining_speed": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:tool.field.damage_per_block": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:tool.field.can_destroy_blocks_in_creative": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:tool.field.rules": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:tool.field.rules.blocks": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:tool.field.rules.speed": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:tool.field.rules.correct_for_drops": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

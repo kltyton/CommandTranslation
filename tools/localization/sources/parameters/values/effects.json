@@ -1,0 +1,413 @@
+{
+  "en_us": {
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:speed": "Faster movement on land.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:slowness": "Slower movement on land.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:haste": "Faster mining and attacks.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:mining_fatigue": "Slower mining and attacks.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:strength": "More melee damage.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:instant_health": "Immediate healing; damages undead instead.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:instant_damage": "Immediate damage; heals undead instead.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:jump_boost": "Higher jumps and less fall damage.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:nausea": "Distorts the screen.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:regeneration": "Gradual healing.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:resistance": "Less incoming damage.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:fire_resistance": "Protection from fire and lava damage.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:water_breathing": "Prevents drowning underwater.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:invisibility": "Hides the entity, not held items or armor.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:blindness": "Near-black fog; prevents sprinting and critical hits.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:night_vision": "Clearer vision in darkness and underwater.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:hunger": "Faster food exhaustion.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:weakness": "Less melee damage.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:poison": "Gradual damage, stopping at 1 health point.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:wither": "Gradual damage that can kill.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:health_boost": "A higher health limit.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:absorption": "Extra, non-regenerating health absorbs damage.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:saturation": "Replenishes food and saturation.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:glowing": "A visible outline through blocks.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:levitation": "Lifts the entity upwards.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:luck": "Better odds of valuable fishing loot.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:unluck": "Worse odds of valuable fishing loot.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:slow_falling": "Slower falling without fall damage.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:conduit_power": "Underwater breathing, visibility and faster mining.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:dolphins_grace": "Faster swimming.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:bad_omen": "Can trigger ominous events at relevant locations.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:hero_of_the_village": "Villager trade discounts and profession-based gifts.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:darkness": "Pulsating darkening and black fog.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:trial_omen": "Turns nearby trial spawners ominous.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:raid_omen": "Starts a raid when the effect expires.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:wind_charged": "Releases a wind burst on death.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:weaving": "Less cobweb slowing; creates cobwebs on death.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:oozing": "Creates two slimes on death.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:infested": "May release silverfish when hurt.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:breath_of_the_nautilus": "Stops the oxygen bar from decreasing."
+  },
+  "zh_cn": {
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:speed": "加快陆地移动。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:slowness": "减慢陆地移动。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:haste": "加快挖掘和攻击。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:mining_fatigue": "减慢挖掘和攻击。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:strength": "提高近战伤害。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:instant_health": "立即恢复生命；对亡灵改为造成伤害。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:instant_damage": "立即造成伤害；对亡灵改为恢复生命。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:jump_boost": "跳得更高，减少摔落伤害。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:nausea": "使画面摇晃扭曲。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:regeneration": "持续恢复生命。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:resistance": "减少受到的伤害。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:fire_resistance": "免受火焰和熔岩伤害。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:water_breathing": "防止水下溺水。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:invisibility": "隐藏实体，但不隐藏手持物和盔甲。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:blindness": "近处出现黑雾，无法疾跑或打出暴击。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:night_vision": "看清黑暗和水下。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:hunger": "加快饥饿消耗。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:weakness": "降低近战伤害。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:poison": "持续扣血，最低剩余 1 点生命。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:wither": "持续扣血，能够致死。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:health_boost": "提高最大生命值。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:absorption": "获得不可再生的额外生命以吸收伤害。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:saturation": "补充饥饿值和饱和度。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:glowing": "轮廓可透过方块看见。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:levitation": "使实体向上漂浮。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:luck": "提高钓到宝藏的概率。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:unluck": "降低钓到宝藏的概率。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:slow_falling": "缓慢下落，不受摔落伤害。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:conduit_power": "水下呼吸、看清水下并加快挖掘。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:dolphins_grace": "加快游泳。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:bad_omen": "可在相应地点引发不祥事件。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:hero_of_the_village": "享受村民交易折扣和职业赠礼。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:darkness": "视野周期性变暗并出现黑雾。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:trial_omen": "使附近试炼刷怪笼变为不祥试炼刷怪笼。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:raid_omen": "效果结束时开始袭击。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:wind_charged": "死亡时释放风爆。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:weaving": "减轻蜘蛛网减速，死亡时生成蜘蛛网。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:oozing": "死亡时生成两只史莱姆。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:infested": "受伤时可能生成蠹虫。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:breath_of_the_nautilus": "阻止氧气条下降。"
+  },
+  "de_de": {
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:speed": "Schnellere Bewegung an Land.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:slowness": "Langsamere Bewegung an Land.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:haste": "Schnelleres Abbauen und Angreifen.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:mining_fatigue": "Langsameres Abbauen und Angreifen.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:strength": "Mehr Nahkampfschaden.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:instant_health": "Sofortige Heilung; schadet stattdessen Untoten.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:instant_damage": "Sofortiger Schaden; heilt stattdessen Untote.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:jump_boost": "Höhere Sprünge und weniger Fallschaden.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:nausea": "Verzerrt das Bild.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:regeneration": "Heilung mit der Zeit.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:resistance": "Verringert erlittenen Schaden.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:fire_resistance": "Schützt vor Feuer- und Lavaschaden.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:water_breathing": "Verhindert Ertrinken unter Wasser.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:invisibility": "Verbirgt die Entität, nicht gehaltene Gegenstände oder Rüstung.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:blindness": "Naher schwarzer Nebel; verhindert Sprinten und kritische Treffer.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:night_vision": "Bessere Sicht im Dunkeln und unter Wasser.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:hunger": "Erhöht die Nahrungserschöpfung.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:weakness": "Weniger Nahkampfschaden.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:poison": "Schaden mit der Zeit, bis 1 Lebenspunkt verbleibt.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:wither": "Schaden mit der Zeit, der tödlich sein kann.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:health_boost": "Erhöht die maximale Gesundheit.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:absorption": "Zusätzliche, nicht regenerierende Lebenspunkte fangen Schaden ab.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:saturation": "Füllt Nahrung und Sättigung auf.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:glowing": "Umriss auch durch Blöcke sichtbar.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:levitation": "Lässt die Entität aufsteigen.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:luck": "Bessere Chancen auf wertvolle Angelbeute.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:unluck": "Schlechtere Chancen auf wertvolle Angelbeute.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:slow_falling": "Langsameres Fallen ohne Fallschaden.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:conduit_power": "Unter Wasser atmen, besser sehen und schneller abbauen.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:dolphins_grace": "Schnelleres Schwimmen.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:bad_omen": "Kann an entsprechenden Orten unheilvolle Ereignisse auslösen.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:hero_of_the_village": "Handelsrabatte und berufsabhängige Geschenke von Dorfbewohnern.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:darkness": "Pulsierendes Abdunkeln und schwarzer Nebel.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:trial_omen": "Macht nahe Prüfungsspawner unheilvoll.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:raid_omen": "Startet beim Ablauf einen Überfall.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:wind_charged": "Erzeugt beim Tod einen Windstoß.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:weaving": "Weniger Verlangsamung durch Spinnennetze; erzeugt sie beim Tod.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:oozing": "Erzeugt beim Tod zwei Schleime.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:infested": "Kann bei Verletzung Silberfischchen freisetzen.",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:breath_of_the_nautilus": "Hält den Sauerstoffbalken an."
+  },
+  "ja_jp": {
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:speed": "地上での移動が速くなる。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:slowness": "地上での移動が遅くなる。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:haste": "採掘と攻撃が速くなる。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:mining_fatigue": "採掘と攻撃が遅くなる。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:strength": "近接攻撃のダメージが増える。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:instant_health": "即座に回復する。アンデッドにはダメージ。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:instant_damage": "即座にダメージを与える。アンデッドは回復。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:jump_boost": "高く跳べるようになり、落下ダメージが減る。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:nausea": "画面が揺れて歪む。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:regeneration": "体力が徐々に回復する。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:resistance": "受けるダメージが減る。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:fire_resistance": "炎や溶岩のダメージを防ぐ。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:water_breathing": "水中で溺れなくなる。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:invisibility": "姿が見えなくなる。手持ちの物や防具は隠れない。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:blindness": "近くに黒い霧がかかり、ダッシュとクリティカルができない。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:night_vision": "暗闇や水中が見やすくなる。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:hunger": "満腹度が減りやすくなる。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:weakness": "近接攻撃のダメージが減る。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:poison": "徐々にダメージを受け、体力1で止まる。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:wither": "徐々にダメージを受け、死亡することもある。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:health_boost": "最大体力が増える。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:absorption": "再生しない追加の体力でダメージを受け止める。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:saturation": "満腹度と隠し満腹度を回復する。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:glowing": "ブロック越しにも輪郭が見える。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:levitation": "エンティティが浮き上がる。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:luck": "釣りで宝が出る確率が上がる。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:unluck": "釣りで宝が出る確率が下がる。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:slow_falling": "ゆっくり落ち、落下ダメージを受けない。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:conduit_power": "水中で呼吸でき、視界と採掘速度が改善する。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:dolphins_grace": "泳ぐ速度が上がる。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:bad_omen": "特定の場所で不吉な出来事を引き起こす。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:hero_of_the_village": "村人との取引が安くなり、職業に応じた贈り物をもらえる。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:darkness": "視界が周期的に暗くなり、黒い霧がかかる。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:trial_omen": "近くのトライアルスポナーを不吉なものに変える。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:raid_omen": "効果が切れると襲撃が始まる。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:wind_charged": "死亡時に突風を起こす。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:weaving": "クモの巣での減速が軽くなり、死亡時にクモの巣を作る。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:oozing": "死亡時にスライムを2体生む。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:infested": "ダメージを受けるとシルバーフィッシュが出ることがある。",
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:breath_of_the_nautilus": "酸素ゲージが減らなくなる。"
+  },
+  "sources": {
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:speed": [
+      {
+        "url": "https://minecraft.wiki/w/Effect?oldid=3845043",
+        "revision": 3845043
+      }
+    ],
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:slowness": [
+      {
+        "url": "https://minecraft.wiki/w/Effect?oldid=3845043",
+        "revision": 3845043
+      }
+    ],
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:haste": [
+      {
+        "url": "https://minecraft.wiki/w/Effect?oldid=3845043",
+        "revision": 3845043
+      }
+    ],
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:mining_fatigue": [
+      {
+        "url": "https://minecraft.wiki/w/Effect?oldid=3845043",
+        "revision": 3845043
+      }
+    ],
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:strength": [
+      {
+        "url": "https://minecraft.wiki/w/Effect?oldid=3845043",
+        "revision": 3845043
+      }
+    ],
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:instant_health": [
+      {
+        "url": "https://minecraft.wiki/w/Effect?oldid=3845043",
+        "revision": 3845043
+      }
+    ],
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:instant_damage": [
+      {
+        "url": "https://minecraft.wiki/w/Effect?oldid=3845043",
+        "revision": 3845043
+      }
+    ],
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:jump_boost": [
+      {
+        "url": "https://minecraft.wiki/w/Effect?oldid=3845043",
+        "revision": 3845043
+      }
+    ],
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:nausea": [
+      {
+        "url": "https://minecraft.wiki/w/Effect?oldid=3845043",
+        "revision": 3845043
+      }
+    ],
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:regeneration": [
+      {
+        "url": "https://minecraft.wiki/w/Effect?oldid=3845043",
+        "revision": 3845043
+      }
+    ],
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:resistance": [
+      {
+        "url": "https://minecraft.wiki/w/Effect?oldid=3845043",
+        "revision": 3845043
+      }
+    ],
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:fire_resistance": [
+      {
+        "url": "https://minecraft.wiki/w/Effect?oldid=3845043",
+        "revision": 3845043
+      }
+    ],
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:water_breathing": [
+      {
+        "url": "https://minecraft.wiki/w/Effect?oldid=3845043",
+        "revision": 3845043
+      }
+    ],
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:invisibility": [
+      {
+        "url": "https://minecraft.wiki/w/Effect?oldid=3845043",
+        "revision": 3845043
+      }
+    ],
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:blindness": [
+      {
+        "url": "https://minecraft.wiki/w/Effect?oldid=3845043",
+        "revision": 3845043
+      }
+    ],
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:night_vision": [
+      {
+        "url": "https://minecraft.wiki/w/Effect?oldid=3845043",
+        "revision": 3845043
+      }
+    ],
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:hunger": [
+      {
+        "url": "https://minecraft.wiki/w/Effect?oldid=3845043",
+        "revision": 3845043
+      }
+    ],
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:weakness": [
+      {
+        "url": "https://minecraft.wiki/w/Effect?oldid=3845043",
+        "revision": 3845043
+      }
+    ],
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:poison": [
+      {
+        "url": "https://minecraft.wiki/w/Effect?oldid=3845043",
+        "revision": 3845043
+      }
+    ],
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:wither": [
+      {
+        "url": "https://minecraft.wiki/w/Effect?oldid=3845043",
+        "revision": 3845043
+      }
+    ],
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:health_boost": [
+      {
+        "url": "https://minecraft.wiki/w/Effect?oldid=3845043",
+        "revision": 3845043
+      }
+    ],
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:absorption": [
+      {
+        "url": "https://minecraft.wiki/w/Effect?oldid=3845043",
+        "revision": 3845043
+      }
+    ],
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:saturation": [
+      {
+        "url": "https://minecraft.wiki/w/Effect?oldid=3845043",
+        "revision": 3845043
+      }
+    ],
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:glowing": [
+      {
+        "url": "https://minecraft.wiki/w/Effect?oldid=3845043",
+        "revision": 3845043
+      }
+    ],
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:levitation": [
+      {
+        "url": "https://minecraft.wiki/w/Effect?oldid=3845043",
+        "revision": 3845043
+      }
+    ],
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:luck": [
+      {
+        "url": "https://minecraft.wiki/w/Effect?oldid=3845043",
+        "revision": 3845043
+      }
+    ],
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:unluck": [
+      {
+        "url": "https://minecraft.wiki/w/Effect?oldid=3845043",
+        "revision": 3845043
+      }
+    ],
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:slow_falling": [
+      {
+        "url": "https://minecraft.wiki/w/Effect?oldid=3845043",
+        "revision": 3845043
+      }
+    ],
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:conduit_power": [
+      {
+        "url": "https://minecraft.wiki/w/Effect?oldid=3845043",
+        "revision": 3845043
+      }
+    ],
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:dolphins_grace": [
+      {
+        "url": "https://minecraft.wiki/w/Effect?oldid=3845043",
+        "revision": 3845043
+      }
+    ],
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:bad_omen": [
+      {
+        "url": "https://minecraft.wiki/w/Effect?oldid=3845043",
+        "revision": 3845043
+      }
+    ],
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:hero_of_the_village": [
+      {
+        "url": "https://minecraft.wiki/w/Effect?oldid=3845043",
+        "revision": 3845043
+      }
+    ],
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:darkness": [
+      {
+        "url": "https://minecraft.wiki/w/Effect?oldid=3845043",
+        "revision": 3845043
+      }
+    ],
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:trial_omen": [
+      {
+        "url": "https://minecraft.wiki/w/Effect?oldid=3845043",
+        "revision": 3845043
+      }
+    ],
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:raid_omen": [
+      {
+        "url": "https://minecraft.wiki/w/Effect?oldid=3845043",
+        "revision": 3845043
+      }
+    ],
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:wind_charged": [
+      {
+        "url": "https://minecraft.wiki/w/Effect?oldid=3845043",
+        "revision": 3845043
+      }
+    ],
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:weaving": [
+      {
+        "url": "https://minecraft.wiki/w/Effect?oldid=3845043",
+        "revision": 3845043
+      }
+    ],
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:oozing": [
+      {
+        "url": "https://minecraft.wiki/w/Effect?oldid=3845043",
+        "revision": 3845043
+      }
+    ],
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:infested": [
+      {
+        "url": "https://minecraft.wiki/w/Effect?oldid=3845043",
+        "revision": 3845043
+      }
+    ],
+    "command_translation.help.registry.minecraft:mob_effect.minecraft:breath_of_the_nautilus": [
+      {
+        "url": "https://minecraft.wiki/w/Effect?oldid=3845043",
+        "revision": 3845043
+      }
+    ]
+  }
+}
+

@@ -1,0 +1,17 @@
+{
+  "en_us": {},
+  "zh_cn": {},
+  "sources": {},
+  "bindings": {},
+  "de_de": {},
+  "ja_jp": {},
+  "syntax": [
+    {
+      "path": "unpublish",
+      "type": "literal",
+      "versions": [
+        "26.2"
+      ]
+    }
+  ]
+}

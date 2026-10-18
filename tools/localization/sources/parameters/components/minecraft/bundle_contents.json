@@ -1,0 +1,30 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:bundle_contents": "The items stored inside this bundle."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:bundle_contents": "收纳在收纳袋中的物品。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:bundle_contents": "Die in diesem Bündel aufbewahrten Gegenstände."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:bundle_contents": "このバンドルに収められたアイテム。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:bundle_contents": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

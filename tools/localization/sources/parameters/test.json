@@ -1,0 +1,800 @@
+{
+  "en_us": {
+    "command_translation.help.argument.test.run": "Runs the given test instances at their own structure positions.",
+    "command_translation.help.argument.test.runthat": "Runs the single test the executor's crosshair points at.",
+    "command_translation.help.argument.test.runthese": "Runs every test within 200 blocks of the executor.",
+    "command_translation.help.argument.test.runclosest": "Runs the closest test within 15 blocks of the executor.",
+    "command_translation.help.argument.test.runfailed": "Runs the tests that failed in the previous run.",
+    "command_translation.help.argument.test.runmultiple": "Runs each given test several times within the same batch.",
+    "command_translation.help.argument.test.stop": "Stops all currently running tests.",
+    "command_translation.help.argument.test.clearthat": "Clears the test structure the executor's crosshair points at.",
+    "command_translation.help.argument.test.clearthese": "Clears every test structure within 200 blocks of the executor.",
+    "command_translation.help.argument.test.clearall": "Clears all test structures within the given radius.",
+    "command_translation.help.argument.test.create": "Creates a new test structure at the executor with the given id and size.",
+    "command_translation.help.argument.test.locate": "Locates the given tests in loaded chunks and points them out.",
+    "command_translation.help.argument.test.resetclosest": "Resets the closest test within 15 blocks of the executor.",
+    "command_translation.help.argument.test.resetthat": "Resets the test structure the executor's crosshair points at.",
+    "command_translation.help.argument.test.resetthese": "Resets every test within 200 blocks of the executor.",
+    "command_translation.help.argument.test.verify": "Verifies the selected tests by actually running multiple instances of each.",
+    "command_translation.help.argument.test.pos": "Prints a code snippet with the local coordinates of the block the crosshair points at.",
+    "command_translation.help.argument.test.id": "The resource location identifying the test to create.",
+    "command_translation.help.argument.test.radius": "The radius in blocks within which test structures are cleared.",
+    "command_translation.help.argument.test.width": "The width (x size) of the test structure to create.",
+    "command_translation.help.argument.test.height": "The height (y size) of the test structure to create.",
+    "command_translation.help.argument.test.depth": "The depth (z size) of the test structure to create.",
+    "command_translation.help.argument.test.tests": "A selector for one or more test instances by id.",
+    "command_translation.help.argument.test.numberOfTimes": "How many times to repeat each test in different batches.",
+    "command_translation.help.argument.test.untilFailed": "true stops repeating the test as soon as one attempt fails; the default is false.",
+    "command_translation.help.argument.test.rotationSteps": "The number of extra 90-degree rotations applied to the test layout.",
+    "command_translation.help.argument.test.testsPerRow": "How many tests are placed per row in the grid layout.",
+    "command_translation.help.argument.test.amount": "The number of attempts per test within the same batch.",
+    "command_translation.help.argument.test.onlyRequiredTests": "true runs only the required tests and skips optional ones; the default is false."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.test.run": "在各自的测试结构位置运行给定的测试实例。",
+    "command_translation.help.argument.test.runthat": "运行执行者准星所指的那一个测试。",
+    "command_translation.help.argument.test.runthese": "运行执行者周围 200 格内的所有测试。",
+    "command_translation.help.argument.test.runclosest": "运行执行者 15 格内最近的测试。",
+    "command_translation.help.argument.test.runfailed": "运行上一轮失败的测试。",
+    "command_translation.help.argument.test.runmultiple": "在同一批次内把每个给定测试运行多次。",
+    "command_translation.help.argument.test.stop": "停止所有正在运行的测试。",
+    "command_translation.help.argument.test.clearthat": "清除执行者准星所指的测试结构。",
+    "command_translation.help.argument.test.clearthese": "清除执行者周围 200 格内的所有测试结构。",
+    "command_translation.help.argument.test.clearall": "清除给定半径内的所有测试结构。",
+    "command_translation.help.argument.test.create": "在执行者处按给定 id 与尺寸创建测试结构。",
+    "command_translation.help.argument.test.locate": "在已加载区块中定位并指出给定测试。",
+    "command_translation.help.argument.test.resetclosest": "重置执行者 15 格内最近的测试。",
+    "command_translation.help.argument.test.resetthat": "重置执行者准星所指的测试结构。",
+    "command_translation.help.argument.test.resetthese": "重置执行者周围 200 格内的所有测试。",
+    "command_translation.help.argument.test.verify": "通过实际运行多个实例来验证所选测试。",
+    "command_translation.help.argument.test.pos": "输出准星所指方块本地坐标的代码片段。",
+    "command_translation.help.argument.test.id": "要创建的测试的资源位置 id。",
+    "command_translation.help.argument.test.radius": "清除测试结构的半径（方块）。",
+    "command_translation.help.argument.test.width": "要创建的测试结构的宽度（x 方向尺寸）。",
+    "command_translation.help.argument.test.height": "要创建的测试结构的高度（y 方向尺寸）。",
+    "command_translation.help.argument.test.depth": "要创建的测试结构的深度（z 方向尺寸）。",
+    "command_translation.help.argument.test.tests": "按 id 选择一个或多个测试实例的选择器。",
+    "command_translation.help.argument.test.numberOfTimes": "每个测试在不同批次中重复运行的次数。",
+    "command_translation.help.argument.test.untilFailed": "true 表示一旦某次尝试失败就停止重复；默认为 false。",
+    "command_translation.help.argument.test.rotationSteps": "对测试布局额外施加的 90 度旋转次数。",
+    "command_translation.help.argument.test.testsPerRow": "网格布局中每行放置的测试数。",
+    "command_translation.help.argument.test.amount": "同一批次内每个测试的尝试次数。",
+    "command_translation.help.argument.test.onlyRequiredTests": "true 只运行必需测试、跳过可选测试；默认为 false。"
+  },
+  "sources": {
+    "command_translation.help.argument.test.run": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftest",
+        "revision": 3724366
+      }
+    ],
+    "command_translation.help.argument.test.runthat": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftest",
+        "revision": 3724366
+      }
+    ],
+    "command_translation.help.argument.test.runthese": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftest",
+        "revision": 3724366
+      }
+    ],
+    "command_translation.help.argument.test.runclosest": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftest",
+        "revision": 3724366
+      }
+    ],
+    "command_translation.help.argument.test.runfailed": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftest",
+        "revision": 3724366
+      }
+    ],
+    "command_translation.help.argument.test.runmultiple": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftest",
+        "revision": 3724366
+      }
+    ],
+    "command_translation.help.argument.test.stop": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftest",
+        "revision": 3724366
+      }
+    ],
+    "command_translation.help.argument.test.clearthat": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftest",
+        "revision": 3724366
+      }
+    ],
+    "command_translation.help.argument.test.clearthese": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftest",
+        "revision": 3724366
+      }
+    ],
+    "command_translation.help.argument.test.clearall": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftest",
+        "revision": 3724366
+      }
+    ],
+    "command_translation.help.argument.test.create": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftest",
+        "revision": 3724366
+      }
+    ],
+    "command_translation.help.argument.test.locate": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftest",
+        "revision": 3724366
+      }
+    ],
+    "command_translation.help.argument.test.resetclosest": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftest",
+        "revision": 3724366
+      }
+    ],
+    "command_translation.help.argument.test.resetthat": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftest",
+        "revision": 3724366
+      }
+    ],
+    "command_translation.help.argument.test.resetthese": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftest",
+        "revision": 3724366
+      }
+    ],
+    "command_translation.help.argument.test.verify": [
+      {
+        "url": "https://minecraft.wiki/w/Java_Edition_1.21.5",
+        "revision": 3802500
+      }
+    ],
+    "command_translation.help.argument.test.pos": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftest",
+        "revision": 3724366
+      }
+    ],
+    "command_translation.help.argument.test.id": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftest",
+        "revision": 3724366
+      }
+    ],
+    "command_translation.help.argument.test.radius": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftest",
+        "revision": 3724366
+      }
+    ],
+    "command_translation.help.argument.test.width": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftest",
+        "revision": 3724366
+      }
+    ],
+    "command_translation.help.argument.test.height": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftest",
+        "revision": 3724366
+      }
+    ],
+    "command_translation.help.argument.test.depth": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftest",
+        "revision": 3724366
+      }
+    ],
+    "command_translation.help.argument.test.tests": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftest",
+        "revision": 3724366
+      }
+    ],
+    "command_translation.help.argument.test.numberOfTimes": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftest",
+        "revision": 3724366
+      }
+    ],
+    "command_translation.help.argument.test.untilFailed": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftest",
+        "revision": 3724366
+      }
+    ],
+    "command_translation.help.argument.test.rotationSteps": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftest",
+        "revision": 3724366
+      }
+    ],
+    "command_translation.help.argument.test.testsPerRow": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftest",
+        "revision": 3724366
+      }
+    ],
+    "command_translation.help.argument.test.amount": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftest",
+        "revision": 3724366
+      }
+    ],
+    "command_translation.help.argument.test.onlyRequiredTests": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftest",
+        "revision": 3724366
+      }
+    ]
+  },
+  "bindings": {
+    "test.clearall": "command_translation.help.argument.test.clearall",
+    "test.clearall.radius": "command_translation.help.argument.test.radius",
+    "test.clearthat": "command_translation.help.argument.test.clearthat",
+    "test.clearthese": "command_translation.help.argument.test.clearthese",
+    "test.create": "command_translation.help.argument.test.create",
+    "test.create.id": "command_translation.help.argument.test.id",
+    "test.create.id.width": "command_translation.help.argument.test.width",
+    "test.create.id.width.height": "command_translation.help.argument.test.height",
+    "test.create.id.width.height.depth": "command_translation.help.argument.test.depth",
+    "test.locate": "command_translation.help.argument.test.locate",
+    "test.locate.tests": "command_translation.help.argument.test.tests",
+    "test.pos": "command_translation.help.argument.test.pos",
+    "test.pos.var": "command_translation.help.argument.test.pos",
+    "test.resetclosest": "command_translation.help.argument.test.resetclosest",
+    "test.resetthat": "command_translation.help.argument.test.resetthat",
+    "test.resetthese": "command_translation.help.argument.test.resetthese",
+    "test.run": "command_translation.help.argument.test.run",
+    "test.run.tests": "command_translation.help.argument.test.tests",
+    "test.run.tests.numberOfTimes": "command_translation.help.argument.test.numberOfTimes",
+    "test.run.tests.numberOfTimes.untilFailed": "command_translation.help.argument.test.untilFailed",
+    "test.run.tests.numberOfTimes.untilFailed.rotationSteps": "command_translation.help.argument.test.rotationSteps",
+    "test.run.tests.numberOfTimes.untilFailed.rotationSteps.testsPerRow": "command_translation.help.argument.test.testsPerRow",
+    "test.runclosest": "command_translation.help.argument.test.runclosest",
+    "test.runclosest.numberOfTimes": "command_translation.help.argument.test.numberOfTimes",
+    "test.runclosest.numberOfTimes.untilFailed": "command_translation.help.argument.test.untilFailed",
+    "test.runfailed": "command_translation.help.argument.test.runfailed",
+    "test.runfailed.numberOfTimes": "command_translation.help.argument.test.numberOfTimes",
+    "test.runfailed.numberOfTimes.untilFailed": "command_translation.help.argument.test.untilFailed",
+    "test.runfailed.numberOfTimes.untilFailed.rotationSteps": "command_translation.help.argument.test.rotationSteps",
+    "test.runfailed.numberOfTimes.untilFailed.rotationSteps.testsPerRow": "command_translation.help.argument.test.testsPerRow",
+    "test.runfailed.onlyRequiredTests": "command_translation.help.argument.test.onlyRequiredTests",
+    "test.runfailed.onlyRequiredTests.numberOfTimes": "command_translation.help.argument.test.numberOfTimes",
+    "test.runfailed.onlyRequiredTests.numberOfTimes.untilFailed": "command_translation.help.argument.test.untilFailed",
+    "test.runfailed.onlyRequiredTests.numberOfTimes.untilFailed.rotationSteps": "command_translation.help.argument.test.rotationSteps",
+    "test.runfailed.onlyRequiredTests.numberOfTimes.untilFailed.rotationSteps.testsPerRow": "command_translation.help.argument.test.testsPerRow",
+    "test.runmultiple": "command_translation.help.argument.test.runmultiple",
+    "test.runmultiple.tests": "command_translation.help.argument.test.tests",
+    "test.runmultiple.tests.amount": "command_translation.help.argument.test.amount",
+    "test.runthat": "command_translation.help.argument.test.runthat",
+    "test.runthat.numberOfTimes": "command_translation.help.argument.test.numberOfTimes",
+    "test.runthat.numberOfTimes.untilFailed": "command_translation.help.argument.test.untilFailed",
+    "test.runthese": "command_translation.help.argument.test.runthese",
+    "test.runthese.numberOfTimes": "command_translation.help.argument.test.numberOfTimes",
+    "test.runthese.numberOfTimes.untilFailed": "command_translation.help.argument.test.untilFailed",
+    "test.stop": "command_translation.help.argument.test.stop",
+    "test.verify": "command_translation.help.argument.test.verify",
+    "test.verify.tests": "command_translation.help.argument.test.tests"
+  },
+  "de_de": {
+    "command_translation.help.argument.test.run": "Führt die angegebenen Testinstanzen an ihren Strukturpositionen aus.",
+    "command_translation.help.argument.test.runthat": "Führt den einen Test aus, auf den das Fadenkreuz des Ausführenden zeigt.",
+    "command_translation.help.argument.test.runthese": "Führt jeden Test im Umkreis von 200 Blöcken um den Ausführenden aus.",
+    "command_translation.help.argument.test.runclosest": "Führt den nächsten Test im Umkreis von 15 Blöcken um den Ausführenden aus.",
+    "command_translation.help.argument.test.runfailed": "Führt die im letzten Durchlauf fehlgeschlagenen Tests aus.",
+    "command_translation.help.argument.test.runmultiple": "Führt jeden angegebenen Test mehrmals im selben Durchlauf aus.",
+    "command_translation.help.argument.test.stop": "Stoppt alle derzeit laufenden Tests.",
+    "command_translation.help.argument.test.clearthat": "Löscht die Teststruktur, auf die das Fadenkreuz des Ausführenden zeigt.",
+    "command_translation.help.argument.test.clearthese": "Löscht jede Teststruktur im Umkreis von 200 Blöcken um den Ausführenden.",
+    "command_translation.help.argument.test.clearall": "Löscht alle Teststrukturen im angegebenen Radius.",
+    "command_translation.help.argument.test.create": "Erstellt am Ausführenden eine neue Teststruktur mit der angegebenen id und Größe.",
+    "command_translation.help.argument.test.locate": "Sucht die angegebenen Tests in geladenen Chunks und zeigt sie an.",
+    "command_translation.help.argument.test.resetclosest": "Setzt den nächsten Test im Umkreis von 15 Blöcken um den Ausführenden zurück.",
+    "command_translation.help.argument.test.resetthat": "Setzt die Teststruktur zurück, auf die das Fadenkreuz zeigt.",
+    "command_translation.help.argument.test.resetthese": "Setzt jeden Test im Umkreis von 200 Blöcken um den Ausführenden zurück.",
+    "command_translation.help.argument.test.verify": "Überprüft die gewählten Tests durch tatsächliches Ausführen mehrerer Instanzen.",
+    "command_translation.help.argument.test.pos": "Gibt ein Codefragment mit den lokalen Koordinaten des anvisierten Blocks aus.",
+    "command_translation.help.argument.test.id": "Der Ressourcenort, der den zu erstellenden Test benennt.",
+    "command_translation.help.argument.test.radius": "Der Radius in Blöcken, in dem Teststrukturen gelöscht werden.",
+    "command_translation.help.argument.test.width": "Die Breite (x-Größe) der zu erstellenden Teststruktur.",
+    "command_translation.help.argument.test.height": "Die Höhe (y-Größe) der zu erstellenden Teststruktur.",
+    "command_translation.help.argument.test.depth": "Die Tiefe (z-Größe) der zu erstellenden Teststruktur.",
+    "command_translation.help.argument.test.tests": "Eine Auswahl für eine oder mehrere Testinstanzen nach id.",
+    "command_translation.help.argument.test.numberOfTimes": "Wie oft jeder Test in verschiedenen Durchläufen wiederholt wird.",
+    "command_translation.help.argument.test.untilFailed": "true bricht das Wiederholen ab, sobald ein Versuch fehlschlägt; Standard ist false.",
+    "command_translation.help.argument.test.rotationSteps": "Anzahl zusätzlicher 90-Grad-Drehungen für das Testlayout.",
+    "command_translation.help.argument.test.testsPerRow": "Wie viele Tests pro Zeile im Raster angeordnet werden.",
+    "command_translation.help.argument.test.amount": "Anzahl der Versuche pro Test im selben Durchlauf.",
+    "command_translation.help.argument.test.onlyRequiredTests": "true führt nur erforderliche Tests aus und überspringt optionale; Standard ist false."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.test.run": "指定したテストインスタンスをそれぞれの構造物の位置で実行する。",
+    "command_translation.help.argument.test.runthat": "実行者がクロスヘアで指しているテストだけを実行する。",
+    "command_translation.help.argument.test.runthese": "実行者を中心とする半径 200 以内の全テストを実行する。",
+    "command_translation.help.argument.test.runclosest": "実行者から半径 15 以内で最も近いテストを実行する。",
+    "command_translation.help.argument.test.runfailed": "前回失敗したテストを実行する。",
+    "command_translation.help.argument.test.runmultiple": "指定した各テストを同じバッチ内で複数回実行する。",
+    "command_translation.help.argument.test.stop": "現在実行中の全テストを停止する。",
+    "command_translation.help.argument.test.clearthat": "実行者がクロスヘアで指しているテスト構造物を消去する。",
+    "command_translation.help.argument.test.clearthese": "実行者を中心とする半径 200 以内の全テスト構造物を消去する。",
+    "command_translation.help.argument.test.clearall": "指定した半径内の全テスト構造物を消去する。",
+    "command_translation.help.argument.test.create": "実行者位置に指定した id とサイズで新しいテスト構造物を作成する。",
+    "command_translation.help.argument.test.locate": "読み込み済みチャンク内で指定したテストを探して示す。",
+    "command_translation.help.argument.test.resetclosest": "実行者から半径 15 以内で最も近いテストをリセットする。",
+    "command_translation.help.argument.test.resetthat": "実行者がクロスヘアで指しているテスト構造物をリセットする。",
+    "command_translation.help.argument.test.resetthese": "実行者を中心とする半径 200 以内の全テストをリセットする。",
+    "command_translation.help.argument.test.verify": "選んだテストを実際に複数インスタンス実行して検証する。",
+    "command_translation.help.argument.test.pos": "クロスヘアが指すブロックのローカル座標のコード片を出力する。",
+    "command_translation.help.argument.test.id": "作成するテストを示すリソース位置。",
+    "command_translation.help.argument.test.radius": "テスト構造物を消去する半径（ブロック単位）。",
+    "command_translation.help.argument.test.width": "作成するテスト構造物の幅（x 方向サイズ）。",
+    "command_translation.help.argument.test.height": "作成するテスト構造物の高さ（y 方向サイズ）。",
+    "command_translation.help.argument.test.depth": "作成するテスト構造物の奥行き（z 方向サイズ）。",
+    "command_translation.help.argument.test.tests": "id で 1 つ以上のテストインスタンスを選ぶセレクター。",
+    "command_translation.help.argument.test.numberOfTimes": "各テストを異なるバッチで繰り返す回数。",
+    "command_translation.help.argument.test.untilFailed": "true なら 1 回失敗した時点でそのテストの繰り返しを止める。既定は false。",
+    "command_translation.help.argument.test.rotationSteps": "テスト配置に追加で適用する 90 度回転の回数。",
+    "command_translation.help.argument.test.testsPerRow": "グリッド配置で 1 行あたりに置くテスト数。",
+    "command_translation.help.argument.test.amount": "同じバッチ内でのテストごとの試行回数。",
+    "command_translation.help.argument.test.onlyRequiredTests": "true なら必須テストだけを実行し、任意テストを省く。既定は false。"
+  },
+  "syntax": [
+    {
+      "path": "test",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "test.clearall",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "test.clearall.radius",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "test.clearthat",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "test.clearthese",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "test.create",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "test.create.id",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "test.create.id.width",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "test.create.id.width.height",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "test.create.id.width.height.depth",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "test.locate",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "test.locate.tests",
+      "type": "argument",
+      "parser": "minecraft:resource_selector",
+      "properties": {
+        "registry": "minecraft:test_instance"
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "test.pos",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "test.pos.var",
+      "type": "argument",
+      "parser": "brigadier:string",
+      "properties": {
+        "type": "word"
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "test.resetclosest",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "test.resetthat",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "test.resetthese",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "test.run",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "test.run.tests",
+      "type": "argument",
+      "parser": "minecraft:resource_selector",
+      "properties": {
+        "registry": "minecraft:test_instance"
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "test.run.tests.numberOfTimes",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "test.run.tests.numberOfTimes.untilFailed",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "test.run.tests.numberOfTimes.untilFailed.rotationSteps",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "test.run.tests.numberOfTimes.untilFailed.rotationSteps.testsPerRow",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "test.runclosest",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "test.runclosest.numberOfTimes",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "test.runclosest.numberOfTimes.untilFailed",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "test.runfailed",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "test.runfailed.numberOfTimes",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "test.runfailed.numberOfTimes.untilFailed",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "test.runfailed.numberOfTimes.untilFailed.rotationSteps",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "test.runfailed.numberOfTimes.untilFailed.rotationSteps.testsPerRow",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "test.runfailed.onlyRequiredTests",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "test.runfailed.onlyRequiredTests.numberOfTimes",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "test.runfailed.onlyRequiredTests.numberOfTimes.untilFailed",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "test.runfailed.onlyRequiredTests.numberOfTimes.untilFailed.rotationSteps",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "test.runfailed.onlyRequiredTests.numberOfTimes.untilFailed.rotationSteps.testsPerRow",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "test.runmultiple",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "test.runmultiple.tests",
+      "type": "argument",
+      "parser": "minecraft:resource_selector",
+      "properties": {
+        "registry": "minecraft:test_instance"
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "test.runmultiple.tests.amount",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "test.runthat",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "test.runthat.numberOfTimes",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "test.runthat.numberOfTimes.untilFailed",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "test.runthese",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "test.runthese.numberOfTimes",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "test.runthese.numberOfTimes.untilFailed",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "test.stop",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "test.verify",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "test.verify.tests",
+      "type": "argument",
+      "parser": "minecraft:resource_selector",
+      "properties": {
+        "registry": "minecraft:test_instance"
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:instrument": "The instrument played by this item, such as a goat horn."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:instrument": "该物品（如山羊角）演奏的乐器。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:instrument": "Das von diesem Item gespielte Instrument, etwa ein Ziegenhorn."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:instrument": "このアイテム（ヤギの角笛など）が演奏する楽器。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:instrument": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

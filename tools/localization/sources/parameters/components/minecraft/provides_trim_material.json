@@ -1,0 +1,26 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:provides_trim_material": "Provides the specified trim material when this item is used in a smithing trim recipe."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:provides_trim_material": "在锻造台纹饰配方中使用该物品时提供指定的纹饰材料。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:provides_trim_material": "Stellt das angegebene Besatzmaterial bereit, wenn dieses Item in einem Schmiedebesatz-Rezept verwendet wird."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:provides_trim_material": "このアイテムを鍛冶台の装飾レシピで使うと、指定した装飾素材を提供する。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:provides_trim_material": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

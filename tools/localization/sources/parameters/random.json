@@ -1,0 +1,276 @@
+{
+  "en_us": {
+    "command_translation.help.argument.random.value": "Outputs a random integer from range and shows the result only to the player who ran the command.",
+    "command_translation.help.argument.random.roll": "Outputs a random integer from range and broadcasts the result to all players in chat.",
+    "command_translation.help.argument.random.reset": "Removes and re-creates a random sequence with the given settings (the world's settings when no seed is given); the * form targets all sequences or the world's default settings.",
+    "command_translation.help.argument.random.range": "The inclusive integer range to pick from, written min..max.",
+    "command_translation.help.argument.random.sequence": "The random sequence to sample or reset; if no sequence with that id exists it is created.",
+    "command_translation.help.argument.random.seed": "The salt integer mixed into the sequence's seed when resetting.",
+    "command_translation.help.argument.random.includeWorldSeed": "Whether to mix the world seed into the sequence's seed; defaults to true.",
+    "command_translation.help.argument.random.includeSequenceId": "Whether to mix the hash of the sequence's id into its seed; defaults to true.",
+    "command_translation.help.argument.random.all": "*: applies to every random sequence, or to the world's random-sequence settings."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.random.value": "从 range 取一个随机整数，只把结果显示给执行该命令的玩家。",
+    "command_translation.help.argument.random.roll": "从 range 取一个随机整数，并在聊天中广播给所有玩家。",
+    "command_translation.help.argument.random.reset": "用给定设置重新创建某个随机序列（不给种子时使用世界设置）；* 形式作用于所有序列或世界默认设置。",
+    "command_translation.help.argument.random.range": "取值的闭区间整数范围，写法为 min..max。",
+    "command_translation.help.argument.random.sequence": "要采样或重置的随机序列；若该 id 的序列不存在，会自动创建。",
+    "command_translation.help.argument.random.seed": "重置时混入序列种子的盐值整数。",
+    "command_translation.help.argument.random.includeWorldSeed": "是否把世界种子混入序列种子；默认 true。",
+    "command_translation.help.argument.random.includeSequenceId": "是否把序列 id 的哈希混入其种子；默认 true。",
+    "command_translation.help.argument.random.all": "*：作用于所有随机序列，或世界的随机序列设置。"
+  },
+  "sources": {
+    "command_translation.help.argument.random.value": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Frandom",
+        "revision": 3688870
+      }
+    ],
+    "command_translation.help.argument.random.roll": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Frandom",
+        "revision": 3688870
+      }
+    ],
+    "command_translation.help.argument.random.reset": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Frandom",
+        "revision": 3688870
+      }
+    ],
+    "command_translation.help.argument.random.range": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Frandom",
+        "revision": 3688870
+      }
+    ],
+    "command_translation.help.argument.random.sequence": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Frandom",
+        "revision": 3688870
+      }
+    ],
+    "command_translation.help.argument.random.seed": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Frandom",
+        "revision": 3688870
+      }
+    ],
+    "command_translation.help.argument.random.includeWorldSeed": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Frandom",
+        "revision": 3688870
+      }
+    ],
+    "command_translation.help.argument.random.includeSequenceId": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Frandom",
+        "revision": 3688870
+      }
+    ],
+    "command_translation.help.argument.random.all": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Frandom",
+        "revision": 3688870
+      }
+    ]
+  },
+  "bindings": {
+    "random.reset": "command_translation.help.argument.random.reset",
+    "random.reset.*": "command_translation.help.argument.random.all",
+    "random.reset.*.seed": "command_translation.help.argument.random.seed",
+    "random.reset.*.seed.includeWorldSeed": "command_translation.help.argument.random.includeWorldSeed",
+    "random.reset.*.seed.includeWorldSeed.includeSequenceId": "command_translation.help.argument.random.includeSequenceId",
+    "random.reset.sequence": "command_translation.help.argument.random.sequence",
+    "random.reset.sequence.seed": "command_translation.help.argument.random.seed",
+    "random.reset.sequence.seed.includeWorldSeed": "command_translation.help.argument.random.includeWorldSeed",
+    "random.reset.sequence.seed.includeWorldSeed.includeSequenceId": "command_translation.help.argument.random.includeSequenceId",
+    "random.roll": "command_translation.help.argument.random.roll",
+    "random.roll.range": "command_translation.help.argument.random.range",
+    "random.roll.range.sequence": "command_translation.help.argument.random.sequence",
+    "random.value": "command_translation.help.argument.random.value",
+    "random.value.range": "command_translation.help.argument.random.range",
+    "random.value.range.sequence": "command_translation.help.argument.random.sequence"
+  },
+  "de_de": {
+    "command_translation.help.argument.random.value": "Gibt eine Zufallszahl aus range aus und zeigt das Ergebnis nur dem ausführenden Spieler.",
+    "command_translation.help.argument.random.roll": "Gibt eine Zufallszahl aus range aus und sendet das Ergebnis im Chat an alle Spieler.",
+    "command_translation.help.argument.random.reset": "Entfernt eine Zufallssequenz und erstellt sie mit den angegebenen Einstellungen neu (ohne Seed mit den Welteinstellungen); die *-Form betrifft alle Sequenzen bzw. die Standardeinstellungen der Welt.",
+    "command_translation.help.argument.random.range": "Der inklusive Ganzzahlbereich, aus dem gewählt wird, als min..max.",
+    "command_translation.help.argument.random.sequence": "Die Zufallssequenz zum Abfragen oder Zurücksetzen; existiert sie nicht, wird sie erstellt.",
+    "command_translation.help.argument.random.seed": "Der Salz-Ganzzahlwert, der beim Zurücksetzen in den Seed der Sequenz gemischt wird.",
+    "command_translation.help.argument.random.includeWorldSeed": "Ob der Weltseed in den Seed der Sequenz gemischt wird; Standard true.",
+    "command_translation.help.argument.random.includeSequenceId": "Ob der Hash der Sequenz-ID in ihren Seed gemischt wird; Standard true.",
+    "command_translation.help.argument.random.all": "*: betrifft jede Zufallssequenz bzw. die Zufallssequenz-Einstellungen der Welt."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.random.value": "range からランダムな整数を出力し、結果を実行者だけに表示する。",
+    "command_translation.help.argument.random.roll": "range からランダムな整数を出力し、結果をチャットで全プレイヤーに配信する。",
+    "command_translation.help.argument.random.reset": "ランダムシーケンスを削除し、指定した設定で作り直す（シード未指定ならワールド設定）。* 形式はすべてのシーケンス／ワールドの既定設定を対象にする。",
+    "command_translation.help.argument.random.range": "選ぶ範囲の両端を含む整数範囲。min..max の形。",
+    "command_translation.help.argument.random.sequence": "サンプルまたはリセットするランダムシーケンス。その ID のシーケンスが無ければ作成される。",
+    "command_translation.help.argument.random.seed": "リセット時にシーケンスのシードへ混ぜるソルトの整数。",
+    "command_translation.help.argument.random.includeWorldSeed": "ワールドシードをシーケンスのシードに混ぜるか。既定は true。",
+    "command_translation.help.argument.random.includeSequenceId": "シーケンス ID のハッシュをそのシードに混ぜるか。既定は true。",
+    "command_translation.help.argument.random.all": "*：すべてのランダムシーケンス、またはワールドのランダムシーケンス設定を対象にする。"
+  },
+  "syntax": [
+    {
+      "path": "random",
+      "type": "literal",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "random.reset",
+      "type": "literal",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "random.reset.*",
+      "type": "literal",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "random.reset.*.seed",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "random.reset.*.seed.includeWorldSeed",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "random.reset.*.seed.includeWorldSeed.includeSequenceId",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "random.reset.sequence",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "random.reset.sequence.seed",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "random.reset.sequence.seed.includeWorldSeed",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "random.reset.sequence.seed.includeWorldSeed.includeSequenceId",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "random.roll",
+      "type": "literal",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "random.roll.range",
+      "type": "argument",
+      "parser": "minecraft:int_range",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "random.roll.range.sequence",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "random.value",
+      "type": "literal",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "random.value.range",
+      "type": "argument",
+      "parser": "minecraft:int_range",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "random.value.range.sequence",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

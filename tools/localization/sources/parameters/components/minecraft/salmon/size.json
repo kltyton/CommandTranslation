@@ -1,0 +1,84 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:salmon/size": "The salmon’s body size.",
+    "command_translation.help.component.minecraft:salmon/size.value.small": "Small salmon.",
+    "command_translation.help.component.minecraft:salmon/size.value.medium": "Medium salmon.",
+    "command_translation.help.component.minecraft:salmon/size.value.large": "Large salmon."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:salmon/size": "鲑鱼的体型大小。",
+    "command_translation.help.component.minecraft:salmon/size.value.small": "小型鲑鱼。",
+    "command_translation.help.component.minecraft:salmon/size.value.medium": "中型鲑鱼。",
+    "command_translation.help.component.minecraft:salmon/size.value.large": "大型鲑鱼。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:salmon/size": "Die Körpergröße des Lachses.",
+    "command_translation.help.component.minecraft:salmon/size.value.small": "Kleiner Lachs.",
+    "command_translation.help.component.minecraft:salmon/size.value.medium": "Mittelgroßer Lachs.",
+    "command_translation.help.component.minecraft:salmon/size.value.large": "Großer Lachs."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:salmon/size": "サケの体の大きさ。",
+    "command_translation.help.component.minecraft:salmon/size.value.small": "小型のサケ。",
+    "command_translation.help.component.minecraft:salmon/size.value.medium": "中型のサケ。",
+    "command_translation.help.component.minecraft:salmon/size.value.large": "大型のサケ。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:salmon/size": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:salmon/size.value.small": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:salmon/size.value.medium": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:salmon/size.value.large": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ]
+  }
+}

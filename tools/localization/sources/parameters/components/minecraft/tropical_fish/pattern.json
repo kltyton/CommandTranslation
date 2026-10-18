@@ -1,0 +1,30 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:tropical_fish/pattern": "The shape of the tropical fish’s markings."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:tropical_fish/pattern": "热带鱼身上花纹的样式。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:tropical_fish/pattern": "Die Musterform des Tropenfisches."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:tropical_fish/pattern": "熱帯魚の模様の種類。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:tropical_fish/pattern": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "en_us": {
+    "command_translation.tag.worldgen.flat_level_generator_preset.minecraft.visible": "Superflat presets visible in the create world menu"
+  },
+  "zh_cn": {
+    "command_translation.tag.worldgen.flat_level_generator_preset.minecraft.visible": "创建世界菜单中可见的超平坦预设"
+  },
+  "de_de": {
+    "command_translation.tag.worldgen.flat_level_generator_preset.minecraft.visible": "Im Welterstellungsmenü sichtbare Flachwelt-Vorlagen"
+  },
+  "ja_jp": {
+    "command_translation.tag.worldgen.flat_level_generator_preset.minecraft.visible": "ワールド作成画面に表示されるスーパーフラット"
+  },
+  "sources": {
+    "command_translation.tag.worldgen.flat_level_generator_preset.minecraft.visible": [
+      {
+        "url": "https://minecraft.wiki/w/Flat%20level%20generator%20preset%20tag%20(Java%20Edition)",
+        "revision": 3839219
+      }
+    ]
+  }
+}

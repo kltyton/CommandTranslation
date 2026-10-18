@@ -1,0 +1,22 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:fire_resistant": "Prevents the item from burning in fire or lava."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:fire_resistant": "使物品不会在火焰或熔岩中烧毁。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:fire_resistant": "Verhindert, dass das Item in Feuer oder Lava verbrennt."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:fire_resistant": "アイテムが火や溶岩で燃えないようにする。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:fire_resistant": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "en_us": {
+    "command_translation.help.argument.msg.targets": "The player(s) to send the message to.",
+    "command_translation.help.argument.msg.message": "The message text; target selectors inside it are replaced by the selected names."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.msg.targets": "消息的接收玩家。",
+    "command_translation.help.argument.msg.message": "消息文本，其中的选择器会被替换为所选名称。"
+  },
+  "sources": {
+    "command_translation.help.argument.msg.targets": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fmsg",
+        "revision": 3826030
+      }
+    ],
+    "command_translation.help.argument.msg.message": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fmsg",
+        "revision": 3826030
+      }
+    ]
+  },
+  "bindings": {
+    "msg.targets": "command_translation.help.argument.msg.targets",
+    "msg.targets.message": "command_translation.help.argument.msg.message"
+  },
+  "de_de": {
+    "command_translation.help.argument.msg.targets": "Die Spieler, an die die Nachricht gesendet wird.",
+    "command_translation.help.argument.msg.message": "Der Nachrichtentext; Zielselektoren darin werden durch die Namen der Ausgewählten ersetzt."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.msg.targets": "メッセージを送るプレイヤー。",
+    "command_translation.help.argument.msg.message": "メッセージ本文。中のセレクターは選択された名前に置換される。"
+  },
+  "syntax": [
+    {
+      "path": "msg",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "msg.targets",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "players",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "msg.targets.message",
+      "type": "argument",
+      "parser": "minecraft:message",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

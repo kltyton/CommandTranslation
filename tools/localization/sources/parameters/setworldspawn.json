@@ -1,0 +1,88 @@
+{
+  "en_us": {
+    "command_translation.help.argument.setworldspawn.pos": "The world spawn block position, where players without a personal spawn point appear.",
+    "command_translation.help.argument.setworldspawn.angle": "The horizontal facing (yaw) a player has when spawning here.",
+    "command_translation.help.argument.setworldspawn.rotation": "The full spawn facing as yaw then pitch in degrees."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.setworldspawn.pos": "世界出生点的方块坐标，没有个人出生点的玩家在此出现。",
+    "command_translation.help.argument.setworldspawn.angle": "玩家在此出生时的水平朝向 yaw。",
+    "command_translation.help.argument.setworldspawn.rotation": "完整的出生朝向，先 yaw 后 pitch，单位为度。"
+  },
+  "sources": {
+    "command_translation.help.argument.setworldspawn.pos": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fsetworldspawn",
+        "revision": 3627438
+      }
+    ],
+    "command_translation.help.argument.setworldspawn.angle": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fsetworldspawn",
+        "revision": 3627438
+      }
+    ],
+    "command_translation.help.argument.setworldspawn.rotation": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fsetworldspawn",
+        "revision": 3627438
+      }
+    ]
+  },
+  "bindings": {
+    "setworldspawn.pos": "command_translation.help.argument.setworldspawn.pos",
+    "setworldspawn.pos.angle": "command_translation.help.argument.setworldspawn.angle",
+    "setworldspawn.pos.rotation": "command_translation.help.argument.setworldspawn.rotation"
+  },
+  "de_de": {
+    "command_translation.help.argument.setworldspawn.pos": "Die Blockposition des Weltspawns, an der Spieler ohne eigenen Spawnpunkt erscheinen.",
+    "command_translation.help.argument.setworldspawn.angle": "Der yaw (waagerechte Blickrichtung) beim Spawnen hier.",
+    "command_translation.help.argument.setworldspawn.rotation": "Die vollständige Spawn-Blickrichtung als yaw dann pitch in Grad."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.setworldspawn.pos": "ワールドスポーンのブロック座標。個人スポーンを持たないプレイヤーがここに現れる。",
+    "command_translation.help.argument.setworldspawn.angle": "ここでスポーンするときの水平な向き（yaw）。",
+    "command_translation.help.argument.setworldspawn.rotation": "スポーン時の向き全体。yaw の次に pitch を度で指定する。"
+  },
+  "syntax": [
+    {
+      "path": "setworldspawn",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "setworldspawn.pos",
+      "type": "argument",
+      "parser": "minecraft:block_pos",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "setworldspawn.pos.angle",
+      "type": "argument",
+      "parser": "minecraft:angle",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "setworldspawn.pos.rotation",
+      "type": "argument",
+      "parser": "minecraft:rotation",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

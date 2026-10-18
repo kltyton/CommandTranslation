@@ -1,0 +1,48 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:debug_stick_state": "The block state properties selected by this debug stick.",
+    "command_translation.help.component.minecraft:debug_stick_state.field.*": "A block ID mapped to the block state property it edits."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:debug_stick_state": "该调试棒选中的方块状态属性。",
+    "command_translation.help.component.minecraft:debug_stick_state.field.*": "方块 ID 与其要编辑的方块状态属性。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:debug_stick_state": "Die mit diesem Debug-Stab ausgewählten Blockzustands-Eigenschaften.",
+    "command_translation.help.component.minecraft:debug_stick_state.field.*": "Eine Block-ID und die zu bearbeitende Blockzustands-Eigenschaft."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:debug_stick_state": "このデバッグステッキで選択されたブロック状態のプロパティ。",
+    "command_translation.help.component.minecraft:debug_stick_state.field.*": "ブロックIDと編集するブロック状態プロパティ。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:debug_stick_state": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:debug_stick_state.field.*": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

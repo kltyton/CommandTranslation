@@ -1,0 +1,48 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:entity_data": "Entity NBT applied when an entity is created from this item.",
+    "command_translation.help.component.minecraft:entity_data.field.id": "The resource location of the entity to create."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:entity_data": "由该物品生成实体时施加的实体 NBT。",
+    "command_translation.help.component.minecraft:entity_data.field.id": "要生成的实体的资源位置。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:entity_data": "Entitäts-NBT, das beim Erzeugen einer Entität aus diesem Item gesetzt wird.",
+    "command_translation.help.component.minecraft:entity_data.field.id": "Die Ressourcenadresse der zu erzeugenden Entität."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:entity_data": "このアイテムからエンティティを生成するときに適用されるNBT。",
+    "command_translation.help.component.minecraft:entity_data.field.id": "生成するエンティティのリソース位置。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:entity_data": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:entity_data.field.id": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

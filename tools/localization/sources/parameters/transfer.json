@@ -1,0 +1,99 @@
+{
+  "en_us": {
+    "command_translation.help.argument.transfer.hostname": "The address of the server to send the players to.",
+    "command_translation.help.argument.transfer.port": "The TCP port of the destination server.",
+    "command_translation.help.argument.transfer.players": "The players to transfer; defaults to the executor."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.transfer.hostname": "要把玩家转移到的目标服务器地址。",
+    "command_translation.help.argument.transfer.port": "目标服务器的 TCP 端口。",
+    "command_translation.help.argument.transfer.players": "要转移的玩家；默认为执行者。"
+  },
+  "sources": {
+    "command_translation.help.argument.transfer.hostname": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftransfer",
+        "revision": 3693930
+      }
+    ],
+    "command_translation.help.argument.transfer.port": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftransfer",
+        "revision": 3693930
+      }
+    ],
+    "command_translation.help.argument.transfer.players": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftransfer",
+        "revision": 3693930
+      }
+    ]
+  },
+  "bindings": {
+    "transfer.hostname": "command_translation.help.argument.transfer.hostname",
+    "transfer.hostname.port": "command_translation.help.argument.transfer.port",
+    "transfer.hostname.port.players": "command_translation.help.argument.transfer.players"
+  },
+  "de_de": {
+    "command_translation.help.argument.transfer.hostname": "Die Adresse des Zielservers.",
+    "command_translation.help.argument.transfer.port": "Der TCP-Port des Zielservers.",
+    "command_translation.help.argument.transfer.players": "Die zu übertragenden Spieler; Standard ist der Ausführende."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.transfer.hostname": "転送先サーバーのアドレス。",
+    "command_translation.help.argument.transfer.port": "転送先サーバーの TCP ポート。",
+    "command_translation.help.argument.transfer.players": "転送するプレイヤー。既定は実行者。"
+  },
+  "syntax": [
+    {
+      "path": "transfer",
+      "type": "literal",
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "transfer.hostname",
+      "type": "argument",
+      "parser": "brigadier:string",
+      "properties": {
+        "type": "phrase"
+      },
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "transfer.hostname.port",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "max": 65535,
+        "min": 1
+      },
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "transfer.hostname.port.players",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "players",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

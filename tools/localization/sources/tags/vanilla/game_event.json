@@ -1,0 +1,62 @@
+{
+  "en_us": {
+    "command_translation.tag.game_event.minecraft.allay_can_listen": "Events allays listen and react to",
+    "command_translation.tag.game_event.minecraft.ignore_vibrations_sneaking": "Events sculk sensors ignore while sneaking",
+    "command_translation.tag.game_event.minecraft.shrieker_can_listen": "Events that trigger sculk shriekers",
+    "command_translation.tag.game_event.minecraft.vibrations": "Events that trigger sculk sensors",
+    "command_translation.tag.game_event.minecraft.warden_can_listen": "Events wardens listen and react to"
+  },
+  "zh_cn": {
+    "command_translation.tag.game_event.minecraft.allay_can_listen": "悦灵可侦听并反应的事件",
+    "command_translation.tag.game_event.minecraft.ignore_vibrations_sneaking": "潜行时被幽匿感测体忽略的事件",
+    "command_translation.tag.game_event.minecraft.shrieker_can_listen": "触发幽匿尖啸体的事件",
+    "command_translation.tag.game_event.minecraft.vibrations": "触发幽匿感测体的事件",
+    "command_translation.tag.game_event.minecraft.warden_can_listen": "监守者可侦听并反应的事件"
+  },
+  "de_de": {
+    "command_translation.tag.game_event.minecraft.allay_can_listen": "Ereignisse, auf die Allays hören",
+    "command_translation.tag.game_event.minecraft.ignore_vibrations_sneaking": "Ereignisse, die Sensoren beim Schleichen ignorieren",
+    "command_translation.tag.game_event.minecraft.shrieker_can_listen": "Ereignisse, die Schreier auslösen",
+    "command_translation.tag.game_event.minecraft.vibrations": "Ereignisse, die Sensoren auslösen",
+    "command_translation.tag.game_event.minecraft.warden_can_listen": "Ereignisse, auf die Wärter hören"
+  },
+  "ja_jp": {
+    "command_translation.tag.game_event.minecraft.allay_can_listen": "アレイが感知して反応するイベント",
+    "command_translation.tag.game_event.minecraft.ignore_vibrations_sneaking": "スニーク中にセンサーが無視するイベント",
+    "command_translation.tag.game_event.minecraft.shrieker_can_listen": "シュリーカーを起動するイベント",
+    "command_translation.tag.game_event.minecraft.vibrations": "スカルクセンサーを起動するイベント",
+    "command_translation.tag.game_event.minecraft.warden_can_listen": "ウォーデンが感知して反応するイベント"
+  },
+  "sources": {
+    "command_translation.tag.game_event.minecraft.allay_can_listen": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20event%20tag%20(Java%20Edition)",
+        "revision": 3839224
+      }
+    ],
+    "command_translation.tag.game_event.minecraft.ignore_vibrations_sneaking": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20event%20tag%20(Java%20Edition)",
+        "revision": 3839224
+      }
+    ],
+    "command_translation.tag.game_event.minecraft.shrieker_can_listen": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20event%20tag%20(Java%20Edition)",
+        "revision": 3839224
+      }
+    ],
+    "command_translation.tag.game_event.minecraft.vibrations": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20event%20tag%20(Java%20Edition)",
+        "revision": 3839224
+      }
+    ],
+    "command_translation.tag.game_event.minecraft.warden_can_listen": [
+      {
+        "url": "https://minecraft.wiki/w/Game%20event%20tag%20(Java%20Edition)",
+        "revision": 3839224
+      }
+    ]
+  }
+}

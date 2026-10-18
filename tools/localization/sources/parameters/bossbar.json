@@ -1,0 +1,812 @@
+{
+  "en_us": {
+    "command_translation.help.argument.bossbar.add": "Creates a new bossbar with the given id and display name; it starts with no players.",
+    "command_translation.help.argument.bossbar.get": "Reads one property of an existing bossbar and prints it; nothing is changed.",
+    "command_translation.help.argument.bossbar.set": "Changes one property of an existing bossbar, such as colour, style, value or visibility.",
+    "command_translation.help.argument.bossbar.remove": "Deletes the bossbar and removes it from all players' screens.",
+    "command_translation.help.argument.bossbar.list": "Lists the ids of all custom bossbars.",
+    "command_translation.help.argument.bossbar.id": "The unique resource location naming this bossbar.",
+    "command_translation.help.argument.bossbar.name": "The bar's display name.",
+    "command_translation.help.argument.bossbar.max": "The bar's maximum value; defaults to 100 at creation.",
+    "command_translation.help.argument.bossbar.value": "The bar's current value; the bar is drawn as value divided by maximum, and the value is not limited to the maximum.",
+    "command_translation.help.argument.bossbar.visible": "Whether the bar is shown to its players; defaults to shown.",
+    "command_translation.help.argument.bossbar.targets": "The players who can see the bar; it replaces the previous set, and a new bar has none.",
+    "command_translation.help.argument.bossbar.color": "Sets the bar colour.",
+    "command_translation.help.argument.bossbar.style": "Sets the bar's segmentation style.",
+    "command_translation.help.argument.bossbar.option.max": "Sets the maximum value the bar can hold.",
+    "command_translation.help.argument.bossbar.option.value": "Sets the bar's current value.",
+    "command_translation.help.argument.bossbar.option.visible": "Sets whether the bar is shown.",
+    "command_translation.help.argument.bossbar.option.players": "Replaces the set of players who can see the bar.",
+    "command_translation.help.argument.bossbar.option.name": "Sets the bar's display name.",
+    "command_translation.help.argument.bossbar.get.max": "Prints the bar's maximum value.",
+    "command_translation.help.argument.bossbar.get.value": "Prints the bar's current value.",
+    "command_translation.help.argument.bossbar.get.visible": "Prints whether the bar is currently shown.",
+    "command_translation.help.argument.bossbar.get.players": "Prints the players who can see the bar.",
+    "command_translation.help.value.bossbar.set.id.color.blue": "Blue bar colour.",
+    "command_translation.help.value.bossbar.set.id.color.green": "Green bar colour.",
+    "command_translation.help.value.bossbar.set.id.color.pink": "Pink bar colour.",
+    "command_translation.help.value.bossbar.set.id.color.purple": "Purple bar colour.",
+    "command_translation.help.value.bossbar.set.id.color.red": "Red bar colour.",
+    "command_translation.help.value.bossbar.set.id.color.white": "White bar colour (the default at creation).",
+    "command_translation.help.value.bossbar.set.id.color.yellow": "Yellow bar colour.",
+    "command_translation.help.value.bossbar.set.id.style.progress": "A continuous bar with no segment marks.",
+    "command_translation.help.value.bossbar.set.id.style.notched_6": "Bar split into 6 segments.",
+    "command_translation.help.value.bossbar.set.id.style.notched_10": "Bar split into 10 segments.",
+    "command_translation.help.value.bossbar.set.id.style.notched_12": "Bar split into 12 segments.",
+    "command_translation.help.value.bossbar.set.id.style.notched_20": "Bar split into 20 segments."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.bossbar.add": "用给定 id 和显示名创建新的首领栏，初始没有任何玩家可见。",
+    "command_translation.help.argument.bossbar.get": "读取并显示已有首领栏的某一属性，不做修改。",
+    "command_translation.help.argument.bossbar.set": "修改已有首领栏的某一属性，如颜色、样式、当前值或可见性。",
+    "command_translation.help.argument.bossbar.remove": "删除该首领栏，并将其从所有玩家屏幕上移除。",
+    "command_translation.help.argument.bossbar.list": "列出所有自定义首领栏的 id。",
+    "command_translation.help.argument.bossbar.id": "标识该首领栏的唯一资源位置。",
+    "command_translation.help.argument.bossbar.name": "首领栏的显示名称。",
+    "command_translation.help.argument.bossbar.max": "首领栏的最大值；创建时默认为 100。",
+    "command_translation.help.argument.bossbar.value": "首领栏的当前值；进度按当前值÷最大值显示，当前值不受最大值限制。",
+    "command_translation.help.argument.bossbar.visible": "是否向对应玩家显示该栏；默认为显示。",
+    "command_translation.help.argument.bossbar.targets": "能看到该栏的玩家，会替换原有集合；新建的栏没有任何玩家。",
+    "command_translation.help.argument.bossbar.color": "设置首领栏的颜色。",
+    "command_translation.help.argument.bossbar.style": "设置进度条的分隔样式。",
+    "command_translation.help.argument.bossbar.option.max": "设置该栏能容纳的最大值。",
+    "command_translation.help.argument.bossbar.option.value": "设置该栏的当前值。",
+    "command_translation.help.argument.bossbar.option.visible": "设置该栏是否显示。",
+    "command_translation.help.argument.bossbar.option.players": "替换能看到该栏的玩家集合。",
+    "command_translation.help.argument.bossbar.option.name": "设置该栏的显示名称。",
+    "command_translation.help.argument.bossbar.get.max": "显示该栏的最大值。",
+    "command_translation.help.argument.bossbar.get.value": "显示该栏的当前值。",
+    "command_translation.help.argument.bossbar.get.visible": "显示该栏当前是否可见。",
+    "command_translation.help.argument.bossbar.get.players": "显示能看到该栏的玩家。",
+    "command_translation.help.value.bossbar.set.id.color.blue": "蓝色首领栏。",
+    "command_translation.help.value.bossbar.set.id.color.green": "绿色首领栏。",
+    "command_translation.help.value.bossbar.set.id.color.pink": "粉色首领栏。",
+    "command_translation.help.value.bossbar.set.id.color.purple": "紫色首领栏。",
+    "command_translation.help.value.bossbar.set.id.color.red": "红色首领栏。",
+    "command_translation.help.value.bossbar.set.id.color.white": "白色首领栏（创建时的默认值）。",
+    "command_translation.help.value.bossbar.set.id.color.yellow": "黄色首领栏。",
+    "command_translation.help.value.bossbar.set.id.style.progress": "无分段标记的连续进度条。",
+    "command_translation.help.value.bossbar.set.id.style.notched_6": "分为 6 段的进度条。",
+    "command_translation.help.value.bossbar.set.id.style.notched_10": "分为 10 段的进度条。",
+    "command_translation.help.value.bossbar.set.id.style.notched_12": "分为 12 段的进度条。",
+    "command_translation.help.value.bossbar.set.id.style.notched_20": "分为 20 段的进度条。"
+  },
+  "sources": {
+    "command_translation.help.argument.bossbar.add": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fbossbar",
+        "revision": 3834896
+      }
+    ],
+    "command_translation.help.argument.bossbar.get": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fbossbar",
+        "revision": 3834896
+      }
+    ],
+    "command_translation.help.argument.bossbar.set": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fbossbar",
+        "revision": 3834896
+      }
+    ],
+    "command_translation.help.argument.bossbar.remove": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fbossbar",
+        "revision": 3834896
+      }
+    ],
+    "command_translation.help.argument.bossbar.list": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fbossbar",
+        "revision": 3834896
+      }
+    ],
+    "command_translation.help.argument.bossbar.id": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fbossbar",
+        "revision": 3834896
+      },
+      {
+        "url": "https://minecraft.wiki/w/Argument%20types",
+        "revision": 3825973
+      }
+    ],
+    "command_translation.help.argument.bossbar.name": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fbossbar",
+        "revision": 3834896
+      }
+    ],
+    "command_translation.help.argument.bossbar.max": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fbossbar",
+        "revision": 3834896
+      }
+    ],
+    "command_translation.help.argument.bossbar.value": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fbossbar",
+        "revision": 3834896
+      }
+    ],
+    "command_translation.help.argument.bossbar.visible": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fbossbar",
+        "revision": 3834896
+      }
+    ],
+    "command_translation.help.argument.bossbar.targets": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fbossbar",
+        "revision": 3834896
+      },
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.argument.bossbar.color": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fbossbar",
+        "revision": 3834896
+      }
+    ],
+    "command_translation.help.argument.bossbar.style": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fbossbar",
+        "revision": 3834896
+      }
+    ],
+    "command_translation.help.argument.bossbar.option.max": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fbossbar",
+        "revision": 3834896
+      }
+    ],
+    "command_translation.help.argument.bossbar.option.value": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fbossbar",
+        "revision": 3834896
+      }
+    ],
+    "command_translation.help.argument.bossbar.option.visible": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fbossbar",
+        "revision": 3834896
+      }
+    ],
+    "command_translation.help.argument.bossbar.option.players": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fbossbar",
+        "revision": 3834896
+      }
+    ],
+    "command_translation.help.argument.bossbar.option.name": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fbossbar",
+        "revision": 3834896
+      }
+    ],
+    "command_translation.help.argument.bossbar.get.max": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fbossbar",
+        "revision": 3834896
+      }
+    ],
+    "command_translation.help.argument.bossbar.get.value": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fbossbar",
+        "revision": 3834896
+      }
+    ],
+    "command_translation.help.argument.bossbar.get.visible": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fbossbar",
+        "revision": 3834896
+      }
+    ],
+    "command_translation.help.argument.bossbar.get.players": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fbossbar",
+        "revision": 3834896
+      }
+    ],
+    "command_translation.help.value.bossbar.set.id.color.blue": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fbossbar",
+        "revision": 3834896
+      }
+    ],
+    "command_translation.help.value.bossbar.set.id.color.green": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fbossbar",
+        "revision": 3834896
+      }
+    ],
+    "command_translation.help.value.bossbar.set.id.color.pink": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fbossbar",
+        "revision": 3834896
+      }
+    ],
+    "command_translation.help.value.bossbar.set.id.color.purple": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fbossbar",
+        "revision": 3834896
+      }
+    ],
+    "command_translation.help.value.bossbar.set.id.color.red": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fbossbar",
+        "revision": 3834896
+      }
+    ],
+    "command_translation.help.value.bossbar.set.id.color.white": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fbossbar",
+        "revision": 3834896
+      }
+    ],
+    "command_translation.help.value.bossbar.set.id.color.yellow": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fbossbar",
+        "revision": 3834896
+      }
+    ],
+    "command_translation.help.value.bossbar.set.id.style.progress": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fbossbar",
+        "revision": 3834896
+      }
+    ],
+    "command_translation.help.value.bossbar.set.id.style.notched_6": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fbossbar",
+        "revision": 3834896
+      }
+    ],
+    "command_translation.help.value.bossbar.set.id.style.notched_10": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fbossbar",
+        "revision": 3834896
+      }
+    ],
+    "command_translation.help.value.bossbar.set.id.style.notched_12": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fbossbar",
+        "revision": 3834896
+      }
+    ],
+    "command_translation.help.value.bossbar.set.id.style.notched_20": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fbossbar",
+        "revision": 3834896
+      }
+    ]
+  },
+  "bindings": {
+    "bossbar.add": "command_translation.help.argument.bossbar.add",
+    "bossbar.add.id": "command_translation.help.argument.bossbar.id",
+    "bossbar.add.id.name": "command_translation.help.argument.bossbar.name",
+    "bossbar.get": "command_translation.help.argument.bossbar.get",
+    "bossbar.get.id": "command_translation.help.argument.bossbar.id",
+    "bossbar.get.id.max": "command_translation.help.argument.bossbar.get.max",
+    "bossbar.get.id.players": "command_translation.help.argument.bossbar.get.players",
+    "bossbar.get.id.value": "command_translation.help.argument.bossbar.get.value",
+    "bossbar.get.id.visible": "command_translation.help.argument.bossbar.get.visible",
+    "bossbar.list": "command_translation.help.argument.bossbar.list",
+    "bossbar.remove": "command_translation.help.argument.bossbar.remove",
+    "bossbar.remove.id": "command_translation.help.argument.bossbar.id",
+    "bossbar.set": "command_translation.help.argument.bossbar.set",
+    "bossbar.set.id": "command_translation.help.argument.bossbar.id",
+    "bossbar.set.id.color": "command_translation.help.argument.bossbar.color",
+    "bossbar.set.id.color.blue": "command_translation.help.value.bossbar.set.id.color.blue",
+    "bossbar.set.id.color.green": "command_translation.help.value.bossbar.set.id.color.green",
+    "bossbar.set.id.color.pink": "command_translation.help.value.bossbar.set.id.color.pink",
+    "bossbar.set.id.color.purple": "command_translation.help.value.bossbar.set.id.color.purple",
+    "bossbar.set.id.color.red": "command_translation.help.value.bossbar.set.id.color.red",
+    "bossbar.set.id.color.white": "command_translation.help.value.bossbar.set.id.color.white",
+    "bossbar.set.id.color.yellow": "command_translation.help.value.bossbar.set.id.color.yellow",
+    "bossbar.set.id.max": "command_translation.help.argument.bossbar.option.max",
+    "bossbar.set.id.max.max": "command_translation.help.argument.bossbar.max",
+    "bossbar.set.id.name": "command_translation.help.argument.bossbar.option.name",
+    "bossbar.set.id.name.name": "command_translation.help.argument.bossbar.name",
+    "bossbar.set.id.players": "command_translation.help.argument.bossbar.option.players",
+    "bossbar.set.id.players.targets": "command_translation.help.argument.bossbar.targets",
+    "bossbar.set.id.style": "command_translation.help.argument.bossbar.style",
+    "bossbar.set.id.style.notched_10": "command_translation.help.value.bossbar.set.id.style.notched_10",
+    "bossbar.set.id.style.notched_12": "command_translation.help.value.bossbar.set.id.style.notched_12",
+    "bossbar.set.id.style.notched_20": "command_translation.help.value.bossbar.set.id.style.notched_20",
+    "bossbar.set.id.style.notched_6": "command_translation.help.value.bossbar.set.id.style.notched_6",
+    "bossbar.set.id.style.progress": "command_translation.help.value.bossbar.set.id.style.progress",
+    "bossbar.set.id.value": "command_translation.help.argument.bossbar.option.value",
+    "bossbar.set.id.value.value": "command_translation.help.argument.bossbar.value",
+    "bossbar.set.id.visible": "command_translation.help.argument.bossbar.option.visible",
+    "bossbar.set.id.visible.visible": "command_translation.help.argument.bossbar.visible"
+  },
+  "de_de": {
+    "command_translation.help.argument.bossbar.add": "Erstellt eine neue Bossleiste mit der angegebenen ID und dem Anzeigenamen; sie startet ohne Spieler.",
+    "command_translation.help.argument.bossbar.get": "Liest eine Eigenschaft einer vorhandenen Bossleiste und gibt sie aus; nichts wird geändert.",
+    "command_translation.help.argument.bossbar.set": "Ändert eine Eigenschaft einer vorhandenen Bossleiste, z. B. Farbe, Stil, Wert oder Sichtbarkeit.",
+    "command_translation.help.argument.bossbar.remove": "Löscht die Bossleiste und entfernt sie von allen Bildschirmen.",
+    "command_translation.help.argument.bossbar.list": "Listet die IDs aller benutzerdefinierten Bossleisten.",
+    "command_translation.help.argument.bossbar.id": "Die eindeutige Ressourcenposition, die diese Bossleiste benennt.",
+    "command_translation.help.argument.bossbar.name": "Der Anzeigename der Leiste.",
+    "command_translation.help.argument.bossbar.max": "Der maximale Wert der Leiste; Standard beim Erstellen 100.",
+    "command_translation.help.argument.bossbar.value": "Der aktuelle Wert der Leiste; sie wird als Wert geteilt durch Maximum gezeichnet, der Wert ist nicht auf das Maximum begrenzt.",
+    "command_translation.help.argument.bossbar.visible": "Ob die Leiste ihren Spielern angezeigt wird; Standard sichtbar.",
+    "command_translation.help.argument.bossbar.targets": "Die Spieler, die die Leiste sehen können; ersetzt die vorherige Menge, eine neue Leiste hat keine.",
+    "command_translation.help.argument.bossbar.color": "Setzt die Farbe der Leiste.",
+    "command_translation.help.argument.bossbar.style": "Setzt den Segmentierungsstil der Leiste.",
+    "command_translation.help.argument.bossbar.option.max": "Setzt den maximalen Wert der Leiste.",
+    "command_translation.help.argument.bossbar.option.value": "Setzt den aktuellen Wert der Leiste.",
+    "command_translation.help.argument.bossbar.option.visible": "Setzt, ob die Leiste angezeigt wird.",
+    "command_translation.help.argument.bossbar.option.players": "Ersetzt die Menge der Spieler, die die Leiste sehen können.",
+    "command_translation.help.argument.bossbar.option.name": "Setzt den Anzeigenamen der Leiste.",
+    "command_translation.help.argument.bossbar.get.max": "Gibt den maximalen Wert der Leiste aus.",
+    "command_translation.help.argument.bossbar.get.value": "Gibt den aktuellen Wert der Leiste aus.",
+    "command_translation.help.argument.bossbar.get.visible": "Gibt aus, ob die Leiste aktuell angezeigt wird.",
+    "command_translation.help.argument.bossbar.get.players": "Gibt die Spieler aus, die die Leiste sehen können.",
+    "command_translation.help.value.bossbar.set.id.color.blue": "Blaue Leistenfarbe.",
+    "command_translation.help.value.bossbar.set.id.color.green": "Grüne Leistenfarbe.",
+    "command_translation.help.value.bossbar.set.id.color.pink": "Rosa Leistenfarbe.",
+    "command_translation.help.value.bossbar.set.id.color.purple": "Violette Leistenfarbe.",
+    "command_translation.help.value.bossbar.set.id.color.red": "Rote Leistenfarbe.",
+    "command_translation.help.value.bossbar.set.id.color.white": "Weiße Leistenfarbe (Standard beim Erstellen).",
+    "command_translation.help.value.bossbar.set.id.color.yellow": "Gelbe Leistenfarbe.",
+    "command_translation.help.value.bossbar.set.id.style.progress": "Durchgehende Leiste ohne Segmentmarken.",
+    "command_translation.help.value.bossbar.set.id.style.notched_6": "Leiste in 6 Segmente geteilt.",
+    "command_translation.help.value.bossbar.set.id.style.notched_10": "Leiste in 10 Segmente geteilt.",
+    "command_translation.help.value.bossbar.set.id.style.notched_12": "Leiste in 12 Segmente geteilt.",
+    "command_translation.help.value.bossbar.set.id.style.notched_20": "Leiste in 20 Segmente geteilt."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.bossbar.add": "指定した ID と表示名で新しいボスバーを作成する。最初はどのプレイヤーにも見えない。",
+    "command_translation.help.argument.bossbar.get": "既存のボスバーの 1 つの設定を読み取って表示する。変更はしない。",
+    "command_translation.help.argument.bossbar.set": "既存のボスバーの 1 つの設定（色、スタイル、値、表示など）を変更する。",
+    "command_translation.help.argument.bossbar.remove": "このボスバーを削除し、すべての画面から取り除く。",
+    "command_translation.help.argument.bossbar.list": "すべてのカスタムボスバーの ID を一覧表示する。",
+    "command_translation.help.argument.bossbar.id": "このボスバーを識別する一意のリソース位置。",
+    "command_translation.help.argument.bossbar.name": "バーの表示名。",
+    "command_translation.help.argument.bossbar.max": "バーの最大値。作成時の既定は 100。",
+    "command_translation.help.argument.bossbar.value": "バーの現在値。バーは現在値÷最大値で描画され、現在値は最大値に制限されない。",
+    "command_translation.help.argument.bossbar.visible": "バーを対象プレイヤーに表示するか。既定は表示。",
+    "command_translation.help.argument.bossbar.targets": "バーを見られるプレイヤー。以前の集合を置き換え、新しいバーには誰もいない。",
+    "command_translation.help.argument.bossbar.color": "バーの色を設定する。",
+    "command_translation.help.argument.bossbar.style": "バーの分割スタイルを設定する。",
+    "command_translation.help.argument.bossbar.option.max": "バーが保持できる最大値を設定する。",
+    "command_translation.help.argument.bossbar.option.value": "バーの現在値を設定する。",
+    "command_translation.help.argument.bossbar.option.visible": "バーを表示するかどうかを設定する。",
+    "command_translation.help.argument.bossbar.option.players": "バーを見られるプレイヤーの集合を置き換える。",
+    "command_translation.help.argument.bossbar.option.name": "バーの表示名を設定する。",
+    "command_translation.help.argument.bossbar.get.max": "バーの最大値を表示する。",
+    "command_translation.help.argument.bossbar.get.value": "バーの現在値を表示する。",
+    "command_translation.help.argument.bossbar.get.visible": "バーが現在表示されているかを表示する。",
+    "command_translation.help.argument.bossbar.get.players": "バーを見られるプレイヤーを表示する。",
+    "command_translation.help.value.bossbar.set.id.color.blue": "青のバー色。",
+    "command_translation.help.value.bossbar.set.id.color.green": "緑のバー色。",
+    "command_translation.help.value.bossbar.set.id.color.pink": "ピンクのバー色。",
+    "command_translation.help.value.bossbar.set.id.color.purple": "紫のバー色。",
+    "command_translation.help.value.bossbar.set.id.color.red": "赤のバー色。",
+    "command_translation.help.value.bossbar.set.id.color.white": "白のバー色（作成時の既定）。",
+    "command_translation.help.value.bossbar.set.id.color.yellow": "黄のバー色。",
+    "command_translation.help.value.bossbar.set.id.style.progress": "区切り線のない連続バー。",
+    "command_translation.help.value.bossbar.set.id.style.notched_6": "バーを 6 分割する。",
+    "command_translation.help.value.bossbar.set.id.style.notched_10": "バーを 10 分割する。",
+    "command_translation.help.value.bossbar.set.id.style.notched_12": "バーを 12 分割する。",
+    "command_translation.help.value.bossbar.set.id.style.notched_20": "バーを 20 分割する。"
+  },
+  "syntax": [
+    {
+      "path": "bossbar",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "bossbar.add",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "bossbar.add.id",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "bossbar.add.id.name",
+      "type": "argument",
+      "parser": "minecraft:component",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "bossbar.get",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "bossbar.get.id",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "bossbar.get.id.max",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "bossbar.get.id.players",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "bossbar.get.id.value",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "bossbar.get.id.visible",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "bossbar.list",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "bossbar.remove",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "bossbar.remove.id",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "bossbar.set",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "bossbar.set.id",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "bossbar.set.id.color",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "bossbar.set.id.color.blue",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "bossbar.set.id.color.green",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "bossbar.set.id.color.pink",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "bossbar.set.id.color.purple",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "bossbar.set.id.color.red",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "bossbar.set.id.color.white",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "bossbar.set.id.color.yellow",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "bossbar.set.id.max",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "bossbar.set.id.max.max",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "min": 1
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "bossbar.set.id.name",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "bossbar.set.id.name.name",
+      "type": "argument",
+      "parser": "minecraft:component",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "bossbar.set.id.players",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "bossbar.set.id.players.targets",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "players",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "bossbar.set.id.style",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "bossbar.set.id.style.notched_10",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "bossbar.set.id.style.notched_12",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "bossbar.set.id.style.notched_20",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "bossbar.set.id.style.notched_6",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "bossbar.set.id.style.progress",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "bossbar.set.id.value",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "bossbar.set.id.value.value",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "bossbar.set.id.visible",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "bossbar.set.id.visible.visible",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

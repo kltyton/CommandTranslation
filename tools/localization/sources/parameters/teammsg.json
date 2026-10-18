@@ -1,0 +1,48 @@
+{
+  "en_us": {
+    "command_translation.help.argument.teammsg.message": "The message sent to everyone in your team; the command fails if the executor is not in a team."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.teammsg.message": "发送给同队伍所有人的消息；执行者不在队伍时命令失败。"
+  },
+  "sources": {
+    "command_translation.help.argument.teammsg.message": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fteammsg",
+        "revision": 3835291
+      }
+    ]
+  },
+  "bindings": {
+    "teammsg.message": "command_translation.help.argument.teammsg.message"
+  },
+  "de_de": {
+    "command_translation.help.argument.teammsg.message": "Die Nachricht an alle im eigenen Team; der Befehl scheitert, wenn der Ausführende in keinem Team ist."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.teammsg.message": "チームの全員に送るメッセージ。実行者がチームに属していないと失敗する。"
+  },
+  "syntax": [
+    {
+      "path": "teammsg",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "teammsg.message",
+      "type": "argument",
+      "parser": "minecraft:message",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

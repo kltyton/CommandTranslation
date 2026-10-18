@@ -1,0 +1,68 @@
+{
+  "en_us": {
+    "command_translation.help.argument.perf.start": "Starts a 10-second performance-profiling recording (dedicated server only).",
+    "command_translation.help.argument.perf.stop": "Ends the recording early and writes a ZIP with the results under .minecraft/debug/profiling."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.perf.start": "开始一次 10 秒的性能分析记录（仅专用服务器）。",
+    "command_translation.help.argument.perf.stop": "提前结束记录，并把结果 ZIP 写入 .minecraft/debug/profiling 下。"
+  },
+  "sources": {
+    "command_translation.help.argument.perf.start": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fperf",
+        "revision": 2814129
+      }
+    ],
+    "command_translation.help.argument.perf.stop": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fperf",
+        "revision": 2814129
+      }
+    ]
+  },
+  "bindings": {
+    "perf.start": "command_translation.help.argument.perf.start",
+    "perf.stop": "command_translation.help.argument.perf.stop"
+  },
+  "de_de": {
+    "command_translation.help.argument.perf.start": "Startet eine 10-sekündige Performance-Profiling-Aufzeichnung (nur dedizierter Server).",
+    "command_translation.help.argument.perf.stop": "Beendet die Aufzeichnung vorzeitig und schreibt ein ZIP mit den Ergebnissen unter .minecraft/debug/profiling."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.perf.start": "10 秒間のパフォーマンスプロファイリング記録を開始する（専用サーバーのみ）。",
+    "command_translation.help.argument.perf.stop": "記録を途中で終了し、結果の ZIP を .minecraft/debug/profiling に書き出す。"
+  },
+  "syntax": [
+    {
+      "path": "perf",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "perf.start",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "perf.stop",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

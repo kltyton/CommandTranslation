@@ -1,0 +1,95 @@
+{
+  "en_us": {
+    "command_translation.help.argument.summon.entity": "The entity type to create; players and fishing bobbers cannot be summoned.",
+    "command_translation.help.argument.summon.pos": "Where to place the new entity; defaults to the execution position.",
+    "command_translation.help.argument.summon.nbt": "The NBT applied to the summoned entity."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.summon.entity": "要生成的实体类型；玩家与钓鱼浮标无法生成。",
+    "command_translation.help.argument.summon.pos": "新实体的生成位置，默认为执行位置。",
+    "command_translation.help.argument.summon.nbt": "施加到所生成实体上的 NBT。"
+  },
+  "sources": {
+    "command_translation.help.argument.summon.entity": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fsummon",
+        "revision": 3831367
+      }
+    ],
+    "command_translation.help.argument.summon.pos": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fsummon",
+        "revision": 3831367
+      }
+    ],
+    "command_translation.help.argument.summon.nbt": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fsummon",
+        "revision": 3831367
+      }
+    ]
+  },
+  "bindings": {
+    "summon.entity": "command_translation.help.argument.summon.entity",
+    "summon.entity.pos": "command_translation.help.argument.summon.pos",
+    "summon.entity.pos.nbt": "command_translation.help.argument.summon.nbt"
+  },
+  "de_de": {
+    "command_translation.help.argument.summon.entity": "Der zu erzeugende Wesenstyp; Spieler und Angelhaken können nicht beschworen werden.",
+    "command_translation.help.argument.summon.pos": "Die Position des neuen Wesens; Standard ist die Ausführungsposition.",
+    "command_translation.help.argument.summon.nbt": "Die auf das beschworene Wesen angewendeten NBT-Daten."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.summon.entity": "生成するエンティティの種類。プレイヤーと釣り浮きは生成できない。",
+    "command_translation.help.argument.summon.pos": "新しいエンティティを置く位置。既定は実行位置。",
+    "command_translation.help.argument.summon.nbt": "生成したエンティティに適用する NBT。"
+  },
+  "syntax": [
+    {
+      "path": "summon",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "summon.entity",
+      "type": "argument",
+      "parser": "minecraft:resource",
+      "properties": {
+        "registry": "minecraft:entity_type"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "summon.entity.pos",
+      "type": "argument",
+      "parser": "minecraft:vec3",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "summon.entity.pos.nbt",
+      "type": "argument",
+      "parser": "minecraft:nbt_compound_tag",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

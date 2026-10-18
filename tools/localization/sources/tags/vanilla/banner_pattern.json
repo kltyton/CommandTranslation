@@ -1,0 +1,122 @@
+{
+  "en_us": {
+    "command_translation.tag.banner_pattern.minecraft.no_item_required": "Loom patterns usable without a pattern item",
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.creeper": "Creeper banner pattern",
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.flower": "Flower banner pattern",
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.globe": "Globe banner pattern",
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.mojang": "Mojang banner pattern",
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.piglin": "Piglin banner pattern",
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.skull": "Skull banner pattern",
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.flow": "Flow banner pattern",
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.guster": "Guster banner pattern",
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.bordure_indented": "Bordure indented banner pattern",
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.field_masoned": "Field masoned banner pattern"
+  },
+  "zh_cn": {
+    "command_translation.tag.banner_pattern.minecraft.no_item_required": "无需图案物品即可在织布机选用",
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.creeper": "苦力怕旗帜图案",
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.flower": "花朵旗帜图案",
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.globe": "地球旗帜图案",
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.mojang": "Mojang旗帜图案",
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.piglin": "猪灵旗帜图案",
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.skull": "骷髅旗帜图案",
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.flow": "涡流旗帜图案",
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.guster": "旋风旗帜图案",
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.bordure_indented": "波纹边框旗帜图案",
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.field_masoned": "砖纹旗帜图案"
+  },
+  "de_de": {
+    "command_translation.tag.banner_pattern.minecraft.no_item_required": "Webmuster ohne Mustergegenstand wählbar",
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.creeper": "Creeper-Bannermuster",
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.flower": "Blumen-Bannermuster",
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.globe": "Globus-Bannermuster",
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.mojang": "Mojang-Bannermuster",
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.piglin": "Piglin-Bannermuster",
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.skull": "Schädel-Bannermuster",
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.flow": "Flow-Bannermuster",
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.guster": "Guster-Bannermuster",
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.bordure_indented": "Bordüren-Bannermuster",
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.field_masoned": "Mauerwerk-Bannermuster"
+  },
+  "ja_jp": {
+    "command_translation.tag.banner_pattern.minecraft.no_item_required": "模様アイテム不要で織機に選べる模様",
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.creeper": "クリーパーの旗の模様",
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.flower": "花の旗の模様",
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.globe": "地球の旗の模様",
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.mojang": "Mojangの旗の模様",
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.piglin": "ピグリンの旗の模様",
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.skull": "ドクロの旗の模様",
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.flow": "フローの旗の模様",
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.guster": "ガスターの旗の模様",
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.bordure_indented": "縁取りの旗の模様",
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.field_masoned": "レンガの旗の模様"
+  },
+  "sources": {
+    "command_translation.tag.banner_pattern.minecraft.no_item_required": [
+      {
+        "url": "https://minecraft.wiki/w/Banner%20pattern%20tag%20(Java%20Edition)",
+        "revision": 3839209
+      }
+    ],
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.creeper": [
+      {
+        "url": "https://minecraft.wiki/w/Banner%20pattern%20tag%20(Java%20Edition)",
+        "revision": 3839209
+      }
+    ],
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.flower": [
+      {
+        "url": "https://minecraft.wiki/w/Banner%20pattern%20tag%20(Java%20Edition)",
+        "revision": 3839209
+      }
+    ],
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.globe": [
+      {
+        "url": "https://minecraft.wiki/w/Banner%20pattern%20tag%20(Java%20Edition)",
+        "revision": 3839209
+      }
+    ],
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.mojang": [
+      {
+        "url": "https://minecraft.wiki/w/Banner%20pattern%20tag%20(Java%20Edition)",
+        "revision": 3839209
+      }
+    ],
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.piglin": [
+      {
+        "url": "https://minecraft.wiki/w/Banner%20pattern%20tag%20(Java%20Edition)",
+        "revision": 3839209
+      }
+    ],
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.skull": [
+      {
+        "url": "https://minecraft.wiki/w/Banner%20pattern%20tag%20(Java%20Edition)",
+        "revision": 3839209
+      }
+    ],
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.flow": [
+      {
+        "url": "https://minecraft.wiki/w/Banner%20pattern%20tag%20(Java%20Edition)",
+        "revision": 3839209
+      }
+    ],
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.guster": [
+      {
+        "url": "https://minecraft.wiki/w/Banner%20pattern%20tag%20(Java%20Edition)",
+        "revision": 3839209
+      }
+    ],
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.bordure_indented": [
+      {
+        "url": "https://minecraft.wiki/w/Banner%20pattern%20tag%20(Java%20Edition)",
+        "revision": 3839209
+      }
+    ],
+    "command_translation.tag.banner_pattern.minecraft.pattern_item.field_masoned": [
+      {
+        "url": "https://minecraft.wiki/w/Banner%20pattern%20tag%20(Java%20Edition)",
+        "revision": 3839209
+      }
+    ]
+  }
+}

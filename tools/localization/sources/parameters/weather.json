@@ -1,0 +1,144 @@
+{
+  "en_us": {
+    "command_translation.help.argument.weather.clear": "Sets clear weather, ending rain and thunderstorms for the chosen duration.",
+    "command_translation.help.argument.weather.rain": "Starts rain, or snow in cold biomes; the optional duration controls how long it lasts.",
+    "command_translation.help.argument.weather.thunder": "Starts a thunderstorm, with rain or snow according to the biome.",
+    "command_translation.help.argument.weather.duration": "How long the weather lasts; if omitted, a random duration is chosen."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.weather.clear": "设为晴天，在指定时长内结束降雨与雷暴。",
+    "command_translation.help.argument.weather.rain": "开始下雨，寒冷群系中为下雪；可选时长决定持续多久。",
+    "command_translation.help.argument.weather.thunder": "开始雷暴，随群系表现为降雨或降雪。",
+    "command_translation.help.argument.weather.duration": "天气持续时长；省略时随机选取。"
+  },
+  "sources": {
+    "command_translation.help.argument.weather.clear": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fweather",
+        "revision": 3751988
+      }
+    ],
+    "command_translation.help.argument.weather.rain": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fweather",
+        "revision": 3751988
+      }
+    ],
+    "command_translation.help.argument.weather.thunder": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fweather",
+        "revision": 3751988
+      }
+    ],
+    "command_translation.help.argument.weather.duration": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fweather",
+        "revision": 3751988
+      }
+    ]
+  },
+  "bindings": {
+    "weather.clear": "command_translation.help.argument.weather.clear",
+    "weather.clear.duration": "command_translation.help.argument.weather.duration",
+    "weather.rain": "command_translation.help.argument.weather.rain",
+    "weather.rain.duration": "command_translation.help.argument.weather.duration",
+    "weather.thunder": "command_translation.help.argument.weather.thunder",
+    "weather.thunder.duration": "command_translation.help.argument.weather.duration"
+  },
+  "de_de": {
+    "command_translation.help.argument.weather.clear": "Setzt klares Wetter und beendet für die gewählte Dauer Regen und Gewitter.",
+    "command_translation.help.argument.weather.rain": "Startet Regen, in kalten Biomen Schnee; die optionale Dauer bestimmt die Länge.",
+    "command_translation.help.argument.weather.thunder": "Startet ein Gewitter, mit Regen oder Schnee je nach Biom.",
+    "command_translation.help.argument.weather.duration": "Wie lange das Wetter anhält; ohne Angabe zufällig."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.weather.clear": "指定時間、晴れにして雨や雷雨を止める。",
+    "command_translation.help.argument.weather.rain": "雨を降らせる。寒いバイオームでは雪。省略可能な持続時間で長さを指定する。",
+    "command_translation.help.argument.weather.thunder": "雷雨を開始する。バイオームに応じて雨や雪になる。",
+    "command_translation.help.argument.weather.duration": "天候の持続時間。省略するとランダムに選ばれる。"
+  },
+  "syntax": [
+    {
+      "path": "weather",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "weather.clear",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "weather.clear.duration",
+      "type": "argument",
+      "parser": "minecraft:time",
+      "properties": {
+        "min": 1
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "weather.rain",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "weather.rain.duration",
+      "type": "argument",
+      "parser": "minecraft:time",
+      "properties": {
+        "min": 1
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "weather.thunder",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "weather.thunder.duration",
+      "type": "argument",
+      "parser": "minecraft:time",
+      "properties": {
+        "min": 1
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

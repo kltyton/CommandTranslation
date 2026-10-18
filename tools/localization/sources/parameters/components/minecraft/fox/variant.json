@@ -1,0 +1,66 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:fox/variant": "The fox’s appearance variant.",
+    "command_translation.help.component.minecraft:fox/variant.value.red": "Red fox.",
+    "command_translation.help.component.minecraft:fox/variant.value.snow": "Snow fox."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:fox/variant": "狐狸的外观变种。",
+    "command_translation.help.component.minecraft:fox/variant.value.red": "赤狐。",
+    "command_translation.help.component.minecraft:fox/variant.value.snow": "雪狐。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:fox/variant": "Die Erscheinungsvariante des Fuchses.",
+    "command_translation.help.component.minecraft:fox/variant.value.red": "Rotfuchs.",
+    "command_translation.help.component.minecraft:fox/variant.value.snow": "Schneefuchs."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:fox/variant": "キツネの見た目のバリエーション。",
+    "command_translation.help.component.minecraft:fox/variant.value.red": "アカギツネ。",
+    "command_translation.help.component.minecraft:fox/variant.value.snow": "ホッキョクギツネ。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:fox/variant": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:fox/variant.value.red": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ],
+    "command_translation.help.component.minecraft:fox/variant.value.snow": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3840908",
+        "revision": 3840908
+      }
+    ]
+  }
+}

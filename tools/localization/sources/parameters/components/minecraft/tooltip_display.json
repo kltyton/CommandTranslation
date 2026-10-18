@@ -1,0 +1,54 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:tooltip_display": "Suppresses the tooltips provided by specified item components.",
+    "command_translation.help.component.minecraft:tooltip_display.field.hide_tooltip": "Whether the item shows no tooltip when hovered.",
+    "command_translation.help.component.minecraft:tooltip_display.field.hidden_components": "The list of components whose tooltips are hidden."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:tooltip_display": "隐藏由指定物品组件提供的提示。",
+    "command_translation.help.component.minecraft:tooltip_display.field.hide_tooltip": "悬停时该物品是否完全不显示提示。",
+    "command_translation.help.component.minecraft:tooltip_display.field.hidden_components": "提示被隐藏的组件列表。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:tooltip_display": "Unterdrückt die von bestimmten Itemkomponenten bereitgestellten Tooltips.",
+    "command_translation.help.component.minecraft:tooltip_display.field.hide_tooltip": "Ob das Item beim Überfahren gar keinen Tooltip zeigt.",
+    "command_translation.help.component.minecraft:tooltip_display.field.hidden_components": "Die Liste der Komponenten, deren Tooltips ausgeblendet werden."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:tooltip_display": "指定したアイテムコンポーネントが提供するツールチップを抑止する。",
+    "command_translation.help.component.minecraft:tooltip_display.field.hide_tooltip": "カーソルを合わせたときにツールチップを全く表示しないか。",
+    "command_translation.help.component.minecraft:tooltip_display.field.hidden_components": "ツールチップを隠すコンポーネントのリスト。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:tooltip_display": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:tooltip_display.field.hide_tooltip": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:tooltip_display.field.hidden_components": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

@@ -1,0 +1,367 @@
+{
+  "en_us": {
+    "command_translation.help.argument.experience.add": "Adds experience, and a negative amount removes it; experience added as points also counts into the player's score.",
+    "command_translation.help.argument.experience.set": "Sets the target's experience to an exact value.",
+    "command_translation.help.argument.experience.query": "Prints the single target's experience without changing it.",
+    "command_translation.help.argument.experience.targets": "The players to affect; query accepts only one player.",
+    "command_translation.help.argument.experience.amount": "The amount of experience, counted as points or levels depending on the next word.",
+    "command_translation.help.argument.experience.levels": "Counts the amount as experience levels, keeping the level bar progress.",
+    "command_translation.help.argument.experience.points": "Counts the amount as raw experience points (the default)."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.experience.add": "增加经验，负数为扣除；以点数增加的经验也会计入玩家分数。",
+    "command_translation.help.argument.experience.set": "把目标的经验设为精确值。",
+    "command_translation.help.argument.experience.query": "输出单个目标的经验，不做修改。",
+    "command_translation.help.argument.experience.targets": "要作用的玩家；query 只接受单个玩家。",
+    "command_translation.help.argument.experience.amount": "经验的数量，按后一个词以点数或等级计。",
+    "command_translation.help.argument.experience.levels": "把数量按经验等级计，保持当前等级条进度。",
+    "command_translation.help.argument.experience.points": "把数量按原始经验点计（默认）。"
+  },
+  "sources": {
+    "command_translation.help.argument.experience.add": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fxp",
+        "revision": 3567326
+      }
+    ],
+    "command_translation.help.argument.experience.set": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fxp",
+        "revision": 3567326
+      }
+    ],
+    "command_translation.help.argument.experience.query": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fxp",
+        "revision": 3567326
+      }
+    ],
+    "command_translation.help.argument.experience.targets": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fxp",
+        "revision": 3567326
+      }
+    ],
+    "command_translation.help.argument.experience.amount": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fxp",
+        "revision": 3567326
+      }
+    ],
+    "command_translation.help.argument.experience.levels": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fxp",
+        "revision": 3567326
+      }
+    ],
+    "command_translation.help.argument.experience.points": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fxp",
+        "revision": 3567326
+      }
+    ]
+  },
+  "bindings": {
+    "experience.add": "command_translation.help.argument.experience.add",
+    "experience.add.target": "command_translation.help.argument.experience.targets",
+    "experience.add.target.amount": "command_translation.help.argument.experience.amount",
+    "experience.add.target.amount.levels": "command_translation.help.argument.experience.levels",
+    "experience.add.target.amount.points": "command_translation.help.argument.experience.points",
+    "experience.add.targets": "command_translation.help.argument.experience.targets",
+    "experience.add.targets.amount": "command_translation.help.argument.experience.amount",
+    "experience.add.targets.amount.levels": "command_translation.help.argument.experience.levels",
+    "experience.add.targets.amount.points": "command_translation.help.argument.experience.points",
+    "experience.query": "command_translation.help.argument.experience.query",
+    "experience.query.target": "command_translation.help.argument.experience.targets",
+    "experience.query.target.levels": "command_translation.help.argument.experience.levels",
+    "experience.query.target.points": "command_translation.help.argument.experience.points",
+    "experience.query.targets": "command_translation.help.argument.experience.targets",
+    "experience.query.targets.levels": "command_translation.help.argument.experience.levels",
+    "experience.query.targets.points": "command_translation.help.argument.experience.points",
+    "experience.set": "command_translation.help.argument.experience.set",
+    "experience.set.target": "command_translation.help.argument.experience.targets",
+    "experience.set.target.amount": "command_translation.help.argument.experience.amount",
+    "experience.set.target.amount.levels": "command_translation.help.argument.experience.levels",
+    "experience.set.target.amount.points": "command_translation.help.argument.experience.points",
+    "experience.set.targets": "command_translation.help.argument.experience.targets",
+    "experience.set.targets.amount": "command_translation.help.argument.experience.amount",
+    "experience.set.targets.amount.levels": "command_translation.help.argument.experience.levels",
+    "experience.set.targets.amount.points": "command_translation.help.argument.experience.points"
+  },
+  "de_de": {
+    "command_translation.help.argument.experience.add": "Fügt Erfahrung hinzu, ein negativer Wert entfernt sie; als Punkte zugefügte Erfahrung zählt auch in den Punktestand.",
+    "command_translation.help.argument.experience.set": "Setzt die Erfahrung des Ziels auf einen genauen Wert.",
+    "command_translation.help.argument.experience.query": "Gibt die Erfahrung des einzelnen Ziels aus, ohne sie zu ändern.",
+    "command_translation.help.argument.experience.targets": "Die zu beeinflussenden Spieler; query akzeptiert nur einen Spieler.",
+    "command_translation.help.argument.experience.amount": "Die Erfahrungsmenge, je nach nächstem Wort als Punkte oder Stufen gezählt.",
+    "command_translation.help.argument.experience.levels": "Zählt die Menge als Erfahrungsstufen und behält den Fortschritt der Leiste.",
+    "command_translation.help.argument.experience.points": "Zählt die Menge als rohe Erfahrungspunkte (Standard)."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.experience.add": "経験値を加算し、負の値なら減算する。ポイントで加算した経験値はプレイヤーのスコアにも入る。",
+    "command_translation.help.argument.experience.set": "対象の経験値を正確な値に設定する。",
+    "command_translation.help.argument.experience.query": "単一の対象の経験値を表示する（変更はしない）。",
+    "command_translation.help.argument.experience.targets": "作用するプレイヤー。query は 1 人のみ受け付ける。",
+    "command_translation.help.argument.experience.amount": "経験値の量。次の語に応じてポイントまたはレベルとして数える。",
+    "command_translation.help.argument.experience.levels": "量を経験値レベルとして数え、レベルバーの進捗は保たれる。",
+    "command_translation.help.argument.experience.points": "量を生の経験値ポイントとして数える（既定）。"
+  },
+  "syntax": [
+    {
+      "path": "experience",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "experience.add",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "experience.add.targets",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "players",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "experience.add.targets.amount",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "experience.add.targets.amount.levels",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "experience.add.targets.amount.points",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "experience.query",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "experience.query.targets",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "players",
+        "amount": "single"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "experience.query.targets.levels",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "experience.query.targets.points",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "experience.set",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "experience.set.targets",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "players",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "experience.set.targets.amount",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "experience.set.targets.amount.levels",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "experience.set.targets.amount.points",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "experience.add.target",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "players",
+        "amount": "multiple"
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "experience.add.target.amount",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "experience.add.target.amount.levels",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "experience.add.target.amount.points",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "experience.query.target",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "players",
+        "amount": "single"
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "experience.query.target.levels",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "experience.query.target.points",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "experience.set.target",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "players",
+        "amount": "multiple"
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "experience.set.target.amount",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "experience.set.target.amount.levels",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "experience.set.target.amount.points",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

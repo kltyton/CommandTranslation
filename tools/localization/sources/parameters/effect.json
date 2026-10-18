@@ -1,0 +1,277 @@
+{
+  "en_us": {
+    "command_translation.help.argument.effect.clear": "Removes status effects instead of adding them.",
+    "command_translation.help.argument.effect.give": "Adds or refreshes a status effect on the targets.",
+    "command_translation.help.argument.effect.targets": "The entities to apply or remove effects from; give requires targets, clear without targets uses the executing entity.",
+    "command_translation.help.argument.effect.effect": "The status effect to add or remove.",
+    "command_translation.help.argument.effect.infinite": "Use instead of a duration so the effect never expires.",
+    "command_translation.help.argument.effect.seconds": "The effect duration; instant effects interpret the number as game ticks.",
+    "command_translation.help.argument.effect.amplifier": "Extra levels above level I, where 0 is level I and 1 is level II.",
+    "command_translation.help.argument.effect.hideParticles": "true hides the effect's particles; defaults to false."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.effect.clear": "移除状态效果，而不是添加。",
+    "command_translation.help.argument.effect.give": "为目标添加或刷新一个状态效果。",
+    "command_translation.help.argument.effect.targets": "要施加或移除效果的实体；give 必须明确填写目标，clear 省略时作用于执行者。",
+    "command_translation.help.argument.effect.effect": "要施加或移除的状态效果。",
+    "command_translation.help.argument.effect.infinite": "用它代替时长，使效果永不过期。",
+    "command_translation.help.argument.effect.seconds": "效果的持续时长；瞬时效果把这个数按游戏刻解释。",
+    "command_translation.help.argument.effect.amplifier": "在 I 级之上追加的等级，0 即 I 级，1 即 II 级。",
+    "command_translation.help.argument.effect.hideParticles": "true 隐藏该效果的粒子；默认为 false。"
+  },
+  "sources": {
+    "command_translation.help.argument.effect.clear": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Feffect",
+        "revision": 3721357
+      }
+    ],
+    "command_translation.help.argument.effect.give": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Feffect",
+        "revision": 3721357
+      }
+    ],
+    "command_translation.help.argument.effect.targets": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Feffect",
+        "revision": 3721357
+      },
+      {
+        "url": "https://minecraft.wiki/w/Target%20selectors",
+        "revision": 3717617
+      }
+    ],
+    "command_translation.help.argument.effect.effect": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Feffect",
+        "revision": 3721357
+      }
+    ],
+    "command_translation.help.argument.effect.infinite": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Feffect",
+        "revision": 3721357
+      }
+    ],
+    "command_translation.help.argument.effect.seconds": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Feffect",
+        "revision": 3721357
+      }
+    ],
+    "command_translation.help.argument.effect.amplifier": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Feffect",
+        "revision": 3721357
+      }
+    ],
+    "command_translation.help.argument.effect.hideParticles": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Feffect",
+        "revision": 3721357
+      }
+    ]
+  },
+  "bindings": {
+    "effect.clear": "command_translation.help.argument.effect.clear",
+    "effect.clear.targets": "command_translation.help.argument.effect.targets",
+    "effect.clear.targets.effect": "command_translation.help.argument.effect.effect",
+    "effect.give": "command_translation.help.argument.effect.give",
+    "effect.give.targets": "command_translation.help.argument.effect.targets",
+    "effect.give.targets.effect": "command_translation.help.argument.effect.effect",
+    "effect.give.targets.effect.infinite": "command_translation.help.argument.effect.infinite",
+    "effect.give.targets.effect.infinite.amplifier": "command_translation.help.argument.effect.amplifier",
+    "effect.give.targets.effect.infinite.amplifier.hideParticles": "command_translation.help.argument.effect.hideParticles",
+    "effect.give.targets.effect.seconds": "command_translation.help.argument.effect.seconds",
+    "effect.give.targets.effect.seconds.amplifier": "command_translation.help.argument.effect.amplifier",
+    "effect.give.targets.effect.seconds.amplifier.hideParticles": "command_translation.help.argument.effect.hideParticles"
+  },
+  "de_de": {
+    "command_translation.help.argument.effect.clear": "Entfernt Statuseffekte, statt sie hinzuzufügen.",
+    "command_translation.help.argument.effect.give": "Fügt den Zielen einen Statuseffekt hinzu oder frischt ihn auf.",
+    "command_translation.help.argument.effect.targets": "Die Wesen, denen Effekte gegeben oder entfernt werden; bei give sind Ziele nötig, clear ohne Ziele betrifft das ausführende Wesen.",
+    "command_translation.help.argument.effect.effect": "Der hinzuzufügende oder zu entfernende Statuseffekt.",
+    "command_translation.help.argument.effect.infinite": "Statt einer Dauer angeben, damit der Effekt nie abläuft.",
+    "command_translation.help.argument.effect.seconds": "Die Effektdauer; Soforteffekte verwenden die Zahl als Spielticks.",
+    "command_translation.help.argument.effect.amplifier": "Zusätzliche Stufen über Stufe I, wobei 0 Stufe I und 1 Stufe II ist.",
+    "command_translation.help.argument.effect.hideParticles": "true verbirgt die Partikel des Effekts; Standard false."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.effect.clear": "ステータス効果を追加せず、代わりに削除する。",
+    "command_translation.help.argument.effect.give": "対象にステータス効果を付与または更新する。",
+    "command_translation.help.argument.effect.targets": "効果を付与・解除するエンティティ。give では対象が必須で、clear で省略すると実行者が対象になる。",
+    "command_translation.help.argument.effect.effect": "付与または解除するステータス効果。",
+    "command_translation.help.argument.effect.infinite": "長さの代わりに指定すると、効果が失効しなくなる。",
+    "command_translation.help.argument.effect.seconds": "効果の持続時間。即時効果ではこの数値をゲームティック数として扱う。",
+    "command_translation.help.argument.effect.amplifier": "レベル I を超える追加段階。0 がレベル I、1 がレベル II。",
+    "command_translation.help.argument.effect.hideParticles": "true で効果のパーティクルを隠す。既定は false。"
+  },
+  "syntax": [
+    {
+      "path": "effect",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "effect.clear",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "effect.clear.targets",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "effect.clear.targets.effect",
+      "type": "argument",
+      "parser": "minecraft:resource",
+      "properties": {
+        "registry": "minecraft:mob_effect"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "effect.give",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "effect.give.targets",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "effect.give.targets.effect",
+      "type": "argument",
+      "parser": "minecraft:resource",
+      "properties": {
+        "registry": "minecraft:mob_effect"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "effect.give.targets.effect.infinite",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "effect.give.targets.effect.infinite.amplifier",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "max": 255,
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "effect.give.targets.effect.infinite.amplifier.hideParticles",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "effect.give.targets.effect.seconds",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "max": 1000000,
+        "min": 1
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "effect.give.targets.effect.seconds.amplifier",
+      "type": "argument",
+      "parser": "brigadier:integer",
+      "properties": {
+        "max": 255,
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "effect.give.targets.effect.seconds.amplifier.hideParticles",
+      "type": "argument",
+      "parser": "brigadier:bool",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

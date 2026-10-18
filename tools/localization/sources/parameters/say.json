@@ -1,0 +1,48 @@
+{
+  "en_us": {
+    "command_translation.help.argument.say.message": "The message broadcast in chat to everyone on the server."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.say.message": "向服务器内所有人广播的聊天消息。"
+  },
+  "sources": {
+    "command_translation.help.argument.say.message": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fsay",
+        "revision": 3584642
+      }
+    ]
+  },
+  "bindings": {
+    "say.message": "command_translation.help.argument.say.message"
+  },
+  "de_de": {
+    "command_translation.help.argument.say.message": "Die im Chat an alle auf dem Server gesendete Nachricht."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.say.message": "サーバー全員のチャットに送るメッセージ。"
+  },
+  "syntax": [
+    {
+      "path": "say",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "say.message",
+      "type": "argument",
+      "parser": "minecraft:message",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

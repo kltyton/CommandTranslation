@@ -1,0 +1,40 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:enchantable": "Allows the item to be enchanted in an enchanting table.",
+    "command_translation.help.component.minecraft:enchantable.field.value": "The item's enchantability; higher values allow more expensive enchantments."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:enchantable": "使物品可在附魔台中附魔。",
+    "command_translation.help.component.minecraft:enchantable.field.value": "物品的附魔能力，越高越可能获得高花费附魔。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:enchantable": "Ermöglicht das Verzaubern des Items an einem Zaubertisch.",
+    "command_translation.help.component.minecraft:enchantable.field.value": "Die Verzauberbarkeit; höhere Werte erlauben teurere Verzauberungen."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:enchantable": "アイテムをエンチャントテーブルでエンチャントできるようにする。",
+    "command_translation.help.component.minecraft:enchantable.field.value": "アイテムのエンチャント性。高いほど高コストのエンチャントを選べる。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:enchantable": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:enchantable.field.value": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

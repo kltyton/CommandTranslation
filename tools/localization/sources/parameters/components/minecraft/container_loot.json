@@ -1,0 +1,66 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:container_loot": "The unresolved loot table and seed of this container.",
+    "command_translation.help.component.minecraft:container_loot.field.loot_table": "The ID of the loot table to resolve.",
+    "command_translation.help.component.minecraft:container_loot.field.seed": "The pseudorandom seed used for the loot table."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:container_loot": "该容器尚未解析的战利品表与种子。",
+    "command_translation.help.component.minecraft:container_loot.field.loot_table": "要解析的战利品表标识符。",
+    "command_translation.help.component.minecraft:container_loot.field.seed": "用于战利品表的伪随机种子。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:container_loot": "Die unaufgelöste Beutetabelle und der Seed dieses Behälters.",
+    "command_translation.help.component.minecraft:container_loot.field.loot_table": "Die ID der aufzulösenden Beutetabelle.",
+    "command_translation.help.component.minecraft:container_loot.field.seed": "Der Pseudozufalls-Seed für die Beutetabelle."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:container_loot": "このコンテナの未解決のルートテーブルとシード。",
+    "command_translation.help.component.minecraft:container_loot.field.loot_table": "解決するルートテーブルのID。",
+    "command_translation.help.component.minecraft:container_loot.field.seed": "ルートテーブルに使う擬似乱数シード。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:container_loot": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:container_loot.field.loot_table": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:container_loot.field.seed": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "en_us": {
+    "command_translation.help.argument.swing.targets": "The entities whose arms should swing; defaults to the executor and may select several.",
+    "command_translation.help.argument.swing.mainhand": "Swings the main arm; the default.",
+    "command_translation.help.argument.swing.offhand": "Swings the other arm instead."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.swing.targets": "要挥动手臂的实体；默认为执行者，可选多个。",
+    "command_translation.help.argument.swing.mainhand": "挥动主手手臂；默认选项。",
+    "command_translation.help.argument.swing.offhand": "改为挥动另一只手臂。"
+  },
+  "sources": {
+    "command_translation.help.argument.swing.targets": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fswing",
+        "revision": 3777148
+      }
+    ],
+    "command_translation.help.argument.swing.mainhand": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fswing",
+        "revision": 3777148
+      }
+    ],
+    "command_translation.help.argument.swing.offhand": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fswing",
+        "revision": 3777148
+      }
+    ]
+  },
+  "bindings": {
+    "swing.targets": "command_translation.help.argument.swing.targets",
+    "swing.targets.mainhand": "command_translation.help.argument.swing.mainhand",
+    "swing.targets.offhand": "command_translation.help.argument.swing.offhand"
+  },
+  "de_de": {
+    "command_translation.help.argument.swing.targets": "Die Wesen, deren Arme schwingen sollen; Standard ist der Ausführende, mehrere möglich.",
+    "command_translation.help.argument.swing.mainhand": "Schwingt den Haupthand-Arm; der Standard.",
+    "command_translation.help.argument.swing.offhand": "Schwingt stattdessen den anderen Arm."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.swing.targets": "腕を振るエンティティ。既定は実行者で、複数選べる。",
+    "command_translation.help.argument.swing.mainhand": "メインハンドの腕を振る。既定。",
+    "command_translation.help.argument.swing.offhand": "代わりにもう一方の腕を振る。"
+  },
+  "syntax": [
+    {
+      "path": "swing",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "swing.targets",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "entities",
+        "amount": "multiple"
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "swing.targets.mainhand",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "swing.targets.offhand",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

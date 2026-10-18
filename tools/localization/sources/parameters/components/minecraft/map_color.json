@@ -1,0 +1,30 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:map_color": "The display color used by the item’s map-color tint source."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:map_color": "物品地图着色层使用的显示颜色。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:map_color": "Die Farbe der Karten-Farbschicht des Items."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:map_color": "アイテムの地図用着色レイヤーに使う表示色。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:map_color": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:bees": "The entities currently inside a beehive or bee nest.",
+    "command_translation.help.component.minecraft:bees.field.entity_data": "The entity's data; must include the id tag.",
+    "command_translation.help.component.minecraft:bees.field.min_ticks_in_hive": "The minimum time in ticks this entity stays in the hive.",
+    "command_translation.help.component.minecraft:bees.field.ticks_in_hive": "The time in ticks this entity has already stayed in the hive."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:bees": "蜂箱或蜂巢内存放的生物列表。",
+    "command_translation.help.component.minecraft:bees.field.entity_data": "该生物的数据，需包含 id。",
+    "command_translation.help.component.minecraft:bees.field.min_ticks_in_hive": "该生物在巢内至少停留的时间（刻）。",
+    "command_translation.help.component.minecraft:bees.field.ticks_in_hive": "该生物已在巢内停留的时间（刻）。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:bees": "Die aktuell in einem Bienenstock oder Bienennest befindlichen Entitäten.",
+    "command_translation.help.component.minecraft:bees.field.entity_data": "Die Daten der Entität; muss das id-Tag enthalten.",
+    "command_translation.help.component.minecraft:bees.field.min_ticks_in_hive": "Die Mindestaufenthaltsdauer der Entität im Stock in Ticks.",
+    "command_translation.help.component.minecraft:bees.field.ticks_in_hive": "Die bereits im Stock verbrachte Zeit in Ticks."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:bees": "蜂の巣や養蜂箱の中にいるエンティティの一覧。",
+    "command_translation.help.component.minecraft:bees.field.entity_data": "そのエンティティのデータ。id タグが必要。",
+    "command_translation.help.component.minecraft:bees.field.min_ticks_in_hive": "そのエンティティが巣に留まる最小時間（ティック）。",
+    "command_translation.help.component.minecraft:bees.field.ticks_in_hive": "そのエンティティが既に巣に留まった時間（ティック）。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:bees": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:bees.field.entity_data": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:bees.field.min_ticks_in_hive": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ],
+    "command_translation.help.component.minecraft:bees.field.ticks_in_hive": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=2650356",
+        "revision": 2650356
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3523871",
+        "revision": 3523871
+      },
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

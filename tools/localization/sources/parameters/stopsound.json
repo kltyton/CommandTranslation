@@ -1,0 +1,454 @@
+{
+  "en_us": {
+    "command_translation.help.argument.stopsound.targets": "The players who stop hearing the sound.",
+    "command_translation.help.argument.stopsound.sound": "The sound event to stop; if omitted, every sound in the chosen source stops.",
+    "command_translation.help.value.stopsound.channel.all": "Stops the sound in every source at once.",
+    "command_translation.help.value.stopsound.channel.master": "Stops sounds in the Master category.",
+    "command_translation.help.value.stopsound.channel.ambient": "Stops ambient and environmental sounds.",
+    "command_translation.help.value.stopsound.channel.block": "Stops block sounds such as breaking and placing.",
+    "command_translation.help.value.stopsound.channel.hostile": "Stops hostile mob sounds.",
+    "command_translation.help.value.stopsound.channel.music": "Stops background music.",
+    "command_translation.help.value.stopsound.channel.neutral": "Stops neutral mob sounds.",
+    "command_translation.help.value.stopsound.channel.player": "Stops player sounds.",
+    "command_translation.help.value.stopsound.channel.record": "Stops jukebox and music-disc playback.",
+    "command_translation.help.value.stopsound.channel.voice": "Stops the voice/speech source.",
+    "command_translation.help.value.stopsound.channel.weather": "Stops weather sounds such as rain and thunder.",
+    "command_translation.help.value.stopsound.channel.ui": "Stops user-interface sounds."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.stopsound.targets": "不再听到该声音的玩家。",
+    "command_translation.help.argument.stopsound.sound": "要停止的声音事件；省略则停止所选来源的全部声音。",
+    "command_translation.help.value.stopsound.channel.all": "一次性停止所有来源中的该声音。",
+    "command_translation.help.value.stopsound.channel.master": "停止“主”分类的声音。",
+    "command_translation.help.value.stopsound.channel.ambient": "停止环境与氛围音效。",
+    "command_translation.help.value.stopsound.channel.block": "停止破坏、放置等方块音效。",
+    "command_translation.help.value.stopsound.channel.hostile": "停止敌对生物音效。",
+    "command_translation.help.value.stopsound.channel.music": "停止背景音乐。",
+    "command_translation.help.value.stopsound.channel.neutral": "停止中立生物音效。",
+    "command_translation.help.value.stopsound.channel.player": "停止玩家音效。",
+    "command_translation.help.value.stopsound.channel.record": "停止唱片机与音乐唱片的播放。",
+    "command_translation.help.value.stopsound.channel.voice": "停止语音或说话来源的声音。",
+    "command_translation.help.value.stopsound.channel.weather": "停止雨声、雷声等天气音效。",
+    "command_translation.help.value.stopsound.channel.ui": "停止用户界面音效。"
+  },
+  "sources": {
+    "command_translation.help.argument.stopsound.targets": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fstopsound",
+        "revision": 3693867
+      }
+    ],
+    "command_translation.help.argument.stopsound.sound": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fstopsound",
+        "revision": 3693867
+      }
+    ],
+    "command_translation.help.value.stopsound.channel.all": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fstopsound",
+        "revision": 3693867
+      }
+    ],
+    "command_translation.help.value.stopsound.channel.master": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fstopsound",
+        "revision": 3693867
+      }
+    ],
+    "command_translation.help.value.stopsound.channel.ambient": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fstopsound",
+        "revision": 3693867
+      }
+    ],
+    "command_translation.help.value.stopsound.channel.block": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fstopsound",
+        "revision": 3693867
+      }
+    ],
+    "command_translation.help.value.stopsound.channel.hostile": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fstopsound",
+        "revision": 3693867
+      }
+    ],
+    "command_translation.help.value.stopsound.channel.music": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fstopsound",
+        "revision": 3693867
+      }
+    ],
+    "command_translation.help.value.stopsound.channel.neutral": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fstopsound",
+        "revision": 3693867
+      }
+    ],
+    "command_translation.help.value.stopsound.channel.player": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fstopsound",
+        "revision": 3693867
+      }
+    ],
+    "command_translation.help.value.stopsound.channel.record": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fstopsound",
+        "revision": 3693867
+      }
+    ],
+    "command_translation.help.value.stopsound.channel.voice": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fstopsound",
+        "revision": 3693867
+      }
+    ],
+    "command_translation.help.value.stopsound.channel.weather": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fstopsound",
+        "revision": 3693867
+      }
+    ],
+    "command_translation.help.value.stopsound.channel.ui": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fstopsound",
+        "revision": 3693867
+      }
+    ]
+  },
+  "bindings": {
+    "stopsound.targets": "command_translation.help.argument.stopsound.targets",
+    "stopsound.targets.*": "command_translation.help.value.stopsound.channel.all",
+    "stopsound.targets.*.sound": "command_translation.help.argument.stopsound.sound",
+    "stopsound.targets.ambient": "command_translation.help.value.stopsound.channel.ambient",
+    "stopsound.targets.ambient.sound": "command_translation.help.argument.stopsound.sound",
+    "stopsound.targets.block": "command_translation.help.value.stopsound.channel.block",
+    "stopsound.targets.block.sound": "command_translation.help.argument.stopsound.sound",
+    "stopsound.targets.hostile": "command_translation.help.value.stopsound.channel.hostile",
+    "stopsound.targets.hostile.sound": "command_translation.help.argument.stopsound.sound",
+    "stopsound.targets.master": "command_translation.help.value.stopsound.channel.master",
+    "stopsound.targets.master.sound": "command_translation.help.argument.stopsound.sound",
+    "stopsound.targets.music": "command_translation.help.value.stopsound.channel.music",
+    "stopsound.targets.music.sound": "command_translation.help.argument.stopsound.sound",
+    "stopsound.targets.neutral": "command_translation.help.value.stopsound.channel.neutral",
+    "stopsound.targets.neutral.sound": "command_translation.help.argument.stopsound.sound",
+    "stopsound.targets.player": "command_translation.help.value.stopsound.channel.player",
+    "stopsound.targets.player.sound": "command_translation.help.argument.stopsound.sound",
+    "stopsound.targets.record": "command_translation.help.value.stopsound.channel.record",
+    "stopsound.targets.record.sound": "command_translation.help.argument.stopsound.sound",
+    "stopsound.targets.ui": "command_translation.help.value.stopsound.channel.ui",
+    "stopsound.targets.ui.sound": "command_translation.help.argument.stopsound.sound",
+    "stopsound.targets.voice": "command_translation.help.value.stopsound.channel.voice",
+    "stopsound.targets.voice.sound": "command_translation.help.argument.stopsound.sound",
+    "stopsound.targets.weather": "command_translation.help.value.stopsound.channel.weather",
+    "stopsound.targets.weather.sound": "command_translation.help.argument.stopsound.sound"
+  },
+  "de_de": {
+    "command_translation.help.argument.stopsound.targets": "Die Spieler, die den Klang nicht mehr hören.",
+    "command_translation.help.argument.stopsound.sound": "Das zu stoppende Klangereignis; ohne Angabe alle Klänge der gewählten Quelle.",
+    "command_translation.help.value.stopsound.channel.all": "Stoppt den Klang in allen Quellen auf einmal.",
+    "command_translation.help.value.stopsound.channel.master": "Stoppt Klänge der Kategorie Master.",
+    "command_translation.help.value.stopsound.channel.ambient": "Stoppt Umgebungs- und Ambiente-Klänge.",
+    "command_translation.help.value.stopsound.channel.block": "Stoppt Blockklänge wie Abbauen und Setzen.",
+    "command_translation.help.value.stopsound.channel.hostile": "Stoppt Klänge feindlicher Kreaturen.",
+    "command_translation.help.value.stopsound.channel.music": "Stoppt Hintergrundmusik.",
+    "command_translation.help.value.stopsound.channel.neutral": "Stoppt Klänge neutraler Kreaturen.",
+    "command_translation.help.value.stopsound.channel.player": "Stoppt Spielerklänge.",
+    "command_translation.help.value.stopsound.channel.record": "Stoppt Platten- und Musikplatten-Wiedergabe.",
+    "command_translation.help.value.stopsound.channel.voice": "Stoppt die Sprach-/Stimmquelle.",
+    "command_translation.help.value.stopsound.channel.weather": "Stoppt Wetterklänge wie Regen und Donner.",
+    "command_translation.help.value.stopsound.channel.ui": "Stoppt Benutzeroberflächen-Klänge."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.stopsound.targets": "その音を聞こえなくするプレイヤー。",
+    "command_translation.help.argument.stopsound.sound": "停止する音イベント。省略すると選んだソース内の全音を停止する。",
+    "command_translation.help.value.stopsound.channel.all": "全ソースのその音を一度に停止する。",
+    "command_translation.help.value.stopsound.channel.master": "マスター分類の音を停止する。",
+    "command_translation.help.value.stopsound.channel.ambient": "環境・雰囲気の音を停止する。",
+    "command_translation.help.value.stopsound.channel.block": "破壊や設置などのブロック音を停止する。",
+    "command_translation.help.value.stopsound.channel.hostile": "敵対モブの音を停止する。",
+    "command_translation.help.value.stopsound.channel.music": "BGM を停止する。",
+    "command_translation.help.value.stopsound.channel.neutral": "中立モブの音を停止する。",
+    "command_translation.help.value.stopsound.channel.player": "プレイヤーの音を停止する。",
+    "command_translation.help.value.stopsound.channel.record": "ジュークボックス・レコード再生を停止する。",
+    "command_translation.help.value.stopsound.channel.voice": "ボイス（音声）ソースを停止する。",
+    "command_translation.help.value.stopsound.channel.weather": "雨や雷などの天候音を停止する。",
+    "command_translation.help.value.stopsound.channel.ui": "ユーザーインターフェースの音を停止する。"
+  },
+  "syntax": [
+    {
+      "path": "stopsound",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "stopsound.targets",
+      "type": "argument",
+      "parser": "minecraft:entity",
+      "properties": {
+        "type": "players",
+        "amount": "multiple"
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "stopsound.targets.*",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "stopsound.targets.*.sound",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "stopsound.targets.ambient",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "stopsound.targets.ambient.sound",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "stopsound.targets.block",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "stopsound.targets.block.sound",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "stopsound.targets.hostile",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "stopsound.targets.hostile.sound",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "stopsound.targets.master",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "stopsound.targets.master.sound",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "stopsound.targets.music",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "stopsound.targets.music.sound",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "stopsound.targets.neutral",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "stopsound.targets.neutral.sound",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "stopsound.targets.player",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "stopsound.targets.player.sound",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "stopsound.targets.record",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "stopsound.targets.record.sound",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "stopsound.targets.voice",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "stopsound.targets.voice.sound",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "stopsound.targets.weather",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "stopsound.targets.weather.sound",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "stopsound.targets.ui",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "stopsound.targets.ui.sound",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}

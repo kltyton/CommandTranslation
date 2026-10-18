@@ -1,0 +1,22 @@
+{
+  "en_us": {
+    "command_translation.help.component.minecraft:sulfur_cube_content": "The item stored inside a sulfur cube."
+  },
+  "zh_cn": {
+    "command_translation.help.component.minecraft:sulfur_cube_content": "硫磺立方体内部保存的物品。"
+  },
+  "de_de": {
+    "command_translation.help.component.minecraft:sulfur_cube_content": "Das in einem Schwefelwürfel gespeicherte Item."
+  },
+  "ja_jp": {
+    "command_translation.help.component.minecraft:sulfur_cube_content": "硫黄キューブの内部に保存されたアイテム。"
+  },
+  "sources": {
+    "command_translation.help.component.minecraft:sulfur_cube_content": [
+      {
+        "url": "https://minecraft.wiki/w/Data_component_format?oldid=3629677",
+        "revision": 3629677
+      }
+    ]
+  }
+}

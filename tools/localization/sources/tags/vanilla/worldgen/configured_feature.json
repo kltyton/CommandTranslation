@@ -1,0 +1,22 @@
+{
+  "en_us": {
+    "command_translation.tag.worldgen.configured_feature.minecraft.can_spawn_from_bone_meal": "Configured features that can spawn from bone meal"
+  },
+  "zh_cn": {
+    "command_translation.tag.worldgen.configured_feature.minecraft.can_spawn_from_bone_meal": "可由骨粉生成的配置地物"
+  },
+  "de_de": {
+    "command_translation.tag.worldgen.configured_feature.minecraft.can_spawn_from_bone_meal": "Konfigurierte Merkmale, die aus Knochenmehl entstehen"
+  },
+  "ja_jp": {
+    "command_translation.tag.worldgen.configured_feature.minecraft.can_spawn_from_bone_meal": "骨粉で生成できる設定済みフィーチャー"
+  },
+  "sources": {
+    "command_translation.tag.worldgen.configured_feature.minecraft.can_spawn_from_bone_meal": [
+      {
+        "url": "https://minecraft.wiki/w/Feature%20tag%20(Java%20Edition)",
+        "revision": 3839218
+      }
+    ]
+  }
+}

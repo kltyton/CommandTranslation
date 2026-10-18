@@ -1,0 +1,695 @@
+{
+  "en_us": {
+    "command_translation.help.argument.time.add": "Adds an amount to the day/night clock, not to the world's total running time.",
+    "command_translation.help.argument.time.set": "Sets the day/night clock to a number of ticks or a named time marker, replacing its previous time.",
+    "command_translation.help.argument.time.query": "Prints the world's current time.",
+    "command_translation.help.argument.time.query.time": "Reports the current time of the clock being queried.",
+    "command_translation.help.argument.time.time": "The time to set or add, as a unit-carrying value or a bare number for ticks.",
+    "command_translation.help.argument.time.value.day": "Sets the day/night clock to the daytime preset and resets its elapsed day count.",
+    "command_translation.help.argument.time.value.daytime": "The number of ticks since the last sunrise.",
+    "command_translation.help.argument.time.value.gametime": "Reports the total number of game ticks the world has run.",
+    "command_translation.help.argument.time.value.midnight": "Sets the time to the middle of the night.",
+    "command_translation.help.argument.time.value.night": "Sets the time to the start of the night.",
+    "command_translation.help.argument.time.value.noon": "Sets the time to midday.",
+    "command_translation.help.argument.time.pause": "Pauses the default world clock of the current dimension without freezing entities or the game.",
+    "command_translation.help.argument.time.resume": "Resumes the selected world clock after pausing it.",
+    "command_translation.help.argument.time.rate": "Sets how quickly the selected world clock advances, not the server's tick rate.",
+    "command_translation.help.argument.time.rate.rate": "The clock's rate multiplier; 1 is normal speed.",
+    "command_translation.help.argument.time.of": "Operates on a named world clock instead of the default one.",
+    "command_translation.help.argument.time.clock": "The world clock id; without time of, the default clock of the execution dimension is used.",
+    "command_translation.help.argument.time.of.add": "Adds time to the chosen clock.",
+    "command_translation.help.argument.time.of.pause": "Pauses the chosen clock.",
+    "command_translation.help.argument.time.of.query": "Queries the chosen clock's time or timeline.",
+    "command_translation.help.argument.time.of.resume": "Resumes the chosen clock.",
+    "command_translation.help.argument.time.of.set": "Sets the chosen clock's time.",
+    "command_translation.help.argument.time.timemarker": "A named moment on the selected clock's timeline; sets the clock to that moment.",
+    "command_translation.help.argument.time.timeline": "A timeline id belonging to the selected clock; querying reports ticks elapsed in the current repetition.",
+    "command_translation.help.argument.time.repetition": "Reports how many full periods of the selected timeline have elapsed.",
+    "command_translation.help.argument.time.query.day": "Reports elapsed in-game days in the day/night clock."
+  },
+  "zh_cn": {
+    "command_translation.help.argument.time.add": "为昼夜时钟增加时间，不增加世界累计运行时间。",
+    "command_translation.help.argument.time.set": "把昼夜时钟设为刻数或命名时刻，覆盖原时间。",
+    "command_translation.help.argument.time.query": "输出世界当前的时间。",
+    "command_translation.help.argument.time.query.time": "输出所查询时钟的当前时间。",
+    "command_translation.help.argument.time.time": "要设置或增加的时间，写成带单位的值，或只写数字表示刻。",
+    "command_translation.help.argument.time.value.day": "把昼夜时钟设为白天预设，并重置累计天数。",
+    "command_translation.help.argument.time.value.daytime": "自上次日出以来的刻数。",
+    "command_translation.help.argument.time.value.gametime": "查询世界累计运行的游戏刻数。",
+    "command_translation.help.argument.time.value.midnight": "把时间设为半夜。",
+    "command_translation.help.argument.time.value.night": "把时间设为夜晚开始。",
+    "command_translation.help.argument.time.value.noon": "把时间设为正午。",
+    "command_translation.help.argument.time.pause": "暂停当前维度的默认世界时钟，不冻结实体或整个游戏。",
+    "command_translation.help.argument.time.resume": "恢复所选世界时钟的推进。",
+    "command_translation.help.argument.time.rate": "设置所选世界时钟的推进倍率，而非服务器刻速率。",
+    "command_translation.help.argument.time.rate.rate": "时钟速率倍率，1 为正常速度。",
+    "command_translation.help.argument.time.of": "操作指定的世界时钟，而非默认时钟。",
+    "command_translation.help.argument.time.clock": "世界时钟 id；不写 time of 时使用执行维度的默认时钟。",
+    "command_translation.help.argument.time.of.add": "为所选时钟增加时间。",
+    "command_translation.help.argument.time.of.pause": "暂停所选时钟。",
+    "command_translation.help.argument.time.of.query": "查询所选时钟的时间或时间线。",
+    "command_translation.help.argument.time.of.resume": "恢复所选时钟。",
+    "command_translation.help.argument.time.of.set": "设置所选时钟的时间。",
+    "command_translation.help.argument.time.timemarker": "所选时钟时间线上的命名时刻，把时钟设到该时刻。",
+    "command_translation.help.argument.time.timeline": "属于所选时钟的时间线 id；查询时报告当前周期内经过的刻数。",
+    "command_translation.help.argument.time.repetition": "查询所选时间线经过的完整周期数。",
+    "command_translation.help.argument.time.query.day": "查询昼夜时钟经过的游戏天数。"
+  },
+  "sources": {
+    "command_translation.help.argument.time.add": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftime",
+        "revision": 3813552
+      }
+    ],
+    "command_translation.help.argument.time.set": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftime",
+        "revision": 3813552
+      }
+    ],
+    "command_translation.help.argument.time.query": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftime",
+        "revision": 3813552
+      }
+    ],
+    "command_translation.help.argument.time.query.time": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftime",
+        "revision": 3813552
+      }
+    ],
+    "command_translation.help.argument.time.time": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftime",
+        "revision": 3813552
+      }
+    ],
+    "command_translation.help.argument.time.value.day": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftime",
+        "revision": 3813552
+      }
+    ],
+    "command_translation.help.argument.time.value.daytime": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftime",
+        "revision": 3813552
+      }
+    ],
+    "command_translation.help.argument.time.value.gametime": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftime",
+        "revision": 3813552
+      }
+    ],
+    "command_translation.help.argument.time.value.midnight": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftime",
+        "revision": 3813552
+      }
+    ],
+    "command_translation.help.argument.time.value.night": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftime",
+        "revision": 3813552
+      }
+    ],
+    "command_translation.help.argument.time.value.noon": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftime",
+        "revision": 3813552
+      }
+    ],
+    "command_translation.help.argument.time.pause": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftime",
+        "revision": 3813552
+      }
+    ],
+    "command_translation.help.argument.time.resume": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftime",
+        "revision": 3813552
+      }
+    ],
+    "command_translation.help.argument.time.rate": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftime",
+        "revision": 3813552
+      }
+    ],
+    "command_translation.help.argument.time.rate.rate": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftime",
+        "revision": 3813552
+      }
+    ],
+    "command_translation.help.argument.time.of": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftime",
+        "revision": 3813552
+      }
+    ],
+    "command_translation.help.argument.time.clock": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftime",
+        "revision": 3813552
+      },
+      {
+        "url": "https://minecraft.wiki/w/World_clock",
+        "revision": 3840761
+      },
+      {
+        "url": "https://minecraft.wiki/w/Timeline",
+        "revision": 3595196
+      }
+    ],
+    "command_translation.help.argument.time.of.add": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftime",
+        "revision": 3813552
+      }
+    ],
+    "command_translation.help.argument.time.of.pause": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftime",
+        "revision": 3813552
+      }
+    ],
+    "command_translation.help.argument.time.of.query": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftime",
+        "revision": 3813552
+      }
+    ],
+    "command_translation.help.argument.time.of.resume": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftime",
+        "revision": 3813552
+      }
+    ],
+    "command_translation.help.argument.time.of.set": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftime",
+        "revision": 3813552
+      }
+    ],
+    "command_translation.help.argument.time.timemarker": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftime",
+        "revision": 3813552
+      },
+      {
+        "url": "https://minecraft.wiki/w/World_clock",
+        "revision": 3840761
+      },
+      {
+        "url": "https://minecraft.wiki/w/Timeline",
+        "revision": 3595196
+      }
+    ],
+    "command_translation.help.argument.time.repetition": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftime",
+        "revision": 3813552
+      },
+      {
+        "url": "https://minecraft.wiki/w/World_clock",
+        "revision": 3840761
+      },
+      {
+        "url": "https://minecraft.wiki/w/Timeline",
+        "revision": 3595196
+      }
+    ],
+    "command_translation.help.argument.time.query.day": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftime",
+        "revision": 3813552
+      }
+    ],
+    "command_translation.help.argument.time.timeline": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Ftime",
+        "revision": 3813552
+      },
+      {
+        "url": "https://minecraft.wiki/w/World_clock",
+        "revision": 3840761
+      },
+      {
+        "url": "https://minecraft.wiki/w/Timeline",
+        "revision": 3595196
+      }
+    ]
+  },
+  "bindings": {
+    "time.add": "command_translation.help.argument.time.add",
+    "time.add.time": "command_translation.help.argument.time.time",
+    "time.of": "command_translation.help.argument.time.of",
+    "time.of.clock": "command_translation.help.argument.time.clock",
+    "time.of.clock.add": "command_translation.help.argument.time.of.add",
+    "time.of.clock.add.time": "command_translation.help.argument.time.time",
+    "time.of.clock.pause": "command_translation.help.argument.time.of.pause",
+    "time.of.clock.query": "command_translation.help.argument.time.of.query",
+    "time.of.clock.query.time": "command_translation.help.argument.time.query.time",
+    "time.of.clock.query.timeline": "command_translation.help.argument.time.timeline",
+    "time.of.clock.query.timeline.repetition": "command_translation.help.argument.time.repetition",
+    "time.of.clock.rate": "command_translation.help.argument.time.rate",
+    "time.of.clock.rate.rate": "command_translation.help.argument.time.rate.rate",
+    "time.of.clock.resume": "command_translation.help.argument.time.of.resume",
+    "time.of.clock.set": "command_translation.help.argument.time.of.set",
+    "time.of.clock.set.time": "command_translation.help.argument.time.time",
+    "time.of.clock.set.timemarker": "command_translation.help.argument.time.timemarker",
+    "time.pause": "command_translation.help.argument.time.pause",
+    "time.query": "command_translation.help.argument.time.query",
+    "time.query.day": "command_translation.help.argument.time.query.day",
+    "time.query.daytime": "command_translation.help.argument.time.value.daytime",
+    "time.query.gametime": "command_translation.help.argument.time.value.gametime",
+    "time.query.time": "command_translation.help.argument.time.query.time",
+    "time.query.timeline": "command_translation.help.argument.time.timeline",
+    "time.query.timeline.repetition": "command_translation.help.argument.time.repetition",
+    "time.rate": "command_translation.help.argument.time.rate",
+    "time.rate.rate": "command_translation.help.argument.time.rate.rate",
+    "time.resume": "command_translation.help.argument.time.resume",
+    "time.set": "command_translation.help.argument.time.set",
+    "time.set.day": "command_translation.help.argument.time.value.day",
+    "time.set.midnight": "command_translation.help.argument.time.value.midnight",
+    "time.set.night": "command_translation.help.argument.time.value.night",
+    "time.set.noon": "command_translation.help.argument.time.value.noon",
+    "time.set.time": "command_translation.help.argument.time.time",
+    "time.set.timemarker": "command_translation.help.argument.time.timemarker"
+  },
+  "de_de": {
+    "command_translation.help.argument.time.add": "Addiert eine Zeitspanne zur Tag-/Nacht-Uhr, nicht zur Gesamtlaufzeit der Welt.",
+    "command_translation.help.argument.time.set": "Setzt die Tag-/Nacht-Uhr auf eine Tickszahl oder einen benannten Zeitpunkt und ersetzt die bisherige Zeit.",
+    "command_translation.help.argument.time.query": "Gibt die aktuelle Zeit der Welt aus.",
+    "command_translation.help.argument.time.query.time": "Meldet die aktuelle Zeit der abgefragten Uhr.",
+    "command_translation.help.argument.time.time": "Die zu setzende oder zu addierende Zeit als Wert mit Einheit oder reine Zahl für Ticks.",
+    "command_translation.help.argument.time.value.day": "Setzt die Tag-/Nacht-Uhr auf die Tag-Voreinstellung und setzt die gezählten Tage zurück.",
+    "command_translation.help.argument.time.value.daytime": "Die Anzahl Ticks seit dem letzten Sonnenaufgang.",
+    "command_translation.help.argument.time.value.gametime": "Meldet die Gesamtzahl der Spielticks, die die Welt gelaufen ist.",
+    "command_translation.help.argument.time.value.midnight": "Setzt die Zeit auf die Mitte der Nacht.",
+    "command_translation.help.argument.time.value.night": "Setzt die Zeit auf den Beginn der Nacht.",
+    "command_translation.help.argument.time.value.noon": "Setzt die Zeit auf den Mittag.",
+    "command_translation.help.argument.time.pause": "Pausiert die Standard-Weltuhr der aktuellen Dimension, ohne Wesen oder das Spiel einzufrieren.",
+    "command_translation.help.argument.time.resume": "Setzt die ausgewählte Weltuhr nach dem Pausieren fort.",
+    "command_translation.help.argument.time.rate": "Legt fest, wie schnell die ausgewählte Weltuhr fortschreitet, nicht die Tickrate des Servers.",
+    "command_translation.help.argument.time.rate.rate": "Der Geschwindigkeitsmultiplikator der Uhr; 1 ist normale Geschwindigkeit.",
+    "command_translation.help.argument.time.of": "Wirkt auf eine benannte Weltuhr statt auf die Standarduhr.",
+    "command_translation.help.argument.time.clock": "Die ID der Weltuhr; ohne time of gilt die Standarduhr der Ausführungsdimension.",
+    "command_translation.help.argument.time.of.add": "Addiert Zeit zur gewählten Uhr.",
+    "command_translation.help.argument.time.of.pause": "Pausiert die gewählte Uhr.",
+    "command_translation.help.argument.time.of.query": "Fragt Zeit oder Zeitlinie der gewählten Uhr ab.",
+    "command_translation.help.argument.time.of.resume": "Setzt die gewählte Uhr fort.",
+    "command_translation.help.argument.time.of.set": "Setzt die Zeit der gewählten Uhr.",
+    "command_translation.help.argument.time.timemarker": "Ein benannter Zeitpunkt auf der Zeitlinie der gewählten Uhr; setzt die Uhr auf diesen Zeitpunkt.",
+    "command_translation.help.argument.time.timeline": "Eine Zeitlinien-ID der gewählten Uhr; eine Abfrage meldet die Ticks der aktuellen Wiederholung.",
+    "command_translation.help.argument.time.repetition": "Meldet, wie viele vollständige Perioden der gewählten Zeitlinie vergangen sind.",
+    "command_translation.help.argument.time.query.day": "Meldet die vergangenen In-Game-Tage der Tag-/Nacht-Uhr."
+  },
+  "ja_jp": {
+    "command_translation.help.argument.time.add": "昼夜時計に時間を加算する。世界の累計稼働時間ではない。",
+    "command_translation.help.argument.time.set": "昼夜時計をティック数または名前付き時刻に設定し、以前の時刻を置き換える。",
+    "command_translation.help.argument.time.query": "ワールドの現在時刻を表示する。",
+    "command_translation.help.argument.time.query.time": "照会中のクロックの現在時刻を報告する。",
+    "command_translation.help.argument.time.time": "設定または加算する時間。単位付きの値か、数字だけならティック数。",
+    "command_translation.help.argument.time.value.day": "昼夜時計を昼のプリセットに設定し、経過日数もリセットする。",
+    "command_translation.help.argument.time.value.daytime": "最後の日の出からの経過ティック数。",
+    "command_translation.help.argument.time.value.gametime": "ワールドが経過したゲームティックの総数を報告する。",
+    "command_translation.help.argument.time.value.midnight": "時刻を真夜中に設定する。",
+    "command_translation.help.argument.time.value.night": "時刻を夜の始まりに設定する。",
+    "command_translation.help.argument.time.value.noon": "時刻を正午に設定する。",
+    "command_translation.help.argument.time.pause": "現在のディメンションの既定クロックを、エンティティやゲームを止めずに一時停止する。",
+    "command_translation.help.argument.time.resume": "選択中のワールドクロックを再開する。",
+    "command_translation.help.argument.time.rate": "選択中のワールドクロックの進む速さを設定する。サーバーのティックレートではない。",
+    "command_translation.help.argument.time.rate.rate": "クロックの速度倍率。1 が通常速度。",
+    "command_translation.help.argument.time.of": "既定ではなく名前付きのワールドクロックを対象にする。",
+    "command_translation.help.argument.time.clock": "ワールドクロックの id。time of を付けない場合は実行ディメンションの既定クロックを使う。",
+    "command_translation.help.argument.time.of.add": "選択したクロックに時間を加算する。",
+    "command_translation.help.argument.time.of.pause": "選択したクロックを一時停止する。",
+    "command_translation.help.argument.time.of.query": "選択したクロックの時刻またはタイムラインを照会する。",
+    "command_translation.help.argument.time.of.resume": "選択したクロックを再開する。",
+    "command_translation.help.argument.time.of.set": "選択したクロックの時刻を設定する。",
+    "command_translation.help.argument.time.timemarker": "選択したクロックのタイムライン上の名前付き時点。クロックをその時点に設定する。",
+    "command_translation.help.argument.time.timeline": "選択したクロックに属するタイムライン id。照会すると現在の周期内の経過ティックを報告する。",
+    "command_translation.help.argument.time.repetition": "選択したタイムラインが経過した完全な周期の数を報告する。",
+    "command_translation.help.argument.time.query.day": "昼夜時計での経過ゲーム内日数を報告する。"
+  },
+  "syntax": [
+    {
+      "path": "time",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "time.add",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "time.add.time",
+      "type": "argument",
+      "parser": "minecraft:time",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "time.query",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "time.query.day",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "time.query.daytime",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "time.query.gametime",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "time.set",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "time.set.day",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "time.set.midnight",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "time.set.night",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "time.set.noon",
+      "type": "literal",
+      "versions": [
+        "1.20.1",
+        "1.21.1"
+      ]
+    },
+    {
+      "path": "time.set.time",
+      "type": "argument",
+      "parser": "minecraft:time",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "1.20.1",
+        "1.21.1",
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "time.add.time",
+      "type": "argument",
+      "parser": "minecraft:time",
+      "properties": {
+        "min": -2147483648
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "time.of",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "time.of.clock",
+      "type": "argument",
+      "parser": "minecraft:resource",
+      "properties": {
+        "registry": "minecraft:world_clock"
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "time.of.clock.add",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "time.of.clock.add.time",
+      "type": "argument",
+      "parser": "minecraft:time",
+      "properties": {
+        "min": -2147483648
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "time.of.clock.pause",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "time.of.clock.query",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "time.of.clock.query.time",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "time.of.clock.query.timeline",
+      "type": "argument",
+      "parser": "minecraft:resource",
+      "properties": {
+        "registry": "minecraft:timeline"
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "time.of.clock.query.timeline.repetition",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "time.of.clock.rate",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "time.of.clock.rate.rate",
+      "type": "argument",
+      "parser": "brigadier:float",
+      "properties": {
+        "max": 1000,
+        "min": 0.00001
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "time.of.clock.resume",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "time.of.clock.set",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "time.of.clock.set.time",
+      "type": "argument",
+      "parser": "minecraft:time",
+      "properties": {
+        "min": 0
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "time.of.clock.set.timemarker",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "time.pause",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "time.query.time",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "time.query.timeline",
+      "type": "argument",
+      "parser": "minecraft:resource",
+      "properties": {
+        "registry": "minecraft:timeline"
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "time.query.timeline.repetition",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "time.rate",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "time.rate.rate",
+      "type": "argument",
+      "parser": "brigadier:float",
+      "properties": {
+        "max": 1000,
+        "min": 0.00001
+      },
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "time.resume",
+      "type": "literal",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    },
+    {
+      "path": "time.set.timemarker",
+      "type": "argument",
+      "parser": "minecraft:resource_location",
+      "versions": [
+        "26.1.2",
+        "26.2"
+      ]
+    }
+  ]
+}
