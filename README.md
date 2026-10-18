@@ -117,16 +117,6 @@ Fabric Loader 最低版本为 0.19.5。
 
 具体值在对应字段键后追加 `.value.<原始值>`；注册表资源值可以统一使用 `command_translation.help.registry.<注册表 ID>.<资源 ID>`。字段的注册表、共用枚举值类型、通配路径及名称覆盖见[提示语言接口](docs/dev/tooltip-resources.md)，只需原版语言文件，无须修改 Java。
 
-## 开发
-
-产品行为与兼容约束见 [项目约束](docs/design/requirements.md)。
-
-使用 [KltytonTemple](https://github.com/kltyton/KltytonTemple) 的独立目标结构。共享代码按目标重新编译，旧版和新版的 GUI、标识符及网络接口位于 `common/src/compat/minecraft`。
-
-根工程使用 Java 21 执行 `.\gradlew.bat buildAllTargets`。单个目标使用其目录下的 Wrapper，例如 `.\targets\neoforge-26.2\gradlew.bat -p targets/neoforge-26.2 build`。目标 JAR 位于相应 `targets/<loader-version>/build/libs`。
-
-语言数据由 `tools/localization` 维护。先执行 `npm --prefix tools/localization ci`，再执行 `npm --prefix tools/localization run generate`，生成 `common/src/generated/resources`。繁体转换使用固定版本的 OpenCC，仅用于资源维护。正常 Gradle 构建使用已经提供的资源，不依赖 Node.js，也无需下载 Wiki 内容。
-
 ## 来源与许可
 
 代码采用 LGPL-3.0-only。标识符词条参考 [Identifier Translation](https://github.com/Yeah-Zero/Identifier-Translation/tree/6bda4a11d30005697e82ea9043e7d486652542b9)，保留其 LGPL 许可。

@@ -95,18 +95,6 @@ Tag names use `command_translation.tag.<registry>.<namespace>.<path>`, such as `
 
 Item and block names reuse the mod's existing names and resource-pack translations without duplicate entries. Namespace names use `command_translation.namespace.<modid>`, `modmenu.nameTranslation.<modid>`, then `<modid>.ponder.mod_name`; the raw modid is retained when no translation exists. A pack may supply one namespace entry instead of a separate item dictionary.
 
-## Development
-
-Command-name tooltips include native compact syntax with current-language annotations above the English tokens. Smaller parameter panels sit beside the main tooltip. The live Brigadier tree supplies syntax; concrete field and value tooltips remain concise. Selectors reuse native short names without duplicate explanations.
-
-Item details reuse native tooltip text, including attack damage and speed. Complete item data is read by the matching native parser. Entity types show registered default attributes without spawning an entity; effects use brief Wiki descriptions. These categories and individual entity attributes can be disabled independently.
-
-Product behavior and compatibility requirements are defined in [Project Requirements](docs/design/requirements.md).
-
-The project uses [KltytonTemple](https://github.com/kltyton/KltytonTemple). Each target owns its Wrapper and Minecraft classpath. Use Java 21 for the root command `.\gradlew.bat buildAllTargets`, or run `build` through a target's own Wrapper. JARs are written to each target's `build/libs` directory.
-
-Run `npm --prefix tools/localization ci`, then `npm --prefix tools/localization run generate` to emit resources from the maintained vocabulary and documentation sources. The pinned OpenCC dependency is used only for Traditional Chinese resource generation. Ordinary Gradle builds use the bundled resources without Node.js or Wiki downloads.
-
 ## Attribution
 
 Code is licensed under LGPL-3.0-only. Identifier dictionaries derive from [Identifier Translation](https://github.com/Yeah-Zero/Identifier-Translation/tree/6bda4a11d30005697e82ea9043e7d486652542b9), under LGPL.
