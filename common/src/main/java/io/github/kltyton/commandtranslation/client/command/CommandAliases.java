@@ -32,12 +32,15 @@ public final class CommandAliases<S> {
 
     public CommandAliases(CommandDispatcher<S> server,
                           BiFunction<CommandNode<S>, String, List<String>> names,
-                          Function<ArgumentType<?>, List<String>> enumerations) {
+                          Function<ArgumentType<?>, List<String>> enumerations,
+                          BiFunction<String, String, List<String>> qualifiedNames) {
         Map<CommandNode<S>, CommandNode<S>> copies = new IdentityHashMap<>();
         Map<CommandNode<S>, String> paths = new IdentityHashMap<>();
+        Map<CommandNode<S>, String> roots = new IdentityHashMap<>();
         ArrayDeque<CommandNode<S>> queue = new ArrayDeque<>();
         queue.add(server.getRoot());
         paths.put(server.getRoot(), "");
+        roots.put(server.getRoot(), "");
         List<CommandNode<S>> ordered = new ArrayList<>();
         while (!queue.isEmpty()) {
             CommandNode<S> node = queue.removeFirst();
@@ -51,10 +54,12 @@ public final class CommandAliases<S> {
             ordered.add(node);
             for (CommandNode<S> child : node.getChildren()) {
                 paths.putIfAbsent(child, paths.get(node).isEmpty() ? child.getName() : paths.get(node) + "." + child.getName());
+                roots.putIfAbsent(child, node instanceof RootCommandNode<?> ? child.getName() : roots.get(node));
                 queue.addLast(child);
             }
             if (node.getRedirect() != null) {
                 paths.putIfAbsent(node.getRedirect(), "");
+                roots.putIfAbsent(node.getRedirect(), "");
                 queue.addLast(node.getRedirect());
             }
         }
@@ -64,7 +69,8 @@ public final class CommandAliases<S> {
             for (CommandNode<S> child : parent.getChildren()) {
                 parentCopy.addChild(copies.get(child));
                 if (child instanceof LiteralCommandNode<S>) {
-                    for (String alias : names.apply(child, paths.get(child))) {
+                    for (String alias : names.apply(child, paths.get(child)).stream()
+                            .flatMap(name -> qualifiedNames.apply(roots.get(child), name).stream()).distinct().toList()) {
                         if (validAlias(alias) && parent.getChild(alias) == null) {
                             candidates.computeIfAbsent(alias, ignored -> new ArrayList<>()).add(child);
                         }
@@ -73,7 +79,8 @@ public final class CommandAliases<S> {
                     Map<String, String> aliases = new LinkedHashMap<>();
                     List<String> values = values(argument);
                     for (String value : values) {
-                        for (String alias : names.apply(child, "value." + value)) {
+                        for (String alias : names.apply(child, "value." + value).stream()
+                                .flatMap(name -> qualifiedNames.apply(roots.get(child), name).stream()).distinct().toList()) {
                             if (validAlias(alias) && !values.contains(alias)) {
                                 String prior = aliases.putIfAbsent(alias, value);
                                 if (prior != null && !prior.equals(value)) { aliases.put(alias, ""); }
@@ -142,7 +149,7 @@ public final class CommandAliases<S> {
                                 parsed.getRange().getStart(), parsed.getRange().getEnd(), value));
                     }
                     // Vanilla help reparses its greedy query as a command, not a message.
-                    if ("help".equals(root) && original instanceof ArgumentCommandNode<S, ?>
+                    if (root != null && "help".equals(CommandHelp.canonicalRoot(root)) && original instanceof ArgumentCommandNode<S, ?>
                             && original.getName().equals("command") && parsed.getRange().getStart() > commandStart) {
                         commands.addLast(parsed.getRange().getStart());
                     }

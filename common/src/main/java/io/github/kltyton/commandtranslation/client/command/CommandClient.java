@@ -17,6 +17,7 @@ import io.github.kltyton.commandtranslation.client.command.help.ArgumentHover;
 import io.github.kltyton.commandtranslation.client.command.help.ArgumentDocumentation;
 import io.github.kltyton.commandtranslation.client.config.ClientConfig;
 import io.github.kltyton.commandtranslation.client.i18n.CommandLanguage;
+import io.github.kltyton.commandtranslation.client.i18n.NamespaceNames;
 import io.github.kltyton.commandtranslation.client.screen.ClientScreenAccess;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -53,7 +54,10 @@ public final class CommandClient {
         CommandAliases<S> aliases = (CommandAliases<S>) MIRRORS.computeIfAbsent(dispatcher,
                 key -> new CommandAliases<>(dispatcher, (node, path) -> CommandLanguage.aliases(path,
                         path.startsWith("value.") ? path.substring("value.".length()) : node.getName()),
-                        type -> ClientPlatform.enumValues(type, source)));
+                        type -> ClientPlatform.enumValues(type, source),
+                        (root, alias) -> java.util.stream.Stream.concat(
+                                NamespaceNames.aliases(NamespaceNames.commandNamespace(root), alias).stream(),
+                                java.util.stream.Stream.of(alias)).distinct().toList()));
         return aliases.translate(text, start, source);
     }
 

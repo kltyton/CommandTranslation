@@ -1,6 +1,7 @@
 package io.github.kltyton.commandtranslation.client.i18n;
 
 import io.github.kltyton.commandtranslation.client.ClientPlatform;
+import java.util.List;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.contents.TranslatableContents;
 
@@ -26,6 +27,14 @@ public final class NamespaceNames {
 
     public static Component qualify(String namespace, Component value) {
         return Component.translatable(CommandLanguage.PREFIX + "identifier.qualified", name(namespace), value);
+    }
+
+    public static List<String> aliases(String namespace, String value) {
+        String translated = name(namespace).getString() + ":";
+        String original = namespace + ":";
+        String local = value.startsWith(translated) ? value.substring(translated.length())
+                : value.startsWith(original) ? value.substring(original.length()) : value;
+        return java.util.stream.Stream.of(translated + local, original + local).distinct().toList();
     }
 
     public static String commandNamespace(String root) {

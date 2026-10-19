@@ -27,7 +27,7 @@ import net.minecraft.client.Minecraft;
 
 /** Combines native prefix results with a contextual empty-prefix query for translated names. */
 public final class LocalizedSuggestions {
-    private record Choice(CommandNode<?> node, String token, StringRange range) {}
+    private record Choice(CommandNode<?> node, String completion, StringRange range) {}
     private record Query(NativeSuggestionQuery.Result result, QueryProjection projection, boolean search) {}
 
     private LocalizedSuggestions() {}
@@ -81,7 +81,7 @@ public final class LocalizedSuggestions {
                 CommandCandidate candidate = CommandCandidate.describe(source);
                 if (query.search() && (candidate.aliases().isEmpty() || !candidate.matches(search))) { continue; }
                 StringRange range = query.projection().toOriginal(nativeRow.getRange());
-                if (!choices.add(new Choice(source.node(), candidate.canonical(), range))) { continue; }
+                if (!choices.add(new Choice(source.node(), nativeRow.getText(), range))) { continue; }
                 boolean localized = localize && !candidate.aliases().isEmpty();
                 String insertion = localized ? candidate.insertion() : nativeRow.getText();
                 String display = ClientConfig.current().identifierTranslation || localized ? candidate.label() : nativeRow.getText();

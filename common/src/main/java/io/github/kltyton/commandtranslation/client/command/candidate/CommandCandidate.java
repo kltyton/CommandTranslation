@@ -145,10 +145,9 @@ public record CommandCandidate(NativeSuggestionQuery.Source<?> source, StringRan
                     : "value." + raw;
             if (aliasPath.startsWith("minecraft:")) { aliasPath = aliasPath.substring(10); }
             for (String alias : CommandLanguage.aliases(aliasPath, raw)) {
-                String qualified = NamespaceNames.name(owner).getString() + ":" + alias;
-                if (preferred == null) { preferred = qualified; }
-                names.add(qualified);
-                names.add(owner + ":" + alias);
+                List<String> qualified = NamespaceNames.aliases(owner, alias);
+                if (preferred == null) { preferred = qualified.get(0); }
+                names.addAll(qualified);
             }
         }
         String label = preferred != null ? preferred : names.isEmpty() ? raw : names.iterator().next();
@@ -177,7 +176,10 @@ public record CommandCandidate(NativeSuggestionQuery.Source<?> source, StringRan
                 || located == null && ("minecraft:item_stack".equals(parser) || "minecraft:item_predicate".equals(parser)
                 || "minecraft:block_state".equals(parser) || "minecraft:block_predicate".equals(parser));
         String identifier = resourceToken ? ClientPlatform.identifierId(raw.startsWith("#") || raw.startsWith("!") ? raw.substring(1) : raw) : null;
-        if (identifier == null) { identifier = raw; }
+        if (identifier == null) {
+            identifier = source.node() instanceof LiteralCommandNode<?> && path.size() == 1 && !raw.contains(":")
+                    ? owner + ":" + raw : raw;
+        }
         else if (raw.startsWith("#") || raw.startsWith("!")) { identifier = raw.charAt(0) + identifier; }
         for (String name : List.copyOf(names)) {
             String suffix = "(" + identifier + ")";

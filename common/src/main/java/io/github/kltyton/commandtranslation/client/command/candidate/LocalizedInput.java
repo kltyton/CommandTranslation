@@ -147,7 +147,7 @@ public final class LocalizedInput {
             String translated = namespaces.stream().map(id -> NamespaceNames.name(id).getString()).distinct()
                     .sorted(java.util.Comparator.comparingInt(String::length).reversed()).map(Pattern::quote)
                     .collect(java.util.stream.Collectors.joining("|"));
-            qualifiers = Pattern.compile("(?<![\\p{L}\\p{N}_./-])(?:#|!)?(?:" + translated + "|[\\p{L}\\p{N}_.-]+):");
+            qualifiers = Pattern.compile("(?:(?<=^/)|(?<![\\p{L}\\p{N}_./-]))(?:#|!)?(?:" + translated + "|[\\p{L}\\p{N}_.-]+):");
         }
         return qualifiers;
     }

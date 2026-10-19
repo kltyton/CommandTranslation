@@ -11,9 +11,12 @@ public final class CommandLanguage {
     private CommandLanguage() {}
 
     public static List<String> aliases(String path, String literal) {
-        String key = PREFIX + (path.startsWith("value.") ? path : path.contains(".") ? "literal." + path : "command." + path) + ".alias";
+        if (path.startsWith("minecraft:")) { path = path.substring("minecraft:".length()); }
+        if (literal.startsWith("minecraft:")) { literal = literal.substring("minecraft:".length()); }
+        boolean nested = path.contains(".") && !path.equals(literal);
+        String key = PREFIX + (path.startsWith("value.") ? path : nested ? "literal." + path : "command." + path) + ".alias";
         Language language = Language.getInstance();
-        if (!language.has(key) && !path.startsWith("value.") && path.contains(".")) { key = PREFIX + "literal." + literal + ".alias"; }
+        if (!language.has(key) && !path.startsWith("value.") && nested) { key = PREFIX + "literal." + literal + ".alias"; }
         List<String> result = new ArrayList<>();
         if (language.has(key)) { result.addAll(Arrays.asList(language.getOrDefault(key).split("\\|"))); }
         if (path.startsWith("gamerule.")) {
