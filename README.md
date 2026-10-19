@@ -1,6 +1,6 @@
 # 指令翻译
 
-[English](README.en.md) | [问题反馈](https://github.com/kltyton/CommandTranslation/issues)
+[English](README.en.md) | [兼容 Wiki](https://github.com/kltyton/CommandTranslation/wiki) | [问题反馈](https://github.com/kltyton/CommandTranslation/issues)
 
 **用自己的语言输入 Minecraft 指令，英文原版照常可用。**
 
@@ -10,7 +10,7 @@
 
 ```mcfunction
 /give @s minecraft:stone 1
-/给予 @s 我的世界:石头 1
+/我的世界:给予 @s 我的世界:石头 1
 /locate biome 我的世界:平原
 ```
 

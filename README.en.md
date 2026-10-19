@@ -1,6 +1,6 @@
 # Command Translation
 
-[简体中文](README.md) | [Report an issue](https://github.com/kltyton/CommandTranslation/issues)
+[简体中文](README.md) | [Compatibility Wiki](https://github.com/kltyton/CommandTranslation/wiki) | [Report an issue](https://github.com/kltyton/CommandTranslation/issues)
 
 **Use Minecraft commands in your language. Keep the original English commands.**
 
@@ -10,7 +10,7 @@ Command Translation is a client-side mod for localized command input, translated
 
 ```mcfunction
 /give @s minecraft:stone 1
-/给予 @s 我的世界:石头 1
+/我的世界:给予 @s 我的世界:石头 1
 /locate biome 我的世界:平原
 ```
 

@@ -1,5 +1,7 @@
 # 提示语言接口
 
+[中文接入指南](https://github.com/kltyton/CommandTranslation/wiki/Compatibility-zh-CN) · [English Guide](https://github.com/kltyton/CommandTranslation/wiki/Compatibility-en-US)
+
 提示使用 Minecraft 原版语言表。资源包可在 `assets/command_translation/lang/<locale>.json` 中添加键；模组也可把相同的键放入自己的语言文件。语言随游戏设置变化，缺项遵循原版英文回退。普通物品、方块、实体和已有标识符名称继续复用原生翻译，无需复制整套名称。
 
 补全候选和已输入的字段共用值说明规则。英文原始形式始终保留；新增译名不会替换原版候选。
