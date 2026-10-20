@@ -41,6 +41,7 @@ public final class ClientConfig {
     public boolean otherEntityAttributes = false;
     public boolean effectTooltips = true;
     public boolean descriptionSearch = true;
+    public boolean translationExport = true;
     public TextStyle identifierStyle = new TextStyle(0x55FFFF);
     public TextStyle tagStyle = new TextStyle(0xFFAA00);
 
@@ -67,6 +68,7 @@ public final class ClientConfig {
         result.otherEntityAttributes = otherEntityAttributes;
         result.effectTooltips = effectTooltips;
         result.descriptionSearch = descriptionSearch;
+        result.translationExport = translationExport;
         result.identifierStyle = identifierStyle.copy();
         result.tagStyle = tagStyle.copy();
         return result;

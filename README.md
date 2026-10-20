@@ -26,6 +26,7 @@
 | 语法与参数 | 显示原版语法与本地语言小字标注，相关参数在较小的独立框中解释。 |
 | 原版详情 | 物品使用原版属性说明；生物默认展示生命值、攻击伤害、移动速度和护甲值，可逐项配置。 |
 | 资源包扩展 | 通过原版语言文件补充译名、别名和具体说明，无需为每个模组物品重建词典。 |
+| 翻译导出 | 一键生成未翻译模组命令的英文底稿与目标语言资源包。 |
 
 本地化名称保留命名空间；同名时追加完整原始 ID，例如 `机械动力:大齿轮(create:large_cogwheel)`，消歧形式同样可输入。
 
@@ -81,6 +82,7 @@ Fabric Loader 最低版本为 0.19.5。
 | otherEntityAttributes | false | 其余已注册且该生物实际具有的属性 |
 | effectTooltips | true | 状态效果简介 |
 | descriptionSearch | true | 将解释文字额外纳入搜索与完整别名识别 |
+| translationExport | true | 客户端翻译资源导出指令 |
 | identifierStyle | 青色 | 标识符译名样式 |
 | tagStyle | 金色 | 标签译名样式 |
 
@@ -93,6 +95,8 @@ Fabric Loader 最低版本为 0.19.5。
 只显示该生物已注册的属性，不为不存在的攻击力等属性编造数值。数值是属性系统的默认值，并非某个已生成实体的实时状态；移动速度保留原版属性单位，不换算为每秒方块数。
 
 ## 翻译资源
+
+0.2.0 起，可执行 `/command_translation export` 导出当前语言缺少的模组命令条目；`/command_translation export create` 可按命名空间或原命令根筛选。ZIP 写入当前游戏目录的 `resourcepacks`，不会自动启用。翻译步骤和推荐提示词见[快速接入](https://github.com/kltyton/CommandTranslation/wiki/Export-zh-CN)，手动接入文档仍保留。
 
 翻译使用原版语言系统，位于 `assets/command_translation/lang/<locale>.json`。别名可用 `|` 分隔多个写法，不包含空格。
 

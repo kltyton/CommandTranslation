@@ -74,6 +74,7 @@ const identifierLocales = identifierFiles.filter(name => name.endsWith('.json') 
 const output = resolve(root, 'common/src/generated/resources/assets/command_translation');
 await mkdir(resolve(output, 'lang'), { recursive: true });
 await mkdir(resolve(output, 'documentation'), { recursive: true });
+await writeFile(resolve(output, 'documentation/vanilla-commands.json'), JSON.stringify(Object.keys(commands.commands).sort(), null, 2) + '\n', 'utf8');
 const prefix = 'command_translation.';
 const descriptionText = text => text.replace(/\r\n?/g, '\n').trim().replace(/%/g, '%%');
 const requiredLocales = ['en_us', 'zh_cn', 'de_de', 'ja_jp'];

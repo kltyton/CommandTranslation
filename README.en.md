@@ -26,6 +26,7 @@ Chinese is an example; input and tooltips follow the selected game language. Eng
 | Syntax and parameters | Native syntax keeps its English tokens, with current-language annotations and smaller parameter panels. |
 | Native details | Item tooltips use native attribute text. Entity details start with health, attack damage, movement speed and armor, with individual switches. |
 | Resource-pack extensions | Add names, aliases and descriptions through ordinary language files without duplicating a mod's item dictionary. |
+| Translation export | Generate English references and a target-language resource pack for missing mod-command translations. |
 
 Localized names include namespaces. Conflicts append the complete original ID, for example `Create:Large Cogwheel(create:large_cogwheel)`; the disambiguated form also works as input.
 
@@ -74,6 +75,7 @@ Manual changes to `config/command_translation.json` take effect after a restart.
 | itemTooltips | Native item descriptions and attribute text |
 | entityTooltips | Registered default attributes of entity types |
 | effectTooltips | Brief status-effect descriptions |
+| translationExport | Client-side translation resource export command |
 
 NBT Autocomplete retains its separate completion settings.
 
@@ -84,6 +86,8 @@ Only attributes present in the entity type's registered supplier are shown. Valu
 `identifierStyle` and `tagStyle` support a decimal RGB `color`, `obfuscated`, `bold`, `strikethrough`, `underlined`, `italic`, and `showIdentifierOnHover`.
 
 Alias keys include `command_translation.command.give.alias`, scoped `command_translation.literal.execute.if.alias`, and `command_translation.value.creative.alias`. Separate synonyms with `|`; aliases cannot contain whitespace. Ambiguous aliases do not replace English tokens.
+
+Since 0.2.0, run `/command_translation export` to export missing mod-command entries for the current language. `/command_translation export create` filters by namespace or original command root. The ZIP is written to the current game's `resourcepacks` directory without enabling it. See [Export and Translate](https://github.com/kltyton/CommandTranslation/wiki/Export-en-US) for the short workflow and translation prompt; manual setup remains available.
 
 Parameter descriptions use `command_translation.help.argument.<full node path>`; value descriptions use `command_translation.help.value.<full node path>.<canonical value>`. The item count in give uses `give.targets.item.count`. Parser-specific fixed values use `command_translation.help.value.type.<vanilla parser ID>.<canonical value>`.
 

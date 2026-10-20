@@ -74,7 +74,8 @@ public abstract class CommandConfigScreen extends Screen {
             check(left + column + 8, 46, column, "localized_input", draft.localizedInput, value -> draft.localizedInput = value);
             check(left, 72, column, "identifier_translation", draft.identifierTranslation, value -> draft.identifierTranslation = value);
             check(left + column + 8, 72, column, "usage_tooltips", draft.usageTooltips, value -> draft.usageTooltips = value);
-            check(left, 98, panelWidth, "description_search", draft.descriptionSearch, value -> draft.descriptionSearch = value);
+            check(left, 98, column, "description_search", draft.descriptionSearch, value -> draft.descriptionSearch = value);
+            check(left + column + 8, 98, column, "translation_export", draft.translationExport, value -> draft.translationExport = value);
             button(left, 130, column, label("config.identifier_style"), () -> openStyle(Page.IDENTIFIER));
             button(left + column + 8, 130, column, label("config.tag_style"), () -> openStyle(Page.TAG));
             button(left, 156, panelWidth, label("config.tooltips"), () -> openStyle(Page.TOOLTIPS));
