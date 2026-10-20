@@ -10,6 +10,7 @@ import net.minecraft.util.FormattedCharSequence;
 /** Keeps command syntax prominent and packs smaller parameter panels beside it. */
 public final class TooltipPanels {
     private static final int GAP = 10;
+    private static final int SYNTAX_GAP = 3;
     private static final float ANNOTATION_SCALE = 0.65F;
     public record Run(FormattedCharSequence text, int x, int y, float scale, int color) {}
     public record Layout(int width, int height, List<Run> runs) {
@@ -46,8 +47,10 @@ public final class TooltipPanels {
 
     private static int contentWidth(Panel panel, Font font, int maximum) {
         int textWidth = (int) Math.ceil(Math.max(font.width(panel.title()), font.width(panel.description())) * panel.scale());
-        int syntaxWidth = panel.syntax().stream().mapToInt(token -> Math.max(font.width(token.original()),
-                (int) Math.ceil(font.width(token.annotation()) * ANNOTATION_SCALE))).sum();
+        List<CommandTooltip.Token> syntax = syntaxTokens(panel.syntax());
+        int syntaxWidth = syntax.stream().mapToInt(token -> Math.max(font.width(token.original()),
+                (int) Math.ceil(font.width(token.annotation()) * ANNOTATION_SCALE))).sum()
+                + Math.max(0, syntax.size() - 1) * SYNTAX_GAP;
         return Math.max(1, Math.min(maximum, Math.max(80, Math.max(textWidth, syntaxWidth))));
     }
 
@@ -83,7 +86,7 @@ public final class TooltipPanels {
             y += 5;
             List<Cell> line = new ArrayList<>();
             int x = 0;
-            for (CommandTooltip.Token token : panel.syntax()) {
+            for (CommandTooltip.Token token : syntaxTokens(panel.syntax())) {
                 String original = token.original().getString();
                 String annotation = token.annotation().getString();
                 boolean annotated = !annotation.isBlank() && !annotation.equalsIgnoreCase(original.replace("/", "").replace("<", "").replace(">", ""));
@@ -94,13 +97,38 @@ public final class TooltipPanels {
                 int originalWidth = originals.stream().mapToInt(font::width).max().orElse(0);
                 int annotationWidth = (int) Math.ceil(annotations.stream().mapToInt(font::width).max().orElse(0) * ANNOTATION_SCALE);
                 int cellWidth = Math.max(originalWidth, annotationWidth);
-                if (!line.isEmpty() && x + cellWidth > width) { y = syntaxLine(runs, font, line, y); line.clear(); x = 0; }
+                int gap = line.isEmpty() ? 0 : SYNTAX_GAP;
+                if (!line.isEmpty() && x + gap + cellWidth > width) { y = syntaxLine(runs, font, line, y); line.clear(); x = 0; gap = 0; }
                 line.add(new Cell(originals, annotations, cellWidth));
-                x += cellWidth;
+                x += gap + cellWidth;
             }
             if (!line.isEmpty()) { y = syntaxLine(runs, font, line, y); }
         }
         return new Layout(width, Math.max(font.lineHeight, y), runs);
+    }
+
+    private static List<CommandTooltip.Token> syntaxTokens(List<CommandTooltip.Token> tokens) {
+        List<CommandTooltip.Token> result = new ArrayList<>();
+        StringBuilder prefix = new StringBuilder();
+        for (CommandTooltip.Token token : tokens) {
+            String raw = token.original().getString();
+            if (raw.isBlank()) { continue; }
+            if (raw.equals("[") || raw.equals("(")) { prefix.append(raw); continue; }
+            if (raw.equals("|")) { prefix.append("| "); continue; }
+            if ((raw.equals("]") || raw.equals(")")) && !result.isEmpty()) {
+                var previous = result.remove(result.size() - 1);
+                result.add(new CommandTooltip.Token(previous.original().copy().append(raw), previous.annotation()));
+                continue;
+            }
+            String bare = raw.replace("/", "").replace("<", "").replace(">", "");
+            Component annotation = token.annotation().getString().equalsIgnoreCase(bare) ? Component.empty() : token.annotation();
+            result.add(new CommandTooltip.Token(Component.literal(prefix.toString()).append(token.original()), annotation));
+            prefix.setLength(0);
+        }
+        if (!prefix.isEmpty()) {
+            result.add(new CommandTooltip.Token(Component.literal(prefix.toString()), Component.empty()));
+        }
+        return result;
     }
 
     private static int text(List<Run> runs, Font font, Component component, int width, int y, float scale, int color) {
@@ -127,7 +155,7 @@ public final class TooltipPanels {
                 int offset = Math.max(0, (cell.width() - font.width(original)) / 2);
                 runs.add(new Run(original, x + offset, y + annotationHeight + row++ * font.lineHeight, 1.0F, 0xFFFFFFFF));
             }
-            x += cell.width();
+            x += cell.width() + SYNTAX_GAP;
         }
         return y + annotationHeight + originalHeight + 2;
     }

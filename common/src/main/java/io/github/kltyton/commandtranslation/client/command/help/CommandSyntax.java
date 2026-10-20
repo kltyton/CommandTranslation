@@ -17,7 +17,7 @@ import net.minecraft.network.chat.Component;
 
 /** Uses the live Brigadier tree for syntax and the language table for annotations and parameter help. */
 public final class CommandSyntax {
-    private static final Pattern TOKENS = Pattern.compile("<[^>]+>|[\\p{L}\\p{N}_:./-]+|\\s+|.");
+    private static final Pattern TOKENS = Pattern.compile("<[^>]+>|->|[\\p{L}\\p{N}_:./-]+|\\s+|.");
     private CommandSyntax() {}
 
     public static <S> Component describe(CommandDocumentation.Subject<S> subject, Component purpose) {
