@@ -79,7 +79,7 @@ public final class LocalizedSuggestions {
                     continue;
                 }
                 CommandCandidate candidate = CommandCandidate.describe(source);
-                if (query.search() && (candidate.aliases().isEmpty() || !candidate.matches(search))) { continue; }
+                if (query.search() && !candidate.matches(search)) { continue; }
                 StringRange range = query.projection().toOriginal(nativeRow.getRange());
                 if (!choices.add(new Choice(source.node(), nativeRow.getText(), range))) { continue; }
                 boolean localized = localize && !candidate.aliases().isEmpty();

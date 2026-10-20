@@ -17,7 +17,7 @@ public final class ValueDocumentation {
     public static Component registry(String registry, String raw, boolean names, boolean usage) {
         if (registry == null || raw.isEmpty()) { return null; }
         Component name = names ? IdentifierNames.displayRegistry(registry, raw) : null;
-        if (raw.startsWith("#")) { return ClientConfig.current().tagTooltips ? name : null; }
+        if (raw.startsWith("#")) { return !usage || ClientConfig.current().tagTooltips ? name : null; }
         String id = ClientPlatform.identifierId(raw);
         Component description = id == null || !usage ? null : DocumentationKeys.translated("registry." + registry + "." + id);
         if ("minecraft:mob_effect".equals(registry) && !ClientConfig.current().effectTooltips) { description = null; }
@@ -34,19 +34,35 @@ public final class ValueDocumentation {
     }
 
     public static Component value(String family, List<String> path, String raw) {
+        return value(family, path, raw, false);
+    }
+
+    public static Component name(String family, List<String> path, String raw) {
+        return value(family, path, raw, true);
+    }
+
+    private static Component value(String family, List<String> path, String raw, boolean name) {
         String suffix = ".value." + raw;
-        String key = path.isEmpty() ? DocumentationKeys.present(family + suffix) : DocumentationKeys.field(family, path, suffix);
+        String key = valueKey(family, path, suffix, name);
         String id = ClientPlatform.identifierId(raw);
         if (key == null && id != null && !id.equals(raw)) {
             suffix = ".value." + id;
-            key = path.isEmpty() ? DocumentationKeys.present(family + suffix) : DocumentationKeys.field(family, path, suffix);
+            key = valueKey(family, path, suffix, name);
         }
         if (key == null) {
             String binding = path.isEmpty() ? DocumentationKeys.present(family + ".value_type")
                     : DocumentationKeys.field(family, path, ".value_type");
-            if (binding != null) { key = DocumentationKeys.present("value.type." + CommandLanguage.present(binding) + "." + raw); }
+            if (binding != null) {
+                String typed = "value.type." + CommandLanguage.present(binding) + "." + raw;
+                key = name ? DocumentationKeys.presentName(typed) : DocumentationKeys.present(typed);
+            }
         }
         return key == null ? null : Component.translatable(key);
+    }
+
+    private static String valueKey(String family, List<String> path, String suffix, boolean name) {
+        if (path.isEmpty()) { return name ? DocumentationKeys.presentName(family + suffix) : DocumentationKeys.present(family + suffix); }
+        return name ? DocumentationKeys.fieldName(family, path, suffix) : DocumentationKeys.field(family, path, suffix);
     }
 
     public static boolean specific(Component component) {

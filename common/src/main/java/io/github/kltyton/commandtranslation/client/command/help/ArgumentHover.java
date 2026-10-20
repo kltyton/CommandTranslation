@@ -8,6 +8,7 @@ import io.github.kltyton.commandtranslation.client.ClientPlatform;
 import io.github.kltyton.commandtranslation.client.command.CommandHelp;
 import io.github.kltyton.commandtranslation.client.config.ClientConfig;
 import io.github.kltyton.commandtranslation.client.i18n.IdentifierNames;
+import io.github.kltyton.commandtranslation.client.i18n.CommandLanguage;
 import io.github.kltyton.commandtranslation.client.i18n.TagNames;
 import io.github.kltyton.commandtranslation.client.i18n.NamespaceNames;
 import java.util.List;
@@ -60,30 +61,31 @@ public final class ArgumentHover {
             }
             if (item && StructuredFieldLocator.contains(text, list, cursor) && (compound < 0 || list < compound)) {
                 if (!identity && !ClientConfig.current().structuredTooltips) { return null; }
-                return usage ? component(text, StructuredFieldLocator.at(text, list, cursor,
-                        StructuredFieldLocator.Format.ASSIGNMENTS)) : null;
+                var field = StructuredFieldLocator.at(text, list, cursor, StructuredFieldLocator.Format.ASSIGNMENTS);
+                return usage ? withFieldName(field, component(text, field)) : null;
             }
             if (block && StructuredFieldLocator.contains(text, list, cursor) && (compound < 0 || list < compound)) {
                 if (!identity && !ClientConfig.current().structuredTooltips) { return null; }
                 var field = StructuredFieldLocator.at(text, list, cursor, StructuredFieldLocator.Format.ASSIGNMENTS);
-                return usage && field != null ? blockState(text, field) : null;
+                return usage && field != null ? withFieldName(field, blockState(text, field)) : null;
             }
             if (text.startsWith("@") && StructuredFieldLocator.contains(text, list, cursor)) {
                 if (!identity && !ClientConfig.current().structuredTooltips) { return null; }
-                return selector(StructuredFieldLocator.at(text, list, cursor, StructuredFieldLocator.Format.SELECTOR));
+                var field = StructuredFieldLocator.at(text, list, cursor, StructuredFieldLocator.Format.SELECTOR);
+                return withFieldName(field, selector(field));
             }
             if (StructuredFieldLocator.contains(text, compound, cursor)) {
                 if (!identity && !ClientConfig.current().structuredTooltips) { return null; }
                 var field = StructuredFieldLocator.at(text, compound, cursor, StructuredFieldLocator.Format.COMPOUND);
                 if (!usage || field == null) { return null; }
-                if (item) { return field("nbt.item", field); }
-                if (block) { return field("nbt.block_entity", field); }
-                if (parser.equals("minecraft:component") || parser.equals("minecraft:style")) { return text(field); }
-                if (parser.equals("minecraft:particle")) { return field("particle." + ClientPlatform.identifierId(text), field); }
-                if (parser.equals("minecraft:dialog")) { return field("dialog", field); }
+                if (item) { return withFieldName(field, field("nbt.item", field)); }
+                if (block) { return withFieldName(field, field("nbt.block_entity", field)); }
+                if (parser.equals("minecraft:component") || parser.equals("minecraft:style")) { return withFieldName(field, text(field)); }
+                if (parser.equals("minecraft:particle")) { return withFieldName(field, field("particle." + ClientPlatform.identifierId(text), field)); }
+                if (parser.equals("minecraft:dialog")) { return withFieldName(field, field("dialog", field)); }
                 if (parser.equals("minecraft:nbt_compound_tag") || parser.equals("minecraft:nbt_tag")) {
                     String family = nbtFamily(subject);
-                    return family == null ? null : nbt(family, subject.entityType(), field);
+                    return family == null ? null : withFieldName(field, nbt(family, subject.entityType(), field));
                 }
                 return null;
             }
@@ -97,7 +99,7 @@ public final class ArgumentHover {
                 if (!identity && !ClientConfig.current().structuredTooltips) { return null; }
                 var field = StructuredFieldLocator.pathAt(text, cursor);
                 String family = nbtFamily(subject);
-                return field == null || family == null ? null : nbt(family, subject.entityType(), field);
+                return field == null || family == null ? null : withFieldName(field, nbt(family, subject.entityType(), field));
             }
         }
         if (subject.value().startsWith("#") && (fallbackKind != null || ArgumentDocumentation.registry(node) != null
@@ -130,14 +132,14 @@ public final class ArgumentHover {
             Component name = IdentifierNames.display(node, fallbackKind, subject.value());
             if (name != null) { return name; }
         }
-        Component documentation = usage && (identity || ClientConfig.current().valueTooltips || node instanceof LiteralCommandNode<?>)
+        if (identity) { return null; }
+        Component documentation = usage && (ClientConfig.current().valueTooltips || node instanceof LiteralCommandNode<?>)
                 ? CommandDocumentation.describe(subject) : null;
         if (usage && !identity && node instanceof LiteralCommandNode<?>
                 && (subject.nodes().size() == 1 || !node.getChildren().isEmpty() || node.getRedirect() != null)) {
             return CommandSyntax.describe(subject, documentation);
         }
-        return !identity || subject.nodes().get(subject.nodes().size() - 1) instanceof LiteralCommandNode<?>
-                || specificValue(documentation) ? documentation : null;
+        return documentation;
     }
 
     private Component component(String item, StructuredFieldLocator.Field field) {
@@ -160,7 +162,8 @@ public final class ArgumentHover {
             if (!field.key()) {
                 String value = unquote(field.value());
                 if (!identity && value.startsWith("#") && !ClientConfig.current().tagTooltips) { return null; }
-                Component specific = ValueDocumentation.value(family, List.of(), value);
+                Component specific = identity ? ValueDocumentation.name(family, List.of(), value)
+                        : ValueDocumentation.value(family, List.of(), value);
                 if (specific != null) { return specific; }
                 Component resource = ValueDocumentation.registry(ValueDocumentation.registry(family, List.of(), false),
                         value, names, usage && !identity);
@@ -179,8 +182,11 @@ public final class ArgumentHover {
                     if (name != null) { return name; }
                 }
             }
-            return identity && !field.key() ? null : field.key()
-                    ? IdentifierNames.displayRegistry("minecraft:data_component_type", id) : contextValue(field.value(), translated(family));
+            if (field.key()) {
+                Component purpose = identity ? null : translated(family);
+                return purpose != null ? purpose : names ? IdentifierNames.displayRegistry("minecraft:data_component_type", id) : null;
+            }
+            return identity ? null : contextValue(field.value(), translated(family));
         }
         var member = new StructuredFieldLocator.Field(field.path().subList(1, field.path().size()), field.value(), field.key());
         Component shared = switch (id) {
@@ -283,7 +289,8 @@ public final class ArgumentHover {
         if (!field.key()) {
             String raw = unquote(field.value());
             if (!identity && raw.startsWith("#") && !ClientConfig.current().tagTooltips) { return null; }
-            Component specific = ValueDocumentation.value(family, field.path(), raw);
+            Component specific = identity ? ValueDocumentation.name(family, field.path(), raw)
+                    : ValueDocumentation.value(family, field.path(), raw);
             if (specific != null) { return specific; }
             Component resource = ValueDocumentation.registry(ValueDocumentation.registry(family, field.path(), false),
                     raw, names, usage && !identity);
@@ -313,7 +320,11 @@ public final class ArgumentHover {
                 if (name != null) { return name; }
             }
         }
-        if (identity && !field.key()) { return null; }
+        if (identity) {
+            if (!field.key()) { return null; }
+            String named = DocumentationKeys.fieldName(family, field.path(), "");
+            return named == null ? null : Component.translatable(named);
+        }
         String key = DocumentationKeys.field(family, field.path(), "");
         if (key == null) { return null; }
         Component purpose = Component.translatable(key);
@@ -325,8 +336,17 @@ public final class ArgumentHover {
                 : Component.translatable("command_translation.help.value.context", Component.literal(raw), purpose);
     }
 
-    private static boolean specificValue(Component component) {
-        return ValueDocumentation.specific(component);
+    private static Component valueName(String raw) {
+        String value = unquote(raw);
+        List<String> names = CommandLanguage.aliases("value." + value, value);
+        return names.stream().filter(name -> !name.equals(value)).findFirst().map(Component::literal).orElse(null);
+    }
+
+    private Component withFieldName(StructuredFieldLocator.Field field, Component selected) {
+        if (!identity || selected != null || field == null || field.path().isEmpty()) { return selected; }
+        if (!field.key()) { return valueName(field.value()); }
+        String key = DocumentationKeys.presentName("field." + field.path().get(field.path().size() - 1));
+        return key == null ? null : Component.translatable(key);
     }
 
     private static String unquote(String value) {

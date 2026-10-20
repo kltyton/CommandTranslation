@@ -24,6 +24,7 @@ const parameterDirectory = resolve(root, 'tools/localization/sources/parameters'
 const parameterHelp = {};
 const parameterSources = {};
 const componentCatalog = await load('sources/components.json');
+const structuredNames = await load('vocabulary/structured-names.json');
 async function parameterFiles(directory, prefix = '') {
   const files = [];
   for (const entry of await readdir(directory, { withFileTypes: true })) {
@@ -78,6 +79,29 @@ await writeFile(resolve(output, 'documentation/vanilla-commands.json'), JSON.str
 const prefix = 'command_translation.';
 const descriptionText = text => text.replace(/\r\n?/g, '\n').trim().replace(/%/g, '%%');
 const requiredLocales = ['en_us', 'zh_cn', 'de_de', 'ja_jp'];
+function namedEntry(key, names, sources) {
+  if (!sources?.length) throw new Error('Missing name provenance: ' + key);
+  for (const locale of requiredLocales) {
+    const name = names?.[locale];
+    if (name === undefined && !['en_us', 'zh_cn'].includes(locale)) continue;
+    if (typeof name !== 'string' || !name.trim() || /[\r\n:]/.test(name)) {
+      throw new Error('Missing or invalid short name: ' + locale + ' ' + key);
+    }
+    parameterHelp[locale][key] ??= name.trim();
+  }
+  parameterSources[key] ??= sources;
+}
+for (const [key, sources] of Object.entries(parameterSources)) {
+  if (!key.startsWith(prefix + 'help.') || !key.includes('.field.') || key.includes('.value.')
+      || /\.(registry|key_registry|value_type)$/.test(key)) continue;
+  const token = key.split('.').at(-1);
+  if (token === '*') continue;
+  namedEntry(prefix + 'name.' + key.slice((prefix + 'help.').length), structuredNames.fields[token], sources);
+}
+for (const id of Object.keys(componentCatalog.components)) {
+  namedEntry(prefix + 'registry.minecraft:data_component_type.' + id + '.name',
+    structuredNames.components[id], parameterSources[prefix + 'help.component.' + id]);
+}
 const locales = [...requiredLocales, ...identifierLocales.filter(locale => !requiredLocales.includes(locale) && !['zh_tw', 'zh_hk'].includes(locale))];
 const helpKeys = new Set([...Object.keys(wiki.entries.en_us), ...Object.keys(overrides.en_us ?? {}),
   ...Object.keys(parameterHelp.en_us ?? {})].filter(key => key.startsWith(prefix + 'help.')
@@ -119,7 +143,7 @@ for (const locale of locales) {
   commandNames(entries, locale, names);
   Object.assign(entries, await identifiers(locale));
   Object.assign(entries, tags.entries[locale]);
-  Object.assign(entries, Object.fromEntries(Object.entries(parameterHelp[locale] ?? {}).filter(([key]) => key.startsWith(prefix + 'registry.') || key.startsWith(prefix + 'syntax.'))));
+  Object.assign(entries, Object.fromEntries(Object.entries(parameterHelp[locale] ?? {}).filter(([key]) => key.startsWith(prefix + 'registry.') || key.startsWith(prefix + 'syntax.') || key.startsWith(prefix + 'name.'))));
   const descriptions = { ...(translatedHelp[locale] ?? {}), ...wiki.entries[locale], ...overrides[locale],
     ...parameterHelp[locale] };
   for (const key of helpKeys) {

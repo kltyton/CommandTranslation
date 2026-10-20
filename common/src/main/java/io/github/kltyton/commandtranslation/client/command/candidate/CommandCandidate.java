@@ -31,8 +31,12 @@ import net.minecraft.network.chat.Style;
 
 /** Names one real provider choice, retaining the exact token separately from its completion template. */
 public record CommandCandidate(NativeSuggestionQuery.Source<?> source, StringRange tokenRange, String canonical,
-                               String identifier, String namespace, String insertion, String label, List<String> aliases, Component description) {
-    public CommandCandidate { aliases = List.copyOf(aliases); }
+                               String identifier, String namespace, String insertion, String label, List<String> aliases,
+                               List<String> searchTerms, Component description) {
+    public CommandCandidate {
+        aliases = List.copyOf(aliases);
+        searchTerms = List.copyOf(searchTerms);
+    }
 
     public Message tooltip(Message nativeTooltip) {
         if (!ClientConfig.current().suggestionTooltips) { return nativeTooltip; }
@@ -86,7 +90,8 @@ public record CommandCandidate(NativeSuggestionQuery.Source<?> source, StringRan
     public boolean matches(String query) {
         String needle = decode(query).toLowerCase(Locale.ROOT);
         return canonical.toLowerCase(Locale.ROOT).contains(needle)
-                || aliases.stream().anyMatch(alias -> alias.toLowerCase(Locale.ROOT).contains(needle));
+                || aliases.stream().anyMatch(alias -> alias.toLowerCase(Locale.ROOT).contains(needle))
+                || searchTerms.stream().anyMatch(term -> term.toLowerCase(Locale.ROOT).contains(needle));
     }
 
     public static <S> CommandCandidate describe(NativeSuggestionQuery.Source<S> source) {
@@ -130,6 +135,7 @@ public record CommandCandidate(NativeSuggestionQuery.Source<?> source, StringRan
         if (identity != null && !NamespaceNames.isQualified(identity)) { identity = NamespaceNames.qualify(owner, identity); }
         if (explanation != null && !NamespaceNames.isQualified(explanation)) { explanation = NamespaceNames.qualify(owner, explanation); }
         LinkedHashSet<String> names = new LinkedHashSet<>();
+        LinkedHashSet<String> searchTerms = new LinkedHashSet<>();
         String preferred = null;
         if (identity != null) {
             String name = (raw.startsWith("!") ? "!" : "") + identity.getString();
@@ -155,11 +161,11 @@ public record CommandCandidate(NativeSuggestionQuery.Source<?> source, StringRan
             var document = CommandTooltip.read(explanation);
             Component meaning = document == null ? explanation : document.description();
             if (!meaning.getString().isBlank()) {
-                names.add(NamespaceNames.isQualified(meaning) ? meaning.getString() : NamespaceNames.qualify(owner, meaning).getString());
+                searchTerms.add(NamespaceNames.isQualified(meaning) ? meaning.getString() : NamespaceNames.qualify(owner, meaning).getString());
             }
             if (raw.startsWith("@") && raw.length() == 2) {
                 Component selector = DocumentationKeys.translated("value.type.minecraft:entity." + raw);
-                if (selector != null) { names.add(NamespaceNames.qualify(owner, selector).getString()); }
+                if (selector != null) { searchTerms.add(NamespaceNames.qualify(owner, selector).getString()); }
             }
         }
         Message nativeTooltip = suggestion.getTooltip();
@@ -169,7 +175,7 @@ public record CommandCandidate(NativeSuggestionQuery.Source<?> source, StringRan
             if (!description.isBlank()) {
                 String qualified = nativeTooltip instanceof Component component && NamespaceNames.isQualified(component)
                         ? description : NamespaceNames.name(owner).getString() + ":" + description;
-                names.add(qualified);
+                searchTerms.add(qualified);
             }
         }
         boolean resourceToken = registry != null || ArgumentDocumentation.registry(source.node()) != null || kind != null
@@ -193,7 +199,7 @@ public record CommandCandidate(NativeSuggestionQuery.Source<?> source, StringRan
             insertion = insertion.substring(0, relativeStart) + encode(label, token) + insertion.substring(relativeEnd);
         }
         return new CommandCandidate(source, StringRange.between(source.argumentStart() + from, source.argumentStart() + to),
-                token, identifier, owner, insertion, insertion, List.copyOf(names), explanation);
+                token, identifier, owner, insertion, insertion, List.copyOf(names), List.copyOf(searchTerms), explanation);
     }
 
     public static StructuredFieldLocator.Located locate(String argument, int cursor, String parser) {

@@ -88,7 +88,7 @@ public final class IdentifierNames {
         String id = ClientPlatform.identifierId(raw.startsWith("!") ? raw.substring(1) : raw);
         String name = id == null ? null : CommandLanguage.PREFIX + "registry.minecraft:data_component_type." + id + ".name";
         if (name != null && CommandLanguage.present(name) != null) { return NamespaceNames.identifier(id, Component.translatable(name)); }
-        String key = id == null ? null : CommandLanguage.PREFIX + "help.component." + id;
+        String key = id == null ? null : CommandLanguage.PREFIX + "name.component." + id;
         return key == null || CommandLanguage.present(key) == null ? null
                 : NamespaceNames.identifier(id, Component.translatable(key));
     }

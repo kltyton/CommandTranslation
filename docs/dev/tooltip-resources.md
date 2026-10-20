@@ -6,6 +6,8 @@
 
 补全候选和已输入的字段共用值说明规则。英文原始形式始终保留；新增译名不会替换原版候选。
 
+名称只用于候选显示和输入。说明只用于 tooltip 和搜索；输入说明片段可以筛选候选，但选择后插入短名称或原始键值，不把说明注册成执行别名。没有短名称的条目保留原始写法。
+
 ```mermaid
 flowchart TD
     A[当前节点或内部字段和值] --> B[具体上下文的值说明]
@@ -44,6 +46,26 @@ flowchart TD
 | 共用类型中的具体值 | `value.type.<类型名>.<原始值>` |
 
 组件直接值的 `.registry`、`.value_type` 追加在组件键后，不含 `.field`。注册表绑定和值类型名保留代码中的原始写法，不随语言翻译。字典键绑定用于附魔等以资源 ID 作为键的结构。
+
+名称使用独立的 `command_translation.name.` 前缀，不占用说明路径；真实字段名 `name` 仍可正常编写说明。
+
+| 名称 | `command_translation.name.` 后续路径 |
+| --- | --- |
+| 上下文字段短名称 | `<字段族>.field.<字段路径>` |
+| 共用字段短名称 | `field.<原始字段名>` |
+| 字段具体值短名称 | `<字段族>.field.<字段路径>.value.<原始值>` |
+| 共用类型中的值短名称 | `value.type.<类型名>.<原始值>` |
+
+组件名称使用 `command_translation.registry.minecraft:data_component_type.<组件 ID>.name`，组件用途仍使用 `command_translation.help.component.<组件 ID>`。名称和说明互不回退；精确字段名称优先于共用名称。共用字段名称由资源作者显式提供，内置名称按已记录的实际字段上下文提供。
+
+```json
+{
+  "command_translation.name.block_state.field.stage": "生长阶段",
+  "command_translation.help.block_state.field.stage": "树苗或竹子是否已准备进入下一生长阶段。",
+  "command_translation.registry.minecraft:data_component_type.minecraft:damage_type.name": "伤害类型",
+  "command_translation.help.component.minecraft:damage_type": "该物品造成的伤害类型。"
+}
+```
 
 代码绑定建议放入 `en_us.json`，其他语言只补充实际文案；原版语言系统会将未覆盖的语言回退到英文表中的相同绑定，不必逐语言复制代码 ID。
 
