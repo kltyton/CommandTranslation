@@ -10,13 +10,16 @@ def githubArtifact = nbtacArtifact.id.startsWith('github-')
 def artifactVersion = nbtacArtifact.modId == 'nbtac' ? nbtacArtifact.version : nbtacArtifact.id
 def coordinate
 if (githubArtifact) {
+    def classifier = nbtacArtifact.filename.substring('NBTac-'.length(), nbtacArtifact.filename.length() - '.jar'.length())
+    // ForgeGradle's repository parser treats dots in classifiers as extension separators.
+    def dependencyClassifier = pluginManager.hasPlugin('net.minecraftforge.gradle') ? classifier.replace('.', '_') : classifier
     // This Ivy alias resolves the original GitHub asset, not a republished Maven module.
     repositories.exclusiveContent {
         forRepository {
             repositories.ivy {
                 name = 'NbtAutocompleteGitHub'
                 url = 'https://github.com/mt1006/mc-nbtac-mod/releases/download'
-                patternLayout { artifact '[revision]/[module]-[classifier].jar' }
+                patternLayout { artifact "[revision]/[module]-${classifier}.jar" }
                 metadataSources { artifact() }
             }
         }
@@ -24,8 +27,7 @@ if (githubArtifact) {
         filter { includeModule 'upstream.github.mt1006', 'NBTac' }
     }
     artifactVersion = nbtacArtifact.version
-    def classifier = nbtacArtifact.filename.substring('NBTac-'.length(), nbtacArtifact.filename.length() - '.jar'.length())
-    coordinate = "upstream.github.mt1006:NBTac:${artifactVersion}:${classifier}"
+    coordinate = "upstream.github.mt1006:NBTac:${artifactVersion}:${dependencyClassifier}"
 } else {
     coordinate = "maven.modrinth:nbt-autocomplete:${artifactVersion}"
 }
