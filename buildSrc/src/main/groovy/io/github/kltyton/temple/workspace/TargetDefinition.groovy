@@ -6,6 +6,8 @@ final class TargetDefinition {
     final String loader
     final String minecraft
     final int javaVersion
+    final int compilerJavaVersion
+    final int runtimeJavaVersion
     final int gradleJavaVersion
     final Properties properties
 
@@ -16,13 +18,21 @@ final class TargetDefinition {
         this.loader = properties.getProperty('loader')
         this.minecraft = properties.getProperty('minecraft_version')
         this.javaVersion = Integer.parseInt(properties.getProperty('java_version'))
+        this.compilerJavaVersion = Integer.parseInt(properties.getProperty('compiler_java_version', javaVersion.toString()))
+        this.runtimeJavaVersion = Integer.parseInt(properties.getProperty('runtime_java_version', javaVersion.toString()))
         this.gradleJavaVersion = Integer.parseInt(properties.getProperty('gradle_java_version'))
     }
 
     String taskSuffix() { id.replace('-', '_').replace('.', '_') }
 
+    List<Integer> toolchainVersions() {
+        ([gradleJavaVersion, compilerJavaVersion, runtimeJavaVersion] +
+                properties.getProperty('tool_java_versions', '').tokenize(',').collect { Integer.parseInt(it.trim()) }).unique()
+    }
+
     Map<String, Object> describe() {
         [target: id, loader: loader, minecraft: minecraft, java: javaVersion,
-         gradle_java: gradleJavaVersion, ci: properties.getProperty('ci_enabled', 'true') == 'true']
+         compiler_java: compilerJavaVersion, runtime_java: runtimeJavaVersion, gradle_java: gradleJavaVersion,
+         java_toolchains: toolchainVersions().join('\n'), ci: properties.getProperty('ci_enabled', 'true') == 'true']
     }
 }

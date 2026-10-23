@@ -13,12 +13,13 @@ val targetId = "$loader-$minecraft"
 val activeFile = templeRoot.resolve(".temple/active-target")
 val active = (if (activeFile.isFile) activeFile.readText().trim() else identity.getProperty("temple_default_target")) == targetId
 val javaVersion = rootProject.property("java_version").toString().toInt()
+val compilerJavaVersion = rootProject.findProperty("compiler_java_version")?.toString()?.toInt() ?: javaVersion
 group = identity.getProperty("mod_group_id")
 version = identity.getProperty("mod_version")
 base.archivesName.set("${identity.getProperty("mod_id")}-common-$targetId")
 layout.buildDirectory.set(commonRoot.resolve("build/$targetId"))
 java {
-    toolchain.languageVersion.set(JavaLanguageVersion.of(javaVersion))
+    toolchain.languageVersion.set(JavaLanguageVersion.of(compilerJavaVersion))
     withSourcesJar()
 }
 repositories { mavenCentral() }

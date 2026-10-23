@@ -45,7 +45,7 @@ final class PublishDialog {
                     'org.gradle.wrapper.GradleWrapperMain',
                     platform == 'maven' ? 'publish' : 'publishMods',
                     "-Ppublish_platform=${platform}", "--console=plain", '--no-daemon',
-                    "-Dorg.gradle.java.installations.paths=${installations}"]
+                    "-Porg.gradle.java.installations.paths=${installations}"]
             ProcessBuilder process = new ProcessBuilder(command).directory(target.directory).inheritIO()
             Map<String, String> environment = process.environment()
             environment.put('JAVA_HOME', javaExecutable.parentFile.parentFile.absolutePath)

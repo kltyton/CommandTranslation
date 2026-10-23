@@ -1,4 +1,4 @@
-import groovy.json.JsonOutput
+import groovy.json.JsonGenerator
 import java.util.Properties
 
 val templeRoot = file("../..").canonicalFile
@@ -12,14 +12,27 @@ group = setting("mod_group_id")
 version = setting("mod_version")
 val loader = setting("loader")
 val javaVersion = setting("java_version").toInt()
+val compilerJavaVersion = project.findProperty("compiler_java_version")?.toString()?.toInt() ?: javaVersion
+val runtimeJavaVersion = project.findProperty("runtime_java_version")?.toString()?.toInt() ?: javaVersion
 extensions.configure<BasePluginExtension> { archivesName.set("$modId-$loader-${setting("minecraft_version")}") }
 extensions.configure<JavaPluginExtension> {
-    toolchain.languageVersion.set(JavaLanguageVersion.of(javaVersion))
+    toolchain.languageVersion.set(JavaLanguageVersion.of(compilerJavaVersion))
     withSourcesJar()
 }
 tasks.withType<JavaCompile>().configureEach {
     options.encoding = "UTF-8"
     options.release.set(javaVersion)
+}
+if (compilerJavaVersion != runtimeJavaVersion) {
+    afterEvaluate {
+        tasks.withType<JavaExec>().configureEach {
+            if (name in listOf("runClient", "runServer", "runData", "runDatagen")) {
+                javaLauncher.set(project.extensions.getByType<org.gradle.jvm.toolchain.JavaToolchainService>().launcherFor {
+                    languageVersion.set(JavaLanguageVersion.of(runtimeJavaVersion))
+                })
+            }
+        }
+    }
 }
 evaluationDependsOn(":common")
 val commonProject = project(":common")
@@ -48,11 +61,15 @@ tasks.named<ProcessResources>("processResources") {
             "java_version").associateWith { setting(it) } + mapOf(
             "fml_version_range" to (project.findProperty("fml_version_range")?.toString() ?: ""),
             "mod_java_package" to (project.findProperty("mod_java_package")?.toString() ?: setting("mod_group_id")))
-    val escaped = raw.mapValues { JsonOutput.toJson(it.value).let { json -> json.substring(1, json.length - 1) } }
+    val json = JsonGenerator.Options().disableUnicodeEscaping().build()
+    val escaped = raw.mapValues { json.toJson(it.value).replace("\u007f", "\\u007f").let { encoded -> encoded.substring(1, encoded.length - 1) } }
     inputs.properties(raw)
-    filesMatching(listOf("fabric.mod.json", "META-INF/mods.toml", "META-INF/neoforge.mods.toml")) { expand(escaped) }
+    filesMatching(listOf("fabric.mod.json", "META-INF/mods.toml", "META-INF/neoforge.mods.toml")) {
+        filter { line: String -> Regex("\\$\\{([a-z_]+)\\}").replace(line) { match -> escaped[match.groupValues[1]] ?: match.value } }
+    }
 }
 tasks.named<Jar>("jar") {
+    manifest.attributes("Implementation-Version" to project.version.toString())
     from(commonProject.extensions.getByType<SourceSetContainer>().named("main").map { it.output })
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
     from(templeRoot.resolve("LICENSE")) { rename { "LICENSE_$modId" } }

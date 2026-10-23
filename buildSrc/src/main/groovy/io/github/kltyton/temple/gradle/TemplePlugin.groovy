@@ -2,6 +2,8 @@ package io.github.kltyton.temple.gradle
 
 import groovy.json.JsonOutput
 import groovy.json.JsonSlurper
+import com.electronwill.nightconfig.core.Config
+import com.electronwill.nightconfig.toml.TomlParser
 import io.github.kltyton.temple.artifact.DistributionInspector
 import io.github.kltyton.temple.integration.MinecraftTemplates
 import io.github.kltyton.temple.ui.ProjectDialog
@@ -47,7 +49,10 @@ final class TemplePlugin implements Plugin<Project> {
         project.tasks.register('setupTargetWrappers') {
             group = 'temple'
             description = '初次创建工程后安装各目标 Wrapper，保留各自 Gradle 版本。'
-            dependsOn project.tasks.named('wrapper')
+            dependsOn {
+                ['gradlew', 'gradlew.bat', 'gradle/wrapper/gradle-wrapper.jar'].every { new File(root, it).isFile() }
+                        ? [] : [project.tasks.named('wrapper')]
+            }
             doLast {
                 targets.each { target ->
                     ['gradlew', 'gradlew.bat', 'gradle/wrapper/gradle-wrapper.jar'].each { name ->
@@ -141,7 +146,7 @@ final class TemplePlugin implements Plugin<Project> {
             description = "${target.id}: ${action}，使用目标自己的 Wrapper。"
             onlyIf {
                 if (project.findProperty('templePlan') == 'true') {
-                    project.logger.lifecycle("${target.id}: ${action}; Gradle Java ${target.gradleJavaVersion}; compiler Java ${target.javaVersion}")
+                    project.logger.lifecycle("${target.id}: ${action}; Gradle Java ${target.gradleJavaVersion}; compiler Java ${target.compilerJavaVersion}; runtime Java ${target.runtimeJavaVersion}; bytecode Java ${target.javaVersion}")
                     return false
                 }
                 true
@@ -155,8 +160,7 @@ final class TemplePlugin implements Plugin<Project> {
                 File wrapper = new File(target.directory, 'gradle/wrapper/gradle-wrapper.jar')
                 if (!wrapper.isFile()) { throw new IllegalArgumentException('先点击 temple > setupProject 初始化 Wrapper') }
                 def runtime = toolchains.launcherFor { languageVersion = JavaLanguageVersion.of(target.gradleJavaVersion) }.get()
-                def compiler = toolchains.launcherFor { languageVersion = JavaLanguageVersion.of(target.javaVersion) }.get()
-                args "-Dorg.gradle.java.installations.paths=${runtime.metadata.installationPath.asFile},${compiler.metadata.installationPath.asFile}"
+                args "-Porg.gradle.java.installations.paths=${javaInstallationPaths(toolchains, target)}"
                 String temp = System.getProperty('java.io.tmpdir')
                 args "-Djava.io.tmpdir=${temp}"
                 environment 'TEMP', temp
@@ -165,6 +169,13 @@ final class TemplePlugin implements Plugin<Project> {
                 environment 'JAVA_HOME', runtime.metadata.installationPath.asFile.absolutePath
             }
         }
+    }
+
+    private static String javaInstallationPaths(JavaToolchainService toolchains, TargetDefinition target) {
+        target.toolchainVersions().collect { int version ->
+            toolchains.launcherFor { languageVersion = JavaLanguageVersion.of(version) }.get()
+                    .metadata.installationPath.asFile.absolutePath
+        }.unique().join(',')
     }
 
     private static void registerDialog(Project project, JavaToolchainService toolchains, String name,
@@ -176,7 +187,7 @@ final class TemplePlugin implements Plugin<Project> {
                     '可视化添加版本/Loader 目标。') : "可视化发布 ${target.id} 到 ${platform}，凭据仅存在于当前进程。"
             int runtimeVersion = target?.gradleJavaVersion ?: Integer.parseInt(System.getProperty('java.specification.version'))
             javaLauncher.set(toolchains.launcherFor { languageVersion = JavaLanguageVersion.of(runtimeVersion) })
-            classpath = project.files([entry, ProjectFiles, JsonSlurper, JsonOutput, GroovySystem].collect {
+            classpath = project.files([entry, ProjectFiles, JsonSlurper, JsonOutput, GroovySystem, TomlParser, Config].collect {
                 new File(it.protectionDomain.codeSource.location.toURI())
             }.unique())
             mainClass.set(entry.name)
@@ -186,9 +197,8 @@ final class TemplePlugin implements Plugin<Project> {
             doFirst {
                 def runtime = javaLauncher.get()
                 if (target != null) {
-                    def compiler = toolchains.launcherFor { languageVersion = JavaLanguageVersion.of(target.javaVersion) }.get()
                     args target.id, platform, runtime.executablePath.asFile.absolutePath,
-                            "${runtime.metadata.installationPath.asFile},${compiler.metadata.installationPath.asFile}"
+                            javaInstallationPaths(toolchains, target)
                 }
                 String temp = System.getProperty('java.io.tmpdir')
                 systemProperty 'java.io.tmpdir', temp
