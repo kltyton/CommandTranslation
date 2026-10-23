@@ -2,6 +2,7 @@
   "zh_cn": {
     "180": "旋转180度",
     "integer": "整数",
+    "float": "浮点数",
     "hearts": "红心",
     "monster": "怪物",
     "creature": "生物",
@@ -78,6 +79,7 @@
   "de_de": {
     "180": "uhrzeigersinn_180",
     "integer": "ganzzahl",
+    "float": "gleitkommazahl",
     "hearts": "herzen",
     "monster": "monster",
     "creature": "kreatur",
@@ -154,6 +156,7 @@
   "ja_jp": {
     "180": "時計回り180",
     "integer": "整数",
+    "float": "浮動小数点数",
     "hearts": "ハート",
     "monster": "モンスター",
     "creature": "生物",

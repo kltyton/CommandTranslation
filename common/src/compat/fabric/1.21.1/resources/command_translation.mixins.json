@@ -6,18 +6,14 @@
   "refmap": "command_translation.refmap.json",
   "client": [
     "MinecraftMixin",
-    "NbtAutocompleteHintsMixin",
     "CommandSuggestionsMixin",
     "ClientPacketListenerMixin",
+    "ClientCommandSendingMixin",
     "EditBoxAccessor",
     "InputHelpMixin",
     "TooltipLayoutMixin",
     "ClientFeedbackMixin",
     "ClientCommandActionMixin",
-    "NbtSuggestionRegistryMixin",
-    "NbtRegistryTypeMixin",
-    "NbtComponentRegistryMixin",
-    "NbtSuggestionStateAccessor",
     "ClientSuggestionProviderMixin"
   ],
   "injectors": {

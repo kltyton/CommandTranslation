@@ -2,6 +2,55 @@
   "description": "Version-pinned copies of vanilla data-generator command reports, used to maintain documentation coverage.",
   "sources": [
     {
+      "version": "1.16.5",
+      "repository": "https://github.com/misode/mcmeta",
+      "tag": "1.16.5-summary",
+      "revision": "a563df91ebca25cbc0f4d8425e292f96898f67f2",
+      "url": "https://raw.githubusercontent.com/misode/mcmeta/a563df91ebca25cbc0f4d8425e292f96898f67f2/commands/data.json"
+    },
+    {
+      "version": "1.17.1",
+      "repository": "https://github.com/misode/mcmeta",
+      "tag": "1.17.1-summary",
+      "revision": "e4c3e5cd3137597e0f916b352836830ea737de90",
+      "url": "https://raw.githubusercontent.com/misode/mcmeta/e4c3e5cd3137597e0f916b352836830ea737de90/commands/data.json"
+    },
+    {
+      "version": "1.18.2",
+      "repository": "https://github.com/misode/mcmeta",
+      "tag": "1.18.2-summary",
+      "revision": "b293746ea6ac0f8cec4e09c0dd75aba7234b62c8",
+      "url": "https://raw.githubusercontent.com/misode/mcmeta/b293746ea6ac0f8cec4e09c0dd75aba7234b62c8/commands/data.json"
+    },
+    {
+      "version": "1.19.2",
+      "repository": "https://github.com/misode/mcmeta",
+      "tag": "1.19.2-summary",
+      "revision": "46c4aad97f832bce252038b737a3c3e448f5c69f",
+      "url": "https://raw.githubusercontent.com/misode/mcmeta/46c4aad97f832bce252038b737a3c3e448f5c69f/commands/data.json"
+    },
+    {
+      "version": "1.19.3",
+      "repository": "https://github.com/misode/mcmeta",
+      "tag": "1.19.3-summary",
+      "revision": "d9b06d7007016f682592d65ba2b0ed55a8877c03",
+      "url": "https://raw.githubusercontent.com/misode/mcmeta/d9b06d7007016f682592d65ba2b0ed55a8877c03/commands/data.json"
+    },
+    {
+      "version": "1.19.4",
+      "repository": "https://github.com/misode/mcmeta",
+      "tag": "1.19.4-summary",
+      "revision": "6713c9e96646380b9af6580bb81af2ca1319d5a9",
+      "url": "https://raw.githubusercontent.com/misode/mcmeta/6713c9e96646380b9af6580bb81af2ca1319d5a9/commands/data.json"
+    },
+    {
+      "version": "1.20",
+      "repository": "https://github.com/misode/mcmeta",
+      "tag": "1.20-summary",
+      "revision": "adb449ed23c40248b10b401ee47602e56fbea426",
+      "url": "https://raw.githubusercontent.com/misode/mcmeta/adb449ed23c40248b10b401ee47602e56fbea426/commands/data.json"
+    },
+    {
       "version": "1.20.1",
       "repository": "https://github.com/misode/mcmeta",
       "tag": "1.20.1-summary",
@@ -9,11 +58,137 @@
       "url": "https://raw.githubusercontent.com/misode/mcmeta/15f05b54846b0cc5adebe63b245c7045ba105709/commands/data.json"
     },
     {
+      "version": "1.20.2",
+      "repository": "https://github.com/misode/mcmeta",
+      "tag": "1.20.2-summary",
+      "revision": "dbea3084d4ca047309b908801c0af6977042dc54",
+      "url": "https://raw.githubusercontent.com/misode/mcmeta/dbea3084d4ca047309b908801c0af6977042dc54/commands/data.json"
+    },
+    {
+      "version": "1.20.3",
+      "repository": "https://github.com/misode/mcmeta",
+      "tag": "1.20.3-summary",
+      "revision": "a659601b4aa057865eee470611acccb001bc4a38",
+      "url": "https://raw.githubusercontent.com/misode/mcmeta/a659601b4aa057865eee470611acccb001bc4a38/commands/data.json"
+    },
+    {
+      "version": "1.20.4",
+      "repository": "https://github.com/misode/mcmeta",
+      "tag": "1.20.4-summary",
+      "revision": "c85548aae6f200b4cd823bca81528eedfc790de0",
+      "url": "https://raw.githubusercontent.com/misode/mcmeta/c85548aae6f200b4cd823bca81528eedfc790de0/commands/data.json"
+    },
+    {
+      "version": "1.20.5",
+      "repository": "https://github.com/misode/mcmeta",
+      "tag": "1.20.5-summary",
+      "revision": "c6fead19ac8face862e20e60fecf26f13fbd55ca",
+      "url": "https://raw.githubusercontent.com/misode/mcmeta/c6fead19ac8face862e20e60fecf26f13fbd55ca/commands/data.json"
+    },
+    {
+      "version": "1.20.6",
+      "repository": "https://github.com/misode/mcmeta",
+      "tag": "1.20.6-summary",
+      "revision": "d31d1224060bee7b47fdc9a9e2a775b975f31a2d",
+      "url": "https://raw.githubusercontent.com/misode/mcmeta/d31d1224060bee7b47fdc9a9e2a775b975f31a2d/commands/data.json"
+    },
+    {
+      "version": "1.21",
+      "repository": "https://github.com/misode/mcmeta",
+      "tag": "1.21-summary",
+      "revision": "6656d328c8de585bf41b0089308d683cbb677949",
+      "url": "https://raw.githubusercontent.com/misode/mcmeta/6656d328c8de585bf41b0089308d683cbb677949/commands/data.json"
+    },
+    {
       "version": "1.21.1",
       "repository": "https://github.com/misode/mcmeta",
       "tag": "1.21.1-summary",
       "revision": "7cffbcdad5fa36f22acef6bd4b869ecad4ca3fd9",
       "url": "https://raw.githubusercontent.com/misode/mcmeta/7cffbcdad5fa36f22acef6bd4b869ecad4ca3fd9/commands/data.json"
+    },
+    {
+      "version": "1.21.2",
+      "repository": "https://github.com/misode/mcmeta",
+      "tag": "1.21.2-summary",
+      "revision": "01ecf4cabccc4291c908b60ca3a0d273df7238f5",
+      "url": "https://raw.githubusercontent.com/misode/mcmeta/01ecf4cabccc4291c908b60ca3a0d273df7238f5/commands/data.json"
+    },
+    {
+      "version": "1.21.3",
+      "repository": "https://github.com/misode/mcmeta",
+      "tag": "1.21.3-summary",
+      "revision": "755ead9eacd01fe65482951b9866f4b59e23c183",
+      "url": "https://raw.githubusercontent.com/misode/mcmeta/755ead9eacd01fe65482951b9866f4b59e23c183/commands/data.json"
+    },
+    {
+      "version": "1.21.4",
+      "repository": "https://github.com/misode/mcmeta",
+      "tag": "1.21.4-summary",
+      "revision": "1b221f1ccc1c12b6f995496eab448ba56d397f0d",
+      "url": "https://raw.githubusercontent.com/misode/mcmeta/1b221f1ccc1c12b6f995496eab448ba56d397f0d/commands/data.json"
+    },
+    {
+      "version": "1.21.5",
+      "repository": "https://github.com/misode/mcmeta",
+      "tag": "1.21.5-summary",
+      "revision": "fae7861a8cb1a84b7f382b570a7fad594ab2b9d1",
+      "url": "https://raw.githubusercontent.com/misode/mcmeta/fae7861a8cb1a84b7f382b570a7fad594ab2b9d1/commands/data.json"
+    },
+    {
+      "version": "1.21.6",
+      "repository": "https://github.com/misode/mcmeta",
+      "tag": "1.21.6-summary",
+      "revision": "b88c9f4a991474f58c8aa324831acc527ddaaa3a",
+      "url": "https://raw.githubusercontent.com/misode/mcmeta/b88c9f4a991474f58c8aa324831acc527ddaaa3a/commands/data.json"
+    },
+    {
+      "version": "1.21.7",
+      "repository": "https://github.com/misode/mcmeta",
+      "tag": "1.21.7-summary",
+      "revision": "9b3aa44515c0ad9d7db7481e04c8709f64683f59",
+      "url": "https://raw.githubusercontent.com/misode/mcmeta/9b3aa44515c0ad9d7db7481e04c8709f64683f59/commands/data.json"
+    },
+    {
+      "version": "1.21.8",
+      "repository": "https://github.com/misode/mcmeta",
+      "tag": "1.21.8-summary",
+      "revision": "eb65724be139c7a80f5074725537f76c27633d44",
+      "url": "https://raw.githubusercontent.com/misode/mcmeta/eb65724be139c7a80f5074725537f76c27633d44/commands/data.json"
+    },
+    {
+      "version": "1.21.9",
+      "repository": "https://github.com/misode/mcmeta",
+      "tag": "1.21.9-summary",
+      "revision": "e85a17c2e574c2103b0f28da9c02219a81b53297",
+      "url": "https://raw.githubusercontent.com/misode/mcmeta/e85a17c2e574c2103b0f28da9c02219a81b53297/commands/data.json"
+    },
+    {
+      "version": "1.21.10",
+      "repository": "https://github.com/misode/mcmeta",
+      "tag": "1.21.10-summary",
+      "revision": "cb195b930dd0f9c61b6858107aaa164e19e1d323",
+      "url": "https://raw.githubusercontent.com/misode/mcmeta/cb195b930dd0f9c61b6858107aaa164e19e1d323/commands/data.json"
+    },
+    {
+      "version": "1.21.11",
+      "repository": "https://github.com/misode/mcmeta",
+      "tag": "1.21.11-summary",
+      "revision": "c976eb3b2cfcb9f205171527dec46b266afa3ac9",
+      "url": "https://raw.githubusercontent.com/misode/mcmeta/c976eb3b2cfcb9f205171527dec46b266afa3ac9/commands/data.json"
+    },
+    {
+      "version": "26.1",
+      "repository": "https://github.com/misode/mcmeta",
+      "tag": "26.1-summary",
+      "revision": "e7068326fb23dcdff9fff17c7eabcd59f46e7460",
+      "url": "https://raw.githubusercontent.com/misode/mcmeta/e7068326fb23dcdff9fff17c7eabcd59f46e7460/commands/data.json"
+    },
+    {
+      "version": "26.1.1",
+      "repository": "https://github.com/misode/mcmeta",
+      "tag": "26.1.1-summary",
+      "revision": "9ffdce1f63287433ff96f27a11d5d58599d2e0b3",
+      "url": "https://raw.githubusercontent.com/misode/mcmeta/9ffdce1f63287433ff96f27a11d5d58599d2e0b3/commands/data.json"
     },
     {
       "version": "26.1.2",
@@ -28,6 +203,13 @@
       "tag": "26.2-summary",
       "revision": "711a353b47d84e6cb592a1b72f682e5f44759284",
       "url": "https://raw.githubusercontent.com/misode/mcmeta/711a353b47d84e6cb592a1b72f682e5f44759284/commands/data.json"
+    },
+    {
+      "version": "26.3",
+      "repository": "https://github.com/misode/mcmeta",
+      "tag": "26.3-summary",
+      "revision": "d96c75fec200c4580dd75e033a76341521165461",
+      "url": "https://raw.githubusercontent.com/misode/mcmeta/d96c75fec200c4580dd75e033a76341521165461/commands/data.json"
     }
   ]
 }

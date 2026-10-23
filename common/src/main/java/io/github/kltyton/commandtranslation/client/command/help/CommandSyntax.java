@@ -1,5 +1,6 @@
 package io.github.kltyton.commandtranslation.client.command.help;
 
+import io.github.kltyton.commandtranslation.client.i18n.MinecraftText;
 import com.mojang.brigadier.CommandDispatcher;
 import com.mojang.brigadier.tree.ArgumentCommandNode;
 import com.mojang.brigadier.tree.CommandNode;
@@ -39,7 +40,7 @@ public final class CommandSyntax {
         var matcher = TOKENS.matcher(syntax);
         while (matcher.find()) {
             String raw = matcher.group();
-            Component annotation = Component.empty();
+            Component annotation = MinecraftText.empty();
             if (raw.startsWith("<") && raw.endsWith(">")) {
                 String name = raw.substring(1, raw.length() - 1);
                 annotation = arguments.getOrDefault(name, label(List.of(name), name));
@@ -47,18 +48,18 @@ public final class CommandSyntax {
                 String literal = raw.startsWith("/") ? raw.substring(1) : raw;
                 List<String> aliases = literalAliases(path, literal);
                 if (!aliases.isEmpty()) {
-                    annotation = Component.literal(aliases.get(0));
+                    annotation = MinecraftText.literal(aliases.get(0));
                     if (literal.equals(root) && !aliases.get(0).equalsIgnoreCase(CommandHelp.canonicalRoot(root))) {
                         annotation = NamespaceNames.qualify(owner, annotation);
                     }
                 }
             }
             if (settings.commandSyntax) {
-                tokens.add(new CommandTooltip.Token(Component.literal(raw), settings.syntaxAnnotations ? annotation : Component.empty()));
+                tokens.add(new CommandTooltip.Token(MinecraftText.literal(raw), settings.syntaxAnnotations ? annotation : MinecraftText.empty()));
             }
         }
-        Component title = NamespaceNames.qualify(owner, Component.literal("/" + String.join(" ", path.stream().map(CommandNode::getUsageText).toList())));
-        return CommandTooltip.component(new CommandTooltip.Document(title, purpose == null ? Component.empty() : purpose,
+        Component title = NamespaceNames.qualify(owner, MinecraftText.literal("/" + String.join(" ", path.stream().map(CommandNode::getUsageText).toList())));
+        return CommandTooltip.component(new CommandTooltip.Document(title, purpose == null ? MinecraftText.empty() : purpose,
                 tokens, settings.parameterTooltips ? parameters : List.of()));
     }
 
@@ -77,7 +78,7 @@ public final class CommandSyntax {
             if (meaning != null) {
                 var body = meaning.copy();
                 String heading = parent.getCommand() == null ? "command_translation.help.syntax.required" : "command_translation.help.syntax.optional";
-                Component title = NamespaceNames.qualify(owner, Component.translatable(heading, label, Component.literal(child.getUsageText())));
+                Component title = NamespaceNames.qualify(owner, MinecraftText.translatable(heading, label, MinecraftText.literal(child.getUsageText())));
                 parameters.add(new CommandTooltip.Parameter(title, body));
             }
             if (children.size() == 1 && child.getRedirect() == null) { collect(next, subject, labels, parameters, owner); }
@@ -89,7 +90,7 @@ public final class CommandSyntax {
         if (full.startsWith("minecraft:")) { full = full.substring(10); }
         String key = CommandLanguage.PREFIX + "syntax.argument." + full;
         if (CommandLanguage.present(key) == null) { key = CommandLanguage.PREFIX + "syntax.argument." + name; }
-        return CommandLanguage.present(key) == null ? Component.literal(name) : Component.translatable(key);
+        return CommandLanguage.present(key) == null ? MinecraftText.literal(name) : MinecraftText.translatable(key);
     }
 
     private static <S> List<String> literalAliases(List<CommandNode<S>> path, String literal) {

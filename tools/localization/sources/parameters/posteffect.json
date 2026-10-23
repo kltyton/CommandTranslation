@@ -1,0 +1,284 @@
+{
+  "en_us": {
+    "command_translation.help.command.posteffect": "Adds, removes or lists post effects on players.",
+    "command_translation.help.argument.posteffect.add": "Adds the effect unless already present.",
+    "command_translation.help.argument.posteffect.clear": "Removes every applied post effect.",
+    "command_translation.help.argument.posteffect.list": "Lists one player's applied post effects.",
+    "command_translation.help.argument.posteffect.remove": "Removes the effect if present.",
+    "command_translation.help.argument.posteffect.targets": "Players whose effects change.",
+    "command_translation.help.argument.posteffect.target": "Player whose effects are listed.",
+    "command_translation.help.argument.posteffect.posteffect": "Effect identifier; its resource must exist on the client.",
+    "command_translation.registry.minecraft:post_effect.minecraft:blur.name": "Blur",
+    "command_translation.help.registry.minecraft:post_effect.minecraft:blur": "The blur effect used behind menus.",
+    "command_translation.registry.minecraft:post_effect.minecraft:creeper.name": "Creeper vision",
+    "command_translation.help.registry.minecraft:post_effect.minecraft:creeper": "Green filter with visibly reduced resolution.",
+    "command_translation.registry.minecraft:post_effect.minecraft:entity_outline.name": "Entity outline",
+    "command_translation.help.registry.minecraft:post_effect.minecraft:entity_outline": "Processes silhouettes for glowing entity outlines.",
+    "command_translation.registry.minecraft:post_effect.minecraft:invert.name": "Inverted colors",
+    "command_translation.help.registry.minecraft:post_effect.minecraft:invert": "Inverts the colors of the view.",
+    "command_translation.registry.minecraft:post_effect.minecraft:spider.name": "Spider vision",
+    "command_translation.help.registry.minecraft:post_effect.minecraft:spider": "Layers blurred copies of the view."
+  },
+  "zh_cn": {
+    "command_translation.help.command.posteffect": "为玩家添加、移除或列出后期效果。",
+    "command_translation.help.argument.posteffect.add": "添加尚未应用的指定效果。",
+    "command_translation.help.argument.posteffect.clear": "移除所有已应用的后期效果。",
+    "command_translation.help.argument.posteffect.list": "列出单个玩家已应用的后期效果。",
+    "command_translation.help.argument.posteffect.remove": "移除已应用的指定效果。",
+    "command_translation.help.argument.posteffect.targets": "要修改后期效果的玩家。",
+    "command_translation.help.argument.posteffect.target": "要查看后期效果的单个玩家。",
+    "command_translation.help.argument.posteffect.posteffect": "效果标识符；客户端须有对应资源。",
+    "command_translation.registry.minecraft:post_effect.minecraft:blur.name": "模糊",
+    "command_translation.help.registry.minecraft:post_effect.minecraft:blur": "菜单背景使用的模糊效果。",
+    "command_translation.registry.minecraft:post_effect.minecraft:creeper.name": "苦力怕视野",
+    "command_translation.help.registry.minecraft:post_effect.minecraft:creeper": "绿色滤镜与低分辨率视觉效果。",
+    "command_translation.registry.minecraft:post_effect.minecraft:entity_outline.name": "实体轮廓",
+    "command_translation.help.registry.minecraft:post_effect.minecraft:entity_outline": "处理发光实体的轮廓描边。",
+    "command_translation.registry.minecraft:post_effect.minecraft:invert.name": "反色",
+    "command_translation.help.registry.minecraft:post_effect.minecraft:invert": "反转画面颜色。",
+    "command_translation.registry.minecraft:post_effect.minecraft:spider.name": "蜘蛛视野",
+    "command_translation.help.registry.minecraft:post_effect.minecraft:spider": "叠加多个带模糊边缘的画面。"
+  },
+  "de_de": {
+    "command_translation.help.command.posteffect": "Verwaltet und zeigt Posteffekte von Spielern.",
+    "command_translation.help.argument.posteffect.add": "Fügt den Effekt hinzu, falls er noch fehlt.",
+    "command_translation.help.argument.posteffect.clear": "Entfernt alle angewendeten Posteffekte.",
+    "command_translation.help.argument.posteffect.list": "Zeigt die Posteffekte eines Spielers.",
+    "command_translation.help.argument.posteffect.remove": "Entfernt den Effekt, falls vorhanden.",
+    "command_translation.help.argument.posteffect.targets": "Spieler, deren Effekte geändert werden.",
+    "command_translation.help.argument.posteffect.target": "Einzelner Spieler zum Auflisten seiner Effekte.",
+    "command_translation.help.argument.posteffect.posteffect": "Effektkennung; die Ressource muss clientseitig vorhanden sein.",
+    "command_translation.registry.minecraft:post_effect.minecraft:blur.name": "Unschärfe",
+    "command_translation.help.registry.minecraft:post_effect.minecraft:blur": "Der Unschärfeeffekt hinter Menüs.",
+    "command_translation.registry.minecraft:post_effect.minecraft:creeper.name": "Creepersicht",
+    "command_translation.help.registry.minecraft:post_effect.minecraft:creeper": "Grüner Filter mit sichtbar verringerter Auflösung.",
+    "command_translation.registry.minecraft:post_effect.minecraft:entity_outline.name": "Entitätskontur",
+    "command_translation.help.registry.minecraft:post_effect.minecraft:entity_outline": "Verarbeitet Silhouetten für leuchtende Entitätskonturen.",
+    "command_translation.registry.minecraft:post_effect.minecraft:invert.name": "Umgekehrte Farben",
+    "command_translation.help.registry.minecraft:post_effect.minecraft:invert": "Kehrt die Farben der Ansicht um.",
+    "command_translation.registry.minecraft:post_effect.minecraft:spider.name": "Spinnensicht",
+    "command_translation.help.registry.minecraft:post_effect.minecraft:spider": "Überlagert unscharfe Kopien der Ansicht."
+  },
+  "ja_jp": {
+    "command_translation.help.command.posteffect": "プレイヤーのポストエフェクトを追加、削除、一覧表示する。",
+    "command_translation.help.argument.posteffect.add": "未適用の指定エフェクトを追加する。",
+    "command_translation.help.argument.posteffect.clear": "適用中のポストエフェクトをすべて削除する。",
+    "command_translation.help.argument.posteffect.list": "単一プレイヤーの適用中エフェクトを一覧表示する。",
+    "command_translation.help.argument.posteffect.remove": "適用中なら指定エフェクトを削除する。",
+    "command_translation.help.argument.posteffect.targets": "エフェクトを変更するプレイヤー。",
+    "command_translation.help.argument.posteffect.target": "エフェクトを一覧表示する単一のプレイヤー。",
+    "command_translation.help.argument.posteffect.posteffect": "エフェクトの識別子。クライアント側のリソースが必要。",
+    "command_translation.registry.minecraft:post_effect.minecraft:blur.name": "ぼかし",
+    "command_translation.help.registry.minecraft:post_effect.minecraft:blur": "メニュー背景に使われるぼかし。",
+    "command_translation.registry.minecraft:post_effect.minecraft:creeper.name": "クリーパーの視界",
+    "command_translation.help.registry.minecraft:post_effect.minecraft:creeper": "緑色のフィルターと低解像度の視覚効果。",
+    "command_translation.registry.minecraft:post_effect.minecraft:entity_outline.name": "エンティティの輪郭",
+    "command_translation.help.registry.minecraft:post_effect.minecraft:entity_outline": "発光エンティティの輪郭を処理する。",
+    "command_translation.registry.minecraft:post_effect.minecraft:invert.name": "色の反転",
+    "command_translation.help.registry.minecraft:post_effect.minecraft:invert": "画面の色を反転する。",
+    "command_translation.registry.minecraft:post_effect.minecraft:spider.name": "クモの視界",
+    "command_translation.help.registry.minecraft:post_effect.minecraft:spider": "ぼけた画面を複数重ねる。"
+  },
+  "sources": {
+    "command_translation.help.command.posteffect": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fposteffect",
+        "revision": 3779584
+      }
+    ],
+    "command_translation.help.argument.posteffect.add": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fposteffect",
+        "revision": 3779584
+      }
+    ],
+    "command_translation.help.argument.posteffect.clear": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fposteffect",
+        "revision": 3779584
+      }
+    ],
+    "command_translation.help.argument.posteffect.list": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fposteffect",
+        "revision": 3779584
+      }
+    ],
+    "command_translation.help.argument.posteffect.remove": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fposteffect",
+        "revision": 3779584
+      }
+    ],
+    "command_translation.help.argument.posteffect.targets": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fposteffect",
+        "revision": 3779584
+      }
+    ],
+    "command_translation.help.argument.posteffect.target": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fposteffect",
+        "revision": 3779584
+      }
+    ],
+    "command_translation.help.argument.posteffect.posteffect": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fposteffect",
+        "revision": 3779584
+      }
+    ],
+    "command_translation.registry.minecraft:post_effect.minecraft:blur.name": [
+      {
+        "url": "https://minecraft.wiki/w/Shader",
+        "revision": 3837904
+      }
+    ],
+    "command_translation.help.registry.minecraft:post_effect.minecraft:blur": [
+      {
+        "url": "https://minecraft.wiki/w/Shader",
+        "revision": 3837904
+      }
+    ],
+    "command_translation.registry.minecraft:post_effect.minecraft:creeper.name": [
+      {
+        "url": "https://minecraft.wiki/w/Shader",
+        "revision": 3837904
+      }
+    ],
+    "command_translation.help.registry.minecraft:post_effect.minecraft:creeper": [
+      {
+        "url": "https://minecraft.wiki/w/Shader",
+        "revision": 3837904
+      }
+    ],
+    "command_translation.registry.minecraft:post_effect.minecraft:entity_outline.name": [
+      {
+        "url": "https://minecraft.wiki/w/Shader",
+        "revision": 3837904
+      }
+    ],
+    "command_translation.help.registry.minecraft:post_effect.minecraft:entity_outline": [
+      {
+        "url": "https://minecraft.wiki/w/Shader",
+        "revision": 3837904
+      }
+    ],
+    "command_translation.registry.minecraft:post_effect.minecraft:invert.name": [
+      {
+        "url": "https://minecraft.wiki/w/Shader",
+        "revision": 3837904
+      }
+    ],
+    "command_translation.help.registry.minecraft:post_effect.minecraft:invert": [
+      {
+        "url": "https://minecraft.wiki/w/Shader",
+        "revision": 3837904
+      }
+    ],
+    "command_translation.registry.minecraft:post_effect.minecraft:spider.name": [
+      {
+        "url": "https://minecraft.wiki/w/Shader",
+        "revision": 3837904
+      }
+    ],
+    "command_translation.help.registry.minecraft:post_effect.minecraft:spider": [
+      {
+        "url": "https://minecraft.wiki/w/Shader",
+        "revision": 3837904
+      }
+    ]
+  },
+  "bindings": {
+    "posteffect.add": "command_translation.help.argument.posteffect.add",
+    "posteffect.add.targets": "command_translation.help.argument.posteffect.targets",
+    "posteffect.add.targets.posteffect": "command_translation.help.argument.posteffect.posteffect",
+    "posteffect.clear": "command_translation.help.argument.posteffect.clear",
+    "posteffect.clear.targets": "command_translation.help.argument.posteffect.targets",
+    "posteffect.list": "command_translation.help.argument.posteffect.list",
+    "posteffect.list.target": "command_translation.help.argument.posteffect.target",
+    "posteffect.remove": "command_translation.help.argument.posteffect.remove",
+    "posteffect.remove.targets": "command_translation.help.argument.posteffect.targets",
+    "posteffect.remove.targets.posteffect": "command_translation.help.argument.posteffect.posteffect"
+  },
+  "syntax": [
+    {
+      "path": "posteffect",
+      "type": "literal",
+      "versions": [
+        "26.3"
+      ]
+    },
+    {
+      "path": "posteffect.add",
+      "type": "literal",
+      "versions": [
+        "26.3"
+      ]
+    },
+    {
+      "path": "posteffect.add.targets",
+      "type": "argument",
+      "versions": [
+        "26.3"
+      ]
+    },
+    {
+      "path": "posteffect.add.targets.posteffect",
+      "type": "argument",
+      "versions": [
+        "26.3"
+      ]
+    },
+    {
+      "path": "posteffect.clear",
+      "type": "literal",
+      "versions": [
+        "26.3"
+      ]
+    },
+    {
+      "path": "posteffect.clear.targets",
+      "type": "argument",
+      "versions": [
+        "26.3"
+      ]
+    },
+    {
+      "path": "posteffect.list",
+      "type": "literal",
+      "versions": [
+        "26.3"
+      ]
+    },
+    {
+      "path": "posteffect.list.target",
+      "type": "argument",
+      "versions": [
+        "26.3"
+      ]
+    },
+    {
+      "path": "posteffect.remove",
+      "type": "literal",
+      "versions": [
+        "26.3"
+      ]
+    },
+    {
+      "path": "posteffect.remove.targets",
+      "type": "argument",
+      "versions": [
+        "26.3"
+      ]
+    },
+    {
+      "path": "posteffect.remove.targets.posteffect",
+      "type": "argument",
+      "versions": [
+        "26.3"
+      ]
+    }
+  ]
+}
+

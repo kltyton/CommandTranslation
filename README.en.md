@@ -44,14 +44,42 @@ flowchart LR
 
 Choose the JAR for your Minecraft version and loader, then place it in the client's `mods` folder. Fabric requires Fabric API. NBT Autocomplete is bundled and does not need a separate installation. Mod Menu provides the configuration entry on Fabric.
 
+0.3.0 covers 30 Minecraft versions and 62 loader combinations; the Java column lists the JDK selected by run tasks.
+
 | Minecraft | Loaders | Java |
 | --- | --- | --- |
+| 1.16.5 | Forge, Fabric | 17 |
+| 1.17.1 | Forge, Fabric | 17 |
+| 1.18.2 | Forge, Fabric | 17 |
+| 1.19.2 | Forge, Fabric | 17 |
+| 1.19.3 | Forge, Fabric | 17 |
+| 1.19.4 | Forge, Fabric | 17 |
+| 1.20 | Forge, Fabric | 17 |
 | 1.20.1 | Forge, Fabric | 17 |
-| 1.21.1 | NeoForge, Fabric | 21 |
+| 1.20.2 | Forge, Fabric | 17 |
+| 1.20.3 | Forge, Fabric | 17 |
+| 1.20.4 | Forge, Fabric | 17 |
+| 1.20.5 | Fabric | 21 |
+| 1.20.6 | Forge, Fabric | 21 |
+| 1.21 | Forge, NeoForge, Fabric | 21 |
+| 1.21.1 | Forge, NeoForge, Fabric | 21 |
+| 1.21.2 | NeoForge, Fabric | 21 |
+| 1.21.3 | Forge, NeoForge, Fabric | 21 |
+| 1.21.4 | NeoForge, Fabric | 21 |
+| 1.21.5 | NeoForge, Fabric | 21 |
+| 1.21.6 | NeoForge, Fabric | 21 |
+| 1.21.7 | NeoForge, Fabric | 21 |
+| 1.21.8 | NeoForge, Fabric | 21 |
+| 1.21.9 | NeoForge, Fabric | 21 |
+| 1.21.10 | NeoForge, Fabric | 21 |
+| 1.21.11 | NeoForge, Fabric | 21 |
+| 26.1 | NeoForge, Fabric | 25 |
+| 26.1.1 | NeoForge, Fabric | 25 |
 | 26.1.2 | NeoForge, Fabric | 25 |
 | 26.2 | NeoForge, Fabric | 25 |
+| 26.3 | NeoForge, Fabric | 25 |
 
-Fabric Loader 0.19.5 or later is required.
+Fabric Loader 0.19.5 or later is required. Run tasks for Minecraft 1.16.5 and 1.17.1 select Java 17 while the mod bytecode retains Java 16 compatibility. Compilation uses a separate JDK.
 
 UI, fixed argument aliases and Wiki help are provided in English, Simplified Chinese, Traditional Chinese (Taiwan/Hong Kong), German and Japanese. Other bundled languages provide the available upstream identifier entries and root command aliases; missing entries use vanilla's English fallback. Resource packs may override or extend the files under `assets/command_translation/lang`.
 

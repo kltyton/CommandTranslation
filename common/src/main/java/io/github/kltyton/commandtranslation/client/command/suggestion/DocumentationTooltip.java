@@ -1,9 +1,10 @@
 package io.github.kltyton.commandtranslation.client.command.suggestion;
 
+import io.github.kltyton.commandtranslation.client.i18n.MinecraftText;
+import io.github.kltyton.commandtranslation.client.i18n.TranslationContent;
 import java.util.List;
 import net.minecraft.client.gui.Font;
 import net.minecraft.network.chat.Component;
-import net.minecraft.network.chat.contents.TranslatableContents;
 import net.minecraft.util.FormattedCharSequence;
 
 public final class DocumentationTooltip {
@@ -21,9 +22,10 @@ public final class DocumentationTooltip {
     }
 
     public static boolean containsDocumentation(Component component) {
-        if (component.getContents() instanceof TranslatableContents translation) {
-            if (translation.getKey().startsWith("command_translation.")) { return true; }
-            for (Object argument : translation.getArgs()) {
+        TranslationContent translation = MinecraftText.translation(component);
+        if (translation != null) {
+            if (translation.key().startsWith("command_translation.")) { return true; }
+            for (Object argument : translation.args()) {
                 if (argument instanceof Component nested && containsDocumentation(nested)) { return true; }
             }
         }

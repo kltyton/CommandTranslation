@@ -14,7 +14,9 @@ import java.nio.file.StandardCopyOption;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Style;
+import net.minecraft.network.chat.TextColor;
 
 public final class ClientConfig {
     public static final List<String> ENTITY_ATTRIBUTE_KEYS = List.of("max_health", "attack_damage", "movement_speed", "attack_speed",
@@ -183,8 +185,12 @@ public final class ClientConfig {
         }
 
         public Style style() {
-            return Style.EMPTY.withColor(color).withObfuscated(obfuscated).withBold(bold)
-                    .withStrikethrough(strikethrough).withUnderlined(underlined).withItalic(italic);
+            // Legacy color formatting clears all five decorations explicitly, including on 1.16.
+            Style result = Style.EMPTY.applyLegacyFormat(ChatFormatting.WHITE).withColor(TextColor.fromRgb(color))
+                    .withBold(bold).withUnderlined(underlined).withItalic(italic);
+            if (obfuscated) { result = result.applyFormat(ChatFormatting.OBFUSCATED); }
+            if (strikethrough) { result = result.applyFormat(ChatFormatting.STRIKETHROUGH); }
+            return result;
         }
     }
 }

@@ -1,4 +1,4 @@
-import groovy.json.JsonOutput
+import groovy.json.JsonGenerator
 
 def templeRoot = file('../..')
 def shared = new Properties()
@@ -14,13 +14,26 @@ if (!(mod_id ==~ /[a-z][a-z0-9_]{1,63}/) || !(mod_group_id ==~ /[a-z][a-z0-9_]*(
 group = mod_group_id
 version = mod_version
 base.archivesName = "${mod_id}-${loader}-${minecraft_version}"
+apply from: file('../../gradle/target-conventions/nbt-autocomplete-catalog.gradle')
+def runtimeJavaVersion = (findProperty('runtime_java_version') ?: java_version) as int
 java {
-    toolchain.languageVersion = JavaLanguageVersion.of(java_version as int)
+    toolchain.languageVersion = JavaLanguageVersion.of((findProperty('compiler_java_version') ?: java_version) as int)
     withSourcesJar()
 }
 tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8'
     options.release = java_version as int
+}
+if (((findProperty('compiler_java_version') ?: java_version) as int) != runtimeJavaVersion) {
+    afterEvaluate {
+        tasks.withType(JavaExec).configureEach {
+            if (name in ['runClient', 'runServer', 'runData', 'runDatagen']) {
+                javaLauncher.set(javaToolchains.launcherFor {
+                    languageVersion = JavaLanguageVersion.of(runtimeJavaVersion)
+                })
+            }
+        }
+    }
 }
 
 evaluationDependsOn(':common')
@@ -35,11 +48,13 @@ sourceSets {
     }
 }
 tasks.named('sourcesJar', Jar) {
+    dependsOn common.tasks.named('generateMixinConfigurations')
     from common.templeSourceDirectories
     from common.templeResourceDirectories
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 }
 tasks.named('processResources', ProcessResources) {
+    dependsOn common.tasks.named('generateMixinConfigurations')
     from common.templeResourceDirectories
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
     def raw = [mod_id: mod_id, mod_name: mod_name, mod_license: mod_license, mod_version: mod_version,
@@ -48,17 +63,20 @@ tasks.named('processResources', ProcessResources) {
                minecraft_version: minecraft_version, minecraft_version_range: minecraft_version_range,
                loader_version: loader_version, loader_version_range: loader_version_range,
                fml_version_range: findProperty('fml_version_range') ?: '',
-               java_version: java_version, nbtac_version: nbtac_version]
+               java_version: java_version, nbtac_version: nbtac_version, nbtac_mod_id: nbtac_mod_id,
+               nbtac_upper_version: nbtac_upper_version]
+    def json = new JsonGenerator.Options().disableUnicodeEscaping().build()
     def escaped = raw.collectEntries { key, value ->
-        def encoded = JsonOutput.toJson(value.toString())
+        def encoded = json.toJson(value.toString()).replace('\u007f', '\\u007f')
         [(key): encoded.substring(1, encoded.length() - 1)]
     }
     inputs.properties(raw)
     filesMatching(['fabric.mod.json', 'META-INF/mods.toml', 'META-INF/neoforge.mods.toml', '*.mixins.json']) {
-        expand escaped
+        filter { line -> line.replaceAll(/\$\{([a-z_]+)\}/) { match, key -> escaped.containsKey(key) ? escaped[key] : match } }
     }
 }
 tasks.named('jar', Jar) {
+    manifest.attributes('Implementation-Version': project.version.toString())
     from common.sourceSets.main.output
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
     from(templeRoot.toPath().resolve('LICENSE').toFile()) { rename { "LICENSE_${mod_id}" } }

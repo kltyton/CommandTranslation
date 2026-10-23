@@ -10,7 +10,8 @@
   "license": "${mod_license}",
   "environment": "client",
   "mixins": [
-    "command_translation.mixins.json"
+    "command_translation.mixins.json",
+    "command_translation.nbt.mixins.json"
   ],
   "entrypoints": {
     "client": [
@@ -24,7 +25,7 @@
     "fabricloader": "${loader_version_range}",
     "minecraft": "=${minecraft_version}",
     "java": ">=${java_version}",
-    "nbtac": ">=${nbtac_version} <2.2",
+    "${nbtac_mod_id}": ">=${nbtac_version} <${nbtac_upper_version}",
     "fabric-api": "*"
   },
   "suggests": {

@@ -1,11 +1,11 @@
 package io.github.kltyton.commandtranslation;
 
 import net.minecraft.SharedConstants;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 
 public final class CommandTranslation {
-    public static final Logger LOGGER = LoggerFactory.getLogger(BuildInfo.MOD_ID);
+    public static final Logger LOGGER = LogManager.getLogger(BuildInfo.MOD_ID);
 
     private CommandTranslation() {
     }

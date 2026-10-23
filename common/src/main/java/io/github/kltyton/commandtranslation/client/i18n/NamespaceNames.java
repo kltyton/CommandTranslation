@@ -3,7 +3,6 @@ package io.github.kltyton.commandtranslation.client.i18n;
 import io.github.kltyton.commandtranslation.client.ClientPlatform;
 import java.util.List;
 import net.minecraft.network.chat.Component;
-import net.minecraft.network.chat.contents.TranslatableContents;
 
 /** Shares namespace names between localized input, suggestions and tooltips. */
 public final class NamespaceNames {
@@ -12,9 +11,9 @@ public final class NamespaceNames {
     public static Component name(String namespace) {
         for (String key : new String[]{CommandLanguage.PREFIX + "namespace." + namespace,
                 "modmenu.nameTranslation." + namespace, namespace + ".ponder.mod_name"}) {
-            if (CommandLanguage.present(key) != null) { return Component.translatable(key); }
+            if (CommandLanguage.present(key) != null) { return MinecraftText.translatable(key); }
         }
-        return Component.literal(namespace);
+        return MinecraftText.literal(namespace);
     }
 
     public static Component identifier(String raw, Component name) {
@@ -22,11 +21,11 @@ public final class NamespaceNames {
         String id = ClientPlatform.identifierId(tag ? raw.substring(1) : raw);
         if (id == null) { return name; }
         String namespace = id.substring(0, id.indexOf(':'));
-        return Component.empty().append(tag ? "#" : "").append(qualify(namespace, name));
+        return MinecraftText.empty().append(tag ? "#" : "").append(qualify(namespace, name));
     }
 
     public static Component qualify(String namespace, Component value) {
-        return Component.translatable(CommandLanguage.PREFIX + "identifier.qualified", name(namespace), value);
+        return MinecraftText.translatable(CommandLanguage.PREFIX + "identifier.qualified", name(namespace), value);
     }
 
     public static List<String> aliases(String namespace, String value) {
@@ -45,9 +44,10 @@ public final class NamespaceNames {
     }
 
     public static boolean isQualified(Component value) {
-        if (value.getContents() instanceof TranslatableContents text) {
-            if (text.getKey().equals(CommandLanguage.PREFIX + "identifier.qualified")) { return true; }
-            for (Object argument : text.getArgs()) {
+        TranslationContent text = MinecraftText.translation(value);
+        if (text != null) {
+            if (text.key().equals(CommandLanguage.PREFIX + "identifier.qualified")) { return true; }
+            for (Object argument : text.args()) {
                 if (argument instanceof Component nested && isQualified(nested)) { return true; }
             }
         }

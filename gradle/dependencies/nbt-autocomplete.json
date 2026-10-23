@@ -1,0 +1,723 @@
+{
+  "sources": [
+    "https://api.modrinth.com/v2/project/nbt-autocomplete/version",
+    "https://github.com/mt1006/mc-nbtac-mod/releases/tag/NBTac-1.0"
+  ],
+  "artifacts": {
+    "MN0v9abg": {
+      "version": "1.1.9",
+      "modVersion": "1.1.9",
+      "modId": "nbt_ac",
+      "minecraft": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "filename": "NBTac-FABRIC-1.16.5-1.1.9.jar",
+      "url": "https://cdn.modrinth.com/data/UR0ocuEt/versions/MN0v9abg/NBTac-FABRIC-1.16.5-1.1.9.jar",
+      "sha512": "e78a2db39e492811003ddf32b03c3f654a76b87ad20ece4566b14cdb0722fbaa813ae33dccc8159b1ac7b273ec309920cf73de2d6c3e2b7670ca0f524c220bd0"
+    },
+    "EFF68kOz": {
+      "version": "1.1.8",
+      "modVersion": "1.1.8",
+      "modId": "nbt_ac",
+      "minecraft": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "filename": "NBTac-FABRIC-1.17.1-1.1.8.jar",
+      "url": "https://cdn.modrinth.com/data/UR0ocuEt/versions/EFF68kOz/NBTac-FABRIC-1.17.1-1.1.8.jar",
+      "sha512": "2a3a7832d8683e05c72aed3005ba25df64aab53496896c25ff46a4ff0294d617b090db69078f8620e06dbc80c3ef0be57961d2f79642b3e68621fe3a184395fc"
+    },
+    "UYxZK2oH": {
+      "version": "1.2.1",
+      "modVersion": "1.2.1",
+      "modId": "nbt_ac",
+      "minecraft": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "filename": "NBTac-FABRIC-1.18.2-1.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/UR0ocuEt/versions/UYxZK2oH/NBTac-FABRIC-1.18.2-1.2.1.jar",
+      "sha512": "ec07442097d1a3760259663d809c4b2d2a70a5ddd66fee1d227029fc1d1bfa6b58f4c08887652649828c6bb4433faf485c63a9e146e7682ae7a600f00d7fd019"
+    },
+    "nVaKAsy5": {
+      "version": "1.3.10",
+      "modVersion": "1.3.10",
+      "modId": "nbt_ac",
+      "minecraft": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "filename": "NBTac-FABRIC-1.19.2-1.3.10.jar",
+      "url": "https://cdn.modrinth.com/data/UR0ocuEt/versions/nVaKAsy5/NBTac-FABRIC-1.19.2-1.3.10.jar",
+      "sha512": "13c2924c95e5e51ee939adc4c20d0f632572881244284bc014e15b21f3b8ac5815e84773a105a982b8efcff5b7e6f64514786da5f38c8ceda9302a11205e842a"
+    },
+    "BjFEGtRd": {
+      "version": "1.1.8",
+      "modVersion": "1.1.8",
+      "modId": "nbt_ac",
+      "minecraft": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "filename": "NBTac-FABRIC-1.19.4-1.1.8.jar",
+      "url": "https://cdn.modrinth.com/data/UR0ocuEt/versions/BjFEGtRd/NBTac-FABRIC-1.19.4-1.1.8.jar",
+      "sha512": "e2674d3fb733538c91a6f34722fccfe02562e06835df77bd5bc98d63083e8fec265c1a844ff9f5d90e13500336edad721c556e40f88d9cc41c7f433155a8d7d4"
+    },
+    "PX15OQcc": {
+      "version": "1.3.10",
+      "modVersion": "1.3.10",
+      "modId": "nbt_ac",
+      "minecraft": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "filename": "NBTac-FABRIC-1.20.1-1.3.10.jar",
+      "url": "https://cdn.modrinth.com/data/UR0ocuEt/versions/PX15OQcc/NBTac-FABRIC-1.20.1-1.3.10.jar",
+      "sha512": "9b8b26a5e5ba0b9d823b1aa93e600aec9164ea6f788c19383a1f0b3ce0453771e36742429953966f9d8196af3f26989d990e7ad8ed1adc72e7520e314077f7c2"
+    },
+    "zr29QImT": {
+      "version": "2.1-fabric-1.20.1",
+      "modVersion": "2.1",
+      "modId": "nbtac",
+      "minecraft": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "filename": "NBTac-FABRIC-1.20.1-2.1.jar",
+      "url": "https://cdn.modrinth.com/data/UR0ocuEt/versions/zr29QImT/NBTac-FABRIC-1.20.1-2.1.jar",
+      "sha512": "c31ac9e4eb11bcdb6a2b1a7eec5938364d070356dbb5a4e9e446265c92fdd80b3109bcecdd79cf15259da9b53094c072910125944268fe3a717211f0910f821a"
+    },
+    "BXURpLV7": {
+      "version": "1.1.8",
+      "modVersion": "1.1.8",
+      "modId": "nbt_ac",
+      "minecraft": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "filename": "NBTac-FABRIC-1.20.2-1.1.8.jar",
+      "url": "https://cdn.modrinth.com/data/UR0ocuEt/versions/BXURpLV7/NBTac-FABRIC-1.20.2-1.1.8.jar",
+      "sha512": "58847494465c8dce97397e5a558207c0ad5a6a9bc03e1343e0d33dc7faa834d71829c3e042fd2733149237c8b12ee3a8552fc50663f02326cf0ac3cb9d1963b4"
+    },
+    "8mOfXfqk": {
+      "version": "1.3.10",
+      "modVersion": "1.3.10",
+      "modId": "nbt_ac",
+      "minecraft": [
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "filename": "NBTac-FABRIC-1.20.4-1.3.10.jar",
+      "url": "https://cdn.modrinth.com/data/UR0ocuEt/versions/8mOfXfqk/NBTac-FABRIC-1.20.4-1.3.10.jar",
+      "sha512": "cb8c64f2c8eb5f6672ee78504f99f1073a8bdb55c8cb27ff1085e06922f1ec7d037f387c22005792eb8a70d544cb9fe154dc0a8bfe2d9025b8a046fce8daf043"
+    },
+    "9Z2uTzu8": {
+      "version": "1.3.3",
+      "modVersion": "1.3.3",
+      "modId": "nbt_ac",
+      "minecraft": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "filename": "NBTac-FABRIC-1.20.6-1.3.3.jar",
+      "url": "https://cdn.modrinth.com/data/UR0ocuEt/versions/9Z2uTzu8/NBTac-FABRIC-1.20.6-1.3.3.jar",
+      "sha512": "f08bf3cbf0163e01b1bc1e0a3d4a0e556692f3a0f01618033f38b9781d327cb1a70980798615516cb40f2044e758ae297573a253c45c080e506a9dff5490944c"
+    },
+    "5Cc4iwcu": {
+      "version": "2.1-fabric-1.21.1",
+      "modVersion": "2.1",
+      "modId": "nbtac",
+      "minecraft": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "filename": "NBTac-FABRIC-1.21.1-2.1.jar",
+      "url": "https://cdn.modrinth.com/data/UR0ocuEt/versions/5Cc4iwcu/NBTac-FABRIC-1.21.1-2.1.jar",
+      "sha512": "f55a81d7287dfd2fb0348b3fca4144ca2c80cdea0e7860bc3e12eba55047fb5627d59432f70a7082d10f43918648957895de65368bc86c2ee0cf3152f52bfeb3"
+    },
+    "1GiZCUbH": {
+      "version": "1.3.10",
+      "modVersion": "1.3.10",
+      "modId": "nbt_ac",
+      "minecraft": [
+        "1.21.2",
+        "1.21.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "filename": "NBTac-FABRIC-1.21.3-1.3.10.jar",
+      "url": "https://cdn.modrinth.com/data/UR0ocuEt/versions/1GiZCUbH/NBTac-FABRIC-1.21.3-1.3.10.jar",
+      "sha512": "0ea4aff499b36c2df951ff5a50ca3c76fd4ba5a7258933e8e7b8df7f6b74c8aad8b60446eb01169f908076d18edd26f296939971373225fdb938f094019ca6a7"
+    },
+    "Eta04NSY": {
+      "version": "2.1-fabric-1.21.4",
+      "modVersion": "2.1",
+      "modId": "nbtac",
+      "minecraft": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "filename": "NBTac-FABRIC-1.21.4-2.1.jar",
+      "url": "https://cdn.modrinth.com/data/UR0ocuEt/versions/Eta04NSY/NBTac-FABRIC-1.21.4-2.1.jar",
+      "sha512": "a6cc2f28ecd913052f980869884185ea1049171a5b87421fd379ce93df4508f4f006d8ecf106ce51738221cd287f6504d2ddf67382f7a16b03d978a38b633a20"
+    },
+    "9z52rmfn": {
+      "version": "2.1-fabric-1.21.5",
+      "modVersion": "2.1",
+      "modId": "nbtac",
+      "minecraft": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "filename": "NBTac-FABRIC-1.21.5-2.1.jar",
+      "url": "https://cdn.modrinth.com/data/UR0ocuEt/versions/9z52rmfn/NBTac-FABRIC-1.21.5-2.1.jar",
+      "sha512": "d12ea3f220dfe9882b26f11e88df511c8958f601dfc0dc7a19bfd659b191cf42543f46447a70c35441212414fcdf822f4d177d5a09223bb1100b06347fcc612d"
+    },
+    "S65gej36": {
+      "version": "2.1-fabric-1.21.8",
+      "modVersion": "2.1",
+      "modId": "nbtac",
+      "minecraft": [
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "filename": "NBTac-FABRIC-1.21.8-2.1.jar",
+      "url": "https://cdn.modrinth.com/data/UR0ocuEt/versions/S65gej36/NBTac-FABRIC-1.21.8-2.1.jar",
+      "sha512": "550b63d7f636512f8b2e1f2b313ed468ccfcdf5b55fa1c7b10c39dea5e22630b1b7120d75516a5cba8a6dc94d23490c77df9b05ae8e0f3218605da84eac96963"
+    },
+    "2G8H1ehg": {
+      "version": "2.1-fabric-1.21.10",
+      "modVersion": "2.1",
+      "modId": "nbtac",
+      "minecraft": [
+        "1.21.9",
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "filename": "NBTac-FABRIC-1.21.10-2.1.jar",
+      "url": "https://cdn.modrinth.com/data/UR0ocuEt/versions/2G8H1ehg/NBTac-FABRIC-1.21.10-2.1.jar",
+      "sha512": "1a2572eed9a05f57be499822f4a9f46c614c32a39363224fc5073b0515b441fc6c9000169d8b2c8205d13137544cd987370a4d7523443f3eb56f4bc73c7d7583"
+    },
+    "QCCwjcnx": {
+      "version": "2.1-fabric-1.21.11",
+      "modVersion": "2.1",
+      "modId": "nbtac",
+      "minecraft": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "filename": "NBTac-FABRIC-1.21.11-2.1.jar",
+      "url": "https://cdn.modrinth.com/data/UR0ocuEt/versions/QCCwjcnx/NBTac-FABRIC-1.21.11-2.1.jar",
+      "sha512": "6b161cc59792a27ea69f90400503b588e67595b58407be0030f5da48be5ef03775cc59791931387244799b754da5f27bb77b8780f4f68ad255326efe6f22d577"
+    },
+    "5uIfYSEB": {
+      "version": "2.1-fabric-26.1.2",
+      "modVersion": "2.1",
+      "modId": "nbtac",
+      "minecraft": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "filename": "NBTac-FABRIC-26.1.2-2.1.jar",
+      "url": "https://cdn.modrinth.com/data/UR0ocuEt/versions/5uIfYSEB/NBTac-FABRIC-26.1.2-2.1.jar",
+      "sha512": "ab5b816d70929ad5a73f7095831070ac51e8cb363cc8cf9a82261de4483b1512d477083f23d8a80c7949f4d2a7ef2db097654cc795007dc06f4957738c598597"
+    },
+    "www41BUb": {
+      "version": "2.1-fabric-26.2",
+      "modVersion": "2.1",
+      "modId": "nbtac",
+      "minecraft": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "filename": "NBTac-FABRIC-26.2-2.1.jar",
+      "url": "https://cdn.modrinth.com/data/UR0ocuEt/versions/www41BUb/NBTac-FABRIC-26.2-2.1.jar",
+      "sha512": "8f4bfff3560737ce7eb946260ed6ffb19eca59f5e6d9a1de8663661caf4ad6d7253f0e8bc2d140f83803920102019a02911a88b9f8ce251007f1d308e275022e"
+    },
+    "oyCeoqzt": {
+      "version": "2.1-fabric-26.3",
+      "modVersion": "2.1",
+      "modId": "nbtac",
+      "minecraft": [
+        "26.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "filename": "NBTac-FABRIC-26.3-2.1.jar",
+      "url": "https://cdn.modrinth.com/data/UR0ocuEt/versions/oyCeoqzt/NBTac-FABRIC-26.3-2.1.jar",
+      "sha512": "fd8b173b1a3e1e61477cd31ffee010f6305fefef64f9e46fe07af74f197ee7350e3f97e1bd0daf049c3cb3be029a94361e32f31d23320fe82a6148a7051f2d12"
+    },
+    "UMDYv6Cx": {
+      "version": "1.1.9",
+      "modVersion": "1.1.9",
+      "modId": "nbt_ac",
+      "minecraft": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "filename": "NBTac-FORGE-1.16.5-1.1.9.jar",
+      "url": "https://cdn.modrinth.com/data/UR0ocuEt/versions/UMDYv6Cx/NBTac-FORGE-1.16.5-1.1.9.jar",
+      "sha512": "ff6a2183fc02052aaabfe4864b2b3247bcf13a621ea8809baa16ed18f0a7fd361451738797ad8b2a260423ef56c54c0ced0b826f38580c9db9315ea1a8274bfd"
+    },
+    "WMq7YtyV": {
+      "version": "1.1.8",
+      "modVersion": "1.1.8",
+      "modId": "nbt_ac",
+      "minecraft": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "filename": "NBTac-FORGE-1.17.1-1.1.8.jar",
+      "url": "https://cdn.modrinth.com/data/UR0ocuEt/versions/WMq7YtyV/NBTac-FORGE-1.17.1-1.1.8.jar",
+      "sha512": "e01b238bebea44c19dd7214eb620c05e701b3eecc709484c4b4f42be9e5273033205713aa70abd4fb5d07c0cbe21b8ca0f27c1fb74b0e4aa5cfe4580030549af"
+    },
+    "12enKftL": {
+      "version": "1.2.1",
+      "modVersion": "1.2.1",
+      "modId": "nbt_ac",
+      "minecraft": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "filename": "NBTac-FORGE-1.18.2-1.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/UR0ocuEt/versions/12enKftL/NBTac-FORGE-1.18.2-1.2.1.jar",
+      "sha512": "db83a55c02e5f5bebdcd3d764bd57de29cba4bc4d71bae1731440eca9008a21d37e95b6c034d33d48fde92fbac089f081288328e6d6752ee4ad0fc9bf017287f"
+    },
+    "9VxVtSNx": {
+      "version": "1.3.10",
+      "modVersion": "1.3.10",
+      "modId": "nbt_ac",
+      "minecraft": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "filename": "NBTac-FORGE-1.19.2-1.3.10.jar",
+      "url": "https://cdn.modrinth.com/data/UR0ocuEt/versions/9VxVtSNx/NBTac-FORGE-1.19.2-1.3.10.jar",
+      "sha512": "378a527ddb940bd4f3a41ce7b4f93809653cce17ad78a8190e27b1a8b647dd26009bca4300188f3ea9d3233effbb1ef52142f4876a3bb77c6f48867c0d8bddb6"
+    },
+    "IWXTcKgc": {
+      "version": "1.1.7",
+      "modVersion": "1.1.7",
+      "modId": "nbt_ac",
+      "minecraft": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "filename": "NBTac-FORGE-1.19.4-1.1.7.jar",
+      "url": "https://cdn.modrinth.com/data/UR0ocuEt/versions/IWXTcKgc/NBTac-FORGE-1.19.4-1.1.7.jar",
+      "sha512": "4bc54cafb68d6c24d133c732d249b2319f03223f9bf409fcef6d7da6dd46c5a5df0e38241d6549dc7df059dabb7f71461fcb850e4507425bf93d54f84406e943"
+    },
+    "6w32Bjbs": {
+      "version": "1.3.10",
+      "modVersion": "1.3.10",
+      "modId": "nbt_ac",
+      "minecraft": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "filename": "NBTac-FORGE-1.20.1-1.3.10.jar",
+      "url": "https://cdn.modrinth.com/data/UR0ocuEt/versions/6w32Bjbs/NBTac-FORGE-1.20.1-1.3.10.jar",
+      "sha512": "145b5adc5322f2c651c0afcaf1c2f475f47cf66b3619cada6e796a374431020c2b57bffe2f7e6384228c4250533d0aa25f6e07ed672b57a3c23f58d7e5d401a4"
+    },
+    "sJUj62SP": {
+      "version": "2.1-forge-1.20.1",
+      "modVersion": "2.1",
+      "modId": "nbtac",
+      "minecraft": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "filename": "NBTac-FORGE-1.20.1-2.1.jar",
+      "url": "https://cdn.modrinth.com/data/UR0ocuEt/versions/sJUj62SP/NBTac-FORGE-1.20.1-2.1.jar",
+      "sha512": "d30f2b0a437953811ba26fcbbd97479c14f73f101eea6c55a03d667872c476351e120bae09260374a26d2d2dd1d53c090b041274d1da06f81d09a9c57e7b38b5"
+    },
+    "WnZ9d8o0": {
+      "version": "1.1.7",
+      "modVersion": "1.1.7",
+      "modId": "nbt_ac",
+      "minecraft": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "filename": "NBTac-FORGE-1.20.2-1.1.7.jar",
+      "url": "https://cdn.modrinth.com/data/UR0ocuEt/versions/WnZ9d8o0/NBTac-FORGE-1.20.2-1.1.7.jar",
+      "sha512": "ea1a246eff0d7312056dc99f4229c9f3ce7d7401ab0e2be8f6b76027b7e221198dda49a66897ad138bb8f44876453a5bcb643de452ae8988b2aa4a6b6cf90fa1"
+    },
+    "iiapZLX8": {
+      "version": "1.3.10",
+      "modVersion": "1.3.10",
+      "modId": "nbt_ac",
+      "minecraft": [
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "filename": "NBTac-FORGE-1.20.4-1.3.10.jar",
+      "url": "https://cdn.modrinth.com/data/UR0ocuEt/versions/iiapZLX8/NBTac-FORGE-1.20.4-1.3.10.jar",
+      "sha512": "3a137c751e044f11eaac67fddcccbc05239c02754aabb8749385716030971abdf8482a59fb7056e04f0b1ff5eb1d94d157bd19d04e97b0e7d9318109cbed87ed"
+    },
+    "W0OLBYKJ": {
+      "version": "1.3.2",
+      "modVersion": "1.3.2",
+      "modId": "nbt_ac",
+      "minecraft": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "filename": "NBTac-FORGE-1.20.6-1.3.2.jar",
+      "url": "https://cdn.modrinth.com/data/UR0ocuEt/versions/W0OLBYKJ/NBTac-FORGE-1.20.6-1.3.2.jar",
+      "sha512": "1c1d220a39c1346d59f8c490c300608f4b418f67ad8cb381b87e1cc6c49265913ae6073ef70f7400d8132199c8d3aa70a4e050ca3338f802275ee40d71eb3541"
+    },
+    "VQZZnsPr": {
+      "version": "1.3.10",
+      "modVersion": "1.3.10",
+      "modId": "nbt_ac",
+      "minecraft": [
+        "1.21"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "filename": "NBTac-FORGE-1.21-1.3.10.jar",
+      "url": "https://cdn.modrinth.com/data/UR0ocuEt/versions/VQZZnsPr/NBTac-FORGE-1.21-1.3.10.jar",
+      "sha512": "0f9242dcb47e206733f28dab2f79b49e82eaaf5a67f93f2cf33f4a4891dd0b43a311d649d60cba53230ba4e3027d5d304274b1623a489eec998b87f364cbeb22"
+    },
+    "wVXRcmGw": {
+      "version": "1.3.10",
+      "modVersion": "1.3.10",
+      "modId": "nbt_ac",
+      "minecraft": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "filename": "NBTac-FORGE-1.21.1-1.3.10.jar",
+      "url": "https://cdn.modrinth.com/data/UR0ocuEt/versions/wVXRcmGw/NBTac-FORGE-1.21.1-1.3.10.jar",
+      "sha512": "c94ed03355148e951db73843b4e64605adf0d29a69d307fbf97da7c19d4f177a981cb58385e137ed63bd36e1c2863edffd3bfbead602b30ae42256cc8326a2a0"
+    },
+    "AAfVHJgH": {
+      "version": "1.3.10",
+      "modVersion": "1.3.10",
+      "modId": "nbt_ac",
+      "minecraft": [
+        "1.21.2",
+        "1.21.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "filename": "NBTac-FORGE-1.21.3-1.3.10.jar",
+      "url": "https://cdn.modrinth.com/data/UR0ocuEt/versions/AAfVHJgH/NBTac-FORGE-1.21.3-1.3.10.jar",
+      "sha512": "f0b842b86960aead0d75690cbbd8bd4fbd808588d3c3da1b516ea0839f1336955577bfec2fba1358c81df3a74321ce0ff5582c200d57d76b9bc3c57a1d20dd78"
+    },
+    "2Qvhsbeo": {
+      "version": "2.1-neoforge-1.21.1",
+      "modVersion": "2.1",
+      "modId": "nbtac",
+      "minecraft": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "filename": "NBTac-NEOFORGE-1.21.1-2.1.jar",
+      "url": "https://cdn.modrinth.com/data/UR0ocuEt/versions/2Qvhsbeo/NBTac-NEOFORGE-1.21.1-2.1.jar",
+      "sha512": "b66f78a521a0923534315f4859531877aff3c0c870e207312caed47890f7ca33521ec89ba8668f941062509f7c9bf04cbaf5e25fab71d34f5a125dab85dd1beb"
+    },
+    "PBjgBRO2": {
+      "version": "1.3.10",
+      "modVersion": "1.3.10",
+      "modId": "nbt_ac",
+      "minecraft": [
+        "1.21.2",
+        "1.21.3"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "filename": "NBTac-NEOFORGE-1.21.3-1.3.10.jar",
+      "url": "https://cdn.modrinth.com/data/UR0ocuEt/versions/PBjgBRO2/NBTac-NEOFORGE-1.21.3-1.3.10.jar",
+      "sha512": "e7691d51345fd18985948f0d3c15600439d75b259aa8305220f9a5714973c7ab44491aac838baff6fb2a979eaa971f3b150a80751e732e3be6004982694ac728"
+    },
+    "IS74pjPf": {
+      "version": "2.1-neoforge-1.21.4",
+      "modVersion": "2.1",
+      "modId": "nbtac",
+      "minecraft": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "filename": "NBTac-NEOFORGE-1.21.4-2.1.jar",
+      "url": "https://cdn.modrinth.com/data/UR0ocuEt/versions/IS74pjPf/NBTac-NEOFORGE-1.21.4-2.1.jar",
+      "sha512": "3f031647b24e9075ea1cc85ae877fa3611a81aa0025826668b470e3088e5f8e333b191ec2202786cf0a3530b2e29e97879582796340762f1ef48143efc18c153"
+    },
+    "JzQfZ4ER": {
+      "version": "2.1-neoforge-1.21.5",
+      "modVersion": "2.1",
+      "modId": "nbtac",
+      "minecraft": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "filename": "NBTac-NEOFORGE-1.21.5-2.1.jar",
+      "url": "https://cdn.modrinth.com/data/UR0ocuEt/versions/JzQfZ4ER/NBTac-NEOFORGE-1.21.5-2.1.jar",
+      "sha512": "9f02701cb1c864ba1925ecdcaf22097e674b5367df12b73e5a6eaa0c0522928c3bede33fc73bcd2c012764aefcf6c0f40024700cffd00a54f8cb43b70c9749cf"
+    },
+    "VOKFDr0K": {
+      "version": "2.1-neoforge-1.21.8",
+      "modVersion": "2.1",
+      "modId": "nbtac",
+      "minecraft": [
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "filename": "NBTac-NEOFORGE-1.21.8-2.1.jar",
+      "url": "https://cdn.modrinth.com/data/UR0ocuEt/versions/VOKFDr0K/NBTac-NEOFORGE-1.21.8-2.1.jar",
+      "sha512": "d4dfd4ac307aee0c21c101e10accec209ca6e7dc7279c70eaf7f1252122a60b3dc0f573e166ed807d8cfc037d73937c1d1cba59ce31b681dd8bfbf3c35ceec05"
+    },
+    "3tABKKJl": {
+      "version": "2.1-neoforge-1.21.10",
+      "modVersion": "2.1",
+      "modId": "nbtac",
+      "minecraft": [
+        "1.21.9",
+        "1.21.10"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "filename": "NBTac-NEOFORGE-1.21.10-2.1.jar",
+      "url": "https://cdn.modrinth.com/data/UR0ocuEt/versions/3tABKKJl/NBTac-NEOFORGE-1.21.10-2.1.jar",
+      "sha512": "bc91bbf0dd0b12463b5523339662020464f23a4bfa9281bc52d245f6e2193aecf32ac67dfa0a9237bf1afb7adeb35ccb8000336e7b891b787521e97f69406450"
+    },
+    "jZv6weoD": {
+      "version": "2.1-neoforge-1.21.11",
+      "modVersion": "2.1",
+      "modId": "nbtac",
+      "minecraft": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "filename": "NBTac-NEOFORGE-1.21.11-2.1.jar",
+      "url": "https://cdn.modrinth.com/data/UR0ocuEt/versions/jZv6weoD/NBTac-NEOFORGE-1.21.11-2.1.jar",
+      "sha512": "0d96a2b3e357807dd0fd19ae5bb0ec36e9f987f53b078d7baa8a87ec104df1f5cfaba2e9a747f58332b199efb244f4de8afe323f914df9c62e93c456a7a28981"
+    },
+    "yQKDfflh": {
+      "version": "2.1-neoforge-26.1.2",
+      "modVersion": "2.1",
+      "modId": "nbtac",
+      "minecraft": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "filename": "NBTac-NEOFORGE-26.1.2-2.1.jar",
+      "url": "https://cdn.modrinth.com/data/UR0ocuEt/versions/yQKDfflh/NBTac-NEOFORGE-26.1.2-2.1.jar",
+      "sha512": "d4fa5c6fb94d2e4bb8c817bb5c8842e215d0f06127c5631c404294d9f8b0ac8ce9fe1688b2bfe7a087fe37ff1837d739587d81f124bd9ab6d08eb2f2046caa11"
+    },
+    "NfZ2szGX": {
+      "version": "2.1-neoforge-26.2",
+      "modVersion": "2.1",
+      "modId": "nbtac",
+      "minecraft": [
+        "26.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "filename": "NBTac-NEOFORGE-26.2-2.1.jar",
+      "url": "https://cdn.modrinth.com/data/UR0ocuEt/versions/NfZ2szGX/NBTac-NEOFORGE-26.2-2.1.jar",
+      "sha512": "f1ddef5a31df681c3e754a2f8dd7171257a89e83e8748331a506e6ebac928a1cb65ad7b2f7393c5dabc77ffbd7909f80af28b5ccbdf14face8da1e6a89d2dbee"
+    },
+    "WXGVW4qu": {
+      "version": "2.1-neoforge-26.3",
+      "modVersion": "2.1",
+      "modId": "nbtac",
+      "minecraft": [
+        "26.3"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "filename": "NBTac-NEOFORGE-26.3-2.1.jar",
+      "url": "https://cdn.modrinth.com/data/UR0ocuEt/versions/WXGVW4qu/NBTac-NEOFORGE-26.3-2.1.jar",
+      "sha512": "0aa532f02ee2f81c47a2732aaea60c8c943484e6482037ddcfe75b1913bb81cd2e799fe9bdf807945a1637af15cab0926dbd0519bccfd129916921750e814a85"
+    },
+    "github-fabric-1.19.3": {
+      "version": "NBTac-1.0",
+      "modVersion": "1.0",
+      "modId": "nbt_ac",
+      "minecraft": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "filename": "NBTac-FABRIC-1.19.3-1.0.jar",
+      "url": "https://github.com/mt1006/mc-nbtac-mod/releases/download/NBTac-1.0/NBTac-FABRIC-1.19.3-1.0.jar"
+    },
+    "github-forge-1.19.3": {
+      "version": "NBTac-1.0",
+      "modVersion": "1.0",
+      "modId": "nbt_ac",
+      "minecraft": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "filename": "NBTac-FORGE-1.19.3-1.0.jar",
+      "url": "https://github.com/mt1006/mc-nbtac-mod/releases/download/NBTac-1.0/NBTac-FORGE-1.19.3-1.0.jar"
+    }
+  },
+  "targets": {
+    "fabric-1.16.5": "MN0v9abg",
+    "fabric-1.17.1": "EFF68kOz",
+    "fabric-1.18.2": "UYxZK2oH",
+    "fabric-1.19.2": "nVaKAsy5",
+    "fabric-1.19.4": "BjFEGtRd",
+    "fabric-1.20": "PX15OQcc",
+    "fabric-1.20.1": "zr29QImT",
+    "fabric-1.20.2": "BXURpLV7",
+    "fabric-1.20.3": "8mOfXfqk",
+    "fabric-1.20.4": "8mOfXfqk",
+    "fabric-1.20.5": "9Z2uTzu8",
+    "fabric-1.20.6": "9Z2uTzu8",
+    "fabric-1.21": "5Cc4iwcu",
+    "fabric-1.21.1": "5Cc4iwcu",
+    "fabric-1.21.2": "1GiZCUbH",
+    "fabric-1.21.3": "1GiZCUbH",
+    "fabric-1.21.4": "Eta04NSY",
+    "fabric-1.21.5": "9z52rmfn",
+    "fabric-1.21.6": "S65gej36",
+    "fabric-1.21.7": "S65gej36",
+    "fabric-1.21.8": "S65gej36",
+    "fabric-1.21.9": "2G8H1ehg",
+    "fabric-1.21.10": "2G8H1ehg",
+    "fabric-1.21.11": "QCCwjcnx",
+    "fabric-26.1": "5uIfYSEB",
+    "fabric-26.1.1": "5uIfYSEB",
+    "fabric-26.1.2": "5uIfYSEB",
+    "fabric-26.2": "www41BUb",
+    "fabric-26.3": "oyCeoqzt",
+    "forge-1.16.5": "UMDYv6Cx",
+    "forge-1.17.1": "WMq7YtyV",
+    "forge-1.18.2": "12enKftL",
+    "forge-1.19.2": "9VxVtSNx",
+    "forge-1.19.4": "IWXTcKgc",
+    "forge-1.20": "6w32Bjbs",
+    "forge-1.20.1": "sJUj62SP",
+    "forge-1.20.2": "WnZ9d8o0",
+    "forge-1.20.3": "iiapZLX8",
+    "forge-1.20.4": "iiapZLX8",
+    "forge-1.20.5": "W0OLBYKJ",
+    "forge-1.20.6": "W0OLBYKJ",
+    "forge-1.21": "VQZZnsPr",
+    "forge-1.21.1": "wVXRcmGw",
+    "forge-1.21.2": "AAfVHJgH",
+    "forge-1.21.3": "AAfVHJgH",
+    "neoforge-1.21": "2Qvhsbeo",
+    "neoforge-1.21.1": "2Qvhsbeo",
+    "neoforge-1.21.2": "PBjgBRO2",
+    "neoforge-1.21.3": "PBjgBRO2",
+    "neoforge-1.21.4": "IS74pjPf",
+    "neoforge-1.21.5": "JzQfZ4ER",
+    "neoforge-1.21.6": "VOKFDr0K",
+    "neoforge-1.21.7": "VOKFDr0K",
+    "neoforge-1.21.8": "VOKFDr0K",
+    "neoforge-1.21.9": "3tABKKJl",
+    "neoforge-1.21.10": "3tABKKJl",
+    "neoforge-1.21.11": "jZv6weoD",
+    "neoforge-26.1": "yQKDfflh",
+    "neoforge-26.1.1": "yQKDfflh",
+    "neoforge-26.1.2": "yQKDfflh",
+    "neoforge-26.2": "NfZ2szGX",
+    "neoforge-26.3": "WXGVW4qu",
+    "fabric-1.19.3": "github-fabric-1.19.3",
+    "forge-1.19.3": "github-forge-1.19.3"
+  }
+}

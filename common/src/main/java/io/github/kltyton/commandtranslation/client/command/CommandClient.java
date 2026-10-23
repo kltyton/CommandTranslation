@@ -18,6 +18,7 @@ import io.github.kltyton.commandtranslation.client.command.help.ArgumentDocument
 import io.github.kltyton.commandtranslation.client.config.ClientConfig;
 import io.github.kltyton.commandtranslation.client.i18n.CommandLanguage;
 import io.github.kltyton.commandtranslation.client.i18n.NamespaceNames;
+import io.github.kltyton.commandtranslation.client.i18n.IdentifierNames;
 import io.github.kltyton.commandtranslation.client.screen.ClientScreenAccess;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -172,6 +173,9 @@ public final class CommandClient {
     }
 
     private static <S> String identifierKind(Batch<S> batch, CommandNode<S> node, int cursor) {
+        if (node instanceof LiteralCommandNode<?>) {
+            return IdentifierNames.literalKind(String.join(".", CommandHelp.path(batch.canonical().getContext(), cursor)), node.getName());
+        }
         String kind = CommandHelp.identifierKind(batch.canonical().getContext(), cursor);
         return kind != null && CommandHelp.isIdentifierArgument(kind, node.getName()) ? kind : null;
     }

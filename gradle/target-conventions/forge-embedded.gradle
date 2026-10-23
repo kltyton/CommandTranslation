@@ -1,0 +1,107 @@
+import com.electronwill.nightconfig.core.Config
+import com.electronwill.nightconfig.toml.TomlParser
+import com.electronwill.nightconfig.toml.TomlWriter
+import java.nio.file.Files
+import java.util.jar.Manifest
+import java.util.zip.ZipFile
+
+buildscript {
+    repositories { mavenCentral() }
+    dependencies { classpath 'com.electronwill.night-config:toml:3.8.3' }
+}
+
+def directory = layout.buildDirectory.dir('generated/embedded-mods')
+def prepared = tasks.register('prepareEmbeddedMods') {
+    dependsOn tasks.named('processResources')
+    inputs.files(configurations.legacyEmbedded)
+    inputs.file(tasks.named('processResources', ProcessResources).map { new File(it.destinationDir, 'META-INF/mods.toml') })
+    outputs.dir(directory)
+    doLast {
+        def root = directory.get().asFile.toPath()
+        if (Files.exists(root)) {
+            Files.walk(root).withCloseable { paths ->
+                paths.sorted(Comparator.reverseOrder()).forEach { Files.delete(it) }
+            }
+        }
+        Files.createDirectories(root)
+        def metadataFile = new File(tasks.named('processResources', ProcessResources).get().destinationDir, 'META-INF/mods.toml')
+        def metadata = new TomlParser().parse(metadataFile)
+        def services = [:].withDefault { new LinkedHashSet<String>() }
+        def mixins = new LinkedHashSet<String>(["${mod_id}.mixins.json".toString(), "${mod_id}.nbt.mixins.json".toString()])
+        configurations.legacyEmbedded.resolvedConfiguration.resolvedArtifacts.sort { it.moduleVersion.id.toString() }.each { artifact ->
+            def name = artifact.moduleVersion.id.name
+            new ZipFile(artifact.file).withCloseable { zip ->
+                def manifestEntry = zip.getEntry('META-INF/MANIFEST.MF')
+                def manifest = manifestEntry == null ? new Manifest() : zip.getInputStream(manifestEntry).withCloseable { new Manifest(it) }
+                def originalMixins = manifest.mainAttributes.getValue('MixinConfigs')
+                if (originalMixins != null) { mixins.addAll(originalMixins.split(',').collect { it.trim() }.findAll { !it.isEmpty() }) }
+                zip.entries().each { entry ->
+                    if (entry.directory || entry.name ==~ /META-INF\/[^\/]+\.(SF|RSA|DSA)/) { return }
+                    byte[] bytes = zip.getInputStream(entry).withCloseable { it.readAllBytes() }
+                    def path = entry.name
+                    if (path.startsWith('META-INF/services/')) {
+                        services[path].addAll(new String(bytes, 'UTF-8').readLines().collect { it.trim() }
+                                .findAll { !it.isEmpty() && !it.startsWith('#') })
+                        return
+                    }
+                    if (path == 'META-INF/mods.toml') {
+                        String text = new String(bytes, 'UTF-8')
+                        String jarVersion = manifest.mainAttributes.getValue('Implementation-Version')
+                        if (text.contains('${file.jarVersion}')) {
+                            if (jarVersion == null) { throw new GradleException("Missing embedded version: ${artifact.file}") }
+                            text = text.replace('${file.jarVersion}', jarVersion)
+                        }
+                        def embedded = new TomlParser().parse(text)
+                        if (embedded.get('modLoader') != metadata.get('modLoader')) {
+                            throw new GradleException("Incompatible embedded mod loader: ${artifact.file}")
+                        }
+                        embedded.valueMap().each { key, value ->
+                            if (!(key in ['modLoader', 'loaderVersion', 'license', 'mods', 'dependencies']) && !metadata.contains(key)) {
+                                metadata.set(key, value)
+                            }
+                        }
+                        metadata.get('mods').addAll(embedded.get('mods'))
+                        Config dependencies = metadata.get('dependencies')
+                        Config embeddedDependencies = embedded.get('dependencies')
+                        if (embeddedDependencies != null) {
+                            embeddedDependencies.valueMap().each { key, value ->
+                                if (dependencies.contains(key)) { throw new GradleException("Duplicate embedded mod identity: ${key}") }
+                                dependencies.set(key, value)
+                            }
+                        }
+                    }
+                    if (path in ['META-INF/MANIFEST.MF', 'META-INF/mods.toml', 'pack.mcmeta'] ||
+                            path ==~ /(?i)(META-INF\/)?(LICENSE|LICENCE|NOTICE|COPYING)(\..*)?/) {
+                        path = "META-INF/libraries/${name}/${path}"
+                    }
+                    def target = root.resolve(path).normalize()
+                    if (!target.startsWith(root)) { throw new GradleException("Invalid embedded resource path: ${entry.name}") }
+                    if (Files.exists(target) && !Arrays.equals(Files.readAllBytes(target), bytes)) {
+                        throw new GradleException("Conflicting embedded resource: ${path}")
+                    }
+                    Files.createDirectories(target.parent)
+                    Files.write(target, bytes)
+                }
+                def nbtConfiguration = "mixins.${nbtac_mod_id}.json"
+                if (zip.getEntry(nbtConfiguration) != null) { mixins.add(nbtConfiguration) }
+            }
+        }
+        services.each { name, entries ->
+            def target = root.resolve(name)
+            Files.createDirectories(target.parent)
+            Files.writeString(target, entries.join('\n') + '\n', java.nio.charset.StandardCharsets.UTF_8)
+        }
+        def output = root.resolve('META-INF/mods.toml')
+        Files.createDirectories(output.parent)
+        Files.writeString(output, new TomlWriter().writeToString(metadata), java.nio.charset.StandardCharsets.UTF_8)
+        Files.writeString(root.resolve('mixin-configurations.txt'), mixins.join(','), java.nio.charset.StandardCharsets.UTF_8)
+    }
+}
+def mergedMetadata = directory.map { it.file('META-INF/mods.toml').asFile }
+tasks.named('jar', Jar) {
+    from(prepared) { exclude 'mixin-configurations.txt' }
+    exclude { details -> details.path == 'META-INF/mods.toml' && details.file != mergedMetadata.get() }
+    doFirst {
+        manifest.attributes('MixinConfigs': directory.get().file('mixin-configurations.txt').asFile.getText('UTF-8'))
+    }
+}

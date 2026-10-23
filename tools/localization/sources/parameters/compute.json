@@ -1,0 +1,374 @@
+{
+  "en_us": {
+    "command_translation.help.command.compute": "Evaluates number providers using loot contexts.",
+    "command_translation.help.argument.compute.default": "Uses execution position and source entity.",
+    "command_translation.help.argument.compute.block": "Also supplies block state and block entity.",
+    "command_translation.help.argument.compute.entity": "Also supplies the selected target_entity.",
+    "command_translation.help.argument.compute.float": "Evaluates a float; the command result rounds down.",
+    "command_translation.help.argument.compute.integer": "Evaluates an integer provider.",
+    "command_translation.help.argument.compute.computePos": "Block used for context.",
+    "command_translation.help.argument.compute.computeTarget": "Entity used as target_entity.",
+    "command_translation.help.argument.compute.provider": "Provider identifier or inline definition.",
+    "command_translation.help.argument.compute.scale": "Multiplier before rounding down; defaults to 1.",
+    "command_translation.syntax.argument.computePos": "Context block",
+    "command_translation.syntax.argument.computeTarget": "Context entity",
+    "command_translation.syntax.argument.provider": "Number provider",
+    "command_translation.help.argument.type.minecraft:context_float_provider.registry": "minecraft:context_float_provider",
+    "command_translation.help.context_float_provider.field.type.registry": "minecraft:context_float_provider_type",
+    "command_translation.help.context_float_provider.field.type": "Selects the provider type.",
+    "command_translation.help.argument.type.minecraft:context_int_provider.registry": "minecraft:context_int_provider",
+    "command_translation.help.context_int_provider.field.type.registry": "minecraft:context_int_provider_type",
+    "command_translation.help.context_int_provider.field.type": "Selects the provider type."
+  },
+  "zh_cn": {
+    "command_translation.help.command.compute": "在战利品上下文中求值数值提供器。",
+    "command_translation.help.argument.compute.default": "使用执行位置和执行实体等公共上下文参数。",
+    "command_translation.help.argument.compute.block": "额外提供指定位置的方块状态和方块实体。",
+    "command_translation.help.argument.compute.entity": "额外提供所选实体作为 target_entity。",
+    "command_translation.help.argument.compute.float": "求值浮点提供器，命令结果向下取整。",
+    "command_translation.help.argument.compute.integer": "求值整数提供器。",
+    "command_translation.help.argument.compute.computePos": "用于读取上下文方块的位置。",
+    "command_translation.help.argument.compute.computeTarget": "作为 target_entity 的单个实体。",
+    "command_translation.help.argument.compute.provider": "提供器的标识符或内联定义。",
+    "command_translation.help.argument.compute.scale": "向下取整前的乘数；默认为 1。",
+    "command_translation.syntax.argument.computePos": "上下文方块",
+    "command_translation.syntax.argument.computeTarget": "上下文实体",
+    "command_translation.syntax.argument.provider": "数值提供器",
+    "command_translation.help.argument.type.minecraft:context_float_provider.registry": "minecraft:context_float_provider",
+    "command_translation.help.context_float_provider.field.type.registry": "minecraft:context_float_provider_type",
+    "command_translation.help.context_float_provider.field.type": "选择提供器类型。",
+    "command_translation.help.argument.type.minecraft:context_int_provider.registry": "minecraft:context_int_provider",
+    "command_translation.help.context_int_provider.field.type.registry": "minecraft:context_int_provider_type",
+    "command_translation.help.context_int_provider.field.type": "选择提供器类型。"
+  },
+  "de_de": {
+    "command_translation.help.command.compute": "Wertet Zahlenanbieter mit Beutekontexten aus.",
+    "command_translation.help.argument.compute.default": "Verwendet Ausführungsposition und ausführende Entität.",
+    "command_translation.help.argument.compute.block": "Ergänzt Blockzustand und Blockentität.",
+    "command_translation.help.argument.compute.entity": "Ergänzt die gewählte target_entity.",
+    "command_translation.help.argument.compute.float": "Wertet eine Gleitkommazahl aus; das Befehlsergebnis wird abgerundet.",
+    "command_translation.help.argument.compute.integer": "Wertet einen Ganzzahlanbieter aus.",
+    "command_translation.help.argument.compute.computePos": "Block für den Kontext.",
+    "command_translation.help.argument.compute.computeTarget": "Einzelne Entität als target_entity.",
+    "command_translation.help.argument.compute.provider": "Anbieterkennung oder Inline-Definition.",
+    "command_translation.help.argument.compute.scale": "Multiplikator vor dem Abrunden; Standardwert 1.",
+    "command_translation.syntax.argument.computePos": "Kontextblock",
+    "command_translation.syntax.argument.computeTarget": "Kontextentität",
+    "command_translation.syntax.argument.provider": "Zahlenanbieter",
+    "command_translation.help.argument.type.minecraft:context_float_provider.registry": "minecraft:context_float_provider",
+    "command_translation.help.context_float_provider.field.type.registry": "minecraft:context_float_provider_type",
+    "command_translation.help.context_float_provider.field.type": "Wählt den Anbietertyp.",
+    "command_translation.help.argument.type.minecraft:context_int_provider.registry": "minecraft:context_int_provider",
+    "command_translation.help.context_int_provider.field.type.registry": "minecraft:context_int_provider_type",
+    "command_translation.help.context_int_provider.field.type": "Wählt den Anbietertyp."
+  },
+  "ja_jp": {
+    "command_translation.help.command.compute": "戦利品コンテキストで数値プロバイダーを評価する。",
+    "command_translation.help.argument.compute.default": "実行位置や実行エンティティの共通パラメーターを使う。",
+    "command_translation.help.argument.compute.block": "指定位置のブロック状態とブロックエンティティも渡す。",
+    "command_translation.help.argument.compute.entity": "選んだエンティティを target_entity として渡す。",
+    "command_translation.help.argument.compute.float": "浮動小数プロバイダーを評価し、コマンド結果を切り下げる。",
+    "command_translation.help.argument.compute.integer": "整数プロバイダーを評価する。",
+    "command_translation.help.argument.compute.computePos": "コンテキストに使うブロックの座標。",
+    "command_translation.help.argument.compute.computeTarget": "target_entity とする単一のエンティティ。",
+    "command_translation.help.argument.compute.provider": "プロバイダーの識別子またはインライン定義。",
+    "command_translation.help.argument.compute.scale": "切り下げ前の乗数。既定値は 1。",
+    "command_translation.syntax.argument.computePos": "コンテキストのブロック",
+    "command_translation.syntax.argument.computeTarget": "コンテキストのエンティティ",
+    "command_translation.syntax.argument.provider": "数値プロバイダー",
+    "command_translation.help.argument.type.minecraft:context_float_provider.registry": "minecraft:context_float_provider",
+    "command_translation.help.context_float_provider.field.type.registry": "minecraft:context_float_provider_type",
+    "command_translation.help.context_float_provider.field.type": "プロバイダーの種類を選ぶ。",
+    "command_translation.help.argument.type.minecraft:context_int_provider.registry": "minecraft:context_int_provider",
+    "command_translation.help.context_int_provider.field.type.registry": "minecraft:context_int_provider_type",
+    "command_translation.help.context_int_provider.field.type": "プロバイダーの種類を選ぶ。"
+  },
+  "sources": {
+    "command_translation.help.command.compute": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fcompute",
+        "revision": 3851840
+      }
+    ],
+    "command_translation.help.argument.compute.default": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fcompute",
+        "revision": 3851840
+      }
+    ],
+    "command_translation.help.argument.compute.block": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fcompute",
+        "revision": 3851840
+      }
+    ],
+    "command_translation.help.argument.compute.entity": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fcompute",
+        "revision": 3851840
+      }
+    ],
+    "command_translation.help.argument.compute.float": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fcompute",
+        "revision": 3851840
+      }
+    ],
+    "command_translation.help.argument.compute.integer": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fcompute",
+        "revision": 3851840
+      }
+    ],
+    "command_translation.help.argument.compute.computePos": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fcompute",
+        "revision": 3851840
+      }
+    ],
+    "command_translation.help.argument.compute.computeTarget": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fcompute",
+        "revision": 3851840
+      }
+    ],
+    "command_translation.help.argument.compute.provider": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fcompute",
+        "revision": 3851840
+      }
+    ],
+    "command_translation.help.argument.compute.scale": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fcompute",
+        "revision": 3851840
+      }
+    ],
+    "command_translation.syntax.argument.computePos": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fcompute",
+        "revision": 3851840
+      }
+    ],
+    "command_translation.syntax.argument.computeTarget": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fcompute",
+        "revision": 3851840
+      }
+    ],
+    "command_translation.syntax.argument.provider": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fcompute",
+        "revision": 3851840
+      }
+    ],
+    "command_translation.help.argument.type.minecraft:context_float_provider.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fcompute",
+        "revision": 3851840
+      }
+    ],
+    "command_translation.help.context_float_provider.field.type.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Number_provider",
+        "revision": 3845785
+      }
+    ],
+    "command_translation.help.context_float_provider.field.type": [
+      {
+        "url": "https://minecraft.wiki/w/Number_provider",
+        "revision": 3845785
+      }
+    ],
+    "command_translation.help.argument.type.minecraft:context_int_provider.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fcompute",
+        "revision": 3851840
+      }
+    ],
+    "command_translation.help.context_int_provider.field.type.registry": [
+      {
+        "url": "https://minecraft.wiki/w/Number_provider",
+        "revision": 3845785
+      }
+    ],
+    "command_translation.help.context_int_provider.field.type": [
+      {
+        "url": "https://minecraft.wiki/w/Number_provider",
+        "revision": 3845785
+      }
+    ]
+  },
+  "bindings": {
+    "compute.default": "command_translation.help.argument.compute.default",
+    "compute.block": "command_translation.help.argument.compute.block",
+    "compute.entity": "command_translation.help.argument.compute.entity",
+    "compute.block.computePos": "command_translation.help.argument.compute.computePos",
+    "compute.entity.computeTarget": "command_translation.help.argument.compute.computeTarget",
+    "compute.default.float": "command_translation.help.argument.compute.float",
+    "compute.default.float.provider": "command_translation.help.argument.compute.provider",
+    "compute.default.float.provider.scale": "command_translation.help.argument.compute.scale",
+    "compute.default.integer": "command_translation.help.argument.compute.integer",
+    "compute.default.integer.provider": "command_translation.help.argument.compute.provider",
+    "compute.block.computePos.float": "command_translation.help.argument.compute.float",
+    "compute.block.computePos.float.provider": "command_translation.help.argument.compute.provider",
+    "compute.block.computePos.float.provider.scale": "command_translation.help.argument.compute.scale",
+    "compute.block.computePos.integer": "command_translation.help.argument.compute.integer",
+    "compute.block.computePos.integer.provider": "command_translation.help.argument.compute.provider",
+    "compute.entity.computeTarget.float": "command_translation.help.argument.compute.float",
+    "compute.entity.computeTarget.float.provider": "command_translation.help.argument.compute.provider",
+    "compute.entity.computeTarget.float.provider.scale": "command_translation.help.argument.compute.scale",
+    "compute.entity.computeTarget.integer": "command_translation.help.argument.compute.integer",
+    "compute.entity.computeTarget.integer.provider": "command_translation.help.argument.compute.provider"
+  },
+  "syntax": [
+    {
+      "path": "compute",
+      "type": "literal",
+      "versions": [
+        "26.3"
+      ]
+    },
+    {
+      "path": "compute.default",
+      "type": "literal",
+      "versions": [
+        "26.3"
+      ]
+    },
+    {
+      "path": "compute.block",
+      "type": "literal",
+      "versions": [
+        "26.3"
+      ]
+    },
+    {
+      "path": "compute.entity",
+      "type": "literal",
+      "versions": [
+        "26.3"
+      ]
+    },
+    {
+      "path": "compute.block.computePos",
+      "type": "argument",
+      "versions": [
+        "26.3"
+      ]
+    },
+    {
+      "path": "compute.entity.computeTarget",
+      "type": "argument",
+      "versions": [
+        "26.3"
+      ]
+    },
+    {
+      "path": "compute.default.float",
+      "type": "literal",
+      "versions": [
+        "26.3"
+      ]
+    },
+    {
+      "path": "compute.default.float.provider",
+      "type": "argument",
+      "versions": [
+        "26.3"
+      ]
+    },
+    {
+      "path": "compute.default.float.provider.scale",
+      "type": "argument",
+      "versions": [
+        "26.3"
+      ]
+    },
+    {
+      "path": "compute.default.integer",
+      "type": "literal",
+      "versions": [
+        "26.3"
+      ]
+    },
+    {
+      "path": "compute.default.integer.provider",
+      "type": "argument",
+      "versions": [
+        "26.3"
+      ]
+    },
+    {
+      "path": "compute.block.computePos.float",
+      "type": "literal",
+      "versions": [
+        "26.3"
+      ]
+    },
+    {
+      "path": "compute.block.computePos.float.provider",
+      "type": "argument",
+      "versions": [
+        "26.3"
+      ]
+    },
+    {
+      "path": "compute.block.computePos.float.provider.scale",
+      "type": "argument",
+      "versions": [
+        "26.3"
+      ]
+    },
+    {
+      "path": "compute.block.computePos.integer",
+      "type": "literal",
+      "versions": [
+        "26.3"
+      ]
+    },
+    {
+      "path": "compute.block.computePos.integer.provider",
+      "type": "argument",
+      "versions": [
+        "26.3"
+      ]
+    },
+    {
+      "path": "compute.entity.computeTarget.float",
+      "type": "literal",
+      "versions": [
+        "26.3"
+      ]
+    },
+    {
+      "path": "compute.entity.computeTarget.float.provider",
+      "type": "argument",
+      "versions": [
+        "26.3"
+      ]
+    },
+    {
+      "path": "compute.entity.computeTarget.float.provider.scale",
+      "type": "argument",
+      "versions": [
+        "26.3"
+      ]
+    },
+    {
+      "path": "compute.entity.computeTarget.integer",
+      "type": "literal",
+      "versions": [
+        "26.3"
+      ]
+    },
+    {
+      "path": "compute.entity.computeTarget.integer.provider",
+      "type": "argument",
+      "versions": [
+        "26.3"
+      ]
+    }
+  ]
+}
+

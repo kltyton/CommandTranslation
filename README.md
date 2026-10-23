@@ -44,14 +44,42 @@ flowchart LR
 
 选择对应 Minecraft 版本和加载器的 JAR，放入客户端的 `mods` 文件夹。Fabric 需要另装 Fabric API；NBT Autocomplete 已随包提供，无需另装。安装 Mod Menu 后，Fabric 也可从模组列表进入配置页面。
 
+0.3.0 覆盖 30 个 Minecraft 版本、62 个加载器组合；表中的 Java 为运行任务选择的 JDK。
+
 | Minecraft | Loader | Java |
 | --- | --- | --- |
+| 1.16.5 | Forge / Fabric | 17 |
+| 1.17.1 | Forge / Fabric | 17 |
+| 1.18.2 | Forge / Fabric | 17 |
+| 1.19.2 | Forge / Fabric | 17 |
+| 1.19.3 | Forge / Fabric | 17 |
+| 1.19.4 | Forge / Fabric | 17 |
+| 1.20 | Forge / Fabric | 17 |
 | 1.20.1 | Forge / Fabric | 17 |
-| 1.21.1 | NeoForge / Fabric | 21 |
+| 1.20.2 | Forge / Fabric | 17 |
+| 1.20.3 | Forge / Fabric | 17 |
+| 1.20.4 | Forge / Fabric | 17 |
+| 1.20.5 | Fabric | 21 |
+| 1.20.6 | Forge / Fabric | 21 |
+| 1.21 | Forge / NeoForge / Fabric | 21 |
+| 1.21.1 | Forge / NeoForge / Fabric | 21 |
+| 1.21.2 | NeoForge / Fabric | 21 |
+| 1.21.3 | Forge / NeoForge / Fabric | 21 |
+| 1.21.4 | NeoForge / Fabric | 21 |
+| 1.21.5 | NeoForge / Fabric | 21 |
+| 1.21.6 | NeoForge / Fabric | 21 |
+| 1.21.7 | NeoForge / Fabric | 21 |
+| 1.21.8 | NeoForge / Fabric | 21 |
+| 1.21.9 | NeoForge / Fabric | 21 |
+| 1.21.10 | NeoForge / Fabric | 21 |
+| 1.21.11 | NeoForge / Fabric | 21 |
+| 26.1 | NeoForge / Fabric | 25 |
+| 26.1.1 | NeoForge / Fabric | 25 |
 | 26.1.2 | NeoForge / Fabric | 25 |
 | 26.2 | NeoForge / Fabric | 25 |
+| 26.3 | NeoForge / Fabric | 25 |
 
-Fabric Loader 最低版本为 0.19.5。
+Fabric Loader 最低版本为 0.19.5。1.16.5 与 1.17.1 的运行任务选择 Java 17，模组字节码保持 Java 16 级别；编译使用独立 JDK。
 
 界面、固定参数及 Wiki 说明提供简体中文、繁体中文（台湾/香港）、English、德语和日语。另收录上游其他语言的标识符词条及根命令别名，缺少的词条按原版机制回退英文。显示语言跟随 Minecraft 的语言设置，资源包可以覆盖或补充翻译。
 

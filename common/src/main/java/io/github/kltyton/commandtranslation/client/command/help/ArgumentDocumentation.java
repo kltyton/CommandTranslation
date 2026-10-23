@@ -1,5 +1,6 @@
 package io.github.kltyton.commandtranslation.client.command.help;
 
+import io.github.kltyton.commandtranslation.client.i18n.MinecraftText;
 import com.google.gson.JsonObject;
 import com.mojang.brigadier.arguments.ArgumentType;
 import com.mojang.brigadier.arguments.DoubleArgumentType;
@@ -8,9 +9,6 @@ import com.mojang.brigadier.arguments.IntegerArgumentType;
 import com.mojang.brigadier.tree.ArgumentCommandNode;
 import com.mojang.brigadier.tree.CommandNode;
 import io.github.kltyton.commandtranslation.client.i18n.CommandLanguage;
-import net.minecraft.commands.synchronization.ArgumentTypeInfos;
-import net.minecraft.commands.synchronization.ArgumentTypeInfo;
-import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.network.chat.Component;
 
 public final class ArgumentDocumentation {
@@ -27,23 +25,14 @@ public final class ArgumentDocumentation {
 
     public static String registry(CommandNode<?> node) {
         JsonObject properties = properties(node);
-        return properties.has("registry") ? properties.get("registry").getAsString() : null;
+        if (properties.has("registry")) { return properties.get("registry").getAsString(); }
+        String parser = parser(node);
+        return parser == null ? null : CommandLanguage.present(CommandLanguage.PREFIX + "help.argument.type." + parser + ".registry");
     }
 
     public static JsonObject properties(CommandNode<?> node) {
-        if (!(node instanceof ArgumentCommandNode<?, ?> argument)
-                || !ArgumentTypeInfos.isClassRecognized(argument.getType().getClass())) { return new JsonObject(); }
-        return properties(argument.getType());
-    }
-
-    private static <A extends ArgumentType<?>> JsonObject properties(A argument) {
-        return properties(ArgumentTypeInfos.byClass(argument), argument);
-    }
-
-    private static <A extends ArgumentType<?>, T extends ArgumentTypeInfo.Template<A>> JsonObject properties(ArgumentTypeInfo<A, T> info, A argument) {
-        JsonObject properties = new JsonObject();
-        info.serializeToJson(info.unpack(argument), properties);
-        return properties;
+        return node instanceof ArgumentCommandNode<?, ?> argument
+                ? ArgumentTypeMetadata.properties(argument.getType()) : new JsonObject();
     }
 
     static String valueKey(CommandNode<?> node, String value) {
@@ -54,9 +43,8 @@ public final class ArgumentDocumentation {
         return CommandLanguage.present(key) == null ? null : key;
     }
 
-    private static String parser(ArgumentType<?> type) {
-        if (!ArgumentTypeInfos.isClassRecognized(type.getClass())) { return null; }
-        return BuiltInRegistries.COMMAND_ARGUMENT_TYPE.getKey(ArgumentTypeInfos.byClass(type)).toString();
+    public static String parser(ArgumentType<?> type) {
+        return ArgumentTypeMetadata.parser(type);
     }
 
     private static Component bounds(ArgumentType<?> type) {
@@ -77,10 +65,10 @@ public final class ArgumentDocumentation {
 
     private static Component range(String minimum, String maximum) {
         if (minimum != null && maximum != null) {
-            return Component.translatable("command_translation.help.range.between", minimum, maximum);
+            return MinecraftText.translatable("command_translation.help.range.between", minimum, maximum);
         }
-        if (minimum != null) { return Component.translatable("command_translation.help.range.minimum", minimum); }
-        if (maximum != null) { return Component.translatable("command_translation.help.range.maximum", maximum); }
+        if (minimum != null) { return MinecraftText.translatable("command_translation.help.range.minimum", minimum); }
+        if (maximum != null) { return MinecraftText.translatable("command_translation.help.range.maximum", maximum); }
         return null;
     }
 }

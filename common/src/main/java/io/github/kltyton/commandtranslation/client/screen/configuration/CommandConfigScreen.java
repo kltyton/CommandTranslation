@@ -1,5 +1,6 @@
 package io.github.kltyton.commandtranslation.client.screen.configuration;
 
+import io.github.kltyton.commandtranslation.client.i18n.MinecraftText;
 import io.github.kltyton.commandtranslation.CommandTranslation;
 import io.github.kltyton.commandtranslation.client.config.ClientConfig;
 import io.github.kltyton.commandtranslation.client.i18n.CommandLanguage;
@@ -15,8 +16,6 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.components.AbstractWidget;
 import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.components.Checkbox;
-import net.minecraft.client.gui.components.StringWidget;
-import net.minecraft.client.gui.components.Tooltip;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.TextColor;
@@ -25,7 +24,16 @@ import net.minecraft.network.chat.TextColor;
 public abstract class CommandConfigScreen extends Screen {
     protected enum Page { GENERAL, TOOLTIPS, ENTITY_ATTRIBUTES, IDENTIFIER, TAG }
     private record Binding(Checkbox checkbox, Consumer<Boolean> update) {}
-    private record Swatch(Button button, int color) {}
+    private record Swatch(Button button, int x, int y, int color) {}
+    protected static final class Label {
+        private Component text;
+        private final int y;
+        private final int height;
+        private Label(Component text, int y, int height) { this.text = text; this.y = y; this.height = height; }
+        private void setMessage(Component text) { this.text = text; }
+    }
+    @FunctionalInterface
+    protected interface LabelDraw { void draw(Component text, int x, int y); }
     @FunctionalInterface
     protected interface RectangleFill { void fill(int x0, int y0, int x1, int y1, int color); }
 
@@ -35,11 +43,12 @@ public abstract class CommandConfigScreen extends Screen {
     private final List<Binding> bindings = new ArrayList<>();
     private final List<AbstractWidget> controls = new ArrayList<>();
     private final List<Swatch> swatches = new ArrayList<>();
-    private StringWidget preview;
-    private StringWidget status;
+    private final List<Label> labels = new ArrayList<>();
+    private Label preview;
+    private Label status;
     private Button saveButton;
     private boolean saving;
-    private Component error = Component.empty();
+    private Component error = MinecraftText.empty();
 
     protected CommandConfigScreen(Screen parent, ClientConfig draft, Page page) {
         super(label(switch (page) {
@@ -64,6 +73,7 @@ public abstract class CommandConfigScreen extends Screen {
         bindings.clear();
         controls.clear();
         swatches.clear();
+        labels.clear();
         preview = null;
         int panelWidth = Math.min(336, width - 32);
         int left = (width - panelWidth) / 2;
@@ -81,7 +91,7 @@ public abstract class CommandConfigScreen extends Screen {
             button(left, 156, panelWidth, label("config.tooltips"), () -> openStyle(Page.TOOLTIPS));
             status = centeredLabel(error, height - 58, 20);
             saveButton = button(width / 2 - 114, height - 28, 110, label("config.save"), this::save);
-            button(width / 2 + 4, height - 28, 110, Component.translatable("gui.cancel"), this::onClose);
+            button(width / 2 + 4, height - 28, 110, MinecraftText.translatable("gui.cancel"), this::onClose);
         } else if (page == Page.TOOLTIPS) {
             check(left, 42, column, "suggestion_tooltips", draft.suggestionTooltips, value -> draft.suggestionTooltips = value);
             check(left + column + 8, 42, column, "input_tooltips", draft.inputTooltips, value -> draft.inputTooltips = value);
@@ -96,7 +106,7 @@ public abstract class CommandConfigScreen extends Screen {
             check(left, 152, column, "entity_tooltips", draft.entityTooltips, value -> draft.entityTooltips = value);
             check(left + column + 8, 152, column, "effect_tooltips", draft.effectTooltips, value -> draft.effectTooltips = value);
             button(left, 182, panelWidth, label("config.entity_attributes"), () -> openStyle(Page.ENTITY_ATTRIBUTES));
-            button(width / 2 - 55, height - 28, 110, Component.translatable("gui.back"), this::onClose);
+            button(width / 2 - 55, height - 28, 110, MinecraftText.translatable("gui.back"), this::onClose);
         } else if (page == Page.ENTITY_ATTRIBUTES) {
             for (int i = 0; i < ClientConfig.ENTITY_ATTRIBUTE_KEYS.size(); i++) {
                 String key = ClientConfig.ENTITY_ATTRIBUTE_KEYS.get(i);
@@ -104,7 +114,7 @@ public abstract class CommandConfigScreen extends Screen {
                         draft.entityAttributes.getOrDefault(key, true), value -> draft.entityAttributes.put(key, value));
             }
             check(left, 152, panelWidth, "other_entity_attributes", draft.otherEntityAttributes, value -> draft.otherEntityAttributes = value);
-            button(width / 2 - 55, height - 28, 110, Component.translatable("gui.back"), this::onClose);
+            button(width / 2 - 55, height - 28, 110, MinecraftText.translatable("gui.back"), this::onClose);
         } else {
             ClientConfig.TextStyle style = selectedStyle();
             centeredLabel(label("config.color"), 34, 10);
@@ -114,11 +124,12 @@ public abstract class CommandConfigScreen extends Screen {
                 TextColor textColor = TextColor.fromLegacyFormat(color);
                 if (textColor == null) { continue; }
                 int rgb = textColor.getValue();
-                Button swatch = Button.builder(Component.empty(), ignored -> style.color = rgb)
-                        .bounds(paletteLeft + (index % 8) * 28, 50 + (index / 8) * 24, 24, 20)
-                        .tooltip(Tooltip.create(label("color." + textColor.serialize()))).build();
+                int x = paletteLeft + (index % 8) * 28;
+                int y = 50 + (index / 8) * 24;
+                Button swatch = ConfigButtons.create(this, x, y, 24, 20, MinecraftText.empty(),
+                        label("color." + textColor.serialize()), () -> style.color = rgb);
                 control(swatch);
-                swatches.add(new Swatch(swatch, rgb));
+                swatches.add(new Swatch(swatch, x, y, rgb));
                 index++;
             }
             check(left, 106, column, "bold", style.bold, value -> style.bold = value);
@@ -129,7 +140,7 @@ public abstract class CommandConfigScreen extends Screen {
             check(left + column + 8, 154, column, "show_identifier_on_hover", style.showIdentifierOnHover,
                     value -> style.showIdentifierOnHover = value);
             preview = centeredLabel(previewText(), height - 62, 18);
-            button(width / 2 - 55, height - 28, 110, Component.translatable("gui.back"), this::onClose);
+            button(width / 2 - 55, height - 28, 110, MinecraftText.translatable("gui.back"), this::onClose);
         }
         if (saving) {
             controls.forEach(widget -> widget.active = false);
@@ -137,12 +148,20 @@ public abstract class CommandConfigScreen extends Screen {
         }
     }
 
-    private StringWidget centeredLabel(Component text, int y, int height) {
-        int textWidth = Math.min(width - 32, font.width(text));
-        StringWidget widget = new StringWidget((width - textWidth) / 2, y, textWidth, height, text, font);
-        addRenderableOnly(widget);
-        return widget;
+    private Label centeredLabel(Component text, int y, int height) {
+        Label label = new Label(text, y, height);
+        labels.add(label);
+        return label;
     }
+
+    protected void paintLabels(LabelDraw draw) {
+        for (Label label : labels) {
+            int textWidth = Math.min(width - 32, font.width(label.text));
+            draw.draw(label.text, (width - textWidth) / 2, label.y + (label.height - 9) / 2);
+        }
+    }
+
+    protected abstract void addControl(AbstractWidget widget);
 
     private void check(int x, int y, int width, String key, boolean selected, Consumer<Boolean> update) {
         Checkbox checkbox = ConfigCheckboxes.create(x, y, width, label("config." + key), selected, font);
@@ -151,13 +170,13 @@ public abstract class CommandConfigScreen extends Screen {
     }
 
     private Button button(int x, int y, int width, Component text, Runnable action) {
-        Button button = Button.builder(text, ignored -> action.run()).bounds(x, y, width, 20).build();
+        Button button = ConfigButtons.create(this, x, y, width, 20, text, null, action);
         control(button);
         return button;
     }
 
     private void control(AbstractWidget widget) {
-        addRenderableWidget(widget);
+        addControl(widget);
         controls.add(widget);
     }
 
@@ -171,7 +190,7 @@ public abstract class CommandConfigScreen extends Screen {
 
     private Component previewText() {
         return label("config.preview").append(": ")
-                .append(Component.translatable("biome.minecraft.plains").withStyle(selectedStyle().style()));
+                .append(MinecraftText.translatable("biome.minecraft.plains").withStyle(selectedStyle().style()));
     }
 
     @Override
@@ -181,20 +200,17 @@ public abstract class CommandConfigScreen extends Screen {
             applyBindings();
             Component text = previewText();
             preview.setMessage(text);
-            int textWidth = Math.min(width - 32, font.width(text));
-            preview.setWidth(textWidth);
-            preview.setX((width - textWidth) / 2);
         }
     }
 
     protected void paintSwatches(RectangleFill fill) {
         for (Swatch swatch : swatches) {
             Button button = swatch.button();
-            int x = button.getX();
-            int y = button.getY();
+            int x = swatch.x();
+            int y = swatch.y();
             int border = selectedStyle().color == swatch.color() ? 0xFFFFFFFF : 0xFF101010;
-            fill.fill(x + 2, y + 2, x + button.getWidth() - 2, y + button.getHeight() - 2, border);
-            fill.fill(x + 4, y + 4, x + button.getWidth() - 4, y + button.getHeight() - 4, 0xFF000000 | swatch.color());
+            fill.fill(x + 2, y + 2, x + button.getWidth() - 2, y + 18, border);
+            fill.fill(x + 4, y + 4, x + button.getWidth() - 4, y + 16, 0xFF000000 | swatch.color());
         }
     }
 
@@ -206,7 +222,7 @@ public abstract class CommandConfigScreen extends Screen {
     private void save() {
         applyBindings();
         ClientConfig snapshot = draft.copy();
-        error = Component.empty();
+        error = MinecraftText.empty();
         status.setMessage(error);
         saving = true;
         controls.forEach(widget -> widget.active = false);
@@ -224,9 +240,6 @@ public abstract class CommandConfigScreen extends Screen {
                 saveButton.setMessage(label("config.save"));
                 error = label("config.save_failed").withStyle(ChatFormatting.RED);
                 status.setMessage(error);
-                int textWidth = Math.min(width - 32, font.width(error));
-                status.setWidth(textWidth);
-                status.setX((width - textWidth) / 2);
             }
         }, Minecraft.getInstance());
     }
@@ -239,6 +252,6 @@ public abstract class CommandConfigScreen extends Screen {
     }
 
     private static net.minecraft.network.chat.MutableComponent label(String key) {
-        return Component.translatable(CommandLanguage.PREFIX + key);
+        return MinecraftText.translatable(CommandLanguage.PREFIX + key);
     }
 }

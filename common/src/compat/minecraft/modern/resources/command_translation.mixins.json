@@ -5,18 +5,14 @@
   "compatibilityLevel": "JAVA_${java_version}",
   "client": [
     "MinecraftMixin",
-    "NbtAutocompleteHintsMixin",
     "CommandSuggestionsMixin",
     "ClientPacketListenerMixin",
+    "ClientCommandSendingMixin",
     "EditBoxAccessor",
     "InputHelpMixin",
     "TooltipLayoutMixin",
     "ClientFeedbackMixin",
     "ClientCommandActionMixin",
-    "NbtSuggestionRegistryMixin",
-    "NbtRegistryTypeMixin",
-    "NbtComponentRegistryMixin",
-    "NbtSuggestionStateAccessor",
     "ClientSuggestionProviderMixin"
   ],
   "injectors": {

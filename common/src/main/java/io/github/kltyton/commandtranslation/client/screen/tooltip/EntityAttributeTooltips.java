@@ -1,5 +1,6 @@
 package io.github.kltyton.commandtranslation.client.screen.tooltip;
 
+import io.github.kltyton.commandtranslation.client.i18n.MinecraftText;
 import io.github.kltyton.commandtranslation.client.config.ClientConfig;
 import java.math.BigDecimal;
 import net.minecraft.ChatFormatting;
@@ -17,10 +18,10 @@ public final class EntityAttributeTooltips {
         if (values.isEmpty()) { return null; }
         var result = title.copy();
         for (Value value : values) {
-            Component amount = Component.literal(BigDecimal.valueOf(value.value()).round(java.math.MathContext.DECIMAL32).stripTrailingZeros().toPlainString());
+            Component amount = MinecraftText.literal(BigDecimal.valueOf(value.value()).round(java.math.MathContext.DECIMAL32).stripTrailingZeros().toPlainString());
             Component line = value.id().equals("minecraft:max_health") || value.id().equals("minecraft:generic.max_health")
-                    ? Component.translatable("command_translation.help.entity.maximum_health", amount)
-                    : Component.translatable("command_translation.help.entity.default_attribute", value.name(), amount);
+                    ? MinecraftText.translatable("command_translation.help.entity.maximum_health", amount)
+                    : MinecraftText.translatable("command_translation.help.entity.default_attribute", value.name(), amount);
             result.append("\n").append(line.copy().withStyle(ChatFormatting.GRAY));
         }
         if (description != null) { result.append("\n").append(description); }

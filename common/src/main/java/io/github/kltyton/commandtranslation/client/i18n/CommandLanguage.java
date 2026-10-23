@@ -29,6 +29,11 @@ public final class CommandLanguage {
             String nativeKey = "soundCategory." + literal;
             if (language.has(nativeKey)) { result.add(language.getOrDefault(nativeKey).replaceAll("\\s+", "_")); }
         }
+        String resourceKind = IdentifierNames.literalKind(path, literal);
+        if (resourceKind != null) {
+            var name = IdentifierNames.display(resourceKind, literal);
+            if (name != null) { result.add(name.getString()); }
+        }
         if (result.isEmpty() && path.startsWith("value.") && literal.contains(".")) {
             String[] parts = literal.split("\\.");
             for (int index = 0; index < parts.length; index++) {

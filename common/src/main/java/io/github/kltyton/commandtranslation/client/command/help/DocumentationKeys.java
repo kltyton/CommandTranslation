@@ -1,5 +1,6 @@
 package io.github.kltyton.commandtranslation.client.command.help;
 
+import io.github.kltyton.commandtranslation.client.i18n.MinecraftText;
 import io.github.kltyton.commandtranslation.client.i18n.CommandLanguage;
 import java.util.ArrayList;
 import java.util.List;
@@ -24,7 +25,7 @@ public final class DocumentationKeys {
 
     public static Component translated(String suffix) {
         String key = present(suffix);
-        return key == null ? null : Component.translatable(key);
+        return key == null ? null : MinecraftText.translatable(key);
     }
 
     public static String field(String family, List<String> path, String suffix) {

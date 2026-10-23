@@ -17,7 +17,7 @@ version = identity.getProperty('mod_version')
 base.archivesName = "${identity.getProperty('mod_id')}-common-${targetId}"
 layout.buildDirectory.set(new File(commonRoot, "build/${targetId}"))
 java {
-    toolchain.languageVersion = JavaLanguageVersion.of(rootProject.property('java_version') as int)
+    toolchain.languageVersion = JavaLanguageVersion.of((rootProject.findProperty('compiler_java_version') ?: rootProject.property('java_version')) as int)
     withSourcesJar()
 }
 repositories {
@@ -32,14 +32,110 @@ dependencies {
             : 'org.spongepowered:mixin:0.8.5')
 }
 
-def modern = minecraft in ['26.1.2', '26.2']
+def modern = minecraft.tokenize('.').first().toInteger() > 1
 def profiles = [modern ? 'modern' : 'legacy']
-def layers = [new File(commonRoot, 'src/main'), new File(commonRoot, 'src/generated')] + profiles.collect { new File(commonRoot, "src/compat/minecraft/${it}") } + [
+def versionParts = minecraft.tokenize('.').collect { it as int }
+def identifierApi = versionParts[0] > 1 || (versionParts[1] == 21 && versionParts.size() > 2 && versionParts[2] >= 11)
+def tagSetApi = versionParts[0] > 1 || versionParts[1] > 21 ||
+        (versionParts[1] == 21 && versionParts.size() > 2 && versionParts[2] >= 2)
+def hoverRecordApi = versionParts[0] > 1 || versionParts[1] > 21 ||
+        (versionParts[1] == 21 && versionParts.size() > 2 && versionParts[2] >= 5)
+def componentGame = versionParts[0] > 1 || versionParts[1] > 20 ||
+        (versionParts[1] == 20 && versionParts.size() > 2 && versionParts[2] >= 5)
+def checkboxBuilder = versionParts[0] > 1 || versionParts[1] > 20 ||
+        (versionParts[1] == 20 && versionParts.size() > 2 && versionParts[2] >= 3)
+def poseGui = versionParts[0] == 1 && versionParts[1] < 20
+def rangedPackFormat = versionParts[0] > 1 || versionParts[1] > 21 ||
+        (versionParts[1] == 21 && versionParts.size() > 2 && versionParts[2] >= 9)
+def bridgePackFormat = versionParts[0] == 1 && (versionParts[1] < 19 || minecraft in ['1.19.2', '1.19.3'])
+def accessorPackFormat = versionParts[0] == 1 && versionParts[1] == 21 && versionParts.size() > 2 && versionParts[2] >= 6
+profiles.add("pack_metadata/${rangedPackFormat ? 'range' : minecraft == '1.16.5' ? 'initial' : bridgePackFormat ? 'bridge' : accessorPackFormat ? 'integer_accessor' : 'integer'}")
+def itemParserProfile = modern ? 'input' : componentGame ? 'components'
+        : versionParts[1] < 19 ? 'stack_nbt' : minecraft == '1.19.2' ? 'registry_nbt' : 'lookup_nbt'
+profiles.add("item_parser/${itemParserProfile}")
+profiles.add("language_resources/${versionParts[0] == 1 && versionParts[1] < 19 ? 'streams' : 'stacks'}")
+profiles.add("locale/${versionParts[0] == 1 && (versionParts[1] < 19 || minecraft in ['1.19.2', '1.19.3']) ? 'info' : 'code'}")
+profiles.add("configuration/${modern ? 'extractor' : poseGui ? (minecraft == '1.16.5' ? 'pose_initial' : 'pose') : minecraft in ['1.20', '1.20.1'] ? 'gui' : 'gui_background'}")
+profiles.add("configuration/${checkboxBuilder ? (versionParts[0] == 1 && versionParts[1] == 20 ? 'checkbox_builder' : 'checkbox_width') : 'checkbox_constructor'}")
+profiles.add("configuration/${versionParts[0] == 1 && (versionParts[1] < 19 || minecraft == '1.19.2') ? 'button_constructor' : 'button_builder'}")
+profiles.add("item_tooltips/${poseGui ? 'stack' : 'native'}")
+def deferredGui = versionParts[0] == 1 && versionParts[1] == 21 && versionParts.size() > 2 && versionParts[2] >= 6
+profiles.add("widget_coordinates/${versionParts[0] == 1 && (versionParts[1] < 19 || minecraft == '1.19.2') ? 'fields' : 'accessors'}")
+profiles.add("input_help/${modern ? 'extractor' : poseGui ? 'pose' : deferredGui ? 'gui_deferred' : 'gui'}")
+if (modern) { profiles.add("tooltip/${minecraft == '26.3' ? 'extractor_spaced' : 'extractor'}") }
+if (!modern && !poseGui) {
+    profiles.add("tooltip/${deferredGui ? 'deferred' : tagSetApi ? 'styled' : 'gui'}")
+    if (deferredGui) { profiles.add("tooltip/deferred_${identifierApi ? 'identifier' : 'resource_location'}") }
+}
+if (poseGui) {
+    profiles.add("tooltip/${minecraft == '1.16.5' && loader == 'forge' ? 'pose_forge' : 'pose'}")
+    if (minecraft != '1.16.5') {
+        profiles.add('tooltip/pose_components')
+        def positioned = minecraft in ['1.19.3', '1.19.4']
+        profiles.add("tooltip/${positioned ? 'pose_positioned' : 'pose_unpositioned'}")
+        profiles.add("tooltip/${minecraft == '1.19.4' ? 'pose_display_mode' : positioned ? 'pose_joml' : 'pose_matrix'}")
+    } else {
+        profiles.add('tooltip/pose_text')
+    }
+}
+def preChatListener = versionParts[0] == 1 && versionParts[1] < 19
+def guiScreenOwner = versionParts[0] > 1 && versionParts[1] >= 2
+def unattendedCommands = versionParts[0] > 1 ||
+        (versionParts[1] == 21 && versionParts.size() > 2 && versionParts[2] >= 6)
+profiles.add("identifiers/${identifierApi ? 'identifier' : 'resource_location'}")
+def tagProfile = minecraft == '1.16.5' ? 'collections_legacy' : minecraft == '1.17.1' ? 'collections' : tagSetApi ? 'sets' : 'names'
+profiles.add("tags/${tagProfile}")
+profiles.add("hover/${hoverRecordApi ? 'record' : 'action'}")
+profiles.add("attributes/${tagSetApi ? 'elements' : componentGame ? 'holders' : 'direct'}")
+def valueNames = identifierApi ? 'identifier' : tagSetApi ? 'lookup'
+        : versionParts[1] == 21 ? 'holder' : componentGame ? 'components'
+        : versionParts[1] > 19 || (versionParts[1] == 19 && versionParts.size() > 2 && versionParts[2] >= 3) ? 'builtin' : 'legacy'
+profiles.add("registry_values/${valueNames}")
+profiles.add("screen/${preChatListener ? 'pre_chat_listener' : guiScreenOwner ? 'gui' : 'minecraft'}")
+profiles.add("chat/${guiScreenOwner ? 'gui_client_system' : modern ? 'client_system' : 'message'}")
+profiles.add("scheduler/${tagSetApi ? 'schedule' : 'tell'}")
+profiles.add("feedback/${modern ? 'system' : 'message'}")
+profiles.add("registry_access/${versionParts[0] == 1 && versionParts[1] < 18 ? 'holder' : 'stream'}")
+profiles.add("command_sending/${preChatListener ? 'chat' : 'signed'}")
+if (!preChatListener) { profiles.add("command_action/${unattendedCommands ? 'unattended' : 'unsigned'}") }
+profiles.add("text/${versionParts[0] == 1 && versionParts[1] < 19 ? 'legacy' : 'modern'}")
+if (versionParts[0] != 1 || versionParts[1] >= 19) {
+    profiles.add("text/fallback/${minecraft in ['1.19', '1.19.1', '1.19.2', '1.19.3'] ? 'legacy' : 'modern'}")
+}
+def argumentProfile = versionParts[0] == 1 && versionParts[1] < 19 ? 'legacy'
+        : minecraft in ['1.19', '1.19.1', '1.19.2'] ? 'registry' : 'builtin'
+profiles.add("arguments/${argumentProfile}")
+profiles.add("suggestion_context/${minecraft == '26.3' ? 'contextual' : 'legacy'}")
+if (argumentProfile != 'legacy') { profiles.add('arguments/info') }
+profiles.add("registries/${versionParts[0] == 1 && (versionParts[1] < 19 || minecraft in ['1.19', '1.19.1', '1.19.2']) ? 'legacy' : 'builtin'}")
+profiles.add("structure_registry/${versionParts[0] == 1 && versionParts[1] < 18 ? 'literal' : minecraft == '1.18.2' ? 'configured' : 'dynamic'}")
+def nbtApi = rootProject.property('nbtac_api').toString()
+def nbtProfiles = nbtApi == '2' ? ['2'] : nbtApi == '1.3'
+        ? ['1', '1.3', "1.3/${loader == 'fabric' ? 'fabric' : 'bookkeeping'}"]
+        : ['1', 'legacy', nbtApi == '1.0' ? '1.0' : '1.1']
+if (nbtApi == '1.3' && rootProject.property('nbtac_components')) { nbtProfiles.add('1.3/components') }
+def layers = [new File(commonRoot, 'src/main'), new File(commonRoot, 'src/generated')] +
+              nbtProfiles.collect { new File(commonRoot, "src/compat/nbt/${it}") } +
+              profiles.collect { new File(commonRoot, "src/compat/minecraft/${it}") } + [
               new File(commonRoot, "src/compat/minecraft/${minecraft}"),
               new File(commonRoot, "src/compat/${loader}"),
               new File(commonRoot, "src/compat/${loader}/${minecraft}")].findAll { it.isDirectory() }
+if (preChatListener) { layers.add(new File(commonRoot, 'src/compat/minecraft/classic')) }
+def loaderProfiles = []
+if (loader == 'fabric') {
+    loaderProfiles.add("client_commands/${preChatListener ? 'v1' : 'v2'}")
+} else if (loader == 'forge') {
+    loaderProfiles.add("client_commands/${versionParts[1] < 18 ? 'classic' : 'event'}")
+    loaderProfiles.add("configuration/${minecraft == '1.16.5' ? 'extension' : minecraft == '1.17.1' ? 'fml_gui' : minecraft == '1.18.2' ? 'client_gui' : 'screen'}")
+    if (versionParts[1] < 18) { loaderProfiles.add('mixin_bootstrap/legacy') }
+}
+layers.addAll(loaderProfiles.collect { new File(commonRoot, "src/compat/${loader}/${it}") })
 def javaDirectories = layers.collect { new File(it, 'java') }.findAll { it.isDirectory() }
 def resourceDirectories = layers.reverse().collect { new File(it, 'resources') }.findAll { it.isDirectory() }
+ext.templeMinecraftMixinSource = resourceDirectories.collect { new File(it, 'command_translation.mixins.json') }
+        .find { it.isFile() }
+apply from: new File(templeRoot, 'gradle/target-conventions/mixins.gradle')
+resourceDirectories.add(0, templeMixinResources)
 def packageName = identity.getProperty('mod_java_package', identity.getProperty('mod_group_id'))
 def constants = new File(layout.buildDirectory.get().asFile, 'generated/sources/temple')
 def constantFile = new File(constants, "${packageName.replace('.', '/')}/BuildInfo.java")
@@ -67,6 +163,7 @@ tasks.withType(JavaCompile).configureEach {
     options.release = rootProject.property('java_version') as int
 }
 tasks.named('processResources', ProcessResources) {
+    dependsOn tasks.named('generateMixinConfigurations')
     from resourceDirectories
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
     def values = [mod_id: identity.getProperty('mod_id'), java_version: rootProject.property('java_version')]
@@ -75,6 +172,7 @@ tasks.named('processResources', ProcessResources) {
 }
 tasks.named('processTestResources', ProcessResources) { from new File(commonRoot, 'src/test/resources') }
 tasks.named('sourcesJar', Jar) {
+    dependsOn tasks.named('generateMixinConfigurations')
     from javaDirectories
     from constants
     from resourceDirectories

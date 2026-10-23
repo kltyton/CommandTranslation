@@ -27,6 +27,11 @@
     "tt_ru"
   ],
   "commands": {
+    "compute": ["compute","计算","計算","計算",null,"berechnen",null,null,null,null,null,null,null,"計算",null,null,null,null,null,null,null,null,null,null,null],
+    "posteffect": ["posteffect","后期效果","後期效果","後期效果",null,"nachbearbeitung",null,null,null,null,null,null,null,"ポストエフェクト",null,null,null,null,null,null,null,null,null,null,null],
+    "replaceitem": ["replaceitem","替换物品","替換物品","替換物品",null,"ersetzegegenstand",null,null,null,null,null,null,null,"アイテム置換",null,null,null,null,null,null,null,null,null,null,null],
+    "locatebiome": ["locatebiome","定位生物群系","定位生物群系","定位生物群系",null,"findebiom",null,null,null,null,null,null,null,"バイオーム探索",null,null,null,null,null,null,null,null,null,null,null],
+    "placefeature": ["placefeature","放置地物","放置地物","放置地物",null,"platziereweltmerkmal",null,null,null,null,null,null,null,"地物配置",null,null,null,null,null,null,null,null,null,null,null],
     "advancement": [
       "advancement",
       "进度",

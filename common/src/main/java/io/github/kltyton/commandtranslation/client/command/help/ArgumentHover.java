@@ -1,5 +1,6 @@
 package io.github.kltyton.commandtranslation.client.command.help;
 
+import io.github.kltyton.commandtranslation.client.i18n.MinecraftText;
 import com.mojang.brigadier.tree.CommandNode;
 import com.mojang.brigadier.StringReader;
 import com.mojang.brigadier.exceptions.CommandSyntaxException;
@@ -83,6 +84,9 @@ public final class ArgumentHover {
                 if (parser.equals("minecraft:component") || parser.equals("minecraft:style")) { return withFieldName(field, text(field)); }
                 if (parser.equals("minecraft:particle")) { return withFieldName(field, field("particle." + ClientPlatform.identifierId(text), field)); }
                 if (parser.equals("minecraft:dialog")) { return withFieldName(field, field("dialog", field)); }
+                if (parser.equals("minecraft:context_float_provider") || parser.equals("minecraft:context_int_provider")) {
+                    return withFieldName(field, field(parser.substring("minecraft:".length()), field));
+                }
                 if (parser.equals("minecraft:nbt_compound_tag") || parser.equals("minecraft:nbt_tag")) {
                     String family = nbtFamily(subject);
                     return family == null ? null : withFieldName(field, nbt(family, subject.entityType(), field));
@@ -118,11 +122,7 @@ public final class ArgumentHover {
                 registry = switch (parser == null ? "" : parser) {
                     case "minecraft:item_stack", "minecraft:item_predicate" -> "minecraft:item";
                     case "minecraft:block_state", "minecraft:block_predicate" -> "minecraft:block";
-                    default -> fallbackKind == null ? null : "minecraft:" + switch (fallbackKind) {
-                        case "entity" -> "entity_type";
-                        case "effect" -> "mob_effect";
-                        default -> fallbackKind;
-                    };
+                    default -> IdentifierNames.registry(fallbackKind);
                 };
             }
             Component resource = ValueDocumentation.registry(registry, subject.value(), names, true);
@@ -323,30 +323,30 @@ public final class ArgumentHover {
         if (identity) {
             if (!field.key()) { return null; }
             String named = DocumentationKeys.fieldName(family, field.path(), "");
-            return named == null ? null : Component.translatable(named);
+            return named == null ? null : MinecraftText.translatable(named);
         }
         String key = DocumentationKeys.field(family, field.path(), "");
         if (key == null) { return null; }
-        Component purpose = Component.translatable(key);
+        Component purpose = MinecraftText.translatable(key);
         return field.key() ? purpose : contextValue(field.value(), purpose);
     }
 
     private static Component contextValue(String raw, Component purpose) {
         return purpose == null || raw.isEmpty() || raw.startsWith("{") || raw.startsWith("[") ? purpose
-                : Component.translatable("command_translation.help.value.context", Component.literal(raw), purpose);
+                : MinecraftText.translatable("command_translation.help.value.context", MinecraftText.literal(raw), purpose);
     }
 
     private static Component valueName(String raw) {
         String value = unquote(raw);
         List<String> names = CommandLanguage.aliases("value." + value, value);
-        return names.stream().filter(name -> !name.equals(value)).findFirst().map(Component::literal).orElse(null);
+        return names.stream().filter(name -> !name.equals(value)).findFirst().map(MinecraftText::literal).orElse(null);
     }
 
     private Component withFieldName(StructuredFieldLocator.Field field, Component selected) {
         if (!identity || selected != null || field == null || field.path().isEmpty()) { return selected; }
         if (!field.key()) { return valueName(field.value()); }
         String key = DocumentationKeys.presentName("field." + field.path().get(field.path().size() - 1));
-        return key == null ? null : Component.translatable(key);
+        return key == null ? null : MinecraftText.translatable(key);
     }
 
     private static String unquote(String value) {

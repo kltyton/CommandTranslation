@@ -11,7 +11,6 @@ import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.List;
@@ -21,7 +20,6 @@ import java.util.Set;
 import java.util.TreeMap;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
-import net.minecraft.locale.Language;
 import net.minecraft.server.packs.resources.ResourceManager;
 
 /** Builds a separate, inactive resource pack from real command data and untranslated language entries. */
@@ -119,7 +117,7 @@ public final class TranslationPackWriter {
         var commandData = JSON.toJsonTree(selected).getAsJsonArray();
         for (var command : commandData) {
             var object = command.getAsJsonObject();
-            object.add("properties", JsonParser.parseString(object.get("properties").getAsString()));
+            object.add("properties", new JsonParser().parse(object.get("properties").getAsString()));
         }
         manifest.put("commands", commandData);
         Files.createDirectories(directory);
@@ -145,17 +143,7 @@ public final class TranslationPackWriter {
     }
 
     private static Map<String, String> language(ResourceManager resources, String locale) throws IOException {
-        Map<String, String> values = new HashMap<>();
-        var stacks = resources.listResourceStacks("lang", id -> id.getPath().equals("lang/" + locale + ".json"));
-        for (String namespace : resources.getNamespaces()) {
-            for (var entry : stacks.entrySet()) {
-                if (!entry.getKey().getNamespace().equals(namespace)) { continue; }
-                for (var resource : entry.getValue()) {
-                    try (var stream = resource.open()) { Language.loadFromJson(stream, values::put); }
-                }
-            }
-        }
-        return values;
+        return LanguageResources.read(resources, locale);
     }
 
     private static Set<String> vanillaCommands() throws IOException {
@@ -163,7 +151,7 @@ public final class TranslationPackWriter {
         String path = "/assets/command_translation/documentation/vanilla-commands.json";
         try (var stream = TranslationPackWriter.class.getResourceAsStream(path)) {
             if (stream == null) { throw new IOException("Missing bundled command catalog: " + path); }
-            for (var value : JsonParser.parseReader(new InputStreamReader(stream, StandardCharsets.UTF_8)).getAsJsonArray()) {
+            for (var value : new JsonParser().parse(new InputStreamReader(stream, StandardCharsets.UTF_8)).getAsJsonArray()) {
                 commands.add(value.getAsString());
             }
         }

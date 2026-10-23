@@ -1,9 +1,10 @@
 package io.github.kltyton.commandtranslation.client.screen.tooltip;
 
+import io.github.kltyton.commandtranslation.client.i18n.MinecraftText;
+import io.github.kltyton.commandtranslation.client.i18n.TranslationContent;
 import java.util.ArrayList;
 import java.util.List;
 import net.minecraft.network.chat.Component;
-import net.minecraft.network.chat.contents.TranslatableContents;
 
 /** Carries structured command help in ordinary translatable components. */
 public final class CommandTooltip {
@@ -20,29 +21,32 @@ public final class CommandTooltip {
     private CommandTooltip() {}
 
     public static Component component(Document document) {
-        var syntax = Component.empty();
-        document.syntax().forEach(token -> syntax.append(Component.translatable(TOKEN, token.annotation(), token.original())));
-        var parameters = Component.empty();
-        document.parameters().forEach(parameter -> parameters.append(Component.translatable(PARAMETER, parameter.title(), parameter.description())));
-        return Component.translatable(PANEL, document.title(), document.description(), syntax, parameters);
+        var syntax = MinecraftText.empty();
+        document.syntax().forEach(token -> syntax.append(MinecraftText.translatable(TOKEN, token.annotation(), token.original())));
+        var parameters = MinecraftText.empty();
+        document.parameters().forEach(parameter -> parameters.append(MinecraftText.translatable(PARAMETER, parameter.title(), parameter.description())));
+        return MinecraftText.translatable(PANEL, document.title(), document.description(), syntax, parameters);
     }
 
     public static Document read(Component component) {
-        if (component.getContents() instanceof TranslatableContents text) {
-            Object[] args = text.getArgs();
-            if (text.getKey().equals(PANEL) && args.length == 4 && args[0] instanceof Component title
+        TranslationContent text = MinecraftText.translation(component);
+        if (text != null) {
+            Object[] args = text.args();
+            if (text.key().equals(PANEL) && args.length == 4 && args[0] instanceof Component title
                     && args[1] instanceof Component description && args[2] instanceof Component syntax && args[3] instanceof Component parameters) {
                 List<Token> tokens = new ArrayList<>();
                 for (Component part : syntax.getSiblings()) {
-                    if (part.getContents() instanceof TranslatableContents token && token.getKey().equals(TOKEN)
-                            && token.getArgs().length == 2 && token.getArgs()[0] instanceof Component annotation
-                            && token.getArgs()[1] instanceof Component original) { tokens.add(new Token(original, annotation)); }
+                    TranslationContent token = MinecraftText.translation(part);
+                    if (token != null && token.key().equals(TOKEN)
+                            && token.args().length == 2 && token.args()[0] instanceof Component annotation
+                            && token.args()[1] instanceof Component original) { tokens.add(new Token(original, annotation)); }
                 }
                 List<Parameter> panels = new ArrayList<>();
                 for (Component part : parameters.getSiblings()) {
-                    if (part.getContents() instanceof TranslatableContents parameter && parameter.getKey().equals(PARAMETER)
-                            && parameter.getArgs().length == 2 && parameter.getArgs()[0] instanceof Component heading
-                            && parameter.getArgs()[1] instanceof Component body) { panels.add(new Parameter(heading, body)); }
+                    TranslationContent parameter = MinecraftText.translation(part);
+                    if (parameter != null && parameter.key().equals(PARAMETER)
+                            && parameter.args().length == 2 && parameter.args()[0] instanceof Component heading
+                            && parameter.args()[1] instanceof Component body) { panels.add(new Parameter(heading, body)); }
                 }
                 var body = description.copy();
                 for (Component sibling : component.getSiblings()) { body.append("\n").append(sibling); }

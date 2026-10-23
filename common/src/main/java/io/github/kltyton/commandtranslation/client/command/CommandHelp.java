@@ -63,7 +63,9 @@ public final class CommandHelp {
                 case "structure" -> "structure";
                 default -> null;
             } : null;
-            case "fillbiome" -> "biome";
+            case "fillbiome", "locatebiome" -> "biome";
+            case "placefeature" -> "configured_feature";
+            case "posteffect" -> "post_effect";
             case "effect" -> "effect";
             case "enchant" -> "enchantment";
             default -> null;
@@ -74,6 +76,7 @@ public final class CommandHelp {
         return switch (kind) {
             case "biome" -> name.equals("biome") || name.equals("filter");
             case "configured_feature" -> name.equals("feature");
+            case "post_effect" -> name.equals("posteffect");
             case "effect" -> name.equals("effect");
             case "enchantment" -> name.equals("enchantment");
             case "structure", "poi" -> name.equals(kind);

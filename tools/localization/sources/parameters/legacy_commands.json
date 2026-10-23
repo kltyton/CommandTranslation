@@ -1,0 +1,190 @@
+{
+  "en_us": {
+    "command_translation.help.command.replaceitem": "Replaces the item in a block container or entity inventory slot.",
+    "command_translation.help.command.locatebiome": "Shows the coordinates of the nearest requested biome.",
+    "command_translation.help.command.placefeature": "Places a configured feature where its placement requirements are met.",
+    "command_translation.help.command.locate.structure_only": "Finds the requested structure and shows its coordinates.",
+    "command_translation.help.argument.replaceitem.block": "Selects a block container.",
+    "command_translation.help.argument.replaceitem.entity": "Selects entities whose inventory or equipment slot is replaced.",
+    "command_translation.help.argument.replaceitem.pos": "The position of the block container.",
+    "command_translation.help.argument.replaceitem.targets": "The entities whose slot is replaced.",
+    "command_translation.help.argument.replaceitem.slot": "The inventory or equipment slot to replace.",
+    "command_translation.help.argument.replaceitem.item": "The replacement item and its item data.",
+    "command_translation.help.argument.replaceitem.count": "The number of replacement items.",
+    "command_translation.help.argument.locatebiome.biome": "The biome to find.",
+    "command_translation.help.argument.placefeature.feature": "The configured feature to place.",
+    "command_translation.help.argument.placefeature.pos": "The position at which the feature is placed."
+  },
+  "zh_cn": {
+    "command_translation.help.command.replaceitem": "替换方块容器或实体物品栏指定槽位中的物品。",
+    "command_translation.help.command.locatebiome": "显示最近的指定生物群系的坐标。",
+    "command_translation.help.command.placefeature": "在满足放置条件的位置生成指定配置地物。",
+    "command_translation.help.command.locate.structure_only": "查找指定结构并显示坐标。",
+    "command_translation.help.argument.replaceitem.block": "选择方块容器。",
+    "command_translation.help.argument.replaceitem.entity": "选择要替换物品栏或装备槽位的实体。",
+    "command_translation.help.argument.replaceitem.pos": "目标方块容器的位置。",
+    "command_translation.help.argument.replaceitem.targets": "要替换槽位的实体。",
+    "command_translation.help.argument.replaceitem.slot": "要替换的物品栏或装备槽位。",
+    "command_translation.help.argument.replaceitem.item": "替换后的物品及其物品数据。",
+    "command_translation.help.argument.replaceitem.count": "替换后的物品数量。",
+    "command_translation.help.argument.locatebiome.biome": "要查找的生物群系。",
+    "command_translation.help.argument.placefeature.feature": "要生成的配置地物。",
+    "command_translation.help.argument.placefeature.pos": "地物的生成位置。"
+  },
+  "de_de": {
+    "command_translation.help.command.replaceitem": "Ersetzt den Gegenstand eines Inventarplatzes in einem Blockbehälter oder einer Entität.",
+    "command_translation.help.command.locatebiome": "Zeigt die Koordinaten des nächstgelegenen gesuchten Bioms.",
+    "command_translation.help.command.placefeature": "Platziert ein konfiguriertes Weltmerkmal unter Beachtung seiner Platzierungsbedingungen.",
+    "command_translation.help.command.locate.structure_only": "Sucht die angegebene Struktur und zeigt ihre Koordinaten.",
+    "command_translation.help.argument.replaceitem.block": "Wählt einen Blockbehälter.",
+    "command_translation.help.argument.replaceitem.entity": "Wählt Entitäten zum Ersetzen eines Inventar- oder Ausrüstungsplatzes.",
+    "command_translation.help.argument.replaceitem.pos": "Die Position des Blockbehälters.",
+    "command_translation.help.argument.replaceitem.targets": "Die Entitäten, deren Inventarplatz ersetzt wird.",
+    "command_translation.help.argument.replaceitem.slot": "Der zu ersetzende Inventar- oder Ausrüstungsplatz.",
+    "command_translation.help.argument.replaceitem.item": "Der neue Gegenstand einschließlich seiner Gegenstandsdaten.",
+    "command_translation.help.argument.replaceitem.count": "Die Anzahl der neuen Gegenstände.",
+    "command_translation.help.argument.locatebiome.biome": "Das zu suchende Biom.",
+    "command_translation.help.argument.placefeature.feature": "Das zu platzierende konfigurierte Weltmerkmal.",
+    "command_translation.help.argument.placefeature.pos": "Die Position, an der das Weltmerkmal platziert wird."
+  },
+  "ja_jp": {
+    "command_translation.help.command.replaceitem": "ブロックのコンテナやエンティティの指定スロット内のアイテムを置き換える。",
+    "command_translation.help.command.locatebiome": "指定した最寄りのバイオームの座標を表示する。",
+    "command_translation.help.command.placefeature": "配置条件を満たす場所に指定した構成済み地物を生成する。",
+    "command_translation.help.command.locate.structure_only": "指定した構造物を探して座標を表示する。",
+    "command_translation.help.argument.replaceitem.block": "ブロックのコンテナを選ぶ。",
+    "command_translation.help.argument.replaceitem.entity": "インベントリや装備スロットを置き換えるエンティティを選ぶ。",
+    "command_translation.help.argument.replaceitem.pos": "対象のブロックコンテナの座標。",
+    "command_translation.help.argument.replaceitem.targets": "スロットを置き換えるエンティティ。",
+    "command_translation.help.argument.replaceitem.slot": "置き換えるインベントリや装備のスロット。",
+    "command_translation.help.argument.replaceitem.item": "置き換え後のアイテムとそのアイテムデータ。",
+    "command_translation.help.argument.replaceitem.count": "置き換え後のアイテム数。",
+    "command_translation.help.argument.locatebiome.biome": "探すバイオーム。",
+    "command_translation.help.argument.placefeature.feature": "生成する構成済み地物。",
+    "command_translation.help.argument.placefeature.pos": "地物を生成する座標。"
+  },
+  "sources": {
+    "command_translation.help.command.replaceitem": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Freplaceitem",
+        "revision": 3569480
+      }
+    ],
+    "command_translation.help.command.locatebiome": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Flocatebiome",
+        "revision": 3836754
+      }
+    ],
+    "command_translation.help.command.placefeature": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplacefeature",
+        "revision": 3631543
+      }
+    ],
+    "command_translation.help.command.locate.structure_only": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Flocate",
+        "revision": 3784532
+      }
+    ],
+    "command_translation.help.argument.replaceitem.block": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Freplaceitem",
+        "revision": 3569480
+      }
+    ],
+    "command_translation.help.argument.replaceitem.entity": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Freplaceitem",
+        "revision": 3569480
+      }
+    ],
+    "command_translation.help.argument.replaceitem.pos": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Freplaceitem",
+        "revision": 3569480
+      }
+    ],
+    "command_translation.help.argument.replaceitem.targets": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Freplaceitem",
+        "revision": 3569480
+      }
+    ],
+    "command_translation.help.argument.replaceitem.slot": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Freplaceitem",
+        "revision": 3569480
+      }
+    ],
+    "command_translation.help.argument.replaceitem.item": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Freplaceitem",
+        "revision": 3569480
+      }
+    ],
+    "command_translation.help.argument.replaceitem.count": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Freplaceitem",
+        "revision": 3569480
+      }
+    ],
+    "command_translation.help.argument.locatebiome.biome": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Flocatebiome",
+        "revision": 3836754
+      }
+    ],
+    "command_translation.help.argument.placefeature.feature": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplacefeature",
+        "revision": 3631543
+      }
+    ],
+    "command_translation.help.argument.placefeature.pos": [
+      {
+        "url": "https://minecraft.wiki/w/Commands%2Fplacefeature",
+        "revision": 3631543
+      }
+    ]
+  },
+  "bindings": {
+    "replaceitem.block": "command_translation.help.argument.replaceitem.block",
+    "replaceitem.entity": "command_translation.help.argument.replaceitem.entity",
+    "replaceitem.pos": "command_translation.help.argument.replaceitem.pos",
+    "replaceitem.targets": "command_translation.help.argument.replaceitem.targets",
+    "replaceitem.slot": "command_translation.help.argument.replaceitem.slot",
+    "replaceitem.item": "command_translation.help.argument.replaceitem.item",
+    "replaceitem.count": "command_translation.help.argument.replaceitem.count",
+    "locatebiome.biome": "command_translation.help.argument.locatebiome.biome",
+    "placefeature.feature": "command_translation.help.argument.placefeature.feature",
+    "placefeature.pos": "command_translation.help.argument.placefeature.pos"
+  },
+  "syntax": [
+    {
+      "path": "replaceitem",
+      "type": "literal",
+      "versions": [
+        "1.16.5"
+      ]
+    },
+    {
+      "path": "locatebiome",
+      "type": "literal",
+      "versions": [
+        "1.16.5",
+        "1.17.1",
+        "1.18.2"
+      ]
+    },
+    {
+      "path": "placefeature",
+      "type": "literal",
+      "versions": [
+        "1.18.2"
+      ]
+    }
+  ]
+}
+

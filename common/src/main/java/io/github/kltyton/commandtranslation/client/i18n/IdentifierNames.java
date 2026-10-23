@@ -7,10 +7,12 @@ import java.util.Map;
 import com.mojang.brigadier.tree.CommandNode;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.MutableComponent;
-import net.minecraft.network.chat.contents.TranslatableContents;
 
 public final class IdentifierNames {
     private static final Map<String, String> FEEDBACK = Map.ofEntries(
+            Map.entry("commands.locate.success", "structure"),
+            Map.entry("commands.locatebiome.success", "biome"),
+            Map.entry("commands.placefeature.success", "configured_feature"),
             Map.entry("commands.locate.biome.success", "biome"),
             Map.entry("commands.locate.structure.success", "structure"),
             Map.entry("commands.locate.poi.success", "poi"),
@@ -41,18 +43,38 @@ public final class IdentifierNames {
                 case "minecraft:mob_effect" -> "effect";
                 case "minecraft:enchantment" -> "enchantment";
                 case "minecraft:worldgen/biome" -> "biome";
-                case "minecraft:worldgen/structure" -> "structure";
+                case "minecraft:worldgen/structure", "minecraft:worldgen/structure_feature", "minecraft:worldgen/configured_structure_feature" -> "structure";
                 case "minecraft:worldgen/configured_feature" -> "configured_feature";
                 case "minecraft:point_of_interest_type" -> "poi";
                 default -> kind;
             };
         }
         return kind == null && !(raw.startsWith("#") && registry != null) ? null
-                : display(kind, registry == null ? TagNames.registry(kind) : registry, raw);
+                : display(kind, registry == null ? registry(kind) : registry, raw);
     }
 
     public static Component display(String kind, String raw) {
-        return display(kind, TagNames.registry(kind), raw);
+        return display(kind, registry(kind), raw);
+    }
+
+    public static String registry(String kind) {
+        if (kind == null) { return null; }
+        if (kind.equals("structure")) { return StructureIdentifiers.REGISTRY; }
+        return "minecraft:" + switch (kind) {
+            case "biome" -> "worldgen/biome";
+            case "configured_feature" -> "worldgen/configured_feature";
+            case "poi" -> "point_of_interest_type";
+            case "entity" -> "entity_type";
+            case "effect" -> "mob_effect";
+            case "painting" -> "painting_variant";
+            default -> kind;
+        };
+    }
+
+    public static String literalKind(String path, String literal) {
+        if (!StructureIdentifiers.LITERAL_COMMANDS || !path.equals("locate." + literal)) { return null; }
+        var id = IdentifierAccess.tryParse(literal);
+        return id != null && ClientPlatform.registry(StructureIdentifiers.REGISTRY).keySet().contains(id) ? "structure" : null;
     }
 
     public static Component displayRegistry(String registry, String raw) {
@@ -76,7 +98,7 @@ public final class IdentifierNames {
             case "minecraft:mob_effect" -> "effect";
             case "minecraft:enchantment" -> "enchantment";
             case "minecraft:worldgen/biome" -> "biome";
-            case "minecraft:worldgen/structure" -> "structure";
+            case "minecraft:worldgen/structure", "minecraft:worldgen/structure_feature", "minecraft:worldgen/configured_structure_feature" -> "structure";
             case "minecraft:worldgen/configured_feature" -> "configured_feature";
             case "minecraft:point_of_interest_type" -> "poi";
             case "minecraft:painting_variant" -> "painting";
@@ -87,10 +109,10 @@ public final class IdentifierNames {
     private static Component componentName(String raw) {
         String id = ClientPlatform.identifierId(raw.startsWith("!") ? raw.substring(1) : raw);
         String name = id == null ? null : CommandLanguage.PREFIX + "registry.minecraft:data_component_type." + id + ".name";
-        if (name != null && CommandLanguage.present(name) != null) { return NamespaceNames.identifier(id, Component.translatable(name)); }
+        if (name != null && CommandLanguage.present(name) != null) { return NamespaceNames.identifier(id, MinecraftText.translatable(name)); }
         String key = id == null ? null : CommandLanguage.PREFIX + "name.component." + id;
         return key == null || CommandLanguage.present(key) == null ? null
-                : NamespaceNames.identifier(id, Component.translatable(key));
+                : NamespaceNames.identifier(id, MinecraftText.translatable(key));
     }
 
     private static Component display(String kind, String registry, String raw) {
@@ -101,8 +123,8 @@ public final class IdentifierNames {
             Component tagName = display(kind, registry, tagId);
             Component memberName = kind == null ? null : display(kind, registry, memberId);
             if (tagName == null && memberName == null) { return null; }
-            return Component.empty().append(tagName == null ? Component.literal(tagId) : tagName).append(" (")
-                    .append(memberName == null ? Component.literal(memberId) : memberName).append(")");
+            return MinecraftText.empty().append(tagName == null ? MinecraftText.literal(tagId) : tagName).append(" (")
+                    .append(memberName == null ? MinecraftText.literal(memberId) : memberName).append(")");
         }
         boolean tag = raw.startsWith("#");
         Component name = nameOnly(kind, registry, raw);
@@ -120,7 +142,7 @@ public final class IdentifierNames {
         if (!tag) {
             String id = ClientPlatform.identifierId(raw);
             String key = id == null || registry == null ? null : CommandLanguage.PREFIX + "registry." + registry + "." + id + ".name";
-            if (key != null && CommandLanguage.present(key) != null) { name = Component.translatable(key); }
+            if (key != null && CommandLanguage.present(key) != null) { name = MinecraftText.translatable(key); }
         }
         if (!tag && name == null) {
             String key = ClientPlatform.identifierKey(kind, raw);
@@ -133,7 +155,7 @@ public final class IdentifierNames {
             if (translation != null) {
                 String indirect = CommandLanguage.present(translation);
                 name = kind.equals("poi") && indirect != null && CommandLanguage.present(indirect) != null
-                        ? Component.translatable(indirect) : Component.translatable(translation);
+                        ? MinecraftText.translatable(indirect) : MinecraftText.translatable(translation);
             } else {
                 name = structureVariant(kind, key);
             }
@@ -165,8 +187,8 @@ public final class IdentifierNames {
             if (variant.equals("nether")) { variantName = translationKey("dimension.minecraft.nether"); }
             if (variant.equals("mountain")) { variantName = translationKey("biomes.minecraft.mountains"); }
             if (baseName != null && variantName != null) {
-                return Component.translatable("command_translation.identifier.variant",
-                        Component.translatable(baseName), Component.translatable(variantName));
+                return MinecraftText.translatable("command_translation.identifier.variant",
+                        MinecraftText.translatable(baseName), MinecraftText.translatable(variantName));
             }
         }
         return null;
@@ -182,19 +204,20 @@ public final class IdentifierNames {
         ClientConfig settings = ClientConfig.current();
         if (!settings.enabled || !settings.identifierTranslation) { return message; }
         MutableComponent result;
-        if (message.getContents() instanceof TranslatableContents contents) {
-            Object[] args = contents.getArgs().clone();
-            String kind = FEEDBACK.get(contents.getKey());
+        TranslationContent contents = MinecraftText.translation(message);
+        if (contents != null) {
+            Object[] args = contents.args().clone();
+            String kind = FEEDBACK.get(contents.key());
             for (int i = 0; i < args.length; i++) {
                 if (i == 0 && kind != null && args[i] instanceof String id) {
                     Component name = display(kind, id);
                     if (name != null) { args[i] = name.getString().endsWith("(" + id + ")") ? name
-                            : Component.empty().append(name).append("(" + id + ")"); }
+                            : MinecraftText.empty().append(name).append("(" + id + ")"); }
                 } else if (args[i] instanceof Component component) {
                     args[i] = feedback(component);
                 }
             }
-            result = Component.translatableWithFallback(contents.getKey(), contents.getFallback(), args).setStyle(message.getStyle());
+            result = MinecraftText.rebuild(contents, args).setStyle(message.getStyle());
         } else {
             result = message.copy();
             result.getSiblings().clear();

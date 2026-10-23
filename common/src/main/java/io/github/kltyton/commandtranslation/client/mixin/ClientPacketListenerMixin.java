@@ -1,8 +1,7 @@
 package io.github.kltyton.commandtranslation.client.mixin;
 
-import com.llamalad7.mixinextras.injector.wrapmethod.WrapMethod;
-import com.llamalad7.mixinextras.injector.wrapoperation.Operation;
 import io.github.kltyton.commandtranslation.client.command.CommandSendQueue;
+import io.github.kltyton.commandtranslation.client.command.CommandQueueOwner;
 import net.minecraft.client.multiplayer.ClientPacketListener;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Unique;
@@ -10,15 +9,12 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-/** Canonicalizes before vanilla permission checks, argument signing and packet creation. */
+/** Owns outgoing order and invalidates localized names after server tags change. */
 @Mixin(ClientPacketListener.class)
-public abstract class ClientPacketListenerMixin {
+public abstract class ClientPacketListenerMixin implements CommandQueueOwner {
     @Unique private final CommandSendQueue commandTranslation$commands = new CommandSendQueue();
 
-    @WrapMethod(method = "sendCommand")
-    private void commandTranslation$send(String command, Operation<Void> original) {
-        commandTranslation$commands.send((ClientPacketListener) (Object) this, command, canonical -> original.call(canonical));
-    }
+    @Override public CommandSendQueue commandTranslation$commandQueue() { return commandTranslation$commands; }
 
     @Inject(method = "handleUpdateTags", at = @At("RETURN"))
     private void commandTranslation$tags(CallbackInfo callback) {

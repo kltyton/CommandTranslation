@@ -1,5 +1,7 @@
 package io.github.kltyton.commandtranslation.client.command.help;
 
+import io.github.kltyton.commandtranslation.client.i18n.MinecraftText;
+import io.github.kltyton.commandtranslation.client.i18n.TranslationContent;
 import io.github.kltyton.commandtranslation.client.ClientPlatform;
 import io.github.kltyton.commandtranslation.client.config.ClientConfig;
 import io.github.kltyton.commandtranslation.client.screen.tooltip.ResourceTooltip;
@@ -8,7 +10,6 @@ import io.github.kltyton.commandtranslation.client.i18n.IdentifierNames;
 import io.github.kltyton.commandtranslation.client.i18n.NamespaceNames;
 import java.util.List;
 import net.minecraft.network.chat.Component;
-import net.minecraft.network.chat.contents.TranslatableContents;
 
 /** Shares value descriptions between native command arguments and nested structured arguments. */
 public final class ValueDocumentation {
@@ -57,7 +58,7 @@ public final class ValueDocumentation {
                 key = name ? DocumentationKeys.presentName(typed) : DocumentationKeys.present(typed);
             }
         }
-        return key == null ? null : Component.translatable(key);
+        return key == null ? null : MinecraftText.translatable(key);
     }
 
     private static String valueKey(String family, List<String> path, String suffix, boolean name) {
@@ -67,9 +68,10 @@ public final class ValueDocumentation {
 
     public static boolean specific(Component component) {
         if (component == null) { return false; }
-        if (component.getContents() instanceof TranslatableContents contents) {
-            if (contents.getKey().contains(".value.") && !contents.getKey().equals(CommandLanguage.PREFIX + "help.value.context")) { return true; }
-            for (Object argument : contents.getArgs()) {
+        TranslationContent contents = MinecraftText.translation(component);
+        if (contents != null) {
+            if (contents.key().contains(".value.") && !contents.key().equals(CommandLanguage.PREFIX + "help.value.context")) { return true; }
+            for (Object argument : contents.args()) {
                 if (argument instanceof Component nested && specific(nested)) { return true; }
             }
         }

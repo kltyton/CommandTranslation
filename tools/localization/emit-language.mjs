@@ -105,7 +105,7 @@ for (const id of Object.keys(componentCatalog.components)) {
 const locales = [...requiredLocales, ...identifierLocales.filter(locale => !requiredLocales.includes(locale) && !['zh_tw', 'zh_hk'].includes(locale))];
 const helpKeys = new Set([...Object.keys(wiki.entries.en_us), ...Object.keys(overrides.en_us ?? {}),
   ...Object.keys(parameterHelp.en_us ?? {})].filter(key => key.startsWith(prefix + 'help.')
-    && (['range', 'value', 'registry', 'component', 'selector', 'block_state', 'nbt', 'text', 'particle', 'dialog', 'coordinate', 'argument', 'syntax'].some(family => key.startsWith(prefix + 'help.' + family + '.'))
+    && (['range', 'value', 'registry', 'component', 'selector', 'block_state', 'nbt', 'text', 'particle', 'dialog', 'coordinate', 'argument', 'syntax', 'context_float_provider', 'context_int_provider'].some(family => key.startsWith(prefix + 'help.' + family + '.'))
       || Object.hasOwn(commands.commands, key.split('.')[3]))));
 const snapshots = new Map();
 

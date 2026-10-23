@@ -1,0 +1,38 @@
+def commonCompile = project(':common').tasks.named('compileJava', JavaCompile)
+def mappings = tasks.named('createMcpToSrg')
+def generatedMappings = project(':common').layout.buildDirectory.file('mixin/common.tsrg')
+def refmap = commonCompile.flatMap { it.destinationDirectory.file("${mod_id}.refmap.json") }
+commonCompile.configure {
+    dependsOn mappings
+    outputs.file(generatedMappings)
+    doFirst {
+        generatedMappings.get().asFile.parentFile.mkdirs()
+        options.compilerArgs.addAll([
+                "-AreobfTsrgFile=${mappings.get().outputs.files.singleFile.absolutePath}".toString(),
+                "-AoutTsrgFile=${generatedMappings.get().asFile.absolutePath}".toString(),
+                "-AoutRefMapFile=${refmap.get().asFile.absolutePath}".toString(),
+                '-AmappingTypes=tsrg', '-AdefaultObfuscationEnv=searge'])
+    }
+}
+tasks.configureEach {
+    if (name in ['reobfJar', 'reobfJarJar']) {
+        dependsOn commonCompile
+        extraMappings.from(generatedMappings)
+    }
+}
+minecraft.runs.configureEach {
+    args '--mixin.config', "${mod_id}.mixins.json", '--mixin.config', "${mod_id}.nbt.mixins.json"
+}
+afterEvaluate {
+    def reverseMappings = tasks.named('createSrgToMcp')
+    minecraft.runs.configureEach {
+        property 'mixin.env.remapRefMap', 'true'
+        property 'mixin.env.refMapRemappingFile', reverseMappings.get().outputs.files.singleFile.absolutePath
+    }
+    tasks.configureEach {
+        if (name.startsWith('run') || name.startsWith('prepareRun')) { dependsOn reverseMappings }
+    }
+}
+tasks.named('jar', Jar) {
+    manifest.attributes('MixinConfigs': "${mod_id}.mixins.json,${mod_id}.nbt.mixins.json")
+}

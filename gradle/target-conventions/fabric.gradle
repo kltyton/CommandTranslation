@@ -1,6 +1,13 @@
 apply from: file('../../gradle/target-conventions/base.gradle')
 
-repositories { maven { url = 'https://maven.terraformersmc.com/releases/' } }
+repositories {
+    maven { url = 'https://maven.terraformersmc.com/releases/' }
+    maven {
+        name = 'Nucleoid'
+        url = 'https://maven.nucleoid.xyz/'
+        content { includeGroup 'eu.pb4' }
+    }
+}
 
 dependencies {
     minecraft "com.mojang:minecraft:${minecraft_version}"

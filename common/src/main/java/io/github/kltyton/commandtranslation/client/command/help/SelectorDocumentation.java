@@ -1,5 +1,6 @@
 package io.github.kltyton.commandtranslation.client.command.help;
 
+import io.github.kltyton.commandtranslation.client.i18n.MinecraftText;
 import io.github.kltyton.commandtranslation.client.i18n.CommandLanguage;
 import net.minecraft.network.chat.Component;
 
@@ -19,6 +20,6 @@ public final class SelectorDocumentation {
         };
         if (suffix == null) { return null; }
         String key = "argument.entity.selector." + suffix;
-        return CommandLanguage.present(key) == null ? null : Component.translatable(key);
+        return CommandLanguage.present(key) == null ? null : MinecraftText.translatable(key);
     }
 }

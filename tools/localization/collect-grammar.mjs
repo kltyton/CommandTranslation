@@ -6,7 +6,16 @@ import { execFileSync } from 'node:child_process';
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '../..');
 const cache = process.argv[2];
 if (!cache) throw new Error('Usage: node tools/localization/collect-grammar.mjs <source-cache-directory>');
-const versions = ['1.20.1', '1.21.1', '26.1.2', '26.2'];
+const dependencies = JSON.parse(await readFile(resolve(root, 'gradle/dependencies/nbt-autocomplete.json'), 'utf8'));
+const versions = [...new Set(Object.keys(dependencies.targets).map(target => target.slice(target.indexOf('-') + 1)))].sort((left, right) => {
+  const a = left.split('.').map(Number);
+  const b = right.split('.').map(Number);
+  for (let i = 0; i < Math.max(a.length, b.length); i++) {
+    const difference = (a[i] ?? 0) - (b[i] ?? 0);
+    if (difference) return difference;
+  }
+  return 0;
+});
 const repository = 'https://github.com/misode/mcmeta';
 const sources = [];
 let references;
@@ -55,6 +64,11 @@ for (const version of versions) {
     await writeFile(treeFile, JSON.stringify(tree, null, 2) + '\n', 'utf8');
   }
   sources.push(metadata);
+  const destination = resolve(root, 'common/src/compat/minecraft', version,
+    'resources/assets/command_translation/documentation');
+  await mkdir(destination, { recursive: true });
+  await writeFile(resolve(destination, 'vanilla-commands.json'),
+    JSON.stringify(Object.keys(tree.children).sort(), null, 2) + '\n', 'utf8');
   console.log(version + ': ' + Object.keys(tree.children).length + ' command roots');
 }
 

@@ -24,27 +24,13 @@ public final class TagNames {
         return legacy == null ? null : NamespaceNames.identifier("#" + id, legacy);
     }
 
-    static String registry(String kind) {
-        if (kind == null) { return null; }
-        return "minecraft:" + switch (kind) {
-            case "biome" -> "worldgen/biome";
-            case "structure" -> "worldgen/structure";
-            case "configured_feature" -> "worldgen/configured_feature";
-            case "poi" -> "point_of_interest_type";
-            case "entity" -> "entity_type";
-            case "effect" -> "mob_effect";
-            case "painting" -> "painting_variant";
-            default -> kind;
-        };
-    }
-
     private static Component translated(String key) {
         if (key == null) { return null; }
         String own = CommandLanguage.PREFIX + key;
         String value = CommandLanguage.present(own);
         if (value != null) {
-            return Component.translatable(CommandLanguage.present(value) == null ? own : value);
+            return MinecraftText.translatable(CommandLanguage.present(value) == null ? own : value);
         }
-        return CommandLanguage.present(key) == null ? null : Component.translatable(key);
+        return CommandLanguage.present(key) == null ? null : MinecraftText.translatable(key);
     }
 }

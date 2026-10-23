@@ -5,6 +5,9 @@ license = "${mod_license}"
 [[mixins]]
 config = "command_translation.mixins.json"
 
+[[mixins]]
+config = "command_translation.nbt.mixins.json"
+
 [[mods]]
 modId = "${mod_id}"
 version = "${mod_version}"
@@ -27,8 +30,8 @@ ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.${mod_id}]]
-modId = "nbtac"
+modId = "${nbtac_mod_id}"
 type = "required"
-versionRange = "[${nbtac_version},2.2)"
+versionRange = "[${nbtac_version},${nbtac_upper_version})"
 ordering = "AFTER"
 side = "CLIENT"

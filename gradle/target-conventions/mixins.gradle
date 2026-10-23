@@ -1,0 +1,43 @@
+import groovy.json.JsonOutput
+import groovy.json.JsonSlurper
+
+def api = rootProject.property('nbtac_api').toString()
+def loader = rootProject.property('loader').toString()
+def components = rootProject.property('nbtac_components') as boolean
+def mixins = ['NbtAutocompleteHintsMixin', 'NbtSuggestionRegistryMixin', 'NbtRegistryTypeMixin']
+if (api == '2' || (api == '1.3' && loader != 'fabric')) { mixins.add('NbtSuggestionStateAccessor') }
+if (components) { mixins.add('NbtComponentRegistryMixin') }
+def config = [required: true, minVersion: '0.8',
+              package: "${rootProject.findProperty('mod_java_package') ?: rootProject.property('mod_group_id')}.client.mixin",
+              compatibilityLevel: "JAVA_${rootProject.property('java_version')}",
+              client: mixins, injectors: [defaultRequire: 1]]
+def minecraft = rootProject.property('minecraft_version').toString()
+def minecraftConfiguration = new JsonSlurper().parse(templeMinecraftMixinSource, 'UTF-8')
+minecraftConfiguration.compatibilityLevel = config.compatibilityLevel
+if (minecraft.tokenize('.')[0] == '1' && (minecraft.tokenize('.')[1] as int) < 18) {
+    minecraftConfiguration.client.add('ClientRegistryAccessAccessor')
+}
+if (minecraft.tokenize('.')[0] == '1' && (minecraft.tokenize('.')[1] as int) < 20) {
+    minecraftConfiguration.client.add('NativeTooltipMixin')
+    if (minecraft == '1.16.5') { minecraftConfiguration.client.add('TooltipLanguageMixin') }
+}
+if (loader == 'forge') { minecraftConfiguration.refmap = "${rootProject.property('mod_id')}.refmap.json" }
+if (loader == 'forge' && (minecraft.tokenize('.')[1] as int) < 18) {
+    minecraftConfiguration.client.addAll(['ClientCommandBootstrapMixin', 'LegacyClientCommandMixin'])
+    minecraftConfiguration.plugin = "${rootProject.findProperty('mod_java_package') ?: rootProject.property('mod_group_id')}.mixin.LegacyMixinBootstrap"
+}
+def directory = layout.buildDirectory.dir('generated/resources/mixins')
+def configurations = [("${rootProject.property('mod_id')}.nbt.mixins.json"): config,
+                      ("${rootProject.property('mod_id')}.mixins.json"): minecraftConfiguration]
+tasks.register('generateMixinConfigurations') {
+    inputs.property('configurations', JsonOutput.toJson(configurations))
+    outputs.dir(directory)
+    doLast {
+        configurations.each { name, configuration ->
+            def target = directory.get().file(name).asFile
+            target.parentFile.mkdirs()
+            target.setText(JsonOutput.prettyPrint(JsonOutput.toJson(configuration)) + '\n', 'UTF-8')
+        }
+    }
+}
+ext.templeMixinResources = directory.get().asFile

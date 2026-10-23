@@ -99,7 +99,7 @@ public final class NativeSuggestionQuery {
             CommandNode<S> parent = new RootCommandNode<>() {
                 @Override public Collection<CommandNode<S>> getChildren() { return children; }
             };
-            return new SuggestionContext<>(parent, context.startPos);
+            return SuggestionContexts.withParent(context, parent);
         }
     }
 

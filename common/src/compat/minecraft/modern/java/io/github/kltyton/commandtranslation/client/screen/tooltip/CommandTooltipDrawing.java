@@ -1,11 +1,9 @@
 package io.github.kltyton.commandtranslation.client.screen.tooltip;
 
-import java.util.List;
 import net.minecraft.client.gui.Font;
 import net.minecraft.client.gui.GuiGraphicsExtractor;
 import net.minecraft.client.gui.screens.inventory.tooltip.ClientTooltipComponent;
 import net.minecraft.resources.Identifier;
-import org.joml.Vector2i;
 
 public final class CommandTooltipDrawing {
     private CommandTooltipDrawing() {}
@@ -13,8 +11,7 @@ public final class CommandTooltipDrawing {
     public static void render(GuiGraphicsExtractor graphics, Font font, CommandTooltip.Document document, int mouseX, int mouseY, Identifier style) {
         for (TooltipPanels.Placement placement : TooltipPanels.arrange(document, font, graphics.guiWidth(), graphics.guiHeight(), mouseX, mouseY)) {
             var content = new Content(placement.panel(), placement.width());
-            graphics.tooltip(font, List.of(content), placement.x(), placement.y(),
-                    (screenWidth, screenHeight, x, y, width, height) -> new Vector2i(x, y), style);
+            NativeTooltipExtraction.draw(graphics, font, content, placement.x(), placement.y(), style);
         }
     }
 

@@ -1,5 +1,6 @@
 package io.github.kltyton.commandtranslation.client.command.candidate;
 
+import io.github.kltyton.commandtranslation.client.i18n.MinecraftText;
 import com.mojang.brigadier.Message;
 import com.mojang.brigadier.StringReader;
 import com.mojang.brigadier.context.CommandContext;
@@ -41,7 +42,7 @@ public record CommandCandidate(NativeSuggestionQuery.Source<?> source, StringRan
     public Message tooltip(Message nativeTooltip) {
         if (!ClientConfig.current().suggestionTooltips) { return nativeTooltip; }
         if (nativeTooltip == null) { return description; }
-        Component nativeText = nativeTooltip instanceof Component component ? component : Component.literal(nativeTooltip.getString());
+        Component nativeText = nativeTooltip instanceof Component component ? component : MinecraftText.literal(nativeTooltip.getString());
         if (!NamespaceNames.isQualified(nativeText)) { nativeText = NamespaceNames.qualify(namespace, nativeText); }
         if (description != null) {
             var existing = description.getString().lines().map(this::withoutDisambiguation).collect(java.util.stream.Collectors.toSet());
@@ -66,12 +67,12 @@ public record CommandCandidate(NativeSuggestionQuery.Source<?> source, StringRan
 
     private static List<MutableComponent> tooltipLines(Component component) {
         List<MutableComponent> lines = new ArrayList<>();
-        lines.add(Component.empty());
+        lines.add(MinecraftText.empty());
         component.visit((style, text) -> {
             String[] parts = text.split("\n", -1);
             for (int i = 0; i < parts.length; i++) {
-                if (i > 0) { lines.add(Component.empty()); }
-                lines.get(lines.size() - 1).append(Component.literal(parts[i]).withStyle(style));
+                if (i > 0) { lines.add(MinecraftText.empty()); }
+                lines.get(lines.size() - 1).append(MinecraftText.literal(parts[i]).withStyle(style));
             }
             return Optional.empty();
         }, Style.EMPTY);
@@ -114,6 +115,7 @@ public record CommandCandidate(NativeSuggestionQuery.Source<?> source, StringRan
         Component identity = ArgumentHover.identity(subject, argument, pointer, kind);
         String registry = source.metadata().registry();
         if (registry == null && located == null) { registry = ArgumentDocumentation.registry(source.node()); }
+        if (registry == null && located == null && kind != null) { registry = IdentifierNames.registry(kind); }
         if (registry == null && located == null) {
             registry = switch (parser == null ? "" : parser) {
                 case "minecraft:item_stack", "minecraft:item_predicate" -> "minecraft:item";
@@ -234,12 +236,17 @@ public record CommandCandidate(NativeSuggestionQuery.Source<?> source, StringRan
 
     private static String kind(List<? extends CommandNode<?>> path, CommandNode<?> node) {
         if (path.isEmpty()) { return null; }
+        if (node instanceof LiteralCommandNode<?>) {
+            return IdentifierNames.literalKind(String.join(".", path.stream().map(CommandNode::getName).toList()), node.getName());
+        }
         String root = CommandHelp.canonicalRoot(path.get(0).getName());
         String kind = switch (root) {
             case "locate" -> path.size() > 1 ? path.get(1).getName() : null;
             case "place" -> path.size() > 1 && path.get(1).getName().equals("feature") ? "configured_feature"
                     : path.size() > 1 && path.get(1).getName().equals("structure") ? "structure" : null;
-            case "fillbiome" -> "biome";
+            case "fillbiome", "locatebiome" -> "biome";
+            case "placefeature" -> "configured_feature";
+            case "posteffect" -> "post_effect";
             case "effect" -> "effect";
             case "enchant" -> "enchantment";
             default -> null;

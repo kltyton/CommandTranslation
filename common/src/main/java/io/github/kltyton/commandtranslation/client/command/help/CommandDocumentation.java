@@ -1,7 +1,9 @@
 package io.github.kltyton.commandtranslation.client.command.help;
 
+import io.github.kltyton.commandtranslation.client.i18n.MinecraftText;
 import com.mojang.brigadier.tree.CommandNode;
 import io.github.kltyton.commandtranslation.client.i18n.CommandLanguage;
+import io.github.kltyton.commandtranslation.client.i18n.StructureIdentifiers;
 import io.github.kltyton.commandtranslation.client.ClientPlatform;
 import io.github.kltyton.commandtranslation.client.command.CommandHelp;
 import java.util.ArrayList;
@@ -30,8 +32,11 @@ public final class CommandDocumentation {
         String path = String.join(".", names);
         String parameterKey = nodes.size() == 1 ? present("command." + root)
                 : first("argument." + path, "argument." + root + "." + node.getName());
+        if (nodes.size() == 1 && root.equals("locate") && StructureIdentifiers.STRUCTURE_ONLY_LOCATE) {
+            parameterKey = first("command.locate.structure_only", "command.locate");
+        }
         if (parameterKey == null) { return null; }
-        var result = Component.translatable(parameterKey);
+        var result = MinecraftText.translatable(parameterKey);
         Component bounds = ArgumentDocumentation.bounds(node);
         return bounds == null ? result : result.append("\n").append(bounds.copy().withStyle(ChatFormatting.GRAY));
     }
@@ -51,7 +56,7 @@ public final class CommandDocumentation {
             String identifier = ClientPlatform.identifierId(subject.value());
             if (identifier != null) { valueKey = first("value." + path + "." + identifier, "value." + root + "." + node.getName() + "." + identifier); }
         }
-        if (valueKey != null) { return Component.translatable(valueKey); }
+        if (valueKey != null) { return MinecraftText.translatable(valueKey); }
         String binding = present("argument." + path + ".registry");
         String registry = binding == null ? ArgumentDocumentation.registry(node) : CommandLanguage.present(binding);
         return ValueDocumentation.registry(registry, subject.value(), false, true);

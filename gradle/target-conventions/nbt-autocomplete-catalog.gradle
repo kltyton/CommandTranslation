@@ -1,0 +1,19 @@
+import groovy.json.JsonSlurper
+
+def catalogFile = file('../../gradle/dependencies/nbt-autocomplete.json')
+def catalog = new JsonSlurper().parse(catalogFile, 'UTF-8')
+def target = "${loader}-${minecraft_version}"
+def artifactId = catalog.targets[target]
+def artifact = catalog.artifacts[artifactId]
+if (artifact == null || !artifact.minecraft.contains(minecraft_version.toString()) || !artifact.loaders.contains(loader.toString())) {
+    throw new GradleException("No published NBT Autocomplete artifact for ${target}")
+}
+ext.nbtacArtifact = artifact + [id: artifactId]
+ext.nbtac_version = artifact.modVersion
+ext.nbtac_mod_id = artifact.modId
+ext.nbtac_api = artifact.modVersion.startsWith('2.') ? '2' : artifact.modVersion.tokenize('.').take(2).join('.')
+ext.nbtac_upper_version = nbtac_api == '2' ? '2.2' : nbtac_api == '1.3' ? '1.4' : nbtac_api == '1.0' ? '1.1' : '1.3'
+def minecraftParts = minecraft_version.toString().tokenize('.').collect { it as int }
+def componentGame = minecraftParts[0] > 1 || minecraftParts[1] > 20 ||
+        (minecraftParts[1] == 20 && minecraftParts.size() > 2 && minecraftParts[2] >= 5)
+ext.nbtac_components = nbtac_api == '2' || (nbtac_api == '1.3' && componentGame)

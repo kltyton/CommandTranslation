@@ -4,6 +4,7 @@ import com.mojang.brigadier.CommandDispatcher;
 import com.mojang.brigadier.ParseResults;
 import com.mojang.brigadier.StringReader;
 import com.mojang.brigadier.suggestion.Suggestions;
+import io.github.kltyton.commandtranslation.client.ClientPlatform;
 import io.github.kltyton.commandtranslation.client.command.CommandClient;
 import io.github.kltyton.commandtranslation.client.command.CommandText;
 import io.github.kltyton.commandtranslation.client.command.suggestion.QueryProjection;
@@ -17,7 +18,6 @@ import java.util.function.BiFunction;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import net.minecraft.client.Minecraft;
-import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.locale.Language;
 
 /** Resolves qualified localized tokens only against the provider for that exact command position. */
@@ -136,14 +136,7 @@ public final class LocalizedInput {
         if (qualifiers == null || language != Language.getInstance() || connection != current) {
             language = Language.getInstance();
             connection = current;
-            java.util.Set<String> namespaces = new java.util.LinkedHashSet<>();
-            namespaces.add("minecraft");
-            BuiltInRegistries.ITEM.keySet().forEach(id -> namespaces.add(id.getNamespace()));
-            BuiltInRegistries.BLOCK.keySet().forEach(id -> namespaces.add(id.getNamespace()));
-            BuiltInRegistries.ENTITY_TYPE.keySet().forEach(id -> namespaces.add(id.getNamespace()));
-            if (current != null) {
-                current.registryAccess().registries().forEach(entry -> entry.value().keySet().forEach(id -> namespaces.add(id.getNamespace())));
-            }
+            java.util.Set<String> namespaces = ClientPlatform.namespaces();
             String translated = namespaces.stream().map(id -> NamespaceNames.name(id).getString()).distinct()
                     .sorted(java.util.Comparator.comparingInt(String::length).reversed()).map(Pattern::quote)
                     .collect(java.util.stream.Collectors.joining("|"));

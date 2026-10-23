@@ -1,5 +1,6 @@
 package io.github.kltyton.commandtranslation.client.screen.tooltip;
 
+import io.github.kltyton.commandtranslation.client.i18n.MinecraftText;
 import io.github.kltyton.commandtranslation.client.config.ClientConfig;
 import java.util.ArrayList;
 import java.util.List;
@@ -121,12 +122,12 @@ public final class TooltipPanels {
                 continue;
             }
             String bare = raw.replace("/", "").replace("<", "").replace(">", "");
-            Component annotation = token.annotation().getString().equalsIgnoreCase(bare) ? Component.empty() : token.annotation();
-            result.add(new CommandTooltip.Token(Component.literal(prefix.toString()).append(token.original()), annotation));
+            Component annotation = token.annotation().getString().equalsIgnoreCase(bare) ? MinecraftText.empty() : token.annotation();
+            result.add(new CommandTooltip.Token(MinecraftText.literal(prefix.toString()).append(token.original()), annotation));
             prefix.setLength(0);
         }
         if (!prefix.isEmpty()) {
-            result.add(new CommandTooltip.Token(Component.literal(prefix.toString()), Component.empty()));
+            result.add(new CommandTooltip.Token(MinecraftText.literal(prefix.toString()), MinecraftText.empty()));
         }
         return result;
     }
