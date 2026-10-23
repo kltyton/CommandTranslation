@@ -20,9 +20,11 @@ java {
     toolchain.languageVersion = JavaLanguageVersion.of((findProperty('compiler_java_version') ?: java_version) as int)
     withSourcesJar()
 }
-tasks.withType(JavaCompile).configureEach {
-    options.encoding = 'UTF-8'
-    options.release = java_version as int
+['compileJava', 'compileTestJava'].each { taskName ->
+    tasks.named(taskName, JavaCompile) {
+        options.encoding = 'UTF-8'
+        options.release = java_version as int
+    }
 }
 if (((findProperty('compiler_java_version') ?: java_version) as int) != runtimeJavaVersion) {
     afterEvaluate {

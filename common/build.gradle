@@ -126,7 +126,8 @@ if (loader == 'fabric') {
     loaderProfiles.add("client_commands/${preChatListener ? 'v1' : 'v2'}")
 } else if (loader == 'forge') {
     loaderProfiles.add("client_commands/${versionParts[1] < 18 ? 'classic' : 'event'}")
-    loaderProfiles.add("configuration/${minecraft == '1.16.5' ? 'extension' : minecraft == '1.17.1' ? 'fml_gui' : minecraft == '1.18.2' ? 'client_gui' : 'screen'}")
+    def screenFactory = minecraft in ['1.19.3', '1.20', '1.20.2', '1.20.3'] ? 'screen_bifunction' : 'screen'
+    loaderProfiles.add("configuration/${minecraft == '1.16.5' ? 'extension' : minecraft == '1.17.1' ? 'fml_gui' : minecraft == '1.18.2' ? 'client_gui' : screenFactory}")
     if (versionParts[1] < 18) { loaderProfiles.add('mixin_bootstrap/legacy') }
 }
 layers.addAll(loaderProfiles.collect { new File(commonRoot, "src/compat/${loader}/${it}") })

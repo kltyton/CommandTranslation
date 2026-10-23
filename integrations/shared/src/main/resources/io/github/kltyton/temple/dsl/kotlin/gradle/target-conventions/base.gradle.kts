@@ -19,9 +19,11 @@ extensions.configure<JavaPluginExtension> {
     toolchain.languageVersion.set(JavaLanguageVersion.of(compilerJavaVersion))
     withSourcesJar()
 }
-tasks.withType<JavaCompile>().configureEach {
-    options.encoding = "UTF-8"
-    options.release.set(javaVersion)
+listOf("compileJava", "compileTestJava").forEach { taskName ->
+    tasks.named<JavaCompile>(taskName) {
+        options.encoding = "UTF-8"
+        options.release.set(javaVersion)
+    }
 }
 if (compilerJavaVersion != runtimeJavaVersion) {
     afterEvaluate {
