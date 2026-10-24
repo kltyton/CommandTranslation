@@ -7,6 +7,10 @@ on:
         description: Comma-separated target IDs from v0.3.0
         required: true
         type: string
+      version_ids:
+        description: JSON object mapping CurseForge version names to numeric IDs
+        required: true
+        type: string
 
 permissions:
   contents: read
@@ -26,6 +30,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CURSEFORGE_TOKEN: ${{ secrets.CURSEFORGE_TOKEN }}
           TARGET_IDS: ${{ inputs.targets }}
+          VERSION_IDS: ${{ inputs.version_ids }}
         run: |
           $ErrorActionPreference = 'Stop'
           $PSNativeCommandUseErrorActionPreference = $true
@@ -35,6 +40,7 @@ jobs:
           if ($env:GITHUB_REPOSITORY -ne 'kltyton/CommandTranslation') { throw 'Unexpected repository.' }
           if ($env:GITHUB_RUN_ATTEMPT -ne '1') { throw 'Resolve the previous receipt before submitting a new run.' }
           if ([string]::IsNullOrWhiteSpace($env:CURSEFORGE_TOKEN)) { throw 'Missing upload token.' }
+          $versionIds = $env:VERSION_IDS | ConvertFrom-Json -AsHashtable
           $targets = @($env:TARGET_IDS.Split(',') | ForEach-Object { $_.Trim() })
           if ($targets.Count -eq 0 -or @($targets | Sort-Object -Unique).Count -ne $targets.Count) { throw 'Provide unique target IDs.' }
           foreach ($target in $targets) {
@@ -45,7 +51,7 @@ jobs:
           [IO.Directory]::CreateDirectory($work) | Out-Null
           [IO.Directory]::CreateDirectory($receiptDirectory) | Out-Null
           $receipt = Join-Path $receiptDirectory 'v0.3.0.json'
-          $state = [ordered]@{projectId=1753629;version='0.3.0';runId=$env:GITHUB_RUN_ID;files=@();pending=$null;error=$null}
+          $state = [ordered]@{projectId=1753629;version='0.3.0';runId=$env:GITHUB_RUN_ID;files=@();attempts=@();pending=$null;error=$null}
           function Save-Receipt { $state | ConvertTo-Json -Depth 10 | Set-Content -LiteralPath $receipt -Encoding utf8 }
           Save-Receipt
           $handler = [Net.Http.HttpClientHandler]::new()
@@ -73,12 +79,16 @@ jobs:
               if ("$($properties.loader)-$($properties.minecraft_version)" -ne $target) { throw 'Target metadata identity changed.' }
               $loader = switch ($properties.loader) { 'fabric' {'Fabric'} 'forge' {'Forge'} 'neoforge' {'NeoForge'} default {throw 'Unknown loader.'} }
               $runtime = if ($properties.runtime_java_version) { $properties.runtime_java_version } else { $properties.java_version }
+              $gameVersions = @($properties.minecraft_version,$loader,'Client',"Java $runtime") | ForEach-Object {
+                if (!$versionIds.ContainsKey($_) -or [int]$versionIds[$_] -le 0) { throw "Missing CurseForge version ID: $_" }
+                [int]$versionIds[$_]
+              }
               $relations = @(@{projectID='813557';slug='nbt-autocomplete';type='embeddedLibrary'})
               if ($properties.loader -eq 'fabric') { $relations += @{projectID='306612';slug='fabric-api';type='requiredDependency'} }
               $metadata = @{
                 displayName="Command Translation 0.3.0 - $loader $($properties.minecraft_version)"
                 changelog=$release.body;changelogType='markdown';releaseType='release';isMarkedForManualRelease=$false
-                gameVersionNames=@($properties.minecraft_version,$loader,'Client',"Java $runtime")
+                gameVersions=@($gameVersions)
                 relations=@{projects=$relations}
               }
               $state.pending = @{target=$target;filename=$filename;metadata=$metadata;started=[DateTimeOffset]::UtcNow.ToString('o')}
@@ -93,7 +103,9 @@ jobs:
                 try {
                   $status = [int]$response.StatusCode
                   $responseText = $response.Content.ReadAsStringAsync().GetAwaiter().GetResult()
-                  $payload = if ($response.Content.Headers.ContentType.MediaType -eq 'application/json') { $responseText | ConvertFrom-Json } else { $null }
+                  $payload = if ($response.Content.Headers.ContentType.MediaType -match 'json') { $responseText | ConvertFrom-Json } else { $null }
+                  $apiMessage = if ($payload.errorMessage) { $payload.errorMessage.ToString().Replace($env:CURSEFORGE_TOKEN,'[redacted]') } else { '' }
+                  $state.attempts += @{target=$target;status=$status;errorCode=$payload.errorCode;errorMessage=$apiMessage;completed=[DateTimeOffset]::UtcNow.ToString('o')}
                   if ($status -ge 200 -and $status -lt 300 -and $payload.id -gt 0) {
                     $state.files += @{target=$target;id=[long]$payload.id;filename=$filename;status='SUBMITTED';metadata=$metadata}
                     $state.pending = $null
@@ -102,7 +114,7 @@ jobs:
                   } else {
                     if ($status -ge 400 -and $status -lt 500) { $state.pending = $null }
                     $mitigated = if ($response.Headers.Contains('cf-mitigated')) { $response.Headers.GetValues('cf-mitigated') -join ',' } else { '' }
-                    throw "Upload rejected for $target : HTTP $status; mitigation=$mitigated"
+                    throw "Upload rejected for $target : HTTP $status; code=$($payload.errorCode); message=$apiMessage; mitigation=$mitigated"
                   }
                 } finally { $response.Dispose() }
               } finally { $body.Dispose() }
