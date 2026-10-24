@@ -1,0 +1,61 @@
+apply from: file('../../gradle/target-conventions/base.gradle')
+
+def mixinExtrasCommon = 'io.github.llamalad7:mixinextras-common:0.4.1'
+configurations.create('legacyEmbedded') { canBeConsumed = false }
+
+dependencies {
+    minecraft "com.mojang:minecraft:${minecraft_version}"
+    mappings loom.officialMojangMappings()
+    forge "net.minecraftforge:forge:${minecraft_version}-${loader_version}"
+    implementation mixinExtrasCommon
+    legacyEmbedded mixinExtrasCommon
+}
+
+loom {
+    silentMojangMappingsLicense()
+    forge {
+        mixinConfigs "${mod_id}.mixins.json", "${mod_id}.nbt.mixins.json"
+    }
+    mixin {
+        useLegacyMixinAp = true
+        defaultRefmapName = "${mod_id}.refmap.json"
+    }
+    runs {
+        configureEach {
+            runDir 'run'
+            if (minecraft_version == '1.16.5') {
+                vmArgs '-XX:+IgnoreUnrecognizedVMOptions',
+                        '--add-exports=java.base/sun.security.util=ALL-UNNAMED',
+                        '--add-exports=jdk.naming.dns/com.sun.jndi.dns=java.naming',
+                        '--add-opens=java.base/java.util.jar=ALL-UNNAMED'
+            }
+        }
+        client { client() }
+        server { server() }
+        data {
+            data()
+            programArgs '--mod', mod_id, '--all', '--output', file('src/generated/resources').absolutePath
+            programArgs(*project.ext.templeDatagenExistingArgs)
+        }
+    }
+    mods {
+        "${mod_id}" {
+            sourceSet sourceSets.main
+            sourceSet project(':common').sourceSets.main
+        }
+    }
+}
+
+ext.templeProductionArchiveTask = 'remapJar'
+ext.templeProductionReobfuscationTask = 'remapJar'
+
+tasks.named('remapJar', project.ext.templeRemapJarTask) {
+    archiveClassifier.set('')
+    manifest.attributes('Implementation-Version': project.version.toString())
+}
+
+apply from: file('../../gradle/target-conventions/pack-metadata.gradle')
+apply from: file('../../gradle/target-conventions/publish.gradle')
+apply from: file('../../gradle/target-conventions/nbt-autocomplete.gradle')
+apply from: file('../../gradle/target-conventions/forge-loom-common-mixin.gradle')
+apply from: file('../../gradle/target-conventions/forge-embedded.gradle')

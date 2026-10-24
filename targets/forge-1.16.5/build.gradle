@@ -1,6 +1,10 @@
 plugins {
     id 'java-library'
-    id 'net.minecraftforge.gradle' version "${forgegradle_version}"
+    id 'dev.architectury.loom' version "${loom_version}"
     id 'me.modmuss50.mod-publish-plugin' version "${publish_plugin_version}"
 }
-apply from: file('../../gradle/target-conventions/forgegradle.gradle')
+ext.templeRemapJarTask = net.fabricmc.loom.task.RemapJarTask
+ext.templeMixinMappingService = net.fabricmc.loom.task.service.MixinAPMappingService
+ext.templeRemapperService = net.fabricmc.loom.task.service.TinyRemapperService
+ext.templeIntermediaryNamespaces = net.fabricmc.loom.build.IntermediaryNamespaces
+apply from: file('../../gradle/target-conventions/forge-loom.gradle')
