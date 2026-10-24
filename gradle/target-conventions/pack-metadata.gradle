@@ -8,6 +8,7 @@ def manualMetadata = ([file('src/main/resources'), file('src/generated/resources
         .collect { new File(it, 'pack.mcmeta') }
 def sdkResources = plugins.hasPlugin('net.neoforged.moddev.legacyforge') ?
         files(tasks.named('createMinecraftArtifacts').flatMap { it.resourcesArtifact }) :
+        plugins.hasPlugin('dev.architectury.loom') ? files(providers.provider { loom.minecraftProvider.minecraftClientJar }) :
         configurations.compileClasspath.incoming.artifactView {
     componentFilter { id -> id instanceof ModuleComponentIdentifier &&
             (id.group == 'net.minecraft' || id.group == 'net.minecraftforge' && id.module == 'forge') }
