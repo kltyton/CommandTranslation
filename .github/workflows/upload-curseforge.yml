@@ -1,0 +1,124 @@
+name: Upload existing release to CurseForge
+
+on:
+  workflow_dispatch:
+    inputs:
+      targets:
+        description: Comma-separated target IDs from v0.3.0
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: curseforge-1753629-v0.3.0
+  cancel-in-progress: false
+
+jobs:
+  upload:
+    runs-on: windows-latest
+    timeout-minutes: 45
+    steps:
+      - name: Upload selected existing JARs
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CURSEFORGE_TOKEN: ${{ secrets.CURSEFORGE_TOKEN }}
+          TARGET_IDS: ${{ inputs.targets }}
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $PSNativeCommandUseErrorActionPreference = $true
+          [Console]::InputEncoding = [Text.UTF8Encoding]::new($false)
+          [Console]::OutputEncoding = [Text.UTF8Encoding]::new($false)
+          $OutputEncoding = [Text.UTF8Encoding]::new($false)
+          if ($env:GITHUB_REPOSITORY -ne 'kltyton/CommandTranslation') { throw 'Unexpected repository.' }
+          if ($env:GITHUB_RUN_ATTEMPT -ne '1') { throw 'Resolve the previous receipt before submitting a new run.' }
+          if ([string]::IsNullOrWhiteSpace($env:CURSEFORGE_TOKEN)) { throw 'Missing upload token.' }
+          $targets = @($env:TARGET_IDS.Split(',') | ForEach-Object { $_.Trim() })
+          if ($targets.Count -eq 0 -or @($targets | Sort-Object -Unique).Count -ne $targets.Count) { throw 'Provide unique target IDs.' }
+          foreach ($target in $targets) {
+            if ($target -notmatch '^(fabric|forge|neoforge)-[0-9]+\.[0-9]+(?:\.[0-9]+)?$') { throw 'Invalid target ID.' }
+          }
+          $work = Join-Path $env:RUNNER_TEMP 'curseforge-v0.3.0'
+          $receiptDirectory = Join-Path $env:RUNNER_TEMP 'curseforge-receipt'
+          [IO.Directory]::CreateDirectory($work) | Out-Null
+          [IO.Directory]::CreateDirectory($receiptDirectory) | Out-Null
+          $receipt = Join-Path $receiptDirectory 'v0.3.0.json'
+          $state = [ordered]@{projectId=1753629;version='0.3.0';runId=$env:GITHUB_RUN_ID;files=@();pending=$null;error=$null}
+          function Save-Receipt { $state | ConvertTo-Json -Depth 10 | Set-Content -LiteralPath $receipt -Encoding utf8 }
+          Save-Receipt
+          $handler = [Net.Http.HttpClientHandler]::new()
+          $handler.AllowAutoRedirect = $false
+          $client = [Net.Http.HttpClient]::new($handler)
+          $client.Timeout = [TimeSpan]::FromMinutes(3)
+          $client.DefaultRequestHeaders.Add('X-Api-Token', $env:CURSEFORGE_TOKEN)
+          $client.DefaultRequestHeaders.UserAgent.ParseAdd('CommandTranslation/0.3.0 (+https://github.com/kltyton/CommandTranslation)')
+          try {
+            $release = (& gh release view v0.3.0 --repo $env:GITHUB_REPOSITORY --json assets,body,isDraft,targetCommitish) | ConvertFrom-Json
+            if ($release.isDraft) { throw 'Expected the existing public release.' }
+            foreach ($target in $targets) {
+              $filename = "command_translation-$target-0.3.0.jar"
+              if (@($release.assets | Where-Object name -eq $filename).Count -ne 1) { throw "Missing release asset: $target" }
+            }
+            foreach ($target in $targets) {
+              $filename = "command_translation-$target-0.3.0.jar"
+              & gh release download v0.3.0 --repo $env:GITHUB_REPOSITORY --pattern $filename --dir $work
+              $encoded = & gh api "repos/$env:GITHUB_REPOSITORY/contents/targets/$target/gradle.properties?ref=main" --jq .content
+              $text = [Text.Encoding]::UTF8.GetString([Convert]::FromBase64String(($encoded -join '')))
+              $properties = @{}
+              foreach ($line in ($text -split '\r?\n')) {
+                if ($line -match '^([^#!\s][^=]*)=(.*)$') { $properties[$Matches[1]] = $Matches[2] }
+              }
+              if ("$($properties.loader)-$($properties.minecraft_version)" -ne $target) { throw 'Target metadata identity changed.' }
+              $loader = switch ($properties.loader) { 'fabric' {'Fabric'} 'forge' {'Forge'} 'neoforge' {'NeoForge'} default {throw 'Unknown loader.'} }
+              $runtime = if ($properties.runtime_java_version) { $properties.runtime_java_version } else { $properties.java_version }
+              $relations = @(@{projectID='813557';slug='nbt-autocomplete';type='embeddedLibrary'})
+              if ($properties.loader -eq 'fabric') { $relations += @{projectID='306612';slug='fabric-api';type='requiredDependency'} }
+              $metadata = @{
+                displayName="Command Translation 0.3.0 - $loader $($properties.minecraft_version)"
+                changelog=$release.body;changelogType='markdown';releaseType='release';isMarkedForManualRelease=$false
+                gameVersionNames=@($properties.minecraft_version,$loader,'Client',"Java $runtime")
+                relations=@{projects=$relations}
+              }
+              $state.pending = @{target=$target;filename=$filename;metadata=$metadata;started=[DateTimeOffset]::UtcNow.ToString('o')}
+              Save-Receipt
+              $body = [Net.Http.MultipartFormDataContent]::new()
+              try {
+                $body.Add([Net.Http.StringContent]::new(($metadata | ConvertTo-Json -Depth 8 -Compress),[Text.Encoding]::UTF8,'application/json'),'metadata')
+                $binary = [Net.Http.StreamContent]::new([IO.File]::OpenRead((Join-Path $work $filename)))
+                $binary.Headers.ContentType = [Net.Http.Headers.MediaTypeHeaderValue]::new('application/octet-stream')
+                $body.Add($binary,'file',$filename)
+                $response = $client.PostAsync('https://www.curseforge.com/api/projects/1753629/upload-file',$body).GetAwaiter().GetResult()
+                try {
+                  $status = [int]$response.StatusCode
+                  $responseText = $response.Content.ReadAsStringAsync().GetAwaiter().GetResult()
+                  $payload = if ($response.Content.Headers.ContentType.MediaType -eq 'application/json') { $responseText | ConvertFrom-Json } else { $null }
+                  if ($status -ge 200 -and $status -lt 300 -and $payload.id -gt 0) {
+                    $state.files += @{target=$target;id=[long]$payload.id;filename=$filename;status='SUBMITTED';metadata=$metadata}
+                    $state.pending = $null
+                    Save-Receipt
+                    Write-Output "SUBMITTED $target $($payload.id)"
+                  } else {
+                    if ($status -ge 400 -and $status -lt 500) { $state.pending = $null }
+                    $mitigated = if ($response.Headers.Contains('cf-mitigated')) { $response.Headers.GetValues('cf-mitigated') -join ',' } else { '' }
+                    throw "Upload rejected for $target : HTTP $status; mitigation=$mitigated"
+                  }
+                } finally { $response.Dispose() }
+              } finally { $body.Dispose() }
+            }
+          } catch {
+            $state.error = $_.Exception.Message.Replace($env:CURSEFORGE_TOKEN,'[redacted]')
+            throw $state.error
+          } finally {
+            Save-Receipt
+            $client.Dispose()
+          }
+      - name: Preserve submission receipts
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: curseforge-v0.3.0-${{ github.run_id }}
+          path: ${{ runner.temp }}/curseforge-receipt/v0.3.0.json
+          retention-days: 7
+          if-no-files-found: ignore
