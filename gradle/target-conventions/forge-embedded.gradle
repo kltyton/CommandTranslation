@@ -25,7 +25,7 @@ def prepared = tasks.register('prepareEmbeddedMods') {
         }
         Files.createDirectories(root)
         def metadataFile = new File(tasks.named('processResources', ProcessResources).get().destinationDir, 'META-INF/mods.toml')
-        def metadata = new TomlParser().parse(metadataFile)
+        def metadata = metadataFile.withReader('UTF-8') { reader -> new TomlParser().parse(reader) }
         def services = [:].withDefault { new LinkedHashSet<String>() }
         def mixins = new LinkedHashSet<String>(["${mod_id}.mixins.json".toString(), "${mod_id}.nbt.mixins.json".toString()])
         configurations.legacyEmbedded.resolvedConfiguration.resolvedArtifacts.sort { it.moduleVersion.id.toString() }.each { artifact ->
@@ -51,7 +51,7 @@ def prepared = tasks.register('prepareEmbeddedMods') {
                             if (jarVersion == null) { throw new GradleException("Missing embedded version: ${artifact.file}") }
                             text = text.replace('${file.jarVersion}', jarVersion)
                         }
-                        def embedded = new TomlParser().parse(text)
+                        def embedded = new TomlParser().parse(new StringReader(text))
                         if (embedded.get('modLoader') != metadata.get('modLoader')) {
                             throw new GradleException("Incompatible embedded mod loader: ${artifact.file}")
                         }
