@@ -1,3 +1,4 @@
+loom.silentMojangMappingsLicense()
 apply from: file('../../gradle/target-conventions/base.gradle')
 
 def mixinExtrasCommon = 'io.github.llamalad7:mixinextras-common:0.4.1'
@@ -12,7 +13,6 @@ dependencies {
 }
 
 loom {
-    silentMojangMappingsLicense()
     forge {
         mixinConfigs "${mod_id}.mixins.json", "${mod_id}.nbt.mixins.json"
     }
