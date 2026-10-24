@@ -83,8 +83,8 @@ jobs:
                 if (!$versionIds.ContainsKey($_) -or [int]$versionIds[$_] -le 0) { throw "Missing CurseForge version ID: $_" }
                 [int]$versionIds[$_]
               }
-              $relations = @(@{projectID='813557';slug='nbt-autocomplete';type='embeddedLibrary'})
-              if ($properties.loader -eq 'fabric') { $relations += @{projectID='306612';slug='fabric-api';type='requiredDependency'} }
+              $relations = @(@{projectID=813557;slug='nbt-autocomplete';type='embeddedLibrary'})
+              if ($properties.loader -eq 'fabric') { $relations += @{projectID=306612;slug='fabric-api';type='requiredDependency'} }
               $metadata = @{
                 displayName="Command Translation 0.3.0 - $loader $($properties.minecraft_version)"
                 changelog=$release.body;changelogType='markdown';releaseType='release';isMarkedForManualRelease=$false
