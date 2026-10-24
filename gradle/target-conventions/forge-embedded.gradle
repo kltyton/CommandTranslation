@@ -82,7 +82,7 @@ def prepared = tasks.register('prepareEmbeddedMods') {
                     Files.createDirectories(target.parent)
                     Files.write(target, bytes)
                 }
-                def nbtConfiguration = "mixins.${nbtac_mod_id}.json"
+                String nbtConfiguration = "mixins.${nbtac_mod_id}.json"
                 if (zip.getEntry(nbtConfiguration) != null) { mixins.add(nbtConfiguration) }
             }
         }
